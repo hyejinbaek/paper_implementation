@@ -37,7 +37,9 @@ def preprocessing(x_trnval, x_tst, y_trnval, y_tst, missing_rate, seed):
     x_trnval = scaler_x.fit_transform(x_trnval)
     x_tst = scaler_x.transform(x_tst)
     
+    # np.unique() : 배열(리스트, numpy array 등) 자료만 input으로, 1차원 shape으로 변환하고 정렬을 진행한 결과 반환
     if len(np.unique(y_trnval)) > 2:
+        # One-Hot Encoding : n개의 범주형 데이터를 n개의 비트(0,1) 벡터로 표현, 서로 다른 범주 데이터는 독립적인 관계라는 것을 나타낼 수 있음
         enc = OneHotEncoder(sparse=False)
         y_trnval = enc.fit_transform(y_trnval.reshape(-1,1))
         y_tst = enc.fit_transform(y_tst.reshape(-1,1))
