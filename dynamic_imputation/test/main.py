@@ -40,6 +40,7 @@ def main(args):
     else:
         dim_y = 1
     
+    # format 함수 : '{인덱스0}, {인덱스1}'.format(값0, 값1)
     save_path = ('./{0}_{1}_{2}_model'.format(seed, dataset, missing_rate))
     
     print('start:::::::','seed:', seed, 'dataset:', dataset, 'missing_rate:',missing_rate)
