@@ -1,5 +1,5 @@
 # coding: utf-8
-
+# tensorflow v2.7
 
 import tensorflow as tf
 import numpy as np
@@ -7,7 +7,9 @@ from sklearn.experimental import enable_iterative_imputer
 from sklearn.impute import IterativeImputer
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, roc_auc_score
-
+# tensorflow v2.x
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 
 class Dynamic_imputation_nn():
     
@@ -22,13 +24,23 @@ class Dynamic_imputation_nn():
         self.max_epochs = max_epochs
         self.seed = seed
         
-        tf.reset_default_graph()
+    
+        # tensorflow v1.x : tf.reset_default_graph()
+        # tensorflow v2.x : tf.compat.v1.reset_default_graph()
+        # reset_default_graph() : 매번 모델링을 할 때마다 동일한 결과를 얻으려면 실행해야함.
+        tf.compat.v1.reset_default_graph()
         self.G = tf.Graph()
+        # as_default() : 기본 그래프로 지정
         self.G.as_default()
         
-        self.x = tf.placeholder(tf.float32, shape=(None, dim_x))
-        self.y = tf.placeholder(tf.float32, shape=(None, dim_y))
-        
+        # tensorflow v1.x
+        #self.x = tf.placeholder(tf.float32, shape=(None, dim_x))
+        #self.y = tf.placeholder(tf.float32, shape=(None, dim_y))
+        # tensorflow v2.x
+        tf.compat.v1.disable_eager_execution()
+        self.x = tf.compat.v1.placeholder(tf.float32, shape=(None, dim_x))
+        self.y = tf.compat.v1.placeholder(tf.float32, shape=(None, dim_y))
+
         self.logits, self.pred = self.prediction(self.x)
         
         self.sess = tf.Session()
@@ -50,6 +62,7 @@ class Dynamic_imputation_nn():
                 pred = tf.nn.softmax(logits)
                 
         return logits, pred
+    
     
     
     def train_with_dynamic_imputation(self, x_trnval, y_trnval, save_path, num_mi, m, tau, early_stopping=True):
