@@ -38,7 +38,7 @@ class Dynamic_imputation_nn():
         #self.y = tf.placeholder(tf.float32, shape=(None, dim_y))
         # tensorflow v2.x
         tf.compat.v1.disable_eager_execution() # tf 2버전에서 활성화 필요
-        # tf.compat.v1.placeholder() : 처음 변수 선언할 때 값을 바로 주는 것이 아닌 나중에 값을 던져주는 공간을 만들어주는 것
+        # tf.compat.v1.placeholder() : 처음 변수 선언할 때 값을 바로 주는 것이 아닌 나중에 값을 던져주는 공간을 만들어주는 것임
         self.x = tf.compat.v1.placeholder(tf.float32, shape=(None, dim_x))
         self.y = tf.compat.v1.placeholder(tf.float32, shape=(None, dim_y))
 
