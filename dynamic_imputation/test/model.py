@@ -47,6 +47,7 @@ class Dynamic_imputation_nn():
         self.sess = tf.Session()
         self.saver = tf.train.Saver()
         
+        # skleanr -> IterativeImputer(회귀 대치)
         self.imputer = IterativeImputer(sample_posterior=True, random_state = self.seed)
         
         
