@@ -79,6 +79,8 @@ class Dynamic_imputation_nn():
         n_batch = int(len(x_trn)/self.batch_size)
         
         if self.dim_y == 1:
+            # sigmoid_cross_entropy_with_logits : 손실함수
+            # reduce_mean : 텐서플로우 차원을 줄이면서 연산하는 함수로, 특정 차원을 제거하고 평균을 구한다.
             cost = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(labels = self.y, logits = self.logits))
         elif self.dim_y > 2:
             cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels = self.y, logits = self.logits))
