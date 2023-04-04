@@ -1,4 +1,5 @@
 # coding: utf-8
+# tensorflow version : 2.12.0
 
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
