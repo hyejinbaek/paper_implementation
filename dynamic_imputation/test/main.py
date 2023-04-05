@@ -1,6 +1,6 @@
 # coding: utf-8
 # tensorflow version : 2.12.0
-
+# 실행 명령어 : python main.py --seed 0 --dataset avila --missing_rate 30 --num_mi 5 --m 10 --tau 0.05
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
