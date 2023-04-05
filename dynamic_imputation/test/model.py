@@ -146,6 +146,7 @@ class Dynamic_imputation_nn():
     def get_accuracy(self, x_tst, y_tst):
                 
         if self.dim_y == 1:
+            # tf.cast : 텐서를 새로운 형태로 캐스팅 하는 데 사용
             pred_Y = tf.cast(self.pred > 0.5, tf.float32)
             correct_prediction = tf.equal(pred_Y, self.y)
             accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
@@ -154,6 +155,7 @@ class Dynamic_imputation_nn():
                     
         else:
             y_tst_hat = self.sess.run(self.pred, feed_dict={self.x: x_tst})
+            # np.argmax : 함수 내에 array와 비슷한 형태(리스트 등)의 input을 넣어주면 가장 큰 원소의 인덱스 반환
             y_tst_hat = np.argmax(y_tst_hat, axis=1)
         
             acc = accuracy_score(np.argmax(y_tst, axis=1), y_tst_hat)
