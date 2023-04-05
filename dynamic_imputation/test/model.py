@@ -129,6 +129,7 @@ class Dynamic_imputation_nn():
                 missing_mask = np.isnan(x_trn).astype(int)
                 missing_num = np.sum(missing_mask)
                 
+                # np.where : 조건을 만족하는 위치의 인덱스를 가져옴
                 missing_idx = np.where(missing_mask == 1)
                 element_wise_missing_idx_list = [[missing_idx[0][i], missing_idx[1][i]] for i in range(missing_num)]
                 
