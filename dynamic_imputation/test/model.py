@@ -86,6 +86,7 @@ class Dynamic_imputation_nn():
         elif self.dim_y > 2: 
             cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels = self.y, logits = self.logits))
             
+        # Optimizer : 손실 함수를 통해 얻은 손실값으로 모델을 업데이트하는 방식
         train_op = tf.train.AdamOptimizer(learning_rate = self.lr).minimize(cost)
         
         self.sess.run(tf.global_variables_initializer())
