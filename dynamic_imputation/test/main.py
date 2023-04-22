@@ -28,7 +28,9 @@ def main(args):
         random_sampled_idx = np.random.choice(len(data), 10000, replace=False)
         data = data[random_sampled_idx]
     
+    # x = data[:,:-1] : 모든 열에서 마지막 열을 제외한 값을 가져옴
     x = data[:,:-1]
+    # y = data[:,-1] : 모든 행에서 마지막 열만 가져옴
     y = data[:,-1]
     
     x_trnval_o, x_tst_o, y_trnval_o, y_tst_o = train_test_split(x, y, random_state = seed, stratify = y, test_size = 0.5)
@@ -57,7 +59,7 @@ def main(args):
 
 if __name__ == '__main__':
 
-
+    # $ python main.py --seed 0 --dataset avila --missing_rate 30 --num_mi 5 --m 10 --tau 0.05
     arg_parser = argparse.ArgumentParser(description='Dynamic imputation')
     
     arg_parser.add_argument('--seed', help='Random seed', default=27407, type= int)
