@@ -1,12 +1,13 @@
 # 데이터셋 변경하여 진행(breast-cancer-wisconsin.data)
 # tensorflow version : 2.12.0
-# 실행 명령어 : python dynamic_imputation_main.py --seed 0 --dataset avila --missing_rate 30 --num_mi 5 --m 10 --tau 0.05
+# 실행 명령어 : python dynamic_imputation_main.py --seed 0 --missing_rate 30 --num_mi 5 --m 10 --tau 0.05
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
 from dynamic_imputation_model import Dynamic_imputation_nn
 from dynamic_imputation_preprocessing import preprocessing
 from sklearn.model_selection import train_test_split
+from sklearn.model_selection import KFold
 import tensorflow as tf
 import numpy as np
 import pandas as pd
@@ -41,28 +42,50 @@ def main(args):
     x = data[:,:-1]
     y = data[:,-1]
     
-    x_trnval_o, x_tst_o, y_trnval_o, y_tst_o = train_test_split(x, y, random_state = seed, stratify = y, test_size = 0.5)
-    x_trnval, x_tst, y_trnval, y_tst = preprocessing(x_trnval_o, x_tst_o, y_trnval_o, y_tst_o, missing_rate, seed)
+    # 교차 검증 코드 추가
+    #n_splits = args.n_splits
+    kf = KFold(n_splits=5, shuffle=True, random_state=seed)
+
+    acc, auroc = [], []
+    for train_index, test_index in kf.split(x):
+        x_trnval_o, x_tst_o = x[train_index], x[test_index]
+        y_trnval_o, y_tst_o = y[train_index], y[test_index]
+
+        x_trnval, x_tst, y_trnval, y_tst = preprocessing(x_trnval_o, x_tst_o, y_trnval_o, y_tst_o, missing_rate, seed)
+
+        dim_x = x_trnval.shape[1]
+
+        if y_trnval.shape[1] > 2:
+            dim_y = y_trnval.shape[1]
+        else:
+            dim_y = 1
+        save_path = ('./{0}_{1}_model'.format(seed, missing_rate))
+        model = Dynamic_imputation_nn(dim_x, dim_y, seed)
+        model.train_with_dynamic_imputation(x_trnval, y_trnval, save_path, **hyperparameters)
+        acc = model.get_accuracy(x_tst, y_tst)
+        auroc = model.get_auroc(x_tst, y_tst)
+    # x_trnval_o, x_tst_o, y_trnval_o, y_tst_o = train_test_split(x, y, random_state = seed, stratify = y, test_size = 0.5)
+    # x_trnval, x_tst, y_trnval, y_tst = preprocessing(x_trnval_o, x_tst_o, y_trnval_o, y_tst_o, missing_rate, seed)
     
-    dim_x = x_trnval.shape[1]
+    # dim_x = x_trnval.shape[1]
     
-    if y_trnval.shape[1] > 2:
-        dim_y = y_trnval.shape[1]
-    else:
-        dim_y = 1
+    # if y_trnval.shape[1] > 2:
+    #     dim_y = y_trnval.shape[1]
+    # else:
+    #     dim_y = 1
     
-    # format 함수 : '{인덱스0}, {인덱스1}'.format(값0, 값1)
-    #save_path = ('./{0}_{1}_{2}_model'.format(seed, dataset, missing_rate))
-    save_path = ('./{0}_{1}_model'.format(seed, missing_rate))
+    # # format 함수 : '{인덱스0}, {인덱스1}'.format(값0, 값1)
+    # #save_path = ('./{0}_{1}_{2}_model'.format(seed, dataset, missing_rate))
+    # save_path = ('./{0}_{1}_model'.format(seed, missing_rate))
     
-    #print('start:::::::','seed:', seed, 'dataset:', dataset, 'missing_rate:',missing_rate)
-    print('start:::::::','seed:', seed, 'dataset:', 'missing_rate:',missing_rate)
+    # #print('start:::::::','seed:', seed, 'dataset:', dataset, 'missing_rate:',missing_rate)
+    # print('start:::::::','seed:', seed, 'dataset:', 'missing_rate:',missing_rate)
     
-    model = Dynamic_imputation_nn(dim_x, dim_y, seed)
-    model.train_with_dynamic_imputation(x_trnval, y_trnval, save_path, **hyperparameters)
+    # model = Dynamic_imputation_nn(dim_x, dim_y, seed)
+    # model.train_with_dynamic_imputation(x_trnval, y_trnval, save_path, **hyperparameters)
     
-    acc = model.get_accuracy(x_tst, y_tst)
-    auroc = model.get_auroc(x_tst, y_tst)
+    # acc = model.get_accuracy(x_tst, y_tst)
+    # auroc = model.get_auroc(x_tst, y_tst)
 
     #print('seed:', seed, 'dataset:', dataset, 'missing_rate:',missing_rate, 'accuracy:', acc, 'auroc:', auroc)
     print('seed:', seed, 'dataset:', 'missing_rate:',missing_rate, 'accuracy:', acc, 'auroc:', auroc)
