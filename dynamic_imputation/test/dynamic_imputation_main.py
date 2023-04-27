@@ -3,7 +3,8 @@
 # 실행 명령어 : python dynamic_imputation_main.py --seed 0 --missing_rate 30 --num_mi 5 --m 10 --tau 0.05
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
-
+import warnings
+warnings.filterwarnings("ignore", category=DeprecationWarning) 
 from dynamic_imputation_model import Dynamic_imputation_nn
 from dynamic_imputation_preprocessing import preprocessing
 from sklearn.model_selection import train_test_split
@@ -45,6 +46,7 @@ def main(args):
     # 교차 검증 코드 추가
     #n_splits = args.n_splits
     kf = KFold(n_splits=5, shuffle=True, random_state=seed)
+    print("==== kf ======", kf)
 
     acc, auroc = [], []
     for train_index, test_index in kf.split(x):
@@ -63,7 +65,7 @@ def main(args):
         model = Dynamic_imputation_nn(dim_x, dim_y, seed)
         model.train_with_dynamic_imputation(x_trnval, y_trnval, save_path, **hyperparameters)
         acc = model.get_accuracy(x_tst, y_tst)
-        auroc = model.get_auroc(x_tst, y_tst)
+        #auroc = model.get_auroc(x_tst, y_tst)
     # x_trnval_o, x_tst_o, y_trnval_o, y_tst_o = train_test_split(x, y, random_state = seed, stratify = y, test_size = 0.5)
     # x_trnval, x_tst, y_trnval, y_tst = preprocessing(x_trnval_o, x_tst_o, y_trnval_o, y_tst_o, missing_rate, seed)
     
@@ -88,7 +90,8 @@ def main(args):
     # auroc = model.get_auroc(x_tst, y_tst)
 
     #print('seed:', seed, 'dataset:', dataset, 'missing_rate:',missing_rate, 'accuracy:', acc, 'auroc:', auroc)
-    print('seed:', seed, 'dataset:', 'missing_rate:',missing_rate, 'accuracy:', acc, 'auroc:', auroc)
+    #print('seed:', seed, 'dataset:', 'missing_rate:',missing_rate, 'accuracy:', acc, 'auroc:', auroc)
+    print("total accuracy === : ", acc)
 
 
 if __name__ == '__main__':
