@@ -125,7 +125,7 @@ class Dynamic_imputation_nn():
     
             #imputation stopping rule
             if epoch >= m-1:
-                
+                print(" === stopping ===")
                 missing_mask = np.isnan(x_trn).astype(int)
                 missing_num = np.sum(missing_mask)
                 
@@ -166,11 +166,13 @@ class Dynamic_imputation_nn():
     def get_auroc(self, x_tst, y_tst):
         
         y_tst_hat = self.sess.run(self.pred, feed_dict={self.x: x_tst})
-        
+        print(" === y_tst_hat ===", y_tst_hat)
         if self.dim_y == 1:
+            print("==== 1 =====")
             auroc = roc_auc_score(y_tst, y_tst_hat)
             
         else:
+            print("==== 2 =====")
             auroc = roc_auc_score(y_tst, y_tst_hat, average = 'macro', multi_class = 'ovr')
             
         return auroc

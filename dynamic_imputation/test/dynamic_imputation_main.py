@@ -66,31 +66,7 @@ def main(args):
         model.train_with_dynamic_imputation(x_trnval, y_trnval, save_path, **hyperparameters)
         acc = model.get_accuracy(x_tst, y_tst)
         #auroc = model.get_auroc(x_tst, y_tst)
-    # x_trnval_o, x_tst_o, y_trnval_o, y_tst_o = train_test_split(x, y, random_state = seed, stratify = y, test_size = 0.5)
-    # x_trnval, x_tst, y_trnval, y_tst = preprocessing(x_trnval_o, x_tst_o, y_trnval_o, y_tst_o, missing_rate, seed)
-    
-    # dim_x = x_trnval.shape[1]
-    
-    # if y_trnval.shape[1] > 2:
-    #     dim_y = y_trnval.shape[1]
-    # else:
-    #     dim_y = 1
-    
-    # # format 함수 : '{인덱스0}, {인덱스1}'.format(값0, 값1)
-    # #save_path = ('./{0}_{1}_{2}_model'.format(seed, dataset, missing_rate))
-    # save_path = ('./{0}_{1}_model'.format(seed, missing_rate))
-    
-    # #print('start:::::::','seed:', seed, 'dataset:', dataset, 'missing_rate:',missing_rate)
-    # print('start:::::::','seed:', seed, 'dataset:', 'missing_rate:',missing_rate)
-    
-    # model = Dynamic_imputation_nn(dim_x, dim_y, seed)
-    # model.train_with_dynamic_imputation(x_trnval, y_trnval, save_path, **hyperparameters)
-    
-    # acc = model.get_accuracy(x_tst, y_tst)
-    # auroc = model.get_auroc(x_tst, y_tst)
-
-    #print('seed:', seed, 'dataset:', dataset, 'missing_rate:',missing_rate, 'accuracy:', acc, 'auroc:', auroc)
-    #print('seed:', seed, 'dataset:', 'missing_rate:',missing_rate, 'accuracy:', acc, 'auroc:', auroc)
+ 
     print("total accuracy === : ", acc)
 
 
