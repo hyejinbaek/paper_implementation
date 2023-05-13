@@ -16,12 +16,11 @@ train_col = ['Clump Thickness', 'Uniformity of Cell Size', 'Uniformity of Cell S
              'Single Epithelial Cell Size','Bare Nuclei', 'Bland Chromatin', 'Normal Nucleoli', 'Mitoses']
 df_data['Bare Nuclei'] = df_data['Bare Nuclei'].replace('?',0).astype(int)
 df_data['Class'] = df_data['Class'].replace({2:0, 4:1})
-#print(df_data)
+data = df_data[train_col].values
 
+x = data[:,:-1]
+y = data[:,-1]
 
-
-def model():
-    print()
 
 
 def deletion_preprocessing():
