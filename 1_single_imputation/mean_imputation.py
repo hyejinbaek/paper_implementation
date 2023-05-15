@@ -1,5 +1,5 @@
 # tensorflow version : 2.9.1
-# deletion imputation
+# mean imputation
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 import tensorflow as tf
@@ -47,7 +47,7 @@ def cross_valid(
 def set_missing_value(df: pd.DataFrame) -> Tuple[np.array]:
     train_col = ['Clump Thickness', 'Uniformity of Cell Size', 'Uniformity of Cell Shape', 'Marginal Adhesion ',
              'Single Epithelial Cell Size','Bare Nuclei', 'Bland Chromatin', 'Normal Nucleoli', 'Mitoses']
-    missing_length = 0.2
+    missing_length = 0.8
 
     df = df.copy()
     for col in train_col:
