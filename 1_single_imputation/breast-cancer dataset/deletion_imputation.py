@@ -31,21 +31,23 @@ def create_model():
 # define train code
 def cross_valid(
     X: np.array, y: np.array,
-    cv=KFold(n_splits=5, shuffle=True, random_state=42),
-    scoring=['accuracy', 'f1', 'recall', 'precision'],
-    **kwargs,
+    scoring=['accuracy'],
+    **kwargs
 ):
+    #model = create_model()
     model_obj = tf.keras.wrappers.scikit_learn.KerasClassifier(build_fn=create_model, epochs=10, batch_size=32)  # 모델 객체 생성
-    cv_result = cross_validate(model_obj, X, y, cv=cv, scoring=scoring, **kwargs)
+    x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
+    model_obj.fit(x_train, y_train)
+    cv_result = cross_validate(model_obj, x_test, y_test, cv=10, scoring=scoring, **kwargs)
     print("====== cv_result ======", cv_result)
     for score_name in cv_result:
         if 'test' in score_name:
             test_score_mean, test_score_std = np.mean(cv_result[score_name]), np.std(cv_result[score_name])
             print(f'{score_name}: {test_score_mean:.4f} ± {test_score_std:.4f}')
-
+            
 def set_missing_value(df: pd.DataFrame) -> Tuple[np.array]:
 
-    missing_length = 0.4
+    missing_length = 0.2
 
     # Create a mask for the NaN values
     nan_mask = np.random.rand(df.shape[0], df.shape[1]) < missing_length
