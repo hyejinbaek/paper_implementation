@@ -36,9 +36,13 @@ def cross_valid(
     **kwargs
 ):
     #model = create_model()
-    model_obj = tf.keras.wrappers.scikit_learn.KerasClassifier(build_fn=create_model, epochs=10, batch_size=32)  # 모델 객체 생성
+    model_obj = tf.keras.wrappers.scikit_learn.KerasClassifier(
+        build_fn=create_model, 
+        epochs=10, 
+        batch_size=32
+    )  # 모델 객체 생성
     x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
-    model_obj.fit(x_train, y_train)
+    model_obj.fit(x_train, y_train)  
     cv_result = cross_validate(model_obj, x_test, y_test, cv=10, scoring=scoring, **kwargs)
     print("====== cv_result ======", cv_result)
     for score_name in cv_result:
