@@ -62,7 +62,7 @@ def cross_valid(
 
 def set_missing_value(df: pd.DataFrame) -> Tuple[np.array]:
     train_col = [
-        "age", "sex", "cp", "trestbps", "chol", "fbs", "restecg", "thalach",
+        "age",'sex', "cp", "trestbps", "chol", "fbs", "restecg", "thalach",
         "exang", "oldpeak", "slope", "ca", "thal"
     ]
     missing_length = 0.4
