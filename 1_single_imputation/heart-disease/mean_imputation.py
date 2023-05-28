@@ -15,6 +15,7 @@ url = "https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/p
 df_data = pd.read_csv(url, header=None)
 
 #데이터 프레임에 열 이름 추가
+# sex, fbs, exang
 column_names = [
         "age", "sex", "cp", "trestbps", "chol", "fbs", "restecg", "thalach",
         "exang", "oldpeak", "slope", "ca", "thal", "target"
@@ -48,9 +49,9 @@ def cross_valid(
         epochs=10, 
         batch_size=32
     )  # 모델 객체 생성
-    x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
-    model_obj.fit(x_train, y_train)  
-    cv_result = cross_validate(model_obj, x_test, y_test, cv=10, scoring=scoring, **kwargs)
+    #x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
+    #model_obj.fit(x_train, y_train)  
+    cv_result = cross_validate(model_obj, X, y, cv=5, scoring=scoring, **kwargs)
     print("====== cv_result ======", cv_result)
     for score_name in cv_result:
         if 'test' in score_name:
@@ -60,14 +61,20 @@ def cross_valid(
 
 
 
+
 def set_missing_value(df: pd.DataFrame) -> Tuple[np.array]:
+    # train_col = [
+    #     "age", "sex", "cp", "trestbps", "chol", "fbs", "restecg", "thalach",
+    #     "exang", "oldpeak", "slope", "ca", "thal"
+    # ]
     train_col = [
-        "age", "sex", "cp", "trestbps", "chol", "fbs", "restecg", "thalach",
-        "exang", "oldpeak", "slope", "ca", "thal"
+        "age", "cp", "trestbps", "chol",  "restecg", "thalach",
+        "oldpeak", "slope", "ca", "thal"
     ]
-    missing_length = 0.4
+    missing_length = 0.2
 
     df = df.copy()
+    print("=== original df ===", df)
     for col in train_col:
         nan_mask = np.random.rand(df.shape[0]) < missing_length
         df.loc[nan_mask, col] = np.nan
@@ -75,7 +82,9 @@ def set_missing_value(df: pd.DataFrame) -> Tuple[np.array]:
     df = df.fillna(df.mean())
     print("=====df fill na ====", df)
     X = df[train_col].to_numpy()
+    print("==== X ===", X)
     y = df['target'].to_numpy()
+    print("==== y ====", y)
     return X, y
 
 

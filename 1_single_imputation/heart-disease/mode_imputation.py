@@ -48,9 +48,9 @@ def cross_valid(
         epochs=10, 
         batch_size=32
     )  # 모델 객체 생성
-    x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
-    model_obj.fit(x_train, y_train)  
-    cv_result = cross_validate(model_obj, x_test, y_test, cv=10, scoring=scoring, **kwargs)
+    #x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
+    #model_obj.fit(x_train, y_train)  
+    cv_result = cross_validate(model_obj, X, y, cv=5, scoring=scoring, **kwargs)
     print("====== cv_result ======", cv_result)
     for score_name in cv_result:
         if 'test' in score_name:
@@ -61,9 +61,13 @@ def cross_valid(
 
 
 def set_missing_value(df: pd.DataFrame) -> Tuple[np.array]:
+    # train_col = [
+    #     "age",'sex', "cp", "trestbps", "chol", "fbs", "restecg", "thalach",
+    #     "exang", "oldpeak", "slope", "ca", "thal"
+    # ]
     train_col = [
-        "age",'sex', "cp", "trestbps", "chol", "fbs", "restecg", "thalach",
-        "exang", "oldpeak", "slope", "ca", "thal"
+        "age", "cp", "trestbps", "chol",  "restecg", "thalach",
+        "oldpeak", "slope", "ca", "thal"
     ]
     missing_length = 0.4
 
@@ -72,8 +76,9 @@ def set_missing_value(df: pd.DataFrame) -> Tuple[np.array]:
         nan_mask = np.random.rand(df.shape[0]) < missing_length
         df.loc[nan_mask, col] = np.nan
     print("===== df nan =====", df)
-    df = df.fillna(df.mean())
-    print("=====df fill na ====", df)
+    
+    # df[train_col].mode().iloc[0]은 각 열의 최빈값을 구한 뒤, 첫 번째 값을 사용하여 결측값을 대체
+    df[train_col] = df[train_col].fillna(df[train_col].mode().iloc[0])
     X = df[train_col].to_numpy()
     y = df['target'].to_numpy()
     return X, y
