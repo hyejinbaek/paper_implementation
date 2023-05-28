@@ -39,14 +39,15 @@ def cross_valid(
         epochs=10, 
         batch_size=32
     )  # 모델 객체 생성
-    x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
-    model_obj.fit(x_train, y_train)  
-    cv_result = cross_validate(model_obj, x_test, y_test, cv=10, scoring=scoring, **kwargs)
+    #x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
+    #model_obj.fit(x_train, y_train)  
+    cv_result = cross_validate(model_obj, X, y, cv=5, scoring=scoring, **kwargs)
     print("====== cv_result ======", cv_result)
     for score_name in cv_result:
         if 'test' in score_name:
             test_score_mean, test_score_std = np.mean(cv_result[score_name]), np.std(cv_result[score_name])
             print(f'{score_name}: {test_score_mean:.4f} ± {test_score_std:.4f}')
+
 
 
 def set_missing_value(df: pd.DataFrame) -> Tuple[np.array]:
