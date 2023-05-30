@@ -35,7 +35,7 @@ def cross_valid(X: np.array, y: np.array):
     for i in range(10):
         x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, shuffle=True, random_state=i)
         model = create_model((X.shape[1],))
-        model.fit(x_train, y_train, epochs=10, batch_size=32, verbose=0)
+        model.fit(x_train, y_train, epochs=50, batch_size=32, verbose=0)
         y_pred = (model.predict(x_test) > 0.5).astype(int).flatten()
         acc = accuracy_score(y_test, y_pred)
         print(str(i+1)+"th accuracy === : ", acc)
