@@ -14,7 +14,7 @@ tf.disable_v2_behavior()
 
 class Dynamic_imputation_nn():
     
-    def __init__(self, dim_x, dim_y, seed, num_hidden=50, num_layers=1, lr=1e-3, batch_size=32, max_epochs=500):
+    def __init__(self, dim_x, dim_y, seed, num_hidden=50, num_layers=1, lr=1e-3, batch_size=32, max_epochs=10):
         
         self.dim_x = dim_x
         self.dim_y = dim_y
@@ -60,8 +60,6 @@ class Dynamic_imputation_nn():
             
             if self.dim_y == 1:
                 pred = tf.nn.sigmoid(logits)
-
-                
             
             elif self.dim_y > 2:
                 pred = tf.nn.softmax(logits)
@@ -118,37 +116,37 @@ class Dynamic_imputation_nn():
             val_log[epoch] = val_loss
             print('epoch: %d, val_loss: %f, BEST: %f'%(epoch+1, val_loss, np.min(val_log[:epoch+1])))
             
-            if early_stopping:
-                if np.min(val_log[:epoch+1]) == val_loss:
-                    self.saver.save(self.sess, save_path)
+            # if early_stopping:
+            #     if np.min(val_log[:epoch+1]) == val_loss:
+            #         self.saver.save(self.sess, save_path)
 
-                if epoch > 20 and np.min(val_log[epoch-20:epoch+1]) > np.min(val_log[:epoch-20]):
-                    self.saver.restore(self.sess, save_path)
-                    break
+            #     if epoch > 20 and np.min(val_log[epoch-20:epoch+1]) > np.min(val_log[:epoch-20]):
+            #         self.saver.restore(self.sess, save_path)
+            #         break
     
-            #imputation stopping rule
-            if epoch >= m-1:
+            # #imputation stopping rule
+            # if epoch >= m-1:
                 
-                print("==== stopping ===")
-                missing_mask = np.isnan(x_trn).astype(int)
-                missing_num = np.sum(missing_mask)
+            #     print("==== stopping ===")
+            #     missing_mask = np.isnan(x_trn).astype(int)
+            #     missing_num = np.sum(missing_mask)
                 
-                # np.where : 조건을 만족하는 위치의 인덱스를 가져옴
-                missing_idx = np.where(missing_mask == 1)
-                element_wise_missing_idx_list = [[missing_idx[0][i], missing_idx[1][i]] for i in range(missing_num)]
-                
-                
-                recent_mean = np.mean(imputed_list[epoch-(m-1):], axis=0)
-                recent_var = np.var(imputed_list[epoch-(m-1):] , axis=0, ddof=1)
+            #     # np.where : 조건을 만족하는 위치의 인덱스를 가져옴
+            #     missing_idx = np.where(missing_mask == 1)
+            #     element_wise_missing_idx_list = [[missing_idx[0][i], missing_idx[1][i]] for i in range(missing_num)]
                 
                 
-                for idx in element_wise_missing_idx_list:
-                    if recent_var[idx[0], idx[1]] < tau:
-                        x_trn[idx[0], idx[1]] = recent_mean[idx[0], idx[1]]
+            #     recent_mean = np.mean(imputed_list[epoch-(m-1):], axis=0)
+            #     recent_var = np.var(imputed_list[epoch-(m-1):] , axis=0, ddof=1)
+                
+                
+            #     for idx in element_wise_missing_idx_list:
+            #         if recent_var[idx[0], idx[1]] < tau:
+            #             x_trn[idx[0], idx[1]] = recent_mean[idx[0], idx[1]]
             
         
     def get_accuracy(self, x_tst, y_tst):
-                
+        # ±        
         if self.dim_y == 1:
             # tf.cast : 텐서를 새로운 형태로 캐스팅 하는 데 사용
             pred_Y = tf.cast(self.pred > 0.5, tf.float32)
@@ -161,13 +159,8 @@ class Dynamic_imputation_nn():
             y_tst_hat = self.sess.run(self.pred, feed_dict={self.x: x_tst})
             # np.argmax : 함수 내에 array와 비슷한 형태(리스트 등)의 input을 넣어주면 가장 큰 원소의 인덱스 반환
             y_tst_hat = np.argmax(y_tst_hat, axis=1)
+        
             acc = accuracy_score(np.argmax(y_tst, axis=1), y_tst_hat)
-
-            #acc = accuracy_score(np.argmax(y_tst, axis=1), y_tst_hat)
-        lower_bound = max(0, acc - 1.96 * np.sqrt(acc*(1-acc)/len(y_tst)))
-        upper_bound = min(1, acc + 1.96 * np.sqrt(acc*(1-acc)/len(y_tst)))
-        acc = f"{acc:.4f} ± {abs(acc-upper_bound):.4f}"
-            
         
         return acc
     
@@ -194,14 +187,3 @@ class Dynamic_imputation_nn():
             set[i] = set[i][permid]
         
         return set
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    

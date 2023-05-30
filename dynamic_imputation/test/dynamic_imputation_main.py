@@ -13,7 +13,7 @@ import tensorflow as tf
 import numpy as np
 import pandas as pd
 import argparse
-
+import math
 
 
 def main(args):
@@ -48,10 +48,10 @@ def main(args):
     kf = KFold(n_splits=5, shuffle=True, random_state=seed)
     print("==== kf ======", kf)
 
-    acc, auroc = [], []
-    for train_index, test_index in kf.split(x):
-        x_trnval_o, x_tst_o = x[train_index], x[test_index]
-        y_trnval_o, y_tst_o = y[train_index], y[test_index]
+    acc_list, auroc = [], []
+   
+    for i  in range(10):
+        x_trnval_o, x_tst_o, y_trnval_o, y_tst_o = train_test_split(x, y, test_size = 0.2, shuffle = True, random_state = i)
 
         x_trnval, x_tst, y_trnval, y_tst = preprocessing(x_trnval_o, x_tst_o, y_trnval_o, y_tst_o, missing_rate, seed)
 
@@ -65,9 +65,16 @@ def main(args):
         model = Dynamic_imputation_nn(dim_x, dim_y, seed)
         model.train_with_dynamic_imputation(x_trnval, y_trnval, save_path, **hyperparameters)
         acc = model.get_accuracy(x_tst, y_tst)
+        print("==========================================")
+        print(str(i+1)+"th accuracy === : ", acc)
+        print("==========================================")
         #auroc = model.get_auroc(x_tst, y_tst)
- 
-    print("total accuracy === : ", acc)
+        acc_list.append(acc)
+    print("==========================================")
+    print("mean acc : {}".format(sum(acc_list)/len(acc_list)))
+    print("std acc : {}".format(np.std(acc_list)))
+    print("==========================================")
+    
 
 
 if __name__ == '__main__':
