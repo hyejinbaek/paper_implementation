@@ -1,15 +1,15 @@
-# tensorflow version : 2.9.1
+# tensorflow version: 2.9.1
 # mean imputation
 import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 import tensorflow as tf
 import pandas as pd
 import numpy as np
 import warnings
-warnings.filterwarnings("ignore", category=DeprecationWarning) 
-from sklearn.model_selection import train_test_split, cross_validate
+warnings.filterwarnings("ignore", category=DeprecationWarning)
+from sklearn.model_selection import train_test_split
 from typing import Tuple
-
+from sklearn.metrics import accuracy_score
 
 data_url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/breast-cancer-wisconsin.data'
 df_data = pd.read_csv(data_url)
@@ -20,9 +20,9 @@ train_col = ['Clump Thickness', 'Uniformity of Cell Size', 'Uniformity of Cell S
 df_data['Bare Nuclei'] = df_data['Bare Nuclei'].replace('?',0).astype(int)
 df_data['Class'] = df_data['Class'].replace({2:0, 4:1})
 
-def create_model():
+def create_model(input_shape):
     model = tf.keras.Sequential()
-    model.add(tf.keras.layers.Dense(units=32, activation='tanh', input_shape=(X.shape[1],)))
+    model.add(tf.keras.layers.Dense(units=32, activation='tanh', input_shape=input_shape))
     print(" ==== 1 model ====", model)
     model.add(tf.keras.layers.Dense(units=16, activation='tanh'))
     model.add(tf.keras.layers.Dense(units=1, activation='sigmoid'))
@@ -30,26 +30,18 @@ def create_model():
     return model
 
 # define train code
-def cross_valid(
-    X: np.array, y: np.array,
-    scoring=['accuracy'],
-    **kwargs
-):
-    #model = create_model()
-    model_obj = tf.keras.wrappers.scikit_learn.KerasClassifier(
-        build_fn=create_model, 
-        epochs=10, 
-        batch_size=32
-    )  # 모델 객체 생성
-    #x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
-    #model_obj.fit(x_train, y_train)  
-    cv_result = cross_validate(model_obj, X, y, cv=5, scoring=scoring, **kwargs)
-    print("====== cv_result ======", cv_result)
-    for score_name in cv_result:
-        if 'test' in score_name:
-            test_score_mean, test_score_std = np.mean(cv_result[score_name]), np.std(cv_result[score_name])
-            print(f'{score_name}: {test_score_mean:.4f} ± {test_score_std:.4f}')
-
+def cross_valid(X: np.array, y: np.array):
+    acc_list = []
+    for i in range(10):
+        x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, shuffle=True, random_state=i)
+        model = create_model((X.shape[1],))
+        model.fit(x_train, y_train, epochs=10, batch_size=32, verbose=0)
+        y_pred = (model.predict(x_test) > 0.5).astype(int).flatten()
+        acc = accuracy_score(y_test, y_pred)
+        print(str(i+1)+"th accuracy === : ", acc)
+        acc_list.append(acc)
+    print("mean acc : {}".format(sum(acc_list)/len(acc_list)))
+    print("std acc : {}".format(np.std(acc_list)))
 
 
 def set_missing_value(df: pd.DataFrame) -> Tuple[np.array]:
@@ -66,7 +58,6 @@ def set_missing_value(df: pd.DataFrame) -> Tuple[np.array]:
     X = df[train_col].to_numpy()
     y = df['Class'].to_numpy()
     return X, y
-
 
 if __name__ == '__main__':
     X, y = set_missing_value(df_data)
