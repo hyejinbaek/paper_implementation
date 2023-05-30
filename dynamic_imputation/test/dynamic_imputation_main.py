@@ -43,10 +43,6 @@ def main(args):
     x = data[:,:-1]
     y = data[:,-1]
     
-    # 교차 검증 코드 추가
-    #n_splits = args.n_splits
-    kf = KFold(n_splits=5, shuffle=True, random_state=seed)
-    print("==== kf ======", kf)
 
     acc_list, auroc = [], []
    
