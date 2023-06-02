@@ -20,6 +20,15 @@ train_col = ['Clump Thickness', 'Uniformity of Cell Size', 'Uniformity of Cell S
 df_data['Bare Nuclei'] = df_data['Bare Nuclei'].replace('?',0).astype(int)
 df_data['Class'] = df_data['Class'].replace({2:0, 4:1})
 
+missing_length = 0.2
+
+df = df_data.copy()
+for col in train_col:
+    nan_mask = np.random.rand(df.shape[0]) < missing_length
+    df.loc[nan_mask, col] = np.nan
+
+print(" ==== df ====", df)
+
 def create_model(input_shape):
     model = tf.keras.Sequential()
     model.add(tf.keras.layers.Dense(units=32, activation='tanh', input_shape=input_shape))
@@ -33,6 +42,7 @@ def create_model(input_shape):
 def cross_valid(X: np.array, y: np.array):
     acc_list = []
     for i in range(10):
+        print("========== 2 ============")
         x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, shuffle=True, random_state=i)
         model = create_model((X.shape[1],))
         model.fit(x_train, y_train, epochs=50, batch_size=32, verbose=0)
@@ -40,20 +50,14 @@ def cross_valid(X: np.array, y: np.array):
         acc = accuracy_score(y_test, y_pred)
         print(str(i+1)+"th accuracy === : ", acc)
         acc_list.append(acc)
-    print("mean acc : {}".format(sum(acc_list)/len(acc_list)))
-    print("std acc : {}".format(np.std(acc_list)))
+    # print("mean acc : {}".format(sum(acc_list)/len(acc_list)))
+    # print("std acc : {}".format(np.std(acc_list)))
+    print("=== result : {} ± {}".format(sum(acc_list)/len(acc_list), np.std(acc_list)))
+
 
 
 def set_missing_value(df: pd.DataFrame) -> Tuple[np.array]:
-    train_col = ['Clump Thickness', 'Uniformity of Cell Size', 'Uniformity of Cell Shape', 'Marginal Adhesion ',
-             'Single Epithelial Cell Size','Bare Nuclei', 'Bland Chromatin', 'Normal Nucleoli', 'Mitoses']
-    missing_length = 0.2
-
-    df = df.copy()
-    for col in train_col:
-        nan_mask = np.random.rand(df.shape[0]) < missing_length
-        df.loc[nan_mask, col] = np.nan
-
+    print("========== 1 ============")
     df = df.fillna(df.mean())
     X = df[train_col].to_numpy()
     y = df['Class'].to_numpy()

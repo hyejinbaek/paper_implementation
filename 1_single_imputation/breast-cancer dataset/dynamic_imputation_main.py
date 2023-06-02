@@ -68,8 +68,9 @@ def main(args):
         #auroc = model.get_auroc(x_tst, y_tst)
         acc_list.append(acc)
     print("==========================================")
-    print("mean acc : {}".format(sum(acc_list)/len(acc_list)))
-    print("std acc : {}".format(np.std(acc_list)))
+    # print("mean acc : {}".format(sum(acc_list)/len(acc_list)))
+    # print("std acc : {}".format(np.std(acc_list)))
+    print("=== result : {} ± {}".format(sum(acc_list)/len(acc_list), np.std(acc_list)))
     print("==========================================")
     
 
