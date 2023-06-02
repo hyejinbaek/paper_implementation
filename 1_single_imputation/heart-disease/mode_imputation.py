@@ -2,6 +2,8 @@
 # mean imputation
 import os
 os.environ['CUDA_VISIBLE_DEVICES'] = '3'
+from setproctitle import *
+setproctitle('hyejin')
 import tensorflow as tf
 import pandas as pd
 import numpy as np
