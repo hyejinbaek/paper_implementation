@@ -15,7 +15,6 @@ import tensorflow as tf
 import numpy as np
 import pandas as pd
 import argparse
-import math
 
 
 def main(args):
@@ -45,14 +44,22 @@ def main(args):
     
     x = data[:,:-1]
     y = data[:,-1]
-    
 
+    # for문에서 뺌
+    x,y = preprocessing(x, y, missing_rate, seed)
+    print(" ==== preprocessing x ====", x)
+    print(" ==== preprocessing y ====", y)
     acc_list, auroc = [], []
    
     for i  in range(10):
-        x_trnval_o, x_tst_o, y_trnval_o, y_tst_o = train_test_split(x, y, test_size = 0.2, shuffle = True, random_state = i)
-
-        x_trnval, x_tst, y_trnval, y_tst = preprocessing(x_trnval_o, x_tst_o, y_trnval_o, y_tst_o, missing_rate, seed)
+        #x_trnval_o, x_tst_o, y_trnval_o, y_tst_o = train_test_split(x, y, test_size = 0.2, shuffle = True, random_state = i)
+        #x_trnval, x_tst, y_trnval, y_tst = preprocessing(x_trnval_o, x_tst_o, y_trnval_o, y_tst_o, missing_rate, seed)
+        
+        x_trnval, x_tst, y_trnval, y_tst = train_test_split(x,y, test_size=0.2, shuffle=True, random_state=i)
+        print("x_trnval =-=======", x_trnval)
+        print("x_tst ===========", x_tst)
+        print("y_trnval ==========", y_trnval)
+        print("y_tst ===========", y_tst)
 
         dim_x = x_trnval.shape[1]
 
@@ -74,7 +81,6 @@ def main(args):
     # print("std acc : {}".format(np.std(acc_list)))
     print("=== result : {} ± {}".format(sum(acc_list)/len(acc_list), np.std(acc_list)))
     print("==========================================")
-    
 
 
 if __name__ == '__main__':
