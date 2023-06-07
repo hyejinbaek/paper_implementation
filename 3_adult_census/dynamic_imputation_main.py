@@ -1,8 +1,8 @@
-# 데이터셋 변경하여 진행(adult-census)
+# 데이터셋 변경하여 진행(breast-cancer dataset)
 # tensorflow version : 2.12.0
 # 실행 명령어 : python dynamic_imputation_main.py --seed 0 --missing_rate 20 --num_mi 5 --m 10 --tau 0.05
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '3'
+os.environ['CUDA_VISIBLE_DEVICES'] = '2'
 from setproctitle import *
 setproctitle('hyejin')
 import warnings
@@ -10,30 +10,11 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 from dynamic_imputation_model import Dynamic_imputation_nn
 from dynamic_imputation_preprocessing import preprocessing
 from sklearn.model_selection import train_test_split
+from sklearn.model_selection import KFold
 import tensorflow as tf
 import numpy as np
 import pandas as pd
 import argparse
-from sklearn.preprocessing import LabelEncoder
-from tensorflow.keras.layers import Input, Embedding, Flatten
-
-def label_encode(df, columns):
-    df_encoded = df.copy()
-    label_encoder = LabelEncoder()
-    for col in columns:
-        df_encoded[col] = label_encoder.fit_transform(df_encoded[col].astype(str))
-    return df_encoded
-
-def build_embedding_model(input_dims, embedding_dims):
-    inputs = []
-    embeddings = []
-    for input_dim in input_dims:
-        input_layer = Input(shape=(1,))
-        embedding = Embedding(input_dim, embedding_dims)(input_layer)
-        embedding = Flatten()(embedding)
-        inputs.append(input_layer)
-        embeddings.append(embedding)
-    return inputs, embeddings
 
 def main(args):
 
@@ -43,36 +24,26 @@ def main(args):
     
     hyperparameters = {'num_mi': args.num_mi, 'm': args.m, 'tau': args.tau}
 
-    data_url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.data'
+    #data = pd.read_csv('./datasets/{}.csv'.format(dataset), delimiter=',', header=None).values
+    data_url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/wine/wine.data'
     df_data = pd.read_csv(data_url)
-    col_data = df_data.columns = ['age', 'workclass', 'fnlwgt', 'education', 'education-num', 'marital-status','occupation', 'relationship', 'race', 'sex', 'capital-gain', 'capital-loss',
-                    'hours-per-week', 'native-country', 'target']
-    train_col = ['age', 'workclass', 'fnlwgt', 'education', 'education-num', 'marital-status','occupation', 'relationship', 'race', 'sex', 'capital-gain', 'capital-loss',
-                    'hours-per-week', 'native-country']
-    
-    # Replace '?' values with NaN
-    df_data = df_data.replace('?', np.nan)
-    
-    # Handle missing values
-    df_data['workclass'].fillna('Unknown', inplace=True)
-    df_data['occupation'].fillna('Unknown', inplace=True)
-    
-    # Convert categorical columns to numerical using label encoding
-    categorical_columns = ['workclass', 'education', 'marital-status', 'occupation','relationship', 'race', 'sex', 'native-country', 'target']
-    df_encoded = label_encode(df_data, categorical_columns)
-    
-    # Select the desired columns
-    data = df_encoded[train_col].values
- 
+    col_data = df_data.columns = ['class', 'Alcohol', 'Malic_acid', 'Ash', 'Alcalinity_of_ash', 'Magnesium',
+                    'Total_phenols', 'Flavanoids', 'Nonflavanoid_phenols', 'Proanthocyanins', 'Color_intensity',
+                    'Hue', 'OD280%2FOD315_of_diluted_wines', 'Proline']
+    train_col = ['Alcohol', 'Malic_acid', 'Ash', 'Alcalinity_of_ash', 'Magnesium',
+                    'Total_phenols', 'Flavanoids', 'Nonflavanoid_phenols', 'Proanthocyanins', 'Color_intensity',
+                    'Hue', 'OD280%2FOD315_of_diluted_wines', 'Proline']
+
+    data = df_data[train_col]
     
     # 고정 !!
-    if len(data)>10000:
-        np.random.seed(seed)
-        random_sampled_idx = np.random.choice(len(data), 10000, replace=False)
-        data = data[random_sampled_idx]
-    
-    x = data[:,:-1]
-    y = data[:,-1]
+    # if len(data)>10000:
+    #     np.random.seed(seed)
+    #     random_sampled_idx = np.random.choice(len(data), 10000, replace=False)
+    #     data = data[random_sampled_idx]
+
+    x = data.iloc[:, 1:-1].values  # 첫 번째 열부터 마지막 열 전까지 추출
+    y = data.iloc[:, -1].values.reshape(-1, 1)  # 마지막 열 추출 및 reshap
 
     # for문에서 뺌
     x,y = preprocessing(x, y, missing_rate, seed)
@@ -85,10 +56,10 @@ def main(args):
         #x_trnval, x_tst, y_trnval, y_tst = preprocessing(x_trnval_o, x_tst_o, y_trnval_o, y_tst_o, missing_rate, seed)
         
         x_trnval, x_tst, y_trnval, y_tst = train_test_split(x,y, test_size=0.2, shuffle=True, random_state=i)
-        print("x_trnval =-=======", x_trnval)
-        print("x_tst ===========", x_tst)
-        print("y_trnval ==========", y_trnval)
-        print("y_tst ===========", y_tst)
+        # print("x_trnval =-=======", x_trnval)
+        # print("x_tst ===========", x_tst)
+        # print("y_trnval ==========", y_trnval)
+        # print("y_tst ===========", y_tst)
 
         dim_x = x_trnval.shape[1]
 
