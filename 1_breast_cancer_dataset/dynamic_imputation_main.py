@@ -44,7 +44,6 @@ def main(args):
     
     hyperparameters = {'num_mi': args.num_mi, 'm': args.m, 'tau': args.tau}
 
-    #data = pd.read_csv('./datasets/{}.csv'.format(dataset), delimiter=',', header=None).values
     data_pth = './breast-cancer.data'
     df_data = pd.read_csv(data_pth)
     col_data = df_data.columns = ['Class', 'age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'deg-malig', 'breast', 'breast-quad', 'irradiat']
@@ -105,7 +104,7 @@ def main(args):
     print("==========================================")
     # print("mean acc : {}".format(sum(acc_list)/len(acc_list)))
     # print("std acc : {}".format(np.std(acc_list)))
-    print("=== result : {} ± {}".format(sum(acc_list)/len(acc_list), np.std(acc_list)))
+    print("=== result : {:.4f} ± {:.4f}".format(sum(acc_list)/len(acc_list), np.std(acc_list)))
     print("==========================================")
 
 
