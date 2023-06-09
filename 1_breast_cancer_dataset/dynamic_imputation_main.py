@@ -15,7 +15,27 @@ import tensorflow as tf
 import numpy as np
 import pandas as pd
 import argparse
+from tensorflow.keras.layers import Input, Embedding, Flatten
+from sklearn.preprocessing import LabelEncoder
 
+
+def label_encode(df, columns):
+    df_encoded = df.copy()
+    label_encoder = LabelEncoder()
+    for col in columns:
+        df_encoded[col] = label_encoder.fit_transform(df_encoded[col].astype(str))
+    return df_encoded
+
+def build_embedding_model(input_dims, embedding_dims):
+    inputs = []
+    embeddings = []
+    for input_dim in input_dims:
+        input_layer = Input(shape=(1,))
+        embedding = Embedding(input_dim, embedding_dims)(input_layer)
+        embedding = Flatten()(embedding)
+        inputs.append(input_layer)
+        embeddings.append(embedding)
+    return inputs, embeddings
 
 def main(args):
 
@@ -26,16 +46,22 @@ def main(args):
     hyperparameters = {'num_mi': args.num_mi, 'm': args.m, 'tau': args.tau}
 
     #data = pd.read_csv('./datasets/{}.csv'.format(dataset), delimiter=',', header=None).values
-    data_url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/breast-cancer-wisconsin.data'
-    df_data = pd.read_csv(data_url)
-    col_data = df_data.columns = ['id', 'Clump Thickness', 'Uniformity of Cell Size', 'Uniformity of Cell Shape', 'Marginal Adhesion ', 'Single Epithelial Cell Size',
-                                'Bare Nuclei', 'Bland Chromatin', 'Normal Nucleoli', 'Mitoses', 'Class']
-    train_col = ['Clump Thickness', 'Uniformity of Cell Size', 'Uniformity of Cell Shape', 'Marginal Adhesion ',
-                'Single Epithelial Cell Size','Bare Nuclei', 'Bland Chromatin', 'Normal Nucleoli', 'Mitoses']
-    df_data['Bare Nuclei'] = df_data['Bare Nuclei'].replace('?',0).astype(int)
+    data_pth = './breast-cancer.data'
+    df_data = pd.read_csv(data_pth)
+    col_data = df_data.columns = ['Class', 'age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'deg-malig', 'breast', 'breast-quad', 'irradiat']
+    train_col = ['age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'deg-malig', 'breast', 'breast-quad', 'irradiat']
+    df_data['node-caps'] = df_data['node-caps'].replace('?',0).astype(str)
+    df_data['breast-quad'] = df_data['breast-quad'].replace('?',0).astype(str)
     df_data['Class'] = df_data['Class'].replace({2:0, 4:1})
-    data = df_data[train_col].values
-    
+    #data = df_data[train_col].values
+    # 범주형 피처 선택
+    categorical_columns = ['Class', 'age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'breast', 'breast-quad', 'irradiat']
+
+    # 레이블 인코딩 적용
+    df_encoded = label_encode(df_data, categorical_columns)
+    print('========== df_encoded ==========', df_encoded)
+
+    data = df_encoded[train_col].values
     # 고정 !!
     if len(data)>10000:
         np.random.seed(seed)
@@ -44,7 +70,8 @@ def main(args):
     
     x = data[:,:-1]
     y = data[:,-1]
-
+    # print(" ==== x ====", x)
+    # print(" ==== y ====", y)
     # for문에서 뺌
     x,y = preprocessing(x, y, missing_rate, seed)
     print(" ==== preprocessing x ====", x)

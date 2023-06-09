@@ -24,8 +24,8 @@ def main(args):
     
     hyperparameters = {'num_mi': args.num_mi, 'm': args.m, 'tau': args.tau}
 
-    data_url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/processed.cleveland.data'
-    df_data = pd.read_csv(data_url)
+    data_pth = './processed.cleveland.data'
+    df_data = pd.read_csv(data_pth)
     col_data = df_data.columns = [
         "age", "sex", "cp", "trestbps", "chol", "fbs", "restecg", "thalach",
         "exang", "oldpeak", "slope", "ca", "thal", "class"

@@ -116,33 +116,6 @@ class Dynamic_imputation_nn():
             val_log[epoch] = val_loss
             print('epoch: %d, val_loss: %f, BEST: %f'%(epoch+1, val_loss, np.min(val_log[:epoch+1])))
             
-            # if early_stopping:
-            #     if np.min(val_log[:epoch+1]) == val_loss:
-            #         self.saver.save(self.sess, save_path)
-
-            #     if epoch > 20 and np.min(val_log[epoch-20:epoch+1]) > np.min(val_log[:epoch-20]):
-            #         self.saver.restore(self.sess, save_path)
-            #         break
-    
-            # #imputation stopping rule
-            # if epoch >= m-1:
-                
-            #     print("==== stopping ===")
-            #     missing_mask = np.isnan(x_trn).astype(int)
-            #     missing_num = np.sum(missing_mask)
-                
-            #     # np.where : 조건을 만족하는 위치의 인덱스를 가져옴
-            #     missing_idx = np.where(missing_mask == 1)
-            #     element_wise_missing_idx_list = [[missing_idx[0][i], missing_idx[1][i]] for i in range(missing_num)]
-                
-                
-            #     recent_mean = np.mean(imputed_list[epoch-(m-1):], axis=0)
-            #     recent_var = np.var(imputed_list[epoch-(m-1):] , axis=0, ddof=1)
-                
-                
-            #     for idx in element_wise_missing_idx_list:
-            #         if recent_var[idx[0], idx[1]] < tau:
-            #             x_trn[idx[0], idx[1]] = recent_mean[idx[0], idx[1]]
             
         
     def get_accuracy(self, x_tst, y_tst):

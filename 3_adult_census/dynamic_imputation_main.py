@@ -15,6 +15,27 @@ import tensorflow as tf
 import numpy as np
 import pandas as pd
 import argparse
+from tensorflow.keras.layers import Input, Embedding, Flatten
+from sklearn.preprocessing import LabelEncoder
+
+def label_encode(df, columns):
+    df_encoded = df.copy()
+    label_encoder = LabelEncoder()
+    for col in columns:
+        df_encoded[col] = label_encoder.fit_transform(df_encoded[col].astype(str))
+    return df_encoded
+
+def build_embedding_model(input_dims, embedding_dims):
+    inputs = []
+    embeddings = []
+    for input_dim in input_dims:
+        input_layer = Input(shape=(1,))
+        embedding = Embedding(input_dim, embedding_dims)(input_layer)
+        embedding = Flatten()(embedding)
+        inputs.append(input_layer)
+        embeddings.append(embedding)
+    return inputs, embeddings
+
 
 def main(args):
 
@@ -25,30 +46,39 @@ def main(args):
     hyperparameters = {'num_mi': args.num_mi, 'm': args.m, 'tau': args.tau}
 
     #data = pd.read_csv('./datasets/{}.csv'.format(dataset), delimiter=',', header=None).values
-    data_url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/wine/wine.data'
-    df_data = pd.read_csv(data_url)
-    col_data = df_data.columns = ['class', 'Alcohol', 'Malic_acid', 'Ash', 'Alcalinity_of_ash', 'Magnesium',
-                    'Total_phenols', 'Flavanoids', 'Nonflavanoid_phenols', 'Proanthocyanins', 'Color_intensity',
-                    'Hue', 'OD280%2FOD315_of_diluted_wines', 'Proline']
-    train_col = ['Alcohol', 'Malic_acid', 'Ash', 'Alcalinity_of_ash', 'Magnesium',
-                    'Total_phenols', 'Flavanoids', 'Nonflavanoid_phenols', 'Proanthocyanins', 'Color_intensity',
-                    'Hue', 'OD280%2FOD315_of_diluted_wines', 'Proline']
+    data_pth = './adult.data'    
+    df_data = pd.read_csv(data_pth)
+    col_data = df_data.columns = ['age', 'workclass', 'fnlwgt', 'education', 'education-num', 'marital-status','occupation', 'relationship', 'race', 'sex', 'capital-gain', 'capital-loss',
+                    'hours-per-week', 'native-country', 'target']
+    train_col = ['age', 'workclass', 'fnlwgt', 'education', 'education-num', 'marital-status','occupation', 'relationship', 'race', 'sex', 'capital-gain', 'capital-loss',
+                    'hours-per-week', 'native-country']
+    df_data['workclass'] = df_data['workclass'].replace('?', 0).astype(str)
+    df_data['occupation'] = df_data['occupation'].replace('?', 0).astype(str)
 
-    data = df_data[train_col]
-    
+    categorical_columns = ['workclass', 'education', 'marital-status', 'occupation','relationship', 'race', 'sex', 'native-country', 'target']
+
+   # 레이블 인코딩 적용
+    df_encoded = label_encode(df_data, categorical_columns)
+    print('========== df_encoded ==========', df_encoded)
+
+    data = df_encoded[train_col].values
+
     # 고정 !!
-    # if len(data)>10000:
-    #     np.random.seed(seed)
-    #     random_sampled_idx = np.random.choice(len(data), 10000, replace=False)
-    #     data = data[random_sampled_idx]
+    if len(data)>10000:
+        np.random.seed(seed)
+        random_sampled_idx = np.random.choice(len(data), 10000, replace=False)
+        data = data[random_sampled_idx]
+    
+    x = data[:,:-1]
+    y = data[:,-1]
 
-    x = data.iloc[:, 1:-1].values  # 첫 번째 열부터 마지막 열 전까지 추출
-    y = data.iloc[:, -1].values.reshape(-1, 1)  # 마지막 열 추출 및 reshap
 
     # for문에서 뺌
     x,y = preprocessing(x, y, missing_rate, seed)
     print(" ==== preprocessing x ====", x)
     print(" ==== preprocessing y ====", y)
+
+
     acc_list, auroc = [], []
    
     for i  in range(10):
