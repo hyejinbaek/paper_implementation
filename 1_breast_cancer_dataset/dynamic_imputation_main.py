@@ -10,7 +10,6 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 from dynamic_imputation_model import Dynamic_imputation_nn
 from dynamic_imputation_preprocessing import preprocessing
 from sklearn.model_selection import train_test_split
-from sklearn.model_selection import KFold
 import tensorflow as tf
 import numpy as np
 import pandas as pd
