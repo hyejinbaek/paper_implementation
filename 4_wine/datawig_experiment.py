@@ -60,6 +60,7 @@ class DynamicImputationModel:
         num_batches = int(np.ceil(len(train_X) / batch_size))
         for epoch in range(num_epochs):
             indices = np.arange(len(train_X))
+            np.random.seed(epoch)
             np.random.shuffle(indices)
             train_X_shuffled = train_X.iloc[indices]
             train_y_shuffled = train_y.iloc[indices]
@@ -86,24 +87,26 @@ class DynamicImputationModel:
 
         return acc
 
-data_pth = './processed.cleveland.data'
+# 데이터 파일 경로 설정
+data_pth = './wine.data'
+
+# 데이터 불러오기
 df_data = pd.read_csv(data_pth)
-col_data = df_data.columns = [
-        "age", "sex", "cp", "trestbps", "chol", "fbs", "restecg", "thalach",
-        "exang", "oldpeak", "slope", "ca", "thal", "class"
-    ]
-train_col = ["age", "sex", "cp", "trestbps", "chol", "fbs", "restecg", "thalach",
-        "exang", "oldpeak", "slope", "ca", "thal", ]
-df_data['ca'] = df_data['ca'].replace('?', 0.0).astype(float)
-df_data['thal'] = df_data['thal'].replace('?', 0.0).astype(float)
-print(df_data['class'].value_counts())
+col_data = df_data.columns = ['class', 'Alcohol', 'Malic_acid', 'Ash', 'Alcalinity_of_ash', 'Magnesium',
+                    'Total_phenols', 'Flavanoids', 'Nonflavanoid_phenols', 'Proanthocyanins', 'Color_intensity',
+                    'Hue', 'OD280%2FOD315_of_diluted_wines', 'Proline']
+train_col = ['Alcohol', 'Malic_acid', 'Ash', 'Alcalinity_of_ash', 'Magnesium',
+                    'Total_phenols', 'Flavanoids', 'Nonflavanoid_phenols', 'Proanthocyanins', 'Color_intensity',
+                    'Hue', 'OD280%2FOD315_of_diluted_wines', 'Proline']
 data = df_data
 
 # 결측치 20% 생성
 data_with_missing = data.copy()
 num_missing = int(0.2 * data.shape[0])
 missing_indices = np.random.choice(data.shape[0], num_missing, replace=False)
+print(" ==== missing_indices ====", missing_indices)
 missing_columns = np.random.choice(data.shape[1], num_missing, replace=True)
+print(" ===== missing_columns =====", missing_columns)
 data_with_missing.iloc[missing_indices, missing_columns] = np.nan
 
 # 반복 횟수 설정
@@ -119,12 +122,18 @@ for iteration in range(num_iterations):
     imputer = SimpleImputer()
     train_data = pd.DataFrame(imputer.fit_transform(train_data), columns=train_data.columns)
     test_data = pd.DataFrame(imputer.transform(test_data), columns=test_data.columns)
+    print(" ==== train_data ====", train_data)
+    print(" ==== test_data ====", test_data)
 
     # 학습을 위한 데이터 준비
     train_X = train_data.drop(columns=['class'])
+    print("===== train_X =====", train_X)
     train_y = train_data['class']
+    print("===== train_y =====", train_y)
     test_X = test_data.drop(columns=['class'])
+    print("===== test_X =====", test_X)
     test_y = test_data['class']
+    print("===== test_y =====", test_y)
 
     # 신경망 모델 초기화 및 학습
     model = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1)

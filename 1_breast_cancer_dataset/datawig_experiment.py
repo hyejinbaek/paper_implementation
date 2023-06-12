@@ -117,7 +117,7 @@ accuracy_list = []
 
 for iteration in range(num_iterations):
     # Train set과 test set으로 분할
-    train_data, test_data = train_test_split(data_with_missing, test_size=0.2, random_state=42)
+    train_data, test_data = train_test_split(data_with_missing, test_size=0.2, random_state=iteration)
 
     # 데이터 결측치 채우기
     imputer = SimpleImputer()
