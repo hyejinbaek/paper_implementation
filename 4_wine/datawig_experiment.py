@@ -6,7 +6,7 @@ setproctitle('hyejin')
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
-from sklearn.impute import SimpleImputer
+import datawig
 from tensorflow.keras.layers import Input, Embedding, Flatten
 from sklearn.preprocessing import LabelEncoder
 import tensorflow.compat.v1 as tf
@@ -24,11 +24,12 @@ def build_embedding_model(input_dims, embedding_dims):
     embeddings = []
     for input_dim in input_dims:
         input_layer = Input(shape=(1,))
-        embedding = Embedding(input_dim, embedding_dims)(input_layer)
+        embedding = Embedding(input_dim + 1, embedding_dims)(input_layer)  # Add +1 to input_dim
         embedding = Flatten()(embedding)
         inputs.append(input_layer)
         embeddings.append(embedding)
     return inputs, embeddings
+
 
 class DynamicImputationModel:
     def __init__(self, num_layers, num_hidden, dim_y):
@@ -40,14 +41,14 @@ class DynamicImputationModel:
         self.logits, self.pred = self.build_model(self.x)
         self.loss = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(labels=self.y_true, logits=self.logits))
         self.optimizer = tf.train.AdamOptimizer(learning_rate=0.001)
-        self.train_op = self.optimizer.minimize(self.loss)
+        self.train_op = self.optimizer.minimize(self.loss, var_list=tf.trainable_variables())
         self.sess = tf.Session()
         self.sess.run(tf.global_variables_initializer())
 
     def build_model(self, x):
         for _ in range(self.num_layers):
-            x = tf.layers.dense(x, self.num_hidden, activation=tf.nn.tanh)
-        logits = tf.layers.dense(x, self.dim_y)
+            x = tf.keras.layers.Dense(self.num_hidden, activation=tf.nn.tanh)(x)
+        logits = tf.keras.layers.Dense(self.dim_y)(x)
 
         if self.dim_y == 1:
             pred = tf.nn.sigmoid(logits)
@@ -62,14 +63,14 @@ class DynamicImputationModel:
             indices = np.arange(len(train_X))
             np.random.seed(epoch)
             np.random.shuffle(indices)
-            train_X_shuffled = train_X.iloc[indices]
-            train_y_shuffled = train_y.iloc[indices]
+            train_X_shuffled = train_X[indices]
+            train_y_shuffled = train_y[indices]
 
             for i in range(num_batches):
-                batch_X = train_X_shuffled.iloc[i * batch_size: (i + 1) * batch_size]
-                batch_y = train_y_shuffled.iloc[i * batch_size: (i + 1) * batch_size]
+                batch_X = train_X_shuffled[i * batch_size: (i + 1) * batch_size]
+                batch_y = train_y_shuffled[i * batch_size: (i + 1) * batch_size]
 
-                self.sess.run(self.train_op, feed_dict={self.x: batch_X.values, self.y_true: batch_y.values.reshape(-1, 1)})
+                self.sess.run(self.train_op, feed_dict={self.x: batch_X, self.y_true: batch_y.reshape(-1, 1)})
 
     def get_accuracy(self, x_tst, y_tst):
         if self.dim_y == 1:
@@ -118,21 +119,26 @@ for iteration in range(num_iterations):
     train_data, test_data = train_test_split(data_with_missing, test_size=0.2, random_state=iteration)
 
     # 데이터 결측치 채우기
-    imputer = SimpleImputer()
-    train_data = pd.DataFrame(imputer.fit_transform(train_data), columns=train_data.columns)
-    test_data = pd.DataFrame(imputer.transform(test_data), columns=test_data.columns)
-    print(" ==== train_data ====", train_data)
-    print(" ==== test_data ====", test_data)
+    df_train, df_test = datawig.utils.random_split(train_data)
+    imputer = datawig.SimpleImputer(
+        input_columns=train_col,
+        output_column='class',
+        output_path='imputer_model'
+    )
+    imputer.fit(train_df=df_train, num_epochs=50)
+    train_data = imputer.predict(train_data)
+    print(" ==== imputation train_Data ====", train_data)
+    test_data = imputer.predict(test_data)
+    print(" ==== imputation test_data ====", test_data)
 
     # 학습을 위한 데이터 준비
-    train_X = train_data.drop(columns=['class'])
-    print("===== train_X =====", train_X)
-    train_y = train_data['class']
-    print("===== train_y =====", train_y)
-    test_X = test_data.drop(columns=['class'])
-    print("===== test_X =====", test_X)
-    test_y = test_data['class']
-    print("===== test_y =====", test_y)
+    train_data_encoded = label_encode(train_data, ['class'])
+    test_data_encoded = label_encode(test_data, ['class'])
+    train_X = train_data_encoded.drop(columns=['class']).values
+    train_y = train_data_encoded['class'].values
+    test_X = test_data_encoded.drop(columns=['class']).values
+    test_y = test_data_encoded['class'].values
+
 
     # 신경망 모델 초기화 및 학습
     model = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1)
@@ -140,16 +146,17 @@ for iteration in range(num_iterations):
     batch_size = 32
 
     model.train_model(train_X, train_y, num_epochs, batch_size)
-    accuracy = model.get_accuracy(test_X.values, test_y.values.reshape(-1, 1))
+    accuracy = model.get_accuracy(test_X, test_y.reshape(-1, 1))
     print("==========================================")
-    print(str(iteration+1)+"th accuracy === : ", accuracy)
+    print(str(iteration + 1) + "th accuracy === : ", accuracy)
     print("==========================================")
     accuracy_list.append(accuracy)
-    model.sess.close()
+
 
 # 평균과 표준편차 계산
 accuracy_mean = np.mean(accuracy_list)
 accuracy_std = np.std(accuracy_list)
+
 
 # 결과 출력
 print("Mean Accuracy: {:.2f}".format(accuracy_mean))
