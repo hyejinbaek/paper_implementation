@@ -94,13 +94,12 @@ train_col = ['word_freq_make','word_freq_address','mword_freq_all','word_freq_3d
 data = df_data
 
 # 결측치 20% 생성
-data_with_missing = data.copy()
-num_missing = int(0.2 * data.shape[0])
-missing_indices = np.random.choice(data.shape[0], num_missing, replace=False)
-print(" ==== missing_indices ====", missing_indices)
-missing_columns = np.random.choice(data.shape[1], num_missing, replace=True)
-print(" ===== missing_columns =====", missing_columns)
-data_with_missing.iloc[missing_indices, missing_columns] = np.nan
+missing_length = 0.2
+for col in train_col:
+    nan_mask = np.random.rand(data.shape[0]) < missing_length
+    data.loc[nan_mask, col] = np.nan
+
+data_with_missing = data
 
 # 반복 횟수 설정
 num_iterations = 10

@@ -56,20 +56,18 @@ class DynamicImputationModel:
 data_pth = './abalone.data'
 
 df_data = pd.read_csv(data_pth)
-col_data = df_data.columns = ['class','lymphatics', 'block of affere', 'bl. of lymph', 'bl. of lymph', 'by pass', 'extravasates', 'regeneration of', 'early uptake in',
-                    'lym.nodes dimin', 'lym.nodes enlar', 'changes in lym', 'defect in node', 'changes in node', 'changes in stru', 'special forms', 'dislocation of',
-                    'exclusion of no', 'no. of nodes in']
-train_col = ['lymphatics', 'block of affere', 'bl. of lymph', 'bl. of lymph', 'by pass', 'extravasates', 'regeneration of', 'early uptake in',
-                    'lym.nodes dimin', 'lym.nodes enlar', 'changes in lym', 'defect in node', 'changes in node', 'changes in stru', 'special forms', 'dislocation of',
-                    'exclusion of no', 'no. of nodes in']
+col_data = df_data.columns = ['class','Length', 'Diameter', 'Height', 'Whole weight', 'Shucked weight', 'Viscera weight', 'Shell weight', 'Rings']
+train_col =  ['Length', 'Diameter', 'Height', 'Whole weight', 'Shucked weight', 'Viscera weight', 'Shell weight', 'Rings']
+df_data['class'] = df_data['class'].replace({'M':0, 'F':1, 'I':2})
 data = df_data
 
 # 결측치 20% 생성
-data_with_missing = data.copy()
-num_missing = int(0.2 * data.shape[0])
-missing_indices = np.random.choice(data.shape[0], num_missing, replace=False)
-missing_columns = np.random.choice(data.shape[1], num_missing, replace=True)
-data_with_missing.iloc[missing_indices, missing_columns] = np.nan
+missing_length = 0.2
+for col in train_col:
+    nan_mask = np.random.rand(data.shape[0]) < missing_length
+    data.loc[nan_mask, col] = np.nan
+
+data_with_missing = data
 
 # 반복 횟수 설정
 num_iterations = 10
