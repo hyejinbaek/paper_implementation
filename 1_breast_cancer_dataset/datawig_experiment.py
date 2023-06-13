@@ -95,20 +95,22 @@ df_data.columns = ['Class', 'age', 'menopause', 'tumor-size', 'inv-nodes', 'node
 df_data['node-caps'] = df_data['node-caps'].replace('?', 0).astype(str)
 df_data['breast-quad'] = df_data['breast-quad'].replace('?', 0).astype(str)
 df_data['Class'] = df_data['Class'].replace({2: 0, 4: 1})
-
+data = df_data
 # 범주형 피처 선택
 categorical_columns = ['Class', 'age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'breast', 'breast-quad', 'irradiat']
-
+train_col = ['age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'breast', 'breast-quad', 'irradiat']
 # 레이블 인코딩 적용
 df_encoded = label_encode(df_data, categorical_columns)
 data = df_encoded
 
-# 결측치 20% 생성
-data_with_missing = data.copy()
-num_missing = int(0.2 * data.shape[0])
-missing_indices = np.random.choice(data.shape[0], num_missing, replace=False)
-missing_columns = np.random.choice(data.shape[1], num_missing, replace=True)
-data_with_missing.iloc[missing_indices, missing_columns] = np.nan
+
+missing_length = 0.2
+for col in train_col:
+    nan_mask = np.random.rand(data.shape[0]) < missing_length
+    data.loc[nan_mask, col] = np.nan
+
+data_with_missing = data
+
 
 # 반복 횟수 설정
 num_iterations = 10
