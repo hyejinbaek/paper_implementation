@@ -121,6 +121,7 @@ for iteration in range(num_iterations):
 
     # 데이터 결측치 채우기
     imputer = SimpleImputer()
+    print(" ==== imputer ====", imputer)
     train_data = pd.DataFrame(imputer.fit_transform(train_data), columns=train_data.columns)
     test_data = pd.DataFrame(imputer.transform(test_data), columns=test_data.columns)
 
