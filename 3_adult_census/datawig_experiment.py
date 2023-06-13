@@ -6,7 +6,7 @@ setproctitle('hyejin')
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
-from sklearn.impute import SimpleImputer
+import datawig
 from tensorflow.keras.layers import Input, Embedding, Flatten
 from sklearn.preprocessing import LabelEncoder
 import tensorflow.compat.v1 as tf
@@ -122,10 +122,18 @@ for iteration in range(num_iterations):
     train_data, test_data = train_test_split(data_with_missing, test_size=0.2, random_state=iteration)
 
     # 데이터 결측치 채우기
-    imputer = SimpleImputer()
-    train_data = pd.DataFrame(imputer.fit_transform(train_data), columns=train_data.columns)
-    test_data = pd.DataFrame(imputer.transform(test_data), columns=test_data.columns)
-
+    df_train, df_test = datawig.utils.random_split(train_data)
+    imputer = datawig.SimpleImputer(
+        input_columns= train_col,
+        output_column='target',
+        output_path='imputer_model'
+    )
+    imputer.fit(train_df=df_train, num_epochs=50)
+    train_data = imputer.predict(train_data)
+    print(" ==== imputation train_Data ====", train_data)
+    test_data = imputer.predict(test_data)
+    print(" ==== imputation test_data ====", test_data)
+    
     # 학습을 위한 데이터 준비
     train_X = train_data.drop(columns=['target'])
     train_y = train_data['target']
