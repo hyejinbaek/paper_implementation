@@ -1,16 +1,20 @@
-import tensorflow as tf
-import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '3'
-from setproctitle import *
-setproctitle('hyejin')
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
-import datawig
+import tensorflow as tf
+from setproctitle import setproctitle
 from tensorflow.keras.layers import Input, Embedding, Flatten
 from sklearn.preprocessing import LabelEncoder
+import datawig
+import os
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
+
+# CUDA 환경 설정
+os.environ['CUDA_VISIBLE_DEVICES'] = '3'
+
+# 프로세스 제목 설정
+setproctitle('hyejin')
 
 def label_encode(df, columns):
     df_encoded = df.copy()
@@ -35,6 +39,7 @@ class DynamicImputationModel:
         self.num_layers = num_layers
         self.num_hidden = num_hidden
         self.dim_y = dim_y
+        tf.compat.v1.disable_eager_execution()
         self.x = tf.compat.v1.placeholder(tf.float32, shape=[None, train_X.shape[1]])
         self.y_true = tf.compat.v1.placeholder(tf.float32, shape=[None, 1])
         self.logits, self.pred = self.build_model(self.x)
@@ -96,13 +101,14 @@ df_data['node-caps'] = df_data['node-caps'].replace('?', 0).astype(str)
 df_data['breast-quad'] = df_data['breast-quad'].replace('?', 0).astype(str)
 df_data['Class'] = df_data['Class'].replace({2: 0, 4: 1})
 data = df_data
+
 # 범주형 피처 선택
 categorical_columns = ['Class', 'age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'breast', 'breast-quad', 'irradiat']
 train_col = ['age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'breast', 'breast-quad', 'irradiat']
+
 # 레이블 인코딩 적용
 df_encoded = label_encode(df_data, categorical_columns)
 data = df_encoded
-
 
 missing_length = 0.2
 for col in train_col:
@@ -110,7 +116,6 @@ for col in train_col:
     data.loc[nan_mask, col] = np.nan
 
 data_with_missing = data
-
 
 # 반복 횟수 설정
 num_iterations = 10
@@ -152,7 +157,7 @@ for iteration in range(num_iterations):
     print("==========================================")
     accuracy_list.append(accuracy)
     model.sess.close()
-
+    
 # 평균과 표준편차 계산
 accuracy_mean = np.mean(accuracy_list)
 accuracy_std = np.std(accuracy_list)
