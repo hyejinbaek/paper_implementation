@@ -91,19 +91,20 @@ class DynamicImputationModel:
         return acc
 
 # 데이터 파일 경로 설정
-data_pth = './breast-cancer.data'
+data_pth = './adult.data'
 
 # 데이터 불러오기
 df_data = pd.read_csv(data_pth)
-df_data.columns = ['Class', 'age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'deg-malig', 'breast', 'breast-quad', 'irradiat']
-df_data['node-caps'] = df_data['node-caps'].replace('?', 0).astype(str)
-df_data['breast-quad'] = df_data['breast-quad'].replace('?', 0).astype(str)
-df_data['Class'] = df_data['Class'].replace({2: 0, 4: 1})
+df_data.columns = ['age', 'workclass', 'fnlwgt', 'education', 'education-num', 'marital-status','occupation', 'relationship', 'race', 'sex', 'capital-gain', 'capital-loss',
+                    'hours-per-week', 'native-country', 'target']
+train_col = ['age', 'workclass', 'fnlwgt', 'education', 'education-num', 'marital-status','occupation', 'relationship', 'race', 'sex', 'capital-gain', 'capital-loss',
+                    'hours-per-week', 'native-country']
+df_data['workclass'] = df_data['workclass'].replace('?', 0).astype(str)
+df_data['occupation'] = df_data['occupation'].replace('?', 0).astype(str)
 data = df_data
 
 # 범주형 피처 선택
-categorical_columns = ['Class', 'age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'breast', 'breast-quad', 'irradiat']
-train_col = ['age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'breast', 'breast-quad', 'irradiat']
+categorical_columns = ['workclass', 'education', 'marital-status', 'occupation','relationship', 'race', 'sex', 'native-country', 'target']
 
 # 레이블 인코딩 적용
 df_encoded = label_encode(df_data, categorical_columns)
@@ -130,11 +131,12 @@ for iteration in range(num_iterations):
     print(" ==== imputation train_Data ====", train_data)
     test_data = test_data.fillna(test_data.mean())
     print(" ==== imputation test_data ====", test_data)
+
     # 학습을 위한 데이터 준비
-    train_X = train_data.drop(columns=['Class'])
-    train_y = train_data['Class']
-    test_X = test_data.drop(columns=['Class'])
-    test_y = test_data['Class']
+    train_X = train_data.drop(columns=['target'])
+    train_y = train_data['target']
+    test_X = test_data.drop(columns=['target'])
+    test_y = test_data['target']
 
     # 신경망 모델 초기화 및 학습
     model = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1)

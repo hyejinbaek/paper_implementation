@@ -3,8 +3,6 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 import tensorflow as tf
 from setproctitle import setproctitle
-from tensorflow.keras.layers import Input, Embedding, Flatten
-from sklearn.preprocessing import LabelEncoder
 import os
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
@@ -15,23 +13,6 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 # 프로세스 제목 설정
 setproctitle('hyejin')
 
-def label_encode(df, columns):
-    df_encoded = df.copy()
-    label_encoder = LabelEncoder()
-    for col in columns:
-        df_encoded[col] = label_encoder.fit_transform(df_encoded[col].astype(str))
-    return df_encoded
-
-def build_embedding_model(input_dims, embedding_dims):
-    inputs = []
-    embeddings = []
-    for input_dim in input_dims:
-        input_layer = Input(shape=(1,))
-        embedding = Embedding(input_dim, embedding_dims)(input_layer)
-        embedding = Flatten()(embedding)
-        inputs.append(input_layer)
-        embeddings.append(embedding)
-    return inputs, embeddings
 
 class DynamicImputationModel:
     def __init__(self, num_layers, num_hidden, dim_y):
@@ -91,23 +72,21 @@ class DynamicImputationModel:
         return acc
 
 # 데이터 파일 경로 설정
-data_pth = './breast-cancer.data'
+data_pth = './processed.cleveland.data'
 
 # 데이터 불러오기
 df_data = pd.read_csv(data_pth)
-df_data.columns = ['Class', 'age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'deg-malig', 'breast', 'breast-quad', 'irradiat']
-df_data['node-caps'] = df_data['node-caps'].replace('?', 0).astype(str)
-df_data['breast-quad'] = df_data['breast-quad'].replace('?', 0).astype(str)
-df_data['Class'] = df_data['Class'].replace({2: 0, 4: 1})
+col_data = df_data.columns = [
+        "age", "sex", "cp", "trestbps", "chol", "fbs", "restecg", "thalach",
+        "exang", "oldpeak", "slope", "ca", "thal", "class"
+    ]
+train_col = ["age", "sex", "cp", "trestbps", "chol", "fbs", "restecg", "thalach",
+        "exang", "oldpeak", "slope", "ca", "thal", ]
+df_data['ca'] = df_data['ca'].replace('?', 0.0).astype(float)
+df_data['thal'] = df_data['thal'].replace('?', 0.0).astype(float)
+print(df_data['class'].value_counts())
 data = df_data
 
-# 범주형 피처 선택
-categorical_columns = ['Class', 'age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'breast', 'breast-quad', 'irradiat']
-train_col = ['age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'breast', 'breast-quad', 'irradiat']
-
-# 레이블 인코딩 적용
-df_encoded = label_encode(df_data, categorical_columns)
-data = df_encoded
 
 missing_length = 0.2
 for col in train_col:
@@ -130,11 +109,12 @@ for iteration in range(num_iterations):
     print(" ==== imputation train_Data ====", train_data)
     test_data = test_data.fillna(test_data.mean())
     print(" ==== imputation test_data ====", test_data)
+
     # 학습을 위한 데이터 준비
-    train_X = train_data.drop(columns=['Class'])
-    train_y = train_data['Class']
-    test_X = test_data.drop(columns=['Class'])
-    test_y = test_data['Class']
+    train_X = train_data.drop(columns=['class'])
+    train_y = train_data['class']
+    test_X = test_data.drop(columns=['class'])
+    test_y = test_data['class']
 
     # 신경망 모델 초기화 및 학습
     model = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1)

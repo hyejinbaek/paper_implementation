@@ -3,8 +3,6 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 import tensorflow as tf
 from setproctitle import setproctitle
-from tensorflow.keras.layers import Input, Embedding, Flatten
-from sklearn.preprocessing import LabelEncoder
 import os
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
@@ -15,23 +13,6 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 # 프로세스 제목 설정
 setproctitle('hyejin')
 
-def label_encode(df, columns):
-    df_encoded = df.copy()
-    label_encoder = LabelEncoder()
-    for col in columns:
-        df_encoded[col] = label_encoder.fit_transform(df_encoded[col].astype(str))
-    return df_encoded
-
-def build_embedding_model(input_dims, embedding_dims):
-    inputs = []
-    embeddings = []
-    for input_dim in input_dims:
-        input_layer = Input(shape=(1,))
-        embedding = Embedding(input_dim, embedding_dims)(input_layer)
-        embedding = Flatten()(embedding)
-        inputs.append(input_layer)
-        embeddings.append(embedding)
-    return inputs, embeddings
 
 class DynamicImputationModel:
     def __init__(self, num_layers, num_hidden, dim_y):
@@ -91,23 +72,27 @@ class DynamicImputationModel:
         return acc
 
 # 데이터 파일 경로 설정
-data_pth = './breast-cancer.data'
+data_pth = './spambase.data'
 
 # 데이터 불러오기
 df_data = pd.read_csv(data_pth)
-df_data.columns = ['Class', 'age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'deg-malig', 'breast', 'breast-quad', 'irradiat']
-df_data['node-caps'] = df_data['node-caps'].replace('?', 0).astype(str)
-df_data['breast-quad'] = df_data['breast-quad'].replace('?', 0).astype(str)
-df_data['Class'] = df_data['Class'].replace({2: 0, 4: 1})
+col_data = df_data.columns = ['word_freq_make','word_freq_address','mword_freq_all','word_freq_3d','word_freq_our','word_freq_over','word_freq_remove','word_freq_internet','word_freq_order',
+                    'word_freq_mail','word_freq_receive','word_freq_will','word_freq_people','word_freq_report','word_freq_addresses','word_freq_free','word_freq_business',
+                    'word_freq_email','word_freq_you','word_freq_credit','word_freq_your','word_freq_font','word_freq_000','word_freq_money','word_freq_hp','word_freq_hpl',
+                    'word_freq_george','word_freq_650','word_freq_lab','word_freq_labs','word_freq_telnet','word_freq_857','word_freq_data','word_freq_415','word_freq_85',
+                    'word_freq_technology','word_freq_1999','word_freq_parts','word_freq_pm','word_freq_direct','word_freq_cs','word_freq_meeting','word_freq_original',
+                    'word_freq_project','word_freq_re','word_freq_edu','word_freq_table','word_freq_conference','char_freq_;','char_freq_(','char_freq_[','char_freq_!',
+                    'char_freq_$','char_freq_#','capital_run_length_average','capital_run_length_longest','capital_run_length_total', 'class']
+train_col = ['word_freq_make','word_freq_address','mword_freq_all','word_freq_3d','word_freq_our','word_freq_over','word_freq_remove','word_freq_internet','word_freq_order',
+                    'word_freq_mail','word_freq_receive','word_freq_will','word_freq_people','word_freq_report','word_freq_addresses','word_freq_free','word_freq_business',
+                    'word_freq_email','word_freq_you','word_freq_credit','word_freq_your','word_freq_font','word_freq_000','word_freq_money','word_freq_hp','word_freq_hpl',
+                    'word_freq_george','word_freq_650','word_freq_lab','word_freq_labs','word_freq_telnet','word_freq_857','word_freq_data','word_freq_415','word_freq_85',
+                    'word_freq_technology','word_freq_1999','word_freq_parts','word_freq_pm','word_freq_direct','word_freq_cs','word_freq_meeting','word_freq_original',
+                    'word_freq_project','word_freq_re','word_freq_edu','word_freq_table','word_freq_conference','char_freq_;','char_freq_(','char_freq_[','char_freq_!',
+                    'char_freq_$','char_freq_#','capital_run_length_average','capital_run_length_longest','capital_run_length_total']
+
 data = df_data
 
-# 범주형 피처 선택
-categorical_columns = ['Class', 'age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'breast', 'breast-quad', 'irradiat']
-train_col = ['age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'breast', 'breast-quad', 'irradiat']
-
-# 레이블 인코딩 적용
-df_encoded = label_encode(df_data, categorical_columns)
-data = df_encoded
 
 missing_length = 0.2
 for col in train_col:
@@ -130,11 +115,12 @@ for iteration in range(num_iterations):
     print(" ==== imputation train_Data ====", train_data)
     test_data = test_data.fillna(test_data.mean())
     print(" ==== imputation test_data ====", test_data)
+
     # 학습을 위한 데이터 준비
-    train_X = train_data.drop(columns=['Class'])
-    train_y = train_data['Class']
-    test_X = test_data.drop(columns=['Class'])
-    test_y = test_data['Class']
+    train_X = train_data.drop(columns=['class'])
+    train_y = train_data['class']
+    test_X = test_data.drop(columns=['class'])
+    test_y = test_data['class']
 
     # 신경망 모델 초기화 및 학습
     model = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1)
