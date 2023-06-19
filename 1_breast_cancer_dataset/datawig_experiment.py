@@ -116,7 +116,7 @@ for col in train_col:
     data.loc[nan_mask, col] = np.nan
 
 data_with_missing = data
-
+print("? ==== dtype", data_with_missing.dtypes)
 # 반복 횟수 설정
 num_iterations = 10
 
@@ -129,15 +129,16 @@ for iteration in range(num_iterations):
     # 데이터 결측치 채우기
     df_train, df_test = datawig.utils.random_split(train_data)
     imputer = datawig.SimpleImputer(
-        input_columns=['age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'breast', 'breast-quad', 'irradiat'],
+        input_columns=train_col,
         output_column='Class',
         output_path='imputer_model'
     )
+    print(" === df_train ===", df_train)
     imputer.fit(train_df=df_train, num_epochs=50)
     train_data = imputer.predict(train_data)
-    print(" ==== imputation train_Data ====", train_data)
+    # print(" ==== imputation train_Data ====", train_data)
     test_data = imputer.predict(test_data)
-    print(" ==== imputation test_data ====", test_data)
+    # print(" ==== imputation test_data ====", test_data)
 
     # 학습을 위한 데이터 준비
     train_X = train_data.drop(columns=['Class'])

@@ -1,15 +1,18 @@
-import tensorflow as tf
-import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '3'
-from setproctitle import *
-setproctitle('hyejin')
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
+import tensorflow as tf
+from setproctitle import setproctitle
 import datawig
-from tensorflow.keras.layers import Input, Embedding, Flatten
+import os
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
+
+# CUDA 환경 설정
+os.environ['CUDA_VISIBLE_DEVICES'] = '3'
+
+# 프로세스 제목 설정
+setproctitle('hyejin')
 
 
 class DynamicImputationModel:
@@ -17,6 +20,7 @@ class DynamicImputationModel:
         self.num_layers = num_layers
         self.num_hidden = num_hidden
         self.dim_y = dim_y
+        tf.compat.v1.disable_eager_execution()
         self.x = tf.compat.v1.placeholder(tf.float32, shape=[None, train_X.shape[1]])
         self.y_true = tf.compat.v1.placeholder(tf.float32, shape=[None, 1])
         self.logits, self.pred = self.build_model(self.x)
@@ -42,7 +46,6 @@ class DynamicImputationModel:
         num_batches = int(np.ceil(len(train_X) / batch_size))
         for epoch in range(num_epochs):
             indices = np.arange(len(train_X))
-            np.random.seed(epoch)
             np.random.shuffle(indices)
             train_X_shuffled = train_X.iloc[indices]
             train_y_shuffled = train_y.iloc[indices]
@@ -70,10 +73,9 @@ class DynamicImputationModel:
         return acc
 
 # 데이터 파일 경로 설정
-data_pth = './wine.data'
+data_pth = './spambase.data'
 
 # 데이터 불러오기
-data_pth = "./spambase.data"    
 df_data = pd.read_csv(data_pth)
 col_data = df_data.columns = ['word_freq_make','word_freq_address','mword_freq_all','word_freq_3d','word_freq_our','word_freq_over','word_freq_remove','word_freq_internet','word_freq_order',
                     'word_freq_mail','word_freq_receive','word_freq_will','word_freq_people','word_freq_report','word_freq_addresses','word_freq_free','word_freq_business',
@@ -92,7 +94,7 @@ train_col = ['word_freq_make','word_freq_address','mword_freq_all','word_freq_3d
 
 data = df_data
 
-# 결측치 20% 생성
+
 missing_length = 0.2
 for col in train_col:
     nan_mask = np.random.rand(data.shape[0]) < missing_length
@@ -118,19 +120,15 @@ for iteration in range(num_iterations):
     )
     imputer.fit(train_df=df_train, num_epochs=50)
     train_data = imputer.predict(train_data)
-    print(" ==== imputation train_Data ====", train_data)
+    #print(" ==== imputation train_Data ====", train_data)
     test_data = imputer.predict(test_data)
-    print(" ==== imputation test_data ====", test_data)
+    #print(" ==== imputation test_data ====", test_data)
 
     # 학습을 위한 데이터 준비
     train_X = train_data.drop(columns=['class'])
-    print("===== train_X =====", train_X)
     train_y = train_data['class']
-    print("===== train_y =====", train_y)
     test_X = test_data.drop(columns=['class'])
-    print("===== test_X =====", test_X)
     test_y = test_data['class']
-    print("===== test_y =====", test_y)
 
     # 신경망 모델 초기화 및 학습
     model = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1)
@@ -144,14 +142,14 @@ for iteration in range(num_iterations):
     print("==========================================")
     accuracy_list.append(accuracy)
     model.sess.close()
-
+    
 # 평균과 표준편차 계산
 accuracy_mean = np.mean(accuracy_list)
 accuracy_std = np.std(accuracy_list)
 
-# 결과 출력
 print("Mean Accuracy: {:.2f}".format(accuracy_mean))
 print("Standard Deviation of Accuracy: {:.2f}".format(accuracy_std))
 print("==========================================")
 print("=== result : {:.4f} ± {:.4f}".format(sum(accuracy_list)/len(accuracy_list), np.std(accuracy_list)))
 print("==========================================")
+

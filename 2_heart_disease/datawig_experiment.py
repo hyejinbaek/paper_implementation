@@ -107,17 +107,18 @@ for iteration in range(num_iterations):
 
     # 데이터 결측치 채우기
     df_train, df_test = datawig.utils.random_split(train_data)
+    print("==== train_data ====", train_data)
+
     imputer = datawig.SimpleImputer(
-        input_columns= ["age", "sex", "cp", "trestbps", "chol", "fbs", "restecg", "thalach",
-        "exang", "oldpeak", "slope", "ca", "thal", ],
+        input_columns= train_col,
         output_column='class',
         output_path='imputer_model'
     )
     imputer.fit(train_df=df_train, num_epochs=50)
     train_data = imputer.predict(train_data)
-    print(" ==== imputation train_Data ====", train_data)
+    #print(" ==== imputation train_Data ====", train_data)
     test_data = imputer.predict(test_data)
-    print(" ==== imputation test_data ====", test_data)
+    #print(" ==== imputation test_data ====", test_data)
 
     # 학습을 위한 데이터 준비
     train_X = train_data.drop(columns=['class'])

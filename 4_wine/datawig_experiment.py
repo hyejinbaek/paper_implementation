@@ -1,16 +1,19 @@
-import tensorflow as tf
-import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '3'
-from setproctitle import *
-setproctitle('hyejin')
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
+import tensorflow as tf
+from setproctitle import setproctitle
 import datawig
-from tensorflow.keras.layers import Input, Embedding, Flatten
 from sklearn.preprocessing import LabelEncoder
+import os
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
+
+# CUDA 환경 설정
+os.environ['CUDA_VISIBLE_DEVICES'] = '3'
+
+# 프로세스 제목 설정
+setproctitle('hyejin')
 
 def label_encode(df, columns):
     df_encoded = df.copy()
@@ -29,7 +32,6 @@ def build_embedding_model(input_dims, embedding_dims):
         inputs.append(input_layer)
         embeddings.append(embedding)
     return inputs, embeddings
-
 
 class DynamicImputationModel:
     def __init__(self, num_layers, num_hidden, dim_y):
@@ -64,7 +66,9 @@ class DynamicImputationModel:
             np.random.seed(epoch)
             np.random.shuffle(indices)
             train_X_shuffled = train_X[indices]
+            #print("==== train_X_shuffled ====", train_X_shuffled)
             train_y_shuffled = train_y[indices]
+            #print("==== train_y_shuffled ====", train_y_shuffled)
 
             for i in range(num_batches):
                 batch_X = train_X_shuffled[i * batch_size: (i + 1) * batch_size]
@@ -88,6 +92,7 @@ class DynamicImputationModel:
 
         return acc
 
+
 # 데이터 파일 경로 설정
 data_pth = './wine.data'
 
@@ -100,6 +105,7 @@ train_col = ['Alcohol', 'Malic_acid', 'Ash', 'Alcalinity_of_ash', 'Magnesium',
                     'Total_phenols', 'Flavanoids', 'Nonflavanoid_phenols', 'Proanthocyanins', 'Color_intensity',
                     'Hue', 'OD280%2FOD315_of_diluted_wines', 'Proline']
 data = df_data
+
 
 # 결측치 20% 생성
 missing_length = 0.2
@@ -127,9 +133,9 @@ for iteration in range(num_iterations):
     )
     imputer.fit(train_df=df_train, num_epochs=50)
     train_data = imputer.predict(train_data)
-    print(" ==== imputation train_Data ====", train_data)
+    #print(" ==== imputation train_Data ====", train_data)
     test_data = imputer.predict(test_data)
-    print(" ==== imputation test_data ====", test_data)
+    #print(" ==== imputation test_data ====", test_data)
 
     # 학습을 위한 데이터 준비
     train_data_encoded = label_encode(train_data, ['class'])
@@ -138,7 +144,6 @@ for iteration in range(num_iterations):
     train_y = train_data_encoded['class'].values
     test_X = test_data_encoded.drop(columns=['class']).values
     test_y = test_data_encoded['class'].values
-
 
     # 신경망 모델 초기화 및 학습
     model = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1)
@@ -151,16 +156,15 @@ for iteration in range(num_iterations):
     print(str(iteration + 1) + "th accuracy === : ", accuracy)
     print("==========================================")
     accuracy_list.append(accuracy)
-
-
+    model.sess.close()
+    
 # 평균과 표준편차 계산
 accuracy_mean = np.mean(accuracy_list)
 accuracy_std = np.std(accuracy_list)
 
-
-# 결과 출력
 print("Mean Accuracy: {:.2f}".format(accuracy_mean))
 print("Standard Deviation of Accuracy: {:.2f}".format(accuracy_std))
 print("==========================================")
 print("=== result : {:.4f} ± {:.4f}".format(sum(accuracy_list)/len(accuracy_list), np.std(accuracy_list)))
 print("==========================================")
+

@@ -1,16 +1,20 @@
-import tensorflow as tf
-import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '3'
-from setproctitle import *
-setproctitle('hyejin')
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
-import datawig
+import tensorflow as tf
+from setproctitle import setproctitle
 from tensorflow.keras.layers import Input, Embedding, Flatten
 from sklearn.preprocessing import LabelEncoder
+import datawig
+import os
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
+
+# CUDA 환경 설정
+os.environ['CUDA_VISIBLE_DEVICES'] = '3'
+
+# 프로세스 제목 설정
+setproctitle('hyejin')
 
 def label_encode(df, columns):
     df_encoded = df.copy()
@@ -35,6 +39,7 @@ class DynamicImputationModel:
         self.num_layers = num_layers
         self.num_hidden = num_hidden
         self.dim_y = dim_y
+        tf.compat.v1.disable_eager_execution()
         self.x = tf.compat.v1.placeholder(tf.float32, shape=[None, train_X.shape[1]])
         self.y_true = tf.compat.v1.placeholder(tf.float32, shape=[None, 1])
         self.logits, self.pred = self.build_model(self.x)
@@ -94,15 +99,16 @@ df_data = pd.read_csv(data_pth)
 col_data = df_data.columns = ['L-CORE', 'L-SURF', 'L-O2', 'L-BP', 'SURF-STBL', 
                                   'CORE-STBL', 'BP-STBL','COMFORT','class']
 train_col = ['L-CORE', 'L-SURF', 'L-O2', 'L-BP', 'SURF-STBL', 'CORE-STBL', 'BP-STBL','COMFORT']
+
+data = df_data
+
+# 범주형 피처 선택
 categorical_columns = ['L-CORE', 'L-SURF', 'L-O2', 'L-BP', 'SURF-STBL', 'CORE-STBL', 'BP-STBL','COMFORT','class']
 
 # 레이블 인코딩 적용
 df_encoded = label_encode(df_data, categorical_columns)
-
-
 data = df_encoded
 
-# 결측치 20% 생성
 missing_length = 0.2
 for col in train_col:
     nan_mask = np.random.rand(data.shape[0]) < missing_length
@@ -122,7 +128,7 @@ for iteration in range(num_iterations):
     # 데이터 결측치 채우기
     df_train, df_test = datawig.utils.random_split(train_data)
     imputer = datawig.SimpleImputer(
-        input_columns= train_col,
+        input_columns=train_col,
         output_column='class',
         output_path='imputer_model'
     )
@@ -150,14 +156,14 @@ for iteration in range(num_iterations):
     print("==========================================")
     accuracy_list.append(accuracy)
     model.sess.close()
-
+    
 # 평균과 표준편차 계산
 accuracy_mean = np.mean(accuracy_list)
 accuracy_std = np.std(accuracy_list)
 
-# 결과 출력
 print("Mean Accuracy: {:.2f}".format(accuracy_mean))
 print("Standard Deviation of Accuracy: {:.2f}".format(accuracy_std))
 print("==========================================")
 print("=== result : {:.4f} ± {:.4f}".format(sum(accuracy_list)/len(accuracy_list), np.std(accuracy_list)))
 print("==========================================")
+
