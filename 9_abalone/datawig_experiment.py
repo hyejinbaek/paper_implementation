@@ -22,16 +22,6 @@ def label_encode(df, columns):
         df_encoded[col] = label_encoder.fit_transform(df_encoded[col].astype(str))
     return df_encoded
 
-def build_embedding_model(input_dims, embedding_dims):
-    inputs = []
-    embeddings = []
-    for input_dim in input_dims:
-        input_layer = Input(shape=(1,))
-        embedding = Embedding(input_dim + 1, embedding_dims)(input_layer)  # Add +1 to input_dim
-        embedding = Flatten()(embedding)
-        inputs.append(input_layer)
-        embeddings.append(embedding)
-    return inputs, embeddings
 
 class DynamicImputationModel:
     def __init__(self, num_layers, num_hidden, dim_y):

@@ -103,6 +103,7 @@ train_col = ['age', 'workclass', 'fnlwgt', 'education', 'education-num', 'marita
 df_data['workclass'] = df_data['workclass'].replace('?', 0).astype(str)
 df_data['occupation'] = df_data['occupation'].replace('?', 0).astype(str)
 data = df_data
+print(" === data ==== ", data)
 
 # 범주형 피처 선택
 categorical_columns = ['workclass', 'education', 'marital-status', 'occupation','relationship', 'race', 'sex', 'native-country', 'target']
@@ -110,6 +111,7 @@ categorical_columns = ['workclass', 'education', 'marital-status', 'occupation',
 # 레이블 인코딩 적용
 df_encoded = label_encode(df_data, categorical_columns)
 data = df_encoded
+print("===== df_encoded =====", df_encoded)
 
 missing_length = 0.2
 for col in train_col:
@@ -126,9 +128,10 @@ accuracy_list = []
 for iteration in range(num_iterations):
     # Train set과 test set으로 분할
     train_data, test_data = train_test_split(data_with_missing, test_size=0.2, random_state=iteration)
-
+    print(" === train data ===", train_data)
     # 데이터 결측치 채우기
     df_train, df_test = datawig.utils.random_split(train_data)
+    print(" ==== df train ====", df_train)
     imputer = datawig.SimpleImputer(
         input_columns= train_col,
         output_column='target',
@@ -152,6 +155,7 @@ for iteration in range(num_iterations):
     batch_size = 32
 
     model.train_model(train_X, train_y, num_epochs, batch_size)
+    print(" --- train_X -----", train_X)
     accuracy = model.get_accuracy(test_X.values, test_y.values.reshape(-1, 1))
     print("==========================================")
     print(str(iteration+1)+"th accuracy === : ", accuracy)

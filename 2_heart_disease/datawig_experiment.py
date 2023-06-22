@@ -87,7 +87,7 @@ df_data['ca'] = df_data['ca'].replace('?', 0.0).astype(float)
 df_data['thal'] = df_data['thal'].replace('?', 0.0).astype(float)
 print(df_data['class'].value_counts())
 data = df_data
-
+print(" === data 1 type ====", data.dtypes)
 
 missing_length = 0.2
 for col in train_col:
@@ -107,7 +107,8 @@ for iteration in range(num_iterations):
 
     # 데이터 결측치 채우기
     df_train, df_test = datawig.utils.random_split(train_data)
-    print("==== train_data ====", train_data)
+    print(" === df_train 2 type ====", df_train.dtypes)
+
 
     imputer = datawig.SimpleImputer(
         input_columns= train_col,
