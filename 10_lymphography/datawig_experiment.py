@@ -105,6 +105,7 @@ train_col =['lymphatics', 'block of affere', 'bl. of lymph.c', 'bl. of lymph.s',
                     'lym.nodes dimin', 'lym.nodes enlar', 'changes in lym', 'defect in node', 'changes in node', 'changes in stru', 'special forms', 'dislocation of',
                     'exclusion of no', 'no. of nodes in']
 data = df_data
+print("=== data type ===", data.dtypes)
 
 
 # 결측치 20% 생성
@@ -126,6 +127,7 @@ for iteration in range(num_iterations):
 
     # 데이터 결측치 채우기
     df_train, df_test = datawig.utils.random_split(train_data)
+    print("=== train index ===", (train_data.index ))
     imputer = datawig.SimpleImputer(
         input_columns=train_col,
         output_column='class',

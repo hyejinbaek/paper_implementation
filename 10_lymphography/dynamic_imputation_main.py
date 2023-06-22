@@ -10,7 +10,6 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 from dynamic_imputation_model import Dynamic_imputation_nn
 from dynamic_imputation_preprocessing import preprocessing
 from sklearn.model_selection import train_test_split
-from sklearn.model_selection import KFold
 import tensorflow as tf
 import numpy as np
 import pandas as pd
@@ -27,10 +26,10 @@ def main(args):
     data_pth = './lymphography.data'
     
     df_data = pd.read_csv(data_pth)
-    col_data = df_data.columns = ['class','lymphatics', 'block of affere', 'bl. of lymph', 'bl. of lymph', 'by pass', 'extravasates', 'regeneration of', 'early uptake in',
+    col_data = df_data.columns = ['class','lymphatics', 'block of affere', 'bl. of lymph.c', 'bl. of lymph.s', 'by pass', 'extravasates', 'regeneration of', 'early uptake in',
                     'lym.nodes dimin', 'lym.nodes enlar', 'changes in lym', 'defect in node', 'changes in node', 'changes in stru', 'special forms', 'dislocation of',
                     'exclusion of no', 'no. of nodes in']
-    train_col = ['lymphatics', 'block of affere', 'bl. of lymph', 'bl. of lymph', 'by pass', 'extravasates', 'regeneration of', 'early uptake in',
+    train_col =['lymphatics', 'block of affere', 'bl. of lymph.c', 'bl. of lymph.s', 'by pass', 'extravasates', 'regeneration of', 'early uptake in',
                     'lym.nodes dimin', 'lym.nodes enlar', 'changes in lym', 'defect in node', 'changes in node', 'changes in stru', 'special forms', 'dislocation of',
                     'exclusion of no', 'no. of nodes in']
     
