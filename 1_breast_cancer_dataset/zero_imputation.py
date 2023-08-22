@@ -119,35 +119,42 @@ data_with_missing = data
 # 반복 횟수 설정
 num_iterations = 10
 
-accuracy_list = []
+xgboost_accuracy_list = []
+neural_network_accuracy_list = []
 
 for iteration in range(num_iterations):
     # Train set과 test set으로 분할
     train_data, test_data = train_test_split(data_with_missing, test_size=0.2, random_state=iteration)
 
     # 데이터 결측치 채우기
-    train_data = train_data.fillna(0)
-    print(" ==== imputation train_Data ====", train_data)
-    test_data = test_data.fillna(0)
-    print(" ==== imputation test_data ====", test_data)
-    # 학습을 위한 데이터 준비
-    train_X = train_data.drop(columns=['Class'])
-    train_y = train_data['Class']
-    test_X = test_data.drop(columns=['Class'])
-    test_y = test_data['Class']
+    train_data_imputed = train_data.fillna(0)
+    test_data_imputed = test_data.fillna(0)
 
-    # 신경망 모델 초기화 및 학습
-    model = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1)
-    num_epochs = 50
-    batch_size = 32
+    # XGBoost 모델 학습 및 평가
+    X_train_xgboost = train_data_imputed.drop(columns=['Class'])
+    y_train_xgboost = train_data_imputed['Class']
+    X_test_xgboost = test_data_imputed.drop(columns=['Class'])
+    y_test_xgboost = test_data_imputed['Class']
 
-    model.train_model(train_X, train_y, num_epochs, batch_size)
-    accuracy = model.get_accuracy(test_X.values, test_y.values.reshape(-1, 1))
-    print("==========================================")
-    print(str(iteration+1)+"th accuracy === : ", accuracy)
-    print("==========================================")
-    accuracy_list.append(accuracy)
-    model.sess.close()
+    xgboost_model = xgb.XGBClassifier()
+    xgboost_model.fit(X_train_xgboost, y_train_xgboost)
+    xgboost_accuracy = xgboost_model.score(X_test_xgboost, y_test_xgboost)
+    xgboost_accuracy_list.append(xgboost_accuracy)
+
+    # 신경망 모델 학습 및 평가
+    train_X_nn = train_data_imputed.drop(columns=['Class'])
+    train_y_nn = train_data_imputed['Class']
+    test_X_nn = test_data_imputed.drop(columns=['Class'])
+    test_y_nn = test_data_imputed['Class']
+
+    nn_model = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1)
+    num_epochs_nn = 50
+    batch_size_nn = 32
+
+    nn_model.train_model(train_X_nn, train_y_nn, num_epochs_nn, batch_size_nn)
+    nn_accuracy = nn_model.get_accuracy(test_X_nn.values, test_y_nn.values.reshape(-1, 1))
+    nn_model.sess.close()
+    neural_network_accuracy_list.append(nn_accuracy)
     
 # 평균과 표준편차 계산
 accuracy_mean = np.mean(accuracy_list)
