@@ -18,7 +18,7 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 setproctitle('hyejin')
 
 # CSV 파일 경로 설정
-result_csv_path = './experiment_results.csv'
+result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/experiment_result.csv'
 
 # 결과를 저장할 리스트 초기화
 results = []
@@ -174,8 +174,9 @@ for iteration in range(num_iterations):
     rmse_mean = np.mean(rmse_list)
     rmse_std = np.std(rmse_list)
 
-      # 결과를 딕셔너리로 저장
+    # 결과를 딕셔너리로 저장
     result = {
+        'Dataset' : '1_breast',
         'method' : 'zero',
         'Experiment': iteration + 1,
         'Accuracy': "{:.4f}".format(accuracy_mean),
