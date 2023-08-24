@@ -51,7 +51,11 @@ class Dynamic_imputation_nn():
         # skleanr -> IterativeImputer(회귀 대치)
         self.imputer = IterativeImputer(sample_posterior=True, random_state = self.seed)
         
-        
+    # [230818] RMSE 때문에 추가 
+    def predict(self, x):
+        predictions = self.model.predict(x)
+        return predictions
+    
     def prediction(self, x):
         with tf.variable_scope('network'):
             for _ in range(self.num_layers):
