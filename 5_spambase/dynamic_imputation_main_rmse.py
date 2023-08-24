@@ -2,7 +2,7 @@
 # tensorflow version : 2.12.0
 # 실행 명령어 : python dynamic_imputation_main_rmse.py --seed 0 --missing_rate 20 --num_mi 5 --m 10 --tau 0.05
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '2'
+os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 from setproctitle import *
 setproctitle('hyejin')
 import warnings
@@ -17,6 +17,12 @@ import pandas as pd
 import argparse
 from sklearn.metrics import mean_squared_error
 from math import sqrt
+
+# CSV 파일 경로 설정
+result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/experiment_result.csv'
+
+# 결과를 저장할 리스트 초기화
+results = []
 
 def main(args):
 
@@ -42,19 +48,6 @@ def main(args):
                     'word_freq_project','word_freq_re','word_freq_edu','word_freq_table','word_freq_conference','char_freq_;','char_freq_(','char_freq_[','char_freq_!',
                     'char_freq_$','char_freq_#','capital_run_length_average','capital_run_length_longest','capital_run_length_total']
 
-    # data = df_data[train_col].values
-
-    # 고정 !!
-    # if len(data)>10000:
-    #     np.random.seed(seed)
-    #     random_sampled_idx = np.random.choice(len(data), 10000, replace=False)
-    #     data = data[random_sampled_idx]
-    # 
-    # x = data[:,:-1]
-    # print(" ==== x ====", x)
-    # y = data[:,-1]
-    # print(" ==== y ====", y)
-
     # for문에서 뺌
     x, y = preprocessing(df_data[train_col].values,df_data['class'].values, missing_rate, seed)
     print(" ==== preprocessing x ====", x)
@@ -69,10 +62,6 @@ def main(args):
     for i  in range(10):
         
         x_trnval, x_tst, y_trnval, y_tst = train_test_split(x,y, test_size=0.2, shuffle=True, random_state=i)
-        # print("x_trnval =-=======", x_trnval)
-        # print("x_tst ===========", x_tst)
-        # print("y_trnval ==========", y_trnval)
-        # print("y_tst ===========", y_tst)
 
         dim_x = x_trnval.shape[1]
 
@@ -88,6 +77,13 @@ def main(args):
         x_tst_imputed = model.imputer.transform(x_tst)
         y_pred = model.sess.run(model.pred, feed_dict={model.x: x_tst_imputed})
 
+        acc = model.get_accuracy(x_tst, y_tst)
+        print("==========================================")
+        print(str(i+1)+"th accuracy === : ", acc)
+        print("==========================================")
+        #auroc = model.get_auroc(x_tst, y_tst)
+        acc_list.append(acc)
+
         # RMSE 계산
         rmse = sqrt(mean_squared_error(y_tst, y_pred))
         rmse_list.append(rmse)
@@ -96,11 +92,32 @@ def main(args):
         print(str(i+1)+"th RMSE === : ", rmse)
         print("==========================================")
 
+        # 결과를 딕셔너리로 저장
+        result = {
+            'Dataset' : '5_spambase',
+            'method' : 'dynamic',
+            'Experiment': i + 1,
+            'Accuracy': "{:.4f}".format(acc),
+            'Accuracy Std': "{:.4f}".format(np.std(acc)),
+            'RMSE': "{:.4f}".format(rmse),
+            'RMSE Std': "{:.4f}".format(np.std(rmse))
+        }
+        results.append(result)
+
+
     print("==========================================")
     print("=== RMSE result : {:.4f} ± {:.4f}".format(sum(rmse_list)/len(rmse_list), np.std(rmse_list)))
     print("==========================================")
 
 
+    # 결과를 DataFrame으로 변환하여 CSV 파일에 추가로 저장
+    results_df = pd.DataFrame(results)
+    if os.path.exists(result_csv_path):
+        results_df.to_csv(result_csv_path, mode='a', header=False, index=False)
+    else:
+        results_df.to_csv(result_csv_path, index=False)
+
+    print("Results saved to:", result_csv_path)
 if __name__ == '__main__':
 
     # python main.py --seed 0 --dataset avila --missing_rate 30 --num_mi 5 --m 10 --tau 0.05
@@ -109,7 +126,7 @@ if __name__ == '__main__':
     
     arg_parser.add_argument('--seed', help='Random seed', default=27407, type= int)
     #arg_parser.add_argument('--dataset', help='Dataset name', choices=['avila', 'letter'], default=256, type=str)
-    arg_parser.add_argument('--missing_rate', help='Missing rate of dataset', default=30, type=float)
+    arg_parser.add_argument('--missing_rate', help='Missing rate of dataset', default=20, type=float)
     arg_parser.add_argument('--num_mi', help='Number of multiple imputation for validation set', default=5, type=int)
     arg_parser.add_argument('--m', help='Number of imputations to calculate imputation uncertainty', default=10, type=int)
     arg_parser.add_argument('--tau', help='Threshold of imputation uncertainty', default=0.05, type=float)

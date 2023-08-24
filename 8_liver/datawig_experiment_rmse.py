@@ -7,12 +7,19 @@ from datawig import SimpleImputer
 import os
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
+from sklearn.metrics import accuracy_score
 
 # CUDA 환경 설정
 os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 
 # 프로세스 제목 설정
 setproctitle('hyejin')
+
+# CSV 파일 경로 설정
+result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/experiment_result.csv'
+
+# 결과를 저장할 리스트 초기화
+results = []
 
 # 함수 정의: RMSE 계산
 def calculate_rmse(y_true, y_pred):
@@ -112,7 +119,8 @@ for iteration in range(num_iterations):
     for col in train_col:
         imputer = SimpleImputer(
             input_columns=train_col,
-            output_column=col
+            output_column=col,
+            output_path=f'./imputer_model/imputer_model_{col}'
         )
         imputer.fit(train_df=train_data, num_epochs=5)
         imputers[col] = imputer
@@ -168,11 +176,23 @@ for iteration in range(num_iterations):
 
     model.sess.close()
 
-# 모든 반복이 끝난 후에 평균 및 표준편차 계산
-accuracy_mean = np.mean(accuracy_list)
-accuracy_std = np.std(accuracy_list)
-rmse_mean = np.mean(rmse_list)
-rmse_std = np.std(rmse_list)
+    # 모든 반복이 끝난 후에 평균 및 표준편차 계산
+    accuracy_mean = np.mean(accuracy_list)
+    accuracy_std = np.std(accuracy_list)
+    rmse_mean = np.mean(rmse_list)
+    rmse_std = np.std(rmse_list)
+
+    # 결과를 딕셔너리로 저장
+    result = {
+        'Dataset' : '8_liver',
+        'method' : 'datawig',
+        'Experiment': iteration + 1,
+        'Accuracy': "{:.4f}".format(accuracy_mean),
+        'Accuracy Std': "{:.4f}".format(accuracy_std),
+        'RMSE': "{:.4f}".format(rmse_mean),
+        'RMSE Std': "{:.4f}".format(rmse_std)
+    }
+    results.append(result)
 
 print("Mean Accuracy: {:.2f}".format(accuracy_mean))
 print("Standard Deviation of Accuracy: {:.2f}".format(accuracy_std))
@@ -180,3 +200,12 @@ print("==========================================")
 print("=== result : {:.4f} ± {:.4f}".format(sum(accuracy_list)/len(accuracy_list), np.std(accuracy_list)))
 print("=== RMSE result : {:.4f} ± {:.4f}".format(rmse_mean,rmse_std))
 print("==========================================")
+
+# 결과를 DataFrame으로 변환하여 CSV 파일에 추가로 저장
+results_df = pd.DataFrame(results)
+if os.path.exists(result_csv_path):
+    results_df.to_csv(result_csv_path, mode='a', header=False, index=False)
+else:
+    results_df.to_csv(result_csv_path, index=False)
+
+print("Results saved to:", result_csv_path)
