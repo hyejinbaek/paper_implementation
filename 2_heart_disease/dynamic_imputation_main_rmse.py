@@ -17,6 +17,11 @@ import argparse
 from sklearn.metrics import mean_squared_error
 from math import sqrt
 
+# CSV 파일 경로 설정
+result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/experiment_result.csv'
+
+# 결과를 저장할 리스트 초기화
+results = []
 
 def main(args):
 
@@ -49,8 +54,7 @@ def main(args):
 
     # for문에서 뺌
     x,y = preprocessing(x, y, missing_rate, seed)
-    print(" ==== preprocessing x ====", x)
-    print(" ==== preprocessing y ====", y)
+
     acc_list, auroc = [], []
    
     # rmse 추가!!!!
@@ -61,10 +65,6 @@ def main(args):
         #x_trnval, x_tst, y_trnval, y_tst = preprocessing(x_trnval_o, x_tst_o, y_trnval_o, y_tst_o, missing_rate, seed)
         
         x_trnval, x_tst, y_trnval, y_tst = train_test_split(x,y, test_size=0.2, shuffle=True, random_state=i)
-        print("x_trnval =-=======", x_trnval)
-        print("x_tst ===========", x_tst)
-        print("y_trnval ==========", y_trnval)
-        print("y_tst ===========", y_tst)
 
         dim_x = x_trnval.shape[1]
 
@@ -76,10 +76,19 @@ def main(args):
         model = Dynamic_imputation_nn(dim_x, dim_y, seed)
         model.train_with_dynamic_imputation(x_trnval, y_trnval, save_path, **hyperparameters)
 
-
 		# x_tst_imputed : 테스트 세트에 대한 imputation 수행
         x_tst_imputed = model.imputer.transform(x_tst)
         y_pred = model.sess.run(model.pred, feed_dict={model.x: x_tst_imputed})
+
+        acc = model.get_accuracy(x_tst, y_tst)
+        print("==========================================")
+        print(str(i+1)+"th accuracy === : ", acc)
+        print("==========================================")
+        #auroc = model.get_auroc(x_tst, y_tst)
+        acc_list.append(acc)
+        print("==========================================")
+        print("=== result : {} ± {}".format(sum(acc_list)/len(acc_list), np.std(acc_list)))
+        print("==========================================")
 
         # RMSE 계산
         rmse = sqrt(mean_squared_error(y_tst, y_pred))
@@ -89,10 +98,31 @@ def main(args):
         print(str(i+1)+"th RMSE === : ", rmse)
         print("==========================================")
 
+        # 결과를 딕셔너리로 저장
+        result = {
+            'Dataset' : '2_heart',
+            'method' : 'dynamic',
+            'Experiment': i + 1,
+            'Accuracy': "{:.4f}".format(acc),
+            'Accuracy Std': "{:.4f}".format(np.std(acc)),
+            'RMSE': "{:.4f}".format(rmse),
+            'RMSE Std': "{:.4f}".format(np.std(rmse))
+        }
+        results.append(result)
+
+
     print("==========================================")
     print("=== RMSE result : {:.4f} ± {:.4f}".format(sum(rmse_list)/len(rmse_list), np.std(rmse_list)))
     print("==========================================")
+    
+    # 결과를 DataFrame으로 변환하여 CSV 파일에 추가로 저장
+    results_df = pd.DataFrame(results)
+    if os.path.exists(result_csv_path):
+        results_df.to_csv(result_csv_path, mode='a', header=False, index=False)
+    else:
+        results_df.to_csv(result_csv_path, index=False)
 
+    print("Results saved to:", result_csv_path)
 
 
 if __name__ == '__main__':
@@ -103,7 +133,7 @@ if __name__ == '__main__':
     
     arg_parser.add_argument('--seed', help='Random seed', default=27407, type= int)
     #arg_parser.add_argument('--dataset', help='Dataset name', choices=['avila', 'letter'], default=256, type=str)
-    arg_parser.add_argument('--missing_rate', help='Missing rate of dataset', default=30, type=float)
+    arg_parser.add_argument('--missing_rate', help='Missing rate of dataset', default=20, type=float)
     arg_parser.add_argument('--num_mi', help='Number of multiple imputation for validation set', default=5, type=int)
     arg_parser.add_argument('--m', help='Number of imputations to calculate imputation uncertainty', default=10, type=int)
     arg_parser.add_argument('--tau', help='Threshold of imputation uncertainty', default=0.05, type=float)
