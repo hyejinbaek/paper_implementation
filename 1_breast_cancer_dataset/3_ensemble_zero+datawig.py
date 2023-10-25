@@ -142,7 +142,7 @@ imputers = {}
 for iteration in range(num_iterations):
     # Train set과 test set으로 분할
     train_data, test_data = train_test_split(data_with_missing, test_size=0.2, random_state=iteration)
-
+    print(" === train_data === ", train_data)
     ## datawig
     for col in train_col:
         imputer = SimpleImputer(
@@ -155,6 +155,7 @@ for iteration in range(num_iterations):
 
     # Impute missing values for each column in train_data
     train_imputed_data = {}
+    
     for col, imputer in imputers.items():
         predictions = imputer.predict(train_data)
         train_imputed_data[col] = predictions[col + '_imputed']  # '_imputed' is added by datawig
@@ -219,7 +220,7 @@ for iteration in range(num_iterations):
     # 결과를 딕셔너리로 저장 (Ensemble 결과)
     result = {
         'Dataset': '1_breast',
-        'method': '1_zero+datawig',
+        'method': '3_zero+datawig',
         'Experiment': iteration + 1,
         'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(accuracy_list), np.std(accuracy_list)),
         'RMSE': "{:.4f} ± {:.4f}".format(np.mean(rmse_list), np.std(rmse_list)),   
