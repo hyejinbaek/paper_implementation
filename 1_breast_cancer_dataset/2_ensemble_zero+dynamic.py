@@ -1,6 +1,6 @@
 # 데이터셋 변경하여 진행(breast-cancer dataset)
 # tensorflow version : 2.12.0
-# 실행 명령어 : python test.py --seed 0 --missing_rate 20 --num_mi 5 --m 10 --tau 0.05
+# 실행 명령어 : python 2_ensemble_zero+dynamic.py --seed 0 --missing_rate 20 --num_mi 5 --m 10 --tau 0.05
 import os
 os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 from setproctitle import *
@@ -23,7 +23,7 @@ from math import sqrt
 from sklearn.metrics import accuracy_score
 
 # CSV 파일 경로 설정
-result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/experiment_result.csv'
+result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/ensemble_method_res.csv'
 
 # 결과를 저장할 리스트 초기화
 results = []
@@ -105,6 +105,7 @@ def build_embedding_model(input_dims, embedding_dims):
         inputs.append(input_layer)
         embeddings.append(embedding)
     return inputs, embeddings
+
 accuracy_list = []
 def main(args):
 
@@ -153,11 +154,7 @@ def main(args):
 
     for i  in range(10):
         x_trnval, x_tst, y_trnval, y_tst = train_test_split(x,y, test_size=0.2, shuffle=True, random_state=i)
-        # print("=== x_trnval=== ", x_trnval)
-        # print("=== x_tst=== ", x_tst)
-        # print("=== y_trnval=== ", y_trnval)
-        # print("=== y_tst=== ", y_tst)
-
+        
         dim_x = x_trnval.shape[1]
 
         if y_trnval.shape[1] > 2:
@@ -165,7 +162,6 @@ def main(args):
         else:
             dim_y = 1
         save_path = ('./{0}_{1}_model'.format(seed, missing_rate))
-
 
         # zero imputation을 위해 데이터 프레임으로 전환
         x_trnval_zero = pd.DataFrame(x_trnval, columns=train_col)
