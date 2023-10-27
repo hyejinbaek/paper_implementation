@@ -23,7 +23,7 @@ from math import sqrt
 from sklearn.metrics import accuracy_score
 
 # CSV 파일 경로 설정
-result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/7_post_ensemble_method_res.csv'
+result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/7_post_ensemble_method_res.csv'
 
 # 결과를 저장할 리스트 초기화
 results = []
