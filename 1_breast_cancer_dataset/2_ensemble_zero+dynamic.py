@@ -23,7 +23,7 @@ from math import sqrt
 from sklearn.metrics import accuracy_score
 
 # CSV 파일 경로 설정
-result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/1_breast_ensemble_method_res.csv'
+result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/1_breast_ensemble_method_res.csv'
 
 # 결과를 저장할 리스트 초기화
 results = []
@@ -107,6 +107,7 @@ def build_embedding_model(input_dims, embedding_dims):
     return inputs, embeddings
 
 accuracy_list = []
+
 def main(args):
 
     seed = args.seed
@@ -205,7 +206,9 @@ def main(args):
         rmse_combined = np.sqrt(mean_squared_error(y_pred, combined_predictions))
         #print(" === rmse_combined === ", rmse_combined)
         rmse_list.append(rmse_combined) 
-        
+
+        # 정확도 계산
+        accuracy = accuracy_score(y_tst, (combined_predictions > 0.5).astype(int))
         print("==========================================")
         print(str(i+1)+"th dynamic accuracy === : ", acc)
         print(str(i+1)+"th zero accuracy === : ", accuracy_zero_imputation)
@@ -215,6 +218,7 @@ def main(args):
         print("==========================================")
 
         acc_list.append(acc)
+        accuracy_list.append(accuracy_zero_imputation)
         
 
         # 결과를 딕셔너리로 저장
@@ -222,7 +226,7 @@ def main(args):
             'Dataset' : '1_breast',
             'method' : '2_zero + dynamic',
             'Experiment': i + 1,
-            'Accuracy': "{:.4f} ± {:.4f}".format(acc, np.std(acc)),
+            'Accuracy': "{:.4f} ± {:.4f}".format(accuracy, np.std(combined_predictions)),
             'RMSE': "{:.4f} ± {:.4f}".format(np.mean(rmse_list), np.std(rmse_list)),
         }
         results.append(result)

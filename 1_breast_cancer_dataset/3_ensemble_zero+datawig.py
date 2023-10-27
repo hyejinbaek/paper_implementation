@@ -13,7 +13,7 @@ from sklearn.metrics import accuracy_score
 from datawig import SimpleImputer
 
 # CSV 파일 경로 설정
-result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/ensemble_method_res.csv'
+result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/1_breast_ensemble_method_res.csv'
 
 # 결과를 저장할 리스트 초기화
 results = []
@@ -143,7 +143,6 @@ for iteration in range(num_iterations):
     # Train set과 test set으로 분할
     train_data, test_data = train_test_split(data_with_missing, test_size=0.2, random_state=iteration)
     print(" === train_data === ", train_data)
-    
     ## datawig
     for col in train_col:
         imputer = SimpleImputer(
