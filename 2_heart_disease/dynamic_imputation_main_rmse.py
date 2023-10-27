@@ -38,7 +38,7 @@ def main(args):
         "exang", "oldpeak", "slope", "ca", "thal", "class"
     ]
     train_col = ["age", "sex", "cp", "trestbps", "chol", "fbs", "restecg", "thalach",
-        "exang", "oldpeak", "slope", "ca", "thal", ]
+        "exang", "oldpeak", "slope", "ca", "thal"]
     df_data['ca'] = df_data['ca'].replace('?', 0.0).astype(float)
     data = df_data[train_col].values
     

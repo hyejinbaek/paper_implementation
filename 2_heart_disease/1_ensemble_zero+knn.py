@@ -11,7 +11,7 @@ from sklearn.impute import KNNImputer
 from sklearn.metrics import accuracy_score
 
 # CSV 파일 경로 설정
-result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/ensemble_method_res.csv'
+result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/2_heart_ensemble_method_res.csv'
 
 # 결과를 저장할 리스트 초기화
 results = []
@@ -21,7 +21,6 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 
 # 프로세스 제목 설정
 setproctitle('hyejin')
-
 
 class DynamicImputationModel:
     def __init__(self, num_layers, num_hidden, dim_y, train_X, train_y):
@@ -88,16 +87,12 @@ data_pth = './processed.cleveland.data'
 
 # 데이터 불러오기
 df_data = pd.read_csv(data_pth)
-col_data = df_data.columns = [
-        "age", "sex", "cp", "trestbps", "chol", "fbs", "restecg", "thalach",
-        "exang", "oldpeak", "slope", "ca", "thal", "class"
-    ]
-train_col = ["age", "sex", "cp", "trestbps", "chol", "fbs", "restecg", "thalach",
-        "exang", "oldpeak", "slope", "ca", "thal", ]
+col_data = df_data.columns = ["age", "sex", "cp", "trestbps", "chol", "fbs", "restecg", "thalach", "exang", "oldpeak", "slope", "ca", "thal", "class"]
+train_col = ["age", "sex", "cp", "trestbps", "chol", "fbs", "restecg", "thalach", "exang", "oldpeak", "slope", "ca", "thal"]
 df_data['ca'] = df_data['ca'].replace('?', 0.0).astype(float)
 df_data['thal'] = df_data['thal'].replace('?', 0.0).astype(float)
-print(df_data['class'].value_counts())
 data = df_data
+
 
 missing_length = 0.2
 for col in train_col:
