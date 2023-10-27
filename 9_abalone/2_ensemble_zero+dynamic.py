@@ -21,7 +21,7 @@ import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
 
 # CSV 파일 경로 설정
-result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/9_abalone_ensemble_method_res.csv'
+result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/9_abalone_ensemble_method.csv'
 
 # 결과를 저장할 리스트 초기화
 results = []
