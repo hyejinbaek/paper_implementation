@@ -23,7 +23,7 @@ from math import sqrt
 from sklearn.metrics import accuracy_score
 
 # CSV 파일 경로 설정
-result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/ensemble_method_res.csv'
+result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/1_breast_ensemble_method_res.csv'
 
 # 결과를 저장할 리스트 초기화
 results = []
@@ -154,7 +154,6 @@ def main(args):
 
     for i  in range(10):
         x_trnval, x_tst, y_trnval, y_tst = train_test_split(x,y, test_size=0.2, shuffle=True, random_state=i)
-        
         dim_x = x_trnval.shape[1]
 
         if y_trnval.shape[1] > 2:

@@ -143,6 +143,7 @@ for iteration in range(num_iterations):
     # Train set과 test set으로 분할
     train_data, test_data = train_test_split(data_with_missing, test_size=0.2, random_state=iteration)
     print(" === train_data === ", train_data)
+    
     ## datawig
     for col in train_col:
         imputer = SimpleImputer(
