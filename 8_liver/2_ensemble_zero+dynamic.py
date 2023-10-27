@@ -21,7 +21,7 @@ import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
 
 # CSV 파일 경로 설정
-result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/8_liver_ensemble_method_res.csv'
+result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/8_liver_ensemble_method_res.csv'
 
 # 결과를 저장할 리스트 초기화
 results = []
