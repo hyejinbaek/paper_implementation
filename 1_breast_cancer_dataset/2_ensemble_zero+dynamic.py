@@ -218,7 +218,7 @@ def main(args):
         print("==========================================")
 
         acc_list.append(acc)
-        accuracy_list.append(accuracy_zero_imputation)
+        acc_list.append(accuracy_zero_imputation)
         
 
         # 결과를 딕셔너리로 저장
@@ -226,7 +226,7 @@ def main(args):
             'Dataset' : '1_breast',
             'method' : '2_zero + dynamic',
             'Experiment': i + 1,
-            'Accuracy': "{:.4f} ± {:.4f}".format(accuracy, np.std(combined_predictions)),
+            'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(acc_list), np.std(acc_list)),
             'RMSE': "{:.4f} ± {:.4f}".format(np.mean(rmse_list), np.std(rmse_list)),
         }
         results.append(result)

@@ -173,15 +173,22 @@ for iteration in range(num_iterations):
     # RMSE 계산
     rmse_combined = np.sqrt(mean_squared_error(test_y_knn_imputed, combined_predictions))
     #print(" === rmse_combined === ", rmse_combined)
-    rmse_list.append(rmse_combined) 
+    rmse_list.append(rmse_combined)
+
+    # Ensemble Accuracy 계산
+    ensemble_accuracy = accuracy_score(test_y_knn_imputed.values, (combined_predictions > 0.5).astype(int))
+
     
     print("==========================================")
     print(str(iteration + 1) + "th KNN Imputation accuracy: ", accuracy_knn_imputation)
     print(str(iteration + 1) + "th Zero Imputation accuracy: ", accuracy_zero_imputation)
+    print(str(iteration + 1) + "th Ensemble Accuracy: {:.4f}".format(ensemble_accuracy))
     print(str(iteration + 1) + "th Ensemble RMSE: {:.4f}".format(rmse_combined))
     print("==========================================")
 
     accuracy_list.append(accuracy_knn_imputation)
+    accuracy_list.append(accuracy_zero_imputation)
+    print(" == accuracy_list === ", accuracy_list)
 
     # 결과를 딕셔너리로 저장 (Ensemble 결과)
     result = {

@@ -222,6 +222,7 @@ for iteration in range(num_iterations):
     print("==========================================")
 
     accuracy_list.append(accuracy)
+    accuracy_list.append(accuracy_knn_imputation)
 
     # 결과를 딕셔너리로 저장 (Ensemble 결과)
     result = {

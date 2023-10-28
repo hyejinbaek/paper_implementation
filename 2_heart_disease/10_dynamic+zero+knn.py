@@ -227,6 +227,8 @@ def main(args):
         print("==========================================")
 
         acc_list.append(acc)
+        acc_list.append(accuracy_knn_imputation)
+        acc_list.append(accuracy_zero_imputation)
         
 
         # 결과를 딕셔너리로 저장
@@ -234,7 +236,7 @@ def main(args):
             'Dataset' : '2_heart_disease',
             'method' : '10_dynamic+zero+knn',
             'Experiment': i + 1,
-            'Accuracy': "{:.4f} ± {:.4f}".format(acc, np.std(acc)),
+            'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(acc_list), np.std(acc_list)),
             'RMSE': "{:.4f} ± {:.4f}".format(np.mean(rmse_list), np.std(rmse_list)),
         }
         results.append(result)

@@ -248,6 +248,8 @@ def main(args):
         print("==========================================")
 
         acc_list.append(acc)
+        acc_list.append(accuracy_knn_imputation)
+        acc_list.append(accuracy_zero_imputation)
         
 
         # 결과를 딕셔너리로 저장

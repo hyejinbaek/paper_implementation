@@ -11,7 +11,7 @@ from sklearn.impute import KNNImputer
 from sklearn.metrics import accuracy_score
 
 # CSV 파일 경로 설정
-result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/2_heart_ensemble_method_res.csv'
+result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/2_heart_ensemble_method_res.csv'
 
 # 결과를 저장할 리스트 초기화
 results = []
@@ -156,6 +156,7 @@ for iteration in range(num_iterations):
     print("==========================================")
 
     accuracy_list.append(accuracy_knn_imputation)
+    accuracy_list.append(accuracy_zero_imputation)
 
     # 결과를 딕셔너리로 저장 (Ensemble 결과)
     result = {

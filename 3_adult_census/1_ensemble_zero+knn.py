@@ -11,6 +11,7 @@ from sklearn.impute import KNNImputer
 from sklearn.metrics import accuracy_score
 from tensorflow.keras.layers import Input, Embedding, Flatten
 from sklearn.preprocessing import LabelEncoder
+from math import sqrt
 
 # CSV 파일 경로 설정
 result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/3_adult_ensemble_method_res.csv'
@@ -165,6 +166,8 @@ for iteration in range(num_iterations):
     model_zero_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, train_X=train_X_zero_imputed, train_y=train_y_zero_imputed)
     model_zero_imputation.train_model(train_X_zero_imputed, train_y_zero_imputed, num_epochs=50, batch_size=32)
     accuracy_zero_imputation = model_zero_imputation.get_accuracy(test_X_zero_imputed.values, test_y_zero_imputed.values.reshape(-1, 1))
+    y_zero_pred = model_zero_imputation.sess.run(model_zero_imputation.pred, feed_dict={model_zero_imputation.x: test_X_zero_imputed.values})
+    zero_rmse = sqrt(mean_squared_error(test_y_zero_imputed, y_zero_pred))
 
     # Ensemble을 위해 두 모델의 예측을 결합
     combined_predictions = (model_knn_imputation.sess.run(model_knn_imputation.pred, feed_dict={model_knn_imputation.x: test_X_knn_imputed.values}) + model_zero_imputation.sess.run(model_zero_imputation.pred, feed_dict={model_zero_imputation.x: test_X_zero_imputed.values})) / 2
@@ -181,6 +184,7 @@ for iteration in range(num_iterations):
     print("==========================================")
 
     accuracy_list.append(accuracy_knn_imputation)
+    accuracy_list.append(accuracy_zero_imputation)
 
     # 결과를 딕셔너리로 저장 (Ensemble 결과)
     result = {
