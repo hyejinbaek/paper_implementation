@@ -5,19 +5,9 @@ import tensorflow as tf
 from setproctitle import setproctitle
 import os
 import tensorflow.compat.v1 as tf
-tf.disable_v2_behavior
-from sklearn.metrics import mean_squared_error
+tf.disable_v2_behavior()
 from sklearn.metrics import accuracy_score
-from datawig import SimpleImputer
-from sklearn.impute import KNNImputer
-from math import sqrt
 
-
-# CSV 파일 경로 설정
-result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/2_heart_ensemble_method_res.csv'
-
-# 결과를 저장할 리스트 초기화
-results = []
 
 # CUDA 환경 설정
 os.environ['CUDA_VISIBLE_DEVICES'] = '3'
@@ -25,19 +15,20 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 # 프로세스 제목 설정
 setproctitle('hyejin')
 
-def calculate_rmse(y_true, predictions):
-    return np.sqrt(mean_squared_error(y_true, predictions))
+# CSV 파일 경로 설정
+result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/experiment_result.csv'
+
+# 결과를 저장할 리스트 초기화
+results = []
 
 class DynamicImputationModel:
-    def __init__(self, num_layers, num_hidden, dim_y, num_features):
+    def __init__(self, num_layers, num_hidden, dim_y):
         self.num_layers = num_layers
         self.num_hidden = num_hidden
         self.dim_y = dim_y
-        self.num_features = num_features
         tf.compat.v1.disable_eager_execution()
-        self.x = tf.compat.v1.placeholder(tf.float32, shape=[None, self.num_features])
-
-        self.y_true = tf.compat.v1.placeholder(tf.float32, shape=[None, dim_y])
+        self.x = tf.compat.v1.placeholder(tf.float32, shape=[None, train_X.shape[1]])
+        self.y_true = tf.compat.v1.placeholder(tf.float32, shape=[None, 1])
         self.logits, self.pred = self.build_model(self.x)
         self.loss = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(labels=self.y_true, logits=self.logits))
         self.optimizer = tf.train.AdamOptimizer(learning_rate=0.001)
@@ -97,10 +88,12 @@ col_data = df_data.columns = [
         "exang", "oldpeak", "slope", "ca", "thal", "class"
     ]
 train_col = ["age", "sex", "cp", "trestbps", "chol", "fbs", "restecg", "thalach",
-        "exang", "oldpeak", "slope", "ca", "thal"]
+        "exang", "oldpeak", "slope", "ca", "thal", ]
 df_data['ca'] = df_data['ca'].replace('?', 0.0).astype(float)
 df_data['thal'] = df_data['thal'].replace('?', 0.0).astype(float)
+print(df_data['class'].value_counts())
 data = df_data
+
 
 missing_length = 0.2
 for col in train_col:
@@ -114,90 +107,47 @@ num_iterations = 10
 
 accuracy_list = []
 rmse_list = []
-imputers = {}
+
 
 for iteration in range(num_iterations):
     # Train set과 test set으로 분할
     train_data, test_data = train_test_split(data_with_missing, test_size=0.2, random_state=iteration)
 
-    ## datawig
-    for col in train_col:
-        imputer = SimpleImputer(
-            input_columns=train_col,
-            output_column=col,
-            output_path=f'./imputer_model/imputer_model_{col}'
-        )
-        imputer.fit(train_df=train_data, num_epochs=5)
-        imputers[col] = imputer
-
-    # Impute missing values for each column in train_data
-    train_imputed_data = {}
-    for col, imputer in imputers.items():
-        predictions = imputer.predict(train_data)
-        train_imputed_data[col] = predictions[col + '_imputed']
-
-    # Create a DataFrame with imputed values for train set
-    train_imputed_df = pd.DataFrame(train_imputed_data)
-
-    # Impute missing values for each column in test_data
-    test_imputed_data = {}
-    for col, imputer in imputers.items():
-        predictions = imputer.predict(test_data)
-        test_imputed_data[col] = predictions[col + '_imputed']
-
-    # Create a DataFrame with imputed values for test set
-    test_imputed_df = pd.DataFrame(test_imputed_data)
+    # 데이터 결측치 채우기
+    train_data = train_data.fillna(0)
+    test_data = test_data.fillna(0)
 
     # 학습을 위한 데이터 준비
-    train_X = train_imputed_df[train_col]
+    train_X = train_data.drop(columns=['class'])
     train_y = train_data['class']
-    test_X = test_imputed_df[train_col]
+    test_X = test_data.drop(columns=['class'])
     test_y = test_data['class']
 
-    # 신경망 모델 학습
-    model_datawig_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
-    model_datawig_imputation.train_model(train_X, train_y, num_epochs=50, batch_size=32)
-    accuracy = model_datawig_imputation.get_accuracy(test_X.values, test_y.values.reshape(-1, 1))
-    y_datawig_pred = model_datawig_imputation.sess.run(model_datawig_imputation.pred, feed_dict={model_datawig_imputation.x: test_X.values})
-    datawig_rmse = sqrt(mean_squared_error(test_y, y_datawig_pred))
-        
-     # 데이터 결측치 채우기 (KNN Imputation)
-    imputer = KNNImputer(n_neighbors=5)
-    train_data_knn_imputed = pd.DataFrame(imputer.fit_transform(train_data), columns=train_data.columns)
-    test_data_knn_imputed = pd.DataFrame(imputer.transform(test_data), columns=test_data.columns)
+    # 신경망 모델 초기화 및 학습
+    model = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1)
+    num_epochs = 50
+    batch_size = 32
 
-    # 학습을 위한 데이터 준비
-    train_X_knn_imputed = train_data_knn_imputed.drop(columns=['class'])
-    train_y_knn_imputed = train_data_knn_imputed['class']
-    test_X_knn_imputed = test_data_knn_imputed.drop(columns=['class'])
-    test_y_knn_imputed = test_data_knn_imputed['class']
-
-    # 신경망 모델 초기화 및 학습 (KNN Imputation)
-    model_knn_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
-    model_knn_imputation.train_model(train_X_knn_imputed, train_y_knn_imputed, num_epochs=50, batch_size=32)
-    accuracy_knn_imputation = model_knn_imputation.get_accuracy(test_X_knn_imputed.values, test_y_knn_imputed.values.reshape(-1, 1))
-
-
+    model.train_model(train_X, train_y, num_epochs, batch_size)
+    accuracy = model.get_accuracy(test_X.values, test_y.values.reshape(-1, 1))
     print("==========================================")
-    print(str(iteration + 1) + "th Datawig Imputation accuracy: ", accuracy)
-    print(str(iteration + 1) + "th knn Imputation accuracy: ", accuracy_knn_imputation)
+    print(str(iteration+1)+"th accuracy === : ", accuracy)
     print("==========================================")
-
     accuracy_list.append(accuracy)
-    accuracy_list.append(accuracy_knn_imputation)
-
-    # 결과를 딕셔너리로 저장 (Ensemble 결과)
+	
+    model.sess.close()
+    
+    
+    # 결과를 딕셔너리로 저장
     result = {
-        'Dataset': '1_breast',
-        'method': '5_knn+datawig',
+        'Dataset' : '2_heart',
+        'method' : 'zero',
         'Experiment': iteration + 1,
-        'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(accuracy_list), np.std(accuracy_list))
+        'Accuracy': "{:.4f} ± {:.4f}".format(accuracy, np.std(accuracy))
     }
     results.append(result)
 
 print("==========================================")
-print("Knn Accuracy : {:.4f} ± {:.4f}".format(accuracy_knn_imputation, np.std(accuracy_knn_imputation)))
-print("Datawig Accuracy : {:.4f} ± {:.4f}".format(accuracy, np.std(accuracy)))
 print("=== result : {:.4f} ± {:.4f}".format(sum(accuracy_list)/len(accuracy_list), np.std(accuracy_list)))
 print("==========================================")
 
@@ -209,3 +159,4 @@ else:
     results_df.to_csv(result_csv_path, index=False)
 
 print("Results saved to:", result_csv_path)
+

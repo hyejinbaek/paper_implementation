@@ -22,26 +22,22 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 # 프로세스 제목 설정
 setproctitle('hyejin')
 
-def calculate_rmse(y_true, predictions):
-    return np.sqrt(mean_squared_error(y_true, predictions))
-
 class DynamicImputationModel:
-    def __init__(self, num_layers, num_hidden, dim_y, train_X, train_y):
+    def __init__(self, num_layers, num_hidden, dim_y, num_features):
         self.num_layers = num_layers
         self.num_hidden = num_hidden
         self.dim_y = dim_y
+        self.num_features = num_features
         tf.compat.v1.disable_eager_execution()
-        self.x = tf.compat.v1.placeholder(tf.float32, shape=[None, train_X.shape[1]])
-        self.y_true = tf.compat.v1.placeholder(tf.float32, shape=[None, 1])
+        self.x = tf.compat.v1.placeholder(tf.float32, shape=[None, self.num_features])
+
+        self.y_true = tf.compat.v1.placeholder(tf.float32, shape=[None, dim_y])
         self.logits, self.pred = self.build_model(self.x)
         self.loss = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(labels=self.y_true, logits=self.logits))
         self.optimizer = tf.train.AdamOptimizer(learning_rate=0.001)
         self.train_op = self.optimizer.minimize(self.loss)
         self.sess = tf.Session()
         self.sess.run(tf.global_variables_initializer())
-        
-        self.train_X = train_X  # Store train_X and train_y as instance variables
-        self.train_y = train_y
 
     def build_model(self, x):
         for _ in range(self.num_layers):
@@ -117,7 +113,7 @@ imputers = {}
 for iteration in range(num_iterations):
     # Train set과 test set으로 분할
     train_data, test_data = train_test_split(data_with_missing, test_size=0.2, random_state=iteration)
-    print(" === train_data === ", train_data)
+
     ## datawig
     for col in train_col:
         imputer = SimpleImputer(
@@ -154,7 +150,7 @@ for iteration in range(num_iterations):
     test_y = test_data['class']
 
     # 신경망 모델 학습
-    model_datawig_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, train_X=train_X, train_y=train_y)
+    model_datawig_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
     model_datawig_imputation.train_model(train_X, train_y, num_epochs=50, batch_size=32)
     accuracy = model_datawig_imputation.get_accuracy(test_X.values, test_y.values.reshape(-1, 1))
         
@@ -169,25 +165,14 @@ for iteration in range(num_iterations):
     test_y_zero_imputed = test_data_zero_imputed['class']
 
     # 신경망 모델 초기화 및 학습 (Zero Imputation)
-    model_zero_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, train_X=train_X_zero_imputed, train_y=train_y_zero_imputed)
+    model_zero_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
     model_zero_imputation.train_model(train_X_zero_imputed, train_y_zero_imputed, num_epochs=50, batch_size=32)
     accuracy_zero_imputation = model_zero_imputation.get_accuracy(test_X_zero_imputed.values, test_y_zero_imputed.values.reshape(-1, 1))
 
-    # Ensemble을 위해 두 모델의 예측을 결합
-    prediction_model_1 = model_datawig_imputation.sess.run(model_datawig_imputation.pred, feed_dict={model_datawig_imputation.x: test_X.values})
-    prediction_model_2 = model_zero_imputation.sess.run(model_zero_imputation.pred, feed_dict={model_zero_imputation.x: test_X_zero_imputed.values})
-    combined_predictions = (prediction_model_1 + prediction_model_2)/2
 
-
-
-    # RMSE 계산
-    rmse_combined = calculate_rmse(test_y_zero_imputed, combined_predictions)
-    rmse_list.append(rmse_combined)
-    
     print("==========================================")
     print(str(iteration + 1) + "th Datawig Imputation accuracy: ", accuracy)
     print(str(iteration + 1) + "th Zero Imputation accuracy: ", accuracy_zero_imputation)
-    print(str(iteration + 1) + "th Ensemble RMSE: {:.4f}".format(rmse_combined))
     print("==========================================")
 
     accuracy_list.append(accuracy)
@@ -198,16 +183,14 @@ for iteration in range(num_iterations):
         'Dataset': '2_heart_disease',
         'method': '3_zero+datawig',
         'Experiment': iteration + 1,
-        'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(accuracy_list), np.std(accuracy_list)),
-        'RMSE': "{:.4f} ± {:.4f}".format(np.mean(rmse_list), np.std(rmse_list)),   
+        'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(accuracy_list), np.std(accuracy_list))
     }
     results.append(result)
 
-print("Mean Ensemble Accuracy: {:.4f}".format(np.mean(accuracy_list)))
-print("Standard Deviation of Ensemble Accuracy: {:.4f}".format(np.std(accuracy_list)))
+print("Datawig Accuracy : {:.4f} ± {:.4f}".format(accuracy, np.std(accuracy)))
+print("Zero Accuracy : {:.4f} ± {:.4f}".format(accuracy_zero_imputation, np.std(accuracy_zero_imputation)))
 print("==========================================")
 print("=== result : {:.4f} ± {:.4f}".format(sum(accuracy_list)/len(accuracy_list), np.std(accuracy_list)))
-print("=== RMSE result : {:.4f} ± {:.4f}".format(np.mean(rmse_list), np.std(rmse_list)))
 print("==========================================")
 
 # 결과를 DataFrame으로 변환하여 CSV 파일에 추가로 저장

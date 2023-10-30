@@ -29,22 +29,21 @@ result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/2_heart_e
 results = []
 
 class DynamicImputationModel:
-    def __init__(self, num_layers, num_hidden, dim_y, train_X, train_y):
+    def __init__(self, num_layers, num_hidden, dim_y, num_features):
         self.num_layers = num_layers
         self.num_hidden = num_hidden
         self.dim_y = dim_y
+        self.num_features = num_features
         tf.compat.v1.disable_eager_execution()
-        self.x = tf.compat.v1.placeholder(tf.float32, shape=[None, train_X.shape[1]])
-        self.y_true = tf.compat.v1.placeholder(tf.float32, shape=[None, 1])
+        self.x = tf.compat.v1.placeholder(tf.float32, shape=[None, self.num_features])
+
+        self.y_true = tf.compat.v1.placeholder(tf.float32, shape=[None, dim_y])
         self.logits, self.pred = self.build_model(self.x)
         self.loss = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(labels=self.y_true, logits=self.logits))
         self.optimizer = tf.train.AdamOptimizer(learning_rate=0.001)
         self.train_op = self.optimizer.minimize(self.loss)
         self.sess = tf.Session()
         self.sess.run(tf.global_variables_initializer())
-        
-        self.train_X = train_X  # Store train_X and train_y as instance variables
-        self.train_y = train_y
 
     def build_model(self, x):
         for _ in range(self.num_layers):
@@ -137,11 +136,6 @@ def main(args):
 
     for i  in range(10):
         x_trnval, x_tst, y_trnval, y_tst = train_test_split(x,y, test_size=0.2, shuffle=True, random_state=i)
-        # print(" === x_trnval === ", x_trnval)
-        # print(" === x_tst === ", x_tst)
-        # print(" === y_trnval === ", y_trnval)
-        # print(" === y_tst === ", y_tst)
-
         dim_x = x_trnval.shape[1]
 
         if y_trnval.shape[1] > 2:
@@ -192,37 +186,18 @@ def main(args):
         
 
         # 신경망 모델 초기화 및 학습 (datawig Imputation)
-        model_datawig_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, train_X=x_trnval_datawig_imputed, train_y=y_trnval_datawig_imputed)
+        model_datawig_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
         model_datawig_imputation.train_model(x_trnval_datawig_imputed, y_trnval_datawig_imputed, num_epochs=50, batch_size=32)
         accuracy_datawig_imputation = model_datawig_imputation.get_accuracy(x_tst_datawig_imputed.values, y_tst_datawig_imputed.values.reshape(-1, 1))
-        y_datawig_pred = model_datawig_imputation.sess.run(model_datawig_imputation.pred, feed_dict={model_datawig_imputation.x: x_tst_datawig_imputed.values})
-        datawig_rmse = sqrt(mean_squared_error(y_tst_datawig_imputed, y_datawig_pred))
 
         model = Dynamic_imputation_nn(dim_x, dim_y, seed)
         model.train_with_dynamic_imputation(x_trnval, y_trnval, save_path, **hyperparameters)
-
-        # dynamic x_tst_imputed : 테스트 세트에 대한 imputation 수행
-        x_tst_imputed = model.imputer.transform(x_tst)
-        y_pred = model.sess.run(model.pred, feed_dict={model.x: x_tst_imputed})
         acc = model.get_accuracy(x_tst, y_tst)
-        dynamic_rmse = sqrt(mean_squared_error(y_tst, y_pred))
 
-        # Ensemble을 위해 두 모델의 예측을 결합
-        combined_predictions = (model.sess.run(model.pred, feed_dict={model.x: x_tst_imputed}) 
-                        + model_datawig_imputation.sess.run(
-                            model_datawig_imputation.pred, feed_dict={model_datawig_imputation.x: x_tst_datawig_imputed})) / 2
-        
-        # rmse 2개의 imputation method RMSE 계산
-        rmse_combined = np.sqrt(mean_squared_error(y_pred, combined_predictions))
-        #print(" === rmse_combined === ", rmse_combined)
-        rmse_list.append(rmse_combined) 
-        
+
         print("==========================================")
         print(str(i+1)+"th dynamic accuracy === : ", acc)
         print(str(i+1)+"th datawig accuracy === : ", accuracy_datawig_imputation)
-        print(str(i+1)+"th dynamic rmse === : ", dynamic_rmse)
-        print(str(i+1)+"th datawig rmse === : ", np.mean(datawig_rmse))
-        print(str(i + 1) + "th Ensemble RMSE: {:.4f}".format(rmse_combined))
         print("==========================================")
 
         acc_list.append(acc)
@@ -234,15 +209,15 @@ def main(args):
             'Dataset' : '2_heart_disease',
             'method' : '6_dynamic + datawig',
             'Experiment': i + 1,
-            'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(acc_list), np.std(acc_list)),
-            'RMSE': "{:.4f} ± {:.4f}".format(np.mean(rmse_list), np.std(rmse_list)),
+            'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(acc_list), np.std(acc_list))
         }
         results.append(result)
 
 
     print("==========================================")
+    print("Dynamic Accuracy : {:.4f} ± {:.4f}".format(acc, np.std(acc)))
+    print("datawig Accuracy : {:.4f} ± {:.4f}".format(accuracy_datawig_imputation, np.std(accuracy_datawig_imputation)))
     print("=== result : {:.4f} ± {:.4f}".format(sum(acc_list)/len(acc_list), np.std(acc_list)))
-    print("=== RMSE result : {:.4f} ± {:.4f}".format(sum(rmse_list)/len(rmse_list), np.std(rmse_list)))
     print("==========================================")
 
     # 결과를 DataFrame으로 변환하여 CSV 파일에 추가로 저장
@@ -257,13 +232,8 @@ def main(args):
 
 
 if __name__ == '__main__':
-
-    # python main.py --seed 0 --dataset avila --missing_rate 30 --num_mi 5 --m 10 --tau 0.05
-    # python dynamic_imputation_main.py --seed 0 --missing_rate 30 --num_mi 5 --m 10 --tau 0.05
     arg_parser = argparse.ArgumentParser(description='Dynamic imputation')
-    
     arg_parser.add_argument('--seed', help='Random seed', default=27407, type= int)
-    #arg_parser.add_argument('--dataset', help='Dataset name', choices=['avila', 'letter'], default=256, type=str)
     arg_parser.add_argument('--missing_rate', help='Missing rate of dataset', default=20, type=float)
     arg_parser.add_argument('--num_mi', help='Number of multiple imputation for validation set', default=5, type=int)
     arg_parser.add_argument('--m', help='Number of imputations to calculate imputation uncertainty', default=10, type=int)

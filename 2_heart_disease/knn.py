@@ -6,7 +6,6 @@ from setproctitle import setproctitle
 import os
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
-from sklearn.metrics import mean_squared_error
 from sklearn.impute import KNNImputer 
 from sklearn.metrics import accuracy_score
 
@@ -94,7 +93,7 @@ train_col = ["age", "sex", "cp", "trestbps", "chol", "fbs", "restecg", "thalach"
         "exang", "oldpeak", "slope", "ca", "thal", ]
 df_data['ca'] = df_data['ca'].replace('?', 0.0).astype(float)
 df_data['thal'] = df_data['thal'].replace('?', 0.0).astype(float)
-print(df_data['class'].value_counts())
+
 data = df_data
 
 
@@ -124,7 +123,6 @@ for iteration in range(num_iterations):
     train_data = pd.DataFrame(imputer.fit_transform(train_data), columns=train_data.columns)
     test_data = pd.DataFrame(imputer.transform(test_data), columns=test_data.columns)
 
-
     # 학습을 위한 데이터 준비
     train_X = train_data.drop(columns=['class'])
     train_y = train_data['class']
@@ -143,39 +141,19 @@ for iteration in range(num_iterations):
     print("==========================================")
     accuracy_list.append(accuracy)
     
-    # 예측값 얻기
-    test_predictions = model.sess.run(model.pred, feed_dict={model.x: test_X.values})
-
-    # RMSE 계산
-    rmse = np.sqrt(mean_squared_error(test_y, test_predictions))
-    print("Root Mean Squared Error (RMSE): {:.4f}".format(rmse))
-    rmse_list.append(rmse)
-
     model.sess.close()
-        
-    # 평균과 표준편차 계산
-    accuracy_mean = np.mean(accuracy_list)
-    accuracy_std = np.std(accuracy_list)
-    rmse_mean = np.mean(rmse_list)
-    rmse_std = np.std(rmse_list)
 
     # 결과를 딕셔너리로 저장
     result = {
         'Dataset' : '2_heart',
         'method' : 'knn',
         'Experiment': iteration + 1,
-        'Accuracy': "{:.4f}".format(accuracy_mean),
-        'Accuracy Std': "{:.4f}".format(accuracy_std),
-        'RMSE': "{:.4f}".format(rmse_mean),
-        'RMSE Std': "{:.4f}".format(rmse_std)
+        'Accuracy': "{:.4f} ± {:.4f}".format(accuracy, np.std(accuracy))
     }
     results.append(result)
 
-print("Mean Accuracy: {:.2f}".format(accuracy_mean))
-print("Standard Deviation of Accuracy: {:.2f}".format(accuracy_std))
 print("==========================================")
 print("=== result : {:.4f} ± {:.4f}".format(sum(accuracy_list)/len(accuracy_list), np.std(accuracy_list)))
-print("=== RMSE result : {:.4f} ± {:.4f}".format(rmse_mean, rmse_std))
 print("==========================================")
 
 # 결과를 DataFrame으로 변환하여 CSV 파일에 추가로 저장
