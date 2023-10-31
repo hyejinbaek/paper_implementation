@@ -1,8 +1,8 @@
 # 데이터셋 변경하여 진행(breast-cancer dataset)
 # tensorflow version : 2.12.0
-# 실행 명령어 : python 2_ensemble_zero+dynamic.py --seed 0 --missing_rate 20 --num_mi 5 --m 10 --tau 0.05
+# 실행 명령어 : python 7_dynamic+datawig+zero.py --seed 0 --missing_rate 20 --num_mi 5 --m 10 --tau 0.05
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '0'
+os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 from setproctitle import *
 setproctitle('hyejin')
 import warnings
@@ -20,6 +20,8 @@ from tensorflow.keras.layers import Input, Embedding, Flatten
 from sklearn.preprocessing import LabelEncoder
 from math import sqrt
 from sklearn.metrics import accuracy_score
+from datawig import SimpleImputer
+
 
 # CSV 파일 경로 설정
 result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/7_post_ensemble_method_res.csv'
@@ -105,12 +107,17 @@ def build_embedding_model(input_dims, embedding_dims):
     return inputs, embeddings
 
 accuracy_list = []
+imputers = {}
+
 def main(args):
 
     seed = args.seed
+    #dataset = args.dataset
     missing_rate = args.missing_rate
     
     hyperparameters = {'num_mi': args.num_mi, 'm': args.m, 'tau': args.tau}
+
+    data_pth = './krkopt.data'
     
     # 데이터 파일 경로 설정
     data_pth = './post-operative.data'
@@ -149,6 +156,7 @@ def main(args):
 
     for i  in range(10):
         x_trnval, x_tst, y_trnval, y_tst = train_test_split(x,y, test_size=0.2, shuffle=True, random_state=i)
+
         dim_x = x_trnval.shape[1]
 
         if y_trnval.shape[1] > 2:
@@ -175,10 +183,55 @@ def main(args):
         test_X_zero_imputed = x_txt_zero_imputed
         test_y_zero_imputed = y_txt_zero_imputed
 
+        ## datawig
+        x_trnval_datawig = pd.DataFrame(x_trnval, columns=train_col)
+        y_trnval_datawig = pd.DataFrame(y_trnval, columns=['class'])
+        x_tst_datawig = pd.DataFrame(x_tst, columns=train_col)
+        y_tst_datawig = pd.DataFrame(y_tst, columns=['class'])
+
+        for col in train_col:
+            imputer = SimpleImputer(
+                input_columns=train_col,
+                output_column=col,
+                output_path=f'./imputer_model/imputer_model_{col}'
+            )
+            imputer.fit(train_df=x_trnval_datawig, num_epochs=5)
+            imputers[col] = imputer
+
+        # Impute missing values for each column in train_data
+        train_imputed_data = {}
+
+        for col, imputer in imputers.items():
+            predictions = imputer.predict(x_trnval_datawig)
+            train_imputed_data[col] = predictions[col + '_imputed']
+
+        # Create a DataFrame with imputed values for train set
+        train_imputed_df = pd.DataFrame(train_imputed_data)
+
+        # Impute missing values for each column in test_data
+        test_imputed_data = {}
+        for col, imputer in imputers.items():
+            predictions = imputer.predict(x_tst_datawig)
+            test_imputed_data[col] = predictions[col + '_imputed']
+
+        # Create a DataFrame with imputed values for test set
+        test_imputed_df = pd.DataFrame(test_imputed_data)
+
+        # datawig imputation을 위해 데이터 프레임으로 전환
+        x_trnval_datawig_imputed = train_imputed_df[train_col]
+        y_trnval_datawig_imputed = y_trnval_datawig
+        x_tst_datawig_imputed = test_imputed_df[train_col]
+        y_tst_datawig_imputed = y_tst_datawig
+
         # 신경망 모델 초기화 및 학습 (Zero Imputation)
         model_zero_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
         model_zero_imputation.train_model(train_X_zero_imputed, train_y_zero_imputed, num_epochs=50, batch_size=32)
         accuracy_zero_imputation = model_zero_imputation.get_accuracy(test_X_zero_imputed.values, test_y_zero_imputed.values.reshape(-1, 1))
+        
+        # 신경망 모델 초기화 및 학습 (datawig Imputation)
+        model_datawig_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
+        model_datawig_imputation.train_model(x_trnval_datawig_imputed, y_trnval_datawig_imputed, num_epochs=50, batch_size=32)
+        accuracy_datawig_imputation = model_datawig_imputation.get_accuracy(x_tst_datawig_imputed.values, y_tst_datawig_imputed.values.reshape(-1, 1))
 
         # dynamic 신경망 모델
         model = Dynamic_imputation_nn(dim_x, dim_y, seed)
@@ -187,21 +240,22 @@ def main(args):
 
         print("==========================================")
         print(str(i+1)+"th dynamic accuracy === : ", acc)
+        print(str(i+1)+"th datawig accuracy === : ", accuracy_datawig_imputation)
         print(str(i+1)+"th zero accuracy === : ", accuracy_zero_imputation)
         print("==========================================")
 
         acc_list.append(acc)
+        acc_list.append(accuracy_datawig_imputation)
         acc_list.append(accuracy_zero_imputation)
-        
+
         # 결과를 딕셔너리로 저장
         result = {
             'Dataset' : '7_post',
-            'method' : '2_zero + dynamic',
+            'method' : '7_dynamic + datawig + zero',
             'Experiment': i + 1,
             'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(acc_list), np.std(acc_list))
         }
         results.append(result)
-
 
     print("==========================================")
     print("=== result : {:.4f} ± {:.4f}".format(sum(acc_list)/len(acc_list), np.std(acc_list)))

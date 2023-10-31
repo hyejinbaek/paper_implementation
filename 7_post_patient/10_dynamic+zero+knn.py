@@ -1,8 +1,8 @@
 # 데이터셋 변경하여 진행(breast-cancer dataset)
 # tensorflow version : 2.12.0
-# 실행 명령어 : python 2_ensemble_zero+dynamic.py --seed 0 --missing_rate 20 --num_mi 5 --m 10 --tau 0.05
+# 실행 명령어 : python 10_dynamic+zero+knn.py --seed 0 --missing_rate 20 --num_mi 5 --m 10 --tau 0.05
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '0'
+os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 from setproctitle import *
 setproctitle('hyejin')
 import warnings
@@ -20,12 +20,31 @@ from tensorflow.keras.layers import Input, Embedding, Flatten
 from sklearn.preprocessing import LabelEncoder
 from math import sqrt
 from sklearn.metrics import accuracy_score
+from sklearn.impute import KNNImputer
 
 # CSV 파일 경로 설정
 result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/7_post_ensemble_method_res.csv'
 
 # 결과를 저장할 리스트 초기화
 results = []
+
+def label_encode(df, columns):
+    df_encoded = df.copy()
+    label_encoder = LabelEncoder()
+    for col in columns:
+        df_encoded[col] = label_encoder.fit_transform(df_encoded[col].astype(str))
+    return df_encoded
+
+def build_embedding_model(input_dims, embedding_dims):
+    inputs = []
+    embeddings = []
+    for input_dim in input_dims:
+        input_layer = Input(shape=(1,))
+        embedding = Embedding(input_dim, embedding_dims)(input_layer)
+        embedding = Flatten()(embedding)
+        inputs.append(input_layer)
+        embeddings.append(embedding)
+    return inputs, embeddings
 
 class DynamicImputationModel:
     def __init__(self, num_layers, num_hidden, dim_y, num_features):
@@ -86,32 +105,15 @@ class DynamicImputationModel:
 
         return acc
 
-def label_encode(df, columns):
-    df_encoded = df.copy()
-    label_encoder = LabelEncoder()
-    for col in columns:
-        df_encoded[col] = label_encoder.fit_transform(df_encoded[col].astype(str))
-    return df_encoded
-
-def build_embedding_model(input_dims, embedding_dims):
-    inputs = []
-    embeddings = []
-    for input_dim in input_dims:
-        input_layer = Input(shape=(1,))
-        embedding = Embedding(input_dim, embedding_dims)(input_layer)
-        embedding = Flatten()(embedding)
-        inputs.append(input_layer)
-        embeddings.append(embedding)
-    return inputs, embeddings
-
 accuracy_list = []
+
 def main(args):
 
     seed = args.seed
     missing_rate = args.missing_rate
     
     hyperparameters = {'num_mi': args.num_mi, 'm': args.m, 'tau': args.tau}
-    
+
     # 데이터 파일 경로 설정
     data_pth = './post-operative.data'
 
@@ -142,6 +144,7 @@ def main(args):
     y = data['class_1']  # 예시로 'class_1'을 선택
     y = y.values.reshape(-1, 1)
 
+
     # for문에서 뺌
     x,y = preprocessing(x, y, missing_rate, seed)
 
@@ -149,6 +152,7 @@ def main(args):
 
     for i  in range(10):
         x_trnval, x_tst, y_trnval, y_tst = train_test_split(x,y, test_size=0.2, shuffle=True, random_state=i)
+
         dim_x = x_trnval.shape[1]
 
         if y_trnval.shape[1] > 2:
@@ -163,6 +167,12 @@ def main(args):
         x_tst_zero = pd.DataFrame(x_tst, columns=train_col)
         y_tst_zero = pd.DataFrame(y_tst, columns=['class'])
         
+        # knn imputation을 위해 데이터 프레임으로 전환
+        x_trnval_knn = pd.DataFrame(x_trnval, columns=train_col)
+        y_trnval_knn = pd.DataFrame(y_trnval, columns=['class'])
+        x_tst_knn = pd.DataFrame(x_tst, columns=train_col)
+        y_tst_knn = pd.DataFrame(y_tst, columns=['class'])
+        
         # zero imputation
         x_trnval_zero_imputed = x_trnval_zero.fillna(0)
         y_trnval_zero_imputed = y_trnval_zero.fillna(0)
@@ -175,33 +185,50 @@ def main(args):
         test_X_zero_imputed = x_txt_zero_imputed
         test_y_zero_imputed = y_txt_zero_imputed
 
+        # knn imputation
+        imputer = KNNImputer(n_neighbors=5)
+        train_data_knn_imputed = pd.DataFrame(imputer.fit_transform(x_trnval_knn), columns=train_col)
+        test_data_knn_imputed = pd.DataFrame(imputer.transform(x_tst_knn), columns=train_col)
+
+        # knn imputation 학습 위한 데이터 준비
+        train_X_knn_imputed = train_data_knn_imputed
+        train_y_knn_imputed = y_trnval_knn
+        test_X_knn_imputed = test_data_knn_imputed
+        test_y_knn_imputed = y_tst_knn
+
         # 신경망 모델 초기화 및 학습 (Zero Imputation)
         model_zero_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
         model_zero_imputation.train_model(train_X_zero_imputed, train_y_zero_imputed, num_epochs=50, batch_size=32)
         accuracy_zero_imputation = model_zero_imputation.get_accuracy(test_X_zero_imputed.values, test_y_zero_imputed.values.reshape(-1, 1))
 
+        # 신경망 모델 초기화 및 학습 (knn Imputation)
+        model_knn_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
+        model_knn_imputation.train_model(train_X_knn_imputed, train_y_knn_imputed, num_epochs=50, batch_size=32)
+        accuracy_knn_imputation = model_knn_imputation.get_accuracy(test_X_knn_imputed.values, test_y_knn_imputed.values.reshape(-1, 1))
+
         # dynamic 신경망 모델
         model = Dynamic_imputation_nn(dim_x, dim_y, seed)
         model.train_with_dynamic_imputation(x_trnval, y_trnval, save_path, **hyperparameters)
         acc = model.get_accuracy(x_tst, y_tst)
-
+        
         print("==========================================")
         print(str(i+1)+"th dynamic accuracy === : ", acc)
+        print(str(i+1)+"th knn accuracy === : ", accuracy_knn_imputation)
         print(str(i+1)+"th zero accuracy === : ", accuracy_zero_imputation)
         print("==========================================")
 
         acc_list.append(acc)
+        acc_list.append(accuracy_knn_imputation)
         acc_list.append(accuracy_zero_imputation)
-        
+
         # 결과를 딕셔너리로 저장
         result = {
             'Dataset' : '7_post',
-            'method' : '2_zero + dynamic',
+            'method' : '10_dynamic+zero+knn',
             'Experiment': i + 1,
-            'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(acc_list), np.std(acc_list))
+            'Accuracy': "{:.4f} ± {:.4f}".format(acc, np.std(acc))
         }
         results.append(result)
-
 
     print("==========================================")
     print("=== result : {:.4f} ± {:.4f}".format(sum(acc_list)/len(acc_list), np.std(acc_list)))
@@ -215,6 +242,7 @@ def main(args):
         results_df.to_csv(result_csv_path, index=False)
 
     print("Results saved to:", result_csv_path)
+
 
 if __name__ == '__main__':
     arg_parser = argparse.ArgumentParser(description='Dynamic imputation')
