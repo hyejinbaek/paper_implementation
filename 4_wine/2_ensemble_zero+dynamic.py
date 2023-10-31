@@ -14,7 +14,6 @@ import tensorflow as tf
 import numpy as np
 import pandas as pd
 import argparse
-from sklearn.metrics import mean_squared_error
 from math import sqrt
 from sklearn.metrics import accuracy_score
 import tensorflow.compat.v1 as tf
@@ -27,22 +26,21 @@ result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/4_wine_en
 results = []
 
 class DynamicImputationModel:
-    def __init__(self, num_layers, num_hidden, dim_y, train_X, train_y):
+    def __init__(self, num_layers, num_hidden, dim_y, num_features):
         self.num_layers = num_layers
         self.num_hidden = num_hidden
         self.dim_y = dim_y
+        self.num_features = num_features
         tf.compat.v1.disable_eager_execution()
-        self.x = tf.compat.v1.placeholder(tf.float32, shape=[None, train_X.shape[1]])
-        self.y_true = tf.compat.v1.placeholder(tf.float32, shape=[None, 1])
+        self.x = tf.compat.v1.placeholder(tf.float32, shape=[None, self.num_features])
+
+        self.y_true = tf.compat.v1.placeholder(tf.float32, shape=[None, dim_y])
         self.logits, self.pred = self.build_model(self.x)
         self.loss = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(labels=self.y_true, logits=self.logits))
         self.optimizer = tf.train.AdamOptimizer(learning_rate=0.001)
         self.train_op = self.optimizer.minimize(self.loss)
         self.sess = tf.Session()
         self.sess.run(tf.global_variables_initializer())
-        
-        self.train_X = train_X  # Store train_X and train_y as instance variables
-        self.train_y = train_y
 
     def build_model(self, x):
         for _ in range(self.num_layers):
@@ -124,9 +122,6 @@ def main(args):
     x,y = preprocessing(x, y, missing_rate, seed)
 
     acc_list, auroc = [], []
-    
-    # rmse 추가!!!!
-    rmse_list = []
 
     for i  in range(10):
         x_trnval, x_tst, y_trnval, y_tst = train_test_split(x,y, test_size=0.2, shuffle=True, random_state=i)
@@ -159,36 +154,18 @@ def main(args):
         test_y_zero_imputed = y_txt_zero_imputed
 
         # 신경망 모델 초기화 및 학습 (Zero Imputation)
-        model_zero_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, train_X=train_X_zero_imputed, train_y=train_y_zero_imputed)
+        model_zero_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
         model_zero_imputation.train_model(train_X_zero_imputed, train_y_zero_imputed, num_epochs=50, batch_size=32)
         accuracy_zero_imputation = model_zero_imputation.get_accuracy(test_X_zero_imputed.values, test_y_zero_imputed.values.reshape(-1, 1))
-        y_zero_pred = model_zero_imputation.sess.run(model_zero_imputation.pred, feed_dict={model_zero_imputation.x: test_X_zero_imputed.values})
-        zero_rmse = sqrt(mean_squared_error(test_y_zero_imputed, y_zero_pred))
 
+        # dynamic 신경망 모델
         model = Dynamic_imputation_nn(dim_x, dim_y, seed)
         model.train_with_dynamic_imputation(x_trnval, y_trnval, save_path, **hyperparameters)
-
-        # dynamic x_tst_imputed : 테스트 세트에 대한 imputation 수행
-        x_tst_imputed = model.imputer.transform(x_tst)
-        y_pred = model.sess.run(model.pred, feed_dict={model.x: x_tst_imputed})
         acc = model.get_accuracy(x_tst, y_tst)
-        dynamic_rmse = sqrt(mean_squared_error(y_tst, y_pred))
-
-        # Ensemble을 위해 두 모델의 예측을 결합
-        combined_predictions = (model.sess.run(model.pred, feed_dict={model.x: x_tst_imputed}) 
-                        + model_zero_imputation.sess.run(
-                            model_zero_imputation.pred, feed_dict={model_zero_imputation.x: test_X_zero_imputed})) / 2
-        
-        # rmse 2개의 imputation method RMSE 계산
-        rmse_combined = np.sqrt(mean_squared_error(y_pred, combined_predictions))
-        rmse_list.append(rmse_combined) 
         
         print("==========================================")
         print(str(i+1)+"th dynamic accuracy === : ", acc)
         print(str(i+1)+"th zero accuracy === : ", accuracy_zero_imputation)
-        print(str(i+1)+"th dynamic rmse === : ", dynamic_rmse)
-        print(str(i+1)+"th zero rmse === : ", np.mean(zero_rmse))
-        print(str(i + 1) + "th Ensemble RMSE: {:.4f}".format(rmse_combined))
         print("==========================================")
 
         acc_list.append(acc)
@@ -200,15 +177,13 @@ def main(args):
             'Dataset' : '4_wine',
             'method' : '2_zero + dynamic',
             'Experiment': i + 1,
-            'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(acc_list), np.std(acc_list)),
-            'RMSE': "{:.4f} ± {:.4f}".format(np.mean(rmse_list), np.std(rmse_list)),
+            'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(acc_list), np.std(acc_list))
         }
         results.append(result)
 
 
     print("==========================================")
     print("=== result : {:.4f} ± {:.4f}".format(sum(acc_list)/len(acc_list), np.std(acc_list)))
-    print("=== RMSE result : {:.4f} ± {:.4f}".format(sum(rmse_list)/len(rmse_list), np.std(rmse_list)))
     print("==========================================")
 
     # 결과를 DataFrame으로 변환하여 CSV 파일에 추가로 저장

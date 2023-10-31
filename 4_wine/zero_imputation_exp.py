@@ -5,15 +5,8 @@ import tensorflow as tf
 from setproctitle import setproctitle
 import os
 import tensorflow.compat.v1 as tf
-tf.disable_v2_behavior
-from sklearn.impute import KNNImputer
+tf.disable_v2_behavior()
 from sklearn.metrics import accuracy_score
-
-# CSV 파일 경로 설정
-result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/4_wine_ensemble_method_res.csv'
-
-# 결과를 저장할 리스트 초기화
-results = []
 
 # CUDA 환경 설정
 os.environ['CUDA_VISIBLE_DEVICES'] = '3'
@@ -21,27 +14,30 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 # 프로세스 제목 설정
 setproctitle('hyejin')
 
+# CSV 파일 경로 설정
+result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/experiment_result.csv'
+
+# 결과를 저장할 리스트 초기화
+results = []
+
 class DynamicImputationModel:
-    def __init__(self, num_layers, num_hidden, dim_y, num_features):
+    def __init__(self, num_layers, num_hidden, dim_y):
         self.num_layers = num_layers
         self.num_hidden = num_hidden
         self.dim_y = dim_y
-        self.num_features = num_features
-        tf.compat.v1.disable_eager_execution()
-        self.x = tf.compat.v1.placeholder(tf.float32, shape=[None, self.num_features])
-
-        self.y_true = tf.compat.v1.placeholder(tf.float32, shape=[None, dim_y])
+        self.x = tf.compat.v1.placeholder(tf.float32, shape=[None, train_X.shape[1]])
+        self.y_true = tf.compat.v1.placeholder(tf.float32, shape=[None, 1])
         self.logits, self.pred = self.build_model(self.x)
         self.loss = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(labels=self.y_true, logits=self.logits))
         self.optimizer = tf.train.AdamOptimizer(learning_rate=0.001)
-        self.train_op = self.optimizer.minimize(self.loss)
+        self.train_op = self.optimizer.minimize(self.loss, var_list=tf.trainable_variables())
         self.sess = tf.Session()
         self.sess.run(tf.global_variables_initializer())
 
     def build_model(self, x):
         for _ in range(self.num_layers):
-            x = tf.layers.dense(x, self.num_hidden, activation=tf.nn.tanh)
-        logits = tf.layers.dense(x, self.dim_y)
+            x = tf.keras.layers.Dense(self.num_hidden, activation=tf.nn.tanh)(x)
+        logits = tf.keras.layers.Dense(self.dim_y)(x)
 
         if self.dim_y == 1:
             pred = tf.nn.sigmoid(logits)
@@ -54,15 +50,18 @@ class DynamicImputationModel:
         num_batches = int(np.ceil(len(train_X) / batch_size))
         for epoch in range(num_epochs):
             indices = np.arange(len(train_X))
+            np.random.seed(epoch)
             np.random.shuffle(indices)
-            train_X_shuffled = train_X.iloc[indices]
-            train_y_shuffled = train_y.iloc[indices]
+            train_X_shuffled = train_X[indices]
+            #print("==== train_X_shuffled ====", train_X_shuffled)
+            train_y_shuffled = train_y[indices]
+            #print("==== train_y_shuffled ====", train_y_shuffled)
 
             for i in range(num_batches):
-                batch_X = train_X_shuffled.iloc[i * batch_size: (i + 1) * batch_size]
-                batch_y = train_y_shuffled.iloc[i * batch_size: (i + 1) * batch_size]
+                batch_X = train_X_shuffled[i * batch_size: (i + 1) * batch_size]
+                batch_y = train_y_shuffled[i * batch_size: (i + 1) * batch_size]
 
-                self.sess.run(self.train_op, feed_dict={self.x: batch_X.values, self.y_true: batch_y.values.reshape(-1, 1)})
+                self.sess.run(self.train_op, feed_dict={self.x: batch_X, self.y_true: batch_y.reshape(-1, 1)})
 
     def get_accuracy(self, x_tst, y_tst):
         if self.dim_y == 1:
@@ -80,6 +79,7 @@ class DynamicImputationModel:
 
         return acc
 
+
 # 데이터 파일 경로 설정
 data_pth = './wine.data'
 
@@ -94,6 +94,7 @@ train_col = ['Alcohol', 'Malic_acid', 'Ash', 'Alcalinity_of_ash', 'Magnesium',
 data = df_data
 
 
+# 결측치 20% 생성
 missing_length = 0.2
 for col in train_col:
     nan_mask = np.random.rand(data.shape[0]) < missing_length
@@ -105,63 +106,58 @@ data_with_missing = data
 num_iterations = 10
 
 accuracy_list = []
+rmse_list = []
+
 
 for iteration in range(num_iterations):
     # Train set과 test set으로 분할
     train_data, test_data = train_test_split(data_with_missing, test_size=0.2, random_state=iteration)
 
-    # 데이터 결측치 채우기 (KNN Imputation)
-    imputer = KNNImputer(n_neighbors=5)
-    train_data_knn_imputed = pd.DataFrame(imputer.fit_transform(train_data), columns=train_data.columns)
-    test_data_knn_imputed = pd.DataFrame(imputer.transform(test_data), columns=test_data.columns)
-
-    # 데이터 결측치 채우기 (Zero Imputation)
-    train_data_zero_imputed = train_data.fillna(0)
-    test_data_zero_imputed = test_data.fillna(0)
+    # 데이터 결측치 채우기
+    train_data = train_data.fillna(0)
+    test_data = test_data.fillna(0)
 
     # 학습을 위한 데이터 준비
-    train_X_knn_imputed = train_data_knn_imputed.drop(columns=['class'])
-    train_y_knn_imputed = train_data_knn_imputed['class']
-    test_X_knn_imputed = test_data_knn_imputed.drop(columns=['class'])
-    test_y_knn_imputed = test_data_knn_imputed['class']
+    train_X = train_data.drop(columns=['class']).values
+    train_y = train_data['class'].values
+    test_X = test_data.drop(columns=['class']).values
+    test_y = test_data['class'].values
 
-    train_X_zero_imputed = train_data_zero_imputed.drop(columns=['class'])
-    train_y_zero_imputed = train_data_zero_imputed['class']
-    test_X_zero_imputed = test_data_zero_imputed.drop(columns=['class'])
-    test_y_zero_imputed = test_data_zero_imputed['class']
+    # 신경망 모델 초기화 및 학습
+    model = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1)
+    num_epochs = 50
+    batch_size = 32
 
-    # 신경망 모델 초기화 및 학습 (KNN Imputation)
-    model_knn_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
-    model_knn_imputation.train_model(train_X_knn_imputed, train_y_knn_imputed, num_epochs=50, batch_size=32)
-    accuracy_knn_imputation = model_knn_imputation.get_accuracy(test_X_knn_imputed.values, test_y_knn_imputed.values.reshape(-1, 1))
+    model.train_model(train_X, train_y, num_epochs, batch_size)
+    accuracy = model.get_accuracy(test_X, test_y.reshape(-1, 1))
 
-    # 신경망 모델 초기화 및 학습 (Zero Imputation)
-    model_zero_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
-    model_zero_imputation.train_model(train_X_zero_imputed, train_y_zero_imputed, num_epochs=50, batch_size=32)
-    accuracy_zero_imputation = model_zero_imputation.get_accuracy(test_X_zero_imputed.values, test_y_zero_imputed.values.reshape(-1, 1))
+    print("==========================================")
+    print(str(iteration + 1) + "th accuracy === : ", accuracy)
+    print("==========================================")
+
+    accuracy_list.append(accuracy)
+   
+    model.sess.close()
     
-    print("==========================================")
-    print(str(iteration + 1) + "th KNN Imputation accuracy: ", accuracy_knn_imputation)
-    print(str(iteration + 1) + "th Zero Imputation accuracy: ", accuracy_zero_imputation)
-    print("==========================================")
+    # 평균과 표준편차 계산
+    accuracy_mean = np.mean(accuracy_list)
+    accuracy_std = np.std(accuracy_list)
 
-    accuracy_list.append(accuracy_knn_imputation)
-    accuracy_list.append(accuracy_zero_imputation)
-
-    # 결과를 딕셔너리로 저장 (Ensemble 결과)
+    # 결과를 딕셔너리로 저장
     result = {
-        'Dataset': '4_wine',
-        'method': '1_zero+knn',
+        'Dataset' : '4_wine',
+        'method' : 'zero',
         'Experiment': iteration + 1,
-        'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(accuracy_list), np.std(accuracy_list))
+        'Accuracy': "{:.4f} ± {:.4f}".format(accuracy, np.std(accuracy))
     }
     results.append(result)
 
-print("Mean Ensemble Accuracy: {:.4f}".format(np.mean(accuracy_list)))
-print("Standard Deviation of Ensemble Accuracy: {:.4f}".format(np.std(accuracy_list)))
+print("Mean Accuracy: {:.2f}".format(accuracy_mean))
+print("Standard Deviation of Accuracy: {:.2f}".format(accuracy_std))
 print("==========================================")
 print("=== result : {:.4f} ± {:.4f}".format(sum(accuracy_list)/len(accuracy_list), np.std(accuracy_list)))
 print("==========================================")
+
 
 # 결과를 DataFrame으로 변환하여 CSV 파일에 추가로 저장
 results_df = pd.DataFrame(results)
@@ -171,3 +167,5 @@ else:
     results_df.to_csv(result_csv_path, index=False)
 
 print("Results saved to:", result_csv_path)
+
+
