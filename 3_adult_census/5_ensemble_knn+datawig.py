@@ -8,7 +8,6 @@ from sklearn.preprocessing import LabelEncoder
 import os
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior
-from sklearn.metrics import mean_squared_error
 from sklearn.metrics import accuracy_score
 from datawig import SimpleImputer
 from sklearn.impute import KNNImputer
@@ -26,9 +25,6 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 
 # 프로세스 제목 설정
 setproctitle('hyejin')
-
-def calculate_rmse(y_true, predictions):
-    return np.sqrt(mean_squared_error(y_true, predictions))
 
 def label_encode(df, columns):
     df_encoded = df.copy()
@@ -49,22 +45,21 @@ def build_embedding_model(input_dims, embedding_dims):
     return inputs, embeddings
 
 class DynamicImputationModel:
-    def __init__(self, num_layers, num_hidden, dim_y, train_X, train_y):
+    def __init__(self, num_layers, num_hidden, dim_y, num_features):
         self.num_layers = num_layers
         self.num_hidden = num_hidden
         self.dim_y = dim_y
+        self.num_features = num_features
         tf.compat.v1.disable_eager_execution()
-        self.x = tf.compat.v1.placeholder(tf.float32, shape=[None, train_X.shape[1]])
-        self.y_true = tf.compat.v1.placeholder(tf.float32, shape=[None, 1])
+        self.x = tf.compat.v1.placeholder(tf.float32, shape=[None, self.num_features])
+
+        self.y_true = tf.compat.v1.placeholder(tf.float32, shape=[None, dim_y])
         self.logits, self.pred = self.build_model(self.x)
         self.loss = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(labels=self.y_true, logits=self.logits))
         self.optimizer = tf.train.AdamOptimizer(learning_rate=0.001)
         self.train_op = self.optimizer.minimize(self.loss)
         self.sess = tf.Session()
         self.sess.run(tf.global_variables_initializer())
-        
-        self.train_X = train_X  # Store train_X and train_y as instance variables
-        self.train_y = train_y
 
     def build_model(self, x):
         for _ in range(self.num_layers):
@@ -177,13 +172,6 @@ for iteration in range(num_iterations):
     test_X = test_imputed_df[train_col]
     test_y = test_data['target']
 
-    # 신경망 모델 학습
-    model_datawig_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, train_X=train_X, train_y=train_y)
-    model_datawig_imputation.train_model(train_X, train_y, num_epochs=50, batch_size=32)
-    accuracy = model_datawig_imputation.get_accuracy(test_X.values, test_y.values.reshape(-1, 1))
-    y_datawig_pred = model_datawig_imputation.sess.run(model_datawig_imputation.pred, feed_dict={model_datawig_imputation.x: test_X.values})
-    datawig_rmse = sqrt(mean_squared_error(test_y, y_datawig_pred))
-        
      # 데이터 결측치 채우기 (KNN Imputation)
     imputer = KNNImputer(n_neighbors=5)
     train_data_knn_imputed = pd.DataFrame(imputer.fit_transform(train_data), columns=train_data.columns)
@@ -195,30 +183,19 @@ for iteration in range(num_iterations):
     test_X_knn_imputed = test_data_knn_imputed.drop(columns=['target'])
     test_y_knn_imputed = test_data_knn_imputed['target']
 
+    # datawig 신경망 모델 학습
+    model_datawig_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
+    model_datawig_imputation.train_model(train_X, train_y, num_epochs=50, batch_size=32)
+    accuracy = model_datawig_imputation.get_accuracy(test_X.values, test_y.values.reshape(-1, 1))
+
     # 신경망 모델 초기화 및 학습 (KNN Imputation)
-    model_knn_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, train_X=train_X_knn_imputed, train_y=train_y_knn_imputed)
+    model_knn_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
     model_knn_imputation.train_model(train_X_knn_imputed, train_y_knn_imputed, num_epochs=50, batch_size=32)
     accuracy_knn_imputation = model_knn_imputation.get_accuracy(test_X_knn_imputed.values, test_y_knn_imputed.values.reshape(-1, 1))
-    y_knn_pred = model_knn_imputation.sess.run(model_knn_imputation.pred, feed_dict={model_knn_imputation.x: test_X_knn_imputed.values})
-    knn_rmse = sqrt(mean_squared_error(test_y_knn_imputed, y_knn_pred))
-
-    # Ensemble을 위해 두 모델의 예측을 결합
-    prediction_model_1 = model_datawig_imputation.sess.run(model_datawig_imputation.pred, feed_dict={model_datawig_imputation.x: test_X.values})
-    prediction_model_2 = model_knn_imputation.sess.run(model_knn_imputation.pred, feed_dict={model_knn_imputation.x: test_X_knn_imputed.values})
-    combined_predictions = (prediction_model_1 + prediction_model_2)/2
-
-
-
-    # RMSE 계산
-    rmse_combined = calculate_rmse(test_y_knn_imputed, combined_predictions)
-    rmse_list.append(rmse_combined)
     
     print("==========================================")
     print(str(iteration + 1) + "th Datawig Imputation accuracy: ", accuracy)
     print(str(iteration + 1) + "th knn Imputation accuracy: ", accuracy_knn_imputation)
-    print(str(iteration+1)+"th Datawig rmse === : ", datawig_rmse)
-    print(str(iteration+1)+"th knn rmse === : ", np.mean(knn_rmse))
-    print(str(iteration + 1) + "th Ensemble RMSE: {:.4f}".format(rmse_combined))
     print("==========================================")
 
     accuracy_list.append(accuracy)
@@ -229,8 +206,7 @@ for iteration in range(num_iterations):
         'Dataset': '3_adult',
         'method': '5_knn+datawig',
         'Experiment': iteration + 1,
-        'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(accuracy_list), np.std(accuracy_list)),
-        'RMSE': "{:.4f} ± {:.4f}".format(np.mean(rmse_list), np.std(rmse_list)),   
+        'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(accuracy_list), np.std(accuracy_list))
     }
     results.append(result)
 
@@ -238,7 +214,6 @@ print("Mean Ensemble Accuracy: {:.4f}".format(np.mean(accuracy_list)))
 print("Standard Deviation of Ensemble Accuracy: {:.4f}".format(np.std(accuracy_list)))
 print("==========================================")
 print("=== result : {:.4f} ± {:.4f}".format(sum(accuracy_list)/len(accuracy_list), np.std(accuracy_list)))
-print("=== RMSE result : {:.4f} ± {:.4f}".format(np.mean(rmse_list), np.std(rmse_list)))
 print("==========================================")
 
 # 결과를 DataFrame으로 변환하여 CSV 파일에 추가로 저장
