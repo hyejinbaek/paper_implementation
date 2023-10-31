@@ -7,21 +7,20 @@ from tensorflow.keras.layers import Input, Embedding, Flatten
 from sklearn.preprocessing import LabelEncoder
 import os
 import tensorflow.compat.v1 as tf
-tf.disable_v2_behavior
+tf.disable_v2_behavior()
 from sklearn.metrics import accuracy_score
-from datawig import SimpleImputer
-
-# CSV 파일 경로 설정
-result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/1_breast_ensemble_method_res.csv'
-
-# 결과를 저장할 리스트 초기화
-results = []
 
 # CUDA 환경 설정
 os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 
 # 프로세스 제목 설정
 setproctitle('hyejin')
+
+# CSV 파일 경로 설정
+result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/experiment_result.csv'
+
+# 결과를 저장할 리스트 초기화
+results = []
 
 def label_encode(df, columns):
     df_encoded = df.copy()
@@ -42,15 +41,13 @@ def build_embedding_model(input_dims, embedding_dims):
     return inputs, embeddings
 
 class DynamicImputationModel:
-    def __init__(self, num_layers, num_hidden, dim_y, num_features):
+    def __init__(self, num_layers, num_hidden, dim_y):
         self.num_layers = num_layers
         self.num_hidden = num_hidden
         self.dim_y = dim_y
-        self.num_features = num_features
         tf.compat.v1.disable_eager_execution()
-        self.x = tf.compat.v1.placeholder(tf.float32, shape=[None, self.num_features])
-
-        self.y_true = tf.compat.v1.placeholder(tf.float32, shape=[None, dim_y])
+        self.x = tf.compat.v1.placeholder(tf.float32, shape=[None, train_X.shape[1]])
+        self.y_true = tf.compat.v1.placeholder(tf.float32, shape=[None, 1])
         self.logits, self.pred = self.build_model(self.x)
         self.loss = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(labels=self.y_true, logits=self.logits))
         self.optimizer = tf.train.AdamOptimizer(learning_rate=0.001)
@@ -106,7 +103,6 @@ data_pth = './breast-cancer.data'
 # 데이터 불러오기
 df_data = pd.read_csv(data_pth)
 df_data.columns = ['Class', 'age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'deg-malig', 'breast', 'breast-quad', 'irradiat']
-columns = ['Class', 'age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'deg-malig', 'breast', 'breast-quad', 'irradiat']
 df_data['node-caps'] = df_data['node-caps'].replace('?', 0).astype(str)
 df_data['breast-quad'] = df_data['breast-quad'].replace('?', 0).astype(str)
 df_data['Class'] = df_data['Class'].replace({2: 0, 4: 1})
@@ -114,7 +110,7 @@ data = df_data
 
 # 범주형 피처 선택
 categorical_columns = ['Class', 'age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'breast', 'breast-quad', 'irradiat']
-train_col = ['age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'deg-malig', 'breast', 'breast-quad', 'irradiat']
+train_col = ['age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'breast', 'breast-quad', 'irradiat']
 
 # 레이블 인코딩 적용
 df_encoded = label_encode(df_data, categorical_columns)
@@ -131,87 +127,51 @@ data_with_missing = data
 num_iterations = 10
 
 accuracy_list = []
-rmse_list = []
-imputers = {}
 
 for iteration in range(num_iterations):
     # Train set과 test set으로 분할
     train_data, test_data = train_test_split(data_with_missing, test_size=0.2, random_state=iteration)
 
-    ## datawig
-    for col in train_col:
-        imputer = SimpleImputer(
-            input_columns=train_col,
-            output_column=col,
-            output_path=f'./imputer_model/imputer_model_{col}'
-        )
-        imputer.fit(train_df=train_data, num_epochs=5)
-        imputers[col] = imputer
-
-    # Impute missing values for each column in train_data
-    train_imputed_data = {}
-    
-    for col, imputer in imputers.items():
-        predictions = imputer.predict(train_data)
-        train_imputed_data[col] = predictions[col + '_imputed']  # '_imputed' is added by datawig
-
-    # Create a DataFrame with imputed values for train set
-    train_imputed_df = pd.DataFrame(train_imputed_data)
-
-    # Impute missing values for each column in test_data
-    test_imputed_data = {}
-    for col, imputer in imputers.items():
-        predictions = imputer.predict(test_data)
-        test_imputed_data[col] = predictions[col + '_imputed']  # '_imputed' is added by datawig
-
-    # Create a DataFrame with imputed values for test set
-    test_imputed_df = pd.DataFrame(test_imputed_data)
+    # 데이터 결측치 채우기
+    train_data = train_data.fillna(0)
+    test_data = test_data.fillna(0)
 
     # 학습을 위한 데이터 준비
-    train_X = train_imputed_df[train_col]
+    train_X = train_data.drop(columns=['Class'])
     train_y = train_data['Class']
-    test_X = test_imputed_df[train_col]
+    test_X = test_data.drop(columns=['Class'])
     test_y = test_data['Class']
 
-    # 데이터 결측치 채우기 (Zero Imputation)
-    train_data_zero_imputed = train_data.fillna(0)
-    test_data_zero_imputed = test_data.fillna(0)
+    # 신경망 모델 초기화 및 학습
+    model = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1)
+    num_epochs = 50
+    batch_size = 32
 
-    # zero imputation 데이터 준비
-    train_X_zero_imputed = train_data_zero_imputed.drop(columns=['Class'])
-    train_y_zero_imputed = train_data_zero_imputed['Class']
-    test_X_zero_imputed = test_data_zero_imputed.drop(columns=['Class'])
-    test_y_zero_imputed = test_data_zero_imputed['Class']
-
-    # 신경망 모델 초기화 및 학습 (Zero Imputation)
-    model_zero_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
-    model_zero_imputation.train_model(train_X_zero_imputed, train_y_zero_imputed, num_epochs=50, batch_size=32)
-    accuracy_zero_imputation = model_zero_imputation.get_accuracy(test_X_zero_imputed.values, test_y_zero_imputed.values.reshape(-1, 1))
-
-    # dynamic 신경망 모델 학습
-    model_datawig_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
-    model_datawig_imputation.train_model(train_X, train_y, num_epochs=50, batch_size=32)
-    accuracy = model_datawig_imputation.get_accuracy(test_X.values, test_y.values.reshape(-1, 1))
-
+    model.train_model(train_X, train_y, num_epochs, batch_size)
+    accuracy = model.get_accuracy(test_X.values, test_y.values.reshape(-1, 1))
+    
     print("==========================================")
-    print(str(iteration + 1) + "th Datawig Imputation accuracy: ", accuracy)
-    print(str(iteration + 1) + "th Zero Imputation accuracy: ", accuracy_zero_imputation)
+    print(str(iteration+1)+"th accuracy === : ", accuracy)
     print("==========================================")
-
     accuracy_list.append(accuracy)
-    accuracy_list.append(accuracy_zero_imputation)
 
-    # 결과를 딕셔너리로 저장 (Ensemble 결과)
+    model.sess.close()
+    
+    # 평균과 표준편차 계산
+    accuracy_mean = np.mean(accuracy_list)
+    accuracy_std = np.std(accuracy_list)
+
+    # 결과를 딕셔너리로 저장
     result = {
-        'Dataset': '1_breast',
-        'method': '3_zero+datawig',
+        'Dataset' : '1_breast',
+        'method' : 'zero',
         'Experiment': iteration + 1,
-        'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(accuracy_list), np.std(accuracy_list))
+        'Accuracy': "{:.4f} ± {:.4f}".format(accuracy, np.std(accuracy))
     }
     results.append(result)
 
-print("Mean Ensemble Accuracy: {:.4f}".format(np.mean(accuracy_list)))
-print("Standard Deviation of Ensemble Accuracy: {:.4f}".format(np.std(accuracy_list)))
+print("Mean Accuracy: {:.2f}".format(accuracy_mean))
+print("Standard Deviation of Accuracy: {:.2f}".format(accuracy_std))
 print("==========================================")
 print("=== result : {:.4f} ± {:.4f}".format(sum(accuracy_list)/len(accuracy_list), np.std(accuracy_list)))
 print("==========================================")
@@ -224,3 +184,4 @@ else:
     results_df.to_csv(result_csv_path, index=False)
 
 print("Results saved to:", result_csv_path)
+

@@ -8,7 +8,6 @@ from sklearn.preprocessing import LabelEncoder
 import os
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior
-from sklearn.metrics import mean_squared_error
 from sklearn.impute import KNNImputer
 from sklearn.metrics import accuracy_score
 
@@ -43,22 +42,21 @@ def build_embedding_model(input_dims, embedding_dims):
     return inputs, embeddings
 
 class DynamicImputationModel:
-    def __init__(self, num_layers, num_hidden, dim_y, train_X, train_y):
+    def __init__(self, num_layers, num_hidden, dim_y, num_features):
         self.num_layers = num_layers
         self.num_hidden = num_hidden
         self.dim_y = dim_y
+        self.num_features = num_features
         tf.compat.v1.disable_eager_execution()
-        self.x = tf.compat.v1.placeholder(tf.float32, shape=[None, train_X.shape[1]])
-        self.y_true = tf.compat.v1.placeholder(tf.float32, shape=[None, 1])
+        self.x = tf.compat.v1.placeholder(tf.float32, shape=[None, self.num_features])
+
+        self.y_true = tf.compat.v1.placeholder(tf.float32, shape=[None, dim_y])
         self.logits, self.pred = self.build_model(self.x)
         self.loss = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(labels=self.y_true, logits=self.logits))
         self.optimizer = tf.train.AdamOptimizer(learning_rate=0.001)
         self.train_op = self.optimizer.minimize(self.loss)
         self.sess = tf.Session()
         self.sess.run(tf.global_variables_initializer())
-        
-        self.train_X = train_X  # Store train_X and train_y as instance variables
-        self.train_y = train_y
 
     def build_model(self, x):
         for _ in range(self.num_layers):
@@ -158,45 +156,30 @@ for iteration in range(num_iterations):
     test_y_zero_imputed = test_data_zero_imputed['Class']
 
     # 신경망 모델 초기화 및 학습 (KNN Imputation)
-    model_knn_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, train_X=train_X_knn_imputed, train_y=train_y_knn_imputed)
+    model_knn_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
     model_knn_imputation.train_model(train_X_knn_imputed, train_y_knn_imputed, num_epochs=50, batch_size=32)
     accuracy_knn_imputation = model_knn_imputation.get_accuracy(test_X_knn_imputed.values, test_y_knn_imputed.values.reshape(-1, 1))
 
     # 신경망 모델 초기화 및 학습 (Zero Imputation)
-    model_zero_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, train_X=train_X_zero_imputed, train_y=train_y_zero_imputed)
+    model_zero_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
     model_zero_imputation.train_model(train_X_zero_imputed, train_y_zero_imputed, num_epochs=50, batch_size=32)
     accuracy_zero_imputation = model_zero_imputation.get_accuracy(test_X_zero_imputed.values, test_y_zero_imputed.values.reshape(-1, 1))
-
-    # Ensemble을 위해 두 모델의 예측을 결합
-    combined_predictions = (model_knn_imputation.sess.run(model_knn_imputation.pred, feed_dict={model_knn_imputation.x: test_X_knn_imputed.values}) + model_zero_imputation.sess.run(model_zero_imputation.pred, feed_dict={model_zero_imputation.x: test_X_zero_imputed.values})) / 2
-
-    # RMSE 계산
-    rmse_combined = np.sqrt(mean_squared_error(test_y_knn_imputed, combined_predictions))
-    #print(" === rmse_combined === ", rmse_combined)
-    rmse_list.append(rmse_combined)
-
-    # Ensemble Accuracy 계산
-    ensemble_accuracy = accuracy_score(test_y_knn_imputed.values, (combined_predictions > 0.5).astype(int))
 
     
     print("==========================================")
     print(str(iteration + 1) + "th KNN Imputation accuracy: ", accuracy_knn_imputation)
     print(str(iteration + 1) + "th Zero Imputation accuracy: ", accuracy_zero_imputation)
-    print(str(iteration + 1) + "th Ensemble Accuracy: {:.4f}".format(ensemble_accuracy))
-    print(str(iteration + 1) + "th Ensemble RMSE: {:.4f}".format(rmse_combined))
     print("==========================================")
 
     accuracy_list.append(accuracy_knn_imputation)
     accuracy_list.append(accuracy_zero_imputation)
-    print(" == accuracy_list === ", accuracy_list)
 
     # 결과를 딕셔너리로 저장 (Ensemble 결과)
     result = {
         'Dataset': '1_breast',
         'method': '1_zero+knn',
         'Experiment': iteration + 1,
-        'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(accuracy_list), np.std(accuracy_list)),
-        'RMSE': "{:.4f} ± {:.4f}".format(np.mean(rmse_list), np.std(rmse_list)),   
+        'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(accuracy_list), np.std(accuracy_list))
     }
     results.append(result)
 
@@ -204,7 +187,6 @@ print("Mean Ensemble Accuracy: {:.4f}".format(np.mean(accuracy_list)))
 print("Standard Deviation of Ensemble Accuracy: {:.4f}".format(np.std(accuracy_list)))
 print("==========================================")
 print("=== result : {:.4f} ± {:.4f}".format(sum(accuracy_list)/len(accuracy_list), np.std(accuracy_list)))
-print("=== RMSE result : {:.4f} ± {:.4f}".format(np.mean(rmse_list), np.std(rmse_list)))
 print("==========================================")
 
 # 결과를 DataFrame으로 변환하여 CSV 파일에 추가로 저장
