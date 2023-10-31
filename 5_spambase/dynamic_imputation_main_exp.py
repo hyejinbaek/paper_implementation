@@ -1,6 +1,6 @@
-# 데이터셋 변경하여 진행(breast-cancer dataset)
+# 데이터셋 변경하여 진행(spambase dataset)
 # tensorflow version : 2.12.0
-# 실행 명령어 : python 2_ensemble_zero+dynamic.py --seed 0 --missing_rate 20 --num_mi 5 --m 10 --tau 0.05
+# 실행 명령어 : python dynamic_imputation_main_exp.py --seed 0 --missing_rate 20 --num_mi 5 --m 10 --tau 0.05
 import os
 os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 from setproctitle import *
@@ -10,85 +10,22 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 from dynamic_imputation_model import Dynamic_imputation_nn
 from dynamic_imputation_preprocessing import preprocessing
 from sklearn.model_selection import train_test_split
+from sklearn.model_selection import KFold
 import tensorflow as tf
 import numpy as np
 import pandas as pd
 import argparse
 from math import sqrt
-from sklearn.metrics import accuracy_score
-import tensorflow.compat.v1 as tf
-tf.disable_v2_behavior()
 
 # CSV 파일 경로 설정
-result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/5_spambase_ensemble_method_res.csv'
+result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/experiment_result.csv'
 
 # 결과를 저장할 리스트 초기화
 results = []
 
-class DynamicImputationModel:
-    def __init__(self, num_layers, num_hidden, dim_y, num_features):
-        self.num_layers = num_layers
-        self.num_hidden = num_hidden
-        self.dim_y = dim_y
-        self.num_features = num_features
-        tf.compat.v1.disable_eager_execution()
-        self.x = tf.compat.v1.placeholder(tf.float32, shape=[None, self.num_features])
-
-        self.y_true = tf.compat.v1.placeholder(tf.float32, shape=[None, dim_y])
-        self.logits, self.pred = self.build_model(self.x)
-        self.loss = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(labels=self.y_true, logits=self.logits))
-        self.optimizer = tf.train.AdamOptimizer(learning_rate=0.001)
-        self.train_op = self.optimizer.minimize(self.loss)
-        self.sess = tf.Session()
-        self.sess.run(tf.global_variables_initializer())
-
-    def build_model(self, x):
-        for _ in range(self.num_layers):
-            x = tf.layers.dense(x, self.num_hidden, activation=tf.nn.tanh)
-        logits = tf.layers.dense(x, self.dim_y)
-
-        if self.dim_y == 1:
-            pred = tf.nn.sigmoid(logits)
-        elif self.dim_y > 2:
-            pred = tf.nn.softmax(logits)
-
-        return logits, pred
-
-    def train_model(self, train_X, train_y, num_epochs, batch_size):
-        num_batches = int(np.ceil(len(train_X) / batch_size))
-        for epoch in range(num_epochs):
-            indices = np.arange(len(train_X))
-            np.random.shuffle(indices)
-            train_X_shuffled = train_X.iloc[indices]
-            train_y_shuffled = train_y.iloc[indices]
-
-            for i in range(num_batches):
-                batch_X = train_X_shuffled.iloc[i * batch_size: (i + 1) * batch_size]
-                batch_y = train_y_shuffled.iloc[i * batch_size: (i + 1) * batch_size]
-
-                self.sess.run(self.train_op, feed_dict={self.x: batch_X.values, self.y_true: batch_y.values.reshape(-1, 1)})
-
-    def get_accuracy(self, x_tst, y_tst):
-        if self.dim_y == 1:
-            pred_Y = tf.cast(self.pred > 0.5, tf.float32)
-            correct_prediction = tf.equal(pred_Y, self.y_true)
-            accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
-
-            acc = self.sess.run(accuracy, feed_dict={self.x: x_tst, self.y_true: y_tst})
-
-        else:
-            y_tst_hat = self.sess.run(self.pred, feed_dict={self.x: x_tst})
-            y_tst_hat = np.argmax(y_tst_hat, axis=1)
-
-            acc = accuracy_score(np.argmax(y_tst, axis=1), y_tst_hat)
-
-        return acc
-
-accuracy_list = []
 def main(args):
 
     seed = args.seed
-    #dataset = args.dataset
     missing_rate = args.missing_rate
     
     hyperparameters = {'num_mi': args.num_mi, 'm': args.m, 'tau': args.tau}
@@ -109,19 +46,9 @@ def main(args):
                     'word_freq_technology','word_freq_1999','word_freq_parts','word_freq_pm','word_freq_direct','word_freq_cs','word_freq_meeting','word_freq_original',
                     'word_freq_project','word_freq_re','word_freq_edu','word_freq_table','word_freq_conference','char_freq_;','char_freq_(','char_freq_[','char_freq_!',
                     'char_freq_$','char_freq_#','capital_run_length_average','capital_run_length_longest','capital_run_length_total']
-    data = df_data
-    
-    # 고정 !!
-    if len(data)>10000:
-        np.random.seed(seed)
-        random_sampled_idx = np.random.choice(len(data), 10000, replace=False)
-        data = data[random_sampled_idx]
-
-    x = df_data[train_col].values
-    y = df_data['class'].values
 
     # for문에서 뺌
-    x,y = preprocessing(x, y, missing_rate, seed)
+    x, y = preprocessing(df_data[train_col].values,df_data['class'].values, missing_rate, seed)
 
     acc_list, auroc = [], []
     
@@ -129,6 +56,7 @@ def main(args):
     rmse_list = []
 
     for i  in range(10):
+        
         x_trnval, x_tst, y_trnval, y_tst = train_test_split(x,y, test_size=0.2, shuffle=True, random_state=i)
 
         dim_x = x_trnval.shape[1]
@@ -138,57 +66,30 @@ def main(args):
         else:
             dim_y = 1
         save_path = ('./{0}_{1}_model'.format(seed, missing_rate))
-
-        # zero imputation을 위해 데이터 프레임으로 전환
-        x_trnval_zero = pd.DataFrame(x_trnval)
-        y_trnval_zero = pd.DataFrame(y_trnval)
-        x_tst_zero = pd.DataFrame(x_tst)
-        y_tst_zero = pd.DataFrame(y_tst)
-
-        # zero imputation
-        x_trnval_zero_imputed = x_trnval_zero.fillna(0)
-        y_trnval_zero_imputed = y_trnval_zero.fillna(0)
-        x_txt_zero_imputed = x_tst_zero.fillna(0)
-        y_txt_zero_imputed = y_tst_zero.fillna(0)
-
-        # zero imputation 학습 위한 데이터 준비
-        train_X_zero_imputed = x_trnval_zero_imputed
-        train_y_zero_imputed = y_trnval_zero_imputed
-        test_X_zero_imputed = x_txt_zero_imputed
-        test_y_zero_imputed = y_txt_zero_imputed
-
-        # 신경망 모델 초기화 및 학습 (Zero Imputation)
-        model_zero_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
-        model_zero_imputation.train_model(train_X_zero_imputed, train_y_zero_imputed, num_epochs=50, batch_size=32)
-        accuracy_zero_imputation = model_zero_imputation.get_accuracy(test_X_zero_imputed.values, test_y_zero_imputed.values.reshape(-1, 1))
-
-        # dynamic 신경망 모델
         model = Dynamic_imputation_nn(dim_x, dim_y, seed)
         model.train_with_dynamic_imputation(x_trnval, y_trnval, save_path, **hyperparameters)
         acc = model.get_accuracy(x_tst, y_tst)
 
         print("==========================================")
-        print(str(i+1)+"th dynamic accuracy === : ", acc)
-        print(str(i+1)+"th zero accuracy === : ", accuracy_zero_imputation)
+        print(str(i+1)+"th accuracy === : ", acc)
         print("==========================================")
-
+        #auroc = model.get_auroc(x_tst, y_tst)
         acc_list.append(acc)
-        acc_list.append(accuracy_zero_imputation)
-        
 
         # 결과를 딕셔너리로 저장
         result = {
             'Dataset' : '5_spambase',
-            'method' : '2_zero + dynamic',
+            'method' : 'dynamic',
             'Experiment': i + 1,
-            'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(acc_list), np.std(acc_list))
-        }
+            'Accuracy': "{:.4f} ± {:.4f}".format(acc, np.std(acc))
+            }
         results.append(result)
 
 
     print("==========================================")
     print("=== result : {:.4f} ± {:.4f}".format(sum(acc_list)/len(acc_list), np.std(acc_list)))
     print("==========================================")
+
 
     # 결과를 DataFrame으로 변환하여 CSV 파일에 추가로 저장
     results_df = pd.DataFrame(results)
@@ -198,9 +99,6 @@ def main(args):
         results_df.to_csv(result_csv_path, index=False)
 
     print("Results saved to:", result_csv_path)
-
-
-
 if __name__ == '__main__':
     arg_parser = argparse.ArgumentParser(description='Dynamic imputation')
     arg_parser.add_argument('--seed', help='Random seed', default=27407, type= int)
@@ -210,5 +108,5 @@ if __name__ == '__main__':
     arg_parser.add_argument('--tau', help='Threshold of imputation uncertainty', default=0.05, type=float)
     
     args = arg_parser.parse_args()
- 
+    
     main(args)

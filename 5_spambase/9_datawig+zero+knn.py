@@ -6,8 +6,11 @@ from setproctitle import setproctitle
 import os
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior
-from sklearn.impute import KNNImputer
 from sklearn.metrics import accuracy_score
+from datawig import SimpleImputer
+from sklearn.impute import KNNImputer
+from math import sqrt
+
 
 # CSV 파일 경로 설정
 result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/5_spambase_ensemble_method_res.csv'
@@ -20,6 +23,7 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 
 # 프로세스 제목 설정
 setproctitle('hyejin')
+
 
 class DynamicImputationModel:
     def __init__(self, num_layers, num_hidden, dim_y, num_features):
@@ -37,7 +41,7 @@ class DynamicImputationModel:
         self.train_op = self.optimizer.minimize(self.loss)
         self.sess = tf.Session()
         self.sess.run(tf.global_variables_initializer())
-
+        
     def build_model(self, x):
         for _ in range(self.num_layers):
             x = tf.layers.dense(x, self.num_hidden, activation=tf.nn.tanh)
@@ -85,20 +89,20 @@ data_pth = './spambase.data'
 
 # 데이터 불러오기
 df_data = pd.read_csv(data_pth)
-col_data = df_data.columns = ['word_freq_make','word_freq_address','mword_freq_all','word_freq_3d','word_freq_our','word_freq_over','word_freq_remove','word_freq_internet','word_freq_order',
-                    'word_freq_mail','word_freq_receive','word_freq_will','word_freq_people','word_freq_report','word_freq_addresses','word_freq_free','word_freq_business',
-                    'word_freq_email','word_freq_you','word_freq_credit','word_freq_your','word_freq_font','word_freq_000','word_freq_money','word_freq_hp','word_freq_hpl',
-                    'word_freq_george','word_freq_650','word_freq_lab','word_freq_labs','word_freq_telnet','word_freq_857','word_freq_data','word_freq_415','word_freq_85',
-                    'word_freq_technology','word_freq_1999','word_freq_parts','word_freq_pm','word_freq_direct','word_freq_cs','word_freq_meeting','word_freq_original',
-                    'word_freq_project','word_freq_re','word_freq_edu','word_freq_table','word_freq_conference','char_freq_;','char_freq_(','char_freq_[','char_freq_!',
-                    'char_freq_$','char_freq_#','capital_run_length_average','capital_run_length_longest','capital_run_length_total', 'class']
-train_col = ['word_freq_make','word_freq_address','mword_freq_all','word_freq_3d','word_freq_our','word_freq_over','word_freq_remove','word_freq_internet','word_freq_order',
-                    'word_freq_mail','word_freq_receive','word_freq_will','word_freq_people','word_freq_report','word_freq_addresses','word_freq_free','word_freq_business',
-                    'word_freq_email','word_freq_you','word_freq_credit','word_freq_your','word_freq_font','word_freq_000','word_freq_money','word_freq_hp','word_freq_hpl',
-                    'word_freq_george','word_freq_650','word_freq_lab','word_freq_labs','word_freq_telnet','word_freq_857','word_freq_data','word_freq_415','word_freq_85',
-                    'word_freq_technology','word_freq_1999','word_freq_parts','word_freq_pm','word_freq_direct','word_freq_cs','word_freq_meeting','word_freq_original',
-                    'word_freq_project','word_freq_re','word_freq_edu','word_freq_table','word_freq_conference','char_freq_;','char_freq_(','char_freq_[','char_freq_!',
-                    'char_freq_$','char_freq_#','capital_run_length_average','capital_run_length_longest','capital_run_length_total']
+col_data = df_data.columns =['freq_make','freq_address','freq_all','freq_3d','freq_our','freq_over','freq_remove','freq_internet','freq_order',
+                    'freq_mail','freq_receive','freq_will','freq_people','freq_report','freq_addresses','freq_free','freq_business',
+                    'freq_email','freq_you','freq_credit','freq_your','freq_font','freq_000','freq_money','freq_hp','freq_hpl',
+                    'freq_george','freq_650','freq_lab','freq_labs','freq_telnet','freq_857','freq_data','freq_415','freq_85',
+                    'freq_technology','freq_1999','freq_parts','freq_pm','freq_direct','freq_cs','freq_meeting','freq_original',
+                    'freq_project','freq_re','freq_edu','freq_table','freq_conference','char_freq','char_freq_1','char_freq_2','char_freq_3',
+                    'char_freq_4','char_freq_5','capital_run_length_average','capital_run_length_longest','capital_run_length_total', 'class']
+train_col = ['freq_make','freq_address','freq_all','freq_3d','freq_our','freq_over','freq_remove','freq_internet','freq_order',
+                    'freq_mail','freq_receive','freq_will','freq_people','freq_report','freq_addresses','freq_free','freq_business',
+                    'freq_email','freq_you','freq_credit','freq_your','freq_font','freq_000','freq_money','freq_hp','freq_hpl',
+                    'freq_george','freq_650','freq_lab','freq_labs','freq_telnet','freq_857','freq_data','freq_415','freq_85',
+                    'freq_technology','freq_1999','freq_parts','freq_pm','freq_direct','freq_cs','freq_meeting','freq_original',
+                    'freq_project','freq_re','freq_edu','freq_table','freq_conference','char_freq','char_freq_1','char_freq_2','char_freq_3',
+                    'char_freq_4','char_freq_5','capital_run_length_average','capital_run_length_longest','capital_run_length_total']
 
 data = df_data
 
@@ -115,19 +119,60 @@ num_iterations = 10
 
 accuracy_list = []
 rmse_list = []
+imputers = {}
 
 for iteration in range(num_iterations):
     # Train set과 test set으로 분할
     train_data, test_data = train_test_split(data_with_missing, test_size=0.2, random_state=iteration)
 
-    # 데이터 결측치 채우기 (KNN Imputation)
-    imputer = KNNImputer(n_neighbors=5)
-    train_data_knn_imputed = pd.DataFrame(imputer.fit_transform(train_data), columns=train_data.columns)
-    test_data_knn_imputed = pd.DataFrame(imputer.transform(test_data), columns=test_data.columns)
+    ## datawig
+    for col in train_col:
+        imputer = SimpleImputer(
+            input_columns=train_col,
+            output_column=col,
+            output_path=f'./imputer_model/imputer_model_{col}'
+        )
+        imputer.fit(train_df=train_data, num_epochs=5)
+        imputers[col] = imputer
+
+    # Impute missing values for each column in train_data
+    train_imputed_data = {}
+    for col, imputer in imputers.items():
+        predictions = imputer.predict(train_data)
+        train_imputed_data[col] = predictions[col + '_imputed']
+
+    # Create a DataFrame with imputed values for train set
+    train_imputed_df = pd.DataFrame(train_imputed_data)
+
+    # Impute missing values for each column in test_data
+    test_imputed_data = {}
+    for col, imputer in imputers.items():
+        predictions = imputer.predict(test_data)
+        test_imputed_data[col] = predictions[col + '_imputed']
+
+    # Create a DataFrame with imputed values for test set
+    test_imputed_df = pd.DataFrame(test_imputed_data)
+
+    # 학습을 위한 데이터 준비
+    train_X = train_imputed_df[train_col]
+    train_y = train_data['class']
+    test_X = test_imputed_df[train_col]
+    test_y = test_data['class']
 
     # 데이터 결측치 채우기 (Zero Imputation)
     train_data_zero_imputed = train_data.fillna(0)
     test_data_zero_imputed = test_data.fillna(0)
+
+    # zero imputation 데이터 준비
+    train_X_zero_imputed = train_data_zero_imputed.drop(columns=['class'])
+    train_y_zero_imputed = train_data_zero_imputed['class']
+    test_X_zero_imputed = test_data_zero_imputed.drop(columns=['class'])
+    test_y_zero_imputed = test_data_zero_imputed['class']
+        
+     # 데이터 결측치 채우기 (KNN Imputation)
+    imputer = KNNImputer(n_neighbors=5)
+    train_data_knn_imputed = pd.DataFrame(imputer.fit_transform(train_data), columns=train_data.columns)
+    test_data_knn_imputed = pd.DataFrame(imputer.transform(test_data), columns=test_data.columns)
 
     # 학습을 위한 데이터 준비
     train_X_knn_imputed = train_data_knn_imputed.drop(columns=['class'])
@@ -135,39 +180,43 @@ for iteration in range(num_iterations):
     test_X_knn_imputed = test_data_knn_imputed.drop(columns=['class'])
     test_y_knn_imputed = test_data_knn_imputed['class']
 
-    train_X_zero_imputed = train_data_zero_imputed.drop(columns=['class'])
-    train_y_zero_imputed = train_data_zero_imputed['class']
-    test_X_zero_imputed = test_data_zero_imputed.drop(columns=['class'])
-    test_y_zero_imputed = test_data_zero_imputed['class']
-
-    # 신경망 모델 초기화 및 학습 (KNN Imputation)
-    model_knn_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
-    model_knn_imputation.train_model(train_X_knn_imputed, train_y_knn_imputed, num_epochs=50, batch_size=32)
-    accuracy_knn_imputation = model_knn_imputation.get_accuracy(test_X_knn_imputed.values, test_y_knn_imputed.values.reshape(-1, 1))
+    # datawig 신경망 모델 학습
+    model_datawig_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
+    model_datawig_imputation.train_model(train_X, train_y, num_epochs=50, batch_size=32)
+    accuracy = model_datawig_imputation.get_accuracy(test_X.values, test_y.values.reshape(-1, 1))
 
     # 신경망 모델 초기화 및 학습 (Zero Imputation)
     model_zero_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
     model_zero_imputation.train_model(train_X_zero_imputed, train_y_zero_imputed, num_epochs=50, batch_size=32)
     accuracy_zero_imputation = model_zero_imputation.get_accuracy(test_X_zero_imputed.values, test_y_zero_imputed.values.reshape(-1, 1))
 
+    # 신경망 모델 초기화 및 학습 (KNN Imputation)
+    model_knn_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
+    model_knn_imputation.train_model(train_X_knn_imputed, train_y_knn_imputed, num_epochs=50, batch_size=32)
+    accuracy_knn_imputation = model_knn_imputation.get_accuracy(test_X_knn_imputed.values, test_y_knn_imputed.values.reshape(-1, 1))
+
+    
     print("==========================================")
-    print(str(iteration + 1) + "th KNN Imputation accuracy: ", accuracy_knn_imputation)
+    print(str(iteration + 1) + "th Datawig Imputation accuracy: ", accuracy)
+    print(str(iteration + 1) + "th knn Imputation accuracy: ", accuracy_knn_imputation)
     print(str(iteration + 1) + "th Zero Imputation accuracy: ", accuracy_zero_imputation)
     print("==========================================")
 
+    accuracy_list.append(accuracy)
     accuracy_list.append(accuracy_knn_imputation)
     accuracy_list.append(accuracy_zero_imputation)
 
     # 결과를 딕셔너리로 저장 (Ensemble 결과)
     result = {
         'Dataset': '5_spambase',
-        'method': '1_zero+knn',
+        'method': '9_datawig+zero+knn.py',
         'Experiment': iteration + 1,
-        'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(accuracy_list), np.std(accuracy_list)),
-        'RMSE': "{:.4f} ± {:.4f}".format(np.mean(rmse_list), np.std(rmse_list)),   
+        'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(accuracy_list), np.std(accuracy_list))
     }
     results.append(result)
 
+print("Mean Ensemble Accuracy: {:.4f}".format(np.mean(accuracy_list)))
+print("Standard Deviation of Ensemble Accuracy: {:.4f}".format(np.std(accuracy_list)))
 print("==========================================")
 print("=== result : {:.4f} ± {:.4f}".format(sum(accuracy_list)/len(accuracy_list), np.std(accuracy_list)))
 print("==========================================")

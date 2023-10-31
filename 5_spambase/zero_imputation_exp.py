@@ -6,8 +6,8 @@ from setproctitle import setproctitle
 import os
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
-from sklearn.impute import KNNImputer 
 from sklearn.metrics import accuracy_score
+
 
 
 # CUDA 환경 설정
@@ -21,7 +21,6 @@ result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/experiment_re
 
 # 결과를 저장할 리스트 초기화
 results = []
-
 
 
 class DynamicImputationModel:
@@ -111,11 +110,6 @@ for col in train_col:
 
 data_with_missing = data
 
-# KNNImputer를 사용하여 결측치 처리
-imputer = KNNImputer(n_neighbors=5)  # 이웃 개수 조정 가능
-data_imputed = imputer.fit_transform(data_with_missing)
-
-
 # 반복 횟수 설정
 num_iterations = 10
 
@@ -126,10 +120,9 @@ for iteration in range(num_iterations):
     # Train set과 test set으로 분할
     train_data, test_data = train_test_split(data_with_missing, test_size=0.2, random_state=iteration)
 
-    # 데이터 결측치 채우기 (KNN Imputation)
-    imputer = KNNImputer(n_neighbors=5)
-    train_data = pd.DataFrame(imputer.fit_transform(train_data), columns=train_data.columns)
-    test_data = pd.DataFrame(imputer.transform(test_data), columns=test_data.columns)
+    # 데이터 결측치 채우기
+    train_data = train_data.fillna(0)
+    test_data = test_data.fillna(0)
 
     # 학습을 위한 데이터 준비
     train_X = train_data.drop(columns=['class'])
@@ -148,15 +141,18 @@ for iteration in range(num_iterations):
     print(str(iteration+1)+"th accuracy === : ", accuracy)
     print("==========================================")
     accuracy_list.append(accuracy)
+
+    model.sess.close()
     
     # 평균과 표준편차 계산
     accuracy_mean = np.mean(accuracy_list)
     accuracy_std = np.std(accuracy_list)
 
+
     # 결과를 딕셔너리로 저장
     result = {
         'Dataset' : '5_spambase',
-        'method' : 'knn',
+        'method' : 'zero',
         'Experiment': iteration + 1,
         'Accuracy': "{:.4f} ± {:.4f}".format(accuracy, np.std(accuracy))
     }
@@ -176,3 +172,4 @@ else:
     results_df.to_csv(result_csv_path, index=False)
 
 print("Results saved to:", result_csv_path)
+

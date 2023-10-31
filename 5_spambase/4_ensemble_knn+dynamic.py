@@ -1,6 +1,6 @@
 # 데이터셋 변경하여 진행(breast-cancer dataset)
 # tensorflow version : 2.12.0
-# 실행 명령어 : python 2_ensemble_zero+dynamic.py --seed 0 --missing_rate 20 --num_mi 5 --m 10 --tau 0.05
+# 실행 명령어 : python 4_ensemble_knn+dynamic.py --seed 0 --missing_rate 20 --num_mi 5 --m 10 --tau 0.05
 import os
 os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 from setproctitle import *
@@ -11,13 +11,14 @@ from dynamic_imputation_model import Dynamic_imputation_nn
 from dynamic_imputation_preprocessing import preprocessing
 from sklearn.model_selection import train_test_split
 import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 import numpy as np
 import pandas as pd
 import argparse
 from math import sqrt
 from sklearn.metrics import accuracy_score
-import tensorflow.compat.v1 as tf
-tf.disable_v2_behavior()
+from sklearn.impute import KNNImputer
 
 # CSV 파일 경로 설정
 result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/5_spambase_ensemble_method_res.csv'
@@ -84,7 +85,9 @@ class DynamicImputationModel:
 
         return acc
 
+
 accuracy_list = []
+
 def main(args):
 
     seed = args.seed
@@ -120,6 +123,7 @@ def main(args):
     x = df_data[train_col].values
     y = df_data['class'].values
 
+
     # for문에서 뺌
     x,y = preprocessing(x, y, missing_rate, seed)
 
@@ -139,47 +143,47 @@ def main(args):
             dim_y = 1
         save_path = ('./{0}_{1}_model'.format(seed, missing_rate))
 
-        # zero imputation을 위해 데이터 프레임으로 전환
-        x_trnval_zero = pd.DataFrame(x_trnval)
-        y_trnval_zero = pd.DataFrame(y_trnval)
-        x_tst_zero = pd.DataFrame(x_tst)
-        y_tst_zero = pd.DataFrame(y_tst)
 
-        # zero imputation
-        x_trnval_zero_imputed = x_trnval_zero.fillna(0)
-        y_trnval_zero_imputed = y_trnval_zero.fillna(0)
-        x_txt_zero_imputed = x_tst_zero.fillna(0)
-        y_txt_zero_imputed = y_tst_zero.fillna(0)
+        # knn imputation을 위해 데이터 프레임으로 전환
+        x_trnval_knn = pd.DataFrame(x_trnval, columns=train_col)
+        y_trnval_knn = pd.DataFrame(y_trnval, columns=['class'])
+        x_tst_knn = pd.DataFrame(x_tst, columns=train_col)
+        y_tst_knn = pd.DataFrame(y_tst, columns=['class'])
+        
+        # knn imputation
+        imputer = KNNImputer(n_neighbors=5)
+        train_data_knn_imputed = pd.DataFrame(imputer.fit_transform(x_trnval_knn), columns=train_col)
+        test_data_knn_imputed = pd.DataFrame(imputer.transform(x_tst_knn), columns=train_col)
 
-        # zero imputation 학습 위한 데이터 준비
-        train_X_zero_imputed = x_trnval_zero_imputed
-        train_y_zero_imputed = y_trnval_zero_imputed
-        test_X_zero_imputed = x_txt_zero_imputed
-        test_y_zero_imputed = y_txt_zero_imputed
+        # knn imputation 학습 위한 데이터 준비
+        train_X_knn_imputed = train_data_knn_imputed
+        train_y_knn_imputed = y_trnval_knn
+        test_X_knn_imputed = test_data_knn_imputed
+        test_y_knn_imputed = y_tst_knn
 
-        # 신경망 모델 초기화 및 학습 (Zero Imputation)
-        model_zero_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
-        model_zero_imputation.train_model(train_X_zero_imputed, train_y_zero_imputed, num_epochs=50, batch_size=32)
-        accuracy_zero_imputation = model_zero_imputation.get_accuracy(test_X_zero_imputed.values, test_y_zero_imputed.values.reshape(-1, 1))
+        # 신경망 모델 초기화 및 학습 (knn Imputation)
+        model_knn_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
+        model_knn_imputation.train_model(train_X_knn_imputed, train_y_knn_imputed, num_epochs=50, batch_size=32)
+        accuracy_knn_imputation = model_knn_imputation.get_accuracy(test_X_knn_imputed.values, test_y_knn_imputed.values.reshape(-1, 1))
 
-        # dynamic 신경망 모델
+        # 
         model = Dynamic_imputation_nn(dim_x, dim_y, seed)
         model.train_with_dynamic_imputation(x_trnval, y_trnval, save_path, **hyperparameters)
         acc = model.get_accuracy(x_tst, y_tst)
-
+        
         print("==========================================")
         print(str(i+1)+"th dynamic accuracy === : ", acc)
-        print(str(i+1)+"th zero accuracy === : ", accuracy_zero_imputation)
+        print(str(i+1)+"th knn accuracy === : ", accuracy_knn_imputation)
         print("==========================================")
 
         acc_list.append(acc)
-        acc_list.append(accuracy_zero_imputation)
+        acc_list.append(accuracy_knn_imputation)
         
 
         # 결과를 딕셔너리로 저장
         result = {
             'Dataset' : '5_spambase',
-            'method' : '2_zero + dynamic',
+            'method' : '4_knn + dynamic',
             'Experiment': i + 1,
             'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(acc_list), np.std(acc_list))
         }
