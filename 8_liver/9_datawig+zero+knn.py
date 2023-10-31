@@ -6,8 +6,11 @@ from setproctitle import setproctitle
 import os
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior
-from sklearn.impute import KNNImputer
 from sklearn.metrics import accuracy_score
+from datawig import SimpleImputer
+from sklearn.impute import KNNImputer
+from math import sqrt
+
 
 # CSV 파일 경로 설정
 result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/8_liver_ensemble_method_res.csv'
@@ -89,7 +92,6 @@ df_data.columns = ['mcv', 'alkphos', 'sgpt', 'sgot', 'gammagt', 'class', 'select
 train_col = ['mcv', 'alkphos', 'sgpt', 'sgot', 'gammagt', 'selector']
 data = df_data
 
-
 missing_length = 0.2
 for col in train_col:
     nan_mask = np.random.rand(data.shape[0]) < missing_length
@@ -101,19 +103,60 @@ data_with_missing = data
 num_iterations = 10
 
 accuracy_list = []
+imputers = {}
 
 for iteration in range(num_iterations):
     # Train set과 test set으로 분할
     train_data, test_data = train_test_split(data_with_missing, test_size=0.2, random_state=iteration)
 
-    # 데이터 결측치 채우기 (KNN Imputation)
-    imputer = KNNImputer(n_neighbors=5)
-    train_data_knn_imputed = pd.DataFrame(imputer.fit_transform(train_data), columns=train_data.columns)
-    test_data_knn_imputed = pd.DataFrame(imputer.transform(test_data), columns=test_data.columns)
+    ## datawig
+    for col in train_col:
+        imputer = SimpleImputer(
+            input_columns=train_col,
+            output_column=col,
+            output_path=f'./imputer_model/imputer_model_{col}'
+        )
+        imputer.fit(train_df=train_data, num_epochs=5)
+        imputers[col] = imputer
+
+    # Impute missing values for each column in train_data
+    train_imputed_data = {}
+    for col, imputer in imputers.items():
+        predictions = imputer.predict(train_data)
+        train_imputed_data[col] = predictions[col + '_imputed']
+
+    # Create a DataFrame with imputed values for train set
+    train_imputed_df = pd.DataFrame(train_imputed_data)
+
+    # Impute missing values for each column in test_data
+    test_imputed_data = {}
+    for col, imputer in imputers.items():
+        predictions = imputer.predict(test_data)
+        test_imputed_data[col] = predictions[col + '_imputed']
+
+    # Create a DataFrame with imputed values for test set
+    test_imputed_df = pd.DataFrame(test_imputed_data)
+
+    # 학습을 위한 데이터 준비
+    train_X = train_imputed_df[train_col]
+    train_y = train_data['class']
+    test_X = test_imputed_df[train_col]
+    test_y = test_data['class']
 
     # 데이터 결측치 채우기 (Zero Imputation)
     train_data_zero_imputed = train_data.fillna(0)
     test_data_zero_imputed = test_data.fillna(0)
+
+    # zero imputation 데이터 준비
+    train_X_zero_imputed = train_data_zero_imputed.drop(columns=['class'])
+    train_y_zero_imputed = train_data_zero_imputed['class']
+    test_X_zero_imputed = test_data_zero_imputed.drop(columns=['class'])
+    test_y_zero_imputed = test_data_zero_imputed['class']
+
+     # 데이터 결측치 채우기 (KNN Imputation)
+    imputer = KNNImputer(n_neighbors=5)
+    train_data_knn_imputed = pd.DataFrame(imputer.fit_transform(train_data), columns=train_data.columns)
+    test_data_knn_imputed = pd.DataFrame(imputer.transform(test_data), columns=test_data.columns)
 
     # 학습을 위한 데이터 준비
     train_X_knn_imputed = train_data_knn_imputed.drop(columns=['class'])
@@ -121,33 +164,35 @@ for iteration in range(num_iterations):
     test_X_knn_imputed = test_data_knn_imputed.drop(columns=['class'])
     test_y_knn_imputed = test_data_knn_imputed['class']
 
-    train_X_zero_imputed = train_data_zero_imputed.drop(columns=['class'])
-    train_y_zero_imputed = train_data_zero_imputed['class']
-    test_X_zero_imputed = test_data_zero_imputed.drop(columns=['class'])
-    test_y_zero_imputed = test_data_zero_imputed['class']
-
-    # 신경망 모델 초기화 및 학습 (KNN Imputation)
-    model_knn_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
-    model_knn_imputation.train_model(train_X_knn_imputed, train_y_knn_imputed, num_epochs=50, batch_size=32)
-    accuracy_knn_imputation = model_knn_imputation.get_accuracy(test_X_knn_imputed.values, test_y_knn_imputed.values.reshape(-1, 1))
+    # datawig 신경망 모델 학습
+    model_datawig_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
+    model_datawig_imputation.train_model(train_X, train_y, num_epochs=50, batch_size=32)
+    accuracy = model_datawig_imputation.get_accuracy(test_X.values, test_y.values.reshape(-1, 1))
 
     # 신경망 모델 초기화 및 학습 (Zero Imputation)
     model_zero_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
     model_zero_imputation.train_model(train_X_zero_imputed, train_y_zero_imputed, num_epochs=50, batch_size=32)
     accuracy_zero_imputation = model_zero_imputation.get_accuracy(test_X_zero_imputed.values, test_y_zero_imputed.values.reshape(-1, 1))
+
+    # 신경망 모델 초기화 및 학습 (KNN Imputation)
+    model_knn_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
+    model_knn_imputation.train_model(train_X_knn_imputed, train_y_knn_imputed, num_epochs=50, batch_size=32)
+    accuracy_knn_imputation = model_knn_imputation.get_accuracy(test_X_knn_imputed.values, test_y_knn_imputed.values.reshape(-1, 1))
     
     print("==========================================")
-    print(str(iteration + 1) + "th KNN Imputation accuracy: ", accuracy_knn_imputation)
+    print(str(iteration + 1) + "th Datawig Imputation accuracy: ", accuracy)
+    print(str(iteration + 1) + "th knn Imputation accuracy: ", accuracy_knn_imputation)
     print(str(iteration + 1) + "th Zero Imputation accuracy: ", accuracy_zero_imputation)
     print("==========================================")
 
+    accuracy_list.append(accuracy)
     accuracy_list.append(accuracy_knn_imputation)
     accuracy_list.append(accuracy_zero_imputation)
 
     # 결과를 딕셔너리로 저장 (Ensemble 결과)
     result = {
         'Dataset': '8_liver',
-        'method': '1_zero+knn',
+        'method': '9_datawig+zero+knn.py',
         'Experiment': iteration + 1,
         'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(accuracy_list), np.std(accuracy_list))
     }
