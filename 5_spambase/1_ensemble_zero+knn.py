@@ -163,8 +163,7 @@ for iteration in range(num_iterations):
         'Dataset': '5_spambase',
         'method': '1_zero+knn',
         'Experiment': iteration + 1,
-        'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(accuracy_list), np.std(accuracy_list)),
-        'RMSE': "{:.4f} ± {:.4f}".format(np.mean(rmse_list), np.std(rmse_list)),   
+        'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(accuracy_list), np.std(accuracy_list))
     }
     results.append(result)
 
