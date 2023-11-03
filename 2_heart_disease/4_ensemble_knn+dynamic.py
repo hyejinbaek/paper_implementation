@@ -16,7 +16,6 @@ tf.disable_v2_behavior()
 import numpy as np
 import pandas as pd
 import argparse
-from sklearn.metrics import mean_squared_error
 from math import sqrt
 from sklearn.metrics import accuracy_score
 from sklearn.impute import KNNImputer

@@ -1,6 +1,6 @@
 # 데이터셋 변경하여 진행(breast-cancer dataset)
 # tensorflow version : 2.12.0
-# 실행 명령어 : python dynamic_imputation_main_rmse.py --seed 0 --missing_rate 20 --num_mi 5 --m 10 --tau 0.05
+# 실행 명령어 : python dynamic_imputation_main_exp.py --seed 0 --missing_rate 20 --num_mi 5 --m 10 --tau 0.05
 import os
 os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 from setproctitle import *
@@ -20,7 +20,7 @@ from math import sqrt
 from sklearn.metrics import accuracy_score
 
 # CSV 파일 경로 설정
-result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/experiment_result.csv'
+result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/1_breast_ensemble_method_res.csv'
 
 # 결과를 저장할 리스트 초기화
 results = []

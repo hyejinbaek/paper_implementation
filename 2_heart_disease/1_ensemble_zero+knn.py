@@ -11,7 +11,7 @@ from sklearn.impute import KNNImputer
 from sklearn.metrics import accuracy_score
 
 # CSV 파일 경로 설정
-result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res_2/2_heart_ensemble_method_res.csv'
+result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/2_heart_ensemble_method_res.csv'
 
 # 결과를 저장할 리스트 초기화
 results = []
@@ -109,6 +109,7 @@ rmse_list = []
 for iteration in range(num_iterations):
     # Train set과 test set으로 분할
     train_data, test_data = train_test_split(data_with_missing, test_size=0.2, random_state=iteration)
+
 
     # 데이터 결측치 채우기 (KNN Imputation)
     imputer = KNNImputer(n_neighbors=5)

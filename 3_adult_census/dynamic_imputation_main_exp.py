@@ -20,7 +20,7 @@ from sklearn.metrics import mean_squared_error
 from math import sqrt
 
 # CSV 파일 경로 설정
-result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/experiment_result.csv'
+result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/3_adult_ensemble_method_res.csv'
 
 # 결과를 저장할 리스트 초기화
 results = []
@@ -103,7 +103,7 @@ def main(args):
         acc_list.append(acc)
 
         print("==========================================")
-        print("=== result : {} ± {}".format(sum(acc_list)/len(acc_list), np.std(acc_list)))
+        print("=== result" : "{.4f} ± {.4f}".format(sum(acc_list)/len(acc_list), np.std(acc_list)))
         print("==========================================")
 
         # 결과를 딕셔너리로 저장

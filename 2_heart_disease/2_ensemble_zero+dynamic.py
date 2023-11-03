@@ -19,6 +19,8 @@ from math import sqrt
 from sklearn.metrics import accuracy_score
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
+from sklearn.preprocessing import LabelEncoder
+
 
 # CSV 파일 경로 설정
 result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/2_heart_ensemble_method_res.csv'

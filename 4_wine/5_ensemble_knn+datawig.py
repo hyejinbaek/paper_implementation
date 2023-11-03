@@ -25,22 +25,21 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 setproctitle('hyejin')
 
 class DynamicImputationModel:
-    def __init__(self, num_layers, num_hidden, dim_y, train_X, train_y):
+    def __init__(self, num_layers, num_hidden, dim_y, num_features):
         self.num_layers = num_layers
         self.num_hidden = num_hidden
         self.dim_y = dim_y
+        self.num_features = num_features
         tf.compat.v1.disable_eager_execution()
-        self.x = tf.compat.v1.placeholder(tf.float32, shape=[None, train_X.shape[1]])
-        self.y_true = tf.compat.v1.placeholder(tf.float32, shape=[None, 1])
+        self.x = tf.compat.v1.placeholder(tf.float32, shape=[None, self.num_features])
+
+        self.y_true = tf.compat.v1.placeholder(tf.float32, shape=[None, dim_y])
         self.logits, self.pred = self.build_model(self.x)
         self.loss = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(labels=self.y_true, logits=self.logits))
         self.optimizer = tf.train.AdamOptimizer(learning_rate=0.001)
         self.train_op = self.optimizer.minimize(self.loss)
         self.sess = tf.Session()
         self.sess.run(tf.global_variables_initializer())
-        
-        self.train_X = train_X  # Store train_X and train_y as instance variables
-        self.train_y = train_y
 
     def build_model(self, x):
         for _ in range(self.num_layers):
