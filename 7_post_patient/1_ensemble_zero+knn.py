@@ -18,7 +18,7 @@ result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/7_post_en
 results = []
 
 # CUDA 환경 설정
-os.environ['CUDA_VISIBLE_DEVICES'] = '0'
+os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 
 # 프로세스 제목 설정
 setproctitle('hyejin')

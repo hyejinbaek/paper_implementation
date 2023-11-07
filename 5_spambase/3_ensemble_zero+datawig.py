@@ -186,7 +186,7 @@ for iteration in range(num_iterations):
 
     # 결과를 딕셔너리로 저장 (Ensemble 결과)
     result = {
-        'Dataset': '2_heart_disease',
+        'Dataset': '5_spambase',
         'method': '3_zero+datawig',
         'Experiment': iteration + 1,
         'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(accuracy_list), np.std(accuracy_list))

@@ -15,7 +15,7 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 setproctitle('hyejin')
 
 # CSV 파일 경로 설정
-result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/experiment_result.csv'
+result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/10_lymphography_ensemble_method_res.csv'
 
 # 결과를 저장할 리스트 초기화
 results = []
@@ -53,16 +53,15 @@ class DynamicImputationModel:
         num_batches = int(np.ceil(len(train_X) / batch_size))
         for epoch in range(num_epochs):
             indices = np.arange(len(train_X))
-            np.random.seed(epoch)
             np.random.shuffle(indices)
-            train_X_shuffled = train_X[indices]
-            train_y_shuffled = train_y[indices]
+            train_X_shuffled = train_X.iloc[indices]
+            train_y_shuffled = train_y.iloc[indices]
 
             for i in range(num_batches):
-                batch_X = train_X_shuffled[i * batch_size: (i + 1) * batch_size]
-                batch_y = train_y_shuffled[i * batch_size: (i + 1) * batch_size]
+                batch_X = train_X_shuffled.iloc[i * batch_size: (i + 1) * batch_size]
+                batch_y = train_y_shuffled.iloc[i * batch_size: (i + 1) * batch_size]
 
-                self.sess.run(self.train_op, feed_dict={self.x: batch_X, self.y_true: batch_y.reshape(-1, 1)})
+                self.sess.run(self.train_op, feed_dict={self.x: batch_X.values, self.y_true: batch_y.values.reshape(-1, 1)})
 
     def get_accuracy(self, x_tst, y_tst):
         if self.dim_y == 1:
@@ -92,6 +91,7 @@ train_col =['lymphatics', 'block of affere', 'bl. of lymph.c', 'bl. of lymph.s',
                     'lym.nodes dimin', 'lym.nodes enlar', 'changes in lym', 'defect in node', 'changes in node', 'changes in stru', 'special forms', 'dislocation of',
                     'exclusion of no', 'no. of nodes in']
 data = df_data
+print("=== data === ", data)
 
 
 # 결측치 20% 생성
@@ -116,25 +116,23 @@ for iteration in range(num_iterations):
     test_data = test_data.fillna(0)
 
     # 학습을 위한 데이터 준비
-    train_data_encoded = label_encode(train_data, ['class'])
-    test_data_encoded = label_encode(test_data, ['class'])
-    train_X = train_data_encoded.drop(columns=['class']).values
-    train_y = train_data_encoded['class'].values
-    test_X = test_data_encoded.drop(columns=['class']).values
-    test_y = test_data_encoded['class'].values
+    train_X = train_data.drop(columns=['class'])
+    train_y = train_data['class']
+    test_X = test_data.drop(columns=['class'])
+    test_y = test_data['class']
 
     # 신경망 모델 초기화 및 학습
-    model = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1)
+    model = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
     num_epochs = 50
     batch_size = 32
 
     model.train_model(train_X, train_y, num_epochs, batch_size)
-    accuracy = model.get_accuracy(test_X, test_y.reshape(-1, 1))
+    accuracy = model.get_accuracy(test_X.values, test_y.values.reshape(-1, 1))
     print("==========================================")
-    print(str(iteration + 1) + "th accuracy === : ", accuracy)
+    print(str(iteration+1)+"th accuracy === : ", accuracy)
     print("==========================================")
     accuracy_list.append(accuracy)
-
+	
     model.sess.close()
     
     # 평균과 표준편차 계산
