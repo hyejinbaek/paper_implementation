@@ -1,0 +1,360 @@
+2023-11-07 20:33:31,127 [INFO]  
+========== start: fit model
+2023-11-07 20:33:31,128 [WARNING]  Already bound, ignoring bind()
+2023-11-07 20:33:31,442 [INFO]  Epoch[0] Batch [0-4]	Speed: 209.78 samples/sec	cross-entropy=49.126328	GGI10-accuracy=3.000000
+2023-11-07 20:33:31,476 [INFO]  Epoch[0] Train-cross-entropy=64.539646
+2023-11-07 20:33:31,476 [INFO]  Epoch[0] Train-GGI10-accuracy=3.750000
+2023-11-07 20:33:31,476 [INFO]  Epoch[0] Time cost=0.345
+2023-11-07 20:33:31,480 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0000.params"
+2023-11-07 20:33:31,481 [INFO]  Epoch[0] Validation-cross-entropy=50.892788
+2023-11-07 20:33:31,481 [INFO]  Epoch[0] Validation-GGI10-accuracy=0.000000
+2023-11-07 20:33:31,524 [INFO]  Epoch[1] Batch [0-4]	Speed: 2772.61 samples/sec	cross-entropy=155.305142	GGI10-accuracy=3.000000
+2023-11-07 20:33:31,570 [INFO]  Epoch[1] Train-cross-entropy=182.825299
+2023-11-07 20:33:31,570 [INFO]  Epoch[1] Train-GGI10-accuracy=3.750000
+2023-11-07 20:33:31,570 [INFO]  Epoch[1] Time cost=0.089
+2023-11-07 20:33:31,573 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0001.params"
+2023-11-07 20:33:31,574 [INFO]  Epoch[1] Validation-cross-entropy=22.332535
+2023-11-07 20:33:31,575 [INFO]  Epoch[1] Validation-GGI10-accuracy=0.000000
+2023-11-07 20:33:31,655 [INFO]  Epoch[2] Batch [0-4]	Speed: 9008.51 samples/sec	cross-entropy=304.260314	GGI10-accuracy=3.000000
+2023-11-07 20:33:31,757 [INFO]  Epoch[2] Train-cross-entropy=227.112598
+2023-11-07 20:33:31,757 [INFO]  Epoch[2] Train-GGI10-accuracy=3.750000
+2023-11-07 20:33:31,758 [INFO]  Epoch[2] Time cost=0.183
+2023-11-07 20:33:31,761 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0002.params"
+2023-11-07 20:33:31,796 [INFO]  Epoch[2] Validation-cross-entropy=10.154550
+2023-11-07 20:33:31,796 [INFO]  Epoch[2] Validation-GGI10-accuracy=0.000000
+2023-11-07 20:33:31,961 [INFO]  Epoch[3] Batch [0-4]	Speed: 601.60 samples/sec	cross-entropy=32.740038	GGI10-accuracy=3.000000
+2023-11-07 20:33:32,082 [INFO]  Epoch[3] Train-cross-entropy=30.038699
+2023-11-07 20:33:32,082 [INFO]  Epoch[3] Train-GGI10-accuracy=3.750000
+2023-11-07 20:33:32,083 [INFO]  Epoch[3] Time cost=0.286
+2023-11-07 20:33:32,085 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0003.params"
+2023-11-07 20:33:32,086 [INFO]  Epoch[3] Validation-cross-entropy=20.852074
+2023-11-07 20:33:32,086 [INFO]  Epoch[3] Validation-GGI10-accuracy=0.000000
+2023-11-07 20:33:32,095 [INFO]  Epoch[4] Batch [0-4]	Speed: 9638.62 samples/sec	cross-entropy=14.511735	GGI10-accuracy=3.000000
+2023-11-07 20:33:32,100 [INFO]  Epoch[4] Train-cross-entropy=17.556476
+2023-11-07 20:33:32,100 [INFO]  Epoch[4] Train-GGI10-accuracy=3.750000
+2023-11-07 20:33:32,100 [INFO]  Epoch[4] Time cost=0.014
+2023-11-07 20:33:32,103 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0004.params"
+2023-11-07 20:33:32,104 [INFO]  Epoch[4] Validation-cross-entropy=14.692029
+2023-11-07 20:33:32,104 [INFO]  Epoch[4] Validation-GGI10-accuracy=0.000000
+2023-11-07 20:33:32,104 [INFO]  
+========== done (0.9775390625 s) fit model
+2023-11-07 22:43:45,090 [INFO]  
+========== start: fit model
+2023-11-07 22:43:45,090 [WARNING]  Already bound, ignoring bind()
+2023-11-07 22:43:45,103 [INFO]  Epoch[0] Batch [0-4]	Speed: 7614.97 samples/sec	cross-entropy=61.148811	GGI10-accuracy=0.000000
+2023-11-07 22:43:45,108 [INFO]  Epoch[0] Train-cross-entropy=56.578001
+2023-11-07 22:43:45,109 [INFO]  Epoch[0] Train-GGI10-accuracy=0.000000
+2023-11-07 22:43:45,109 [INFO]  Epoch[0] Time cost=0.018
+2023-11-07 22:43:45,111 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0000.params"
+2023-11-07 22:43:45,112 [INFO]  Epoch[0] Validation-cross-entropy=35.017223
+2023-11-07 22:43:45,112 [INFO]  Epoch[0] Validation-GGI10-accuracy=0.000000
+2023-11-07 22:43:45,122 [INFO]  Epoch[1] Batch [0-4]	Speed: 8183.26 samples/sec	cross-entropy=116.525977	GGI10-accuracy=0.000000
+2023-11-07 22:43:45,129 [INFO]  Epoch[1] Train-cross-entropy=110.695354
+2023-11-07 22:43:45,129 [INFO]  Epoch[1] Train-GGI10-accuracy=0.000000
+2023-11-07 22:43:45,129 [INFO]  Epoch[1] Time cost=0.017
+2023-11-07 22:43:45,132 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0001.params"
+2023-11-07 22:43:45,133 [INFO]  Epoch[1] Validation-cross-entropy=132.098709
+2023-11-07 22:43:45,133 [INFO]  Epoch[1] Validation-GGI10-accuracy=0.000000
+2023-11-07 22:43:45,144 [INFO]  Epoch[2] Batch [0-4]	Speed: 7863.94 samples/sec	cross-entropy=199.636864	GGI10-accuracy=0.000000
+2023-11-07 22:43:45,150 [INFO]  Epoch[2] Train-cross-entropy=143.618913
+2023-11-07 22:43:45,150 [INFO]  Epoch[2] Train-GGI10-accuracy=0.000000
+2023-11-07 22:43:45,150 [INFO]  Epoch[2] Time cost=0.016
+2023-11-07 22:43:45,153 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0002.params"
+2023-11-07 22:43:45,154 [INFO]  Epoch[2] Validation-cross-entropy=45.136532
+2023-11-07 22:43:45,154 [INFO]  Epoch[2] Validation-GGI10-accuracy=0.000000
+2023-11-07 22:43:45,164 [INFO]  Epoch[3] Batch [0-4]	Speed: 7668.27 samples/sec	cross-entropy=65.265440	GGI10-accuracy=0.000000
+2023-11-07 22:43:45,170 [INFO]  Epoch[3] Train-cross-entropy=48.117465
+2023-11-07 22:43:45,170 [INFO]  Epoch[3] Train-GGI10-accuracy=0.000000
+2023-11-07 22:43:45,170 [INFO]  Epoch[3] Time cost=0.016
+2023-11-07 22:43:45,173 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0003.params"
+2023-11-07 22:43:45,174 [INFO]  Epoch[3] Validation-cross-entropy=31.214382
+2023-11-07 22:43:45,174 [INFO]  Epoch[3] Validation-GGI10-accuracy=0.000000
+2023-11-07 22:43:45,184 [INFO]  Epoch[4] Batch [0-4]	Speed: 7907.95 samples/sec	cross-entropy=20.538673	GGI10-accuracy=0.000000
+2023-11-07 22:43:45,190 [INFO]  Epoch[4] Train-cross-entropy=15.485355
+2023-11-07 22:43:45,190 [INFO]  Epoch[4] Train-GGI10-accuracy=0.000000
+2023-11-07 22:43:45,190 [INFO]  Epoch[4] Time cost=0.016
+2023-11-07 22:43:45,193 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0004.params"
+2023-11-07 22:43:45,194 [INFO]  Epoch[4] Validation-cross-entropy=9.109748
+2023-11-07 22:43:45,194 [INFO]  Epoch[4] Validation-GGI10-accuracy=0.000000
+2023-11-07 22:43:45,194 [INFO]  
+========== done (0.10408520698547363 s) fit model
+2023-11-08 00:30:28,840 [INFO]  
+========== start: fit model
+2023-11-08 00:30:28,840 [WARNING]  Already bound, ignoring bind()
+2023-11-08 00:30:28,854 [INFO]  Epoch[0] Batch [0-4]	Speed: 6624.27 samples/sec	cross-entropy=78.723586	GGI10-accuracy=3.600000
+2023-11-08 00:30:28,861 [INFO]  Epoch[0] Train-cross-entropy=67.382485
+2023-11-08 00:30:28,861 [INFO]  Epoch[0] Train-GGI10-accuracy=3.375000
+2023-11-08 00:30:28,861 [INFO]  Epoch[0] Time cost=0.020
+2023-11-08 00:30:28,863 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0000.params"
+2023-11-08 00:30:28,863 [INFO]  Epoch[0] Validation-cross-entropy=8.105736
+2023-11-08 00:30:28,863 [INFO]  Epoch[0] Validation-GGI10-accuracy=0.000000
+2023-11-08 00:30:28,874 [INFO]  Epoch[1] Batch [0-4]	Speed: 7865.55 samples/sec	cross-entropy=96.051608	GGI10-accuracy=3.600000
+2023-11-08 00:30:28,880 [INFO]  Epoch[1] Train-cross-entropy=95.743429
+2023-11-08 00:30:28,880 [INFO]  Epoch[1] Train-GGI10-accuracy=3.375000
+2023-11-08 00:30:28,880 [INFO]  Epoch[1] Time cost=0.017
+2023-11-08 00:30:28,883 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0001.params"
+2023-11-08 00:30:28,884 [INFO]  Epoch[1] Validation-cross-entropy=20.784859
+2023-11-08 00:30:28,884 [INFO]  Epoch[1] Validation-GGI10-accuracy=0.000000
+2023-11-08 00:30:28,894 [INFO]  Epoch[2] Batch [0-4]	Speed: 7995.10 samples/sec	cross-entropy=81.335768	GGI10-accuracy=3.600000
+2023-11-08 00:30:28,900 [INFO]  Epoch[2] Train-cross-entropy=104.739315
+2023-11-08 00:30:28,900 [INFO]  Epoch[2] Train-GGI10-accuracy=3.375000
+2023-11-08 00:30:28,900 [INFO]  Epoch[2] Time cost=0.016
+2023-11-08 00:30:28,903 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0002.params"
+2023-11-08 00:30:28,904 [INFO]  Epoch[2] Validation-cross-entropy=9.059882
+2023-11-08 00:30:28,904 [INFO]  Epoch[2] Validation-GGI10-accuracy=0.000000
+2023-11-08 00:30:28,914 [INFO]  Epoch[3] Batch [0-4]	Speed: 8017.79 samples/sec	cross-entropy=19.755457	GGI10-accuracy=3.600000
+2023-11-08 00:30:28,920 [INFO]  Epoch[3] Train-cross-entropy=25.862265
+2023-11-08 00:30:28,920 [INFO]  Epoch[3] Train-GGI10-accuracy=3.375000
+2023-11-08 00:30:28,920 [INFO]  Epoch[3] Time cost=0.016
+2023-11-08 00:30:28,923 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0003.params"
+2023-11-08 00:30:28,924 [INFO]  Epoch[3] Validation-cross-entropy=7.342587
+2023-11-08 00:30:28,924 [INFO]  Epoch[3] Validation-GGI10-accuracy=0.000000
+2023-11-08 00:30:28,931 [INFO]  Epoch[4] Batch [0-4]	Speed: 11548.59 samples/sec	cross-entropy=8.864291	GGI10-accuracy=3.600000
+2023-11-08 00:30:28,935 [INFO]  Epoch[4] Train-cross-entropy=6.806586
+2023-11-08 00:30:28,935 [INFO]  Epoch[4] Train-GGI10-accuracy=3.375000
+2023-11-08 00:30:28,935 [INFO]  Epoch[4] Time cost=0.011
+2023-11-08 00:30:28,938 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0004.params"
+2023-11-08 00:30:28,938 [INFO]  Epoch[4] Validation-cross-entropy=6.962747
+2023-11-08 00:30:28,938 [INFO]  Epoch[4] Validation-GGI10-accuracy=0.000000
+2023-11-08 00:30:28,938 [INFO]  
+========== done (0.09876632690429688 s) fit model
+2023-11-08 02:17:43,912 [INFO]  
+========== start: fit model
+2023-11-08 02:17:43,912 [WARNING]  Already bound, ignoring bind()
+2023-11-08 02:17:43,925 [INFO]  Epoch[0] Batch [0-4]	Speed: 7077.50 samples/sec	cross-entropy=36.432272	GGI10-accuracy=2.400000
+2023-11-08 02:17:43,931 [INFO]  Epoch[0] Train-cross-entropy=47.084316
+2023-11-08 02:17:43,931 [INFO]  Epoch[0] Train-GGI10-accuracy=2.750000
+2023-11-08 02:17:43,931 [INFO]  Epoch[0] Time cost=0.019
+2023-11-08 02:17:43,935 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0000.params"
+2023-11-08 02:17:43,936 [INFO]  Epoch[0] Validation-cross-entropy=119.294350
+2023-11-08 02:17:43,936 [INFO]  Epoch[0] Validation-GGI10-accuracy=0.000000
+2023-11-08 02:17:43,943 [INFO]  Epoch[1] Batch [0-4]	Speed: 11539.66 samples/sec	cross-entropy=207.114964	GGI10-accuracy=2.400000
+2023-11-08 02:17:43,948 [INFO]  Epoch[1] Train-cross-entropy=180.822124
+2023-11-08 02:17:43,948 [INFO]  Epoch[1] Train-GGI10-accuracy=2.750000
+2023-11-08 02:17:43,948 [INFO]  Epoch[1] Time cost=0.012
+2023-11-08 02:17:43,950 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0001.params"
+2023-11-08 02:17:43,951 [INFO]  Epoch[1] Validation-cross-entropy=17.492903
+2023-11-08 02:17:43,951 [INFO]  Epoch[1] Validation-GGI10-accuracy=0.000000
+2023-11-08 02:17:43,957 [INFO]  Epoch[2] Batch [0-4]	Speed: 11954.91 samples/sec	cross-entropy=85.097350	GGI10-accuracy=2.400000
+2023-11-08 02:17:43,962 [INFO]  Epoch[2] Train-cross-entropy=72.545135
+2023-11-08 02:17:43,962 [INFO]  Epoch[2] Train-GGI10-accuracy=2.750000
+2023-11-08 02:17:43,962 [INFO]  Epoch[2] Time cost=0.011
+2023-11-08 02:17:43,964 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0002.params"
+2023-11-08 02:17:43,964 [INFO]  Epoch[2] Validation-cross-entropy=31.062151
+2023-11-08 02:17:43,964 [INFO]  Epoch[2] Validation-GGI10-accuracy=0.000000
+2023-11-08 02:17:43,972 [INFO]  Epoch[3] Batch [0-4]	Speed: 11291.14 samples/sec	cross-entropy=63.544086	GGI10-accuracy=2.400000
+2023-11-08 02:17:43,976 [INFO]  Epoch[3] Train-cross-entropy=44.556599
+2023-11-08 02:17:43,976 [INFO]  Epoch[3] Train-GGI10-accuracy=2.750000
+2023-11-08 02:17:43,976 [INFO]  Epoch[3] Time cost=0.012
+2023-11-08 02:17:43,978 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0003.params"
+2023-11-08 02:17:43,978 [INFO]  Epoch[3] Validation-cross-entropy=14.247292
+2023-11-08 02:17:43,978 [INFO]  Epoch[3] Validation-GGI10-accuracy=0.000000
+2023-11-08 02:17:43,986 [INFO]  Epoch[4] Batch [0-4]	Speed: 11086.42 samples/sec	cross-entropy=10.469870	GGI10-accuracy=2.400000
+2023-11-08 02:17:43,990 [INFO]  Epoch[4] Train-cross-entropy=9.245299
+2023-11-08 02:17:43,990 [INFO]  Epoch[4] Train-GGI10-accuracy=2.750000
+2023-11-08 02:17:43,990 [INFO]  Epoch[4] Time cost=0.012
+2023-11-08 02:17:43,992 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0004.params"
+2023-11-08 02:17:43,993 [INFO]  Epoch[4] Validation-cross-entropy=13.469743
+2023-11-08 02:17:43,993 [INFO]  Epoch[4] Validation-GGI10-accuracy=0.000000
+2023-11-08 02:17:43,993 [INFO]  
+========== done (0.08142399787902832 s) fit model
+2023-11-08 04:05:38,861 [INFO]  
+========== start: fit model
+2023-11-08 04:05:38,861 [WARNING]  Already bound, ignoring bind()
+2023-11-08 04:05:38,875 [INFO]  Epoch[0] Batch [0-4]	Speed: 7099.03 samples/sec	cross-entropy=57.937689	GGI10-accuracy=2.400000
+2023-11-08 04:05:38,880 [INFO]  Epoch[0] Train-cross-entropy=72.388809
+2023-11-08 04:05:38,881 [INFO]  Epoch[0] Train-GGI10-accuracy=3.125000
+2023-11-08 04:05:38,881 [INFO]  Epoch[0] Time cost=0.019
+2023-11-08 04:05:38,884 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0000.params"
+2023-11-08 04:05:38,885 [INFO]  Epoch[0] Validation-cross-entropy=26.073675
+2023-11-08 04:05:38,885 [INFO]  Epoch[0] Validation-GGI10-accuracy=0.000000
+2023-11-08 04:05:38,893 [INFO]  Epoch[1] Batch [0-4]	Speed: 10425.49 samples/sec	cross-entropy=81.274892	GGI10-accuracy=2.400000
+2023-11-08 04:05:38,898 [INFO]  Epoch[1] Train-cross-entropy=154.979837
+2023-11-08 04:05:38,898 [INFO]  Epoch[1] Train-GGI10-accuracy=3.125000
+2023-11-08 04:05:38,898 [INFO]  Epoch[1] Time cost=0.013
+2023-11-08 04:05:38,901 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0001.params"
+2023-11-08 04:05:38,901 [INFO]  Epoch[1] Validation-cross-entropy=10.054899
+2023-11-08 04:05:38,901 [INFO]  Epoch[1] Validation-GGI10-accuracy=0.000000
+2023-11-08 04:05:38,910 [INFO]  Epoch[2] Batch [0-4]	Speed: 9762.00 samples/sec	cross-entropy=46.906503	GGI10-accuracy=2.400000
+2023-11-08 04:05:38,915 [INFO]  Epoch[2] Train-cross-entropy=37.281294
+2023-11-08 04:05:38,915 [INFO]  Epoch[2] Train-GGI10-accuracy=3.125000
+2023-11-08 04:05:38,915 [INFO]  Epoch[2] Time cost=0.014
+2023-11-08 04:05:38,917 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0002.params"
+2023-11-08 04:05:38,918 [INFO]  Epoch[2] Validation-cross-entropy=3.972081
+2023-11-08 04:05:38,918 [INFO]  Epoch[2] Validation-GGI10-accuracy=0.000000
+2023-11-08 04:05:38,927 [INFO]  Epoch[3] Batch [0-4]	Speed: 9776.22 samples/sec	cross-entropy=15.982175	GGI10-accuracy=2.400000
+2023-11-08 04:05:38,932 [INFO]  Epoch[3] Train-cross-entropy=15.843961
+2023-11-08 04:05:38,932 [INFO]  Epoch[3] Train-GGI10-accuracy=3.125000
+2023-11-08 04:05:38,932 [INFO]  Epoch[3] Time cost=0.014
+2023-11-08 04:05:38,934 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0003.params"
+2023-11-08 04:05:38,935 [INFO]  Epoch[3] Validation-cross-entropy=3.511799
+2023-11-08 04:05:38,935 [INFO]  Epoch[3] Validation-GGI10-accuracy=0.000000
+2023-11-08 04:05:38,943 [INFO]  Epoch[4] Batch [0-4]	Speed: 9423.75 samples/sec	cross-entropy=8.972243	GGI10-accuracy=2.400000
+2023-11-08 04:05:38,948 [INFO]  Epoch[4] Train-cross-entropy=6.410598
+2023-11-08 04:05:38,949 [INFO]  Epoch[4] Train-GGI10-accuracy=3.125000
+2023-11-08 04:05:38,949 [INFO]  Epoch[4] Time cost=0.014
+2023-11-08 04:05:38,952 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0004.params"
+2023-11-08 04:05:38,953 [INFO]  Epoch[4] Validation-cross-entropy=3.122607
+2023-11-08 04:05:38,953 [INFO]  Epoch[4] Validation-GGI10-accuracy=0.000000
+2023-11-08 04:05:38,954 [INFO]  
+========== done (0.09233760833740234 s) fit model
+2023-11-08 05:53:48,812 [INFO]  
+========== start: fit model
+2023-11-08 05:53:48,812 [WARNING]  Already bound, ignoring bind()
+2023-11-08 05:53:48,825 [INFO]  Epoch[0] Batch [0-4]	Speed: 7226.69 samples/sec	cross-entropy=49.566465	GGI10-accuracy=0.000000
+2023-11-08 05:53:48,831 [INFO]  Epoch[0] Train-cross-entropy=56.049207
+2023-11-08 05:53:48,831 [INFO]  Epoch[0] Train-GGI10-accuracy=0.000000
+2023-11-08 05:53:48,831 [INFO]  Epoch[0] Time cost=0.019
+2023-11-08 05:53:48,835 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0000.params"
+2023-11-08 05:53:48,836 [INFO]  Epoch[0] Validation-cross-entropy=10.993696
+2023-11-08 05:53:48,836 [INFO]  Epoch[0] Validation-GGI10-accuracy=0.000000
+2023-11-08 05:53:48,844 [INFO]  Epoch[1] Batch [0-4]	Speed: 10780.97 samples/sec	cross-entropy=128.176170	GGI10-accuracy=0.000000
+2023-11-08 05:53:48,849 [INFO]  Epoch[1] Train-cross-entropy=117.304919
+2023-11-08 05:53:48,849 [INFO]  Epoch[1] Train-GGI10-accuracy=0.000000
+2023-11-08 05:53:48,849 [INFO]  Epoch[1] Time cost=0.013
+2023-11-08 05:53:48,851 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0001.params"
+2023-11-08 05:53:48,852 [INFO]  Epoch[1] Validation-cross-entropy=15.277743
+2023-11-08 05:53:48,852 [INFO]  Epoch[1] Validation-GGI10-accuracy=0.000000
+2023-11-08 05:53:48,860 [INFO]  Epoch[2] Batch [0-4]	Speed: 10771.89 samples/sec	cross-entropy=153.207602	GGI10-accuracy=0.000000
+2023-11-08 05:53:48,864 [INFO]  Epoch[2] Train-cross-entropy=109.717437
+2023-11-08 05:53:48,864 [INFO]  Epoch[2] Train-GGI10-accuracy=0.000000
+2023-11-08 05:53:48,864 [INFO]  Epoch[2] Time cost=0.012
+2023-11-08 05:53:48,867 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0002.params"
+2023-11-08 05:53:48,867 [INFO]  Epoch[2] Validation-cross-entropy=10.216051
+2023-11-08 05:53:48,867 [INFO]  Epoch[2] Validation-GGI10-accuracy=0.000000
+2023-11-08 05:53:48,875 [INFO]  Epoch[3] Batch [0-4]	Speed: 10446.99 samples/sec	cross-entropy=22.443587	GGI10-accuracy=0.000000
+2023-11-08 05:53:48,880 [INFO]  Epoch[3] Train-cross-entropy=18.713840
+2023-11-08 05:53:48,880 [INFO]  Epoch[3] Train-GGI10-accuracy=0.000000
+2023-11-08 05:53:48,880 [INFO]  Epoch[3] Time cost=0.013
+2023-11-08 05:53:48,882 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0003.params"
+2023-11-08 05:53:48,883 [INFO]  Epoch[3] Validation-cross-entropy=2.951921
+2023-11-08 05:53:48,883 [INFO]  Epoch[3] Validation-GGI10-accuracy=0.000000
+2023-11-08 05:53:48,891 [INFO]  Epoch[4] Batch [0-4]	Speed: 10540.11 samples/sec	cross-entropy=6.425834	GGI10-accuracy=0.000000
+2023-11-08 05:53:48,895 [INFO]  Epoch[4] Train-cross-entropy=6.185844
+2023-11-08 05:53:48,895 [INFO]  Epoch[4] Train-GGI10-accuracy=0.000000
+2023-11-08 05:53:48,896 [INFO]  Epoch[4] Time cost=0.012
+2023-11-08 05:53:48,898 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0004.params"
+2023-11-08 05:53:48,898 [INFO]  Epoch[4] Validation-cross-entropy=5.855881
+2023-11-08 05:53:48,898 [INFO]  Epoch[4] Validation-GGI10-accuracy=0.000000
+2023-11-08 05:53:48,898 [INFO]  
+========== done (0.08684182167053223 s) fit model
+2023-11-08 07:42:05,692 [INFO]  
+========== start: fit model
+2023-11-08 07:42:05,692 [WARNING]  Already bound, ignoring bind()
+2023-11-08 07:42:05,705 [INFO]  Epoch[0] Batch [0-4]	Speed: 7399.60 samples/sec	cross-entropy=63.570390	GGI10-accuracy=3.200000
+2023-11-08 07:42:05,711 [INFO]  Epoch[0] Train-cross-entropy=79.213071
+2023-11-08 07:42:05,711 [INFO]  Epoch[0] Train-GGI10-accuracy=3.000000
+2023-11-08 07:42:05,711 [INFO]  Epoch[0] Time cost=0.018
+2023-11-08 07:42:05,712 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0000.params"
+2023-11-08 07:42:05,713 [INFO]  Epoch[0] Validation-cross-entropy=14.009806
+2023-11-08 07:42:05,713 [INFO]  Epoch[0] Validation-GGI10-accuracy=0.000000
+2023-11-08 07:42:05,722 [INFO]  Epoch[1] Batch [0-4]	Speed: 9040.67 samples/sec	cross-entropy=64.535582	GGI10-accuracy=3.200000
+2023-11-08 07:42:05,727 [INFO]  Epoch[1] Train-cross-entropy=83.573704
+2023-11-08 07:42:05,727 [INFO]  Epoch[1] Train-GGI10-accuracy=3.000000
+2023-11-08 07:42:05,728 [INFO]  Epoch[1] Time cost=0.015
+2023-11-08 07:42:05,730 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0001.params"
+2023-11-08 07:42:05,731 [INFO]  Epoch[1] Validation-cross-entropy=37.725136
+2023-11-08 07:42:05,731 [INFO]  Epoch[1] Validation-GGI10-accuracy=0.000000
+2023-11-08 07:42:05,739 [INFO]  Epoch[2] Batch [0-4]	Speed: 10043.23 samples/sec	cross-entropy=50.818474	GGI10-accuracy=3.200000
+2023-11-08 07:42:05,745 [INFO]  Epoch[2] Train-cross-entropy=43.370805
+2023-11-08 07:42:05,745 [INFO]  Epoch[2] Train-GGI10-accuracy=3.000000
+2023-11-08 07:42:05,745 [INFO]  Epoch[2] Time cost=0.014
+2023-11-08 07:42:05,747 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0002.params"
+2023-11-08 07:42:05,748 [INFO]  Epoch[2] Validation-cross-entropy=107.842224
+2023-11-08 07:42:05,748 [INFO]  Epoch[2] Validation-GGI10-accuracy=0.000000
+2023-11-08 07:42:05,758 [INFO]  Epoch[3] Batch [0-4]	Speed: 8258.03 samples/sec	cross-entropy=18.157136	GGI10-accuracy=3.200000
+2023-11-08 07:42:05,764 [INFO]  Epoch[3] Train-cross-entropy=19.842508
+2023-11-08 07:42:05,764 [INFO]  Epoch[3] Train-GGI10-accuracy=3.000000
+2023-11-08 07:42:05,765 [INFO]  Epoch[3] Time cost=0.017
+2023-11-08 07:42:05,767 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0003.params"
+2023-11-08 07:42:05,768 [INFO]  Epoch[3] Validation-cross-entropy=72.753914
+2023-11-08 07:42:05,768 [INFO]  Epoch[3] Validation-GGI10-accuracy=0.000000
+2023-11-08 07:42:05,779 [INFO]  Epoch[4] Batch [0-4]	Speed: 7471.48 samples/sec	cross-entropy=8.598578	GGI10-accuracy=3.200000
+2023-11-08 07:42:05,786 [INFO]  Epoch[4] Train-cross-entropy=6.397844
+2023-11-08 07:42:05,786 [INFO]  Epoch[4] Train-GGI10-accuracy=3.000000
+2023-11-08 07:42:05,786 [INFO]  Epoch[4] Time cost=0.017
+2023-11-08 07:42:05,789 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0004.params"
+2023-11-08 07:42:05,790 [INFO]  Epoch[4] Validation-cross-entropy=51.644894
+2023-11-08 07:42:05,790 [INFO]  Epoch[4] Validation-GGI10-accuracy=0.000000
+2023-11-08 07:42:05,790 [INFO]  
+========== done (0.09817123413085938 s) fit model
+2023-11-08 09:30:54,367 [INFO]  
+========== start: fit model
+2023-11-08 09:30:54,367 [WARNING]  Already bound, ignoring bind()
+2023-11-08 09:30:54,382 [INFO]  Epoch[0] Batch [0-4]	Speed: 6278.46 samples/sec	cross-entropy=90.108809	GGI10-accuracy=3.400000
+2023-11-08 09:30:54,390 [INFO]  Epoch[0] Train-cross-entropy=68.850776
+2023-11-08 09:30:54,390 [INFO]  Epoch[0] Train-GGI10-accuracy=3.000000
+2023-11-08 09:30:54,390 [INFO]  Epoch[0] Time cost=0.022
+2023-11-08 09:30:54,393 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0000.params"
+2023-11-08 09:30:54,395 [INFO]  Epoch[0] Validation-cross-entropy=19.175518
+2023-11-08 09:30:54,395 [INFO]  Epoch[0] Validation-GGI10-accuracy=0.000000
+2023-11-08 09:30:54,406 [INFO]  Epoch[1] Batch [0-4]	Speed: 7457.78 samples/sec	cross-entropy=136.418788	GGI10-accuracy=3.400000
+2023-11-08 09:30:54,412 [INFO]  Epoch[1] Train-cross-entropy=137.151302
+2023-11-08 09:30:54,412 [INFO]  Epoch[1] Train-GGI10-accuracy=3.000000
+2023-11-08 09:30:54,412 [INFO]  Epoch[1] Time cost=0.018
+2023-11-08 09:30:54,415 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0001.params"
+2023-11-08 09:30:54,416 [INFO]  Epoch[1] Validation-cross-entropy=30.549768
+2023-11-08 09:30:54,417 [INFO]  Epoch[1] Validation-GGI10-accuracy=0.000000
+2023-11-08 09:30:54,427 [INFO]  Epoch[2] Batch [0-4]	Speed: 7444.96 samples/sec	cross-entropy=63.693633	GGI10-accuracy=3.400000
+2023-11-08 09:30:54,434 [INFO]  Epoch[2] Train-cross-entropy=49.636833
+2023-11-08 09:30:54,434 [INFO]  Epoch[2] Train-GGI10-accuracy=3.000000
+2023-11-08 09:30:54,434 [INFO]  Epoch[2] Time cost=0.017
+2023-11-08 09:30:54,437 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0002.params"
+2023-11-08 09:30:54,438 [INFO]  Epoch[2] Validation-cross-entropy=9.692595
+2023-11-08 09:30:54,438 [INFO]  Epoch[2] Validation-GGI10-accuracy=0.000000
+2023-11-08 09:30:54,448 [INFO]  Epoch[3] Batch [0-4]	Speed: 8087.60 samples/sec	cross-entropy=25.102972	GGI10-accuracy=3.400000
+2023-11-08 09:30:54,455 [INFO]  Epoch[3] Train-cross-entropy=20.670288
+2023-11-08 09:30:54,455 [INFO]  Epoch[3] Train-GGI10-accuracy=3.000000
+2023-11-08 09:30:54,455 [INFO]  Epoch[3] Time cost=0.017
+2023-11-08 09:30:54,458 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0003.params"
+2023-11-08 09:30:54,459 [INFO]  Epoch[3] Validation-cross-entropy=6.722270
+2023-11-08 09:30:54,459 [INFO]  Epoch[3] Validation-GGI10-accuracy=0.000000
+2023-11-08 09:30:54,470 [INFO]  Epoch[4] Batch [0-4]	Speed: 7793.16 samples/sec	cross-entropy=6.823613	GGI10-accuracy=3.400000
+2023-11-08 09:30:54,476 [INFO]  Epoch[4] Train-cross-entropy=5.254752
+2023-11-08 09:30:54,476 [INFO]  Epoch[4] Train-GGI10-accuracy=3.000000
+2023-11-08 09:30:54,476 [INFO]  Epoch[4] Time cost=0.017
+2023-11-08 09:30:54,479 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0004.params"
+2023-11-08 09:30:54,480 [INFO]  Epoch[4] Validation-cross-entropy=4.017551
+2023-11-08 09:30:54,480 [INFO]  Epoch[4] Validation-GGI10-accuracy=0.000000
+2023-11-08 09:30:54,480 [INFO]  
+========== done (0.11262631416320801 s) fit model
+2023-11-08 11:21:06,105 [INFO]  
+========== start: fit model
+2023-11-08 11:21:06,105 [WARNING]  Already bound, ignoring bind()
+2023-11-08 11:21:06,119 [INFO]  Epoch[0] Batch [0-4]	Speed: 7016.64 samples/sec	cross-entropy=86.516736	GGI10-accuracy=3.600000
+2023-11-08 11:21:06,125 [INFO]  Epoch[0] Train-cross-entropy=96.526783
+2023-11-08 11:21:06,125 [INFO]  Epoch[0] Train-GGI10-accuracy=4.000000
+2023-11-08 11:21:06,125 [INFO]  Epoch[0] Time cost=0.019
+2023-11-08 11:21:06,128 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0000.params"
+2023-11-08 11:21:06,129 [INFO]  Epoch[0] Validation-cross-entropy=13.975579
+2023-11-08 11:21:06,129 [INFO]  Epoch[0] Validation-GGI10-accuracy=0.000000
+2023-11-08 11:21:06,137 [INFO]  Epoch[1] Batch [0-4]	Speed: 11537.18 samples/sec	cross-entropy=96.559104	GGI10-accuracy=3.600000
+2023-11-08 11:21:06,141 [INFO]  Epoch[1] Train-cross-entropy=182.605952
+2023-11-08 11:21:06,141 [INFO]  Epoch[1] Train-GGI10-accuracy=4.000000
+2023-11-08 11:21:06,141 [INFO]  Epoch[1] Time cost=0.011
+2023-11-08 11:21:06,143 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0001.params"
+2023-11-08 11:21:06,144 [INFO]  Epoch[1] Validation-cross-entropy=15.411876
+2023-11-08 11:21:06,144 [INFO]  Epoch[1] Validation-GGI10-accuracy=0.000000
+2023-11-08 11:21:06,150 [INFO]  Epoch[2] Batch [0-4]	Speed: 12958.51 samples/sec	cross-entropy=37.811363	GGI10-accuracy=3.600000
+2023-11-08 11:21:06,154 [INFO]  Epoch[2] Train-cross-entropy=42.852340
+2023-11-08 11:21:06,154 [INFO]  Epoch[2] Train-GGI10-accuracy=4.000000
+2023-11-08 11:21:06,154 [INFO]  Epoch[2] Time cost=0.010
+2023-11-08 11:21:06,156 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0002.params"
+2023-11-08 11:21:06,156 [INFO]  Epoch[2] Validation-cross-entropy=12.789910
+2023-11-08 11:21:06,156 [INFO]  Epoch[2] Validation-GGI10-accuracy=0.000000
+2023-11-08 11:21:06,163 [INFO]  Epoch[3] Batch [0-4]	Speed: 12499.32 samples/sec	cross-entropy=38.754026	GGI10-accuracy=3.600000
+2023-11-08 11:21:06,167 [INFO]  Epoch[3] Train-cross-entropy=29.910974
+2023-11-08 11:21:06,167 [INFO]  Epoch[3] Train-GGI10-accuracy=4.000000
+2023-11-08 11:21:06,167 [INFO]  Epoch[3] Time cost=0.011
+2023-11-08 11:21:06,169 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0003.params"
+2023-11-08 11:21:06,169 [INFO]  Epoch[3] Validation-cross-entropy=5.978456
+2023-11-08 11:21:06,169 [INFO]  Epoch[3] Validation-GGI10-accuracy=0.000000
+2023-11-08 11:21:06,176 [INFO]  Epoch[4] Batch [0-4]	Speed: 12350.38 samples/sec	cross-entropy=8.716123	GGI10-accuracy=3.600000
+2023-11-08 11:21:06,180 [INFO]  Epoch[4] Train-cross-entropy=6.819699
+2023-11-08 11:21:06,180 [INFO]  Epoch[4] Train-GGI10-accuracy=4.000000
+2023-11-08 11:21:06,180 [INFO]  Epoch[4] Time cost=0.011
+2023-11-08 11:21:06,181 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GGI10/model-0004.params"
+2023-11-08 11:21:06,182 [INFO]  Epoch[4] Validation-cross-entropy=7.185588
+2023-11-08 11:21:06,182 [INFO]  Epoch[4] Validation-GGI10-accuracy=0.000000
+2023-11-08 11:21:06,182 [INFO]  
+========== done (0.07692337036132812 s) fit model

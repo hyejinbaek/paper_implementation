@@ -1,0 +1,400 @@
+2023-11-08 12:54:28,211 [INFO]  
+========== start: fit model
+2023-11-08 12:54:28,212 [WARNING]  Already bound, ignoring bind()
+2023-11-08 12:54:28,221 [INFO]  Epoch[0] Batch [0-4]	Speed: 12196.07 samples/sec	cross-entropy=20.200668	mean_gmrt25-accuracy=3.400000
+2023-11-08 12:54:28,250 [INFO]  Epoch[0] Train-cross-entropy=18.259937
+2023-11-08 12:54:28,250 [INFO]  Epoch[0] Train-mean_gmrt25-accuracy=2.750000
+2023-11-08 12:54:28,250 [INFO]  Epoch[0] Time cost=0.036
+2023-11-08 12:54:28,251 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0000.params"
+2023-11-08 12:54:28,253 [INFO]  Epoch[0] Validation-cross-entropy=6.163957
+2023-11-08 12:54:28,253 [INFO]  Epoch[0] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 12:54:28,446 [INFO]  Epoch[1] Batch [0-4]	Speed: 338.65 samples/sec	cross-entropy=42.149952	mean_gmrt25-accuracy=3.400000
+2023-11-08 12:54:28,969 [INFO]  Epoch[1] Train-cross-entropy=29.968356
+2023-11-08 12:54:28,969 [INFO]  Epoch[1] Train-mean_gmrt25-accuracy=2.750000
+2023-11-08 12:54:28,969 [INFO]  Epoch[1] Time cost=0.716
+2023-11-08 12:54:28,991 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0001.params"
+2023-11-08 12:54:29,080 [INFO]  Epoch[1] Validation-cross-entropy=4.009573
+2023-11-08 12:54:29,081 [INFO]  Epoch[1] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 12:54:29,085 [INFO]  Epoch[2] Batch [0-4]	Speed: 21164.98 samples/sec	cross-entropy=4.932868	mean_gmrt25-accuracy=3.400000
+2023-11-08 12:54:29,087 [INFO]  Epoch[2] Train-cross-entropy=3.656374
+2023-11-08 12:54:29,087 [INFO]  Epoch[2] Train-mean_gmrt25-accuracy=2.750000
+2023-11-08 12:54:29,087 [INFO]  Epoch[2] Time cost=0.006
+2023-11-08 12:54:29,095 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0002.params"
+2023-11-08 12:54:29,095 [INFO]  Epoch[2] Validation-cross-entropy=4.331883
+2023-11-08 12:54:29,095 [INFO]  Epoch[2] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 12:54:29,098 [INFO]  Epoch[3] Batch [0-4]	Speed: 27455.81 samples/sec	cross-entropy=2.132363	mean_gmrt25-accuracy=3.400000
+2023-11-08 12:54:29,101 [INFO]  Epoch[3] Train-cross-entropy=1.757499
+2023-11-08 12:54:29,101 [INFO]  Epoch[3] Train-mean_gmrt25-accuracy=2.750000
+2023-11-08 12:54:29,101 [INFO]  Epoch[3] Time cost=0.006
+2023-11-08 12:54:29,102 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0003.params"
+2023-11-08 12:54:29,103 [INFO]  Epoch[3] Validation-cross-entropy=2.986857
+2023-11-08 12:54:29,103 [INFO]  Epoch[3] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 12:54:29,107 [INFO]  Epoch[4] Batch [0-4]	Speed: 18990.84 samples/sec	cross-entropy=1.006951	mean_gmrt25-accuracy=3.400000
+2023-11-08 12:54:29,110 [INFO]  Epoch[4] Train-cross-entropy=0.804016
+2023-11-08 12:54:29,110 [INFO]  Epoch[4] Train-mean_gmrt25-accuracy=2.750000
+2023-11-08 12:54:29,110 [INFO]  Epoch[4] Time cost=0.007
+2023-11-08 12:54:29,111 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0004.params"
+2023-11-08 12:54:29,112 [INFO]  Epoch[4] Validation-cross-entropy=3.708615
+2023-11-08 12:54:29,112 [INFO]  Epoch[4] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 12:54:29,112 [INFO]  
+========== done (0.9006474018096924 s) fit model
+2023-11-08 13:10:17,437 [INFO]  
+========== start: fit model
+2023-11-08 13:10:17,455 [WARNING]  Already bound, ignoring bind()
+2023-11-08 13:10:17,462 [INFO]  Epoch[0] Batch [0-4]	Speed: 13448.00 samples/sec	cross-entropy=15.622077	mean_gmrt25-accuracy=0.000000
+2023-11-08 13:10:17,466 [INFO]  Epoch[0] Train-cross-entropy=14.886634
+2023-11-08 13:10:17,466 [INFO]  Epoch[0] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:10:17,466 [INFO]  Epoch[0] Time cost=0.010
+2023-11-08 13:10:17,468 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0000.params"
+2023-11-08 13:10:17,468 [INFO]  Epoch[0] Validation-cross-entropy=7.691762
+2023-11-08 13:10:17,468 [INFO]  Epoch[0] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:10:17,474 [INFO]  Epoch[1] Batch [0-4]	Speed: 13423.12 samples/sec	cross-entropy=40.716447	mean_gmrt25-accuracy=0.000000
+2023-11-08 13:10:17,479 [INFO]  Epoch[1] Train-cross-entropy=35.142222
+2023-11-08 13:10:17,480 [INFO]  Epoch[1] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:10:17,480 [INFO]  Epoch[1] Time cost=0.011
+2023-11-08 13:10:17,483 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0001.params"
+2023-11-08 13:10:17,485 [INFO]  Epoch[1] Validation-cross-entropy=5.164973
+2023-11-08 13:10:17,485 [INFO]  Epoch[1] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:10:17,491 [INFO]  Epoch[2] Batch [0-4]	Speed: 13673.36 samples/sec	cross-entropy=5.478925	mean_gmrt25-accuracy=0.000000
+2023-11-08 13:10:17,495 [INFO]  Epoch[2] Train-cross-entropy=6.706872
+2023-11-08 13:10:17,495 [INFO]  Epoch[2] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:10:17,495 [INFO]  Epoch[2] Time cost=0.010
+2023-11-08 13:10:17,497 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0002.params"
+2023-11-08 13:10:17,498 [INFO]  Epoch[2] Validation-cross-entropy=5.469563
+2023-11-08 13:10:17,498 [INFO]  Epoch[2] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:10:17,504 [INFO]  Epoch[3] Batch [0-4]	Speed: 14942.97 samples/sec	cross-entropy=1.922992	mean_gmrt25-accuracy=0.000000
+2023-11-08 13:10:17,507 [INFO]  Epoch[3] Train-cross-entropy=2.286068
+2023-11-08 13:10:17,507 [INFO]  Epoch[3] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:10:17,507 [INFO]  Epoch[3] Time cost=0.009
+2023-11-08 13:10:17,520 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0003.params"
+2023-11-08 13:10:17,521 [INFO]  Epoch[3] Validation-cross-entropy=5.642974
+2023-11-08 13:10:17,521 [INFO]  Epoch[3] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:10:17,527 [INFO]  Epoch[4] Batch [0-4]	Speed: 13373.63 samples/sec	cross-entropy=1.139614	mean_gmrt25-accuracy=0.000000
+2023-11-08 13:10:17,531 [INFO]  Epoch[4] Train-cross-entropy=1.079858
+2023-11-08 13:10:17,531 [INFO]  Epoch[4] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:10:17,531 [INFO]  Epoch[4] Time cost=0.010
+2023-11-08 13:10:17,534 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0004.params"
+2023-11-08 13:10:17,535 [INFO]  Epoch[4] Validation-cross-entropy=3.008765
+2023-11-08 13:10:17,535 [INFO]  Epoch[4] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:10:17,535 [INFO]  
+========== done (0.09797382354736328 s) fit model
+2023-11-08 13:23:33,583 [INFO]  
+========== start: fit model
+2023-11-08 13:23:33,583 [WARNING]  Already bound, ignoring bind()
+2023-11-08 13:23:33,590 [INFO]  Epoch[0] Batch [0-4]	Speed: 14003.62 samples/sec	cross-entropy=13.924475	mean_gmrt25-accuracy=0.000000
+2023-11-08 13:23:33,593 [INFO]  Epoch[0] Train-cross-entropy=16.468422
+2023-11-08 13:23:33,593 [INFO]  Epoch[0] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:23:33,593 [INFO]  Epoch[0] Time cost=0.010
+2023-11-08 13:23:33,595 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0000.params"
+2023-11-08 13:23:33,595 [INFO]  Epoch[0] Validation-cross-entropy=16.695095
+2023-11-08 13:23:33,595 [INFO]  Epoch[0] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:23:33,601 [INFO]  Epoch[1] Batch [0-4]	Speed: 14370.21 samples/sec	cross-entropy=29.640861	mean_gmrt25-accuracy=0.000000
+2023-11-08 13:23:33,604 [INFO]  Epoch[1] Train-cross-entropy=26.572330
+2023-11-08 13:23:33,604 [INFO]  Epoch[1] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:23:33,604 [INFO]  Epoch[1] Time cost=0.009
+2023-11-08 13:23:33,605 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0001.params"
+2023-11-08 13:23:33,606 [INFO]  Epoch[1] Validation-cross-entropy=20.182760
+2023-11-08 13:23:33,606 [INFO]  Epoch[1] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:23:33,611 [INFO]  Epoch[2] Batch [0-4]	Speed: 15833.16 samples/sec	cross-entropy=6.974348	mean_gmrt25-accuracy=0.000000
+2023-11-08 13:23:33,614 [INFO]  Epoch[2] Train-cross-entropy=5.652766
+2023-11-08 13:23:33,614 [INFO]  Epoch[2] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:23:33,614 [INFO]  Epoch[2] Time cost=0.008
+2023-11-08 13:23:33,615 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0002.params"
+2023-11-08 13:23:33,616 [INFO]  Epoch[2] Validation-cross-entropy=19.102234
+2023-11-08 13:23:33,616 [INFO]  Epoch[2] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:23:33,621 [INFO]  Epoch[3] Batch [0-4]	Speed: 15762.50 samples/sec	cross-entropy=3.799705	mean_gmrt25-accuracy=0.000000
+2023-11-08 13:23:33,624 [INFO]  Epoch[3] Train-cross-entropy=3.017754
+2023-11-08 13:23:33,624 [INFO]  Epoch[3] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:23:33,624 [INFO]  Epoch[3] Time cost=0.008
+2023-11-08 13:23:33,625 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0003.params"
+2023-11-08 13:23:33,626 [INFO]  Epoch[3] Validation-cross-entropy=20.956583
+2023-11-08 13:23:33,626 [INFO]  Epoch[3] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:23:33,631 [INFO]  Epoch[4] Batch [0-4]	Speed: 16859.41 samples/sec	cross-entropy=1.349104	mean_gmrt25-accuracy=0.000000
+2023-11-08 13:23:33,634 [INFO]  Epoch[4] Train-cross-entropy=1.225069
+2023-11-08 13:23:33,634 [INFO]  Epoch[4] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:23:33,634 [INFO]  Epoch[4] Time cost=0.008
+2023-11-08 13:23:33,635 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0004.params"
+2023-11-08 13:23:33,636 [INFO]  Epoch[4] Validation-cross-entropy=20.893974
+2023-11-08 13:23:33,636 [INFO]  Epoch[4] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:23:33,636 [INFO]  
+========== done (0.05325770378112793 s) fit model
+2023-11-08 13:36:53,048 [INFO]  
+========== start: fit model
+2023-11-08 13:36:53,048 [WARNING]  Already bound, ignoring bind()
+2023-11-08 13:36:53,055 [INFO]  Epoch[0] Batch [0-4]	Speed: 14058.63 samples/sec	cross-entropy=27.753054	mean_gmrt25-accuracy=0.000000
+2023-11-08 13:36:53,058 [INFO]  Epoch[0] Train-cross-entropy=24.671476
+2023-11-08 13:36:53,058 [INFO]  Epoch[0] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:36:53,058 [INFO]  Epoch[0] Time cost=0.010
+2023-11-08 13:36:53,060 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0000.params"
+2023-11-08 13:36:53,060 [INFO]  Epoch[0] Validation-cross-entropy=12.103250
+2023-11-08 13:36:53,060 [INFO]  Epoch[0] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:36:53,066 [INFO]  Epoch[1] Batch [0-4]	Speed: 14687.06 samples/sec	cross-entropy=28.427402	mean_gmrt25-accuracy=0.000000
+2023-11-08 13:36:53,069 [INFO]  Epoch[1] Train-cross-entropy=29.639126
+2023-11-08 13:36:53,069 [INFO]  Epoch[1] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:36:53,069 [INFO]  Epoch[1] Time cost=0.009
+2023-11-08 13:36:53,071 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0001.params"
+2023-11-08 13:36:53,071 [INFO]  Epoch[1] Validation-cross-entropy=10.263850
+2023-11-08 13:36:53,071 [INFO]  Epoch[1] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:36:53,076 [INFO]  Epoch[2] Batch [0-4]	Speed: 15950.77 samples/sec	cross-entropy=8.597968	mean_gmrt25-accuracy=0.000000
+2023-11-08 13:36:53,079 [INFO]  Epoch[2] Train-cross-entropy=9.414221
+2023-11-08 13:36:53,080 [INFO]  Epoch[2] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:36:53,080 [INFO]  Epoch[2] Time cost=0.008
+2023-11-08 13:36:53,081 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0002.params"
+2023-11-08 13:36:53,081 [INFO]  Epoch[2] Validation-cross-entropy=15.066403
+2023-11-08 13:36:53,081 [INFO]  Epoch[2] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:36:53,086 [INFO]  Epoch[3] Batch [0-4]	Speed: 16698.94 samples/sec	cross-entropy=3.220324	mean_gmrt25-accuracy=0.000000
+2023-11-08 13:36:53,089 [INFO]  Epoch[3] Train-cross-entropy=3.128060
+2023-11-08 13:36:53,089 [INFO]  Epoch[3] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:36:53,089 [INFO]  Epoch[3] Time cost=0.008
+2023-11-08 13:36:53,090 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0003.params"
+2023-11-08 13:36:53,091 [INFO]  Epoch[3] Validation-cross-entropy=5.005076
+2023-11-08 13:36:53,091 [INFO]  Epoch[3] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:36:53,096 [INFO]  Epoch[4] Batch [0-4]	Speed: 17152.43 samples/sec	cross-entropy=1.488146	mean_gmrt25-accuracy=0.000000
+2023-11-08 13:36:53,099 [INFO]  Epoch[4] Train-cross-entropy=1.458216
+2023-11-08 13:36:53,099 [INFO]  Epoch[4] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:36:53,099 [INFO]  Epoch[4] Time cost=0.008
+2023-11-08 13:36:53,100 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0004.params"
+2023-11-08 13:36:53,100 [INFO]  Epoch[4] Validation-cross-entropy=6.269155
+2023-11-08 13:36:53,100 [INFO]  Epoch[4] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:36:53,100 [INFO]  
+========== done (0.05258989334106445 s) fit model
+2023-11-08 13:50:14,127 [INFO]  
+========== start: fit model
+2023-11-08 13:50:14,127 [WARNING]  Already bound, ignoring bind()
+2023-11-08 13:50:14,135 [INFO]  Epoch[0] Batch [0-4]	Speed: 10829.69 samples/sec	cross-entropy=18.922409	mean_gmrt25-accuracy=0.000000
+2023-11-08 13:50:14,140 [INFO]  Epoch[0] Train-cross-entropy=20.665945
+2023-11-08 13:50:14,140 [INFO]  Epoch[0] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:50:14,140 [INFO]  Epoch[0] Time cost=0.013
+2023-11-08 13:50:14,143 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0000.params"
+2023-11-08 13:50:14,144 [INFO]  Epoch[0] Validation-cross-entropy=10.066314
+2023-11-08 13:50:14,144 [INFO]  Epoch[0] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:50:14,151 [INFO]  Epoch[1] Batch [0-4]	Speed: 12001.41 samples/sec	cross-entropy=24.350622	mean_gmrt25-accuracy=0.000000
+2023-11-08 13:50:14,155 [INFO]  Epoch[1] Train-cross-entropy=25.862126
+2023-11-08 13:50:14,155 [INFO]  Epoch[1] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:50:14,155 [INFO]  Epoch[1] Time cost=0.010
+2023-11-08 13:50:14,157 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0001.params"
+2023-11-08 13:50:14,157 [INFO]  Epoch[1] Validation-cross-entropy=38.992107
+2023-11-08 13:50:14,158 [INFO]  Epoch[1] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:50:14,162 [INFO]  Epoch[2] Batch [0-4]	Speed: 16752.09 samples/sec	cross-entropy=4.730949	mean_gmrt25-accuracy=0.000000
+2023-11-08 13:50:14,165 [INFO]  Epoch[2] Train-cross-entropy=4.625912
+2023-11-08 13:50:14,166 [INFO]  Epoch[2] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:50:14,166 [INFO]  Epoch[2] Time cost=0.008
+2023-11-08 13:50:14,167 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0002.params"
+2023-11-08 13:50:14,167 [INFO]  Epoch[2] Validation-cross-entropy=8.022058
+2023-11-08 13:50:14,168 [INFO]  Epoch[2] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:50:14,173 [INFO]  Epoch[3] Batch [0-4]	Speed: 14452.99 samples/sec	cross-entropy=2.152673	mean_gmrt25-accuracy=0.000000
+2023-11-08 13:50:14,177 [INFO]  Epoch[3] Train-cross-entropy=1.658945
+2023-11-08 13:50:14,177 [INFO]  Epoch[3] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:50:14,177 [INFO]  Epoch[3] Time cost=0.009
+2023-11-08 13:50:14,178 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0003.params"
+2023-11-08 13:50:14,179 [INFO]  Epoch[3] Validation-cross-entropy=10.869356
+2023-11-08 13:50:14,179 [INFO]  Epoch[3] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:50:14,184 [INFO]  Epoch[4] Batch [0-4]	Speed: 14528.87 samples/sec	cross-entropy=1.690058	mean_gmrt25-accuracy=0.000000
+2023-11-08 13:50:14,188 [INFO]  Epoch[4] Train-cross-entropy=1.260671
+2023-11-08 13:50:14,188 [INFO]  Epoch[4] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:50:14,188 [INFO]  Epoch[4] Time cost=0.009
+2023-11-08 13:50:14,189 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0004.params"
+2023-11-08 13:50:14,190 [INFO]  Epoch[4] Validation-cross-entropy=6.010365
+2023-11-08 13:50:14,190 [INFO]  Epoch[4] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 13:50:14,190 [INFO]  
+========== done (0.06276202201843262 s) fit model
+2023-11-08 14:03:36,612 [INFO]  
+========== start: fit model
+2023-11-08 14:03:36,612 [WARNING]  Already bound, ignoring bind()
+2023-11-08 14:03:36,619 [INFO]  Epoch[0] Batch [0-4]	Speed: 13789.96 samples/sec	cross-entropy=18.487127	mean_gmrt25-accuracy=0.000000
+2023-11-08 14:03:36,622 [INFO]  Epoch[0] Train-cross-entropy=15.524915
+2023-11-08 14:03:36,622 [INFO]  Epoch[0] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:03:36,622 [INFO]  Epoch[0] Time cost=0.010
+2023-11-08 14:03:36,624 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0000.params"
+2023-11-08 14:03:36,624 [INFO]  Epoch[0] Validation-cross-entropy=12.810570
+2023-11-08 14:03:36,624 [INFO]  Epoch[0] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:03:36,630 [INFO]  Epoch[1] Batch [0-4]	Speed: 13986.84 samples/sec	cross-entropy=48.903195	mean_gmrt25-accuracy=0.000000
+2023-11-08 14:03:36,633 [INFO]  Epoch[1] Train-cross-entropy=36.182478
+2023-11-08 14:03:36,633 [INFO]  Epoch[1] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:03:36,633 [INFO]  Epoch[1] Time cost=0.009
+2023-11-08 14:03:36,635 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0001.params"
+2023-11-08 14:03:36,635 [INFO]  Epoch[1] Validation-cross-entropy=2.692305
+2023-11-08 14:03:36,635 [INFO]  Epoch[1] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:03:36,641 [INFO]  Epoch[2] Batch [0-4]	Speed: 14733.01 samples/sec	cross-entropy=5.030095	mean_gmrt25-accuracy=0.000000
+2023-11-08 14:03:36,644 [INFO]  Epoch[2] Train-cross-entropy=5.600064
+2023-11-08 14:03:36,644 [INFO]  Epoch[2] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:03:36,644 [INFO]  Epoch[2] Time cost=0.008
+2023-11-08 14:03:36,645 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0002.params"
+2023-11-08 14:03:36,645 [INFO]  Epoch[2] Validation-cross-entropy=3.231132
+2023-11-08 14:03:36,645 [INFO]  Epoch[2] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:03:36,650 [INFO]  Epoch[3] Batch [0-4]	Speed: 16478.54 samples/sec	cross-entropy=3.888660	mean_gmrt25-accuracy=0.000000
+2023-11-08 14:03:36,653 [INFO]  Epoch[3] Train-cross-entropy=3.219932
+2023-11-08 14:03:36,653 [INFO]  Epoch[3] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:03:36,653 [INFO]  Epoch[3] Time cost=0.008
+2023-11-08 14:03:36,654 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0003.params"
+2023-11-08 14:03:36,655 [INFO]  Epoch[3] Validation-cross-entropy=2.336397
+2023-11-08 14:03:36,655 [INFO]  Epoch[3] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:03:36,660 [INFO]  Epoch[4] Batch [0-4]	Speed: 17571.22 samples/sec	cross-entropy=1.521056	mean_gmrt25-accuracy=0.000000
+2023-11-08 14:03:36,662 [INFO]  Epoch[4] Train-cross-entropy=1.223133
+2023-11-08 14:03:36,662 [INFO]  Epoch[4] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:03:36,662 [INFO]  Epoch[4] Time cost=0.007
+2023-11-08 14:03:36,664 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0004.params"
+2023-11-08 14:03:36,664 [INFO]  Epoch[4] Validation-cross-entropy=1.609849
+2023-11-08 14:03:36,664 [INFO]  Epoch[4] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:03:36,664 [INFO]  
+========== done (0.05279183387756348 s) fit model
+2023-11-08 14:17:03,135 [INFO]  
+========== start: fit model
+2023-11-08 14:17:03,135 [WARNING]  Already bound, ignoring bind()
+2023-11-08 14:17:03,142 [INFO]  Epoch[0] Batch [0-4]	Speed: 14034.37 samples/sec	cross-entropy=22.006195	mean_gmrt25-accuracy=0.000000
+2023-11-08 14:17:03,146 [INFO]  Epoch[0] Train-cross-entropy=17.455314
+2023-11-08 14:17:03,146 [INFO]  Epoch[0] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:17:03,146 [INFO]  Epoch[0] Time cost=0.011
+2023-11-08 14:17:03,150 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0000.params"
+2023-11-08 14:17:03,151 [INFO]  Epoch[0] Validation-cross-entropy=20.613724
+2023-11-08 14:17:03,151 [INFO]  Epoch[0] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:17:03,159 [INFO]  Epoch[1] Batch [0-4]	Speed: 10852.89 samples/sec	cross-entropy=70.761765	mean_gmrt25-accuracy=0.000000
+2023-11-08 14:17:03,163 [INFO]  Epoch[1] Train-cross-entropy=48.912278
+2023-11-08 14:17:03,163 [INFO]  Epoch[1] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:17:03,163 [INFO]  Epoch[1] Time cost=0.012
+2023-11-08 14:17:03,166 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0001.params"
+2023-11-08 14:17:03,167 [INFO]  Epoch[1] Validation-cross-entropy=3.075655
+2023-11-08 14:17:03,167 [INFO]  Epoch[1] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:17:03,172 [INFO]  Epoch[2] Batch [0-4]	Speed: 16219.67 samples/sec	cross-entropy=7.927334	mean_gmrt25-accuracy=0.000000
+2023-11-08 14:17:03,175 [INFO]  Epoch[2] Train-cross-entropy=7.706593
+2023-11-08 14:17:03,175 [INFO]  Epoch[2] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:17:03,175 [INFO]  Epoch[2] Time cost=0.008
+2023-11-08 14:17:03,177 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0002.params"
+2023-11-08 14:17:03,177 [INFO]  Epoch[2] Validation-cross-entropy=2.597810
+2023-11-08 14:17:03,177 [INFO]  Epoch[2] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:17:03,182 [INFO]  Epoch[3] Batch [0-4]	Speed: 17475.13 samples/sec	cross-entropy=3.808189	mean_gmrt25-accuracy=0.000000
+2023-11-08 14:17:03,185 [INFO]  Epoch[3] Train-cross-entropy=3.368503
+2023-11-08 14:17:03,185 [INFO]  Epoch[3] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:17:03,185 [INFO]  Epoch[3] Time cost=0.008
+2023-11-08 14:17:03,187 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0003.params"
+2023-11-08 14:17:03,188 [INFO]  Epoch[3] Validation-cross-entropy=7.916843
+2023-11-08 14:17:03,188 [INFO]  Epoch[3] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:17:03,193 [INFO]  Epoch[4] Batch [0-4]	Speed: 14866.01 samples/sec	cross-entropy=2.548849	mean_gmrt25-accuracy=0.000000
+2023-11-08 14:17:03,197 [INFO]  Epoch[4] Train-cross-entropy=1.772126
+2023-11-08 14:17:03,197 [INFO]  Epoch[4] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:17:03,197 [INFO]  Epoch[4] Time cost=0.009
+2023-11-08 14:17:03,199 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0004.params"
+2023-11-08 14:17:03,199 [INFO]  Epoch[4] Validation-cross-entropy=5.740262
+2023-11-08 14:17:03,199 [INFO]  Epoch[4] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:17:03,199 [INFO]  
+========== done (0.06473970413208008 s) fit model
+2023-11-08 14:30:42,876 [INFO]  
+========== start: fit model
+2023-11-08 14:30:42,876 [WARNING]  Already bound, ignoring bind()
+2023-11-08 14:30:42,885 [INFO]  Epoch[0] Batch [0-4]	Speed: 10164.93 samples/sec	cross-entropy=15.562233	mean_gmrt25-accuracy=0.000000
+2023-11-08 14:30:42,890 [INFO]  Epoch[0] Train-cross-entropy=15.033416
+2023-11-08 14:30:42,890 [INFO]  Epoch[0] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:30:42,890 [INFO]  Epoch[0] Time cost=0.013
+2023-11-08 14:30:42,893 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0000.params"
+2023-11-08 14:30:42,894 [INFO]  Epoch[0] Validation-cross-entropy=183.410797
+2023-11-08 14:30:42,894 [INFO]  Epoch[0] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:30:42,900 [INFO]  Epoch[1] Batch [0-4]	Speed: 15458.42 samples/sec	cross-entropy=63.283800	mean_gmrt25-accuracy=0.000000
+2023-11-08 14:30:42,903 [INFO]  Epoch[1] Train-cross-entropy=46.345546
+2023-11-08 14:30:42,903 [INFO]  Epoch[1] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:30:42,903 [INFO]  Epoch[1] Time cost=0.009
+2023-11-08 14:30:42,905 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0001.params"
+2023-11-08 14:30:42,906 [INFO]  Epoch[1] Validation-cross-entropy=81.293175
+2023-11-08 14:30:42,906 [INFO]  Epoch[1] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:30:42,910 [INFO]  Epoch[2] Batch [0-4]	Speed: 18292.02 samples/sec	cross-entropy=12.216614	mean_gmrt25-accuracy=0.000000
+2023-11-08 14:30:42,914 [INFO]  Epoch[2] Train-cross-entropy=10.750786
+2023-11-08 14:30:42,915 [INFO]  Epoch[2] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:30:42,915 [INFO]  Epoch[2] Time cost=0.009
+2023-11-08 14:30:42,918 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0002.params"
+2023-11-08 14:30:42,918 [INFO]  Epoch[2] Validation-cross-entropy=27.061571
+2023-11-08 14:30:42,919 [INFO]  Epoch[2] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:30:42,925 [INFO]  Epoch[3] Batch [0-4]	Speed: 13394.98 samples/sec	cross-entropy=7.672507	mean_gmrt25-accuracy=0.000000
+2023-11-08 14:30:42,928 [INFO]  Epoch[3] Train-cross-entropy=6.475715
+2023-11-08 14:30:42,928 [INFO]  Epoch[3] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:30:42,928 [INFO]  Epoch[3] Time cost=0.010
+2023-11-08 14:30:42,930 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0003.params"
+2023-11-08 14:30:42,931 [INFO]  Epoch[3] Validation-cross-entropy=35.333622
+2023-11-08 14:30:42,931 [INFO]  Epoch[3] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:30:42,936 [INFO]  Epoch[4] Batch [0-4]	Speed: 16292.51 samples/sec	cross-entropy=4.012464	mean_gmrt25-accuracy=0.000000
+2023-11-08 14:30:42,939 [INFO]  Epoch[4] Train-cross-entropy=2.779484
+2023-11-08 14:30:42,939 [INFO]  Epoch[4] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:30:42,939 [INFO]  Epoch[4] Time cost=0.008
+2023-11-08 14:30:42,941 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0004.params"
+2023-11-08 14:30:42,941 [INFO]  Epoch[4] Validation-cross-entropy=22.452391
+2023-11-08 14:30:42,941 [INFO]  Epoch[4] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:30:42,941 [INFO]  
+========== done (0.06513619422912598 s) fit model
+2023-11-08 14:44:48,225 [INFO]  
+========== start: fit model
+2023-11-08 14:44:48,225 [WARNING]  Already bound, ignoring bind()
+2023-11-08 14:44:48,232 [INFO]  Epoch[0] Batch [0-4]	Speed: 14165.46 samples/sec	cross-entropy=20.425646	mean_gmrt25-accuracy=3.600000
+2023-11-08 14:44:48,235 [INFO]  Epoch[0] Train-cross-entropy=18.501150
+2023-11-08 14:44:48,235 [INFO]  Epoch[0] Train-mean_gmrt25-accuracy=3.500000
+2023-11-08 14:44:48,235 [INFO]  Epoch[0] Time cost=0.010
+2023-11-08 14:44:48,237 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0000.params"
+2023-11-08 14:44:48,237 [INFO]  Epoch[0] Validation-cross-entropy=34.709042
+2023-11-08 14:44:48,237 [INFO]  Epoch[0] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:44:48,242 [INFO]  Epoch[1] Batch [0-4]	Speed: 15408.73 samples/sec	cross-entropy=47.675197	mean_gmrt25-accuracy=3.600000
+2023-11-08 14:44:48,246 [INFO]  Epoch[1] Train-cross-entropy=34.965919
+2023-11-08 14:44:48,246 [INFO]  Epoch[1] Train-mean_gmrt25-accuracy=3.500000
+2023-11-08 14:44:48,246 [INFO]  Epoch[1] Time cost=0.008
+2023-11-08 14:44:48,247 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0001.params"
+2023-11-08 14:44:48,248 [INFO]  Epoch[1] Validation-cross-entropy=20.339876
+2023-11-08 14:44:48,248 [INFO]  Epoch[1] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:44:48,253 [INFO]  Epoch[2] Batch [0-4]	Speed: 16588.52 samples/sec	cross-entropy=3.370446	mean_gmrt25-accuracy=3.600000
+2023-11-08 14:44:48,255 [INFO]  Epoch[2] Train-cross-entropy=2.705608
+2023-11-08 14:44:48,256 [INFO]  Epoch[2] Train-mean_gmrt25-accuracy=3.500000
+2023-11-08 14:44:48,256 [INFO]  Epoch[2] Time cost=0.008
+2023-11-08 14:44:48,257 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0002.params"
+2023-11-08 14:44:48,257 [INFO]  Epoch[2] Validation-cross-entropy=11.696429
+2023-11-08 14:44:48,257 [INFO]  Epoch[2] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:44:48,262 [INFO]  Epoch[3] Batch [0-4]	Speed: 17520.75 samples/sec	cross-entropy=2.116252	mean_gmrt25-accuracy=3.600000
+2023-11-08 14:44:48,265 [INFO]  Epoch[3] Train-cross-entropy=1.814204
+2023-11-08 14:44:48,265 [INFO]  Epoch[3] Train-mean_gmrt25-accuracy=3.500000
+2023-11-08 14:44:48,265 [INFO]  Epoch[3] Time cost=0.008
+2023-11-08 14:44:48,266 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0003.params"
+2023-11-08 14:44:48,267 [INFO]  Epoch[3] Validation-cross-entropy=7.954525
+2023-11-08 14:44:48,267 [INFO]  Epoch[3] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:44:48,277 [INFO]  Epoch[4] Batch [0-4]	Speed: 10528.95 samples/sec	cross-entropy=1.381765	mean_gmrt25-accuracy=3.600000
+2023-11-08 14:44:48,280 [INFO]  Epoch[4] Train-cross-entropy=1.050642
+2023-11-08 14:44:48,281 [INFO]  Epoch[4] Train-mean_gmrt25-accuracy=3.500000
+2023-11-08 14:44:48,281 [INFO]  Epoch[4] Time cost=0.014
+2023-11-08 14:44:48,282 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0004.params"
+2023-11-08 14:44:48,283 [INFO]  Epoch[4] Validation-cross-entropy=7.507589
+2023-11-08 14:44:48,283 [INFO]  Epoch[4] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:44:48,283 [INFO]  
+========== done (0.05828094482421875 s) fit model
+2023-11-08 14:58:58,411 [INFO]  
+========== start: fit model
+2023-11-08 14:58:58,411 [WARNING]  Already bound, ignoring bind()
+2023-11-08 14:58:58,420 [INFO]  Epoch[0] Batch [0-4]	Speed: 10533.08 samples/sec	cross-entropy=22.517160	mean_gmrt25-accuracy=0.000000
+2023-11-08 14:58:58,425 [INFO]  Epoch[0] Train-cross-entropy=23.899418
+2023-11-08 14:58:58,425 [INFO]  Epoch[0] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:58:58,425 [INFO]  Epoch[0] Time cost=0.013
+2023-11-08 14:58:58,428 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0000.params"
+2023-11-08 14:58:58,429 [INFO]  Epoch[0] Validation-cross-entropy=37.859730
+2023-11-08 14:58:58,429 [INFO]  Epoch[0] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:58:58,435 [INFO]  Epoch[1] Batch [0-4]	Speed: 14843.81 samples/sec	cross-entropy=39.885492	mean_gmrt25-accuracy=0.000000
+2023-11-08 14:58:58,439 [INFO]  Epoch[1] Train-cross-entropy=33.593363
+2023-11-08 14:58:58,439 [INFO]  Epoch[1] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:58:58,439 [INFO]  Epoch[1] Time cost=0.010
+2023-11-08 14:58:58,441 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0001.params"
+2023-11-08 14:58:58,441 [INFO]  Epoch[1] Validation-cross-entropy=6.543498
+2023-11-08 14:58:58,441 [INFO]  Epoch[1] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:58:58,446 [INFO]  Epoch[2] Batch [0-4]	Speed: 20163.41 samples/sec	cross-entropy=7.458049	mean_gmrt25-accuracy=0.000000
+2023-11-08 14:58:58,448 [INFO]  Epoch[2] Train-cross-entropy=5.920727
+2023-11-08 14:58:58,448 [INFO]  Epoch[2] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:58:58,448 [INFO]  Epoch[2] Time cost=0.007
+2023-11-08 14:58:58,450 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0002.params"
+2023-11-08 14:58:58,450 [INFO]  Epoch[2] Validation-cross-entropy=14.616866
+2023-11-08 14:58:58,450 [INFO]  Epoch[2] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:58:58,454 [INFO]  Epoch[3] Batch [0-4]	Speed: 19394.22 samples/sec	cross-entropy=3.202117	mean_gmrt25-accuracy=0.000000
+2023-11-08 14:58:58,458 [INFO]  Epoch[3] Train-cross-entropy=2.498602
+2023-11-08 14:58:58,458 [INFO]  Epoch[3] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:58:58,458 [INFO]  Epoch[3] Time cost=0.008
+2023-11-08 14:58:58,460 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0003.params"
+2023-11-08 14:58:58,461 [INFO]  Epoch[3] Validation-cross-entropy=6.332804
+2023-11-08 14:58:58,461 [INFO]  Epoch[3] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:58:58,466 [INFO]  Epoch[4] Batch [0-4]	Speed: 16323.23 samples/sec	cross-entropy=1.210050	mean_gmrt25-accuracy=0.000000
+2023-11-08 14:58:58,470 [INFO]  Epoch[4] Train-cross-entropy=1.042962
+2023-11-08 14:58:58,470 [INFO]  Epoch[4] Train-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:58:58,470 [INFO]  Epoch[4] Time cost=0.009
+2023-11-08 14:58:58,472 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_mean_gmrt25/model-0004.params"
+2023-11-08 14:58:58,472 [INFO]  Epoch[4] Validation-cross-entropy=6.846689
+2023-11-08 14:58:58,472 [INFO]  Epoch[4] Validation-mean_gmrt25-accuracy=0.000000
+2023-11-08 14:58:58,472 [INFO]  
+========== done (0.06132364273071289 s) fit model

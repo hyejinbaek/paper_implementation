@@ -1,0 +1,360 @@
+2023-11-07 20:29:48,395 [INFO]  
+========== start: fit model
+2023-11-07 20:29:48,403 [WARNING]  Already bound, ignoring bind()
+2023-11-07 20:29:48,922 [INFO]  Epoch[0] Batch [0-4]	Speed: 125.86 samples/sec	cross-entropy=80.820632	SdNH-accuracy=3.600000
+2023-11-07 20:29:48,932 [INFO]  Epoch[0] Train-cross-entropy=82.400390
+2023-11-07 20:29:48,932 [INFO]  Epoch[0] Train-SdNH-accuracy=3.250000
+2023-11-07 20:29:48,932 [INFO]  Epoch[0] Time cost=0.529
+2023-11-07 20:29:48,935 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0000.params"
+2023-11-07 20:29:48,936 [INFO]  Epoch[0] Validation-cross-entropy=368.832520
+2023-11-07 20:29:48,936 [INFO]  Epoch[0] Validation-SdNH-accuracy=0.000000
+2023-11-07 20:29:48,956 [INFO]  Epoch[1] Batch [0-4]	Speed: 5424.69 samples/sec	cross-entropy=187.769617	SdNH-accuracy=3.600000
+2023-11-07 20:29:48,966 [INFO]  Epoch[1] Train-cross-entropy=346.296642
+2023-11-07 20:29:48,966 [INFO]  Epoch[1] Train-SdNH-accuracy=3.250000
+2023-11-07 20:29:48,966 [INFO]  Epoch[1] Time cost=0.029
+2023-11-07 20:29:48,969 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0001.params"
+2023-11-07 20:29:48,970 [INFO]  Epoch[1] Validation-cross-entropy=49.512413
+2023-11-07 20:29:48,970 [INFO]  Epoch[1] Validation-SdNH-accuracy=0.000000
+2023-11-07 20:29:48,990 [INFO]  Epoch[2] Batch [0-4]	Speed: 5434.58 samples/sec	cross-entropy=392.122723	SdNH-accuracy=3.600000
+2023-11-07 20:29:49,000 [INFO]  Epoch[2] Train-cross-entropy=575.236256
+2023-11-07 20:29:49,000 [INFO]  Epoch[2] Train-SdNH-accuracy=3.250000
+2023-11-07 20:29:49,000 [INFO]  Epoch[2] Time cost=0.030
+2023-11-07 20:29:49,003 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0002.params"
+2023-11-07 20:29:49,004 [INFO]  Epoch[2] Validation-cross-entropy=36.765060
+2023-11-07 20:29:49,004 [INFO]  Epoch[2] Validation-SdNH-accuracy=0.000000
+2023-11-07 20:29:49,025 [INFO]  Epoch[3] Batch [0-4]	Speed: 5418.45 samples/sec	cross-entropy=184.027182	SdNH-accuracy=3.600000
+2023-11-07 20:29:49,035 [INFO]  Epoch[3] Train-cross-entropy=126.419481
+2023-11-07 20:29:49,035 [INFO]  Epoch[3] Train-SdNH-accuracy=3.250000
+2023-11-07 20:29:49,035 [INFO]  Epoch[3] Time cost=0.031
+2023-11-07 20:29:49,038 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0003.params"
+2023-11-07 20:29:49,039 [INFO]  Epoch[3] Validation-cross-entropy=13.076650
+2023-11-07 20:29:49,039 [INFO]  Epoch[3] Validation-SdNH-accuracy=0.000000
+2023-11-07 20:29:49,065 [INFO]  Epoch[4] Batch [0-4]	Speed: 2738.41 samples/sec	cross-entropy=29.236293	SdNH-accuracy=3.600000
+2023-11-07 20:29:49,073 [INFO]  Epoch[4] Train-cross-entropy=33.030822
+2023-11-07 20:29:49,073 [INFO]  Epoch[4] Train-SdNH-accuracy=3.250000
+2023-11-07 20:29:49,073 [INFO]  Epoch[4] Time cost=0.034
+2023-11-07 20:29:49,075 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0004.params"
+2023-11-07 20:29:49,076 [INFO]  Epoch[4] Validation-cross-entropy=14.271834
+2023-11-07 20:29:49,077 [INFO]  Epoch[4] Validation-SdNH-accuracy=0.000000
+2023-11-07 20:29:49,077 [INFO]  
+========== done (0.6817326545715332 s) fit model
+2023-11-07 22:42:02,901 [INFO]  
+========== start: fit model
+2023-11-07 22:42:02,901 [WARNING]  Already bound, ignoring bind()
+2023-11-07 22:42:02,916 [INFO]  Epoch[0] Batch [0-4]	Speed: 6268.93 samples/sec	cross-entropy=69.934820	SdNH-accuracy=3.000000
+2023-11-07 22:42:02,924 [INFO]  Epoch[0] Train-cross-entropy=65.771880
+2023-11-07 22:42:02,924 [INFO]  Epoch[0] Train-SdNH-accuracy=3.125000
+2023-11-07 22:42:02,924 [INFO]  Epoch[0] Time cost=0.022
+2023-11-07 22:42:02,928 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0000.params"
+2023-11-07 22:42:02,929 [INFO]  Epoch[0] Validation-cross-entropy=24.842306
+2023-11-07 22:42:02,929 [INFO]  Epoch[0] Validation-SdNH-accuracy=0.000000
+2023-11-07 22:42:02,941 [INFO]  Epoch[1] Batch [0-4]	Speed: 6858.17 samples/sec	cross-entropy=144.113152	SdNH-accuracy=3.000000
+2023-11-07 22:42:02,947 [INFO]  Epoch[1] Train-cross-entropy=142.483471
+2023-11-07 22:42:02,948 [INFO]  Epoch[1] Train-SdNH-accuracy=3.125000
+2023-11-07 22:42:02,948 [INFO]  Epoch[1] Time cost=0.019
+2023-11-07 22:42:02,951 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0001.params"
+2023-11-07 22:42:02,952 [INFO]  Epoch[1] Validation-cross-entropy=153.814331
+2023-11-07 22:42:02,952 [INFO]  Epoch[1] Validation-SdNH-accuracy=0.000000
+2023-11-07 22:42:02,961 [INFO]  Epoch[2] Batch [0-4]	Speed: 8828.08 samples/sec	cross-entropy=197.346489	SdNH-accuracy=3.000000
+2023-11-07 22:42:02,965 [INFO]  Epoch[2] Train-cross-entropy=134.424011
+2023-11-07 22:42:02,965 [INFO]  Epoch[2] Train-SdNH-accuracy=3.125000
+2023-11-07 22:42:02,965 [INFO]  Epoch[2] Time cost=0.014
+2023-11-07 22:42:02,968 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0002.params"
+2023-11-07 22:42:02,969 [INFO]  Epoch[2] Validation-cross-entropy=3.849722
+2023-11-07 22:42:02,969 [INFO]  Epoch[2] Validation-SdNH-accuracy=0.000000
+2023-11-07 22:42:02,975 [INFO]  Epoch[3] Batch [0-4]	Speed: 13111.68 samples/sec	cross-entropy=30.997807	SdNH-accuracy=3.000000
+2023-11-07 22:42:02,979 [INFO]  Epoch[3] Train-cross-entropy=28.411516
+2023-11-07 22:42:02,979 [INFO]  Epoch[3] Train-SdNH-accuracy=3.125000
+2023-11-07 22:42:02,979 [INFO]  Epoch[3] Time cost=0.010
+2023-11-07 22:42:02,981 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0003.params"
+2023-11-07 22:42:02,981 [INFO]  Epoch[3] Validation-cross-entropy=8.250371
+2023-11-07 22:42:02,981 [INFO]  Epoch[3] Validation-SdNH-accuracy=0.000000
+2023-11-07 22:42:02,988 [INFO]  Epoch[4] Batch [0-4]	Speed: 12621.57 samples/sec	cross-entropy=26.950875	SdNH-accuracy=3.000000
+2023-11-07 22:42:02,992 [INFO]  Epoch[4] Train-cross-entropy=19.445447
+2023-11-07 22:42:02,992 [INFO]  Epoch[4] Train-SdNH-accuracy=3.125000
+2023-11-07 22:42:02,992 [INFO]  Epoch[4] Time cost=0.010
+2023-11-07 22:42:02,993 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0004.params"
+2023-11-07 22:42:02,994 [INFO]  Epoch[4] Validation-cross-entropy=6.796586
+2023-11-07 22:42:02,994 [INFO]  Epoch[4] Validation-SdNH-accuracy=0.000000
+2023-11-07 22:42:02,994 [INFO]  
+========== done (0.09279799461364746 s) fit model
+2023-11-08 00:28:50,534 [INFO]  
+========== start: fit model
+2023-11-08 00:28:50,534 [WARNING]  Already bound, ignoring bind()
+2023-11-08 00:28:50,548 [INFO]  Epoch[0] Batch [0-4]	Speed: 7540.96 samples/sec	cross-entropy=81.907055	SdNH-accuracy=0.000000
+2023-11-08 00:28:50,554 [INFO]  Epoch[0] Train-cross-entropy=69.142253
+2023-11-08 00:28:50,554 [INFO]  Epoch[0] Train-SdNH-accuracy=0.000000
+2023-11-08 00:28:50,554 [INFO]  Epoch[0] Time cost=0.019
+2023-11-08 00:28:50,558 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0000.params"
+2023-11-08 00:28:50,559 [INFO]  Epoch[0] Validation-cross-entropy=12.236500
+2023-11-08 00:28:50,559 [INFO]  Epoch[0] Validation-SdNH-accuracy=0.000000
+2023-11-08 00:28:50,569 [INFO]  Epoch[1] Batch [0-4]	Speed: 8758.66 samples/sec	cross-entropy=160.595241	SdNH-accuracy=0.000000
+2023-11-08 00:28:50,576 [INFO]  Epoch[1] Train-cross-entropy=170.547894
+2023-11-08 00:28:50,576 [INFO]  Epoch[1] Train-SdNH-accuracy=0.000000
+2023-11-08 00:28:50,576 [INFO]  Epoch[1] Time cost=0.017
+2023-11-08 00:28:50,579 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0001.params"
+2023-11-08 00:28:50,580 [INFO]  Epoch[1] Validation-cross-entropy=12.470666
+2023-11-08 00:28:50,580 [INFO]  Epoch[1] Validation-SdNH-accuracy=0.000000
+2023-11-08 00:28:50,592 [INFO]  Epoch[2] Batch [0-4]	Speed: 7318.31 samples/sec	cross-entropy=36.163449	SdNH-accuracy=0.000000
+2023-11-08 00:28:50,598 [INFO]  Epoch[2] Train-cross-entropy=70.535834
+2023-11-08 00:28:50,598 [INFO]  Epoch[2] Train-SdNH-accuracy=0.000000
+2023-11-08 00:28:50,599 [INFO]  Epoch[2] Time cost=0.018
+2023-11-08 00:28:50,602 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0002.params"
+2023-11-08 00:28:50,603 [INFO]  Epoch[2] Validation-cross-entropy=5.516967
+2023-11-08 00:28:50,603 [INFO]  Epoch[2] Validation-SdNH-accuracy=0.000000
+2023-11-08 00:28:50,614 [INFO]  Epoch[3] Batch [0-4]	Speed: 7285.14 samples/sec	cross-entropy=18.934795	SdNH-accuracy=0.000000
+2023-11-08 00:28:50,620 [INFO]  Epoch[3] Train-cross-entropy=36.461749
+2023-11-08 00:28:50,620 [INFO]  Epoch[3] Train-SdNH-accuracy=0.000000
+2023-11-08 00:28:50,620 [INFO]  Epoch[3] Time cost=0.018
+2023-11-08 00:28:50,623 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0003.params"
+2023-11-08 00:28:50,624 [INFO]  Epoch[3] Validation-cross-entropy=3.052005
+2023-11-08 00:28:50,624 [INFO]  Epoch[3] Validation-SdNH-accuracy=0.000000
+2023-11-08 00:28:50,635 [INFO]  Epoch[4] Batch [0-4]	Speed: 7723.43 samples/sec	cross-entropy=19.412140	SdNH-accuracy=0.000000
+2023-11-08 00:28:50,641 [INFO]  Epoch[4] Train-cross-entropy=42.205006
+2023-11-08 00:28:50,641 [INFO]  Epoch[4] Train-SdNH-accuracy=0.000000
+2023-11-08 00:28:50,641 [INFO]  Epoch[4] Time cost=0.017
+2023-11-08 00:28:50,644 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0004.params"
+2023-11-08 00:28:50,645 [INFO]  Epoch[4] Validation-cross-entropy=4.766264
+2023-11-08 00:28:50,645 [INFO]  Epoch[4] Validation-SdNH-accuracy=0.000000
+2023-11-08 00:28:50,645 [INFO]  
+========== done (0.11060786247253418 s) fit model
+2023-11-08 02:16:06,360 [INFO]  
+========== start: fit model
+2023-11-08 02:16:06,360 [WARNING]  Already bound, ignoring bind()
+2023-11-08 02:16:06,373 [INFO]  Epoch[0] Batch [0-4]	Speed: 7563.91 samples/sec	cross-entropy=72.521160	SdNH-accuracy=16.000000
+2023-11-08 02:16:06,379 [INFO]  Epoch[0] Train-cross-entropy=71.300016
+2023-11-08 02:16:06,379 [INFO]  Epoch[0] Train-SdNH-accuracy=16.000000
+2023-11-08 02:16:06,379 [INFO]  Epoch[0] Time cost=0.018
+2023-11-08 02:16:06,383 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0000.params"
+2023-11-08 02:16:06,384 [INFO]  Epoch[0] Validation-cross-entropy=375.193298
+2023-11-08 02:16:06,384 [INFO]  Epoch[0] Validation-SdNH-accuracy=16.000000
+2023-11-08 02:16:06,392 [INFO]  Epoch[1] Batch [0-4]	Speed: 10316.11 samples/sec	cross-entropy=191.988382	SdNH-accuracy=16.000000
+2023-11-08 02:16:06,396 [INFO]  Epoch[1] Train-cross-entropy=180.312434
+2023-11-08 02:16:06,396 [INFO]  Epoch[1] Train-SdNH-accuracy=16.000000
+2023-11-08 02:16:06,396 [INFO]  Epoch[1] Time cost=0.013
+2023-11-08 02:16:06,399 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0001.params"
+2023-11-08 02:16:06,400 [INFO]  Epoch[1] Validation-cross-entropy=22.448524
+2023-11-08 02:16:06,400 [INFO]  Epoch[1] Validation-SdNH-accuracy=16.000000
+2023-11-08 02:16:06,408 [INFO]  Epoch[2] Batch [0-4]	Speed: 9824.88 samples/sec	cross-entropy=43.821690	SdNH-accuracy=16.000000
+2023-11-08 02:16:06,413 [INFO]  Epoch[2] Train-cross-entropy=37.743456
+2023-11-08 02:16:06,414 [INFO]  Epoch[2] Train-SdNH-accuracy=16.000000
+2023-11-08 02:16:06,414 [INFO]  Epoch[2] Time cost=0.014
+2023-11-08 02:16:06,417 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0002.params"
+2023-11-08 02:16:06,418 [INFO]  Epoch[2] Validation-cross-entropy=13.304434
+2023-11-08 02:16:06,419 [INFO]  Epoch[2] Validation-SdNH-accuracy=16.000000
+2023-11-08 02:16:06,430 [INFO]  Epoch[3] Batch [0-4]	Speed: 7263.06 samples/sec	cross-entropy=16.838166	SdNH-accuracy=16.000000
+2023-11-08 02:16:06,437 [INFO]  Epoch[3] Train-cross-entropy=14.248845
+2023-11-08 02:16:06,437 [INFO]  Epoch[3] Train-SdNH-accuracy=16.000000
+2023-11-08 02:16:06,437 [INFO]  Epoch[3] Time cost=0.018
+2023-11-08 02:16:06,440 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0003.params"
+2023-11-08 02:16:06,442 [INFO]  Epoch[3] Validation-cross-entropy=6.217438
+2023-11-08 02:16:06,442 [INFO]  Epoch[3] Validation-SdNH-accuracy=16.000000
+2023-11-08 02:16:06,453 [INFO]  Epoch[4] Batch [0-4]	Speed: 7416.57 samples/sec	cross-entropy=7.429184	SdNH-accuracy=16.000000
+2023-11-08 02:16:06,459 [INFO]  Epoch[4] Train-cross-entropy=5.610997
+2023-11-08 02:16:06,460 [INFO]  Epoch[4] Train-SdNH-accuracy=16.000000
+2023-11-08 02:16:06,460 [INFO]  Epoch[4] Time cost=0.018
+2023-11-08 02:16:06,462 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0004.params"
+2023-11-08 02:16:06,463 [INFO]  Epoch[4] Validation-cross-entropy=7.408614
+2023-11-08 02:16:06,464 [INFO]  Epoch[4] Validation-SdNH-accuracy=16.000000
+2023-11-08 02:16:06,464 [INFO]  
+========== done (0.10376095771789551 s) fit model
+2023-11-08 04:04:00,962 [INFO]  
+========== start: fit model
+2023-11-08 04:04:00,962 [WARNING]  Already bound, ignoring bind()
+2023-11-08 04:04:00,975 [INFO]  Epoch[0] Batch [0-4]	Speed: 7576.29 samples/sec	cross-entropy=63.175408	SdNH-accuracy=0.000000
+2023-11-08 04:04:00,981 [INFO]  Epoch[0] Train-cross-entropy=65.563116
+2023-11-08 04:04:00,981 [INFO]  Epoch[0] Train-SdNH-accuracy=0.000000
+2023-11-08 04:04:00,981 [INFO]  Epoch[0] Time cost=0.018
+2023-11-08 04:04:00,983 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0000.params"
+2023-11-08 04:04:00,984 [INFO]  Epoch[0] Validation-cross-entropy=31.822859
+2023-11-08 04:04:00,984 [INFO]  Epoch[0] Validation-SdNH-accuracy=0.000000
+2023-11-08 04:04:00,993 [INFO]  Epoch[1] Batch [0-4]	Speed: 8729.61 samples/sec	cross-entropy=150.344580	SdNH-accuracy=0.000000
+2023-11-08 04:04:00,999 [INFO]  Epoch[1] Train-cross-entropy=169.697915
+2023-11-08 04:04:00,999 [INFO]  Epoch[1] Train-SdNH-accuracy=0.000000
+2023-11-08 04:04:00,999 [INFO]  Epoch[1] Time cost=0.016
+2023-11-08 04:04:01,004 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0001.params"
+2023-11-08 04:04:01,005 [INFO]  Epoch[1] Validation-cross-entropy=35.203232
+2023-11-08 04:04:01,005 [INFO]  Epoch[1] Validation-SdNH-accuracy=0.000000
+2023-11-08 04:04:01,016 [INFO]  Epoch[2] Batch [0-4]	Speed: 7283.75 samples/sec	cross-entropy=100.044057	SdNH-accuracy=0.000000
+2023-11-08 04:04:01,023 [INFO]  Epoch[2] Train-cross-entropy=80.479263
+2023-11-08 04:04:01,024 [INFO]  Epoch[2] Train-SdNH-accuracy=0.000000
+2023-11-08 04:04:01,024 [INFO]  Epoch[2] Time cost=0.019
+2023-11-08 04:04:01,027 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0002.params"
+2023-11-08 04:04:01,028 [INFO]  Epoch[2] Validation-cross-entropy=6.459246
+2023-11-08 04:04:01,028 [INFO]  Epoch[2] Validation-SdNH-accuracy=0.000000
+2023-11-08 04:04:01,040 [INFO]  Epoch[3] Batch [0-4]	Speed: 7254.82 samples/sec	cross-entropy=43.874876	SdNH-accuracy=0.000000
+2023-11-08 04:04:01,046 [INFO]  Epoch[3] Train-cross-entropy=67.983389
+2023-11-08 04:04:01,047 [INFO]  Epoch[3] Train-SdNH-accuracy=0.000000
+2023-11-08 04:04:01,047 [INFO]  Epoch[3] Time cost=0.018
+2023-11-08 04:04:01,050 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0003.params"
+2023-11-08 04:04:01,051 [INFO]  Epoch[3] Validation-cross-entropy=9.579740
+2023-11-08 04:04:01,051 [INFO]  Epoch[3] Validation-SdNH-accuracy=0.000000
+2023-11-08 04:04:01,062 [INFO]  Epoch[4] Batch [0-4]	Speed: 7381.70 samples/sec	cross-entropy=15.263627	SdNH-accuracy=0.000000
+2023-11-08 04:04:01,069 [INFO]  Epoch[4] Train-cross-entropy=33.492459
+2023-11-08 04:04:01,069 [INFO]  Epoch[4] Train-SdNH-accuracy=0.000000
+2023-11-08 04:04:01,069 [INFO]  Epoch[4] Time cost=0.018
+2023-11-08 04:04:01,072 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0004.params"
+2023-11-08 04:04:01,073 [INFO]  Epoch[4] Validation-cross-entropy=3.887869
+2023-11-08 04:04:01,073 [INFO]  Epoch[4] Validation-SdNH-accuracy=0.000000
+2023-11-08 04:04:01,073 [INFO]  
+========== done (0.11073589324951172 s) fit model
+2023-11-08 05:52:10,153 [INFO]  
+========== start: fit model
+2023-11-08 05:52:10,153 [WARNING]  Already bound, ignoring bind()
+2023-11-08 05:52:10,166 [INFO]  Epoch[0] Batch [0-4]	Speed: 7494.43 samples/sec	cross-entropy=65.460344	SdNH-accuracy=0.000000
+2023-11-08 05:52:10,172 [INFO]  Epoch[0] Train-cross-entropy=65.878938
+2023-11-08 05:52:10,172 [INFO]  Epoch[0] Train-SdNH-accuracy=0.000000
+2023-11-08 05:52:10,172 [INFO]  Epoch[0] Time cost=0.018
+2023-11-08 05:52:10,174 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0000.params"
+2023-11-08 05:52:10,174 [INFO]  Epoch[0] Validation-cross-entropy=20.354845
+2023-11-08 05:52:10,175 [INFO]  Epoch[0] Validation-SdNH-accuracy=0.000000
+2023-11-08 05:52:10,185 [INFO]  Epoch[1] Batch [0-4]	Speed: 7701.05 samples/sec	cross-entropy=135.186786	SdNH-accuracy=0.000000
+2023-11-08 05:52:10,192 [INFO]  Epoch[1] Train-cross-entropy=133.894922
+2023-11-08 05:52:10,192 [INFO]  Epoch[1] Train-SdNH-accuracy=0.000000
+2023-11-08 05:52:10,192 [INFO]  Epoch[1] Time cost=0.018
+2023-11-08 05:52:10,195 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0001.params"
+2023-11-08 05:52:10,196 [INFO]  Epoch[1] Validation-cross-entropy=24.341307
+2023-11-08 05:52:10,196 [INFO]  Epoch[1] Validation-SdNH-accuracy=0.000000
+2023-11-08 05:52:10,207 [INFO]  Epoch[2] Batch [0-4]	Speed: 7455.50 samples/sec	cross-entropy=76.968413	SdNH-accuracy=0.000000
+2023-11-08 05:52:10,214 [INFO]  Epoch[2] Train-cross-entropy=52.576738
+2023-11-08 05:52:10,214 [INFO]  Epoch[2] Train-SdNH-accuracy=0.000000
+2023-11-08 05:52:10,214 [INFO]  Epoch[2] Time cost=0.017
+2023-11-08 05:52:10,217 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0002.params"
+2023-11-08 05:52:10,218 [INFO]  Epoch[2] Validation-cross-entropy=6.722166
+2023-11-08 05:52:10,218 [INFO]  Epoch[2] Validation-SdNH-accuracy=0.000000
+2023-11-08 05:52:10,229 [INFO]  Epoch[3] Batch [0-4]	Speed: 7310.73 samples/sec	cross-entropy=32.210283	SdNH-accuracy=0.000000
+2023-11-08 05:52:10,235 [INFO]  Epoch[3] Train-cross-entropy=27.144077
+2023-11-08 05:52:10,235 [INFO]  Epoch[3] Train-SdNH-accuracy=0.000000
+2023-11-08 05:52:10,235 [INFO]  Epoch[3] Time cost=0.018
+2023-11-08 05:52:10,238 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0003.params"
+2023-11-08 05:52:10,239 [INFO]  Epoch[3] Validation-cross-entropy=6.384802
+2023-11-08 05:52:10,239 [INFO]  Epoch[3] Validation-SdNH-accuracy=0.000000
+2023-11-08 05:52:10,249 [INFO]  Epoch[4] Batch [0-4]	Speed: 7796.33 samples/sec	cross-entropy=11.035145	SdNH-accuracy=0.000000
+2023-11-08 05:52:10,255 [INFO]  Epoch[4] Train-cross-entropy=8.852501
+2023-11-08 05:52:10,255 [INFO]  Epoch[4] Train-SdNH-accuracy=0.000000
+2023-11-08 05:52:10,255 [INFO]  Epoch[4] Time cost=0.016
+2023-11-08 05:52:10,258 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0004.params"
+2023-11-08 05:52:10,259 [INFO]  Epoch[4] Validation-cross-entropy=2.594805
+2023-11-08 05:52:10,259 [INFO]  Epoch[4] Validation-SdNH-accuracy=0.000000
+2023-11-08 05:52:10,259 [INFO]  
+========== done (0.10633206367492676 s) fit model
+2023-11-08 07:40:27,224 [INFO]  
+========== start: fit model
+2023-11-08 07:40:27,225 [WARNING]  Already bound, ignoring bind()
+2023-11-08 07:40:27,237 [INFO]  Epoch[0] Batch [0-4]	Speed: 7422.11 samples/sec	cross-entropy=83.802094	SdNH-accuracy=16.000000
+2023-11-08 07:40:27,244 [INFO]  Epoch[0] Train-cross-entropy=71.747683
+2023-11-08 07:40:27,244 [INFO]  Epoch[0] Train-SdNH-accuracy=16.000000
+2023-11-08 07:40:27,244 [INFO]  Epoch[0] Time cost=0.019
+2023-11-08 07:40:27,246 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0000.params"
+2023-11-08 07:40:27,246 [INFO]  Epoch[0] Validation-cross-entropy=60.787857
+2023-11-08 07:40:27,247 [INFO]  Epoch[0] Validation-SdNH-accuracy=16.000000
+2023-11-08 07:40:27,256 [INFO]  Epoch[1] Batch [0-4]	Speed: 8570.74 samples/sec	cross-entropy=171.636168	SdNH-accuracy=16.000000
+2023-11-08 07:40:27,262 [INFO]  Epoch[1] Train-cross-entropy=164.636467
+2023-11-08 07:40:27,262 [INFO]  Epoch[1] Train-SdNH-accuracy=16.000000
+2023-11-08 07:40:27,262 [INFO]  Epoch[1] Time cost=0.015
+2023-11-08 07:40:27,264 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0001.params"
+2023-11-08 07:40:27,265 [INFO]  Epoch[1] Validation-cross-entropy=86.146118
+2023-11-08 07:40:27,265 [INFO]  Epoch[1] Validation-SdNH-accuracy=16.000000
+2023-11-08 07:40:27,276 [INFO]  Epoch[2] Batch [0-4]	Speed: 7463.38 samples/sec	cross-entropy=106.315416	SdNH-accuracy=16.000000
+2023-11-08 07:40:27,282 [INFO]  Epoch[2] Train-cross-entropy=76.907083
+2023-11-08 07:40:27,282 [INFO]  Epoch[2] Train-SdNH-accuracy=16.000000
+2023-11-08 07:40:27,283 [INFO]  Epoch[2] Time cost=0.017
+2023-11-08 07:40:27,285 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0002.params"
+2023-11-08 07:40:27,286 [INFO]  Epoch[2] Validation-cross-entropy=9.254152
+2023-11-08 07:40:27,286 [INFO]  Epoch[2] Validation-SdNH-accuracy=16.000000
+2023-11-08 07:40:27,297 [INFO]  Epoch[3] Batch [0-4]	Speed: 7677.48 samples/sec	cross-entropy=26.318756	SdNH-accuracy=16.000000
+2023-11-08 07:40:27,303 [INFO]  Epoch[3] Train-cross-entropy=23.074099
+2023-11-08 07:40:27,303 [INFO]  Epoch[3] Train-SdNH-accuracy=16.000000
+2023-11-08 07:40:27,303 [INFO]  Epoch[3] Time cost=0.017
+2023-11-08 07:40:27,306 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0003.params"
+2023-11-08 07:40:27,307 [INFO]  Epoch[3] Validation-cross-entropy=9.055623
+2023-11-08 07:40:27,307 [INFO]  Epoch[3] Validation-SdNH-accuracy=16.000000
+2023-11-08 07:40:27,317 [INFO]  Epoch[4] Batch [0-4]	Speed: 7962.37 samples/sec	cross-entropy=4.215965	SdNH-accuracy=16.000000
+2023-11-08 07:40:27,323 [INFO]  Epoch[4] Train-cross-entropy=5.663914
+2023-11-08 07:40:27,323 [INFO]  Epoch[4] Train-SdNH-accuracy=16.000000
+2023-11-08 07:40:27,323 [INFO]  Epoch[4] Time cost=0.016
+2023-11-08 07:40:27,326 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0004.params"
+2023-11-08 07:40:27,327 [INFO]  Epoch[4] Validation-cross-entropy=13.073350
+2023-11-08 07:40:27,327 [INFO]  Epoch[4] Validation-SdNH-accuracy=16.000000
+2023-11-08 07:40:27,327 [INFO]  
+========== done (0.10294651985168457 s) fit model
+2023-11-08 09:29:14,127 [INFO]  
+========== start: fit model
+2023-11-08 09:29:14,127 [WARNING]  Already bound, ignoring bind()
+2023-11-08 09:29:14,140 [INFO]  Epoch[0] Batch [0-4]	Speed: 6822.78 samples/sec	cross-entropy=74.126591	SdNH-accuracy=0.000000
+2023-11-08 09:29:14,146 [INFO]  Epoch[0] Train-cross-entropy=59.028612
+2023-11-08 09:29:14,146 [INFO]  Epoch[0] Train-SdNH-accuracy=0.000000
+2023-11-08 09:29:14,146 [INFO]  Epoch[0] Time cost=0.019
+2023-11-08 09:29:14,151 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0000.params"
+2023-11-08 09:29:14,151 [INFO]  Epoch[0] Validation-cross-entropy=10.988119
+2023-11-08 09:29:14,152 [INFO]  Epoch[0] Validation-SdNH-accuracy=0.000000
+2023-11-08 09:29:14,159 [INFO]  Epoch[1] Batch [0-4]	Speed: 11850.93 samples/sec	cross-entropy=67.938036	SdNH-accuracy=0.000000
+2023-11-08 09:29:14,163 [INFO]  Epoch[1] Train-cross-entropy=91.567377
+2023-11-08 09:29:14,163 [INFO]  Epoch[1] Train-SdNH-accuracy=0.000000
+2023-11-08 09:29:14,163 [INFO]  Epoch[1] Time cost=0.012
+2023-11-08 09:29:14,165 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0001.params"
+2023-11-08 09:29:14,166 [INFO]  Epoch[1] Validation-cross-entropy=18.816181
+2023-11-08 09:29:14,166 [INFO]  Epoch[1] Validation-SdNH-accuracy=0.000000
+2023-11-08 09:29:14,173 [INFO]  Epoch[2] Batch [0-4]	Speed: 11785.89 samples/sec	cross-entropy=31.896587	SdNH-accuracy=0.000000
+2023-11-08 09:29:14,178 [INFO]  Epoch[2] Train-cross-entropy=28.562267
+2023-11-08 09:29:14,178 [INFO]  Epoch[2] Train-SdNH-accuracy=0.000000
+2023-11-08 09:29:14,178 [INFO]  Epoch[2] Time cost=0.011
+2023-11-08 09:29:14,180 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0002.params"
+2023-11-08 09:29:14,180 [INFO]  Epoch[2] Validation-cross-entropy=10.549557
+2023-11-08 09:29:14,181 [INFO]  Epoch[2] Validation-SdNH-accuracy=0.000000
+2023-11-08 09:29:14,191 [INFO]  Epoch[3] Batch [0-4]	Speed: 7381.50 samples/sec	cross-entropy=26.536702	SdNH-accuracy=0.000000
+2023-11-08 09:29:14,197 [INFO]  Epoch[3] Train-cross-entropy=24.051452
+2023-11-08 09:29:14,198 [INFO]  Epoch[3] Train-SdNH-accuracy=0.000000
+2023-11-08 09:29:14,198 [INFO]  Epoch[3] Time cost=0.017
+2023-11-08 09:29:14,200 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0003.params"
+2023-11-08 09:29:14,201 [INFO]  Epoch[3] Validation-cross-entropy=11.981171
+2023-11-08 09:29:14,201 [INFO]  Epoch[3] Validation-SdNH-accuracy=0.000000
+2023-11-08 09:29:14,212 [INFO]  Epoch[4] Batch [0-4]	Speed: 7934.13 samples/sec	cross-entropy=26.124431	SdNH-accuracy=0.000000
+2023-11-08 09:29:14,218 [INFO]  Epoch[4] Train-cross-entropy=19.955648
+2023-11-08 09:29:14,218 [INFO]  Epoch[4] Train-SdNH-accuracy=0.000000
+2023-11-08 09:29:14,218 [INFO]  Epoch[4] Time cost=0.017
+2023-11-08 09:29:14,221 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0004.params"
+2023-11-08 09:29:14,223 [INFO]  Epoch[4] Validation-cross-entropy=10.212704
+2023-11-08 09:29:14,223 [INFO]  Epoch[4] Validation-SdNH-accuracy=0.000000
+2023-11-08 09:29:14,223 [INFO]  
+========== done (0.09594607353210449 s) fit model
+2023-11-08 11:19:26,996 [INFO]  
+========== start: fit model
+2023-11-08 11:19:26,996 [WARNING]  Already bound, ignoring bind()
+2023-11-08 11:19:27,011 [INFO]  Epoch[0] Batch [0-4]	Speed: 6796.87 samples/sec	cross-entropy=95.176720	SdNH-accuracy=0.000000
+2023-11-08 11:19:27,017 [INFO]  Epoch[0] Train-cross-entropy=84.286008
+2023-11-08 11:19:27,018 [INFO]  Epoch[0] Train-SdNH-accuracy=0.000000
+2023-11-08 11:19:27,018 [INFO]  Epoch[0] Time cost=0.020
+2023-11-08 11:19:27,021 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0000.params"
+2023-11-08 11:19:27,022 [INFO]  Epoch[0] Validation-cross-entropy=82.934120
+2023-11-08 11:19:27,022 [INFO]  Epoch[0] Validation-SdNH-accuracy=0.000000
+2023-11-08 11:19:27,034 [INFO]  Epoch[1] Batch [0-4]	Speed: 7235.26 samples/sec	cross-entropy=163.483595	SdNH-accuracy=0.000000
+2023-11-08 11:19:27,040 [INFO]  Epoch[1] Train-cross-entropy=171.913727
+2023-11-08 11:19:27,041 [INFO]  Epoch[1] Train-SdNH-accuracy=0.000000
+2023-11-08 11:19:27,041 [INFO]  Epoch[1] Time cost=0.018
+2023-11-08 11:19:27,044 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0001.params"
+2023-11-08 11:19:27,045 [INFO]  Epoch[1] Validation-cross-entropy=38.122631
+2023-11-08 11:19:27,046 [INFO]  Epoch[1] Validation-SdNH-accuracy=0.000000
+2023-11-08 11:19:27,056 [INFO]  Epoch[2] Batch [0-4]	Speed: 7608.28 samples/sec	cross-entropy=65.911277	SdNH-accuracy=0.000000
+2023-11-08 11:19:27,063 [INFO]  Epoch[2] Train-cross-entropy=76.430695
+2023-11-08 11:19:27,063 [INFO]  Epoch[2] Train-SdNH-accuracy=0.000000
+2023-11-08 11:19:27,063 [INFO]  Epoch[2] Time cost=0.017
+2023-11-08 11:19:27,066 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0002.params"
+2023-11-08 11:19:27,067 [INFO]  Epoch[2] Validation-cross-entropy=3.670262
+2023-11-08 11:19:27,067 [INFO]  Epoch[2] Validation-SdNH-accuracy=0.000000
+2023-11-08 11:19:27,077 [INFO]  Epoch[3] Batch [0-4]	Speed: 7896.09 samples/sec	cross-entropy=44.548374	SdNH-accuracy=0.000000
+2023-11-08 11:19:27,083 [INFO]  Epoch[3] Train-cross-entropy=34.319124
+2023-11-08 11:19:27,083 [INFO]  Epoch[3] Train-SdNH-accuracy=0.000000
+2023-11-08 11:19:27,084 [INFO]  Epoch[3] Time cost=0.017
+2023-11-08 11:19:27,086 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0003.params"
+2023-11-08 11:19:27,087 [INFO]  Epoch[3] Validation-cross-entropy=10.334007
+2023-11-08 11:19:27,087 [INFO]  Epoch[3] Validation-SdNH-accuracy=0.000000
+2023-11-08 11:19:27,098 [INFO]  Epoch[4] Batch [0-4]	Speed: 7490.25 samples/sec	cross-entropy=21.346253	SdNH-accuracy=0.000000
+2023-11-08 11:19:27,105 [INFO]  Epoch[4] Train-cross-entropy=15.251615
+2023-11-08 11:19:27,105 [INFO]  Epoch[4] Train-SdNH-accuracy=0.000000
+2023-11-08 11:19:27,105 [INFO]  Epoch[4] Time cost=0.017
+2023-11-08 11:19:27,108 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SdNH/model-0004.params"
+2023-11-08 11:19:27,109 [INFO]  Epoch[4] Validation-cross-entropy=5.190063
+2023-11-08 11:19:27,109 [INFO]  Epoch[4] Validation-SdNH-accuracy=0.000000
+2023-11-08 11:19:27,109 [INFO]  
+========== done (0.11239862442016602 s) fit model

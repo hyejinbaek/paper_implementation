@@ -1,0 +1,400 @@
+2023-11-08 12:54:43,338 [INFO]  
+========== start: fit model
+2023-11-08 12:54:43,338 [WARNING]  Already bound, ignoring bind()
+2023-11-08 12:54:43,343 [INFO]  Epoch[0] Batch [0-4]	Speed: 19553.86 samples/sec	cross-entropy=26.153376	paper_time25-accuracy=3.600000
+2023-11-08 12:54:43,346 [INFO]  Epoch[0] Train-cross-entropy=23.564999
+2023-11-08 12:54:43,346 [INFO]  Epoch[0] Train-paper_time25-accuracy=3.375000
+2023-11-08 12:54:43,346 [INFO]  Epoch[0] Time cost=0.007
+2023-11-08 12:54:43,347 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0000.params"
+2023-11-08 12:54:43,347 [INFO]  Epoch[0] Validation-cross-entropy=52.168743
+2023-11-08 12:54:43,347 [INFO]  Epoch[0] Validation-paper_time25-accuracy=0.000000
+2023-11-08 12:54:43,351 [INFO]  Epoch[1] Batch [0-4]	Speed: 19436.35 samples/sec	cross-entropy=39.943432	paper_time25-accuracy=3.600000
+2023-11-08 12:54:43,354 [INFO]  Epoch[1] Train-cross-entropy=31.876697
+2023-11-08 12:54:43,354 [INFO]  Epoch[1] Train-paper_time25-accuracy=3.375000
+2023-11-08 12:54:43,354 [INFO]  Epoch[1] Time cost=0.007
+2023-11-08 12:54:43,355 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0001.params"
+2023-11-08 12:54:43,355 [INFO]  Epoch[1] Validation-cross-entropy=19.451466
+2023-11-08 12:54:43,356 [INFO]  Epoch[1] Validation-paper_time25-accuracy=0.000000
+2023-11-08 12:54:43,359 [INFO]  Epoch[2] Batch [0-4]	Speed: 22144.49 samples/sec	cross-entropy=10.055546	paper_time25-accuracy=3.600000
+2023-11-08 12:54:43,362 [INFO]  Epoch[2] Train-cross-entropy=7.281525
+2023-11-08 12:54:43,362 [INFO]  Epoch[2] Train-paper_time25-accuracy=3.375000
+2023-11-08 12:54:43,362 [INFO]  Epoch[2] Time cost=0.006
+2023-11-08 12:54:43,363 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0002.params"
+2023-11-08 12:54:43,363 [INFO]  Epoch[2] Validation-cross-entropy=20.402073
+2023-11-08 12:54:43,363 [INFO]  Epoch[2] Validation-paper_time25-accuracy=0.000000
+2023-11-08 12:54:43,367 [INFO]  Epoch[3] Batch [0-4]	Speed: 21542.05 samples/sec	cross-entropy=6.160127	paper_time25-accuracy=3.600000
+2023-11-08 12:54:43,369 [INFO]  Epoch[3] Train-cross-entropy=4.345314
+2023-11-08 12:54:43,369 [INFO]  Epoch[3] Train-paper_time25-accuracy=3.375000
+2023-11-08 12:54:43,369 [INFO]  Epoch[3] Time cost=0.006
+2023-11-08 12:54:43,370 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0003.params"
+2023-11-08 12:54:43,371 [INFO]  Epoch[3] Validation-cross-entropy=19.273430
+2023-11-08 12:54:43,371 [INFO]  Epoch[3] Validation-paper_time25-accuracy=0.000000
+2023-11-08 12:54:43,375 [INFO]  Epoch[4] Batch [0-4]	Speed: 20469.38 samples/sec	cross-entropy=2.337284	paper_time25-accuracy=3.600000
+2023-11-08 12:54:43,377 [INFO]  Epoch[4] Train-cross-entropy=1.736979
+2023-11-08 12:54:43,378 [INFO]  Epoch[4] Train-paper_time25-accuracy=3.375000
+2023-11-08 12:54:43,378 [INFO]  Epoch[4] Time cost=0.007
+2023-11-08 12:54:43,379 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0004.params"
+2023-11-08 12:54:43,379 [INFO]  Epoch[4] Validation-cross-entropy=16.566486
+2023-11-08 12:54:43,379 [INFO]  Epoch[4] Validation-paper_time25-accuracy=0.000000
+2023-11-08 12:54:43,379 [INFO]  
+========== done (0.04169034957885742 s) fit model
+2023-11-08 13:10:22,948 [INFO]  
+========== start: fit model
+2023-11-08 13:10:22,967 [WARNING]  Already bound, ignoring bind()
+2023-11-08 13:10:22,975 [INFO]  Epoch[0] Batch [0-4]	Speed: 12425.27 samples/sec	cross-entropy=20.206414	paper_time25-accuracy=0.000000
+2023-11-08 13:10:22,979 [INFO]  Epoch[0] Train-cross-entropy=20.925394
+2023-11-08 13:10:22,979 [INFO]  Epoch[0] Train-paper_time25-accuracy=0.000000
+2023-11-08 13:10:22,979 [INFO]  Epoch[0] Time cost=0.011
+2023-11-08 13:10:22,981 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0000.params"
+2023-11-08 13:10:22,981 [INFO]  Epoch[0] Validation-cross-entropy=18.309353
+2023-11-08 13:10:22,981 [INFO]  Epoch[0] Validation-paper_time25-accuracy=0.000000
+2023-11-08 13:10:22,989 [INFO]  Epoch[1] Batch [0-4]	Speed: 9673.00 samples/sec	cross-entropy=44.321662	paper_time25-accuracy=0.000000
+2023-11-08 13:10:22,995 [INFO]  Epoch[1] Train-cross-entropy=38.306183
+2023-11-08 13:10:22,995 [INFO]  Epoch[1] Train-paper_time25-accuracy=0.000000
+2023-11-08 13:10:22,995 [INFO]  Epoch[1] Time cost=0.013
+2023-11-08 13:10:22,998 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0001.params"
+2023-11-08 13:10:22,999 [INFO]  Epoch[1] Validation-cross-entropy=11.489225
+2023-11-08 13:10:22,999 [INFO]  Epoch[1] Validation-paper_time25-accuracy=0.000000
+2023-11-08 13:10:23,007 [INFO]  Epoch[2] Batch [0-4]	Speed: 12112.97 samples/sec	cross-entropy=5.662756	paper_time25-accuracy=0.000000
+2023-11-08 13:10:23,011 [INFO]  Epoch[2] Train-cross-entropy=9.068510
+2023-11-08 13:10:23,011 [INFO]  Epoch[2] Train-paper_time25-accuracy=0.000000
+2023-11-08 13:10:23,011 [INFO]  Epoch[2] Time cost=0.011
+2023-11-08 13:10:23,013 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0002.params"
+2023-11-08 13:10:23,013 [INFO]  Epoch[2] Validation-cross-entropy=4.199904
+2023-11-08 13:10:23,013 [INFO]  Epoch[2] Validation-paper_time25-accuracy=0.000000
+2023-11-08 13:10:23,020 [INFO]  Epoch[3] Batch [0-4]	Speed: 13153.44 samples/sec	cross-entropy=2.703961	paper_time25-accuracy=0.000000
+2023-11-08 13:10:23,023 [INFO]  Epoch[3] Train-cross-entropy=2.878412
+2023-11-08 13:10:23,024 [INFO]  Epoch[3] Train-paper_time25-accuracy=0.000000
+2023-11-08 13:10:23,024 [INFO]  Epoch[3] Time cost=0.010
+2023-11-08 13:10:23,025 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0003.params"
+2023-11-08 13:10:23,026 [INFO]  Epoch[3] Validation-cross-entropy=4.949619
+2023-11-08 13:10:23,026 [INFO]  Epoch[3] Validation-paper_time25-accuracy=0.000000
+2023-11-08 13:10:23,032 [INFO]  Epoch[4] Batch [0-4]	Speed: 13836.88 samples/sec	cross-entropy=1.897505	paper_time25-accuracy=0.000000
+2023-11-08 13:10:23,035 [INFO]  Epoch[4] Train-cross-entropy=1.538977
+2023-11-08 13:10:23,035 [INFO]  Epoch[4] Train-paper_time25-accuracy=0.000000
+2023-11-08 13:10:23,035 [INFO]  Epoch[4] Time cost=0.009
+2023-11-08 13:10:23,050 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0004.params"
+2023-11-08 13:10:23,051 [INFO]  Epoch[4] Validation-cross-entropy=5.211250
+2023-11-08 13:10:23,051 [INFO]  Epoch[4] Validation-paper_time25-accuracy=0.000000
+2023-11-08 13:10:23,051 [INFO]  
+========== done (0.10270357131958008 s) fit model
+2023-11-08 13:23:39,076 [INFO]  
+========== start: fit model
+2023-11-08 13:23:39,076 [WARNING]  Already bound, ignoring bind()
+2023-11-08 13:23:39,083 [INFO]  Epoch[0] Batch [0-4]	Speed: 14013.13 samples/sec	cross-entropy=15.610501	paper_time25-accuracy=3.400000
+2023-11-08 13:23:39,086 [INFO]  Epoch[0] Train-cross-entropy=16.467764
+2023-11-08 13:23:39,086 [INFO]  Epoch[0] Train-paper_time25-accuracy=2.625000
+2023-11-08 13:23:39,086 [INFO]  Epoch[0] Time cost=0.010
+2023-11-08 13:23:39,087 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0000.params"
+2023-11-08 13:23:39,088 [INFO]  Epoch[0] Validation-cross-entropy=289.162292
+2023-11-08 13:23:39,088 [INFO]  Epoch[0] Validation-paper_time25-accuracy=0.000000
+2023-11-08 13:23:39,093 [INFO]  Epoch[1] Batch [0-4]	Speed: 15175.28 samples/sec	cross-entropy=31.688739	paper_time25-accuracy=3.400000
+2023-11-08 13:23:39,098 [INFO]  Epoch[1] Train-cross-entropy=28.757206
+2023-11-08 13:23:39,098 [INFO]  Epoch[1] Train-paper_time25-accuracy=2.625000
+2023-11-08 13:23:39,098 [INFO]  Epoch[1] Time cost=0.010
+2023-11-08 13:23:39,101 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0001.params"
+2023-11-08 13:23:39,102 [INFO]  Epoch[1] Validation-cross-entropy=257.997009
+2023-11-08 13:23:39,102 [INFO]  Epoch[1] Validation-paper_time25-accuracy=0.000000
+2023-11-08 13:23:39,110 [INFO]  Epoch[2] Batch [0-4]	Speed: 10959.68 samples/sec	cross-entropy=8.599211	paper_time25-accuracy=3.400000
+2023-11-08 13:23:39,114 [INFO]  Epoch[2] Train-cross-entropy=7.985938
+2023-11-08 13:23:39,114 [INFO]  Epoch[2] Train-paper_time25-accuracy=2.625000
+2023-11-08 13:23:39,114 [INFO]  Epoch[2] Time cost=0.012
+2023-11-08 13:23:39,117 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0002.params"
+2023-11-08 13:23:39,117 [INFO]  Epoch[2] Validation-cross-entropy=277.738953
+2023-11-08 13:23:39,117 [INFO]  Epoch[2] Validation-paper_time25-accuracy=0.000000
+2023-11-08 13:23:39,124 [INFO]  Epoch[3] Batch [0-4]	Speed: 13057.47 samples/sec	cross-entropy=2.557921	paper_time25-accuracy=3.400000
+2023-11-08 13:23:39,128 [INFO]  Epoch[3] Train-cross-entropy=2.438830
+2023-11-08 13:23:39,128 [INFO]  Epoch[3] Train-paper_time25-accuracy=2.625000
+2023-11-08 13:23:39,128 [INFO]  Epoch[3] Time cost=0.010
+2023-11-08 13:23:39,129 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0003.params"
+2023-11-08 13:23:39,130 [INFO]  Epoch[3] Validation-cross-entropy=256.016235
+2023-11-08 13:23:39,130 [INFO]  Epoch[3] Validation-paper_time25-accuracy=0.000000
+2023-11-08 13:23:39,136 [INFO]  Epoch[4] Batch [0-4]	Speed: 13866.90 samples/sec	cross-entropy=1.051056	paper_time25-accuracy=3.400000
+2023-11-08 13:23:39,139 [INFO]  Epoch[4] Train-cross-entropy=0.935449
+2023-11-08 13:23:39,139 [INFO]  Epoch[4] Train-paper_time25-accuracy=2.625000
+2023-11-08 13:23:39,139 [INFO]  Epoch[4] Time cost=0.009
+2023-11-08 13:23:39,141 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0004.params"
+2023-11-08 13:23:39,142 [INFO]  Epoch[4] Validation-cross-entropy=267.265320
+2023-11-08 13:23:39,142 [INFO]  Epoch[4] Validation-paper_time25-accuracy=0.000000
+2023-11-08 13:23:39,142 [INFO]  
+========== done (0.06613588333129883 s) fit model
+2023-11-08 13:36:58,368 [INFO]  
+========== start: fit model
+2023-11-08 13:36:58,369 [WARNING]  Already bound, ignoring bind()
+2023-11-08 13:36:58,376 [INFO]  Epoch[0] Batch [0-4]	Speed: 13835.45 samples/sec	cross-entropy=23.485267	paper_time25-accuracy=0.000000
+2023-11-08 13:36:58,379 [INFO]  Epoch[0] Train-cross-entropy=26.424461
+2023-11-08 13:36:58,379 [INFO]  Epoch[0] Train-paper_time25-accuracy=0.000000
+2023-11-08 13:36:58,379 [INFO]  Epoch[0] Time cost=0.010
+2023-11-08 13:36:58,380 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0000.params"
+2023-11-08 13:36:58,381 [INFO]  Epoch[0] Validation-cross-entropy=14.495584
+2023-11-08 13:36:58,381 [INFO]  Epoch[0] Validation-paper_time25-accuracy=0.000000
+2023-11-08 13:36:58,388 [INFO]  Epoch[1] Batch [0-4]	Speed: 11194.61 samples/sec	cross-entropy=28.902627	paper_time25-accuracy=0.000000
+2023-11-08 13:36:58,393 [INFO]  Epoch[1] Train-cross-entropy=24.526685
+2023-11-08 13:36:58,393 [INFO]  Epoch[1] Train-paper_time25-accuracy=0.000000
+2023-11-08 13:36:58,393 [INFO]  Epoch[1] Time cost=0.012
+2023-11-08 13:36:58,397 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0001.params"
+2023-11-08 13:36:58,398 [INFO]  Epoch[1] Validation-cross-entropy=4.553372
+2023-11-08 13:36:58,398 [INFO]  Epoch[1] Validation-paper_time25-accuracy=0.000000
+2023-11-08 13:36:58,405 [INFO]  Epoch[2] Batch [0-4]	Speed: 12458.14 samples/sec	cross-entropy=5.303623	paper_time25-accuracy=0.000000
+2023-11-08 13:36:58,409 [INFO]  Epoch[2] Train-cross-entropy=4.641851
+2023-11-08 13:36:58,410 [INFO]  Epoch[2] Train-paper_time25-accuracy=0.000000
+2023-11-08 13:36:58,410 [INFO]  Epoch[2] Time cost=0.011
+2023-11-08 13:36:58,412 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0002.params"
+2023-11-08 13:36:58,412 [INFO]  Epoch[2] Validation-cross-entropy=5.284931
+2023-11-08 13:36:58,412 [INFO]  Epoch[2] Validation-paper_time25-accuracy=0.000000
+2023-11-08 13:36:58,418 [INFO]  Epoch[3] Batch [0-4]	Speed: 13754.63 samples/sec	cross-entropy=2.597725	paper_time25-accuracy=0.000000
+2023-11-08 13:36:58,422 [INFO]  Epoch[3] Train-cross-entropy=2.239390
+2023-11-08 13:36:58,422 [INFO]  Epoch[3] Train-paper_time25-accuracy=0.000000
+2023-11-08 13:36:58,422 [INFO]  Epoch[3] Time cost=0.010
+2023-11-08 13:36:58,424 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0003.params"
+2023-11-08 13:36:58,424 [INFO]  Epoch[3] Validation-cross-entropy=2.453211
+2023-11-08 13:36:58,425 [INFO]  Epoch[3] Validation-paper_time25-accuracy=0.000000
+2023-11-08 13:36:58,430 [INFO]  Epoch[4] Batch [0-4]	Speed: 14334.14 samples/sec	cross-entropy=1.049397	paper_time25-accuracy=0.000000
+2023-11-08 13:36:58,434 [INFO]  Epoch[4] Train-cross-entropy=0.864043
+2023-11-08 13:36:58,434 [INFO]  Epoch[4] Train-paper_time25-accuracy=0.000000
+2023-11-08 13:36:58,434 [INFO]  Epoch[4] Time cost=0.009
+2023-11-08 13:36:58,435 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0004.params"
+2023-11-08 13:36:58,436 [INFO]  Epoch[4] Validation-cross-entropy=2.845231
+2023-11-08 13:36:58,436 [INFO]  Epoch[4] Validation-paper_time25-accuracy=0.000000
+2023-11-08 13:36:58,436 [INFO]  
+========== done (0.06758713722229004 s) fit model
+2023-11-08 13:50:19,519 [INFO]  
+========== start: fit model
+2023-11-08 13:50:19,519 [WARNING]  Already bound, ignoring bind()
+2023-11-08 13:50:19,526 [INFO]  Epoch[0] Batch [0-4]	Speed: 14058.63 samples/sec	cross-entropy=14.817678	paper_time25-accuracy=4.000000
+2023-11-08 13:50:19,530 [INFO]  Epoch[0] Train-cross-entropy=17.928283
+2023-11-08 13:50:19,530 [INFO]  Epoch[0] Train-paper_time25-accuracy=3.125000
+2023-11-08 13:50:19,530 [INFO]  Epoch[0] Time cost=0.010
+2023-11-08 13:50:19,531 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0000.params"
+2023-11-08 13:50:19,531 [INFO]  Epoch[0] Validation-cross-entropy=7.811028
+2023-11-08 13:50:19,532 [INFO]  Epoch[0] Validation-paper_time25-accuracy=0.000000
+2023-11-08 13:50:19,537 [INFO]  Epoch[1] Batch [0-4]	Speed: 15277.19 samples/sec	cross-entropy=44.073074	paper_time25-accuracy=4.000000
+2023-11-08 13:50:19,540 [INFO]  Epoch[1] Train-cross-entropy=30.460129
+2023-11-08 13:50:19,540 [INFO]  Epoch[1] Train-paper_time25-accuracy=3.125000
+2023-11-08 13:50:19,540 [INFO]  Epoch[1] Time cost=0.009
+2023-11-08 13:50:19,541 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0001.params"
+2023-11-08 13:50:19,542 [INFO]  Epoch[1] Validation-cross-entropy=5.334586
+2023-11-08 13:50:19,542 [INFO]  Epoch[1] Validation-paper_time25-accuracy=0.000000
+2023-11-08 13:50:19,547 [INFO]  Epoch[2] Batch [0-4]	Speed: 16098.08 samples/sec	cross-entropy=18.500199	paper_time25-accuracy=4.000000
+2023-11-08 13:50:19,550 [INFO]  Epoch[2] Train-cross-entropy=14.063918
+2023-11-08 13:50:19,550 [INFO]  Epoch[2] Train-paper_time25-accuracy=3.125000
+2023-11-08 13:50:19,550 [INFO]  Epoch[2] Time cost=0.008
+2023-11-08 13:50:19,551 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0002.params"
+2023-11-08 13:50:19,552 [INFO]  Epoch[2] Validation-cross-entropy=11.390961
+2023-11-08 13:50:19,552 [INFO]  Epoch[2] Validation-paper_time25-accuracy=0.000000
+2023-11-08 13:50:19,556 [INFO]  Epoch[3] Batch [0-4]	Speed: 17399.24 samples/sec	cross-entropy=9.443025	paper_time25-accuracy=4.000000
+2023-11-08 13:50:19,561 [INFO]  Epoch[3] Train-cross-entropy=6.626401
+2023-11-08 13:50:19,561 [INFO]  Epoch[3] Train-paper_time25-accuracy=3.125000
+2023-11-08 13:50:19,561 [INFO]  Epoch[3] Time cost=0.010
+2023-11-08 13:50:19,565 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0003.params"
+2023-11-08 13:50:19,566 [INFO]  Epoch[3] Validation-cross-entropy=5.447388
+2023-11-08 13:50:19,566 [INFO]  Epoch[3] Validation-paper_time25-accuracy=0.000000
+2023-11-08 13:50:19,573 [INFO]  Epoch[4] Batch [0-4]	Speed: 11875.05 samples/sec	cross-entropy=2.190884	paper_time25-accuracy=4.000000
+2023-11-08 13:50:19,577 [INFO]  Epoch[4] Train-cross-entropy=2.236089
+2023-11-08 13:50:19,577 [INFO]  Epoch[4] Train-paper_time25-accuracy=3.125000
+2023-11-08 13:50:19,577 [INFO]  Epoch[4] Time cost=0.011
+2023-11-08 13:50:19,579 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0004.params"
+2023-11-08 13:50:19,580 [INFO]  Epoch[4] Validation-cross-entropy=4.303349
+2023-11-08 13:50:19,580 [INFO]  Epoch[4] Validation-paper_time25-accuracy=0.000000
+2023-11-08 13:50:19,580 [INFO]  
+========== done (0.061051368713378906 s) fit model
+2023-11-08 14:03:42,300 [INFO]  
+========== start: fit model
+2023-11-08 14:03:42,301 [WARNING]  Already bound, ignoring bind()
+2023-11-08 14:03:42,307 [INFO]  Epoch[0] Batch [0-4]	Speed: 14087.40 samples/sec	cross-entropy=22.486317	paper_time25-accuracy=2.600000
+2023-11-08 14:03:42,311 [INFO]  Epoch[0] Train-cross-entropy=22.931854
+2023-11-08 14:03:42,311 [INFO]  Epoch[0] Train-paper_time25-accuracy=2.875000
+2023-11-08 14:03:42,311 [INFO]  Epoch[0] Time cost=0.010
+2023-11-08 14:03:42,312 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0000.params"
+2023-11-08 14:03:42,313 [INFO]  Epoch[0] Validation-cross-entropy=32.598358
+2023-11-08 14:03:42,313 [INFO]  Epoch[0] Validation-paper_time25-accuracy=0.000000
+2023-11-08 14:03:42,318 [INFO]  Epoch[1] Batch [0-4]	Speed: 15265.89 samples/sec	cross-entropy=51.492272	paper_time25-accuracy=2.600000
+2023-11-08 14:03:42,322 [INFO]  Epoch[1] Train-cross-entropy=64.477404
+2023-11-08 14:03:42,322 [INFO]  Epoch[1] Train-paper_time25-accuracy=2.875000
+2023-11-08 14:03:42,322 [INFO]  Epoch[1] Time cost=0.009
+2023-11-08 14:03:42,323 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0001.params"
+2023-11-08 14:03:42,323 [INFO]  Epoch[1] Validation-cross-entropy=17.404049
+2023-11-08 14:03:42,324 [INFO]  Epoch[1] Validation-paper_time25-accuracy=0.000000
+2023-11-08 14:03:42,330 [INFO]  Epoch[2] Batch [0-4]	Speed: 12331.65 samples/sec	cross-entropy=16.296360	paper_time25-accuracy=2.600000
+2023-11-08 14:03:42,334 [INFO]  Epoch[2] Train-cross-entropy=13.774830
+2023-11-08 14:03:42,335 [INFO]  Epoch[2] Train-paper_time25-accuracy=2.875000
+2023-11-08 14:03:42,335 [INFO]  Epoch[2] Time cost=0.011
+2023-11-08 14:03:42,338 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0002.params"
+2023-11-08 14:03:42,339 [INFO]  Epoch[2] Validation-cross-entropy=6.060136
+2023-11-08 14:03:42,339 [INFO]  Epoch[2] Validation-paper_time25-accuracy=0.000000
+2023-11-08 14:03:42,345 [INFO]  Epoch[3] Batch [0-4]	Speed: 14126.69 samples/sec	cross-entropy=10.217529	paper_time25-accuracy=2.600000
+2023-11-08 14:03:42,348 [INFO]  Epoch[3] Train-cross-entropy=8.446867
+2023-11-08 14:03:42,349 [INFO]  Epoch[3] Train-paper_time25-accuracy=2.875000
+2023-11-08 14:03:42,349 [INFO]  Epoch[3] Time cost=0.010
+2023-11-08 14:03:42,351 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0003.params"
+2023-11-08 14:03:42,351 [INFO]  Epoch[3] Validation-cross-entropy=6.187701
+2023-11-08 14:03:42,351 [INFO]  Epoch[3] Validation-paper_time25-accuracy=0.000000
+2023-11-08 14:03:42,357 [INFO]  Epoch[4] Batch [0-4]	Speed: 16015.48 samples/sec	cross-entropy=2.504878	paper_time25-accuracy=2.600000
+2023-11-08 14:03:42,360 [INFO]  Epoch[4] Train-cross-entropy=2.186166
+2023-11-08 14:03:42,360 [INFO]  Epoch[4] Train-paper_time25-accuracy=2.875000
+2023-11-08 14:03:42,360 [INFO]  Epoch[4] Time cost=0.008
+2023-11-08 14:03:42,361 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0004.params"
+2023-11-08 14:03:42,362 [INFO]  Epoch[4] Validation-cross-entropy=6.110157
+2023-11-08 14:03:42,362 [INFO]  Epoch[4] Validation-paper_time25-accuracy=0.000000
+2023-11-08 14:03:42,362 [INFO]  
+========== done (0.0615994930267334 s) fit model
+2023-11-08 14:17:08,703 [INFO]  
+========== start: fit model
+2023-11-08 14:17:08,703 [WARNING]  Already bound, ignoring bind()
+2023-11-08 14:17:08,710 [INFO]  Epoch[0] Batch [0-4]	Speed: 14071.89 samples/sec	cross-entropy=13.752163	paper_time25-accuracy=0.000000
+2023-11-08 14:17:08,713 [INFO]  Epoch[0] Train-cross-entropy=16.182132
+2023-11-08 14:17:08,713 [INFO]  Epoch[0] Train-paper_time25-accuracy=0.000000
+2023-11-08 14:17:08,713 [INFO]  Epoch[0] Time cost=0.010
+2023-11-08 14:17:08,715 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0000.params"
+2023-11-08 14:17:08,715 [INFO]  Epoch[0] Validation-cross-entropy=9.429784
+2023-11-08 14:17:08,715 [INFO]  Epoch[0] Validation-paper_time25-accuracy=0.000000
+2023-11-08 14:17:08,723 [INFO]  Epoch[1] Batch [0-4]	Speed: 10237.42 samples/sec	cross-entropy=53.239514	paper_time25-accuracy=0.000000
+2023-11-08 14:17:08,729 [INFO]  Epoch[1] Train-cross-entropy=62.671299
+2023-11-08 14:17:08,729 [INFO]  Epoch[1] Train-paper_time25-accuracy=0.000000
+2023-11-08 14:17:08,730 [INFO]  Epoch[1] Time cost=0.014
+2023-11-08 14:17:08,733 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0001.params"
+2023-11-08 14:17:08,734 [INFO]  Epoch[1] Validation-cross-entropy=10.597567
+2023-11-08 14:17:08,735 [INFO]  Epoch[1] Validation-paper_time25-accuracy=0.000000
+2023-11-08 14:17:08,742 [INFO]  Epoch[2] Batch [0-4]	Speed: 11999.80 samples/sec	cross-entropy=7.425554	paper_time25-accuracy=0.000000
+2023-11-08 14:17:08,746 [INFO]  Epoch[2] Train-cross-entropy=12.923030
+2023-11-08 14:17:08,746 [INFO]  Epoch[2] Train-paper_time25-accuracy=0.000000
+2023-11-08 14:17:08,746 [INFO]  Epoch[2] Time cost=0.011
+2023-11-08 14:17:08,748 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0002.params"
+2023-11-08 14:17:08,749 [INFO]  Epoch[2] Validation-cross-entropy=1.940498
+2023-11-08 14:17:08,749 [INFO]  Epoch[2] Validation-paper_time25-accuracy=0.000000
+2023-11-08 14:17:08,755 [INFO]  Epoch[3] Batch [0-4]	Speed: 13385.63 samples/sec	cross-entropy=3.384946	paper_time25-accuracy=0.000000
+2023-11-08 14:17:08,759 [INFO]  Epoch[3] Train-cross-entropy=3.484382
+2023-11-08 14:17:08,759 [INFO]  Epoch[3] Train-paper_time25-accuracy=0.000000
+2023-11-08 14:17:08,759 [INFO]  Epoch[3] Time cost=0.010
+2023-11-08 14:17:08,760 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0003.params"
+2023-11-08 14:17:08,761 [INFO]  Epoch[3] Validation-cross-entropy=5.673776
+2023-11-08 14:17:08,761 [INFO]  Epoch[3] Validation-paper_time25-accuracy=0.000000
+2023-11-08 14:17:08,767 [INFO]  Epoch[4] Batch [0-4]	Speed: 13797.76 samples/sec	cross-entropy=3.376929	paper_time25-accuracy=0.000000
+2023-11-08 14:17:08,770 [INFO]  Epoch[4] Train-cross-entropy=2.782250
+2023-11-08 14:17:08,770 [INFO]  Epoch[4] Train-paper_time25-accuracy=0.000000
+2023-11-08 14:17:08,771 [INFO]  Epoch[4] Time cost=0.010
+2023-11-08 14:17:08,772 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0004.params"
+2023-11-08 14:17:08,773 [INFO]  Epoch[4] Validation-cross-entropy=4.611628
+2023-11-08 14:17:08,773 [INFO]  Epoch[4] Validation-paper_time25-accuracy=0.000000
+2023-11-08 14:17:08,773 [INFO]  
+========== done (0.07009720802307129 s) fit model
+2023-11-08 14:30:48,401 [INFO]  
+========== start: fit model
+2023-11-08 14:30:48,401 [WARNING]  Already bound, ignoring bind()
+2023-11-08 14:30:48,408 [INFO]  Epoch[0] Batch [0-4]	Speed: 14114.81 samples/sec	cross-entropy=19.386071	paper_time25-accuracy=0.000000
+2023-11-08 14:30:48,411 [INFO]  Epoch[0] Train-cross-entropy=17.737305
+2023-11-08 14:30:48,411 [INFO]  Epoch[0] Train-paper_time25-accuracy=0.000000
+2023-11-08 14:30:48,411 [INFO]  Epoch[0] Time cost=0.010
+2023-11-08 14:30:48,412 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0000.params"
+2023-11-08 14:30:48,413 [INFO]  Epoch[0] Validation-cross-entropy=54.235729
+2023-11-08 14:30:48,413 [INFO]  Epoch[0] Validation-paper_time25-accuracy=0.000000
+2023-11-08 14:30:48,420 [INFO]  Epoch[1] Batch [0-4]	Speed: 11095.58 samples/sec	cross-entropy=37.172786	paper_time25-accuracy=0.000000
+2023-11-08 14:30:48,425 [INFO]  Epoch[1] Train-cross-entropy=30.857846
+2023-11-08 14:30:48,425 [INFO]  Epoch[1] Train-paper_time25-accuracy=0.000000
+2023-11-08 14:30:48,425 [INFO]  Epoch[1] Time cost=0.012
+2023-11-08 14:30:48,429 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0001.params"
+2023-11-08 14:30:48,430 [INFO]  Epoch[1] Validation-cross-entropy=21.656000
+2023-11-08 14:30:48,430 [INFO]  Epoch[1] Validation-paper_time25-accuracy=0.000000
+2023-11-08 14:30:48,435 [INFO]  Epoch[2] Batch [0-4]	Speed: 16465.40 samples/sec	cross-entropy=15.212499	paper_time25-accuracy=0.000000
+2023-11-08 14:30:48,438 [INFO]  Epoch[2] Train-cross-entropy=11.587141
+2023-11-08 14:30:48,438 [INFO]  Epoch[2] Train-paper_time25-accuracy=0.000000
+2023-11-08 14:30:48,438 [INFO]  Epoch[2] Time cost=0.008
+2023-11-08 14:30:48,440 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0002.params"
+2023-11-08 14:30:48,441 [INFO]  Epoch[2] Validation-cross-entropy=34.059036
+2023-11-08 14:30:48,441 [INFO]  Epoch[2] Validation-paper_time25-accuracy=0.000000
+2023-11-08 14:30:48,445 [INFO]  Epoch[3] Batch [0-4]	Speed: 18392.29 samples/sec	cross-entropy=7.029780	paper_time25-accuracy=0.000000
+2023-11-08 14:30:48,449 [INFO]  Epoch[3] Train-cross-entropy=4.924082
+2023-11-08 14:30:48,449 [INFO]  Epoch[3] Train-paper_time25-accuracy=0.000000
+2023-11-08 14:30:48,449 [INFO]  Epoch[3] Time cost=0.008
+2023-11-08 14:30:48,450 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0003.params"
+2023-11-08 14:30:48,451 [INFO]  Epoch[3] Validation-cross-entropy=21.507839
+2023-11-08 14:30:48,451 [INFO]  Epoch[3] Validation-paper_time25-accuracy=0.000000
+2023-11-08 14:30:48,456 [INFO]  Epoch[4] Batch [0-4]	Speed: 14592.06 samples/sec	cross-entropy=4.116868	paper_time25-accuracy=0.000000
+2023-11-08 14:30:48,460 [INFO]  Epoch[4] Train-cross-entropy=2.884296
+2023-11-08 14:30:48,460 [INFO]  Epoch[4] Train-paper_time25-accuracy=0.000000
+2023-11-08 14:30:48,460 [INFO]  Epoch[4] Time cost=0.009
+2023-11-08 14:30:48,461 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0004.params"
+2023-11-08 14:30:48,462 [INFO]  Epoch[4] Validation-cross-entropy=25.695715
+2023-11-08 14:30:48,462 [INFO]  Epoch[4] Validation-paper_time25-accuracy=0.000000
+2023-11-08 14:30:48,462 [INFO]  
+========== done (0.061318397521972656 s) fit model
+2023-11-08 14:44:53,896 [INFO]  
+========== start: fit model
+2023-11-08 14:44:53,896 [WARNING]  Already bound, ignoring bind()
+2023-11-08 14:44:53,904 [INFO]  Epoch[0] Batch [0-4]	Speed: 13870.48 samples/sec	cross-entropy=20.885283	paper_time25-accuracy=2.600000
+2023-11-08 14:44:53,907 [INFO]  Epoch[0] Train-cross-entropy=21.013971
+2023-11-08 14:44:53,907 [INFO]  Epoch[0] Train-paper_time25-accuracy=2.875000
+2023-11-08 14:44:53,907 [INFO]  Epoch[0] Time cost=0.010
+2023-11-08 14:44:53,908 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0000.params"
+2023-11-08 14:44:53,909 [INFO]  Epoch[0] Validation-cross-entropy=24.174210
+2023-11-08 14:44:53,909 [INFO]  Epoch[0] Validation-paper_time25-accuracy=0.000000
+2023-11-08 14:44:53,915 [INFO]  Epoch[1] Batch [0-4]	Speed: 14286.84 samples/sec	cross-entropy=57.485077	paper_time25-accuracy=2.600000
+2023-11-08 14:44:53,918 [INFO]  Epoch[1] Train-cross-entropy=43.815993
+2023-11-08 14:44:53,918 [INFO]  Epoch[1] Train-paper_time25-accuracy=2.875000
+2023-11-08 14:44:53,918 [INFO]  Epoch[1] Time cost=0.009
+2023-11-08 14:44:53,919 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0001.params"
+2023-11-08 14:44:53,920 [INFO]  Epoch[1] Validation-cross-entropy=22.608135
+2023-11-08 14:44:53,920 [INFO]  Epoch[1] Validation-paper_time25-accuracy=0.000000
+2023-11-08 14:44:53,925 [INFO]  Epoch[2] Batch [0-4]	Speed: 15998.30 samples/sec	cross-entropy=17.251608	paper_time25-accuracy=2.600000
+2023-11-08 14:44:53,928 [INFO]  Epoch[2] Train-cross-entropy=12.069130
+2023-11-08 14:44:53,928 [INFO]  Epoch[2] Train-paper_time25-accuracy=2.875000
+2023-11-08 14:44:53,928 [INFO]  Epoch[2] Time cost=0.008
+2023-11-08 14:44:53,929 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0002.params"
+2023-11-08 14:44:53,930 [INFO]  Epoch[2] Validation-cross-entropy=2.977036
+2023-11-08 14:44:53,930 [INFO]  Epoch[2] Validation-paper_time25-accuracy=0.000000
+2023-11-08 14:44:53,935 [INFO]  Epoch[3] Batch [0-4]	Speed: 16345.09 samples/sec	cross-entropy=4.828621	paper_time25-accuracy=2.600000
+2023-11-08 14:44:53,938 [INFO]  Epoch[3] Train-cross-entropy=4.257833
+2023-11-08 14:44:53,938 [INFO]  Epoch[3] Train-paper_time25-accuracy=2.875000
+2023-11-08 14:44:53,938 [INFO]  Epoch[3] Time cost=0.008
+2023-11-08 14:44:53,939 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0003.params"
+2023-11-08 14:44:53,939 [INFO]  Epoch[3] Validation-cross-entropy=3.465892
+2023-11-08 14:44:53,939 [INFO]  Epoch[3] Validation-paper_time25-accuracy=0.000000
+2023-11-08 14:44:53,944 [INFO]  Epoch[4] Batch [0-4]	Speed: 17171.08 samples/sec	cross-entropy=1.650956	paper_time25-accuracy=2.600000
+2023-11-08 14:44:53,947 [INFO]  Epoch[4] Train-cross-entropy=1.485972
+2023-11-08 14:44:53,947 [INFO]  Epoch[4] Train-paper_time25-accuracy=2.875000
+2023-11-08 14:44:53,947 [INFO]  Epoch[4] Time cost=0.008
+2023-11-08 14:44:53,948 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0004.params"
+2023-11-08 14:44:53,949 [INFO]  Epoch[4] Validation-cross-entropy=4.279315
+2023-11-08 14:44:53,949 [INFO]  Epoch[4] Validation-paper_time25-accuracy=0.000000
+2023-11-08 14:44:53,949 [INFO]  
+========== done (0.05274057388305664 s) fit model
+2023-11-08 14:59:04,220 [INFO]  
+========== start: fit model
+2023-11-08 14:59:04,220 [WARNING]  Already bound, ignoring bind()
+2023-11-08 14:59:04,227 [INFO]  Epoch[0] Batch [0-4]	Speed: 14107.39 samples/sec	cross-entropy=16.318735	paper_time25-accuracy=0.000000
+2023-11-08 14:59:04,230 [INFO]  Epoch[0] Train-cross-entropy=16.977589
+2023-11-08 14:59:04,230 [INFO]  Epoch[0] Train-paper_time25-accuracy=0.000000
+2023-11-08 14:59:04,230 [INFO]  Epoch[0] Time cost=0.010
+2023-11-08 14:59:04,232 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0000.params"
+2023-11-08 14:59:04,232 [INFO]  Epoch[0] Validation-cross-entropy=15.808113
+2023-11-08 14:59:04,232 [INFO]  Epoch[0] Validation-paper_time25-accuracy=0.000000
+2023-11-08 14:59:04,238 [INFO]  Epoch[1] Batch [0-4]	Speed: 15148.73 samples/sec	cross-entropy=60.744638	paper_time25-accuracy=0.000000
+2023-11-08 14:59:04,241 [INFO]  Epoch[1] Train-cross-entropy=50.951573
+2023-11-08 14:59:04,241 [INFO]  Epoch[1] Train-paper_time25-accuracy=0.000000
+2023-11-08 14:59:04,241 [INFO]  Epoch[1] Time cost=0.009
+2023-11-08 14:59:04,243 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0001.params"
+2023-11-08 14:59:04,243 [INFO]  Epoch[1] Validation-cross-entropy=15.203649
+2023-11-08 14:59:04,243 [INFO]  Epoch[1] Validation-paper_time25-accuracy=0.000000
+2023-11-08 14:59:04,248 [INFO]  Epoch[2] Batch [0-4]	Speed: 16122.25 samples/sec	cross-entropy=15.477515	paper_time25-accuracy=0.000000
+2023-11-08 14:59:04,251 [INFO]  Epoch[2] Train-cross-entropy=20.915031
+2023-11-08 14:59:04,251 [INFO]  Epoch[2] Train-paper_time25-accuracy=0.000000
+2023-11-08 14:59:04,251 [INFO]  Epoch[2] Time cost=0.008
+2023-11-08 14:59:04,253 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0002.params"
+2023-11-08 14:59:04,253 [INFO]  Epoch[2] Validation-cross-entropy=12.982633
+2023-11-08 14:59:04,253 [INFO]  Epoch[2] Validation-paper_time25-accuracy=0.000000
+2023-11-08 14:59:04,259 [INFO]  Epoch[3] Batch [0-4]	Speed: 15678.73 samples/sec	cross-entropy=10.384912	paper_time25-accuracy=0.000000
+2023-11-08 14:59:04,263 [INFO]  Epoch[3] Train-cross-entropy=7.981233
+2023-11-08 14:59:04,264 [INFO]  Epoch[3] Train-paper_time25-accuracy=0.000000
+2023-11-08 14:59:04,264 [INFO]  Epoch[3] Time cost=0.010
+2023-11-08 14:59:04,267 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0003.params"
+2023-11-08 14:59:04,268 [INFO]  Epoch[3] Validation-cross-entropy=7.896767
+2023-11-08 14:59:04,268 [INFO]  Epoch[3] Validation-paper_time25-accuracy=0.000000
+2023-11-08 14:59:04,274 [INFO]  Epoch[4] Batch [0-4]	Speed: 13622.71 samples/sec	cross-entropy=3.493978	paper_time25-accuracy=0.000000
+2023-11-08 14:59:04,277 [INFO]  Epoch[4] Train-cross-entropy=3.135452
+2023-11-08 14:59:04,277 [INFO]  Epoch[4] Train-paper_time25-accuracy=0.000000
+2023-11-08 14:59:04,278 [INFO]  Epoch[4] Time cost=0.010
+2023-11-08 14:59:04,280 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_paper_time25/model-0004.params"
+2023-11-08 14:59:04,280 [INFO]  Epoch[4] Validation-cross-entropy=6.368730
+2023-11-08 14:59:04,281 [INFO]  Epoch[4] Validation-paper_time25-accuracy=0.000000
+2023-11-08 14:59:04,281 [INFO]  
+========== done (0.06087040901184082 s) fit model

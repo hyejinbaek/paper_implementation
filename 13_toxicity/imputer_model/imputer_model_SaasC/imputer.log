@@ -1,0 +1,360 @@
+2023-11-07 20:12:41,843 [INFO]  
+========== start: fit model
+2023-11-07 20:12:41,844 [WARNING]  Already bound, ignoring bind()
+2023-11-07 20:12:42,575 [INFO]  Epoch[0] Batch [0-4]	Speed: 319.81 samples/sec	cross-entropy=25.812598	SaasC-accuracy=0.000000
+2023-11-07 20:12:42,594 [INFO]  Epoch[0] Train-cross-entropy=36.325570
+2023-11-07 20:12:42,595 [INFO]  Epoch[0] Train-SaasC-accuracy=0.000000
+2023-11-07 20:12:42,595 [INFO]  Epoch[0] Time cost=0.750
+2023-11-07 20:12:42,599 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0000.params"
+2023-11-07 20:12:42,605 [INFO]  Epoch[0] Validation-cross-entropy=688.517334
+2023-11-07 20:12:42,605 [INFO]  Epoch[0] Validation-SaasC-accuracy=0.000000
+2023-11-07 20:12:42,721 [INFO]  Epoch[1] Batch [0-4]	Speed: 586.23 samples/sec	cross-entropy=153.048648	SaasC-accuracy=0.000000
+2023-11-07 20:12:42,733 [INFO]  Epoch[1] Train-cross-entropy=392.342703
+2023-11-07 20:12:42,733 [INFO]  Epoch[1] Train-SaasC-accuracy=0.000000
+2023-11-07 20:12:42,734 [INFO]  Epoch[1] Time cost=0.128
+2023-11-07 20:12:42,737 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0001.params"
+2023-11-07 20:12:42,738 [INFO]  Epoch[1] Validation-cross-entropy=249.171997
+2023-11-07 20:12:42,738 [INFO]  Epoch[1] Validation-SaasC-accuracy=0.000000
+2023-11-07 20:12:42,848 [INFO]  Epoch[2] Batch [0-4]	Speed: 592.75 samples/sec	cross-entropy=159.635937	SaasC-accuracy=0.000000
+2023-11-07 20:12:42,884 [INFO]  Epoch[2] Train-cross-entropy=194.780218
+2023-11-07 20:12:42,884 [INFO]  Epoch[2] Train-SaasC-accuracy=0.000000
+2023-11-07 20:12:42,884 [INFO]  Epoch[2] Time cost=0.146
+2023-11-07 20:12:42,887 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0002.params"
+2023-11-07 20:12:43,003 [INFO]  Epoch[2] Validation-cross-entropy=822.244324
+2023-11-07 20:12:43,003 [INFO]  Epoch[2] Validation-SaasC-accuracy=0.000000
+2023-11-07 20:12:43,044 [INFO]  Epoch[3] Batch [0-4]	Speed: 5957.55 samples/sec	cross-entropy=109.689080	SaasC-accuracy=0.000000
+2023-11-07 20:12:43,055 [INFO]  Epoch[3] Train-cross-entropy=82.609664
+2023-11-07 20:12:43,056 [INFO]  Epoch[3] Train-SaasC-accuracy=0.000000
+2023-11-07 20:12:43,056 [INFO]  Epoch[3] Time cost=0.052
+2023-11-07 20:12:43,059 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0003.params"
+2023-11-07 20:12:43,060 [INFO]  Epoch[3] Validation-cross-entropy=29.510708
+2023-11-07 20:12:43,060 [INFO]  Epoch[3] Validation-SaasC-accuracy=0.000000
+2023-11-07 20:12:43,173 [INFO]  Epoch[4] Batch [0-4]	Speed: 3139.52 samples/sec	cross-entropy=16.127770	SaasC-accuracy=0.000000
+2023-11-07 20:12:43,191 [INFO]  Epoch[4] Train-cross-entropy=15.102114
+2023-11-07 20:12:43,192 [INFO]  Epoch[4] Train-SaasC-accuracy=0.000000
+2023-11-07 20:12:43,192 [INFO]  Epoch[4] Time cost=0.131
+2023-11-07 20:12:43,196 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0004.params"
+2023-11-07 20:12:43,244 [INFO]  Epoch[4] Validation-cross-entropy=113.471123
+2023-11-07 20:12:43,245 [INFO]  Epoch[4] Validation-SaasC-accuracy=0.000000
+2023-11-07 20:12:43,245 [INFO]  
+========== done (1.4015510082244873 s) fit model
+2023-11-07 22:35:03,430 [INFO]  
+========== start: fit model
+2023-11-07 22:35:03,430 [WARNING]  Already bound, ignoring bind()
+2023-11-07 22:35:03,443 [INFO]  Epoch[0] Batch [0-4]	Speed: 7400.22 samples/sec	cross-entropy=69.560843	SaasC-accuracy=0.000000
+2023-11-07 22:35:03,449 [INFO]  Epoch[0] Train-cross-entropy=55.220505
+2023-11-07 22:35:03,449 [INFO]  Epoch[0] Train-SaasC-accuracy=0.000000
+2023-11-07 22:35:03,449 [INFO]  Epoch[0] Time cost=0.019
+2023-11-07 22:35:03,451 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0000.params"
+2023-11-07 22:35:03,452 [INFO]  Epoch[0] Validation-cross-entropy=159.224792
+2023-11-07 22:35:03,452 [INFO]  Epoch[0] Validation-SaasC-accuracy=0.000000
+2023-11-07 22:35:03,461 [INFO]  Epoch[1] Batch [0-4]	Speed: 8769.82 samples/sec	cross-entropy=113.818588	SaasC-accuracy=0.000000
+2023-11-07 22:35:03,466 [INFO]  Epoch[1] Train-cross-entropy=90.732631
+2023-11-07 22:35:03,466 [INFO]  Epoch[1] Train-SaasC-accuracy=0.000000
+2023-11-07 22:35:03,466 [INFO]  Epoch[1] Time cost=0.015
+2023-11-07 22:35:03,469 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0001.params"
+2023-11-07 22:35:03,470 [INFO]  Epoch[1] Validation-cross-entropy=152.412689
+2023-11-07 22:35:03,470 [INFO]  Epoch[1] Validation-SaasC-accuracy=0.000000
+2023-11-07 22:35:03,478 [INFO]  Epoch[2] Batch [0-4]	Speed: 9589.04 samples/sec	cross-entropy=51.077586	SaasC-accuracy=0.000000
+2023-11-07 22:35:03,484 [INFO]  Epoch[2] Train-cross-entropy=35.148908
+2023-11-07 22:35:03,484 [INFO]  Epoch[2] Train-SaasC-accuracy=0.000000
+2023-11-07 22:35:03,484 [INFO]  Epoch[2] Time cost=0.015
+2023-11-07 22:35:03,488 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0002.params"
+2023-11-07 22:35:03,489 [INFO]  Epoch[2] Validation-cross-entropy=163.253693
+2023-11-07 22:35:03,489 [INFO]  Epoch[2] Validation-SaasC-accuracy=0.000000
+2023-11-07 22:35:03,501 [INFO]  Epoch[3] Batch [0-4]	Speed: 6864.30 samples/sec	cross-entropy=18.012080	SaasC-accuracy=0.000000
+2023-11-07 22:35:03,508 [INFO]  Epoch[3] Train-cross-entropy=15.626366
+2023-11-07 22:35:03,508 [INFO]  Epoch[3] Train-SaasC-accuracy=0.000000
+2023-11-07 22:35:03,509 [INFO]  Epoch[3] Time cost=0.019
+2023-11-07 22:35:03,512 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0003.params"
+2023-11-07 22:35:03,513 [INFO]  Epoch[3] Validation-cross-entropy=72.688248
+2023-11-07 22:35:03,514 [INFO]  Epoch[3] Validation-SaasC-accuracy=0.000000
+2023-11-07 22:35:03,525 [INFO]  Epoch[4] Batch [0-4]	Speed: 7340.52 samples/sec	cross-entropy=15.394011	SaasC-accuracy=0.000000
+2023-11-07 22:35:03,532 [INFO]  Epoch[4] Train-cross-entropy=11.314978
+2023-11-07 22:35:03,532 [INFO]  Epoch[4] Train-SaasC-accuracy=0.000000
+2023-11-07 22:35:03,532 [INFO]  Epoch[4] Time cost=0.018
+2023-11-07 22:35:03,535 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0004.params"
+2023-11-07 22:35:03,536 [INFO]  Epoch[4] Validation-cross-entropy=149.781464
+2023-11-07 22:35:03,536 [INFO]  Epoch[4] Validation-SaasC-accuracy=0.000000
+2023-11-07 22:35:03,536 [INFO]  
+========== done (0.10628437995910645 s) fit model
+2023-11-08 00:21:52,255 [INFO]  
+========== start: fit model
+2023-11-08 00:21:52,255 [WARNING]  Already bound, ignoring bind()
+2023-11-08 00:21:52,267 [INFO]  Epoch[0] Batch [0-4]	Speed: 7829.99 samples/sec	cross-entropy=51.015383	SaasC-accuracy=2.800000
+2023-11-08 00:21:52,274 [INFO]  Epoch[0] Train-cross-entropy=43.675972
+2023-11-08 00:21:52,274 [INFO]  Epoch[0] Train-SaasC-accuracy=2.500000
+2023-11-08 00:21:52,274 [INFO]  Epoch[0] Time cost=0.018
+2023-11-08 00:21:52,276 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0000.params"
+2023-11-08 00:21:52,276 [INFO]  Epoch[0] Validation-cross-entropy=30.403526
+2023-11-08 00:21:52,276 [INFO]  Epoch[0] Validation-SaasC-accuracy=0.000000
+2023-11-08 00:21:52,287 [INFO]  Epoch[1] Batch [0-4]	Speed: 7306.16 samples/sec	cross-entropy=146.983475	SaasC-accuracy=2.800000
+2023-11-08 00:21:52,294 [INFO]  Epoch[1] Train-cross-entropy=110.453432
+2023-11-08 00:21:52,294 [INFO]  Epoch[1] Train-SaasC-accuracy=2.500000
+2023-11-08 00:21:52,294 [INFO]  Epoch[1] Time cost=0.018
+2023-11-08 00:21:52,298 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0001.params"
+2023-11-08 00:21:52,299 [INFO]  Epoch[1] Validation-cross-entropy=21.651480
+2023-11-08 00:21:52,299 [INFO]  Epoch[1] Validation-SaasC-accuracy=0.000000
+2023-11-08 00:21:52,310 [INFO]  Epoch[2] Batch [0-4]	Speed: 7219.11 samples/sec	cross-entropy=42.908384	SaasC-accuracy=2.800000
+2023-11-08 00:21:52,317 [INFO]  Epoch[2] Train-cross-entropy=77.789933
+2023-11-08 00:21:52,317 [INFO]  Epoch[2] Train-SaasC-accuracy=2.500000
+2023-11-08 00:21:52,317 [INFO]  Epoch[2] Time cost=0.018
+2023-11-08 00:21:52,320 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0002.params"
+2023-11-08 00:21:52,321 [INFO]  Epoch[2] Validation-cross-entropy=12.363501
+2023-11-08 00:21:52,322 [INFO]  Epoch[2] Validation-SaasC-accuracy=0.000000
+2023-11-08 00:21:52,333 [INFO]  Epoch[3] Batch [0-4]	Speed: 7375.41 samples/sec	cross-entropy=29.634558	SaasC-accuracy=2.800000
+2023-11-08 00:21:52,339 [INFO]  Epoch[3] Train-cross-entropy=40.122624
+2023-11-08 00:21:52,339 [INFO]  Epoch[3] Train-SaasC-accuracy=2.500000
+2023-11-08 00:21:52,339 [INFO]  Epoch[3] Time cost=0.018
+2023-11-08 00:21:52,343 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0003.params"
+2023-11-08 00:21:52,344 [INFO]  Epoch[3] Validation-cross-entropy=19.273951
+2023-11-08 00:21:52,344 [INFO]  Epoch[3] Validation-SaasC-accuracy=0.000000
+2023-11-08 00:21:52,355 [INFO]  Epoch[4] Batch [0-4]	Speed: 7354.60 samples/sec	cross-entropy=16.924156	SaasC-accuracy=2.800000
+2023-11-08 00:21:52,361 [INFO]  Epoch[4] Train-cross-entropy=13.920159
+2023-11-08 00:21:52,361 [INFO]  Epoch[4] Train-SaasC-accuracy=2.500000
+2023-11-08 00:21:52,361 [INFO]  Epoch[4] Time cost=0.017
+2023-11-08 00:21:52,364 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0004.params"
+2023-11-08 00:21:52,365 [INFO]  Epoch[4] Validation-cross-entropy=6.334239
+2023-11-08 00:21:52,365 [INFO]  Epoch[4] Validation-SaasC-accuracy=0.000000
+2023-11-08 00:21:52,365 [INFO]  
+========== done (0.11008191108703613 s) fit model
+2023-11-08 02:09:05,214 [INFO]  
+========== start: fit model
+2023-11-08 02:09:05,214 [WARNING]  Already bound, ignoring bind()
+2023-11-08 02:09:05,227 [INFO]  Epoch[0] Batch [0-4]	Speed: 7560.50 samples/sec	cross-entropy=44.317638	SaasC-accuracy=3.000000
+2023-11-08 02:09:05,234 [INFO]  Epoch[0] Train-cross-entropy=55.575197
+2023-11-08 02:09:05,234 [INFO]  Epoch[0] Train-SaasC-accuracy=2.875000
+2023-11-08 02:09:05,234 [INFO]  Epoch[0] Time cost=0.019
+2023-11-08 02:09:05,235 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0000.params"
+2023-11-08 02:09:05,236 [INFO]  Epoch[0] Validation-cross-entropy=102.796677
+2023-11-08 02:09:05,236 [INFO]  Epoch[0] Validation-SaasC-accuracy=0.000000
+2023-11-08 02:09:05,245 [INFO]  Epoch[1] Batch [0-4]	Speed: 8962.19 samples/sec	cross-entropy=483.747339	SaasC-accuracy=3.000000
+2023-11-08 02:09:05,251 [INFO]  Epoch[1] Train-cross-entropy=419.154278
+2023-11-08 02:09:05,251 [INFO]  Epoch[1] Train-SaasC-accuracy=2.875000
+2023-11-08 02:09:05,251 [INFO]  Epoch[1] Time cost=0.015
+2023-11-08 02:09:05,253 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0001.params"
+2023-11-08 02:09:05,254 [INFO]  Epoch[1] Validation-cross-entropy=85.114799
+2023-11-08 02:09:05,254 [INFO]  Epoch[1] Validation-SaasC-accuracy=0.000000
+2023-11-08 02:09:05,262 [INFO]  Epoch[2] Batch [0-4]	Speed: 9802.64 samples/sec	cross-entropy=368.686587	SaasC-accuracy=3.000000
+2023-11-08 02:09:05,268 [INFO]  Epoch[2] Train-cross-entropy=243.412511
+2023-11-08 02:09:05,268 [INFO]  Epoch[2] Train-SaasC-accuracy=2.875000
+2023-11-08 02:09:05,268 [INFO]  Epoch[2] Time cost=0.014
+2023-11-08 02:09:05,272 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0002.params"
+2023-11-08 02:09:05,273 [INFO]  Epoch[2] Validation-cross-entropy=47.455425
+2023-11-08 02:09:05,273 [INFO]  Epoch[2] Validation-SaasC-accuracy=0.000000
+2023-11-08 02:09:05,283 [INFO]  Epoch[3] Batch [0-4]	Speed: 8180.27 samples/sec	cross-entropy=58.112887	SaasC-accuracy=3.000000
+2023-11-08 02:09:05,289 [INFO]  Epoch[3] Train-cross-entropy=45.664814
+2023-11-08 02:09:05,290 [INFO]  Epoch[3] Train-SaasC-accuracy=2.875000
+2023-11-08 02:09:05,290 [INFO]  Epoch[3] Time cost=0.017
+2023-11-08 02:09:05,293 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0003.params"
+2023-11-08 02:09:05,294 [INFO]  Epoch[3] Validation-cross-entropy=36.224575
+2023-11-08 02:09:05,294 [INFO]  Epoch[3] Validation-SaasC-accuracy=0.000000
+2023-11-08 02:09:05,306 [INFO]  Epoch[4] Batch [0-4]	Speed: 6990.69 samples/sec	cross-entropy=29.746551	SaasC-accuracy=3.000000
+2023-11-08 02:09:05,313 [INFO]  Epoch[4] Train-cross-entropy=23.943427
+2023-11-08 02:09:05,313 [INFO]  Epoch[4] Train-SaasC-accuracy=2.875000
+2023-11-08 02:09:05,313 [INFO]  Epoch[4] Time cost=0.019
+2023-11-08 02:09:05,317 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0004.params"
+2023-11-08 02:09:05,318 [INFO]  Epoch[4] Validation-cross-entropy=42.441681
+2023-11-08 02:09:05,318 [INFO]  Epoch[4] Validation-SaasC-accuracy=0.000000
+2023-11-08 02:09:05,318 [INFO]  
+========== done (0.10390305519104004 s) fit model
+2023-11-08 03:56:57,668 [INFO]  
+========== start: fit model
+2023-11-08 03:56:57,668 [WARNING]  Already bound, ignoring bind()
+2023-11-08 03:56:57,681 [INFO]  Epoch[0] Batch [0-4]	Speed: 7571.16 samples/sec	cross-entropy=35.134131	SaasC-accuracy=2.400000
+2023-11-08 03:56:57,688 [INFO]  Epoch[0] Train-cross-entropy=39.013942
+2023-11-08 03:56:57,688 [INFO]  Epoch[0] Train-SaasC-accuracy=2.500000
+2023-11-08 03:56:57,688 [INFO]  Epoch[0] Time cost=0.019
+2023-11-08 03:56:57,690 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0000.params"
+2023-11-08 03:56:57,691 [INFO]  Epoch[0] Validation-cross-entropy=71.324074
+2023-11-08 03:56:57,691 [INFO]  Epoch[0] Validation-SaasC-accuracy=0.000000
+2023-11-08 03:56:57,701 [INFO]  Epoch[1] Batch [0-4]	Speed: 8140.08 samples/sec	cross-entropy=176.735271	SaasC-accuracy=2.400000
+2023-11-08 03:56:57,708 [INFO]  Epoch[1] Train-cross-entropy=186.634903
+2023-11-08 03:56:57,708 [INFO]  Epoch[1] Train-SaasC-accuracy=2.500000
+2023-11-08 03:56:57,708 [INFO]  Epoch[1] Time cost=0.016
+2023-11-08 03:56:57,711 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0001.params"
+2023-11-08 03:56:57,712 [INFO]  Epoch[1] Validation-cross-entropy=67.055870
+2023-11-08 03:56:57,712 [INFO]  Epoch[1] Validation-SaasC-accuracy=0.000000
+2023-11-08 03:56:57,722 [INFO]  Epoch[2] Batch [0-4]	Speed: 8034.58 samples/sec	cross-entropy=119.116289	SaasC-accuracy=2.400000
+2023-11-08 03:56:57,729 [INFO]  Epoch[2] Train-cross-entropy=239.017572
+2023-11-08 03:56:57,729 [INFO]  Epoch[2] Train-SaasC-accuracy=2.500000
+2023-11-08 03:56:57,729 [INFO]  Epoch[2] Time cost=0.017
+2023-11-08 03:56:57,731 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0002.params"
+2023-11-08 03:56:57,732 [INFO]  Epoch[2] Validation-cross-entropy=24.133644
+2023-11-08 03:56:57,732 [INFO]  Epoch[2] Validation-SaasC-accuracy=0.000000
+2023-11-08 03:56:57,742 [INFO]  Epoch[3] Batch [0-4]	Speed: 8324.10 samples/sec	cross-entropy=30.816507	SaasC-accuracy=2.400000
+2023-11-08 03:56:57,748 [INFO]  Epoch[3] Train-cross-entropy=42.357418
+2023-11-08 03:56:57,748 [INFO]  Epoch[3] Train-SaasC-accuracy=2.500000
+2023-11-08 03:56:57,748 [INFO]  Epoch[3] Time cost=0.016
+2023-11-08 03:56:57,751 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0003.params"
+2023-11-08 03:56:57,752 [INFO]  Epoch[3] Validation-cross-entropy=17.228090
+2023-11-08 03:56:57,752 [INFO]  Epoch[3] Validation-SaasC-accuracy=0.000000
+2023-11-08 03:56:57,762 [INFO]  Epoch[4] Batch [0-4]	Speed: 7940.47 samples/sec	cross-entropy=17.630599	SaasC-accuracy=2.400000
+2023-11-08 03:56:57,769 [INFO]  Epoch[4] Train-cross-entropy=14.773672
+2023-11-08 03:56:57,769 [INFO]  Epoch[4] Train-SaasC-accuracy=2.500000
+2023-11-08 03:56:57,769 [INFO]  Epoch[4] Time cost=0.017
+2023-11-08 03:56:57,773 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0004.params"
+2023-11-08 03:56:57,774 [INFO]  Epoch[4] Validation-cross-entropy=11.587692
+2023-11-08 03:56:57,774 [INFO]  Epoch[4] Validation-SaasC-accuracy=0.000000
+2023-11-08 03:56:57,774 [INFO]  
+========== done (0.1055905818939209 s) fit model
+2023-11-08 05:45:04,928 [INFO]  
+========== start: fit model
+2023-11-08 05:45:04,929 [WARNING]  Already bound, ignoring bind()
+2023-11-08 05:45:04,942 [INFO]  Epoch[0] Batch [0-4]	Speed: 7517.09 samples/sec	cross-entropy=84.600040	SaasC-accuracy=0.000000
+2023-11-08 05:45:04,948 [INFO]  Epoch[0] Train-cross-entropy=88.323208
+2023-11-08 05:45:04,948 [INFO]  Epoch[0] Train-SaasC-accuracy=0.000000
+2023-11-08 05:45:04,948 [INFO]  Epoch[0] Time cost=0.019
+2023-11-08 05:45:04,951 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0000.params"
+2023-11-08 05:45:04,952 [INFO]  Epoch[0] Validation-cross-entropy=21.945068
+2023-11-08 05:45:04,952 [INFO]  Epoch[0] Validation-SaasC-accuracy=0.000000
+2023-11-08 05:45:04,960 [INFO]  Epoch[1] Batch [0-4]	Speed: 10923.56 samples/sec	cross-entropy=246.314818	SaasC-accuracy=0.000000
+2023-11-08 05:45:04,964 [INFO]  Epoch[1] Train-cross-entropy=195.198827
+2023-11-08 05:45:04,964 [INFO]  Epoch[1] Train-SaasC-accuracy=0.000000
+2023-11-08 05:45:04,964 [INFO]  Epoch[1] Time cost=0.012
+2023-11-08 05:45:04,966 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0001.params"
+2023-11-08 05:45:04,967 [INFO]  Epoch[1] Validation-cross-entropy=36.467892
+2023-11-08 05:45:04,967 [INFO]  Epoch[1] Validation-SaasC-accuracy=0.000000
+2023-11-08 05:45:04,974 [INFO]  Epoch[2] Batch [0-4]	Speed: 11593.48 samples/sec	cross-entropy=129.379844	SaasC-accuracy=0.000000
+2023-11-08 05:45:04,979 [INFO]  Epoch[2] Train-cross-entropy=95.080129
+2023-11-08 05:45:04,979 [INFO]  Epoch[2] Train-SaasC-accuracy=0.000000
+2023-11-08 05:45:04,979 [INFO]  Epoch[2] Time cost=0.012
+2023-11-08 05:45:04,982 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0002.params"
+2023-11-08 05:45:04,983 [INFO]  Epoch[2] Validation-cross-entropy=42.267384
+2023-11-08 05:45:04,983 [INFO]  Epoch[2] Validation-SaasC-accuracy=0.000000
+2023-11-08 05:45:04,994 [INFO]  Epoch[3] Batch [0-4]	Speed: 7519.83 samples/sec	cross-entropy=33.060007	SaasC-accuracy=0.000000
+2023-11-08 05:45:05,000 [INFO]  Epoch[3] Train-cross-entropy=28.749852
+2023-11-08 05:45:05,001 [INFO]  Epoch[3] Train-SaasC-accuracy=0.000000
+2023-11-08 05:45:05,001 [INFO]  Epoch[3] Time cost=0.018
+2023-11-08 05:45:05,003 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0003.params"
+2023-11-08 05:45:05,004 [INFO]  Epoch[3] Validation-cross-entropy=15.189625
+2023-11-08 05:45:05,004 [INFO]  Epoch[3] Validation-SaasC-accuracy=0.000000
+2023-11-08 05:45:05,016 [INFO]  Epoch[4] Batch [0-4]	Speed: 7318.51 samples/sec	cross-entropy=15.502272	SaasC-accuracy=0.000000
+2023-11-08 05:45:05,023 [INFO]  Epoch[4] Train-cross-entropy=11.843673
+2023-11-08 05:45:05,023 [INFO]  Epoch[4] Train-SaasC-accuracy=0.000000
+2023-11-08 05:45:05,023 [INFO]  Epoch[4] Time cost=0.019
+2023-11-08 05:45:05,027 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0004.params"
+2023-11-08 05:45:05,028 [INFO]  Epoch[4] Validation-cross-entropy=6.079731
+2023-11-08 05:45:05,028 [INFO]  Epoch[4] Validation-SaasC-accuracy=0.000000
+2023-11-08 05:45:05,028 [INFO]  
+========== done (0.09949040412902832 s) fit model
+2023-11-08 07:33:21,056 [INFO]  
+========== start: fit model
+2023-11-08 07:33:21,056 [WARNING]  Already bound, ignoring bind()
+2023-11-08 07:33:21,069 [INFO]  Epoch[0] Batch [0-4]	Speed: 7393.90 samples/sec	cross-entropy=92.451904	SaasC-accuracy=3.400000
+2023-11-08 07:33:21,075 [INFO]  Epoch[0] Train-cross-entropy=82.677281
+2023-11-08 07:33:21,075 [INFO]  Epoch[0] Train-SaasC-accuracy=3.000000
+2023-11-08 07:33:21,075 [INFO]  Epoch[0] Time cost=0.019
+2023-11-08 07:33:21,079 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0000.params"
+2023-11-08 07:33:21,080 [INFO]  Epoch[0] Validation-cross-entropy=149.697388
+2023-11-08 07:33:21,080 [INFO]  Epoch[0] Validation-SaasC-accuracy=0.000000
+2023-11-08 07:33:21,088 [INFO]  Epoch[1] Batch [0-4]	Speed: 10224.17 samples/sec	cross-entropy=107.212830	SaasC-accuracy=3.400000
+2023-11-08 07:33:21,093 [INFO]  Epoch[1] Train-cross-entropy=116.864932
+2023-11-08 07:33:21,093 [INFO]  Epoch[1] Train-SaasC-accuracy=3.000000
+2023-11-08 07:33:21,093 [INFO]  Epoch[1] Time cost=0.013
+2023-11-08 07:33:21,095 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0001.params"
+2023-11-08 07:33:21,096 [INFO]  Epoch[1] Validation-cross-entropy=331.699585
+2023-11-08 07:33:21,096 [INFO]  Epoch[1] Validation-SaasC-accuracy=0.000000
+2023-11-08 07:33:21,105 [INFO]  Epoch[2] Batch [0-4]	Speed: 10216.38 samples/sec	cross-entropy=48.970467	SaasC-accuracy=3.400000
+2023-11-08 07:33:21,109 [INFO]  Epoch[2] Train-cross-entropy=50.787615
+2023-11-08 07:33:21,109 [INFO]  Epoch[2] Train-SaasC-accuracy=3.000000
+2023-11-08 07:33:21,109 [INFO]  Epoch[2] Time cost=0.013
+2023-11-08 07:33:21,112 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0002.params"
+2023-11-08 07:33:21,113 [INFO]  Epoch[2] Validation-cross-entropy=96.954689
+2023-11-08 07:33:21,113 [INFO]  Epoch[2] Validation-SaasC-accuracy=0.000000
+2023-11-08 07:33:21,121 [INFO]  Epoch[3] Batch [0-4]	Speed: 10082.08 samples/sec	cross-entropy=16.445920	SaasC-accuracy=3.400000
+2023-11-08 07:33:21,126 [INFO]  Epoch[3] Train-cross-entropy=15.416915
+2023-11-08 07:33:21,127 [INFO]  Epoch[3] Train-SaasC-accuracy=3.000000
+2023-11-08 07:33:21,127 [INFO]  Epoch[3] Time cost=0.013
+2023-11-08 07:33:21,129 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0003.params"
+2023-11-08 07:33:21,130 [INFO]  Epoch[3] Validation-cross-entropy=25.567158
+2023-11-08 07:33:21,130 [INFO]  Epoch[3] Validation-SaasC-accuracy=0.000000
+2023-11-08 07:33:21,138 [INFO]  Epoch[4] Batch [0-4]	Speed: 9869.68 samples/sec	cross-entropy=15.369955	SaasC-accuracy=3.400000
+2023-11-08 07:33:21,143 [INFO]  Epoch[4] Train-cross-entropy=12.378308
+2023-11-08 07:33:21,143 [INFO]  Epoch[4] Train-SaasC-accuracy=3.000000
+2023-11-08 07:33:21,143 [INFO]  Epoch[4] Time cost=0.013
+2023-11-08 07:33:21,147 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0004.params"
+2023-11-08 07:33:21,147 [INFO]  Epoch[4] Validation-cross-entropy=5.169819
+2023-11-08 07:33:21,148 [INFO]  Epoch[4] Validation-SaasC-accuracy=0.000000
+2023-11-08 07:33:21,148 [INFO]  
+========== done (0.09207034111022949 s) fit model
+2023-11-08 09:22:08,297 [INFO]  
+========== start: fit model
+2023-11-08 09:22:08,298 [WARNING]  Already bound, ignoring bind()
+2023-11-08 09:22:08,311 [INFO]  Epoch[0] Batch [0-4]	Speed: 7521.52 samples/sec	cross-entropy=74.703439	SaasC-accuracy=3.400000
+2023-11-08 09:22:08,317 [INFO]  Epoch[0] Train-cross-entropy=65.479379
+2023-11-08 09:22:08,317 [INFO]  Epoch[0] Train-SaasC-accuracy=3.000000
+2023-11-08 09:22:08,317 [INFO]  Epoch[0] Time cost=0.019
+2023-11-08 09:22:08,319 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0000.params"
+2023-11-08 09:22:08,320 [INFO]  Epoch[0] Validation-cross-entropy=30.012949
+2023-11-08 09:22:08,320 [INFO]  Epoch[0] Validation-SaasC-accuracy=0.000000
+2023-11-08 09:22:08,329 [INFO]  Epoch[1] Batch [0-4]	Speed: 9143.52 samples/sec	cross-entropy=89.802142	SaasC-accuracy=3.400000
+2023-11-08 09:22:08,334 [INFO]  Epoch[1] Train-cross-entropy=84.750038
+2023-11-08 09:22:08,334 [INFO]  Epoch[1] Train-SaasC-accuracy=3.000000
+2023-11-08 09:22:08,334 [INFO]  Epoch[1] Time cost=0.014
+2023-11-08 09:22:08,337 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0001.params"
+2023-11-08 09:22:08,337 [INFO]  Epoch[1] Validation-cross-entropy=29.950243
+2023-11-08 09:22:08,337 [INFO]  Epoch[1] Validation-SaasC-accuracy=0.000000
+2023-11-08 09:22:08,346 [INFO]  Epoch[2] Batch [0-4]	Speed: 9552.18 samples/sec	cross-entropy=44.141213	SaasC-accuracy=3.400000
+2023-11-08 09:22:08,351 [INFO]  Epoch[2] Train-cross-entropy=39.464290
+2023-11-08 09:22:08,351 [INFO]  Epoch[2] Train-SaasC-accuracy=3.000000
+2023-11-08 09:22:08,351 [INFO]  Epoch[2] Time cost=0.014
+2023-11-08 09:22:08,354 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0002.params"
+2023-11-08 09:22:08,355 [INFO]  Epoch[2] Validation-cross-entropy=7.270865
+2023-11-08 09:22:08,355 [INFO]  Epoch[2] Validation-SaasC-accuracy=0.000000
+2023-11-08 09:22:08,365 [INFO]  Epoch[3] Batch [0-4]	Speed: 8604.25 samples/sec	cross-entropy=18.104679	SaasC-accuracy=3.400000
+2023-11-08 09:22:08,370 [INFO]  Epoch[3] Train-cross-entropy=23.261207
+2023-11-08 09:22:08,371 [INFO]  Epoch[3] Train-SaasC-accuracy=3.000000
+2023-11-08 09:22:08,371 [INFO]  Epoch[3] Time cost=0.016
+2023-11-08 09:22:08,373 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0003.params"
+2023-11-08 09:22:08,374 [INFO]  Epoch[3] Validation-cross-entropy=9.759054
+2023-11-08 09:22:08,374 [INFO]  Epoch[3] Validation-SaasC-accuracy=0.000000
+2023-11-08 09:22:08,385 [INFO]  Epoch[4] Batch [0-4]	Speed: 7840.05 samples/sec	cross-entropy=4.163420	SaasC-accuracy=3.400000
+2023-11-08 09:22:08,390 [INFO]  Epoch[4] Train-cross-entropy=4.740740
+2023-11-08 09:22:08,391 [INFO]  Epoch[4] Train-SaasC-accuracy=3.000000
+2023-11-08 09:22:08,391 [INFO]  Epoch[4] Time cost=0.016
+2023-11-08 09:22:08,394 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0004.params"
+2023-11-08 09:22:08,395 [INFO]  Epoch[4] Validation-cross-entropy=7.136114
+2023-11-08 09:22:08,395 [INFO]  Epoch[4] Validation-SaasC-accuracy=0.000000
+2023-11-08 09:22:08,395 [INFO]  
+========== done (0.09758996963500977 s) fit model
+2023-11-08 11:12:18,131 [INFO]  
+========== start: fit model
+2023-11-08 11:12:18,131 [WARNING]  Already bound, ignoring bind()
+2023-11-08 11:12:18,144 [INFO]  Epoch[0] Batch [0-4]	Speed: 7266.99 samples/sec	cross-entropy=77.459321	SaasC-accuracy=2.400000
+2023-11-08 11:12:18,150 [INFO]  Epoch[0] Train-cross-entropy=92.041658
+2023-11-08 11:12:18,151 [INFO]  Epoch[0] Train-SaasC-accuracy=3.250000
+2023-11-08 11:12:18,151 [INFO]  Epoch[0] Time cost=0.019
+2023-11-08 11:12:18,154 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0000.params"
+2023-11-08 11:12:18,154 [INFO]  Epoch[0] Validation-cross-entropy=24.747236
+2023-11-08 11:12:18,155 [INFO]  Epoch[0] Validation-SaasC-accuracy=0.000000
+2023-11-08 11:12:18,162 [INFO]  Epoch[1] Batch [0-4]	Speed: 10598.37 samples/sec	cross-entropy=93.981112	SaasC-accuracy=2.400000
+2023-11-08 11:12:18,167 [INFO]  Epoch[1] Train-cross-entropy=137.678304
+2023-11-08 11:12:18,167 [INFO]  Epoch[1] Train-SaasC-accuracy=3.250000
+2023-11-08 11:12:18,167 [INFO]  Epoch[1] Time cost=0.013
+2023-11-08 11:12:18,170 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0001.params"
+2023-11-08 11:12:18,170 [INFO]  Epoch[1] Validation-cross-entropy=29.481710
+2023-11-08 11:12:18,170 [INFO]  Epoch[1] Validation-SaasC-accuracy=0.000000
+2023-11-08 11:12:18,178 [INFO]  Epoch[2] Batch [0-4]	Speed: 10606.32 samples/sec	cross-entropy=53.362449	SaasC-accuracy=2.400000
+2023-11-08 11:12:18,183 [INFO]  Epoch[2] Train-cross-entropy=48.686080
+2023-11-08 11:12:18,183 [INFO]  Epoch[2] Train-SaasC-accuracy=3.250000
+2023-11-08 11:12:18,183 [INFO]  Epoch[2] Time cost=0.012
+2023-11-08 11:12:18,185 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0002.params"
+2023-11-08 11:12:18,186 [INFO]  Epoch[2] Validation-cross-entropy=21.919912
+2023-11-08 11:12:18,186 [INFO]  Epoch[2] Validation-SaasC-accuracy=0.000000
+2023-11-08 11:12:18,193 [INFO]  Epoch[3] Batch [0-4]	Speed: 11192.74 samples/sec	cross-entropy=20.735723	SaasC-accuracy=2.400000
+2023-11-08 11:12:18,198 [INFO]  Epoch[3] Train-cross-entropy=18.907557
+2023-11-08 11:12:18,198 [INFO]  Epoch[3] Train-SaasC-accuracy=3.250000
+2023-11-08 11:12:18,198 [INFO]  Epoch[3] Time cost=0.012
+2023-11-08 11:12:18,200 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0003.params"
+2023-11-08 11:12:18,201 [INFO]  Epoch[3] Validation-cross-entropy=8.514447
+2023-11-08 11:12:18,201 [INFO]  Epoch[3] Validation-SaasC-accuracy=0.000000
+2023-11-08 11:12:18,209 [INFO]  Epoch[4] Batch [0-4]	Speed: 9849.76 samples/sec	cross-entropy=21.520819	SaasC-accuracy=2.400000
+2023-11-08 11:12:18,214 [INFO]  Epoch[4] Train-cross-entropy=15.765789
+2023-11-08 11:12:18,214 [INFO]  Epoch[4] Train-SaasC-accuracy=3.250000
+2023-11-08 11:12:18,214 [INFO]  Epoch[4] Time cost=0.013
+2023-11-08 11:12:18,217 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SaasC/model-0004.params"
+2023-11-08 11:12:18,217 [INFO]  Epoch[4] Validation-cross-entropy=12.085061
+2023-11-08 11:12:18,217 [INFO]  Epoch[4] Validation-SaasC-accuracy=0.000000
+2023-11-08 11:12:18,218 [INFO]  
+========== done (0.08627915382385254 s) fit model

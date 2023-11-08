@@ -1,0 +1,360 @@
+2023-11-07 20:11:22,176 [INFO]  
+========== start: fit model
+2023-11-07 20:11:22,177 [WARNING]  Already bound, ignoring bind()
+2023-11-07 20:11:22,186 [INFO]  Epoch[0] Batch [0-4]	Speed: 11592.48 samples/sec	cross-entropy=42.550903	MATS2c-accuracy=2.800000
+2023-11-07 20:11:22,190 [INFO]  Epoch[0] Train-cross-entropy=47.583202
+2023-11-07 20:11:22,190 [INFO]  Epoch[0] Train-MATS2c-accuracy=3.375000
+2023-11-07 20:11:22,191 [INFO]  Epoch[0] Time cost=0.013
+2023-11-07 20:11:22,193 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0000.params"
+2023-11-07 20:11:22,194 [INFO]  Epoch[0] Validation-cross-entropy=58.099796
+2023-11-07 20:11:22,195 [INFO]  Epoch[0] Validation-MATS2c-accuracy=0.000000
+2023-11-07 20:11:22,700 [INFO]  Epoch[1] Batch [0-4]	Speed: 131.11 samples/sec	cross-entropy=134.453371	MATS2c-accuracy=2.800000
+2023-11-07 20:11:23,033 [INFO]  Epoch[1] Train-cross-entropy=306.224587
+2023-11-07 20:11:23,033 [INFO]  Epoch[1] Train-MATS2c-accuracy=3.375000
+2023-11-07 20:11:23,033 [INFO]  Epoch[1] Time cost=0.838
+2023-11-07 20:11:23,035 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0001.params"
+2023-11-07 20:11:23,040 [INFO]  Epoch[1] Validation-cross-entropy=81.961212
+2023-11-07 20:11:23,040 [INFO]  Epoch[1] Validation-MATS2c-accuracy=0.000000
+2023-11-07 20:11:23,056 [INFO]  Epoch[2] Batch [0-4]	Speed: 4873.03 samples/sec	cross-entropy=201.068701	MATS2c-accuracy=2.800000
+2023-11-07 20:11:23,062 [INFO]  Epoch[2] Train-cross-entropy=445.908447
+2023-11-07 20:11:23,062 [INFO]  Epoch[2] Train-MATS2c-accuracy=3.375000
+2023-11-07 20:11:23,062 [INFO]  Epoch[2] Time cost=0.022
+2023-11-07 20:11:23,064 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0002.params"
+2023-11-07 20:11:23,065 [INFO]  Epoch[2] Validation-cross-entropy=1381.491211
+2023-11-07 20:11:23,065 [INFO]  Epoch[2] Validation-MATS2c-accuracy=0.000000
+2023-11-07 20:11:23,074 [INFO]  Epoch[3] Batch [0-4]	Speed: 9096.42 samples/sec	cross-entropy=198.982279	MATS2c-accuracy=2.800000
+2023-11-07 20:11:23,080 [INFO]  Epoch[3] Train-cross-entropy=219.420956
+2023-11-07 20:11:23,080 [INFO]  Epoch[3] Train-MATS2c-accuracy=3.375000
+2023-11-07 20:11:23,080 [INFO]  Epoch[3] Time cost=0.014
+2023-11-07 20:11:23,082 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0003.params"
+2023-11-07 20:11:23,083 [INFO]  Epoch[3] Validation-cross-entropy=363.453308
+2023-11-07 20:11:23,083 [INFO]  Epoch[3] Validation-MATS2c-accuracy=0.000000
+2023-11-07 20:11:23,092 [INFO]  Epoch[4] Batch [0-4]	Speed: 8767.24 samples/sec	cross-entropy=55.388684	MATS2c-accuracy=2.800000
+2023-11-07 20:11:23,098 [INFO]  Epoch[4] Train-cross-entropy=60.923047
+2023-11-07 20:11:23,098 [INFO]  Epoch[4] Train-MATS2c-accuracy=3.375000
+2023-11-07 20:11:23,098 [INFO]  Epoch[4] Time cost=0.015
+2023-11-07 20:11:23,100 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0004.params"
+2023-11-07 20:11:23,101 [INFO]  Epoch[4] Validation-cross-entropy=114.147415
+2023-11-07 20:11:23,101 [INFO]  Epoch[4] Validation-MATS2c-accuracy=0.000000
+2023-11-07 20:11:23,101 [INFO]  
+========== done (0.9249227046966553 s) fit model
+2023-11-07 22:34:27,143 [INFO]  
+========== start: fit model
+2023-11-07 22:34:27,143 [WARNING]  Already bound, ignoring bind()
+2023-11-07 22:34:27,156 [INFO]  Epoch[0] Batch [0-4]	Speed: 7422.93 samples/sec	cross-entropy=45.094780	MATS2c-accuracy=0.000000
+2023-11-07 22:34:27,162 [INFO]  Epoch[0] Train-cross-entropy=37.610704
+2023-11-07 22:34:27,162 [INFO]  Epoch[0] Train-MATS2c-accuracy=0.000000
+2023-11-07 22:34:27,162 [INFO]  Epoch[0] Time cost=0.019
+2023-11-07 22:34:27,164 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0000.params"
+2023-11-07 22:34:27,165 [INFO]  Epoch[0] Validation-cross-entropy=29.977365
+2023-11-07 22:34:27,165 [INFO]  Epoch[0] Validation-MATS2c-accuracy=0.000000
+2023-11-07 22:34:27,175 [INFO]  Epoch[1] Batch [0-4]	Speed: 7598.81 samples/sec	cross-entropy=169.091536	MATS2c-accuracy=0.000000
+2023-11-07 22:34:27,181 [INFO]  Epoch[1] Train-cross-entropy=129.692770
+2023-11-07 22:34:27,181 [INFO]  Epoch[1] Train-MATS2c-accuracy=0.000000
+2023-11-07 22:34:27,182 [INFO]  Epoch[1] Time cost=0.017
+2023-11-07 22:34:27,185 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0001.params"
+2023-11-07 22:34:27,186 [INFO]  Epoch[1] Validation-cross-entropy=44.123135
+2023-11-07 22:34:27,186 [INFO]  Epoch[1] Validation-MATS2c-accuracy=0.000000
+2023-11-07 22:34:27,197 [INFO]  Epoch[2] Batch [0-4]	Speed: 7202.07 samples/sec	cross-entropy=137.418290	MATS2c-accuracy=0.000000
+2023-11-07 22:34:27,204 [INFO]  Epoch[2] Train-cross-entropy=99.043584
+2023-11-07 22:34:27,204 [INFO]  Epoch[2] Train-MATS2c-accuracy=0.000000
+2023-11-07 22:34:27,204 [INFO]  Epoch[2] Time cost=0.018
+2023-11-07 22:34:27,208 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0002.params"
+2023-11-07 22:34:27,209 [INFO]  Epoch[2] Validation-cross-entropy=119.089256
+2023-11-07 22:34:27,209 [INFO]  Epoch[2] Validation-MATS2c-accuracy=0.000000
+2023-11-07 22:34:27,221 [INFO]  Epoch[3] Batch [0-4]	Speed: 6784.50 samples/sec	cross-entropy=58.181434	MATS2c-accuracy=0.000000
+2023-11-07 22:34:27,228 [INFO]  Epoch[3] Train-cross-entropy=39.548932
+2023-11-07 22:34:27,228 [INFO]  Epoch[3] Train-MATS2c-accuracy=0.000000
+2023-11-07 22:34:27,228 [INFO]  Epoch[3] Time cost=0.019
+2023-11-07 22:34:27,231 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0003.params"
+2023-11-07 22:34:27,232 [INFO]  Epoch[3] Validation-cross-entropy=7.105514
+2023-11-07 22:34:27,232 [INFO]  Epoch[3] Validation-MATS2c-accuracy=0.000000
+2023-11-07 22:34:27,244 [INFO]  Epoch[4] Batch [0-4]	Speed: 7221.64 samples/sec	cross-entropy=24.291017	MATS2c-accuracy=0.000000
+2023-11-07 22:34:27,250 [INFO]  Epoch[4] Train-cross-entropy=17.237900
+2023-11-07 22:34:27,250 [INFO]  Epoch[4] Train-MATS2c-accuracy=0.000000
+2023-11-07 22:34:27,250 [INFO]  Epoch[4] Time cost=0.018
+2023-11-07 22:34:27,253 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0004.params"
+2023-11-07 22:34:27,254 [INFO]  Epoch[4] Validation-cross-entropy=12.145521
+2023-11-07 22:34:27,254 [INFO]  Epoch[4] Validation-MATS2c-accuracy=0.000000
+2023-11-07 22:34:27,254 [INFO]  
+========== done (0.11103463172912598 s) fit model
+2023-11-08 00:21:17,569 [INFO]  
+========== start: fit model
+2023-11-08 00:21:17,569 [WARNING]  Already bound, ignoring bind()
+2023-11-08 00:21:17,582 [INFO]  Epoch[0] Batch [0-4]	Speed: 7910.05 samples/sec	cross-entropy=39.628512	MATS2c-accuracy=0.000000
+2023-11-08 00:21:17,587 [INFO]  Epoch[0] Train-cross-entropy=49.879025
+2023-11-08 00:21:17,587 [INFO]  Epoch[0] Train-MATS2c-accuracy=0.000000
+2023-11-08 00:21:17,587 [INFO]  Epoch[0] Time cost=0.017
+2023-11-08 00:21:17,588 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0000.params"
+2023-11-08 00:21:17,589 [INFO]  Epoch[0] Validation-cross-entropy=15.084290
+2023-11-08 00:21:17,589 [INFO]  Epoch[0] Validation-MATS2c-accuracy=0.000000
+2023-11-08 00:21:17,600 [INFO]  Epoch[1] Batch [0-4]	Speed: 7662.14 samples/sec	cross-entropy=202.530640	MATS2c-accuracy=0.000000
+2023-11-08 00:21:17,605 [INFO]  Epoch[1] Train-cross-entropy=167.432015
+2023-11-08 00:21:17,606 [INFO]  Epoch[1] Train-MATS2c-accuracy=0.000000
+2023-11-08 00:21:17,606 [INFO]  Epoch[1] Time cost=0.017
+2023-11-08 00:21:17,608 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0001.params"
+2023-11-08 00:21:17,609 [INFO]  Epoch[1] Validation-cross-entropy=7.069226
+2023-11-08 00:21:17,609 [INFO]  Epoch[1] Validation-MATS2c-accuracy=0.000000
+2023-11-08 00:21:17,619 [INFO]  Epoch[2] Batch [0-4]	Speed: 8180.52 samples/sec	cross-entropy=83.569216	MATS2c-accuracy=0.000000
+2023-11-08 00:21:17,625 [INFO]  Epoch[2] Train-cross-entropy=91.817739
+2023-11-08 00:21:17,625 [INFO]  Epoch[2] Train-MATS2c-accuracy=0.000000
+2023-11-08 00:21:17,625 [INFO]  Epoch[2] Time cost=0.016
+2023-11-08 00:21:17,628 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0002.params"
+2023-11-08 00:21:17,629 [INFO]  Epoch[2] Validation-cross-entropy=5.861764
+2023-11-08 00:21:17,629 [INFO]  Epoch[2] Validation-MATS2c-accuracy=0.000000
+2023-11-08 00:21:17,639 [INFO]  Epoch[3] Batch [0-4]	Speed: 7599.67 samples/sec	cross-entropy=15.414328	MATS2c-accuracy=0.000000
+2023-11-08 00:21:17,645 [INFO]  Epoch[3] Train-cross-entropy=20.686756
+2023-11-08 00:21:17,646 [INFO]  Epoch[3] Train-MATS2c-accuracy=0.000000
+2023-11-08 00:21:17,646 [INFO]  Epoch[3] Time cost=0.017
+2023-11-08 00:21:17,649 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0003.params"
+2023-11-08 00:21:17,650 [INFO]  Epoch[3] Validation-cross-entropy=10.350757
+2023-11-08 00:21:17,650 [INFO]  Epoch[3] Validation-MATS2c-accuracy=0.000000
+2023-11-08 00:21:17,661 [INFO]  Epoch[4] Batch [0-4]	Speed: 7908.42 samples/sec	cross-entropy=11.988529	MATS2c-accuracy=0.000000
+2023-11-08 00:21:17,667 [INFO]  Epoch[4] Train-cross-entropy=9.261504
+2023-11-08 00:21:17,667 [INFO]  Epoch[4] Train-MATS2c-accuracy=0.000000
+2023-11-08 00:21:17,667 [INFO]  Epoch[4] Time cost=0.017
+2023-11-08 00:21:17,670 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0004.params"
+2023-11-08 00:21:17,671 [INFO]  Epoch[4] Validation-cross-entropy=6.187856
+2023-11-08 00:21:17,672 [INFO]  Epoch[4] Validation-MATS2c-accuracy=0.000000
+2023-11-08 00:21:17,672 [INFO]  
+========== done (0.10239291191101074 s) fit model
+2023-11-08 02:08:30,082 [INFO]  
+========== start: fit model
+2023-11-08 02:08:30,082 [WARNING]  Already bound, ignoring bind()
+2023-11-08 02:08:30,096 [INFO]  Epoch[0] Batch [0-4]	Speed: 6631.15 samples/sec	cross-entropy=101.553412	MATS2c-accuracy=0.000000
+2023-11-08 02:08:30,104 [INFO]  Epoch[0] Train-cross-entropy=86.740179
+2023-11-08 02:08:30,104 [INFO]  Epoch[0] Train-MATS2c-accuracy=0.000000
+2023-11-08 02:08:30,104 [INFO]  Epoch[0] Time cost=0.021
+2023-11-08 02:08:30,108 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0000.params"
+2023-11-08 02:08:30,109 [INFO]  Epoch[0] Validation-cross-entropy=331.733459
+2023-11-08 02:08:30,109 [INFO]  Epoch[0] Validation-MATS2c-accuracy=0.000000
+2023-11-08 02:08:30,121 [INFO]  Epoch[1] Batch [0-4]	Speed: 7014.80 samples/sec	cross-entropy=129.356709	MATS2c-accuracy=0.000000
+2023-11-08 02:08:30,127 [INFO]  Epoch[1] Train-cross-entropy=123.900452
+2023-11-08 02:08:30,127 [INFO]  Epoch[1] Train-MATS2c-accuracy=0.000000
+2023-11-08 02:08:30,128 [INFO]  Epoch[1] Time cost=0.019
+2023-11-08 02:08:30,130 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0001.params"
+2023-11-08 02:08:30,131 [INFO]  Epoch[1] Validation-cross-entropy=124.353729
+2023-11-08 02:08:30,132 [INFO]  Epoch[1] Validation-MATS2c-accuracy=0.000000
+2023-11-08 02:08:30,143 [INFO]  Epoch[2] Batch [0-4]	Speed: 7407.36 samples/sec	cross-entropy=88.341363	MATS2c-accuracy=0.000000
+2023-11-08 02:08:30,149 [INFO]  Epoch[2] Train-cross-entropy=73.204486
+2023-11-08 02:08:30,149 [INFO]  Epoch[2] Train-MATS2c-accuracy=0.000000
+2023-11-08 02:08:30,150 [INFO]  Epoch[2] Time cost=0.018
+2023-11-08 02:08:30,153 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0002.params"
+2023-11-08 02:08:30,154 [INFO]  Epoch[2] Validation-cross-entropy=7.006006
+2023-11-08 02:08:30,154 [INFO]  Epoch[2] Validation-MATS2c-accuracy=0.000000
+2023-11-08 02:08:30,165 [INFO]  Epoch[3] Batch [0-4]	Speed: 7756.01 samples/sec	cross-entropy=16.750380	MATS2c-accuracy=0.000000
+2023-11-08 02:08:30,170 [INFO]  Epoch[3] Train-cross-entropy=15.293719
+2023-11-08 02:08:30,171 [INFO]  Epoch[3] Train-MATS2c-accuracy=0.000000
+2023-11-08 02:08:30,171 [INFO]  Epoch[3] Time cost=0.017
+2023-11-08 02:08:30,173 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0003.params"
+2023-11-08 02:08:30,174 [INFO]  Epoch[3] Validation-cross-entropy=22.872242
+2023-11-08 02:08:30,174 [INFO]  Epoch[3] Validation-MATS2c-accuracy=0.000000
+2023-11-08 02:08:30,184 [INFO]  Epoch[4] Batch [0-4]	Speed: 7968.99 samples/sec	cross-entropy=9.475309	MATS2c-accuracy=0.000000
+2023-11-08 02:08:30,190 [INFO]  Epoch[4] Train-cross-entropy=8.590895
+2023-11-08 02:08:30,190 [INFO]  Epoch[4] Train-MATS2c-accuracy=0.000000
+2023-11-08 02:08:30,190 [INFO]  Epoch[4] Time cost=0.016
+2023-11-08 02:08:30,194 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0004.params"
+2023-11-08 02:08:30,195 [INFO]  Epoch[4] Validation-cross-entropy=12.302933
+2023-11-08 02:08:30,195 [INFO]  Epoch[4] Validation-MATS2c-accuracy=0.000000
+2023-11-08 02:08:30,195 [INFO]  
+========== done (0.11315178871154785 s) fit model
+2023-11-08 03:56:22,334 [INFO]  
+========== start: fit model
+2023-11-08 03:56:22,334 [WARNING]  Already bound, ignoring bind()
+2023-11-08 03:56:22,347 [INFO]  Epoch[0] Batch [0-4]	Speed: 7722.32 samples/sec	cross-entropy=67.283260	MATS2c-accuracy=0.000000
+2023-11-08 03:56:22,352 [INFO]  Epoch[0] Train-cross-entropy=62.139011
+2023-11-08 03:56:22,353 [INFO]  Epoch[0] Train-MATS2c-accuracy=0.000000
+2023-11-08 03:56:22,353 [INFO]  Epoch[0] Time cost=0.018
+2023-11-08 03:56:22,354 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0000.params"
+2023-11-08 03:56:22,355 [INFO]  Epoch[0] Validation-cross-entropy=32.863888
+2023-11-08 03:56:22,355 [INFO]  Epoch[0] Validation-MATS2c-accuracy=0.000000
+2023-11-08 03:56:22,364 [INFO]  Epoch[1] Batch [0-4]	Speed: 8874.49 samples/sec	cross-entropy=145.429834	MATS2c-accuracy=0.000000
+2023-11-08 03:56:22,370 [INFO]  Epoch[1] Train-cross-entropy=236.040953
+2023-11-08 03:56:22,370 [INFO]  Epoch[1] Train-MATS2c-accuracy=0.000000
+2023-11-08 03:56:22,370 [INFO]  Epoch[1] Time cost=0.015
+2023-11-08 03:56:22,374 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0001.params"
+2023-11-08 03:56:22,375 [INFO]  Epoch[1] Validation-cross-entropy=75.470192
+2023-11-08 03:56:22,375 [INFO]  Epoch[1] Validation-MATS2c-accuracy=0.000000
+2023-11-08 03:56:22,386 [INFO]  Epoch[2] Batch [0-4]	Speed: 7315.11 samples/sec	cross-entropy=109.779403	MATS2c-accuracy=0.000000
+2023-11-08 03:56:22,392 [INFO]  Epoch[2] Train-cross-entropy=111.473972
+2023-11-08 03:56:22,393 [INFO]  Epoch[2] Train-MATS2c-accuracy=0.000000
+2023-11-08 03:56:22,393 [INFO]  Epoch[2] Time cost=0.017
+2023-11-08 03:56:22,396 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0002.params"
+2023-11-08 03:56:22,397 [INFO]  Epoch[2] Validation-cross-entropy=17.080715
+2023-11-08 03:56:22,397 [INFO]  Epoch[2] Validation-MATS2c-accuracy=0.000000
+2023-11-08 03:56:22,408 [INFO]  Epoch[3] Batch [0-4]	Speed: 7564.76 samples/sec	cross-entropy=49.270845	MATS2c-accuracy=0.000000
+2023-11-08 03:56:22,413 [INFO]  Epoch[3] Train-cross-entropy=44.926861
+2023-11-08 03:56:22,413 [INFO]  Epoch[3] Train-MATS2c-accuracy=0.000000
+2023-11-08 03:56:22,413 [INFO]  Epoch[3] Time cost=0.016
+2023-11-08 03:56:22,416 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0003.params"
+2023-11-08 03:56:22,417 [INFO]  Epoch[3] Validation-cross-entropy=12.374530
+2023-11-08 03:56:22,417 [INFO]  Epoch[3] Validation-MATS2c-accuracy=0.000000
+2023-11-08 03:56:22,424 [INFO]  Epoch[4] Batch [0-4]	Speed: 11815.46 samples/sec	cross-entropy=34.884063	MATS2c-accuracy=0.000000
+2023-11-08 03:56:22,428 [INFO]  Epoch[4] Train-cross-entropy=29.049844
+2023-11-08 03:56:22,428 [INFO]  Epoch[4] Train-MATS2c-accuracy=0.000000
+2023-11-08 03:56:22,428 [INFO]  Epoch[4] Time cost=0.011
+2023-11-08 03:56:22,430 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0004.params"
+2023-11-08 03:56:22,431 [INFO]  Epoch[4] Validation-cross-entropy=13.889461
+2023-11-08 03:56:22,431 [INFO]  Epoch[4] Validation-MATS2c-accuracy=0.000000
+2023-11-08 03:56:22,431 [INFO]  
+========== done (0.09672045707702637 s) fit model
+2023-11-08 05:44:29,739 [INFO]  
+========== start: fit model
+2023-11-08 05:44:29,739 [WARNING]  Already bound, ignoring bind()
+2023-11-08 05:44:29,751 [INFO]  Epoch[0] Batch [0-4]	Speed: 7774.65 samples/sec	cross-entropy=93.033408	MATS2c-accuracy=3.600000
+2023-11-08 05:44:29,758 [INFO]  Epoch[0] Train-cross-entropy=82.580071
+2023-11-08 05:44:29,758 [INFO]  Epoch[0] Train-MATS2c-accuracy=2.875000
+2023-11-08 05:44:29,758 [INFO]  Epoch[0] Time cost=0.018
+2023-11-08 05:44:29,759 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0000.params"
+2023-11-08 05:44:29,760 [INFO]  Epoch[0] Validation-cross-entropy=26.201204
+2023-11-08 05:44:29,760 [INFO]  Epoch[0] Validation-MATS2c-accuracy=0.000000
+2023-11-08 05:44:29,769 [INFO]  Epoch[1] Batch [0-4]	Speed: 9026.07 samples/sec	cross-entropy=122.386579	MATS2c-accuracy=3.600000
+2023-11-08 05:44:29,775 [INFO]  Epoch[1] Train-cross-entropy=96.424868
+2023-11-08 05:44:29,775 [INFO]  Epoch[1] Train-MATS2c-accuracy=2.875000
+2023-11-08 05:44:29,775 [INFO]  Epoch[1] Time cost=0.015
+2023-11-08 05:44:29,779 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0001.params"
+2023-11-08 05:44:29,780 [INFO]  Epoch[1] Validation-cross-entropy=36.175850
+2023-11-08 05:44:29,780 [INFO]  Epoch[1] Validation-MATS2c-accuracy=0.000000
+2023-11-08 05:44:29,791 [INFO]  Epoch[2] Batch [0-4]	Speed: 7725.43 samples/sec	cross-entropy=40.389422	MATS2c-accuracy=3.600000
+2023-11-08 05:44:29,797 [INFO]  Epoch[2] Train-cross-entropy=34.815044
+2023-11-08 05:44:29,797 [INFO]  Epoch[2] Train-MATS2c-accuracy=2.875000
+2023-11-08 05:44:29,797 [INFO]  Epoch[2] Time cost=0.017
+2023-11-08 05:44:29,800 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0002.params"
+2023-11-08 05:44:29,801 [INFO]  Epoch[2] Validation-cross-entropy=23.214016
+2023-11-08 05:44:29,801 [INFO]  Epoch[2] Validation-MATS2c-accuracy=0.000000
+2023-11-08 05:44:29,812 [INFO]  Epoch[3] Batch [0-4]	Speed: 7418.21 samples/sec	cross-entropy=27.883452	MATS2c-accuracy=3.600000
+2023-11-08 05:44:29,818 [INFO]  Epoch[3] Train-cross-entropy=21.572881
+2023-11-08 05:44:29,819 [INFO]  Epoch[3] Train-MATS2c-accuracy=2.875000
+2023-11-08 05:44:29,819 [INFO]  Epoch[3] Time cost=0.018
+2023-11-08 05:44:29,822 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0003.params"
+2023-11-08 05:44:29,823 [INFO]  Epoch[3] Validation-cross-entropy=25.445353
+2023-11-08 05:44:29,823 [INFO]  Epoch[3] Validation-MATS2c-accuracy=0.000000
+2023-11-08 05:44:29,834 [INFO]  Epoch[4] Batch [0-4]	Speed: 7441.86 samples/sec	cross-entropy=17.298835	MATS2c-accuracy=3.600000
+2023-11-08 05:44:29,840 [INFO]  Epoch[4] Train-cross-entropy=13.439529
+2023-11-08 05:44:29,841 [INFO]  Epoch[4] Train-MATS2c-accuracy=2.875000
+2023-11-08 05:44:29,841 [INFO]  Epoch[4] Time cost=0.018
+2023-11-08 05:44:29,844 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0004.params"
+2023-11-08 05:44:29,845 [INFO]  Epoch[4] Validation-cross-entropy=10.039889
+2023-11-08 05:44:29,845 [INFO]  Epoch[4] Validation-MATS2c-accuracy=0.000000
+2023-11-08 05:44:29,845 [INFO]  
+========== done (0.1057288646697998 s) fit model
+2023-11-08 07:32:45,382 [INFO]  
+========== start: fit model
+2023-11-08 07:32:45,382 [WARNING]  Already bound, ignoring bind()
+2023-11-08 07:32:45,394 [INFO]  Epoch[0] Batch [0-4]	Speed: 7651.88 samples/sec	cross-entropy=43.273214	MATS2c-accuracy=3.000000
+2023-11-08 07:32:45,400 [INFO]  Epoch[0] Train-cross-entropy=44.236897
+2023-11-08 07:32:45,400 [INFO]  Epoch[0] Train-MATS2c-accuracy=2.625000
+2023-11-08 07:32:45,400 [INFO]  Epoch[0] Time cost=0.018
+2023-11-08 07:32:45,402 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0000.params"
+2023-11-08 07:32:45,403 [INFO]  Epoch[0] Validation-cross-entropy=19.287724
+2023-11-08 07:32:45,403 [INFO]  Epoch[0] Validation-MATS2c-accuracy=0.000000
+2023-11-08 07:32:45,411 [INFO]  Epoch[1] Batch [0-4]	Speed: 9501.47 samples/sec	cross-entropy=155.686180	MATS2c-accuracy=3.000000
+2023-11-08 07:32:45,418 [INFO]  Epoch[1] Train-cross-entropy=176.756348
+2023-11-08 07:32:45,418 [INFO]  Epoch[1] Train-MATS2c-accuracy=2.625000
+2023-11-08 07:32:45,418 [INFO]  Epoch[1] Time cost=0.015
+2023-11-08 07:32:45,422 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0001.params"
+2023-11-08 07:32:45,423 [INFO]  Epoch[1] Validation-cross-entropy=35.993649
+2023-11-08 07:32:45,423 [INFO]  Epoch[1] Validation-MATS2c-accuracy=0.000000
+2023-11-08 07:32:45,434 [INFO]  Epoch[2] Batch [0-4]	Speed: 7271.72 samples/sec	cross-entropy=86.502522	MATS2c-accuracy=3.000000
+2023-11-08 07:32:45,441 [INFO]  Epoch[2] Train-cross-entropy=74.913617
+2023-11-08 07:32:45,441 [INFO]  Epoch[2] Train-MATS2c-accuracy=2.625000
+2023-11-08 07:32:45,441 [INFO]  Epoch[2] Time cost=0.018
+2023-11-08 07:32:45,444 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0002.params"
+2023-11-08 07:32:45,445 [INFO]  Epoch[2] Validation-cross-entropy=8.158852
+2023-11-08 07:32:45,446 [INFO]  Epoch[2] Validation-MATS2c-accuracy=0.000000
+2023-11-08 07:32:45,457 [INFO]  Epoch[3] Batch [0-4]	Speed: 7158.66 samples/sec	cross-entropy=37.916031	MATS2c-accuracy=3.000000
+2023-11-08 07:32:45,464 [INFO]  Epoch[3] Train-cross-entropy=30.211021
+2023-11-08 07:32:45,464 [INFO]  Epoch[3] Train-MATS2c-accuracy=2.625000
+2023-11-08 07:32:45,464 [INFO]  Epoch[3] Time cost=0.018
+2023-11-08 07:32:45,467 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0003.params"
+2023-11-08 07:32:45,468 [INFO]  Epoch[3] Validation-cross-entropy=10.692455
+2023-11-08 07:32:45,468 [INFO]  Epoch[3] Validation-MATS2c-accuracy=0.000000
+2023-11-08 07:32:45,479 [INFO]  Epoch[4] Batch [0-4]	Speed: 7528.48 samples/sec	cross-entropy=14.686060	MATS2c-accuracy=3.000000
+2023-11-08 07:32:45,485 [INFO]  Epoch[4] Train-cross-entropy=11.052453
+2023-11-08 07:32:45,485 [INFO]  Epoch[4] Train-MATS2c-accuracy=2.625000
+2023-11-08 07:32:45,485 [INFO]  Epoch[4] Time cost=0.017
+2023-11-08 07:32:45,489 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0004.params"
+2023-11-08 07:32:45,490 [INFO]  Epoch[4] Validation-cross-entropy=9.745286
+2023-11-08 07:32:45,490 [INFO]  Epoch[4] Validation-MATS2c-accuracy=0.000000
+2023-11-08 07:32:45,490 [INFO]  
+========== done (0.10809206962585449 s) fit model
+2023-11-08 09:21:32,729 [INFO]  
+========== start: fit model
+2023-11-08 09:21:32,729 [WARNING]  Already bound, ignoring bind()
+2023-11-08 09:21:32,741 [INFO]  Epoch[0] Batch [0-4]	Speed: 7525.52 samples/sec	cross-entropy=61.300661	MATS2c-accuracy=0.000000
+2023-11-08 09:21:32,748 [INFO]  Epoch[0] Train-cross-entropy=65.721713
+2023-11-08 09:21:32,748 [INFO]  Epoch[0] Train-MATS2c-accuracy=0.000000
+2023-11-08 09:21:32,748 [INFO]  Epoch[0] Time cost=0.019
+2023-11-08 09:21:32,750 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0000.params"
+2023-11-08 09:21:32,751 [INFO]  Epoch[0] Validation-cross-entropy=66.749825
+2023-11-08 09:21:32,751 [INFO]  Epoch[0] Validation-MATS2c-accuracy=0.000000
+2023-11-08 09:21:32,759 [INFO]  Epoch[1] Batch [0-4]	Speed: 10404.48 samples/sec	cross-entropy=100.684406	MATS2c-accuracy=0.000000
+2023-11-08 09:21:32,764 [INFO]  Epoch[1] Train-cross-entropy=94.642348
+2023-11-08 09:21:32,764 [INFO]  Epoch[1] Train-MATS2c-accuracy=0.000000
+2023-11-08 09:21:32,764 [INFO]  Epoch[1] Time cost=0.013
+2023-11-08 09:21:32,767 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0001.params"
+2023-11-08 09:21:32,767 [INFO]  Epoch[1] Validation-cross-entropy=9.815367
+2023-11-08 09:21:32,768 [INFO]  Epoch[1] Validation-MATS2c-accuracy=0.000000
+2023-11-08 09:21:32,775 [INFO]  Epoch[2] Batch [0-4]	Speed: 10503.81 samples/sec	cross-entropy=98.150186	MATS2c-accuracy=0.000000
+2023-11-08 09:21:32,781 [INFO]  Epoch[2] Train-cross-entropy=77.415683
+2023-11-08 09:21:32,781 [INFO]  Epoch[2] Train-MATS2c-accuracy=0.000000
+2023-11-08 09:21:32,781 [INFO]  Epoch[2] Time cost=0.013
+2023-11-08 09:21:32,786 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0002.params"
+2023-11-08 09:21:32,787 [INFO]  Epoch[2] Validation-cross-entropy=60.480392
+2023-11-08 09:21:32,787 [INFO]  Epoch[2] Validation-MATS2c-accuracy=0.000000
+2023-11-08 09:21:32,797 [INFO]  Epoch[3] Batch [0-4]	Speed: 8712.61 samples/sec	cross-entropy=91.149117	MATS2c-accuracy=0.000000
+2023-11-08 09:21:32,802 [INFO]  Epoch[3] Train-cross-entropy=61.916861
+2023-11-08 09:21:32,802 [INFO]  Epoch[3] Train-MATS2c-accuracy=0.000000
+2023-11-08 09:21:32,802 [INFO]  Epoch[3] Time cost=0.015
+2023-11-08 09:21:32,805 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0003.params"
+2023-11-08 09:21:32,806 [INFO]  Epoch[3] Validation-cross-entropy=25.032372
+2023-11-08 09:21:32,806 [INFO]  Epoch[3] Validation-MATS2c-accuracy=0.000000
+2023-11-08 09:21:32,814 [INFO]  Epoch[4] Batch [0-4]	Speed: 11305.88 samples/sec	cross-entropy=14.290452	MATS2c-accuracy=0.000000
+2023-11-08 09:21:32,818 [INFO]  Epoch[4] Train-cross-entropy=15.039677
+2023-11-08 09:21:32,818 [INFO]  Epoch[4] Train-MATS2c-accuracy=0.000000
+2023-11-08 09:21:32,818 [INFO]  Epoch[4] Time cost=0.012
+2023-11-08 09:21:32,820 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0004.params"
+2023-11-08 09:21:32,821 [INFO]  Epoch[4] Validation-cross-entropy=13.881004
+2023-11-08 09:21:32,821 [INFO]  Epoch[4] Validation-MATS2c-accuracy=0.000000
+2023-11-08 09:21:32,821 [INFO]  
+========== done (0.09216070175170898 s) fit model
+2023-11-08 11:11:42,021 [INFO]  
+========== start: fit model
+2023-11-08 11:11:42,021 [WARNING]  Already bound, ignoring bind()
+2023-11-08 11:11:42,034 [INFO]  Epoch[0] Batch [0-4]	Speed: 7839.36 samples/sec	cross-entropy=119.574973	MATS2c-accuracy=0.000000
+2023-11-08 11:11:42,040 [INFO]  Epoch[0] Train-cross-entropy=110.322190
+2023-11-08 11:11:42,040 [INFO]  Epoch[0] Train-MATS2c-accuracy=0.000000
+2023-11-08 11:11:42,040 [INFO]  Epoch[0] Time cost=0.018
+2023-11-08 11:11:42,042 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0000.params"
+2023-11-08 11:11:42,043 [INFO]  Epoch[0] Validation-cross-entropy=109.520401
+2023-11-08 11:11:42,043 [INFO]  Epoch[0] Validation-MATS2c-accuracy=0.000000
+2023-11-08 11:11:42,053 [INFO]  Epoch[1] Batch [0-4]	Speed: 8107.14 samples/sec	cross-entropy=135.913594	MATS2c-accuracy=0.000000
+2023-11-08 11:11:42,058 [INFO]  Epoch[1] Train-cross-entropy=211.607196
+2023-11-08 11:11:42,058 [INFO]  Epoch[1] Train-MATS2c-accuracy=0.000000
+2023-11-08 11:11:42,058 [INFO]  Epoch[1] Time cost=0.015
+2023-11-08 11:11:42,061 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0001.params"
+2023-11-08 11:11:42,062 [INFO]  Epoch[1] Validation-cross-entropy=45.960289
+2023-11-08 11:11:42,062 [INFO]  Epoch[1] Validation-MATS2c-accuracy=0.000000
+2023-11-08 11:11:42,071 [INFO]  Epoch[2] Batch [0-4]	Speed: 9166.31 samples/sec	cross-entropy=92.461167	MATS2c-accuracy=0.000000
+2023-11-08 11:11:42,076 [INFO]  Epoch[2] Train-cross-entropy=85.734081
+2023-11-08 11:11:42,076 [INFO]  Epoch[2] Train-MATS2c-accuracy=0.000000
+2023-11-08 11:11:42,076 [INFO]  Epoch[2] Time cost=0.014
+2023-11-08 11:11:42,095 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0002.params"
+2023-11-08 11:11:42,096 [INFO]  Epoch[2] Validation-cross-entropy=29.826965
+2023-11-08 11:11:42,096 [INFO]  Epoch[2] Validation-MATS2c-accuracy=0.000000
+2023-11-08 11:11:42,110 [INFO]  Epoch[3] Batch [0-4]	Speed: 6126.98 samples/sec	cross-entropy=51.480770	MATS2c-accuracy=0.000000
+2023-11-08 11:11:42,117 [INFO]  Epoch[3] Train-cross-entropy=40.834446
+2023-11-08 11:11:42,118 [INFO]  Epoch[3] Train-MATS2c-accuracy=0.000000
+2023-11-08 11:11:42,118 [INFO]  Epoch[3] Time cost=0.021
+2023-11-08 11:11:42,121 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0003.params"
+2023-11-08 11:11:42,122 [INFO]  Epoch[3] Validation-cross-entropy=11.180576
+2023-11-08 11:11:42,122 [INFO]  Epoch[3] Validation-MATS2c-accuracy=0.000000
+2023-11-08 11:11:42,134 [INFO]  Epoch[4] Batch [0-4]	Speed: 7307.35 samples/sec	cross-entropy=10.652128	MATS2c-accuracy=0.000000
+2023-11-08 11:11:42,140 [INFO]  Epoch[4] Train-cross-entropy=9.139919
+2023-11-08 11:11:42,140 [INFO]  Epoch[4] Train-MATS2c-accuracy=0.000000
+2023-11-08 11:11:42,140 [INFO]  Epoch[4] Time cost=0.017
+2023-11-08 11:11:42,143 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MATS2c/model-0004.params"
+2023-11-08 11:11:42,144 [INFO]  Epoch[4] Validation-cross-entropy=12.823529
+2023-11-08 11:11:42,144 [INFO]  Epoch[4] Validation-MATS2c-accuracy=0.000000
+2023-11-08 11:11:42,144 [INFO]  
+========== done (0.12285208702087402 s) fit model

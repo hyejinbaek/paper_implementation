@@ -1,0 +1,40 @@
+2023-11-08 16:57:35,409 [INFO]  
+========== start: fit model
+2023-11-08 16:57:35,414 [WARNING]  Already bound, ignoring bind()
+2023-11-08 16:57:48,065 [INFO]  Epoch[0] Batch [0-52]	Speed: 70.14 samples/sec	cross-entropy=6.979267	LBXGLU-accuracy=0.000000
+2023-11-08 16:58:14,427 [INFO]  Epoch[0] Train-cross-entropy=3.843266
+2023-11-08 16:58:14,427 [INFO]  Epoch[0] Train-LBXGLU-accuracy=0.000000
+2023-11-08 16:58:14,427 [INFO]  Epoch[0] Time cost=39.011
+2023-11-08 16:58:14,429 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_LBXGLU/model-0000.params"
+2023-11-08 16:58:16,301 [INFO]  Epoch[0] Validation-cross-entropy=0.267188
+2023-11-08 16:58:16,301 [INFO]  Epoch[0] Validation-LBXGLU-accuracy=0.000000
+2023-11-08 16:58:33,102 [INFO]  Epoch[1] Batch [0-52]	Speed: 51.49 samples/sec	cross-entropy=0.423041	LBXGLU-accuracy=0.000000
+2023-11-08 16:58:59,145 [INFO]  Epoch[1] Train-cross-entropy=0.270881
+2023-11-08 16:58:59,145 [INFO]  Epoch[1] Train-LBXGLU-accuracy=0.000000
+2023-11-08 16:58:59,145 [INFO]  Epoch[1] Time cost=42.844
+2023-11-08 16:58:59,168 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_LBXGLU/model-0001.params"
+2023-11-08 16:59:00,986 [INFO]  Epoch[1] Validation-cross-entropy=0.101726
+2023-11-08 16:59:00,987 [INFO]  Epoch[1] Validation-LBXGLU-accuracy=0.000000
+2023-11-08 16:59:16,870 [INFO]  Epoch[2] Batch [0-52]	Speed: 54.82 samples/sec	cross-entropy=0.121327	LBXGLU-accuracy=0.000000
+2023-11-08 16:59:31,896 [INFO]  Epoch[2] Train-cross-entropy=0.092714
+2023-11-08 16:59:31,896 [INFO]  Epoch[2] Train-LBXGLU-accuracy=0.000000
+2023-11-08 16:59:31,896 [INFO]  Epoch[2] Time cost=30.910
+2023-11-08 16:59:31,920 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_LBXGLU/model-0002.params"
+2023-11-08 16:59:33,729 [INFO]  Epoch[2] Validation-cross-entropy=0.074882
+2023-11-08 16:59:33,729 [INFO]  Epoch[2] Validation-LBXGLU-accuracy=0.000000
+2023-11-08 17:00:00,669 [INFO]  Epoch[3] Batch [0-52]	Speed: 31.66 samples/sec	cross-entropy=0.058520	LBXGLU-accuracy=0.000000
+2023-11-08 17:00:12,860 [INFO]  Epoch[3] Train-cross-entropy=0.054740
+2023-11-08 17:00:12,860 [INFO]  Epoch[3] Train-LBXGLU-accuracy=0.000000
+2023-11-08 17:00:12,860 [INFO]  Epoch[3] Time cost=39.132
+2023-11-08 17:00:12,862 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_LBXGLU/model-0003.params"
+2023-11-08 17:00:14,552 [INFO]  Epoch[3] Validation-cross-entropy=0.060506
+2023-11-08 17:00:14,553 [INFO]  Epoch[3] Validation-LBXGLU-accuracy=0.000000
+2023-11-08 17:00:44,785 [INFO]  Epoch[4] Batch [0-52]	Speed: 28.22 samples/sec	cross-entropy=0.047000	LBXGLU-accuracy=0.000000
+2023-11-08 17:00:54,411 [INFO]  Epoch[4] Train-cross-entropy=0.048166
+2023-11-08 17:00:54,411 [INFO]  Epoch[4] Train-LBXGLU-accuracy=0.000000
+2023-11-08 17:00:54,411 [INFO]  Epoch[4] Time cost=39.858
+2023-11-08 17:00:54,413 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_LBXGLU/model-0004.params"
+2023-11-08 17:00:56,189 [INFO]  Epoch[4] Validation-cross-entropy=0.065923
+2023-11-08 17:00:56,189 [INFO]  Epoch[4] Validation-LBXGLU-accuracy=0.000000
+2023-11-08 17:00:56,189 [INFO]  
+========== done (200.78041648864746 s) fit model

@@ -1,0 +1,400 @@
+2023-11-08 12:42:49,693 [INFO]  
+========== start: fit model
+2023-11-08 12:42:49,694 [WARNING]  Already bound, ignoring bind()
+2023-11-08 12:42:49,778 [INFO]  Epoch[0] Batch [0-4]	Speed: 844.80 samples/sec	cross-entropy=23.237409	pressure_mean14-accuracy=2.400000
+2023-11-08 12:42:49,786 [INFO]  Epoch[0] Train-cross-entropy=23.937799
+2023-11-08 12:42:49,786 [INFO]  Epoch[0] Train-pressure_mean14-accuracy=2.750000
+2023-11-08 12:42:49,787 [INFO]  Epoch[0] Time cost=0.089
+2023-11-08 12:42:49,790 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0000.params"
+2023-11-08 12:42:49,791 [INFO]  Epoch[0] Validation-cross-entropy=21.449062
+2023-11-08 12:42:49,791 [INFO]  Epoch[0] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 12:42:50,338 [INFO]  Epoch[1] Batch [0-4]	Speed: 118.57 samples/sec	cross-entropy=40.103770	pressure_mean14-accuracy=2.400000
+2023-11-08 12:42:50,342 [INFO]  Epoch[1] Train-cross-entropy=32.071705
+2023-11-08 12:42:50,342 [INFO]  Epoch[1] Train-pressure_mean14-accuracy=2.750000
+2023-11-08 12:42:50,342 [INFO]  Epoch[1] Time cost=0.551
+2023-11-08 12:42:50,344 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0001.params"
+2023-11-08 12:42:50,346 [INFO]  Epoch[1] Validation-cross-entropy=10.856221
+2023-11-08 12:42:50,346 [INFO]  Epoch[1] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 12:42:50,351 [INFO]  Epoch[2] Batch [0-4]	Speed: 17617.34 samples/sec	cross-entropy=5.649850	pressure_mean14-accuracy=2.400000
+2023-11-08 12:42:50,354 [INFO]  Epoch[2] Train-cross-entropy=5.113563
+2023-11-08 12:42:50,354 [INFO]  Epoch[2] Train-pressure_mean14-accuracy=2.750000
+2023-11-08 12:42:50,354 [INFO]  Epoch[2] Time cost=0.008
+2023-11-08 12:42:50,355 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0002.params"
+2023-11-08 12:42:50,356 [INFO]  Epoch[2] Validation-cross-entropy=7.781855
+2023-11-08 12:42:50,356 [INFO]  Epoch[2] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 12:42:50,439 [INFO]  Epoch[3] Batch [0-4]	Speed: 784.55 samples/sec	cross-entropy=3.605665	pressure_mean14-accuracy=2.400000
+2023-11-08 12:42:50,446 [INFO]  Epoch[3] Train-cross-entropy=2.862308
+2023-11-08 12:42:50,447 [INFO]  Epoch[3] Train-pressure_mean14-accuracy=2.750000
+2023-11-08 12:42:50,447 [INFO]  Epoch[3] Time cost=0.091
+2023-11-08 12:42:50,450 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0003.params"
+2023-11-08 12:42:50,451 [INFO]  Epoch[3] Validation-cross-entropy=9.280474
+2023-11-08 12:42:50,451 [INFO]  Epoch[3] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 12:42:50,487 [INFO]  Epoch[4] Batch [0-4]	Speed: 2302.47 samples/sec	cross-entropy=1.608484	pressure_mean14-accuracy=2.400000
+2023-11-08 12:42:50,525 [INFO]  Epoch[4] Train-cross-entropy=1.226180
+2023-11-08 12:42:50,525 [INFO]  Epoch[4] Train-pressure_mean14-accuracy=2.750000
+2023-11-08 12:42:50,525 [INFO]  Epoch[4] Time cost=0.074
+2023-11-08 12:42:50,528 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0004.params"
+2023-11-08 12:42:50,546 [INFO]  Epoch[4] Validation-cross-entropy=9.507482
+2023-11-08 12:42:50,547 [INFO]  Epoch[4] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 12:42:50,547 [INFO]  
+========== done (0.8533222675323486 s) fit model
+2023-11-08 13:07:14,054 [INFO]  
+========== start: fit model
+2023-11-08 13:07:14,055 [WARNING]  Already bound, ignoring bind()
+2023-11-08 13:07:14,062 [INFO]  Epoch[0] Batch [0-4]	Speed: 13882.68 samples/sec	cross-entropy=22.206033	pressure_mean14-accuracy=0.000000
+2023-11-08 13:07:14,065 [INFO]  Epoch[0] Train-cross-entropy=22.314036
+2023-11-08 13:07:14,065 [INFO]  Epoch[0] Train-pressure_mean14-accuracy=0.000000
+2023-11-08 13:07:14,065 [INFO]  Epoch[0] Time cost=0.010
+2023-11-08 13:07:14,066 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0000.params"
+2023-11-08 13:07:14,067 [INFO]  Epoch[0] Validation-cross-entropy=8.968938
+2023-11-08 13:07:14,067 [INFO]  Epoch[0] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 13:07:14,072 [INFO]  Epoch[1] Batch [0-4]	Speed: 14946.29 samples/sec	cross-entropy=29.958602	pressure_mean14-accuracy=0.000000
+2023-11-08 13:07:14,076 [INFO]  Epoch[1] Train-cross-entropy=28.608756
+2023-11-08 13:07:14,076 [INFO]  Epoch[1] Train-pressure_mean14-accuracy=0.000000
+2023-11-08 13:07:14,076 [INFO]  Epoch[1] Time cost=0.009
+2023-11-08 13:07:14,077 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0001.params"
+2023-11-08 13:07:14,078 [INFO]  Epoch[1] Validation-cross-entropy=5.571596
+2023-11-08 13:07:14,078 [INFO]  Epoch[1] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 13:07:14,083 [INFO]  Epoch[2] Batch [0-4]	Speed: 15855.61 samples/sec	cross-entropy=5.040574	pressure_mean14-accuracy=0.000000
+2023-11-08 13:07:14,086 [INFO]  Epoch[2] Train-cross-entropy=5.576183
+2023-11-08 13:07:14,086 [INFO]  Epoch[2] Train-pressure_mean14-accuracy=0.000000
+2023-11-08 13:07:14,086 [INFO]  Epoch[2] Time cost=0.008
+2023-11-08 13:07:14,087 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0002.params"
+2023-11-08 13:07:14,088 [INFO]  Epoch[2] Validation-cross-entropy=4.008726
+2023-11-08 13:07:14,088 [INFO]  Epoch[2] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 13:07:14,093 [INFO]  Epoch[3] Batch [0-4]	Speed: 14795.54 samples/sec	cross-entropy=2.683744	pressure_mean14-accuracy=0.000000
+2023-11-08 13:07:14,096 [INFO]  Epoch[3] Train-cross-entropy=2.837085
+2023-11-08 13:07:14,096 [INFO]  Epoch[3] Train-pressure_mean14-accuracy=0.000000
+2023-11-08 13:07:14,096 [INFO]  Epoch[3] Time cost=0.009
+2023-11-08 13:07:14,098 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0003.params"
+2023-11-08 13:07:14,098 [INFO]  Epoch[3] Validation-cross-entropy=2.049077
+2023-11-08 13:07:14,098 [INFO]  Epoch[3] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 13:07:14,103 [INFO]  Epoch[4] Batch [0-4]	Speed: 15750.48 samples/sec	cross-entropy=1.320739	pressure_mean14-accuracy=0.000000
+2023-11-08 13:07:14,107 [INFO]  Epoch[4] Train-cross-entropy=1.040500
+2023-11-08 13:07:14,107 [INFO]  Epoch[4] Train-pressure_mean14-accuracy=0.000000
+2023-11-08 13:07:14,107 [INFO]  Epoch[4] Time cost=0.008
+2023-11-08 13:07:14,108 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0004.params"
+2023-11-08 13:07:14,108 [INFO]  Epoch[4] Validation-cross-entropy=3.017555
+2023-11-08 13:07:14,108 [INFO]  Epoch[4] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 13:07:14,108 [INFO]  
+========== done (0.05419492721557617 s) fit model
+2023-11-08 13:20:38,778 [INFO]  
+========== start: fit model
+2023-11-08 13:20:38,778 [WARNING]  Already bound, ignoring bind()
+2023-11-08 13:20:38,786 [INFO]  Epoch[0] Batch [0-4]	Speed: 11635.69 samples/sec	cross-entropy=20.481248	pressure_mean14-accuracy=0.000000
+2023-11-08 13:20:38,791 [INFO]  Epoch[0] Train-cross-entropy=19.835568
+2023-11-08 13:20:38,791 [INFO]  Epoch[0] Train-pressure_mean14-accuracy=0.000000
+2023-11-08 13:20:38,791 [INFO]  Epoch[0] Time cost=0.012
+2023-11-08 13:20:38,794 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0000.params"
+2023-11-08 13:20:38,795 [INFO]  Epoch[0] Validation-cross-entropy=51.741539
+2023-11-08 13:20:38,795 [INFO]  Epoch[0] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 13:20:38,802 [INFO]  Epoch[1] Batch [0-4]	Speed: 11911.94 samples/sec	cross-entropy=36.584004	pressure_mean14-accuracy=0.000000
+2023-11-08 13:20:38,806 [INFO]  Epoch[1] Train-cross-entropy=26.935406
+2023-11-08 13:20:38,806 [INFO]  Epoch[1] Train-pressure_mean14-accuracy=0.000000
+2023-11-08 13:20:38,806 [INFO]  Epoch[1] Time cost=0.011
+2023-11-08 13:20:38,808 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0001.params"
+2023-11-08 13:20:38,809 [INFO]  Epoch[1] Validation-cross-entropy=43.328564
+2023-11-08 13:20:38,809 [INFO]  Epoch[1] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 13:20:38,814 [INFO]  Epoch[2] Batch [0-4]	Speed: 16637.87 samples/sec	cross-entropy=4.062588	pressure_mean14-accuracy=0.000000
+2023-11-08 13:20:38,817 [INFO]  Epoch[2] Train-cross-entropy=3.355078
+2023-11-08 13:20:38,817 [INFO]  Epoch[2] Train-pressure_mean14-accuracy=0.000000
+2023-11-08 13:20:38,817 [INFO]  Epoch[2] Time cost=0.008
+2023-11-08 13:20:38,823 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0002.params"
+2023-11-08 13:20:38,824 [INFO]  Epoch[2] Validation-cross-entropy=42.478970
+2023-11-08 13:20:38,824 [INFO]  Epoch[2] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 13:20:38,830 [INFO]  Epoch[3] Batch [0-4]	Speed: 13523.20 samples/sec	cross-entropy=2.862376	pressure_mean14-accuracy=0.000000
+2023-11-08 13:20:38,833 [INFO]  Epoch[3] Train-cross-entropy=2.290604
+2023-11-08 13:20:38,834 [INFO]  Epoch[3] Train-pressure_mean14-accuracy=0.000000
+2023-11-08 13:20:38,834 [INFO]  Epoch[3] Time cost=0.010
+2023-11-08 13:20:38,835 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0003.params"
+2023-11-08 13:20:38,836 [INFO]  Epoch[3] Validation-cross-entropy=42.187222
+2023-11-08 13:20:38,836 [INFO]  Epoch[3] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 13:20:38,844 [INFO]  Epoch[4] Batch [0-4]	Speed: 9728.39 samples/sec	cross-entropy=1.109812	pressure_mean14-accuracy=0.000000
+2023-11-08 13:20:38,849 [INFO]  Epoch[4] Train-cross-entropy=0.833852
+2023-11-08 13:20:38,849 [INFO]  Epoch[4] Train-pressure_mean14-accuracy=0.000000
+2023-11-08 13:20:38,849 [INFO]  Epoch[4] Time cost=0.013
+2023-11-08 13:20:38,852 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0004.params"
+2023-11-08 13:20:38,853 [INFO]  Epoch[4] Validation-cross-entropy=44.905174
+2023-11-08 13:20:38,853 [INFO]  Epoch[4] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 13:20:38,853 [INFO]  
+========== done (0.07538771629333496 s) fit model
+2023-11-08 13:33:59,501 [INFO]  
+========== start: fit model
+2023-11-08 13:33:59,501 [WARNING]  Already bound, ignoring bind()
+2023-11-08 13:33:59,508 [INFO]  Epoch[0] Batch [0-4]	Speed: 14521.01 samples/sec	cross-entropy=23.382054	pressure_mean14-accuracy=0.000000
+2023-11-08 13:33:59,511 [INFO]  Epoch[0] Train-cross-entropy=21.785081
+2023-11-08 13:33:59,511 [INFO]  Epoch[0] Train-pressure_mean14-accuracy=0.000000
+2023-11-08 13:33:59,512 [INFO]  Epoch[0] Time cost=0.010
+2023-11-08 13:33:59,513 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0000.params"
+2023-11-08 13:33:59,513 [INFO]  Epoch[0] Validation-cross-entropy=16.497414
+2023-11-08 13:33:59,513 [INFO]  Epoch[0] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 13:33:59,519 [INFO]  Epoch[1] Batch [0-4]	Speed: 14477.16 samples/sec	cross-entropy=44.690700	pressure_mean14-accuracy=0.000000
+2023-11-08 13:33:59,524 [INFO]  Epoch[1] Train-cross-entropy=36.764627
+2023-11-08 13:33:59,524 [INFO]  Epoch[1] Train-pressure_mean14-accuracy=0.000000
+2023-11-08 13:33:59,524 [INFO]  Epoch[1] Time cost=0.011
+2023-11-08 13:33:59,528 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0001.params"
+2023-11-08 13:33:59,529 [INFO]  Epoch[1] Validation-cross-entropy=17.563154
+2023-11-08 13:33:59,529 [INFO]  Epoch[1] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 13:33:59,537 [INFO]  Epoch[2] Batch [0-4]	Speed: 11784.34 samples/sec	cross-entropy=8.798548	pressure_mean14-accuracy=0.000000
+2023-11-08 13:33:59,541 [INFO]  Epoch[2] Train-cross-entropy=8.101498
+2023-11-08 13:33:59,541 [INFO]  Epoch[2] Train-pressure_mean14-accuracy=0.000000
+2023-11-08 13:33:59,541 [INFO]  Epoch[2] Time cost=0.011
+2023-11-08 13:33:59,551 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0002.params"
+2023-11-08 13:33:59,552 [INFO]  Epoch[2] Validation-cross-entropy=13.230211
+2023-11-08 13:33:59,552 [INFO]  Epoch[2] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 13:33:59,559 [INFO]  Epoch[3] Batch [0-4]	Speed: 12310.16 samples/sec	cross-entropy=3.024992	pressure_mean14-accuracy=0.000000
+2023-11-08 13:33:59,563 [INFO]  Epoch[3] Train-cross-entropy=2.788918
+2023-11-08 13:33:59,564 [INFO]  Epoch[3] Train-pressure_mean14-accuracy=0.000000
+2023-11-08 13:33:59,564 [INFO]  Epoch[3] Time cost=0.011
+2023-11-08 13:33:59,566 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0003.params"
+2023-11-08 13:33:59,567 [INFO]  Epoch[3] Validation-cross-entropy=13.590699
+2023-11-08 13:33:59,567 [INFO]  Epoch[3] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 13:33:59,573 [INFO]  Epoch[4] Batch [0-4]	Speed: 13271.15 samples/sec	cross-entropy=1.678896	pressure_mean14-accuracy=0.000000
+2023-11-08 13:33:59,577 [INFO]  Epoch[4] Train-cross-entropy=1.353489
+2023-11-08 13:33:59,577 [INFO]  Epoch[4] Train-pressure_mean14-accuracy=0.000000
+2023-11-08 13:33:59,577 [INFO]  Epoch[4] Time cost=0.010
+2023-11-08 13:33:59,579 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0004.params"
+2023-11-08 13:33:59,580 [INFO]  Epoch[4] Validation-cross-entropy=11.950638
+2023-11-08 13:33:59,580 [INFO]  Epoch[4] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 13:33:59,580 [INFO]  
+========== done (0.07926273345947266 s) fit model
+2023-11-08 13:47:19,276 [INFO]  
+========== start: fit model
+2023-11-08 13:47:19,276 [WARNING]  Already bound, ignoring bind()
+2023-11-08 13:47:19,283 [INFO]  Epoch[0] Batch [0-4]	Speed: 14008.74 samples/sec	cross-entropy=25.019250	pressure_mean14-accuracy=2.200000
+2023-11-08 13:47:19,286 [INFO]  Epoch[0] Train-cross-entropy=21.013199
+2023-11-08 13:47:19,286 [INFO]  Epoch[0] Train-pressure_mean14-accuracy=3.375000
+2023-11-08 13:47:19,286 [INFO]  Epoch[0] Time cost=0.010
+2023-11-08 13:47:19,288 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0000.params"
+2023-11-08 13:47:19,288 [INFO]  Epoch[0] Validation-cross-entropy=28.642376
+2023-11-08 13:47:19,288 [INFO]  Epoch[0] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 13:47:19,294 [INFO]  Epoch[1] Batch [0-4]	Speed: 14469.35 samples/sec	cross-entropy=31.710071	pressure_mean14-accuracy=2.200000
+2023-11-08 13:47:19,297 [INFO]  Epoch[1] Train-cross-entropy=24.411930
+2023-11-08 13:47:19,297 [INFO]  Epoch[1] Train-pressure_mean14-accuracy=3.375000
+2023-11-08 13:47:19,297 [INFO]  Epoch[1] Time cost=0.009
+2023-11-08 13:47:19,299 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0001.params"
+2023-11-08 13:47:19,299 [INFO]  Epoch[1] Validation-cross-entropy=29.094448
+2023-11-08 13:47:19,299 [INFO]  Epoch[1] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 13:47:19,305 [INFO]  Epoch[2] Batch [0-4]	Speed: 15498.58 samples/sec	cross-entropy=6.087118	pressure_mean14-accuracy=2.200000
+2023-11-08 13:47:19,308 [INFO]  Epoch[2] Train-cross-entropy=5.821773
+2023-11-08 13:47:19,308 [INFO]  Epoch[2] Train-pressure_mean14-accuracy=3.375000
+2023-11-08 13:47:19,308 [INFO]  Epoch[2] Time cost=0.009
+2023-11-08 13:47:19,309 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0002.params"
+2023-11-08 13:47:19,310 [INFO]  Epoch[2] Validation-cross-entropy=33.594067
+2023-11-08 13:47:19,310 [INFO]  Epoch[2] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 13:47:19,315 [INFO]  Epoch[3] Batch [0-4]	Speed: 14650.19 samples/sec	cross-entropy=3.552812	pressure_mean14-accuracy=2.200000
+2023-11-08 13:47:19,318 [INFO]  Epoch[3] Train-cross-entropy=4.100014
+2023-11-08 13:47:19,318 [INFO]  Epoch[3] Train-pressure_mean14-accuracy=3.375000
+2023-11-08 13:47:19,318 [INFO]  Epoch[3] Time cost=0.009
+2023-11-08 13:47:19,320 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0003.params"
+2023-11-08 13:47:19,320 [INFO]  Epoch[3] Validation-cross-entropy=28.557499
+2023-11-08 13:47:19,320 [INFO]  Epoch[3] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 13:47:19,326 [INFO]  Epoch[4] Batch [0-4]	Speed: 14112.58 samples/sec	cross-entropy=0.846390	pressure_mean14-accuracy=2.200000
+2023-11-08 13:47:19,329 [INFO]  Epoch[4] Train-cross-entropy=1.343395
+2023-11-08 13:47:19,329 [INFO]  Epoch[4] Train-pressure_mean14-accuracy=3.375000
+2023-11-08 13:47:19,329 [INFO]  Epoch[4] Time cost=0.009
+2023-11-08 13:47:19,331 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0004.params"
+2023-11-08 13:47:19,331 [INFO]  Epoch[4] Validation-cross-entropy=27.692554
+2023-11-08 13:47:19,331 [INFO]  Epoch[4] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 13:47:19,331 [INFO]  
+========== done (0.05557966232299805 s) fit model
+2023-11-08 14:00:42,015 [INFO]  
+========== start: fit model
+2023-11-08 14:00:42,016 [WARNING]  Already bound, ignoring bind()
+2023-11-08 14:00:42,022 [INFO]  Epoch[0] Batch [0-4]	Speed: 14108.88 samples/sec	cross-entropy=9.317112	pressure_mean14-accuracy=3.400000
+2023-11-08 14:00:42,026 [INFO]  Epoch[0] Train-cross-entropy=18.086871
+2023-11-08 14:00:42,026 [INFO]  Epoch[0] Train-pressure_mean14-accuracy=3.125000
+2023-11-08 14:00:42,026 [INFO]  Epoch[0] Time cost=0.010
+2023-11-08 14:00:42,027 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0000.params"
+2023-11-08 14:00:42,028 [INFO]  Epoch[0] Validation-cross-entropy=28.238119
+2023-11-08 14:00:42,028 [INFO]  Epoch[0] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 14:00:42,033 [INFO]  Epoch[1] Batch [0-4]	Speed: 15078.10 samples/sec	cross-entropy=47.537436	pressure_mean14-accuracy=3.400000
+2023-11-08 14:00:42,037 [INFO]  Epoch[1] Train-cross-entropy=48.332132
+2023-11-08 14:00:42,037 [INFO]  Epoch[1] Train-pressure_mean14-accuracy=3.125000
+2023-11-08 14:00:42,037 [INFO]  Epoch[1] Time cost=0.009
+2023-11-08 14:00:42,038 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0001.params"
+2023-11-08 14:00:42,038 [INFO]  Epoch[1] Validation-cross-entropy=12.352068
+2023-11-08 14:00:42,039 [INFO]  Epoch[1] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 14:00:42,043 [INFO]  Epoch[2] Batch [0-4]	Speed: 17278.29 samples/sec	cross-entropy=6.333473	pressure_mean14-accuracy=3.400000
+2023-11-08 14:00:42,046 [INFO]  Epoch[2] Train-cross-entropy=8.839992
+2023-11-08 14:00:42,046 [INFO]  Epoch[2] Train-pressure_mean14-accuracy=3.125000
+2023-11-08 14:00:42,046 [INFO]  Epoch[2] Time cost=0.008
+2023-11-08 14:00:42,047 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0002.params"
+2023-11-08 14:00:42,048 [INFO]  Epoch[2] Validation-cross-entropy=16.801603
+2023-11-08 14:00:42,048 [INFO]  Epoch[2] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 14:00:42,053 [INFO]  Epoch[3] Batch [0-4]	Speed: 17591.94 samples/sec	cross-entropy=3.136315	pressure_mean14-accuracy=3.400000
+2023-11-08 14:00:42,055 [INFO]  Epoch[3] Train-cross-entropy=4.089696
+2023-11-08 14:00:42,056 [INFO]  Epoch[3] Train-pressure_mean14-accuracy=3.125000
+2023-11-08 14:00:42,056 [INFO]  Epoch[3] Time cost=0.008
+2023-11-08 14:00:42,057 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0003.params"
+2023-11-08 14:00:42,057 [INFO]  Epoch[3] Validation-cross-entropy=11.565991
+2023-11-08 14:00:42,057 [INFO]  Epoch[3] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 14:00:42,062 [INFO]  Epoch[4] Batch [0-4]	Speed: 17581.57 samples/sec	cross-entropy=1.933609	pressure_mean14-accuracy=3.400000
+2023-11-08 14:00:42,065 [INFO]  Epoch[4] Train-cross-entropy=1.698260
+2023-11-08 14:00:42,065 [INFO]  Epoch[4] Train-pressure_mean14-accuracy=3.125000
+2023-11-08 14:00:42,065 [INFO]  Epoch[4] Time cost=0.008
+2023-11-08 14:00:42,066 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0004.params"
+2023-11-08 14:00:42,066 [INFO]  Epoch[4] Validation-cross-entropy=11.633542
+2023-11-08 14:00:42,066 [INFO]  Epoch[4] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 14:00:42,067 [INFO]  
+========== done (0.05105471611022949 s) fit model
+2023-11-08 14:14:07,311 [INFO]  
+========== start: fit model
+2023-11-08 14:14:07,311 [WARNING]  Already bound, ignoring bind()
+2023-11-08 14:14:07,318 [INFO]  Epoch[0] Batch [0-4]	Speed: 14360.21 samples/sec	cross-entropy=25.250425	pressure_mean14-accuracy=3.200000
+2023-11-08 14:14:07,322 [INFO]  Epoch[0] Train-cross-entropy=22.004474
+2023-11-08 14:14:07,322 [INFO]  Epoch[0] Train-pressure_mean14-accuracy=3.375000
+2023-11-08 14:14:07,322 [INFO]  Epoch[0] Time cost=0.010
+2023-11-08 14:14:07,323 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0000.params"
+2023-11-08 14:14:07,323 [INFO]  Epoch[0] Validation-cross-entropy=16.370443
+2023-11-08 14:14:07,323 [INFO]  Epoch[0] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 14:14:07,330 [INFO]  Epoch[1] Batch [0-4]	Speed: 11860.36 samples/sec	cross-entropy=34.266706	pressure_mean14-accuracy=3.200000
+2023-11-08 14:14:07,335 [INFO]  Epoch[1] Train-cross-entropy=24.809251
+2023-11-08 14:14:07,336 [INFO]  Epoch[1] Train-pressure_mean14-accuracy=3.375000
+2023-11-08 14:14:07,336 [INFO]  Epoch[1] Time cost=0.012
+2023-11-08 14:14:07,339 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0001.params"
+2023-11-08 14:14:07,340 [INFO]  Epoch[1] Validation-cross-entropy=10.289831
+2023-11-08 14:14:07,340 [INFO]  Epoch[1] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 14:14:07,346 [INFO]  Epoch[2] Batch [0-4]	Speed: 13443.96 samples/sec	cross-entropy=3.267887	pressure_mean14-accuracy=3.200000
+2023-11-08 14:14:07,349 [INFO]  Epoch[2] Train-cross-entropy=4.019812
+2023-11-08 14:14:07,349 [INFO]  Epoch[2] Train-pressure_mean14-accuracy=3.375000
+2023-11-08 14:14:07,349 [INFO]  Epoch[2] Time cost=0.010
+2023-11-08 14:14:07,351 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0002.params"
+2023-11-08 14:14:07,352 [INFO]  Epoch[2] Validation-cross-entropy=9.393252
+2023-11-08 14:14:07,352 [INFO]  Epoch[2] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 14:14:07,356 [INFO]  Epoch[3] Batch [0-4]	Speed: 17130.53 samples/sec	cross-entropy=1.682358	pressure_mean14-accuracy=3.200000
+2023-11-08 14:14:07,359 [INFO]  Epoch[3] Train-cross-entropy=2.189990
+2023-11-08 14:14:07,360 [INFO]  Epoch[3] Train-pressure_mean14-accuracy=3.375000
+2023-11-08 14:14:07,360 [INFO]  Epoch[3] Time cost=0.008
+2023-11-08 14:14:07,361 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0003.params"
+2023-11-08 14:14:07,361 [INFO]  Epoch[3] Validation-cross-entropy=7.575356
+2023-11-08 14:14:07,361 [INFO]  Epoch[3] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 14:14:07,366 [INFO]  Epoch[4] Batch [0-4]	Speed: 16389.00 samples/sec	cross-entropy=0.820362	pressure_mean14-accuracy=3.200000
+2023-11-08 14:14:07,371 [INFO]  Epoch[4] Train-cross-entropy=0.726587
+2023-11-08 14:14:07,371 [INFO]  Epoch[4] Train-pressure_mean14-accuracy=3.375000
+2023-11-08 14:14:07,371 [INFO]  Epoch[4] Time cost=0.009
+2023-11-08 14:14:07,374 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0004.params"
+2023-11-08 14:14:07,375 [INFO]  Epoch[4] Validation-cross-entropy=8.012072
+2023-11-08 14:14:07,375 [INFO]  Epoch[4] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 14:14:07,375 [INFO]  
+========== done (0.06367945671081543 s) fit model
+2023-11-08 14:27:43,533 [INFO]  
+========== start: fit model
+2023-11-08 14:27:43,533 [WARNING]  Already bound, ignoring bind()
+2023-11-08 14:27:43,541 [INFO]  Epoch[0] Batch [0-4]	Speed: 12242.23 samples/sec	cross-entropy=16.338328	pressure_mean14-accuracy=0.000000
+2023-11-08 14:27:43,546 [INFO]  Epoch[0] Train-cross-entropy=16.293049
+2023-11-08 14:27:43,546 [INFO]  Epoch[0] Train-pressure_mean14-accuracy=0.000000
+2023-11-08 14:27:43,546 [INFO]  Epoch[0] Time cost=0.012
+2023-11-08 14:27:43,549 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0000.params"
+2023-11-08 14:27:43,550 [INFO]  Epoch[0] Validation-cross-entropy=39.136032
+2023-11-08 14:27:43,550 [INFO]  Epoch[0] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 14:27:43,558 [INFO]  Epoch[1] Batch [0-4]	Speed: 10967.74 samples/sec	cross-entropy=37.129309	pressure_mean14-accuracy=0.000000
+2023-11-08 14:27:43,562 [INFO]  Epoch[1] Train-cross-entropy=25.777333
+2023-11-08 14:27:43,562 [INFO]  Epoch[1] Train-pressure_mean14-accuracy=0.000000
+2023-11-08 14:27:43,562 [INFO]  Epoch[1] Time cost=0.012
+2023-11-08 14:27:43,565 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0001.params"
+2023-11-08 14:27:43,565 [INFO]  Epoch[1] Validation-cross-entropy=42.580597
+2023-11-08 14:27:43,566 [INFO]  Epoch[1] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 14:27:43,573 [INFO]  Epoch[2] Batch [0-4]	Speed: 11678.72 samples/sec	cross-entropy=5.363653	pressure_mean14-accuracy=0.000000
+2023-11-08 14:27:43,577 [INFO]  Epoch[2] Train-cross-entropy=4.132948
+2023-11-08 14:27:43,577 [INFO]  Epoch[2] Train-pressure_mean14-accuracy=0.000000
+2023-11-08 14:27:43,577 [INFO]  Epoch[2] Time cost=0.011
+2023-11-08 14:27:43,579 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0002.params"
+2023-11-08 14:27:43,580 [INFO]  Epoch[2] Validation-cross-entropy=30.779325
+2023-11-08 14:27:43,580 [INFO]  Epoch[2] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 14:27:43,586 [INFO]  Epoch[3] Batch [0-4]	Speed: 13051.76 samples/sec	cross-entropy=2.710328	pressure_mean14-accuracy=0.000000
+2023-11-08 14:27:43,590 [INFO]  Epoch[3] Train-cross-entropy=2.048776
+2023-11-08 14:27:43,590 [INFO]  Epoch[3] Train-pressure_mean14-accuracy=0.000000
+2023-11-08 14:27:43,590 [INFO]  Epoch[3] Time cost=0.010
+2023-11-08 14:27:43,591 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0003.params"
+2023-11-08 14:27:43,592 [INFO]  Epoch[3] Validation-cross-entropy=31.673277
+2023-11-08 14:27:43,592 [INFO]  Epoch[3] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 14:27:43,598 [INFO]  Epoch[4] Batch [0-4]	Speed: 13775.10 samples/sec	cross-entropy=0.852429	pressure_mean14-accuracy=0.000000
+2023-11-08 14:27:43,601 [INFO]  Epoch[4] Train-cross-entropy=0.776781
+2023-11-08 14:27:43,601 [INFO]  Epoch[4] Train-pressure_mean14-accuracy=0.000000
+2023-11-08 14:27:43,601 [INFO]  Epoch[4] Time cost=0.009
+2023-11-08 14:27:43,603 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0004.params"
+2023-11-08 14:27:43,603 [INFO]  Epoch[4] Validation-cross-entropy=30.780293
+2023-11-08 14:27:43,604 [INFO]  Epoch[4] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 14:27:43,604 [INFO]  
+========== done (0.07080721855163574 s) fit model
+2023-11-08 14:41:45,904 [INFO]  
+========== start: fit model
+2023-11-08 14:41:45,904 [WARNING]  Already bound, ignoring bind()
+2023-11-08 14:41:45,911 [INFO]  Epoch[0] Batch [0-4]	Speed: 13557.35 samples/sec	cross-entropy=21.200227	pressure_mean14-accuracy=0.000000
+2023-11-08 14:41:45,915 [INFO]  Epoch[0] Train-cross-entropy=19.136884
+2023-11-08 14:41:45,915 [INFO]  Epoch[0] Train-pressure_mean14-accuracy=0.000000
+2023-11-08 14:41:45,915 [INFO]  Epoch[0] Time cost=0.010
+2023-11-08 14:41:45,916 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0000.params"
+2023-11-08 14:41:45,917 [INFO]  Epoch[0] Validation-cross-entropy=64.674751
+2023-11-08 14:41:45,917 [INFO]  Epoch[0] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 14:41:45,924 [INFO]  Epoch[1] Batch [0-4]	Speed: 10860.80 samples/sec	cross-entropy=38.243847	pressure_mean14-accuracy=0.000000
+2023-11-08 14:41:45,929 [INFO]  Epoch[1] Train-cross-entropy=31.875465
+2023-11-08 14:41:45,929 [INFO]  Epoch[1] Train-pressure_mean14-accuracy=0.000000
+2023-11-08 14:41:45,929 [INFO]  Epoch[1] Time cost=0.013
+2023-11-08 14:41:45,933 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0001.params"
+2023-11-08 14:41:45,933 [INFO]  Epoch[1] Validation-cross-entropy=57.591991
+2023-11-08 14:41:45,933 [INFO]  Epoch[1] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 14:41:45,939 [INFO]  Epoch[2] Batch [0-4]	Speed: 15537.16 samples/sec	cross-entropy=12.888017	pressure_mean14-accuracy=0.000000
+2023-11-08 14:41:45,942 [INFO]  Epoch[2] Train-cross-entropy=9.136901
+2023-11-08 14:41:45,942 [INFO]  Epoch[2] Train-pressure_mean14-accuracy=0.000000
+2023-11-08 14:41:45,942 [INFO]  Epoch[2] Time cost=0.009
+2023-11-08 14:41:45,944 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0002.params"
+2023-11-08 14:41:45,945 [INFO]  Epoch[2] Validation-cross-entropy=53.337425
+2023-11-08 14:41:45,945 [INFO]  Epoch[2] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 14:41:45,949 [INFO]  Epoch[3] Batch [0-4]	Speed: 19204.14 samples/sec	cross-entropy=5.526017	pressure_mean14-accuracy=0.000000
+2023-11-08 14:41:45,952 [INFO]  Epoch[3] Train-cross-entropy=4.408867
+2023-11-08 14:41:45,952 [INFO]  Epoch[3] Train-pressure_mean14-accuracy=0.000000
+2023-11-08 14:41:45,952 [INFO]  Epoch[3] Time cost=0.007
+2023-11-08 14:41:45,953 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0003.params"
+2023-11-08 14:41:45,954 [INFO]  Epoch[3] Validation-cross-entropy=48.002682
+2023-11-08 14:41:45,954 [INFO]  Epoch[3] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 14:41:45,959 [INFO]  Epoch[4] Batch [0-4]	Speed: 17638.18 samples/sec	cross-entropy=1.748574	pressure_mean14-accuracy=0.000000
+2023-11-08 14:41:45,961 [INFO]  Epoch[4] Train-cross-entropy=1.743831
+2023-11-08 14:41:45,961 [INFO]  Epoch[4] Train-pressure_mean14-accuracy=0.000000
+2023-11-08 14:41:45,961 [INFO]  Epoch[4] Time cost=0.007
+2023-11-08 14:41:45,963 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0004.params"
+2023-11-08 14:41:45,963 [INFO]  Epoch[4] Validation-cross-entropy=50.559456
+2023-11-08 14:41:45,963 [INFO]  Epoch[4] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 14:41:45,963 [INFO]  
+========== done (0.05973625183105469 s) fit model
+2023-11-08 14:55:50,675 [INFO]  
+========== start: fit model
+2023-11-08 14:55:50,675 [WARNING]  Already bound, ignoring bind()
+2023-11-08 14:55:50,684 [INFO]  Epoch[0] Batch [0-4]	Speed: 10710.00 samples/sec	cross-entropy=19.970692	pressure_mean14-accuracy=3.000000
+2023-11-08 14:55:50,688 [INFO]  Epoch[0] Train-cross-entropy=18.344730
+2023-11-08 14:55:50,689 [INFO]  Epoch[0] Train-pressure_mean14-accuracy=3.125000
+2023-11-08 14:55:50,689 [INFO]  Epoch[0] Time cost=0.013
+2023-11-08 14:55:50,692 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0000.params"
+2023-11-08 14:55:50,693 [INFO]  Epoch[0] Validation-cross-entropy=13.669343
+2023-11-08 14:55:50,693 [INFO]  Epoch[0] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 14:55:50,699 [INFO]  Epoch[1] Batch [0-4]	Speed: 15526.37 samples/sec	cross-entropy=37.802596	pressure_mean14-accuracy=3.000000
+2023-11-08 14:55:50,703 [INFO]  Epoch[1] Train-cross-entropy=28.181707
+2023-11-08 14:55:50,703 [INFO]  Epoch[1] Train-pressure_mean14-accuracy=3.125000
+2023-11-08 14:55:50,703 [INFO]  Epoch[1] Time cost=0.010
+2023-11-08 14:55:50,705 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0001.params"
+2023-11-08 14:55:50,706 [INFO]  Epoch[1] Validation-cross-entropy=8.214748
+2023-11-08 14:55:50,706 [INFO]  Epoch[1] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 14:55:50,711 [INFO]  Epoch[2] Batch [0-4]	Speed: 17648.62 samples/sec	cross-entropy=5.148765	pressure_mean14-accuracy=3.000000
+2023-11-08 14:55:50,713 [INFO]  Epoch[2] Train-cross-entropy=4.154676
+2023-11-08 14:55:50,714 [INFO]  Epoch[2] Train-pressure_mean14-accuracy=3.125000
+2023-11-08 14:55:50,714 [INFO]  Epoch[2] Time cost=0.008
+2023-11-08 14:55:50,715 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0002.params"
+2023-11-08 14:55:50,716 [INFO]  Epoch[2] Validation-cross-entropy=6.179124
+2023-11-08 14:55:50,716 [INFO]  Epoch[2] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 14:55:50,719 [INFO]  Epoch[3] Batch [0-4]	Speed: 25274.03 samples/sec	cross-entropy=3.765600	pressure_mean14-accuracy=3.000000
+2023-11-08 14:55:50,721 [INFO]  Epoch[3] Train-cross-entropy=2.931179
+2023-11-08 14:55:50,722 [INFO]  Epoch[3] Train-pressure_mean14-accuracy=3.125000
+2023-11-08 14:55:50,722 [INFO]  Epoch[3] Time cost=0.006
+2023-11-08 14:55:50,723 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0003.params"
+2023-11-08 14:55:50,723 [INFO]  Epoch[3] Validation-cross-entropy=5.358826
+2023-11-08 14:55:50,723 [INFO]  Epoch[3] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 14:55:50,727 [INFO]  Epoch[4] Batch [0-4]	Speed: 23205.00 samples/sec	cross-entropy=1.516536	pressure_mean14-accuracy=3.000000
+2023-11-08 14:55:50,729 [INFO]  Epoch[4] Train-cross-entropy=1.156527
+2023-11-08 14:55:50,729 [INFO]  Epoch[4] Train-pressure_mean14-accuracy=3.125000
+2023-11-08 14:55:50,729 [INFO]  Epoch[4] Time cost=0.006
+2023-11-08 14:55:50,731 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_pressure_mean14/model-0004.params"
+2023-11-08 14:55:50,731 [INFO]  Epoch[4] Validation-cross-entropy=4.985600
+2023-11-08 14:55:50,731 [INFO]  Epoch[4] Validation-pressure_mean14-accuracy=0.000000
+2023-11-08 14:55:50,731 [INFO]  
+========== done (0.05644845962524414 s) fit model

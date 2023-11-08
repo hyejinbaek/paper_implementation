@@ -1,0 +1,360 @@
+2023-11-07 20:27:31,719 [INFO]  
+========== start: fit model
+2023-11-07 20:27:31,720 [WARNING]  Already bound, ignoring bind()
+2023-11-07 20:27:32,313 [INFO]  Epoch[0] Batch [0-4]	Speed: 1307.83 samples/sec	cross-entropy=65.247196	SPC-6-accuracy=4.000000
+2023-11-07 20:27:32,447 [INFO]  Epoch[0] Train-cross-entropy=86.991717
+2023-11-07 20:27:32,447 [INFO]  Epoch[0] Train-SPC-6-accuracy=4.625000
+2023-11-07 20:27:32,447 [INFO]  Epoch[0] Time cost=0.726
+2023-11-07 20:27:32,449 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0000.params"
+2023-11-07 20:27:32,454 [INFO]  Epoch[0] Validation-cross-entropy=172.243927
+2023-11-07 20:27:32,454 [INFO]  Epoch[0] Validation-SPC-6-accuracy=0.000000
+2023-11-07 20:27:32,566 [INFO]  Epoch[1] Batch [0-4]	Speed: 2495.03 samples/sec	cross-entropy=182.963980	SPC-6-accuracy=4.000000
+2023-11-07 20:27:32,579 [INFO]  Epoch[1] Train-cross-entropy=348.788603
+2023-11-07 20:27:32,580 [INFO]  Epoch[1] Train-SPC-6-accuracy=4.625000
+2023-11-07 20:27:32,580 [INFO]  Epoch[1] Time cost=0.125
+2023-11-07 20:27:32,582 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0001.params"
+2023-11-07 20:27:32,586 [INFO]  Epoch[1] Validation-cross-entropy=8.609383
+2023-11-07 20:27:32,586 [INFO]  Epoch[1] Validation-SPC-6-accuracy=0.000000
+2023-11-07 20:27:33,149 [INFO]  Epoch[2] Batch [0-4]	Speed: 130.40 samples/sec	cross-entropy=186.915009	SPC-6-accuracy=4.000000
+2023-11-07 20:27:33,815 [INFO]  Epoch[2] Train-cross-entropy=608.883221
+2023-11-07 20:27:33,816 [INFO]  Epoch[2] Train-SPC-6-accuracy=4.625000
+2023-11-07 20:27:33,816 [INFO]  Epoch[2] Time cost=1.229
+2023-11-07 20:27:33,818 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0002.params"
+2023-11-07 20:27:33,819 [INFO]  Epoch[2] Validation-cross-entropy=4822.706543
+2023-11-07 20:27:33,819 [INFO]  Epoch[2] Validation-SPC-6-accuracy=0.000000
+2023-11-07 20:27:34,405 [INFO]  Epoch[3] Batch [0-4]	Speed: 111.32 samples/sec	cross-entropy=321.397689	SPC-6-accuracy=4.000000
+2023-11-07 20:27:34,417 [INFO]  Epoch[3] Train-cross-entropy=228.072204
+2023-11-07 20:27:34,417 [INFO]  Epoch[3] Train-SPC-6-accuracy=4.625000
+2023-11-07 20:27:34,418 [INFO]  Epoch[3] Time cost=0.598
+2023-11-07 20:27:34,420 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0003.params"
+2023-11-07 20:27:34,424 [INFO]  Epoch[3] Validation-cross-entropy=778.888123
+2023-11-07 20:27:34,424 [INFO]  Epoch[3] Validation-SPC-6-accuracy=0.000000
+2023-11-07 20:27:34,437 [INFO]  Epoch[4] Batch [0-4]	Speed: 5825.80 samples/sec	cross-entropy=143.697802	SPC-6-accuracy=4.000000
+2023-11-07 20:27:34,450 [INFO]  Epoch[4] Train-cross-entropy=106.945199
+2023-11-07 20:27:34,450 [INFO]  Epoch[4] Train-SPC-6-accuracy=4.625000
+2023-11-07 20:27:34,450 [INFO]  Epoch[4] Time cost=0.026
+2023-11-07 20:27:34,453 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0004.params"
+2023-11-07 20:27:34,457 [INFO]  Epoch[4] Validation-cross-entropy=137.690079
+2023-11-07 20:27:34,457 [INFO]  Epoch[4] Validation-SPC-6-accuracy=0.000000
+2023-11-07 20:27:34,457 [INFO]  
+========== done (2.738140344619751 s) fit model
+2023-11-07 22:40:55,648 [INFO]  
+========== start: fit model
+2023-11-07 22:40:55,649 [WARNING]  Already bound, ignoring bind()
+2023-11-07 22:40:55,661 [INFO]  Epoch[0] Batch [0-4]	Speed: 7813.35 samples/sec	cross-entropy=86.948972	SPC-6-accuracy=3.200000
+2023-11-07 22:40:55,667 [INFO]  Epoch[0] Train-cross-entropy=79.376885
+2023-11-07 22:40:55,667 [INFO]  Epoch[0] Train-SPC-6-accuracy=3.125000
+2023-11-07 22:40:55,667 [INFO]  Epoch[0] Time cost=0.018
+2023-11-07 22:40:55,669 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0000.params"
+2023-11-07 22:40:55,669 [INFO]  Epoch[0] Validation-cross-entropy=73.620285
+2023-11-07 22:40:55,669 [INFO]  Epoch[0] Validation-SPC-6-accuracy=0.000000
+2023-11-07 22:40:55,678 [INFO]  Epoch[1] Batch [0-4]	Speed: 9265.02 samples/sec	cross-entropy=123.690475	SPC-6-accuracy=3.200000
+2023-11-07 22:40:55,683 [INFO]  Epoch[1] Train-cross-entropy=132.192944
+2023-11-07 22:40:55,683 [INFO]  Epoch[1] Train-SPC-6-accuracy=3.125000
+2023-11-07 22:40:55,683 [INFO]  Epoch[1] Time cost=0.014
+2023-11-07 22:40:55,686 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0001.params"
+2023-11-07 22:40:55,686 [INFO]  Epoch[1] Validation-cross-entropy=131.789932
+2023-11-07 22:40:55,687 [INFO]  Epoch[1] Validation-SPC-6-accuracy=0.000000
+2023-11-07 22:40:55,695 [INFO]  Epoch[2] Batch [0-4]	Speed: 9751.01 samples/sec	cross-entropy=89.314250	SPC-6-accuracy=3.200000
+2023-11-07 22:40:55,700 [INFO]  Epoch[2] Train-cross-entropy=61.615060
+2023-11-07 22:40:55,700 [INFO]  Epoch[2] Train-SPC-6-accuracy=3.125000
+2023-11-07 22:40:55,700 [INFO]  Epoch[2] Time cost=0.014
+2023-11-07 22:40:55,704 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0002.params"
+2023-11-07 22:40:55,705 [INFO]  Epoch[2] Validation-cross-entropy=39.705414
+2023-11-07 22:40:55,705 [INFO]  Epoch[2] Validation-SPC-6-accuracy=0.000000
+2023-11-07 22:40:55,716 [INFO]  Epoch[3] Batch [0-4]	Speed: 7386.78 samples/sec	cross-entropy=44.815522	SPC-6-accuracy=3.200000
+2023-11-07 22:40:55,723 [INFO]  Epoch[3] Train-cross-entropy=37.980345
+2023-11-07 22:40:55,723 [INFO]  Epoch[3] Train-SPC-6-accuracy=3.125000
+2023-11-07 22:40:55,723 [INFO]  Epoch[3] Time cost=0.018
+2023-11-07 22:40:55,725 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0003.params"
+2023-11-07 22:40:55,726 [INFO]  Epoch[3] Validation-cross-entropy=66.743164
+2023-11-07 22:40:55,726 [INFO]  Epoch[3] Validation-SPC-6-accuracy=0.000000
+2023-11-07 22:40:55,737 [INFO]  Epoch[4] Batch [0-4]	Speed: 7807.44 samples/sec	cross-entropy=8.011124	SPC-6-accuracy=3.200000
+2023-11-07 22:40:55,743 [INFO]  Epoch[4] Train-cross-entropy=6.909105
+2023-11-07 22:40:55,743 [INFO]  Epoch[4] Train-SPC-6-accuracy=3.125000
+2023-11-07 22:40:55,743 [INFO]  Epoch[4] Time cost=0.017
+2023-11-07 22:40:55,746 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0004.params"
+2023-11-07 22:40:55,746 [INFO]  Epoch[4] Validation-cross-entropy=5.102313
+2023-11-07 22:40:55,746 [INFO]  Epoch[4] Validation-SPC-6-accuracy=0.000000
+2023-11-07 22:40:55,747 [INFO]  
+========== done (0.09808135032653809 s) fit model
+2023-11-08 00:27:42,988 [INFO]  
+========== start: fit model
+2023-11-08 00:27:42,988 [WARNING]  Already bound, ignoring bind()
+2023-11-08 00:27:43,001 [INFO]  Epoch[0] Batch [0-4]	Speed: 7605.27 samples/sec	cross-entropy=40.811250	SPC-6-accuracy=4.400000
+2023-11-08 00:27:43,007 [INFO]  Epoch[0] Train-cross-entropy=48.079307
+2023-11-08 00:27:43,007 [INFO]  Epoch[0] Train-SPC-6-accuracy=5.000000
+2023-11-08 00:27:43,007 [INFO]  Epoch[0] Time cost=0.018
+2023-11-08 00:27:43,009 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0000.params"
+2023-11-08 00:27:43,009 [INFO]  Epoch[0] Validation-cross-entropy=29.470982
+2023-11-08 00:27:43,009 [INFO]  Epoch[0] Validation-SPC-6-accuracy=0.000000
+2023-11-08 00:27:43,019 [INFO]  Epoch[1] Batch [0-4]	Speed: 8430.23 samples/sec	cross-entropy=112.616508	SPC-6-accuracy=4.400000
+2023-11-08 00:27:43,024 [INFO]  Epoch[1] Train-cross-entropy=108.934550
+2023-11-08 00:27:43,024 [INFO]  Epoch[1] Train-SPC-6-accuracy=5.000000
+2023-11-08 00:27:43,025 [INFO]  Epoch[1] Time cost=0.015
+2023-11-08 00:27:43,028 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0001.params"
+2023-11-08 00:27:43,029 [INFO]  Epoch[1] Validation-cross-entropy=13.680477
+2023-11-08 00:27:43,029 [INFO]  Epoch[1] Validation-SPC-6-accuracy=0.000000
+2023-11-08 00:27:43,039 [INFO]  Epoch[2] Batch [0-4]	Speed: 8319.45 samples/sec	cross-entropy=49.649561	SPC-6-accuracy=4.400000
+2023-11-08 00:27:43,046 [INFO]  Epoch[2] Train-cross-entropy=46.117161
+2023-11-08 00:27:43,046 [INFO]  Epoch[2] Train-SPC-6-accuracy=5.000000
+2023-11-08 00:27:43,046 [INFO]  Epoch[2] Time cost=0.016
+2023-11-08 00:27:43,049 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0002.params"
+2023-11-08 00:27:43,049 [INFO]  Epoch[2] Validation-cross-entropy=7.015324
+2023-11-08 00:27:43,050 [INFO]  Epoch[2] Validation-SPC-6-accuracy=0.000000
+2023-11-08 00:27:43,061 [INFO]  Epoch[3] Batch [0-4]	Speed: 6985.41 samples/sec	cross-entropy=16.163430	SPC-6-accuracy=4.400000
+2023-11-08 00:27:43,069 [INFO]  Epoch[3] Train-cross-entropy=16.275218
+2023-11-08 00:27:43,069 [INFO]  Epoch[3] Train-SPC-6-accuracy=5.000000
+2023-11-08 00:27:43,069 [INFO]  Epoch[3] Time cost=0.019
+2023-11-08 00:27:43,072 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0003.params"
+2023-11-08 00:27:43,073 [INFO]  Epoch[3] Validation-cross-entropy=7.290103
+2023-11-08 00:27:43,073 [INFO]  Epoch[3] Validation-SPC-6-accuracy=0.000000
+2023-11-08 00:27:43,085 [INFO]  Epoch[4] Batch [0-4]	Speed: 6902.96 samples/sec	cross-entropy=5.431382	SPC-6-accuracy=4.400000
+2023-11-08 00:27:43,092 [INFO]  Epoch[4] Train-cross-entropy=5.106941
+2023-11-08 00:27:43,092 [INFO]  Epoch[4] Train-SPC-6-accuracy=5.000000
+2023-11-08 00:27:43,092 [INFO]  Epoch[4] Time cost=0.019
+2023-11-08 00:27:43,095 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0004.params"
+2023-11-08 00:27:43,096 [INFO]  Epoch[4] Validation-cross-entropy=6.316998
+2023-11-08 00:27:43,096 [INFO]  Epoch[4] Validation-SPC-6-accuracy=0.000000
+2023-11-08 00:27:43,096 [INFO]  
+========== done (0.10846400260925293 s) fit model
+2023-11-08 02:14:58,913 [INFO]  
+========== start: fit model
+2023-11-08 02:14:58,914 [WARNING]  Already bound, ignoring bind()
+2023-11-08 02:14:58,926 [INFO]  Epoch[0] Batch [0-4]	Speed: 7545.41 samples/sec	cross-entropy=76.027361	SPC-6-accuracy=0.000000
+2023-11-08 02:14:58,933 [INFO]  Epoch[0] Train-cross-entropy=63.149731
+2023-11-08 02:14:58,933 [INFO]  Epoch[0] Train-SPC-6-accuracy=0.000000
+2023-11-08 02:14:58,933 [INFO]  Epoch[0] Time cost=0.019
+2023-11-08 02:14:58,936 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0000.params"
+2023-11-08 02:14:58,937 [INFO]  Epoch[0] Validation-cross-entropy=164.697403
+2023-11-08 02:14:58,937 [INFO]  Epoch[0] Validation-SPC-6-accuracy=0.000000
+2023-11-08 02:14:58,944 [INFO]  Epoch[1] Batch [0-4]	Speed: 11090.08 samples/sec	cross-entropy=248.626714	SPC-6-accuracy=0.000000
+2023-11-08 02:14:58,948 [INFO]  Epoch[1] Train-cross-entropy=206.970716
+2023-11-08 02:14:58,949 [INFO]  Epoch[1] Train-SPC-6-accuracy=0.000000
+2023-11-08 02:14:58,949 [INFO]  Epoch[1] Time cost=0.012
+2023-11-08 02:14:58,951 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0001.params"
+2023-11-08 02:14:58,952 [INFO]  Epoch[1] Validation-cross-entropy=61.948196
+2023-11-08 02:14:58,952 [INFO]  Epoch[1] Validation-SPC-6-accuracy=0.000000
+2023-11-08 02:14:58,959 [INFO]  Epoch[2] Batch [0-4]	Speed: 11268.86 samples/sec	cross-entropy=332.563681	SPC-6-accuracy=0.000000
+2023-11-08 02:14:58,963 [INFO]  Epoch[2] Train-cross-entropy=218.442945
+2023-11-08 02:14:58,963 [INFO]  Epoch[2] Train-SPC-6-accuracy=0.000000
+2023-11-08 02:14:58,963 [INFO]  Epoch[2] Time cost=0.012
+2023-11-08 02:14:58,966 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0002.params"
+2023-11-08 02:14:58,966 [INFO]  Epoch[2] Validation-cross-entropy=24.930593
+2023-11-08 02:14:58,966 [INFO]  Epoch[2] Validation-SPC-6-accuracy=0.000000
+2023-11-08 02:14:58,974 [INFO]  Epoch[3] Batch [0-4]	Speed: 11266.49 samples/sec	cross-entropy=74.213606	SPC-6-accuracy=0.000000
+2023-11-08 02:14:58,978 [INFO]  Epoch[3] Train-cross-entropy=52.476468
+2023-11-08 02:14:58,978 [INFO]  Epoch[3] Train-SPC-6-accuracy=0.000000
+2023-11-08 02:14:58,978 [INFO]  Epoch[3] Time cost=0.012
+2023-11-08 02:14:58,980 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0003.params"
+2023-11-08 02:14:58,981 [INFO]  Epoch[3] Validation-cross-entropy=25.051676
+2023-11-08 02:14:58,981 [INFO]  Epoch[3] Validation-SPC-6-accuracy=0.000000
+2023-11-08 02:14:58,989 [INFO]  Epoch[4] Batch [0-4]	Speed: 10451.47 samples/sec	cross-entropy=36.294144	SPC-6-accuracy=0.000000
+2023-11-08 02:14:58,993 [INFO]  Epoch[4] Train-cross-entropy=27.620944
+2023-11-08 02:14:58,993 [INFO]  Epoch[4] Train-SPC-6-accuracy=0.000000
+2023-11-08 02:14:58,993 [INFO]  Epoch[4] Time cost=0.012
+2023-11-08 02:14:58,996 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0004.params"
+2023-11-08 02:14:58,997 [INFO]  Epoch[4] Validation-cross-entropy=13.967671
+2023-11-08 02:14:58,997 [INFO]  Epoch[4] Validation-SPC-6-accuracy=0.000000
+2023-11-08 02:14:58,997 [INFO]  
+========== done (0.08330059051513672 s) fit model
+2023-11-08 04:02:52,225 [INFO]  
+========== start: fit model
+2023-11-08 04:02:52,225 [WARNING]  Already bound, ignoring bind()
+2023-11-08 04:02:52,240 [INFO]  Epoch[0] Batch [0-4]	Speed: 6331.62 samples/sec	cross-entropy=38.664830	SPC-6-accuracy=0.000000
+2023-11-08 04:02:52,248 [INFO]  Epoch[0] Train-cross-entropy=35.806861
+2023-11-08 04:02:52,248 [INFO]  Epoch[0] Train-SPC-6-accuracy=0.000000
+2023-11-08 04:02:52,248 [INFO]  Epoch[0] Time cost=0.022
+2023-11-08 04:02:52,252 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0000.params"
+2023-11-08 04:02:52,253 [INFO]  Epoch[0] Validation-cross-entropy=27.369011
+2023-11-08 04:02:52,253 [INFO]  Epoch[0] Validation-SPC-6-accuracy=0.000000
+2023-11-08 04:02:52,265 [INFO]  Epoch[1] Batch [0-4]	Speed: 6721.30 samples/sec	cross-entropy=160.032751	SPC-6-accuracy=0.000000
+2023-11-08 04:02:52,273 [INFO]  Epoch[1] Train-cross-entropy=146.917915
+2023-11-08 04:02:52,273 [INFO]  Epoch[1] Train-SPC-6-accuracy=0.000000
+2023-11-08 04:02:52,273 [INFO]  Epoch[1] Time cost=0.020
+2023-11-08 04:02:52,276 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0001.params"
+2023-11-08 04:02:52,278 [INFO]  Epoch[1] Validation-cross-entropy=29.339737
+2023-11-08 04:02:52,278 [INFO]  Epoch[1] Validation-SPC-6-accuracy=0.000000
+2023-11-08 04:02:52,289 [INFO]  Epoch[2] Batch [0-4]	Speed: 7377.24 samples/sec	cross-entropy=86.783645	SPC-6-accuracy=0.000000
+2023-11-08 04:02:52,296 [INFO]  Epoch[2] Train-cross-entropy=119.734347
+2023-11-08 04:02:52,296 [INFO]  Epoch[2] Train-SPC-6-accuracy=0.000000
+2023-11-08 04:02:52,296 [INFO]  Epoch[2] Time cost=0.018
+2023-11-08 04:02:52,299 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0002.params"
+2023-11-08 04:02:52,300 [INFO]  Epoch[2] Validation-cross-entropy=28.470505
+2023-11-08 04:02:52,300 [INFO]  Epoch[2] Validation-SPC-6-accuracy=0.000000
+2023-11-08 04:02:52,311 [INFO]  Epoch[3] Batch [0-4]	Speed: 7661.05 samples/sec	cross-entropy=20.856741	SPC-6-accuracy=0.000000
+2023-11-08 04:02:52,317 [INFO]  Epoch[3] Train-cross-entropy=36.930615
+2023-11-08 04:02:52,317 [INFO]  Epoch[3] Train-SPC-6-accuracy=0.000000
+2023-11-08 04:02:52,317 [INFO]  Epoch[3] Time cost=0.017
+2023-11-08 04:02:52,320 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0003.params"
+2023-11-08 04:02:52,321 [INFO]  Epoch[3] Validation-cross-entropy=24.581789
+2023-11-08 04:02:52,321 [INFO]  Epoch[3] Validation-SPC-6-accuracy=0.000000
+2023-11-08 04:02:52,332 [INFO]  Epoch[4] Batch [0-4]	Speed: 7525.95 samples/sec	cross-entropy=9.609498	SPC-6-accuracy=0.000000
+2023-11-08 04:02:52,338 [INFO]  Epoch[4] Train-cross-entropy=8.031853
+2023-11-08 04:02:52,338 [INFO]  Epoch[4] Train-SPC-6-accuracy=0.000000
+2023-11-08 04:02:52,338 [INFO]  Epoch[4] Time cost=0.017
+2023-11-08 04:02:52,342 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0004.params"
+2023-11-08 04:02:52,342 [INFO]  Epoch[4] Validation-cross-entropy=6.205318
+2023-11-08 04:02:52,343 [INFO]  Epoch[4] Validation-SPC-6-accuracy=0.000000
+2023-11-08 04:02:52,343 [INFO]  
+========== done (0.11735939979553223 s) fit model
+2023-11-08 05:51:01,380 [INFO]  
+========== start: fit model
+2023-11-08 05:51:01,380 [WARNING]  Already bound, ignoring bind()
+2023-11-08 05:51:01,393 [INFO]  Epoch[0] Batch [0-4]	Speed: 7554.11 samples/sec	cross-entropy=75.542432	SPC-6-accuracy=3.200000
+2023-11-08 05:51:01,398 [INFO]  Epoch[0] Train-cross-entropy=63.989534
+2023-11-08 05:51:01,399 [INFO]  Epoch[0] Train-SPC-6-accuracy=4.250000
+2023-11-08 05:51:01,399 [INFO]  Epoch[0] Time cost=0.018
+2023-11-08 05:51:01,400 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0000.params"
+2023-11-08 05:51:01,401 [INFO]  Epoch[0] Validation-cross-entropy=25.075317
+2023-11-08 05:51:01,401 [INFO]  Epoch[0] Validation-SPC-6-accuracy=0.000000
+2023-11-08 05:51:01,411 [INFO]  Epoch[1] Batch [0-4]	Speed: 7681.66 samples/sec	cross-entropy=162.576579	SPC-6-accuracy=3.200000
+2023-11-08 05:51:01,418 [INFO]  Epoch[1] Train-cross-entropy=136.392292
+2023-11-08 05:51:01,418 [INFO]  Epoch[1] Train-SPC-6-accuracy=4.250000
+2023-11-08 05:51:01,418 [INFO]  Epoch[1] Time cost=0.017
+2023-11-08 05:51:01,422 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0001.params"
+2023-11-08 05:51:01,423 [INFO]  Epoch[1] Validation-cross-entropy=67.005737
+2023-11-08 05:51:01,423 [INFO]  Epoch[1] Validation-SPC-6-accuracy=0.000000
+2023-11-08 05:51:01,434 [INFO]  Epoch[2] Batch [0-4]	Speed: 6881.90 samples/sec	cross-entropy=48.806552	SPC-6-accuracy=3.200000
+2023-11-08 05:51:01,442 [INFO]  Epoch[2] Train-cross-entropy=45.659633
+2023-11-08 05:51:01,442 [INFO]  Epoch[2] Train-SPC-6-accuracy=4.250000
+2023-11-08 05:51:01,442 [INFO]  Epoch[2] Time cost=0.019
+2023-11-08 05:51:01,445 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0002.params"
+2023-11-08 05:51:01,446 [INFO]  Epoch[2] Validation-cross-entropy=23.451668
+2023-11-08 05:51:01,446 [INFO]  Epoch[2] Validation-SPC-6-accuracy=0.000000
+2023-11-08 05:51:01,458 [INFO]  Epoch[3] Batch [0-4]	Speed: 7134.88 samples/sec	cross-entropy=24.452674	SPC-6-accuracy=3.200000
+2023-11-08 05:51:01,464 [INFO]  Epoch[3] Train-cross-entropy=23.356142
+2023-11-08 05:51:01,465 [INFO]  Epoch[3] Train-SPC-6-accuracy=4.250000
+2023-11-08 05:51:01,465 [INFO]  Epoch[3] Time cost=0.018
+2023-11-08 05:51:01,468 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0003.params"
+2023-11-08 05:51:01,469 [INFO]  Epoch[3] Validation-cross-entropy=17.996485
+2023-11-08 05:51:01,469 [INFO]  Epoch[3] Validation-SPC-6-accuracy=0.000000
+2023-11-08 05:51:01,480 [INFO]  Epoch[4] Batch [0-4]	Speed: 7472.52 samples/sec	cross-entropy=10.224575	SPC-6-accuracy=3.200000
+2023-11-08 05:51:01,486 [INFO]  Epoch[4] Train-cross-entropy=10.357984
+2023-11-08 05:51:01,486 [INFO]  Epoch[4] Train-SPC-6-accuracy=4.250000
+2023-11-08 05:51:01,486 [INFO]  Epoch[4] Time cost=0.018
+2023-11-08 05:51:01,489 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0004.params"
+2023-11-08 05:51:01,490 [INFO]  Epoch[4] Validation-cross-entropy=6.396002
+2023-11-08 05:51:01,490 [INFO]  Epoch[4] Validation-SPC-6-accuracy=0.000000
+2023-11-08 05:51:01,491 [INFO]  
+========== done (0.11063170433044434 s) fit model
+2023-11-08 07:39:18,116 [INFO]  
+========== start: fit model
+2023-11-08 07:39:18,116 [WARNING]  Already bound, ignoring bind()
+2023-11-08 07:39:18,129 [INFO]  Epoch[0] Batch [0-4]	Speed: 7671.34 samples/sec	cross-entropy=67.303674	SPC-6-accuracy=0.000000
+2023-11-08 07:39:18,134 [INFO]  Epoch[0] Train-cross-entropy=52.421678
+2023-11-08 07:39:18,134 [INFO]  Epoch[0] Train-SPC-6-accuracy=0.000000
+2023-11-08 07:39:18,134 [INFO]  Epoch[0] Time cost=0.017
+2023-11-08 07:39:18,136 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0000.params"
+2023-11-08 07:39:18,136 [INFO]  Epoch[0] Validation-cross-entropy=98.911407
+2023-11-08 07:39:18,136 [INFO]  Epoch[0] Validation-SPC-6-accuracy=0.000000
+2023-11-08 07:39:18,147 [INFO]  Epoch[1] Batch [0-4]	Speed: 7600.10 samples/sec	cross-entropy=106.303516	SPC-6-accuracy=0.000000
+2023-11-08 07:39:18,153 [INFO]  Epoch[1] Train-cross-entropy=110.555840
+2023-11-08 07:39:18,153 [INFO]  Epoch[1] Train-SPC-6-accuracy=0.000000
+2023-11-08 07:39:18,153 [INFO]  Epoch[1] Time cost=0.017
+2023-11-08 07:39:18,157 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0001.params"
+2023-11-08 07:39:18,158 [INFO]  Epoch[1] Validation-cross-entropy=264.750366
+2023-11-08 07:39:18,158 [INFO]  Epoch[1] Validation-SPC-6-accuracy=0.000000
+2023-11-08 07:39:18,170 [INFO]  Epoch[2] Batch [0-4]	Speed: 7108.99 samples/sec	cross-entropy=69.653598	SPC-6-accuracy=0.000000
+2023-11-08 07:39:18,177 [INFO]  Epoch[2] Train-cross-entropy=65.464087
+2023-11-08 07:39:18,177 [INFO]  Epoch[2] Train-SPC-6-accuracy=0.000000
+2023-11-08 07:39:18,177 [INFO]  Epoch[2] Time cost=0.019
+2023-11-08 07:39:18,180 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0002.params"
+2023-11-08 07:39:18,181 [INFO]  Epoch[2] Validation-cross-entropy=28.471985
+2023-11-08 07:39:18,181 [INFO]  Epoch[2] Validation-SPC-6-accuracy=0.000000
+2023-11-08 07:39:18,193 [INFO]  Epoch[3] Batch [0-4]	Speed: 7045.00 samples/sec	cross-entropy=17.658367	SPC-6-accuracy=0.000000
+2023-11-08 07:39:18,200 [INFO]  Epoch[3] Train-cross-entropy=15.226910
+2023-11-08 07:39:18,200 [INFO]  Epoch[3] Train-SPC-6-accuracy=0.000000
+2023-11-08 07:39:18,200 [INFO]  Epoch[3] Time cost=0.019
+2023-11-08 07:39:18,203 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0003.params"
+2023-11-08 07:39:18,204 [INFO]  Epoch[3] Validation-cross-entropy=38.575600
+2023-11-08 07:39:18,205 [INFO]  Epoch[3] Validation-SPC-6-accuracy=0.000000
+2023-11-08 07:39:18,217 [INFO]  Epoch[4] Batch [0-4]	Speed: 6799.45 samples/sec	cross-entropy=5.547218	SPC-6-accuracy=0.000000
+2023-11-08 07:39:18,223 [INFO]  Epoch[4] Train-cross-entropy=4.724114
+2023-11-08 07:39:18,224 [INFO]  Epoch[4] Train-SPC-6-accuracy=0.000000
+2023-11-08 07:39:18,224 [INFO]  Epoch[4] Time cost=0.019
+2023-11-08 07:39:18,227 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0004.params"
+2023-11-08 07:39:18,228 [INFO]  Epoch[4] Validation-cross-entropy=6.725400
+2023-11-08 07:39:18,228 [INFO]  Epoch[4] Validation-SPC-6-accuracy=0.000000
+2023-11-08 07:39:18,228 [INFO]  
+========== done (0.11217713356018066 s) fit model
+2023-11-08 09:28:04,712 [INFO]  
+========== start: fit model
+2023-11-08 09:28:04,712 [WARNING]  Already bound, ignoring bind()
+2023-11-08 09:28:04,726 [INFO]  Epoch[0] Batch [0-4]	Speed: 6487.24 samples/sec	cross-entropy=55.320830	SPC-6-accuracy=0.000000
+2023-11-08 09:28:04,734 [INFO]  Epoch[0] Train-cross-entropy=68.692549
+2023-11-08 09:28:04,734 [INFO]  Epoch[0] Train-SPC-6-accuracy=0.000000
+2023-11-08 09:28:04,734 [INFO]  Epoch[0] Time cost=0.022
+2023-11-08 09:28:04,738 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0000.params"
+2023-11-08 09:28:04,739 [INFO]  Epoch[0] Validation-cross-entropy=52.098145
+2023-11-08 09:28:04,739 [INFO]  Epoch[0] Validation-SPC-6-accuracy=0.000000
+2023-11-08 09:28:04,751 [INFO]  Epoch[1] Batch [0-4]	Speed: 6912.74 samples/sec	cross-entropy=156.453859	SPC-6-accuracy=0.000000
+2023-11-08 09:28:04,758 [INFO]  Epoch[1] Train-cross-entropy=137.333657
+2023-11-08 09:28:04,758 [INFO]  Epoch[1] Train-SPC-6-accuracy=0.000000
+2023-11-08 09:28:04,758 [INFO]  Epoch[1] Time cost=0.019
+2023-11-08 09:28:04,762 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0001.params"
+2023-11-08 09:28:04,763 [INFO]  Epoch[1] Validation-cross-entropy=20.353649
+2023-11-08 09:28:04,763 [INFO]  Epoch[1] Validation-SPC-6-accuracy=0.000000
+2023-11-08 09:28:04,773 [INFO]  Epoch[2] Batch [0-4]	Speed: 7641.64 samples/sec	cross-entropy=78.993846	SPC-6-accuracy=0.000000
+2023-11-08 09:28:04,780 [INFO]  Epoch[2] Train-cross-entropy=62.890474
+2023-11-08 09:28:04,780 [INFO]  Epoch[2] Train-SPC-6-accuracy=0.000000
+2023-11-08 09:28:04,780 [INFO]  Epoch[2] Time cost=0.017
+2023-11-08 09:28:04,783 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0002.params"
+2023-11-08 09:28:04,784 [INFO]  Epoch[2] Validation-cross-entropy=16.296610
+2023-11-08 09:28:04,784 [INFO]  Epoch[2] Validation-SPC-6-accuracy=0.000000
+2023-11-08 09:28:04,796 [INFO]  Epoch[3] Batch [0-4]	Speed: 7029.68 samples/sec	cross-entropy=31.851625	SPC-6-accuracy=0.000000
+2023-11-08 09:28:04,802 [INFO]  Epoch[3] Train-cross-entropy=27.034610
+2023-11-08 09:28:04,803 [INFO]  Epoch[3] Train-SPC-6-accuracy=0.000000
+2023-11-08 09:28:04,803 [INFO]  Epoch[3] Time cost=0.018
+2023-11-08 09:28:04,805 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0003.params"
+2023-11-08 09:28:04,806 [INFO]  Epoch[3] Validation-cross-entropy=8.869045
+2023-11-08 09:28:04,806 [INFO]  Epoch[3] Validation-SPC-6-accuracy=0.000000
+2023-11-08 09:28:04,817 [INFO]  Epoch[4] Batch [0-4]	Speed: 7426.01 samples/sec	cross-entropy=9.839234	SPC-6-accuracy=0.000000
+2023-11-08 09:28:04,824 [INFO]  Epoch[4] Train-cross-entropy=8.216084
+2023-11-08 09:28:04,824 [INFO]  Epoch[4] Train-SPC-6-accuracy=0.000000
+2023-11-08 09:28:04,824 [INFO]  Epoch[4] Time cost=0.017
+2023-11-08 09:28:04,827 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0004.params"
+2023-11-08 09:28:04,828 [INFO]  Epoch[4] Validation-cross-entropy=4.305844
+2023-11-08 09:28:04,828 [INFO]  Epoch[4] Validation-SPC-6-accuracy=0.000000
+2023-11-08 09:28:04,828 [INFO]  
+========== done (0.11644458770751953 s) fit model
+2023-11-08 11:18:17,234 [INFO]  
+========== start: fit model
+2023-11-08 11:18:17,234 [WARNING]  Already bound, ignoring bind()
+2023-11-08 11:18:17,248 [INFO]  Epoch[0] Batch [0-4]	Speed: 6617.90 samples/sec	cross-entropy=88.518695	SPC-6-accuracy=4.000000
+2023-11-08 11:18:17,255 [INFO]  Epoch[0] Train-cross-entropy=66.417895
+2023-11-08 11:18:17,255 [INFO]  Epoch[0] Train-SPC-6-accuracy=3.875000
+2023-11-08 11:18:17,255 [INFO]  Epoch[0] Time cost=0.020
+2023-11-08 11:18:17,258 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0000.params"
+2023-11-08 11:18:17,259 [INFO]  Epoch[0] Validation-cross-entropy=60.663353
+2023-11-08 11:18:17,260 [INFO]  Epoch[0] Validation-SPC-6-accuracy=0.000000
+2023-11-08 11:18:17,271 [INFO]  Epoch[1] Batch [0-4]	Speed: 7326.70 samples/sec	cross-entropy=88.483280	SPC-6-accuracy=4.000000
+2023-11-08 11:18:17,277 [INFO]  Epoch[1] Train-cross-entropy=85.392455
+2023-11-08 11:18:17,277 [INFO]  Epoch[1] Train-SPC-6-accuracy=3.875000
+2023-11-08 11:18:17,278 [INFO]  Epoch[1] Time cost=0.018
+2023-11-08 11:18:17,281 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0001.params"
+2023-11-08 11:18:17,281 [INFO]  Epoch[1] Validation-cross-entropy=23.548300
+2023-11-08 11:18:17,282 [INFO]  Epoch[1] Validation-SPC-6-accuracy=0.000000
+2023-11-08 11:18:17,293 [INFO]  Epoch[2] Batch [0-4]	Speed: 7318.90 samples/sec	cross-entropy=61.303048	SPC-6-accuracy=4.000000
+2023-11-08 11:18:17,300 [INFO]  Epoch[2] Train-cross-entropy=74.136229
+2023-11-08 11:18:17,300 [INFO]  Epoch[2] Train-SPC-6-accuracy=3.875000
+2023-11-08 11:18:17,300 [INFO]  Epoch[2] Time cost=0.018
+2023-11-08 11:18:17,303 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0002.params"
+2023-11-08 11:18:17,304 [INFO]  Epoch[2] Validation-cross-entropy=4.811831
+2023-11-08 11:18:17,304 [INFO]  Epoch[2] Validation-SPC-6-accuracy=0.000000
+2023-11-08 11:18:17,316 [INFO]  Epoch[3] Batch [0-4]	Speed: 7327.10 samples/sec	cross-entropy=27.379508	SPC-6-accuracy=4.000000
+2023-11-08 11:18:17,322 [INFO]  Epoch[3] Train-cross-entropy=29.541252
+2023-11-08 11:18:17,322 [INFO]  Epoch[3] Train-SPC-6-accuracy=3.875000
+2023-11-08 11:18:17,322 [INFO]  Epoch[3] Time cost=0.018
+2023-11-08 11:18:17,325 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0003.params"
+2023-11-08 11:18:17,326 [INFO]  Epoch[3] Validation-cross-entropy=5.803376
+2023-11-08 11:18:17,326 [INFO]  Epoch[3] Validation-SPC-6-accuracy=0.000000
+2023-11-08 11:18:17,337 [INFO]  Epoch[4] Batch [0-4]	Speed: 7369.94 samples/sec	cross-entropy=17.286599	SPC-6-accuracy=4.000000
+2023-11-08 11:18:17,344 [INFO]  Epoch[4] Train-cross-entropy=13.956554
+2023-11-08 11:18:17,344 [INFO]  Epoch[4] Train-SPC-6-accuracy=3.875000
+2023-11-08 11:18:17,344 [INFO]  Epoch[4] Time cost=0.018
+2023-11-08 11:18:17,347 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SPC-6/model-0004.params"
+2023-11-08 11:18:17,348 [INFO]  Epoch[4] Validation-cross-entropy=6.391045
+2023-11-08 11:18:17,348 [INFO]  Epoch[4] Validation-SPC-6-accuracy=0.000000
+2023-11-08 11:18:17,348 [INFO]  
+========== done (0.11438775062561035 s) fit model

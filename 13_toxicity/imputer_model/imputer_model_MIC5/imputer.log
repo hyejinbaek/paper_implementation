@@ -1,0 +1,360 @@
+2023-11-07 20:41:17,162 [INFO]  
+========== start: fit model
+2023-11-07 20:41:17,163 [WARNING]  Already bound, ignoring bind()
+2023-11-07 20:41:17,246 [INFO]  Epoch[0] Batch [0-4]	Speed: 821.70 samples/sec	cross-entropy=57.295531	MIC5-accuracy=2.200000
+2023-11-07 20:41:17,252 [INFO]  Epoch[0] Train-cross-entropy=80.376605
+2023-11-07 20:41:17,252 [INFO]  Epoch[0] Train-MIC5-accuracy=2.875000
+2023-11-07 20:41:17,252 [INFO]  Epoch[0] Time cost=0.087
+2023-11-07 20:41:17,255 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0000.params"
+2023-11-07 20:41:17,256 [INFO]  Epoch[0] Validation-cross-entropy=207.378906
+2023-11-07 20:41:17,256 [INFO]  Epoch[0] Validation-MIC5-accuracy=0.000000
+2023-11-07 20:41:18,781 [INFO]  Epoch[1] Batch [0-4]	Speed: 42.13 samples/sec	cross-entropy=220.162476	MIC5-accuracy=2.200000
+2023-11-07 20:41:18,795 [INFO]  Epoch[1] Train-cross-entropy=394.262989
+2023-11-07 20:41:18,795 [INFO]  Epoch[1] Train-MIC5-accuracy=2.875000
+2023-11-07 20:41:18,795 [INFO]  Epoch[1] Time cost=1.539
+2023-11-07 20:41:18,799 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0001.params"
+2023-11-07 20:41:18,914 [INFO]  Epoch[1] Validation-cross-entropy=702.041687
+2023-11-07 20:41:18,914 [INFO]  Epoch[1] Validation-MIC5-accuracy=0.000000
+2023-11-07 20:41:19,041 [INFO]  Epoch[2] Batch [0-4]	Speed: 593.09 samples/sec	cross-entropy=188.741696	MIC5-accuracy=2.200000
+2023-11-07 20:41:19,058 [INFO]  Epoch[2] Train-cross-entropy=261.741535
+2023-11-07 20:41:19,058 [INFO]  Epoch[2] Train-MIC5-accuracy=2.875000
+2023-11-07 20:41:19,058 [INFO]  Epoch[2] Time cost=0.143
+2023-11-07 20:41:19,060 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0002.params"
+2023-11-07 20:41:19,069 [INFO]  Epoch[2] Validation-cross-entropy=1405.619141
+2023-11-07 20:41:19,069 [INFO]  Epoch[2] Validation-MIC5-accuracy=0.000000
+2023-11-07 20:41:19,123 [INFO]  Epoch[3] Batch [0-4]	Speed: 1380.44 samples/sec	cross-entropy=204.582882	MIC5-accuracy=2.200000
+2023-11-07 20:41:19,135 [INFO]  Epoch[3] Train-cross-entropy=140.325079
+2023-11-07 20:41:19,135 [INFO]  Epoch[3] Train-MIC5-accuracy=2.875000
+2023-11-07 20:41:19,135 [INFO]  Epoch[3] Time cost=0.066
+2023-11-07 20:41:19,137 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0003.params"
+2023-11-07 20:41:19,142 [INFO]  Epoch[3] Validation-cross-entropy=427.698517
+2023-11-07 20:41:19,142 [INFO]  Epoch[3] Validation-MIC5-accuracy=0.000000
+2023-11-07 20:41:19,159 [INFO]  Epoch[4] Batch [0-4]	Speed: 5016.08 samples/sec	cross-entropy=63.351103	MIC5-accuracy=2.200000
+2023-11-07 20:41:19,165 [INFO]  Epoch[4] Train-cross-entropy=49.142623
+2023-11-07 20:41:19,165 [INFO]  Epoch[4] Train-MIC5-accuracy=2.875000
+2023-11-07 20:41:19,165 [INFO]  Epoch[4] Time cost=0.023
+2023-11-07 20:41:19,168 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0004.params"
+2023-11-07 20:41:19,169 [INFO]  Epoch[4] Validation-cross-entropy=41.315132
+2023-11-07 20:41:19,169 [INFO]  Epoch[4] Validation-MIC5-accuracy=0.000000
+2023-11-07 20:41:19,169 [INFO]  
+========== done (2.0068376064300537 s) fit model
+2023-11-07 22:46:30,751 [INFO]  
+========== start: fit model
+2023-11-07 22:46:30,751 [WARNING]  Already bound, ignoring bind()
+2023-11-07 22:46:30,763 [INFO]  Epoch[0] Batch [0-4]	Speed: 7570.09 samples/sec	cross-entropy=92.814694	MIC5-accuracy=3.600000
+2023-11-07 22:46:30,768 [INFO]  Epoch[0] Train-cross-entropy=66.141176
+2023-11-07 22:46:30,769 [INFO]  Epoch[0] Train-MIC5-accuracy=3.000000
+2023-11-07 22:46:30,769 [INFO]  Epoch[0] Time cost=0.017
+2023-11-07 22:46:30,770 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0000.params"
+2023-11-07 22:46:30,771 [INFO]  Epoch[0] Validation-cross-entropy=52.774399
+2023-11-07 22:46:30,771 [INFO]  Epoch[0] Validation-MIC5-accuracy=0.000000
+2023-11-07 22:46:30,779 [INFO]  Epoch[1] Batch [0-4]	Speed: 9692.91 samples/sec	cross-entropy=148.110220	MIC5-accuracy=3.600000
+2023-11-07 22:46:30,784 [INFO]  Epoch[1] Train-cross-entropy=113.113448
+2023-11-07 22:46:30,784 [INFO]  Epoch[1] Train-MIC5-accuracy=3.000000
+2023-11-07 22:46:30,784 [INFO]  Epoch[1] Time cost=0.014
+2023-11-07 22:46:30,787 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0001.params"
+2023-11-07 22:46:30,787 [INFO]  Epoch[1] Validation-cross-entropy=93.221413
+2023-11-07 22:46:30,788 [INFO]  Epoch[1] Validation-MIC5-accuracy=0.000000
+2023-11-07 22:46:30,796 [INFO]  Epoch[2] Batch [0-4]	Speed: 10163.39 samples/sec	cross-entropy=103.704181	MIC5-accuracy=3.600000
+2023-11-07 22:46:30,801 [INFO]  Epoch[2] Train-cross-entropy=75.699003
+2023-11-07 22:46:30,801 [INFO]  Epoch[2] Train-MIC5-accuracy=3.000000
+2023-11-07 22:46:30,801 [INFO]  Epoch[2] Time cost=0.013
+2023-11-07 22:46:30,803 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0002.params"
+2023-11-07 22:46:30,804 [INFO]  Epoch[2] Validation-cross-entropy=13.466228
+2023-11-07 22:46:30,804 [INFO]  Epoch[2] Validation-MIC5-accuracy=0.000000
+2023-11-07 22:46:30,812 [INFO]  Epoch[3] Batch [0-4]	Speed: 9265.34 samples/sec	cross-entropy=20.106874	MIC5-accuracy=3.600000
+2023-11-07 22:46:30,818 [INFO]  Epoch[3] Train-cross-entropy=14.718856
+2023-11-07 22:46:30,818 [INFO]  Epoch[3] Train-MIC5-accuracy=3.000000
+2023-11-07 22:46:30,818 [INFO]  Epoch[3] Time cost=0.014
+2023-11-07 22:46:30,820 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0003.params"
+2023-11-07 22:46:30,821 [INFO]  Epoch[3] Validation-cross-entropy=17.993677
+2023-11-07 22:46:30,821 [INFO]  Epoch[3] Validation-MIC5-accuracy=0.000000
+2023-11-07 22:46:30,831 [INFO]  Epoch[4] Batch [0-4]	Speed: 8217.83 samples/sec	cross-entropy=12.189489	MIC5-accuracy=3.600000
+2023-11-07 22:46:30,836 [INFO]  Epoch[4] Train-cross-entropy=9.682376
+2023-11-07 22:46:30,836 [INFO]  Epoch[4] Train-MIC5-accuracy=3.000000
+2023-11-07 22:46:30,836 [INFO]  Epoch[4] Time cost=0.015
+2023-11-07 22:46:30,840 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0004.params"
+2023-11-07 22:46:30,841 [INFO]  Epoch[4] Validation-cross-entropy=2.731246
+2023-11-07 22:46:30,841 [INFO]  Epoch[4] Validation-MIC5-accuracy=0.000000
+2023-11-07 22:46:30,841 [INFO]  
+========== done (0.09062671661376953 s) fit model
+2023-11-08 00:33:14,483 [INFO]  
+========== start: fit model
+2023-11-08 00:33:14,483 [WARNING]  Already bound, ignoring bind()
+2023-11-08 00:33:14,496 [INFO]  Epoch[0] Batch [0-4]	Speed: 7358.83 samples/sec	cross-entropy=111.060390	MIC5-accuracy=0.000000
+2023-11-08 00:33:14,502 [INFO]  Epoch[0] Train-cross-entropy=94.843534
+2023-11-08 00:33:14,502 [INFO]  Epoch[0] Train-MIC5-accuracy=0.000000
+2023-11-08 00:33:14,502 [INFO]  Epoch[0] Time cost=0.019
+2023-11-08 00:33:14,504 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0000.params"
+2023-11-08 00:33:14,505 [INFO]  Epoch[0] Validation-cross-entropy=48.736523
+2023-11-08 00:33:14,505 [INFO]  Epoch[0] Validation-MIC5-accuracy=0.000000
+2023-11-08 00:33:14,516 [INFO]  Epoch[1] Batch [0-4]	Speed: 7150.65 samples/sec	cross-entropy=114.209627	MIC5-accuracy=0.000000
+2023-11-08 00:33:14,522 [INFO]  Epoch[1] Train-cross-entropy=154.267631
+2023-11-08 00:33:14,522 [INFO]  Epoch[1] Train-MIC5-accuracy=0.000000
+2023-11-08 00:33:14,522 [INFO]  Epoch[1] Time cost=0.018
+2023-11-08 00:33:14,526 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0001.params"
+2023-11-08 00:33:14,527 [INFO]  Epoch[1] Validation-cross-entropy=19.865137
+2023-11-08 00:33:14,527 [INFO]  Epoch[1] Validation-MIC5-accuracy=0.000000
+2023-11-08 00:33:14,538 [INFO]  Epoch[2] Batch [0-4]	Speed: 7353.99 samples/sec	cross-entropy=53.706255	MIC5-accuracy=0.000000
+2023-11-08 00:33:14,545 [INFO]  Epoch[2] Train-cross-entropy=83.072339
+2023-11-08 00:33:14,545 [INFO]  Epoch[2] Train-MIC5-accuracy=0.000000
+2023-11-08 00:33:14,545 [INFO]  Epoch[2] Time cost=0.017
+2023-11-08 00:33:14,548 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0002.params"
+2023-11-08 00:33:14,549 [INFO]  Epoch[2] Validation-cross-entropy=12.952806
+2023-11-08 00:33:14,549 [INFO]  Epoch[2] Validation-MIC5-accuracy=0.000000
+2023-11-08 00:33:14,556 [INFO]  Epoch[3] Batch [0-4]	Speed: 11637.21 samples/sec	cross-entropy=17.371343	MIC5-accuracy=0.000000
+2023-11-08 00:33:14,560 [INFO]  Epoch[3] Train-cross-entropy=16.579655
+2023-11-08 00:33:14,560 [INFO]  Epoch[3] Train-MIC5-accuracy=0.000000
+2023-11-08 00:33:14,560 [INFO]  Epoch[3] Time cost=0.011
+2023-11-08 00:33:14,562 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0003.params"
+2023-11-08 00:33:14,563 [INFO]  Epoch[3] Validation-cross-entropy=19.325920
+2023-11-08 00:33:14,563 [INFO]  Epoch[3] Validation-MIC5-accuracy=0.000000
+2023-11-08 00:33:14,570 [INFO]  Epoch[4] Batch [0-4]	Speed: 11209.57 samples/sec	cross-entropy=12.526984	MIC5-accuracy=0.000000
+2023-11-08 00:33:14,575 [INFO]  Epoch[4] Train-cross-entropy=12.076986
+2023-11-08 00:33:14,575 [INFO]  Epoch[4] Train-MIC5-accuracy=0.000000
+2023-11-08 00:33:14,575 [INFO]  Epoch[4] Time cost=0.012
+2023-11-08 00:33:14,577 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0004.params"
+2023-11-08 00:33:14,578 [INFO]  Epoch[4] Validation-cross-entropy=13.352450
+2023-11-08 00:33:14,578 [INFO]  Epoch[4] Validation-MIC5-accuracy=0.000000
+2023-11-08 00:33:14,578 [INFO]  
+========== done (0.09494638442993164 s) fit model
+2023-11-08 02:20:30,219 [INFO]  
+========== start: fit model
+2023-11-08 02:20:30,219 [WARNING]  Already bound, ignoring bind()
+2023-11-08 02:20:30,232 [INFO]  Epoch[0] Batch [0-4]	Speed: 7112.57 samples/sec	cross-entropy=64.441988	MIC5-accuracy=0.000000
+2023-11-08 02:20:30,238 [INFO]  Epoch[0] Train-cross-entropy=62.208897
+2023-11-08 02:20:30,238 [INFO]  Epoch[0] Train-MIC5-accuracy=0.000000
+2023-11-08 02:20:30,238 [INFO]  Epoch[0] Time cost=0.019
+2023-11-08 02:20:30,242 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0000.params"
+2023-11-08 02:20:30,243 [INFO]  Epoch[0] Validation-cross-entropy=93.097427
+2023-11-08 02:20:30,243 [INFO]  Epoch[0] Validation-MIC5-accuracy=0.000000
+2023-11-08 02:20:30,251 [INFO]  Epoch[1] Batch [0-4]	Speed: 10584.99 samples/sec	cross-entropy=182.554462	MIC5-accuracy=0.000000
+2023-11-08 02:20:30,255 [INFO]  Epoch[1] Train-cross-entropy=172.100430
+2023-11-08 02:20:30,255 [INFO]  Epoch[1] Train-MIC5-accuracy=0.000000
+2023-11-08 02:20:30,255 [INFO]  Epoch[1] Time cost=0.012
+2023-11-08 02:20:30,257 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0001.params"
+2023-11-08 02:20:30,257 [INFO]  Epoch[1] Validation-cross-entropy=49.796616
+2023-11-08 02:20:30,257 [INFO]  Epoch[1] Validation-MIC5-accuracy=0.000000
+2023-11-08 02:20:30,263 [INFO]  Epoch[2] Batch [0-4]	Speed: 13980.29 samples/sec	cross-entropy=79.364280	MIC5-accuracy=0.000000
+2023-11-08 02:20:30,270 [INFO]  Epoch[2] Train-cross-entropy=59.848541
+2023-11-08 02:20:30,270 [INFO]  Epoch[2] Train-MIC5-accuracy=0.000000
+2023-11-08 02:20:30,270 [INFO]  Epoch[2] Time cost=0.012
+2023-11-08 02:20:30,272 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0002.params"
+2023-11-08 02:20:30,272 [INFO]  Epoch[2] Validation-cross-entropy=12.316279
+2023-11-08 02:20:30,272 [INFO]  Epoch[2] Validation-MIC5-accuracy=0.000000
+2023-11-08 02:20:30,283 [INFO]  Epoch[3] Batch [0-4]	Speed: 7640.77 samples/sec	cross-entropy=10.267441	MIC5-accuracy=0.000000
+2023-11-08 02:20:30,290 [INFO]  Epoch[3] Train-cross-entropy=11.623861
+2023-11-08 02:20:30,290 [INFO]  Epoch[3] Train-MIC5-accuracy=0.000000
+2023-11-08 02:20:30,290 [INFO]  Epoch[3] Time cost=0.017
+2023-11-08 02:20:30,292 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0003.params"
+2023-11-08 02:20:30,293 [INFO]  Epoch[3] Validation-cross-entropy=23.712387
+2023-11-08 02:20:30,294 [INFO]  Epoch[3] Validation-MIC5-accuracy=0.000000
+2023-11-08 02:20:30,304 [INFO]  Epoch[4] Batch [0-4]	Speed: 7583.14 samples/sec	cross-entropy=8.374201	MIC5-accuracy=0.000000
+2023-11-08 02:20:30,310 [INFO]  Epoch[4] Train-cross-entropy=6.056562
+2023-11-08 02:20:30,310 [INFO]  Epoch[4] Train-MIC5-accuracy=0.000000
+2023-11-08 02:20:30,311 [INFO]  Epoch[4] Time cost=0.017
+2023-11-08 02:20:30,315 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0004.params"
+2023-11-08 02:20:30,316 [INFO]  Epoch[4] Validation-cross-entropy=11.638196
+2023-11-08 02:20:30,316 [INFO]  Epoch[4] Validation-MIC5-accuracy=0.000000
+2023-11-08 02:20:30,316 [INFO]  
+========== done (0.09760880470275879 s) fit model
+2023-11-08 04:08:25,528 [INFO]  
+========== start: fit model
+2023-11-08 04:08:25,529 [WARNING]  Already bound, ignoring bind()
+2023-11-08 04:08:25,543 [INFO]  Epoch[0] Batch [0-4]	Speed: 6630.33 samples/sec	cross-entropy=63.284758	MIC5-accuracy=0.000000
+2023-11-08 04:08:25,550 [INFO]  Epoch[0] Train-cross-entropy=74.622272
+2023-11-08 04:08:25,550 [INFO]  Epoch[0] Train-MIC5-accuracy=0.000000
+2023-11-08 04:08:25,550 [INFO]  Epoch[0] Time cost=0.021
+2023-11-08 04:08:25,553 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0000.params"
+2023-11-08 04:08:25,554 [INFO]  Epoch[0] Validation-cross-entropy=25.298744
+2023-11-08 04:08:25,555 [INFO]  Epoch[0] Validation-MIC5-accuracy=0.000000
+2023-11-08 04:08:25,566 [INFO]  Epoch[1] Batch [0-4]	Speed: 7475.64 samples/sec	cross-entropy=113.475851	MIC5-accuracy=0.000000
+2023-11-08 04:08:25,572 [INFO]  Epoch[1] Train-cross-entropy=169.582662
+2023-11-08 04:08:25,572 [INFO]  Epoch[1] Train-MIC5-accuracy=0.000000
+2023-11-08 04:08:25,572 [INFO]  Epoch[1] Time cost=0.017
+2023-11-08 04:08:25,575 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0001.params"
+2023-11-08 04:08:25,576 [INFO]  Epoch[1] Validation-cross-entropy=32.662632
+2023-11-08 04:08:25,576 [INFO]  Epoch[1] Validation-MIC5-accuracy=0.000000
+2023-11-08 04:08:25,587 [INFO]  Epoch[2] Batch [0-4]	Speed: 7765.88 samples/sec	cross-entropy=48.341464	MIC5-accuracy=0.000000
+2023-11-08 04:08:25,592 [INFO]  Epoch[2] Train-cross-entropy=38.172068
+2023-11-08 04:08:25,592 [INFO]  Epoch[2] Train-MIC5-accuracy=0.000000
+2023-11-08 04:08:25,593 [INFO]  Epoch[2] Time cost=0.017
+2023-11-08 04:08:25,596 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0002.params"
+2023-11-08 04:08:25,597 [INFO]  Epoch[2] Validation-cross-entropy=7.300484
+2023-11-08 04:08:25,597 [INFO]  Epoch[2] Validation-MIC5-accuracy=0.000000
+2023-11-08 04:08:25,608 [INFO]  Epoch[3] Batch [0-4]	Speed: 7477.52 samples/sec	cross-entropy=30.317667	MIC5-accuracy=0.000000
+2023-11-08 04:08:25,614 [INFO]  Epoch[3] Train-cross-entropy=21.335593
+2023-11-08 04:08:25,615 [INFO]  Epoch[3] Train-MIC5-accuracy=0.000000
+2023-11-08 04:08:25,615 [INFO]  Epoch[3] Time cost=0.018
+2023-11-08 04:08:25,618 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0003.params"
+2023-11-08 04:08:25,619 [INFO]  Epoch[3] Validation-cross-entropy=7.543030
+2023-11-08 04:08:25,619 [INFO]  Epoch[3] Validation-MIC5-accuracy=0.000000
+2023-11-08 04:08:25,629 [INFO]  Epoch[4] Batch [0-4]	Speed: 7606.56 samples/sec	cross-entropy=7.349269	MIC5-accuracy=0.000000
+2023-11-08 04:08:25,635 [INFO]  Epoch[4] Train-cross-entropy=7.221759
+2023-11-08 04:08:25,635 [INFO]  Epoch[4] Train-MIC5-accuracy=0.000000
+2023-11-08 04:08:25,636 [INFO]  Epoch[4] Time cost=0.017
+2023-11-08 04:08:25,639 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0004.params"
+2023-11-08 04:08:25,640 [INFO]  Epoch[4] Validation-cross-entropy=10.153656
+2023-11-08 04:08:25,640 [INFO]  Epoch[4] Validation-MIC5-accuracy=0.000000
+2023-11-08 04:08:25,640 [INFO]  
+========== done (0.11172962188720703 s) fit model
+2023-11-08 05:56:36,025 [INFO]  
+========== start: fit model
+2023-11-08 05:56:36,025 [WARNING]  Already bound, ignoring bind()
+2023-11-08 05:56:36,037 [INFO]  Epoch[0] Batch [0-4]	Speed: 7507.00 samples/sec	cross-entropy=22.095972	MIC5-accuracy=0.000000
+2023-11-08 05:56:36,043 [INFO]  Epoch[0] Train-cross-entropy=42.735601
+2023-11-08 05:56:36,043 [INFO]  Epoch[0] Train-MIC5-accuracy=0.000000
+2023-11-08 05:56:36,043 [INFO]  Epoch[0] Time cost=0.018
+2023-11-08 05:56:36,045 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0000.params"
+2023-11-08 05:56:36,046 [INFO]  Epoch[0] Validation-cross-entropy=31.637207
+2023-11-08 05:56:36,046 [INFO]  Epoch[0] Validation-MIC5-accuracy=0.000000
+2023-11-08 05:56:36,056 [INFO]  Epoch[1] Batch [0-4]	Speed: 7194.35 samples/sec	cross-entropy=109.896582	MIC5-accuracy=0.000000
+2023-11-08 05:56:36,062 [INFO]  Epoch[1] Train-cross-entropy=124.269444
+2023-11-08 05:56:36,062 [INFO]  Epoch[1] Train-MIC5-accuracy=0.000000
+2023-11-08 05:56:36,062 [INFO]  Epoch[1] Time cost=0.016
+2023-11-08 05:56:36,066 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0001.params"
+2023-11-08 05:56:36,067 [INFO]  Epoch[1] Validation-cross-entropy=18.814114
+2023-11-08 05:56:36,067 [INFO]  Epoch[1] Validation-MIC5-accuracy=0.000000
+2023-11-08 05:56:36,078 [INFO]  Epoch[2] Batch [0-4]	Speed: 7649.91 samples/sec	cross-entropy=56.330723	MIC5-accuracy=0.000000
+2023-11-08 05:56:36,085 [INFO]  Epoch[2] Train-cross-entropy=50.951400
+2023-11-08 05:56:36,085 [INFO]  Epoch[2] Train-MIC5-accuracy=0.000000
+2023-11-08 05:56:36,085 [INFO]  Epoch[2] Time cost=0.018
+2023-11-08 05:56:36,088 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0002.params"
+2023-11-08 05:56:36,089 [INFO]  Epoch[2] Validation-cross-entropy=3.908451
+2023-11-08 05:56:36,090 [INFO]  Epoch[2] Validation-MIC5-accuracy=0.000000
+2023-11-08 05:56:36,101 [INFO]  Epoch[3] Batch [0-4]	Speed: 6861.50 samples/sec	cross-entropy=33.263490	MIC5-accuracy=0.000000
+2023-11-08 05:56:36,109 [INFO]  Epoch[3] Train-cross-entropy=24.237910
+2023-11-08 05:56:36,109 [INFO]  Epoch[3] Train-MIC5-accuracy=0.000000
+2023-11-08 05:56:36,109 [INFO]  Epoch[3] Time cost=0.019
+2023-11-08 05:56:36,112 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0003.params"
+2023-11-08 05:56:36,113 [INFO]  Epoch[3] Validation-cross-entropy=3.397957
+2023-11-08 05:56:36,113 [INFO]  Epoch[3] Validation-MIC5-accuracy=0.000000
+2023-11-08 05:56:36,125 [INFO]  Epoch[4] Batch [0-4]	Speed: 7064.09 samples/sec	cross-entropy=11.430126	MIC5-accuracy=0.000000
+2023-11-08 05:56:36,131 [INFO]  Epoch[4] Train-cross-entropy=9.456686
+2023-11-08 05:56:36,131 [INFO]  Epoch[4] Train-MIC5-accuracy=0.000000
+2023-11-08 05:56:36,131 [INFO]  Epoch[4] Time cost=0.018
+2023-11-08 05:56:36,134 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0004.params"
+2023-11-08 05:56:36,135 [INFO]  Epoch[4] Validation-cross-entropy=3.502861
+2023-11-08 05:56:36,136 [INFO]  Epoch[4] Validation-MIC5-accuracy=0.000000
+2023-11-08 05:56:36,136 [INFO]  
+========== done (0.11107206344604492 s) fit model
+2023-11-08 07:44:52,690 [INFO]  
+========== start: fit model
+2023-11-08 07:44:52,690 [WARNING]  Already bound, ignoring bind()
+2023-11-08 07:44:52,703 [INFO]  Epoch[0] Batch [0-4]	Speed: 7531.01 samples/sec	cross-entropy=52.342140	MIC5-accuracy=0.000000
+2023-11-08 07:44:52,708 [INFO]  Epoch[0] Train-cross-entropy=64.474587
+2023-11-08 07:44:52,708 [INFO]  Epoch[0] Train-MIC5-accuracy=0.000000
+2023-11-08 07:44:52,708 [INFO]  Epoch[0] Time cost=0.017
+2023-11-08 07:44:52,710 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0000.params"
+2023-11-08 07:44:52,711 [INFO]  Epoch[0] Validation-cross-entropy=17.478302
+2023-11-08 07:44:52,711 [INFO]  Epoch[0] Validation-MIC5-accuracy=0.000000
+2023-11-08 07:44:52,720 [INFO]  Epoch[1] Batch [0-4]	Speed: 8972.97 samples/sec	cross-entropy=129.917323	MIC5-accuracy=0.000000
+2023-11-08 07:44:52,726 [INFO]  Epoch[1] Train-cross-entropy=135.747713
+2023-11-08 07:44:52,726 [INFO]  Epoch[1] Train-MIC5-accuracy=0.000000
+2023-11-08 07:44:52,726 [INFO]  Epoch[1] Time cost=0.015
+2023-11-08 07:44:52,730 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0001.params"
+2023-11-08 07:44:52,731 [INFO]  Epoch[1] Validation-cross-entropy=18.566429
+2023-11-08 07:44:52,731 [INFO]  Epoch[1] Validation-MIC5-accuracy=0.000000
+2023-11-08 07:44:52,741 [INFO]  Epoch[2] Batch [0-4]	Speed: 7852.89 samples/sec	cross-entropy=77.032372	MIC5-accuracy=0.000000
+2023-11-08 07:44:52,747 [INFO]  Epoch[2] Train-cross-entropy=63.294319
+2023-11-08 07:44:52,748 [INFO]  Epoch[2] Train-MIC5-accuracy=0.000000
+2023-11-08 07:44:52,748 [INFO]  Epoch[2] Time cost=0.017
+2023-11-08 07:44:52,750 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0002.params"
+2023-11-08 07:44:52,751 [INFO]  Epoch[2] Validation-cross-entropy=12.747034
+2023-11-08 07:44:52,751 [INFO]  Epoch[2] Validation-MIC5-accuracy=0.000000
+2023-11-08 07:44:52,762 [INFO]  Epoch[3] Batch [0-4]	Speed: 7929.68 samples/sec	cross-entropy=29.294889	MIC5-accuracy=0.000000
+2023-11-08 07:44:52,768 [INFO]  Epoch[3] Train-cross-entropy=25.073989
+2023-11-08 07:44:52,768 [INFO]  Epoch[3] Train-MIC5-accuracy=0.000000
+2023-11-08 07:44:52,768 [INFO]  Epoch[3] Time cost=0.017
+2023-11-08 07:44:52,771 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0003.params"
+2023-11-08 07:44:52,772 [INFO]  Epoch[3] Validation-cross-entropy=28.401495
+2023-11-08 07:44:52,772 [INFO]  Epoch[3] Validation-MIC5-accuracy=0.000000
+2023-11-08 07:44:52,784 [INFO]  Epoch[4] Batch [0-4]	Speed: 7256.58 samples/sec	cross-entropy=13.910623	MIC5-accuracy=0.000000
+2023-11-08 07:44:52,790 [INFO]  Epoch[4] Train-cross-entropy=11.767502
+2023-11-08 07:44:52,791 [INFO]  Epoch[4] Train-MIC5-accuracy=0.000000
+2023-11-08 07:44:52,791 [INFO]  Epoch[4] Time cost=0.018
+2023-11-08 07:44:52,794 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0004.params"
+2023-11-08 07:44:52,795 [INFO]  Epoch[4] Validation-cross-entropy=7.565238
+2023-11-08 07:44:52,795 [INFO]  Epoch[4] Validation-MIC5-accuracy=0.000000
+2023-11-08 07:44:52,795 [INFO]  
+========== done (0.10461020469665527 s) fit model
+2023-11-08 09:33:42,436 [INFO]  
+========== start: fit model
+2023-11-08 09:33:42,436 [WARNING]  Already bound, ignoring bind()
+2023-11-08 09:33:42,449 [INFO]  Epoch[0] Batch [0-4]	Speed: 7563.05 samples/sec	cross-entropy=84.935895	MIC5-accuracy=0.000000
+2023-11-08 09:33:42,455 [INFO]  Epoch[0] Train-cross-entropy=66.973606
+2023-11-08 09:33:42,455 [INFO]  Epoch[0] Train-MIC5-accuracy=0.000000
+2023-11-08 09:33:42,455 [INFO]  Epoch[0] Time cost=0.018
+2023-11-08 09:33:42,457 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0000.params"
+2023-11-08 09:33:42,458 [INFO]  Epoch[0] Validation-cross-entropy=28.277065
+2023-11-08 09:33:42,458 [INFO]  Epoch[0] Validation-MIC5-accuracy=0.000000
+2023-11-08 09:33:42,467 [INFO]  Epoch[1] Batch [0-4]	Speed: 9793.34 samples/sec	cross-entropy=86.736452	MIC5-accuracy=0.000000
+2023-11-08 09:33:42,471 [INFO]  Epoch[1] Train-cross-entropy=80.215287
+2023-11-08 09:33:42,472 [INFO]  Epoch[1] Train-MIC5-accuracy=0.000000
+2023-11-08 09:33:42,472 [INFO]  Epoch[1] Time cost=0.014
+2023-11-08 09:33:42,475 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0001.params"
+2023-11-08 09:33:42,475 [INFO]  Epoch[1] Validation-cross-entropy=6.921924
+2023-11-08 09:33:42,476 [INFO]  Epoch[1] Validation-MIC5-accuracy=0.000000
+2023-11-08 09:33:42,484 [INFO]  Epoch[2] Batch [0-4]	Speed: 9901.71 samples/sec	cross-entropy=33.330340	MIC5-accuracy=0.000000
+2023-11-08 09:33:42,489 [INFO]  Epoch[2] Train-cross-entropy=34.901091
+2023-11-08 09:33:42,489 [INFO]  Epoch[2] Train-MIC5-accuracy=0.000000
+2023-11-08 09:33:42,489 [INFO]  Epoch[2] Time cost=0.013
+2023-11-08 09:33:42,491 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0002.params"
+2023-11-08 09:33:42,492 [INFO]  Epoch[2] Validation-cross-entropy=3.687634
+2023-11-08 09:33:42,492 [INFO]  Epoch[2] Validation-MIC5-accuracy=0.000000
+2023-11-08 09:33:42,500 [INFO]  Epoch[3] Batch [0-4]	Speed: 10066.58 samples/sec	cross-entropy=8.995021	MIC5-accuracy=0.000000
+2023-11-08 09:33:42,505 [INFO]  Epoch[3] Train-cross-entropy=9.279340
+2023-11-08 09:33:42,505 [INFO]  Epoch[3] Train-MIC5-accuracy=0.000000
+2023-11-08 09:33:42,505 [INFO]  Epoch[3] Time cost=0.013
+2023-11-08 09:33:42,508 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0003.params"
+2023-11-08 09:33:42,509 [INFO]  Epoch[3] Validation-cross-entropy=4.139732
+2023-11-08 09:33:42,509 [INFO]  Epoch[3] Validation-MIC5-accuracy=0.000000
+2023-11-08 09:33:42,518 [INFO]  Epoch[4] Batch [0-4]	Speed: 9024.86 samples/sec	cross-entropy=5.592396	MIC5-accuracy=0.000000
+2023-11-08 09:33:42,524 [INFO]  Epoch[4] Train-cross-entropy=5.950336
+2023-11-08 09:33:42,524 [INFO]  Epoch[4] Train-MIC5-accuracy=0.000000
+2023-11-08 09:33:42,524 [INFO]  Epoch[4] Time cost=0.015
+2023-11-08 09:33:42,526 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0004.params"
+2023-11-08 09:33:42,527 [INFO]  Epoch[4] Validation-cross-entropy=3.005699
+2023-11-08 09:33:42,527 [INFO]  Epoch[4] Validation-MIC5-accuracy=0.000000
+2023-11-08 09:33:42,527 [INFO]  
+========== done (0.09095096588134766 s) fit model
+2023-11-08 11:23:54,101 [INFO]  
+========== start: fit model
+2023-11-08 11:23:54,101 [WARNING]  Already bound, ignoring bind()
+2023-11-08 11:23:54,114 [INFO]  Epoch[0] Batch [0-4]	Speed: 7370.35 samples/sec	cross-entropy=72.435417	MIC5-accuracy=2.400000
+2023-11-08 11:23:54,120 [INFO]  Epoch[0] Train-cross-entropy=73.728174
+2023-11-08 11:23:54,120 [INFO]  Epoch[0] Train-MIC5-accuracy=2.500000
+2023-11-08 11:23:54,120 [INFO]  Epoch[0] Time cost=0.018
+2023-11-08 11:23:54,123 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0000.params"
+2023-11-08 11:23:54,124 [INFO]  Epoch[0] Validation-cross-entropy=76.048019
+2023-11-08 11:23:54,124 [INFO]  Epoch[0] Validation-MIC5-accuracy=0.000000
+2023-11-08 11:23:54,131 [INFO]  Epoch[1] Batch [0-4]	Speed: 11711.84 samples/sec	cross-entropy=215.593340	MIC5-accuracy=2.400000
+2023-11-08 11:23:54,135 [INFO]  Epoch[1] Train-cross-entropy=217.252468
+2023-11-08 11:23:54,136 [INFO]  Epoch[1] Train-MIC5-accuracy=2.500000
+2023-11-08 11:23:54,136 [INFO]  Epoch[1] Time cost=0.011
+2023-11-08 11:23:54,138 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0001.params"
+2023-11-08 11:23:54,138 [INFO]  Epoch[1] Validation-cross-entropy=32.597191
+2023-11-08 11:23:54,138 [INFO]  Epoch[1] Validation-MIC5-accuracy=0.000000
+2023-11-08 11:23:54,145 [INFO]  Epoch[2] Batch [0-4]	Speed: 12651.31 samples/sec	cross-entropy=61.132351	MIC5-accuracy=2.400000
+2023-11-08 11:23:54,149 [INFO]  Epoch[2] Train-cross-entropy=59.611585
+2023-11-08 11:23:54,149 [INFO]  Epoch[2] Train-MIC5-accuracy=2.500000
+2023-11-08 11:23:54,149 [INFO]  Epoch[2] Time cost=0.010
+2023-11-08 11:23:54,151 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0002.params"
+2023-11-08 11:23:54,151 [INFO]  Epoch[2] Validation-cross-entropy=6.583706
+2023-11-08 11:23:54,151 [INFO]  Epoch[2] Validation-MIC5-accuracy=0.000000
+2023-11-08 11:23:54,157 [INFO]  Epoch[3] Batch [0-4]	Speed: 13777.23 samples/sec	cross-entropy=36.079483	MIC5-accuracy=2.400000
+2023-11-08 11:23:54,161 [INFO]  Epoch[3] Train-cross-entropy=26.251149
+2023-11-08 11:23:54,161 [INFO]  Epoch[3] Train-MIC5-accuracy=2.500000
+2023-11-08 11:23:54,161 [INFO]  Epoch[3] Time cost=0.010
+2023-11-08 11:23:54,163 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0003.params"
+2023-11-08 11:23:54,163 [INFO]  Epoch[3] Validation-cross-entropy=9.856721
+2023-11-08 11:23:54,163 [INFO]  Epoch[3] Validation-MIC5-accuracy=0.000000
+2023-11-08 11:23:54,169 [INFO]  Epoch[4] Batch [0-4]	Speed: 13231.90 samples/sec	cross-entropy=7.423515	MIC5-accuracy=2.400000
+2023-11-08 11:23:54,173 [INFO]  Epoch[4] Train-cross-entropy=7.416281
+2023-11-08 11:23:54,173 [INFO]  Epoch[4] Train-MIC5-accuracy=2.500000
+2023-11-08 11:23:54,173 [INFO]  Epoch[4] Time cost=0.010
+2023-11-08 11:23:54,175 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_MIC5/model-0004.params"
+2023-11-08 11:23:54,176 [INFO]  Epoch[4] Validation-cross-entropy=7.823564
+2023-11-08 11:23:54,176 [INFO]  Epoch[4] Validation-MIC5-accuracy=0.000000
+2023-11-08 11:23:54,176 [INFO]  
+========== done (0.07480168342590332 s) fit model

@@ -1,0 +1,360 @@
+2023-11-07 20:59:28,614 [INFO]  
+========== start: fit model
+2023-11-07 20:59:28,614 [WARNING]  Already bound, ignoring bind()
+2023-11-07 20:59:30,864 [INFO]  Epoch[0] Batch [0-4]	Speed: 28.55 samples/sec	cross-entropy=33.780395	SpMin2_Bhi-accuracy=2.800000
+2023-11-07 20:59:32,735 [INFO]  Epoch[0] Train-cross-entropy=61.279603
+2023-11-07 20:59:32,735 [INFO]  Epoch[0] Train-SpMin2_Bhi-accuracy=3.500000
+2023-11-07 20:59:32,736 [INFO]  Epoch[0] Time cost=4.118
+2023-11-07 20:59:32,738 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0000.params"
+2023-11-07 20:59:32,905 [INFO]  Epoch[0] Validation-cross-entropy=180.444244
+2023-11-07 20:59:32,905 [INFO]  Epoch[0] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-07 20:59:36,726 [INFO]  Epoch[1] Batch [0-4]	Speed: 20.61 samples/sec	cross-entropy=135.369328	SpMin2_Bhi-accuracy=2.800000
+2023-11-07 20:59:38,652 [INFO]  Epoch[1] Train-cross-entropy=259.851892
+2023-11-07 20:59:38,652 [INFO]  Epoch[1] Train-SpMin2_Bhi-accuracy=3.500000
+2023-11-07 20:59:38,652 [INFO]  Epoch[1] Time cost=5.747
+2023-11-07 20:59:38,656 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0001.params"
+2023-11-07 20:59:38,796 [INFO]  Epoch[1] Validation-cross-entropy=729.477417
+2023-11-07 20:59:38,797 [INFO]  Epoch[1] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-07 20:59:41,818 [INFO]  Epoch[2] Batch [0-4]	Speed: 26.39 samples/sec	cross-entropy=189.521391	SpMin2_Bhi-accuracy=2.800000
+2023-11-07 20:59:43,322 [INFO]  Epoch[2] Train-cross-entropy=237.506477
+2023-11-07 20:59:43,322 [INFO]  Epoch[2] Train-SpMin2_Bhi-accuracy=3.500000
+2023-11-07 20:59:43,323 [INFO]  Epoch[2] Time cost=4.526
+2023-11-07 20:59:43,326 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0002.params"
+2023-11-07 20:59:43,431 [INFO]  Epoch[2] Validation-cross-entropy=817.098999
+2023-11-07 20:59:43,431 [INFO]  Epoch[2] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-07 20:59:44,331 [INFO]  Epoch[3] Batch [0-4]	Speed: 157.95 samples/sec	cross-entropy=239.043687	SpMin2_Bhi-accuracy=2.800000
+2023-11-07 20:59:44,342 [INFO]  Epoch[3] Train-cross-entropy=161.886523
+2023-11-07 20:59:44,342 [INFO]  Epoch[3] Train-SpMin2_Bhi-accuracy=3.500000
+2023-11-07 20:59:44,342 [INFO]  Epoch[3] Time cost=0.911
+2023-11-07 20:59:44,345 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0003.params"
+2023-11-07 20:59:44,346 [INFO]  Epoch[3] Validation-cross-entropy=168.137238
+2023-11-07 20:59:44,346 [INFO]  Epoch[3] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-07 20:59:44,398 [INFO]  Epoch[4] Batch [0-4]	Speed: 2650.80 samples/sec	cross-entropy=44.061275	SpMin2_Bhi-accuracy=2.800000
+2023-11-07 20:59:44,479 [INFO]  Epoch[4] Train-cross-entropy=34.335801
+2023-11-07 20:59:44,479 [INFO]  Epoch[4] Train-SpMin2_Bhi-accuracy=3.500000
+2023-11-07 20:59:44,479 [INFO]  Epoch[4] Time cost=0.133
+2023-11-07 20:59:44,482 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0004.params"
+2023-11-07 20:59:44,515 [INFO]  Epoch[4] Validation-cross-entropy=61.877823
+2023-11-07 20:59:44,515 [INFO]  Epoch[4] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-07 20:59:44,515 [INFO]  
+========== done (15.901166915893555 s) fit model
+2023-11-07 22:53:51,823 [INFO]  
+========== start: fit model
+2023-11-07 22:53:51,823 [WARNING]  Already bound, ignoring bind()
+2023-11-07 22:53:51,906 [INFO]  Epoch[0] Batch [0-4]	Speed: 15486.96 samples/sec	cross-entropy=56.121668	SpMin2_Bhi-accuracy=0.000000
+2023-11-07 22:53:51,910 [INFO]  Epoch[0] Train-cross-entropy=50.585649
+2023-11-07 22:53:51,910 [INFO]  Epoch[0] Train-SpMin2_Bhi-accuracy=0.000000
+2023-11-07 22:53:51,910 [INFO]  Epoch[0] Time cost=0.086
+2023-11-07 22:53:51,911 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0000.params"
+2023-11-07 22:53:51,912 [INFO]  Epoch[0] Validation-cross-entropy=91.939644
+2023-11-07 22:53:51,912 [INFO]  Epoch[0] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-07 22:53:51,917 [INFO]  Epoch[1] Batch [0-4]	Speed: 16013.57 samples/sec	cross-entropy=283.870337	SpMin2_Bhi-accuracy=0.000000
+2023-11-07 22:53:51,920 [INFO]  Epoch[1] Train-cross-entropy=218.958398
+2023-11-07 22:53:51,920 [INFO]  Epoch[1] Train-SpMin2_Bhi-accuracy=0.000000
+2023-11-07 22:53:51,920 [INFO]  Epoch[1] Time cost=0.009
+2023-11-07 22:53:51,922 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0001.params"
+2023-11-07 22:53:51,923 [INFO]  Epoch[1] Validation-cross-entropy=65.417046
+2023-11-07 22:53:51,923 [INFO]  Epoch[1] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-07 22:53:51,928 [INFO]  Epoch[2] Batch [0-4]	Speed: 14516.30 samples/sec	cross-entropy=161.998582	SpMin2_Bhi-accuracy=0.000000
+2023-11-07 22:53:51,932 [INFO]  Epoch[2] Train-cross-entropy=108.482940
+2023-11-07 22:53:51,932 [INFO]  Epoch[2] Train-SpMin2_Bhi-accuracy=0.000000
+2023-11-07 22:53:51,932 [INFO]  Epoch[2] Time cost=0.009
+2023-11-07 22:53:51,933 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0002.params"
+2023-11-07 22:53:51,934 [INFO]  Epoch[2] Validation-cross-entropy=8.703894
+2023-11-07 22:53:51,934 [INFO]  Epoch[2] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-07 22:53:51,939 [INFO]  Epoch[3] Batch [0-4]	Speed: 15702.57 samples/sec	cross-entropy=24.738289	SpMin2_Bhi-accuracy=0.000000
+2023-11-07 22:53:51,943 [INFO]  Epoch[3] Train-cross-entropy=18.386594
+2023-11-07 22:53:51,943 [INFO]  Epoch[3] Train-SpMin2_Bhi-accuracy=0.000000
+2023-11-07 22:53:51,943 [INFO]  Epoch[3] Time cost=0.009
+2023-11-07 22:53:51,945 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0003.params"
+2023-11-07 22:53:51,946 [INFO]  Epoch[3] Validation-cross-entropy=10.652777
+2023-11-07 22:53:51,946 [INFO]  Epoch[3] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-07 22:53:51,955 [INFO]  Epoch[4] Batch [0-4]	Speed: 8908.95 samples/sec	cross-entropy=13.901111	SpMin2_Bhi-accuracy=0.000000
+2023-11-07 22:53:51,960 [INFO]  Epoch[4] Train-cross-entropy=10.817980
+2023-11-07 22:53:51,960 [INFO]  Epoch[4] Train-SpMin2_Bhi-accuracy=0.000000
+2023-11-07 22:53:51,960 [INFO]  Epoch[4] Time cost=0.014
+2023-11-07 22:53:51,963 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0004.params"
+2023-11-07 22:53:51,963 [INFO]  Epoch[4] Validation-cross-entropy=2.031136
+2023-11-07 22:53:51,963 [INFO]  Epoch[4] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-07 22:53:51,963 [INFO]  
+========== done (0.1405630111694336 s) fit model
+2023-11-08 00:40:28,614 [INFO]  
+========== start: fit model
+2023-11-08 00:40:28,614 [WARNING]  Already bound, ignoring bind()
+2023-11-08 00:40:28,629 [INFO]  Epoch[0] Batch [0-4]	Speed: 6073.48 samples/sec	cross-entropy=38.053625	SpMin2_Bhi-accuracy=3.800000
+2023-11-08 00:40:28,636 [INFO]  Epoch[0] Train-cross-entropy=54.212348
+2023-11-08 00:40:28,637 [INFO]  Epoch[0] Train-SpMin2_Bhi-accuracy=4.000000
+2023-11-08 00:40:28,637 [INFO]  Epoch[0] Time cost=0.022
+2023-11-08 00:40:28,640 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0000.params"
+2023-11-08 00:40:28,641 [INFO]  Epoch[0] Validation-cross-entropy=93.035141
+2023-11-08 00:40:28,642 [INFO]  Epoch[0] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 00:40:28,654 [INFO]  Epoch[1] Batch [0-4]	Speed: 6696.32 samples/sec	cross-entropy=161.828823	SpMin2_Bhi-accuracy=3.800000
+2023-11-08 00:40:28,661 [INFO]  Epoch[1] Train-cross-entropy=159.092107
+2023-11-08 00:40:28,661 [INFO]  Epoch[1] Train-SpMin2_Bhi-accuracy=4.000000
+2023-11-08 00:40:28,661 [INFO]  Epoch[1] Time cost=0.019
+2023-11-08 00:40:28,665 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0001.params"
+2023-11-08 00:40:28,666 [INFO]  Epoch[1] Validation-cross-entropy=18.584791
+2023-11-08 00:40:28,666 [INFO]  Epoch[1] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 00:40:28,677 [INFO]  Epoch[2] Batch [0-4]	Speed: 7241.90 samples/sec	cross-entropy=28.946092	SpMin2_Bhi-accuracy=3.800000
+2023-11-08 00:40:28,684 [INFO]  Epoch[2] Train-cross-entropy=33.564173
+2023-11-08 00:40:28,684 [INFO]  Epoch[2] Train-SpMin2_Bhi-accuracy=4.000000
+2023-11-08 00:40:28,684 [INFO]  Epoch[2] Time cost=0.018
+2023-11-08 00:40:28,687 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0002.params"
+2023-11-08 00:40:28,688 [INFO]  Epoch[2] Validation-cross-entropy=13.653597
+2023-11-08 00:40:28,688 [INFO]  Epoch[2] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 00:40:28,699 [INFO]  Epoch[3] Batch [0-4]	Speed: 7628.61 samples/sec	cross-entropy=7.834245	SpMin2_Bhi-accuracy=3.800000
+2023-11-08 00:40:28,705 [INFO]  Epoch[3] Train-cross-entropy=7.582693
+2023-11-08 00:40:28,705 [INFO]  Epoch[3] Train-SpMin2_Bhi-accuracy=4.000000
+2023-11-08 00:40:28,705 [INFO]  Epoch[3] Time cost=0.017
+2023-11-08 00:40:28,708 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0003.params"
+2023-11-08 00:40:28,709 [INFO]  Epoch[3] Validation-cross-entropy=5.744833
+2023-11-08 00:40:28,709 [INFO]  Epoch[3] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 00:40:28,720 [INFO]  Epoch[4] Batch [0-4]	Speed: 7709.67 samples/sec	cross-entropy=6.069100	SpMin2_Bhi-accuracy=3.800000
+2023-11-08 00:40:28,726 [INFO]  Epoch[4] Train-cross-entropy=5.557821
+2023-11-08 00:40:28,727 [INFO]  Epoch[4] Train-SpMin2_Bhi-accuracy=4.000000
+2023-11-08 00:40:28,727 [INFO]  Epoch[4] Time cost=0.017
+2023-11-08 00:40:28,730 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0004.params"
+2023-11-08 00:40:28,731 [INFO]  Epoch[4] Validation-cross-entropy=6.330325
+2023-11-08 00:40:28,732 [INFO]  Epoch[4] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 00:40:28,732 [INFO]  
+========== done (0.11804080009460449 s) fit model
+2023-11-08 02:27:49,182 [INFO]  
+========== start: fit model
+2023-11-08 02:27:49,182 [WARNING]  Already bound, ignoring bind()
+2023-11-08 02:27:49,195 [INFO]  Epoch[0] Batch [0-4]	Speed: 7572.01 samples/sec	cross-entropy=67.344479	SpMin2_Bhi-accuracy=0.000000
+2023-11-08 02:27:49,201 [INFO]  Epoch[0] Train-cross-entropy=67.768897
+2023-11-08 02:27:49,201 [INFO]  Epoch[0] Train-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 02:27:49,201 [INFO]  Epoch[0] Time cost=0.018
+2023-11-08 02:27:49,203 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0000.params"
+2023-11-08 02:27:49,204 [INFO]  Epoch[0] Validation-cross-entropy=153.394501
+2023-11-08 02:27:49,204 [INFO]  Epoch[0] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 02:27:49,212 [INFO]  Epoch[1] Batch [0-4]	Speed: 9387.82 samples/sec	cross-entropy=179.191681	SpMin2_Bhi-accuracy=0.000000
+2023-11-08 02:27:49,218 [INFO]  Epoch[1] Train-cross-entropy=129.160671
+2023-11-08 02:27:49,218 [INFO]  Epoch[1] Train-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 02:27:49,218 [INFO]  Epoch[1] Time cost=0.014
+2023-11-08 02:27:49,222 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0001.params"
+2023-11-08 02:27:49,223 [INFO]  Epoch[1] Validation-cross-entropy=8.822774
+2023-11-08 02:27:49,223 [INFO]  Epoch[1] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 02:27:49,234 [INFO]  Epoch[2] Batch [0-4]	Speed: 7400.42 samples/sec	cross-entropy=122.542851	SpMin2_Bhi-accuracy=0.000000
+2023-11-08 02:27:49,241 [INFO]  Epoch[2] Train-cross-entropy=91.485600
+2023-11-08 02:27:49,241 [INFO]  Epoch[2] Train-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 02:27:49,241 [INFO]  Epoch[2] Time cost=0.018
+2023-11-08 02:27:49,245 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0002.params"
+2023-11-08 02:27:49,246 [INFO]  Epoch[2] Validation-cross-entropy=12.455280
+2023-11-08 02:27:49,246 [INFO]  Epoch[2] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 02:27:49,258 [INFO]  Epoch[3] Batch [0-4]	Speed: 7127.49 samples/sec	cross-entropy=37.753540	SpMin2_Bhi-accuracy=0.000000
+2023-11-08 02:27:49,265 [INFO]  Epoch[3] Train-cross-entropy=27.713480
+2023-11-08 02:27:49,265 [INFO]  Epoch[3] Train-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 02:27:49,265 [INFO]  Epoch[3] Time cost=0.019
+2023-11-08 02:27:49,269 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0003.params"
+2023-11-08 02:27:49,270 [INFO]  Epoch[3] Validation-cross-entropy=20.046564
+2023-11-08 02:27:49,271 [INFO]  Epoch[3] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 02:27:49,283 [INFO]  Epoch[4] Batch [0-4]	Speed: 6831.64 samples/sec	cross-entropy=25.026065	SpMin2_Bhi-accuracy=0.000000
+2023-11-08 02:27:49,289 [INFO]  Epoch[4] Train-cross-entropy=19.523023
+2023-11-08 02:27:49,290 [INFO]  Epoch[4] Train-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 02:27:49,290 [INFO]  Epoch[4] Time cost=0.019
+2023-11-08 02:27:49,293 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0004.params"
+2023-11-08 02:27:49,294 [INFO]  Epoch[4] Validation-cross-entropy=8.820287
+2023-11-08 02:27:49,294 [INFO]  Epoch[4] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 02:27:49,294 [INFO]  
+========== done (0.11221981048583984 s) fit model
+2023-11-08 04:15:44,599 [INFO]  
+========== start: fit model
+2023-11-08 04:15:44,599 [WARNING]  Already bound, ignoring bind()
+2023-11-08 04:15:44,612 [INFO]  Epoch[0] Batch [0-4]	Speed: 7522.36 samples/sec	cross-entropy=83.471368	SpMin2_Bhi-accuracy=0.000000
+2023-11-08 04:15:44,618 [INFO]  Epoch[0] Train-cross-entropy=90.647169
+2023-11-08 04:15:44,618 [INFO]  Epoch[0] Train-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 04:15:44,618 [INFO]  Epoch[0] Time cost=0.018
+2023-11-08 04:15:44,619 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0000.params"
+2023-11-08 04:15:44,620 [INFO]  Epoch[0] Validation-cross-entropy=87.180580
+2023-11-08 04:15:44,620 [INFO]  Epoch[0] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 04:15:44,631 [INFO]  Epoch[1] Batch [0-4]	Speed: 7265.03 samples/sec	cross-entropy=136.903111	SpMin2_Bhi-accuracy=0.000000
+2023-11-08 04:15:44,637 [INFO]  Epoch[1] Train-cross-entropy=134.553943
+2023-11-08 04:15:44,638 [INFO]  Epoch[1] Train-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 04:15:44,638 [INFO]  Epoch[1] Time cost=0.017
+2023-11-08 04:15:44,641 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0001.params"
+2023-11-08 04:15:44,641 [INFO]  Epoch[1] Validation-cross-entropy=36.320610
+2023-11-08 04:15:44,642 [INFO]  Epoch[1] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 04:15:44,652 [INFO]  Epoch[2] Batch [0-4]	Speed: 7878.71 samples/sec	cross-entropy=70.361657	SpMin2_Bhi-accuracy=0.000000
+2023-11-08 04:15:44,658 [INFO]  Epoch[2] Train-cross-entropy=67.514400
+2023-11-08 04:15:44,658 [INFO]  Epoch[2] Train-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 04:15:44,658 [INFO]  Epoch[2] Time cost=0.017
+2023-11-08 04:15:44,661 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0002.params"
+2023-11-08 04:15:44,662 [INFO]  Epoch[2] Validation-cross-entropy=24.456709
+2023-11-08 04:15:44,662 [INFO]  Epoch[2] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 04:15:44,672 [INFO]  Epoch[3] Batch [0-4]	Speed: 7888.90 samples/sec	cross-entropy=55.081744	SpMin2_Bhi-accuracy=0.000000
+2023-11-08 04:15:44,678 [INFO]  Epoch[3] Train-cross-entropy=41.142897
+2023-11-08 04:15:44,678 [INFO]  Epoch[3] Train-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 04:15:44,678 [INFO]  Epoch[3] Time cost=0.016
+2023-11-08 04:15:44,681 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0003.params"
+2023-11-08 04:15:44,682 [INFO]  Epoch[3] Validation-cross-entropy=20.125313
+2023-11-08 04:15:44,682 [INFO]  Epoch[3] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 04:15:44,692 [INFO]  Epoch[4] Batch [0-4]	Speed: 8022.58 samples/sec	cross-entropy=11.943896	SpMin2_Bhi-accuracy=0.000000
+2023-11-08 04:15:44,698 [INFO]  Epoch[4] Train-cross-entropy=9.676869
+2023-11-08 04:15:44,698 [INFO]  Epoch[4] Train-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 04:15:44,698 [INFO]  Epoch[4] Time cost=0.016
+2023-11-08 04:15:44,701 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0004.params"
+2023-11-08 04:15:44,702 [INFO]  Epoch[4] Validation-cross-entropy=13.858661
+2023-11-08 04:15:44,702 [INFO]  Epoch[4] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 04:15:44,702 [INFO]  
+========== done (0.10312962532043457 s) fit model
+2023-11-08 06:03:56,091 [INFO]  
+========== start: fit model
+2023-11-08 06:03:56,091 [WARNING]  Already bound, ignoring bind()
+2023-11-08 06:03:56,104 [INFO]  Epoch[0] Batch [0-4]	Speed: 6866.76 samples/sec	cross-entropy=67.822296	SpMin2_Bhi-accuracy=0.000000
+2023-11-08 06:03:56,111 [INFO]  Epoch[0] Train-cross-entropy=79.158086
+2023-11-08 06:03:56,111 [INFO]  Epoch[0] Train-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 06:03:56,111 [INFO]  Epoch[0] Time cost=0.019
+2023-11-08 06:03:56,114 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0000.params"
+2023-11-08 06:03:56,115 [INFO]  Epoch[0] Validation-cross-entropy=30.798771
+2023-11-08 06:03:56,115 [INFO]  Epoch[0] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 06:03:56,123 [INFO]  Epoch[1] Batch [0-4]	Speed: 11217.06 samples/sec	cross-entropy=91.865499	SpMin2_Bhi-accuracy=0.000000
+2023-11-08 06:03:56,128 [INFO]  Epoch[1] Train-cross-entropy=101.611041
+2023-11-08 06:03:56,128 [INFO]  Epoch[1] Train-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 06:03:56,128 [INFO]  Epoch[1] Time cost=0.012
+2023-11-08 06:03:56,130 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0001.params"
+2023-11-08 06:03:56,131 [INFO]  Epoch[1] Validation-cross-entropy=24.493050
+2023-11-08 06:03:56,131 [INFO]  Epoch[1] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 06:03:56,138 [INFO]  Epoch[2] Batch [0-4]	Speed: 12070.48 samples/sec	cross-entropy=22.279926	SpMin2_Bhi-accuracy=0.000000
+2023-11-08 06:03:56,142 [INFO]  Epoch[2] Train-cross-entropy=22.439899
+2023-11-08 06:03:56,142 [INFO]  Epoch[2] Train-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 06:03:56,142 [INFO]  Epoch[2] Time cost=0.011
+2023-11-08 06:03:56,144 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0002.params"
+2023-11-08 06:03:56,144 [INFO]  Epoch[2] Validation-cross-entropy=16.624634
+2023-11-08 06:03:56,145 [INFO]  Epoch[2] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 06:03:56,156 [INFO]  Epoch[3] Batch [0-4]	Speed: 7348.16 samples/sec	cross-entropy=24.093620	SpMin2_Bhi-accuracy=0.000000
+2023-11-08 06:03:56,162 [INFO]  Epoch[3] Train-cross-entropy=20.577553
+2023-11-08 06:03:56,162 [INFO]  Epoch[3] Train-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 06:03:56,162 [INFO]  Epoch[3] Time cost=0.018
+2023-11-08 06:03:56,164 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0003.params"
+2023-11-08 06:03:56,165 [INFO]  Epoch[3] Validation-cross-entropy=31.963039
+2023-11-08 06:03:56,165 [INFO]  Epoch[3] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 06:03:56,176 [INFO]  Epoch[4] Batch [0-4]	Speed: 7853.58 samples/sec	cross-entropy=27.024719	SpMin2_Bhi-accuracy=0.000000
+2023-11-08 06:03:56,182 [INFO]  Epoch[4] Train-cross-entropy=20.761049
+2023-11-08 06:03:56,182 [INFO]  Epoch[4] Train-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 06:03:56,182 [INFO]  Epoch[4] Time cost=0.017
+2023-11-08 06:03:56,184 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0004.params"
+2023-11-08 06:03:56,185 [INFO]  Epoch[4] Validation-cross-entropy=19.665051
+2023-11-08 06:03:56,185 [INFO]  Epoch[4] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 06:03:56,185 [INFO]  
+========== done (0.09436893463134766 s) fit model
+2023-11-08 07:52:15,562 [INFO]  
+========== start: fit model
+2023-11-08 07:52:15,562 [WARNING]  Already bound, ignoring bind()
+2023-11-08 07:52:15,576 [INFO]  Epoch[0] Batch [0-4]	Speed: 6627.22 samples/sec	cross-entropy=60.800420	SpMin2_Bhi-accuracy=0.000000
+2023-11-08 07:52:15,582 [INFO]  Epoch[0] Train-cross-entropy=58.378669
+2023-11-08 07:52:15,582 [INFO]  Epoch[0] Train-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 07:52:15,582 [INFO]  Epoch[0] Time cost=0.020
+2023-11-08 07:52:15,585 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0000.params"
+2023-11-08 07:52:15,586 [INFO]  Epoch[0] Validation-cross-entropy=38.671158
+2023-11-08 07:52:15,587 [INFO]  Epoch[0] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 07:52:15,594 [INFO]  Epoch[1] Batch [0-4]	Speed: 10892.09 samples/sec	cross-entropy=210.256438	SpMin2_Bhi-accuracy=0.000000
+2023-11-08 07:52:15,599 [INFO]  Epoch[1] Train-cross-entropy=167.784126
+2023-11-08 07:52:15,599 [INFO]  Epoch[1] Train-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 07:52:15,599 [INFO]  Epoch[1] Time cost=0.012
+2023-11-08 07:52:15,601 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0001.params"
+2023-11-08 07:52:15,602 [INFO]  Epoch[1] Validation-cross-entropy=48.762978
+2023-11-08 07:52:15,602 [INFO]  Epoch[1] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 07:52:15,609 [INFO]  Epoch[2] Batch [0-4]	Speed: 11480.43 samples/sec	cross-entropy=147.548012	SpMin2_Bhi-accuracy=0.000000
+2023-11-08 07:52:15,614 [INFO]  Epoch[2] Train-cross-entropy=111.855768
+2023-11-08 07:52:15,614 [INFO]  Epoch[2] Train-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 07:52:15,614 [INFO]  Epoch[2] Time cost=0.012
+2023-11-08 07:52:15,616 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0002.params"
+2023-11-08 07:52:15,616 [INFO]  Epoch[2] Validation-cross-entropy=28.316938
+2023-11-08 07:52:15,617 [INFO]  Epoch[2] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 07:52:15,628 [INFO]  Epoch[3] Batch [0-4]	Speed: 7312.13 samples/sec	cross-entropy=39.590817	SpMin2_Bhi-accuracy=0.000000
+2023-11-08 07:52:15,634 [INFO]  Epoch[3] Train-cross-entropy=37.974887
+2023-11-08 07:52:15,634 [INFO]  Epoch[3] Train-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 07:52:15,634 [INFO]  Epoch[3] Time cost=0.017
+2023-11-08 07:52:15,636 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0003.params"
+2023-11-08 07:52:15,637 [INFO]  Epoch[3] Validation-cross-entropy=6.549767
+2023-11-08 07:52:15,637 [INFO]  Epoch[3] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 07:52:15,648 [INFO]  Epoch[4] Batch [0-4]	Speed: 7505.53 samples/sec	cross-entropy=12.035422	SpMin2_Bhi-accuracy=0.000000
+2023-11-08 07:52:15,655 [INFO]  Epoch[4] Train-cross-entropy=11.371997
+2023-11-08 07:52:15,655 [INFO]  Epoch[4] Train-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 07:52:15,655 [INFO]  Epoch[4] Time cost=0.017
+2023-11-08 07:52:15,658 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0004.params"
+2023-11-08 07:52:15,659 [INFO]  Epoch[4] Validation-cross-entropy=9.308697
+2023-11-08 07:52:15,659 [INFO]  Epoch[4] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 07:52:15,659 [INFO]  
+========== done (0.09731411933898926 s) fit model
+2023-11-08 09:41:05,893 [INFO]  
+========== start: fit model
+2023-11-08 09:41:05,893 [WARNING]  Already bound, ignoring bind()
+2023-11-08 09:41:05,906 [INFO]  Epoch[0] Batch [0-4]	Speed: 7517.52 samples/sec	cross-entropy=75.436697	SpMin2_Bhi-accuracy=0.000000
+2023-11-08 09:41:05,912 [INFO]  Epoch[0] Train-cross-entropy=59.815985
+2023-11-08 09:41:05,913 [INFO]  Epoch[0] Train-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 09:41:05,913 [INFO]  Epoch[0] Time cost=0.019
+2023-11-08 09:41:05,914 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0000.params"
+2023-11-08 09:41:05,915 [INFO]  Epoch[0] Validation-cross-entropy=20.037315
+2023-11-08 09:41:05,915 [INFO]  Epoch[0] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 09:41:05,924 [INFO]  Epoch[1] Batch [0-4]	Speed: 9246.83 samples/sec	cross-entropy=61.591096	SpMin2_Bhi-accuracy=0.000000
+2023-11-08 09:41:05,929 [INFO]  Epoch[1] Train-cross-entropy=58.092637
+2023-11-08 09:41:05,929 [INFO]  Epoch[1] Train-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 09:41:05,929 [INFO]  Epoch[1] Time cost=0.014
+2023-11-08 09:41:05,932 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0001.params"
+2023-11-08 09:41:05,932 [INFO]  Epoch[1] Validation-cross-entropy=7.447454
+2023-11-08 09:41:05,932 [INFO]  Epoch[1] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 09:41:05,941 [INFO]  Epoch[2] Batch [0-4]	Speed: 9174.46 samples/sec	cross-entropy=31.157735	SpMin2_Bhi-accuracy=0.000000
+2023-11-08 09:41:05,947 [INFO]  Epoch[2] Train-cross-entropy=42.871822
+2023-11-08 09:41:05,947 [INFO]  Epoch[2] Train-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 09:41:05,947 [INFO]  Epoch[2] Time cost=0.014
+2023-11-08 09:41:05,949 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0002.params"
+2023-11-08 09:41:05,950 [INFO]  Epoch[2] Validation-cross-entropy=2.985673
+2023-11-08 09:41:05,950 [INFO]  Epoch[2] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 09:41:05,959 [INFO]  Epoch[3] Batch [0-4]	Speed: 9398.67 samples/sec	cross-entropy=26.245563	SpMin2_Bhi-accuracy=0.000000
+2023-11-08 09:41:05,966 [INFO]  Epoch[3] Train-cross-entropy=21.844244
+2023-11-08 09:41:05,966 [INFO]  Epoch[3] Train-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 09:41:05,966 [INFO]  Epoch[3] Time cost=0.016
+2023-11-08 09:41:05,968 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0003.params"
+2023-11-08 09:41:05,969 [INFO]  Epoch[3] Validation-cross-entropy=18.922226
+2023-11-08 09:41:05,970 [INFO]  Epoch[3] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 09:41:05,980 [INFO]  Epoch[4] Batch [0-4]	Speed: 7493.17 samples/sec	cross-entropy=25.781459	SpMin2_Bhi-accuracy=0.000000
+2023-11-08 09:41:05,987 [INFO]  Epoch[4] Train-cross-entropy=18.448740
+2023-11-08 09:41:05,987 [INFO]  Epoch[4] Train-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 09:41:05,987 [INFO]  Epoch[4] Time cost=0.018
+2023-11-08 09:41:05,990 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0004.params"
+2023-11-08 09:41:05,991 [INFO]  Epoch[4] Validation-cross-entropy=13.480249
+2023-11-08 09:41:05,991 [INFO]  Epoch[4] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 09:41:05,991 [INFO]  
+========== done (0.09790277481079102 s) fit model
+2023-11-08 11:31:21,430 [INFO]  
+========== start: fit model
+2023-11-08 11:31:21,430 [WARNING]  Already bound, ignoring bind()
+2023-11-08 11:31:21,444 [INFO]  Epoch[0] Batch [0-4]	Speed: 6605.53 samples/sec	cross-entropy=73.414614	SpMin2_Bhi-accuracy=0.000000
+2023-11-08 11:31:21,451 [INFO]  Epoch[0] Train-cross-entropy=78.471917
+2023-11-08 11:31:21,452 [INFO]  Epoch[0] Train-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 11:31:21,452 [INFO]  Epoch[0] Time cost=0.021
+2023-11-08 11:31:21,455 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0000.params"
+2023-11-08 11:31:21,456 [INFO]  Epoch[0] Validation-cross-entropy=20.688303
+2023-11-08 11:31:21,457 [INFO]  Epoch[0] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 11:31:21,468 [INFO]  Epoch[1] Batch [0-4]	Speed: 7101.47 samples/sec	cross-entropy=122.291170	SpMin2_Bhi-accuracy=0.000000
+2023-11-08 11:31:21,475 [INFO]  Epoch[1] Train-cross-entropy=144.109458
+2023-11-08 11:31:21,475 [INFO]  Epoch[1] Train-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 11:31:21,475 [INFO]  Epoch[1] Time cost=0.019
+2023-11-08 11:31:21,478 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0001.params"
+2023-11-08 11:31:21,479 [INFO]  Epoch[1] Validation-cross-entropy=37.344147
+2023-11-08 11:31:21,479 [INFO]  Epoch[1] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 11:31:21,491 [INFO]  Epoch[2] Batch [0-4]	Speed: 7380.28 samples/sec	cross-entropy=65.210579	SpMin2_Bhi-accuracy=0.000000
+2023-11-08 11:31:21,497 [INFO]  Epoch[2] Train-cross-entropy=51.375258
+2023-11-08 11:31:21,497 [INFO]  Epoch[2] Train-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 11:31:21,497 [INFO]  Epoch[2] Time cost=0.017
+2023-11-08 11:31:21,500 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0002.params"
+2023-11-08 11:31:21,501 [INFO]  Epoch[2] Validation-cross-entropy=14.753528
+2023-11-08 11:31:21,501 [INFO]  Epoch[2] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 11:31:21,513 [INFO]  Epoch[3] Batch [0-4]	Speed: 7073.77 samples/sec	cross-entropy=40.863141	SpMin2_Bhi-accuracy=0.000000
+2023-11-08 11:31:21,520 [INFO]  Epoch[3] Train-cross-entropy=31.525432
+2023-11-08 11:31:21,520 [INFO]  Epoch[3] Train-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 11:31:21,520 [INFO]  Epoch[3] Time cost=0.019
+2023-11-08 11:31:21,523 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0003.params"
+2023-11-08 11:31:21,524 [INFO]  Epoch[3] Validation-cross-entropy=2.743733
+2023-11-08 11:31:21,524 [INFO]  Epoch[3] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 11:31:21,535 [INFO]  Epoch[4] Batch [0-4]	Speed: 7344.94 samples/sec	cross-entropy=8.692618	SpMin2_Bhi-accuracy=0.000000
+2023-11-08 11:31:21,542 [INFO]  Epoch[4] Train-cross-entropy=7.061211
+2023-11-08 11:31:21,542 [INFO]  Epoch[4] Train-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 11:31:21,542 [INFO]  Epoch[4] Time cost=0.018
+2023-11-08 11:31:21,545 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_SpMin2_Bhi/model-0004.params"
+2023-11-08 11:31:21,546 [INFO]  Epoch[4] Validation-cross-entropy=2.412365
+2023-11-08 11:31:21,546 [INFO]  Epoch[4] Validation-SpMin2_Bhi-accuracy=0.000000
+2023-11-08 11:31:21,546 [INFO]  
+========== done (0.11597394943237305 s) fit model

@@ -1,0 +1,360 @@
+2023-11-07 21:15:10,970 [INFO]  
+========== start: fit model
+2023-11-07 21:15:10,970 [WARNING]  Already bound, ignoring bind()
+2023-11-07 21:15:10,985 [INFO]  Epoch[0] Batch [0-4]	Speed: 6599.84 samples/sec	cross-entropy=29.993011	ATSC7m-accuracy=1.800000
+2023-11-07 21:15:10,992 [INFO]  Epoch[0] Train-cross-entropy=34.355055
+2023-11-07 21:15:10,992 [INFO]  Epoch[0] Train-ATSC7m-accuracy=2.500000
+2023-11-07 21:15:10,992 [INFO]  Epoch[0] Time cost=0.022
+2023-11-07 21:15:10,996 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0000.params"
+2023-11-07 21:15:10,997 [INFO]  Epoch[0] Validation-cross-entropy=411.986053
+2023-11-07 21:15:10,997 [INFO]  Epoch[0] Validation-ATSC7m-accuracy=0.000000
+2023-11-07 21:15:11,008 [INFO]  Epoch[1] Batch [0-4]	Speed: 7452.19 samples/sec	cross-entropy=122.682579	ATSC7m-accuracy=1.800000
+2023-11-07 21:15:11,013 [INFO]  Epoch[1] Train-cross-entropy=265.453982
+2023-11-07 21:15:11,013 [INFO]  Epoch[1] Train-ATSC7m-accuracy=2.500000
+2023-11-07 21:15:11,013 [INFO]  Epoch[1] Time cost=0.016
+2023-11-07 21:15:11,016 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0001.params"
+2023-11-07 21:15:11,017 [INFO]  Epoch[1] Validation-cross-entropy=43.823273
+2023-11-07 21:15:11,017 [INFO]  Epoch[1] Validation-ATSC7m-accuracy=0.000000
+2023-11-07 21:15:11,023 [INFO]  Epoch[2] Batch [0-4]	Speed: 12741.99 samples/sec	cross-entropy=136.057778	ATSC7m-accuracy=1.800000
+2023-11-07 21:15:11,027 [INFO]  Epoch[2] Train-cross-entropy=319.968738
+2023-11-07 21:15:11,027 [INFO]  Epoch[2] Train-ATSC7m-accuracy=2.500000
+2023-11-07 21:15:11,027 [INFO]  Epoch[2] Time cost=0.010
+2023-11-07 21:15:11,029 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0002.params"
+2023-11-07 21:15:11,030 [INFO]  Epoch[2] Validation-cross-entropy=1810.983887
+2023-11-07 21:15:11,030 [INFO]  Epoch[2] Validation-ATSC7m-accuracy=0.000000
+2023-11-07 21:15:11,036 [INFO]  Epoch[3] Batch [0-4]	Speed: 12814.37 samples/sec	cross-entropy=164.223953	ATSC7m-accuracy=1.800000
+2023-11-07 21:15:11,040 [INFO]  Epoch[3] Train-cross-entropy=117.866725
+2023-11-07 21:15:11,040 [INFO]  Epoch[3] Train-ATSC7m-accuracy=2.500000
+2023-11-07 21:15:11,040 [INFO]  Epoch[3] Time cost=0.010
+2023-11-07 21:15:11,043 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0003.params"
+2023-11-07 21:15:11,043 [INFO]  Epoch[3] Validation-cross-entropy=457.552246
+2023-11-07 21:15:11,043 [INFO]  Epoch[3] Validation-ATSC7m-accuracy=0.000000
+2023-11-07 21:15:11,054 [INFO]  Epoch[4] Batch [0-4]	Speed: 7452.19 samples/sec	cross-entropy=46.267332	ATSC7m-accuracy=1.800000
+2023-11-07 21:15:11,061 [INFO]  Epoch[4] Train-cross-entropy=39.125635
+2023-11-07 21:15:11,061 [INFO]  Epoch[4] Train-ATSC7m-accuracy=2.500000
+2023-11-07 21:15:11,061 [INFO]  Epoch[4] Time cost=0.018
+2023-11-07 21:15:11,064 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0004.params"
+2023-11-07 21:15:11,065 [INFO]  Epoch[4] Validation-cross-entropy=33.060188
+2023-11-07 21:15:11,065 [INFO]  Epoch[4] Validation-ATSC7m-accuracy=0.000000
+2023-11-07 21:15:11,065 [INFO]  
+========== done (0.09535050392150879 s) fit model
+2023-11-07 23:01:57,666 [INFO]  
+========== start: fit model
+2023-11-07 23:01:57,666 [WARNING]  Already bound, ignoring bind()
+2023-11-07 23:01:57,679 [INFO]  Epoch[0] Batch [0-4]	Speed: 7816.54 samples/sec	cross-entropy=49.076111	ATSC7m-accuracy=0.000000
+2023-11-07 23:01:57,685 [INFO]  Epoch[0] Train-cross-entropy=51.550084
+2023-11-07 23:01:57,685 [INFO]  Epoch[0] Train-ATSC7m-accuracy=0.000000
+2023-11-07 23:01:57,685 [INFO]  Epoch[0] Time cost=0.018
+2023-11-07 23:01:57,689 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0000.params"
+2023-11-07 23:01:57,690 [INFO]  Epoch[0] Validation-cross-entropy=99.274338
+2023-11-07 23:01:57,690 [INFO]  Epoch[0] Validation-ATSC7m-accuracy=0.000000
+2023-11-07 23:01:57,701 [INFO]  Epoch[1] Batch [0-4]	Speed: 7700.61 samples/sec	cross-entropy=291.113802	ATSC7m-accuracy=0.000000
+2023-11-07 23:01:57,708 [INFO]  Epoch[1] Train-cross-entropy=235.312651
+2023-11-07 23:01:57,708 [INFO]  Epoch[1] Train-ATSC7m-accuracy=0.000000
+2023-11-07 23:01:57,708 [INFO]  Epoch[1] Time cost=0.018
+2023-11-07 23:01:57,711 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0001.params"
+2023-11-07 23:01:57,712 [INFO]  Epoch[1] Validation-cross-entropy=37.011417
+2023-11-07 23:01:57,712 [INFO]  Epoch[1] Validation-ATSC7m-accuracy=0.000000
+2023-11-07 23:01:57,723 [INFO]  Epoch[2] Batch [0-4]	Speed: 7498.41 samples/sec	cross-entropy=368.065429	ATSC7m-accuracy=0.000000
+2023-11-07 23:01:57,730 [INFO]  Epoch[2] Train-cross-entropy=245.567160
+2023-11-07 23:01:57,730 [INFO]  Epoch[2] Train-ATSC7m-accuracy=0.000000
+2023-11-07 23:01:57,730 [INFO]  Epoch[2] Time cost=0.018
+2023-11-07 23:01:57,733 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0002.params"
+2023-11-07 23:01:57,734 [INFO]  Epoch[2] Validation-cross-entropy=24.865757
+2023-11-07 23:01:57,734 [INFO]  Epoch[2] Validation-ATSC7m-accuracy=0.000000
+2023-11-07 23:01:57,744 [INFO]  Epoch[3] Batch [0-4]	Speed: 8001.77 samples/sec	cross-entropy=25.906417	ATSC7m-accuracy=0.000000
+2023-11-07 23:01:57,750 [INFO]  Epoch[3] Train-cross-entropy=22.267689
+2023-11-07 23:01:57,750 [INFO]  Epoch[3] Train-ATSC7m-accuracy=0.000000
+2023-11-07 23:01:57,751 [INFO]  Epoch[3] Time cost=0.016
+2023-11-07 23:01:57,753 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0003.params"
+2023-11-07 23:01:57,754 [INFO]  Epoch[3] Validation-cross-entropy=16.683931
+2023-11-07 23:01:57,755 [INFO]  Epoch[3] Validation-ATSC7m-accuracy=0.000000
+2023-11-07 23:01:57,764 [INFO]  Epoch[4] Batch [0-4]	Speed: 8249.40 samples/sec	cross-entropy=19.335229	ATSC7m-accuracy=0.000000
+2023-11-07 23:01:57,770 [INFO]  Epoch[4] Train-cross-entropy=15.136452
+2023-11-07 23:01:57,771 [INFO]  Epoch[4] Train-ATSC7m-accuracy=0.000000
+2023-11-07 23:01:57,771 [INFO]  Epoch[4] Time cost=0.016
+2023-11-07 23:01:57,773 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0004.params"
+2023-11-07 23:01:57,774 [INFO]  Epoch[4] Validation-cross-entropy=37.213940
+2023-11-07 23:01:57,774 [INFO]  Epoch[4] Validation-ATSC7m-accuracy=0.000000
+2023-11-07 23:01:57,775 [INFO]  
+========== done (0.10853862762451172 s) fit model
+2023-11-08 00:48:33,136 [INFO]  
+========== start: fit model
+2023-11-08 00:48:33,136 [WARNING]  Already bound, ignoring bind()
+2023-11-08 00:48:33,149 [INFO]  Epoch[0] Batch [0-4]	Speed: 7096.77 samples/sec	cross-entropy=56.621810	ATSC7m-accuracy=3.600000
+2023-11-08 00:48:33,156 [INFO]  Epoch[0] Train-cross-entropy=52.616966
+2023-11-08 00:48:33,156 [INFO]  Epoch[0] Train-ATSC7m-accuracy=2.875000
+2023-11-08 00:48:33,156 [INFO]  Epoch[0] Time cost=0.020
+2023-11-08 00:48:33,160 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0000.params"
+2023-11-08 00:48:33,161 [INFO]  Epoch[0] Validation-cross-entropy=56.979912
+2023-11-08 00:48:33,161 [INFO]  Epoch[0] Validation-ATSC7m-accuracy=0.000000
+2023-11-08 00:48:33,169 [INFO]  Epoch[1] Batch [0-4]	Speed: 10947.61 samples/sec	cross-entropy=79.409844	ATSC7m-accuracy=3.600000
+2023-11-08 00:48:33,173 [INFO]  Epoch[1] Train-cross-entropy=114.381402
+2023-11-08 00:48:33,173 [INFO]  Epoch[1] Train-ATSC7m-accuracy=2.875000
+2023-11-08 00:48:33,173 [INFO]  Epoch[1] Time cost=0.012
+2023-11-08 00:48:33,175 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0001.params"
+2023-11-08 00:48:33,176 [INFO]  Epoch[1] Validation-cross-entropy=34.041668
+2023-11-08 00:48:33,176 [INFO]  Epoch[1] Validation-ATSC7m-accuracy=0.000000
+2023-11-08 00:48:33,188 [INFO]  Epoch[2] Batch [0-4]	Speed: 7098.09 samples/sec	cross-entropy=79.164381	ATSC7m-accuracy=3.600000
+2023-11-08 00:48:33,194 [INFO]  Epoch[2] Train-cross-entropy=70.369493
+2023-11-08 00:48:33,195 [INFO]  Epoch[2] Train-ATSC7m-accuracy=2.875000
+2023-11-08 00:48:33,195 [INFO]  Epoch[2] Time cost=0.018
+2023-11-08 00:48:33,197 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0002.params"
+2023-11-08 00:48:33,198 [INFO]  Epoch[2] Validation-cross-entropy=17.523045
+2023-11-08 00:48:33,199 [INFO]  Epoch[2] Validation-ATSC7m-accuracy=0.000000
+2023-11-08 00:48:33,209 [INFO]  Epoch[3] Batch [0-4]	Speed: 7821.55 samples/sec	cross-entropy=32.881119	ATSC7m-accuracy=3.600000
+2023-11-08 00:48:33,215 [INFO]  Epoch[3] Train-cross-entropy=32.844950
+2023-11-08 00:48:33,216 [INFO]  Epoch[3] Train-ATSC7m-accuracy=2.875000
+2023-11-08 00:48:33,216 [INFO]  Epoch[3] Time cost=0.017
+2023-11-08 00:48:33,219 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0003.params"
+2023-11-08 00:48:33,219 [INFO]  Epoch[3] Validation-cross-entropy=17.858908
+2023-11-08 00:48:33,220 [INFO]  Epoch[3] Validation-ATSC7m-accuracy=0.000000
+2023-11-08 00:48:33,231 [INFO]  Epoch[4] Batch [0-4]	Speed: 6852.74 samples/sec	cross-entropy=8.862716	ATSC7m-accuracy=3.600000
+2023-11-08 00:48:33,239 [INFO]  Epoch[4] Train-cross-entropy=7.557596
+2023-11-08 00:48:33,239 [INFO]  Epoch[4] Train-ATSC7m-accuracy=2.875000
+2023-11-08 00:48:33,239 [INFO]  Epoch[4] Time cost=0.019
+2023-11-08 00:48:33,242 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0004.params"
+2023-11-08 00:48:33,243 [INFO]  Epoch[4] Validation-cross-entropy=11.533691
+2023-11-08 00:48:33,243 [INFO]  Epoch[4] Validation-ATSC7m-accuracy=0.000000
+2023-11-08 00:48:33,244 [INFO]  
+========== done (0.1079559326171875 s) fit model
+2023-11-08 02:35:59,036 [INFO]  
+========== start: fit model
+2023-11-08 02:35:59,036 [WARNING]  Already bound, ignoring bind()
+2023-11-08 02:35:59,051 [INFO]  Epoch[0] Batch [0-4]	Speed: 6496.03 samples/sec	cross-entropy=40.011107	ATSC7m-accuracy=0.000000
+2023-11-08 02:35:59,059 [INFO]  Epoch[0] Train-cross-entropy=51.721055
+2023-11-08 02:35:59,059 [INFO]  Epoch[0] Train-ATSC7m-accuracy=0.000000
+2023-11-08 02:35:59,059 [INFO]  Epoch[0] Time cost=0.022
+2023-11-08 02:35:59,062 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0000.params"
+2023-11-08 02:35:59,064 [INFO]  Epoch[0] Validation-cross-entropy=66.025078
+2023-11-08 02:35:59,064 [INFO]  Epoch[0] Validation-ATSC7m-accuracy=0.000000
+2023-11-08 02:35:59,076 [INFO]  Epoch[1] Batch [0-4]	Speed: 6839.47 samples/sec	cross-entropy=153.677249	ATSC7m-accuracy=0.000000
+2023-11-08 02:35:59,082 [INFO]  Epoch[1] Train-cross-entropy=120.583995
+2023-11-08 02:35:59,082 [INFO]  Epoch[1] Train-ATSC7m-accuracy=0.000000
+2023-11-08 02:35:59,082 [INFO]  Epoch[1] Time cost=0.018
+2023-11-08 02:35:59,086 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0001.params"
+2023-11-08 02:35:59,087 [INFO]  Epoch[1] Validation-cross-entropy=29.194351
+2023-11-08 02:35:59,087 [INFO]  Epoch[1] Validation-ATSC7m-accuracy=0.000000
+2023-11-08 02:35:59,098 [INFO]  Epoch[2] Batch [0-4]	Speed: 7525.74 samples/sec	cross-entropy=126.645498	ATSC7m-accuracy=0.000000
+2023-11-08 02:35:59,104 [INFO]  Epoch[2] Train-cross-entropy=86.896658
+2023-11-08 02:35:59,104 [INFO]  Epoch[2] Train-ATSC7m-accuracy=0.000000
+2023-11-08 02:35:59,104 [INFO]  Epoch[2] Time cost=0.018
+2023-11-08 02:35:59,107 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0002.params"
+2023-11-08 02:35:59,108 [INFO]  Epoch[2] Validation-cross-entropy=17.625652
+2023-11-08 02:35:59,108 [INFO]  Epoch[2] Validation-ATSC7m-accuracy=0.000000
+2023-11-08 02:35:59,119 [INFO]  Epoch[3] Batch [0-4]	Speed: 7440.01 samples/sec	cross-entropy=30.728957	ATSC7m-accuracy=0.000000
+2023-11-08 02:35:59,126 [INFO]  Epoch[3] Train-cross-entropy=24.505871
+2023-11-08 02:35:59,126 [INFO]  Epoch[3] Train-ATSC7m-accuracy=0.000000
+2023-11-08 02:35:59,126 [INFO]  Epoch[3] Time cost=0.018
+2023-11-08 02:35:59,129 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0003.params"
+2023-11-08 02:35:59,130 [INFO]  Epoch[3] Validation-cross-entropy=17.023252
+2023-11-08 02:35:59,130 [INFO]  Epoch[3] Validation-ATSC7m-accuracy=0.000000
+2023-11-08 02:35:59,141 [INFO]  Epoch[4] Batch [0-4]	Speed: 7825.19 samples/sec	cross-entropy=11.079993	ATSC7m-accuracy=0.000000
+2023-11-08 02:35:59,147 [INFO]  Epoch[4] Train-cross-entropy=11.177976
+2023-11-08 02:35:59,147 [INFO]  Epoch[4] Train-ATSC7m-accuracy=0.000000
+2023-11-08 02:35:59,147 [INFO]  Epoch[4] Time cost=0.017
+2023-11-08 02:35:59,151 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0004.params"
+2023-11-08 02:35:59,152 [INFO]  Epoch[4] Validation-cross-entropy=30.245348
+2023-11-08 02:35:59,152 [INFO]  Epoch[4] Validation-ATSC7m-accuracy=0.000000
+2023-11-08 02:35:59,152 [INFO]  
+========== done (0.11629199981689453 s) fit model
+2023-11-08 04:23:56,911 [INFO]  
+========== start: fit model
+2023-11-08 04:23:56,911 [WARNING]  Already bound, ignoring bind()
+2023-11-08 04:23:56,926 [INFO]  Epoch[0] Batch [0-4]	Speed: 6570.12 samples/sec	cross-entropy=52.999025	ATSC7m-accuracy=0.000000
+2023-11-08 04:23:56,933 [INFO]  Epoch[0] Train-cross-entropy=67.151088
+2023-11-08 04:23:56,933 [INFO]  Epoch[0] Train-ATSC7m-accuracy=0.000000
+2023-11-08 04:23:56,933 [INFO]  Epoch[0] Time cost=0.021
+2023-11-08 04:23:56,938 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0000.params"
+2023-11-08 04:23:56,939 [INFO]  Epoch[0] Validation-cross-entropy=40.781902
+2023-11-08 04:23:56,939 [INFO]  Epoch[0] Validation-ATSC7m-accuracy=0.000000
+2023-11-08 04:23:56,951 [INFO]  Epoch[1] Batch [0-4]	Speed: 7263.65 samples/sec	cross-entropy=137.842693	ATSC7m-accuracy=0.000000
+2023-11-08 04:23:56,957 [INFO]  Epoch[1] Train-cross-entropy=194.116486
+2023-11-08 04:23:56,957 [INFO]  Epoch[1] Train-ATSC7m-accuracy=0.000000
+2023-11-08 04:23:56,957 [INFO]  Epoch[1] Time cost=0.018
+2023-11-08 04:23:56,960 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0001.params"
+2023-11-08 04:23:56,961 [INFO]  Epoch[1] Validation-cross-entropy=14.908886
+2023-11-08 04:23:56,962 [INFO]  Epoch[1] Validation-ATSC7m-accuracy=0.000000
+2023-11-08 04:23:56,972 [INFO]  Epoch[2] Batch [0-4]	Speed: 7637.51 samples/sec	cross-entropy=96.537420	ATSC7m-accuracy=0.000000
+2023-11-08 04:23:56,979 [INFO]  Epoch[2] Train-cross-entropy=113.619698
+2023-11-08 04:23:56,979 [INFO]  Epoch[2] Train-ATSC7m-accuracy=0.000000
+2023-11-08 04:23:56,979 [INFO]  Epoch[2] Time cost=0.017
+2023-11-08 04:23:56,982 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0002.params"
+2023-11-08 04:23:56,983 [INFO]  Epoch[2] Validation-cross-entropy=25.570532
+2023-11-08 04:23:56,983 [INFO]  Epoch[2] Validation-ATSC7m-accuracy=0.000000
+2023-11-08 04:23:56,995 [INFO]  Epoch[3] Batch [0-4]	Speed: 7047.21 samples/sec	cross-entropy=46.368353	ATSC7m-accuracy=0.000000
+2023-11-08 04:23:57,002 [INFO]  Epoch[3] Train-cross-entropy=40.036574
+2023-11-08 04:23:57,002 [INFO]  Epoch[3] Train-ATSC7m-accuracy=0.000000
+2023-11-08 04:23:57,002 [INFO]  Epoch[3] Time cost=0.019
+2023-11-08 04:23:57,006 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0003.params"
+2023-11-08 04:23:57,007 [INFO]  Epoch[3] Validation-cross-entropy=13.754915
+2023-11-08 04:23:57,007 [INFO]  Epoch[3] Validation-ATSC7m-accuracy=0.000000
+2023-11-08 04:23:57,018 [INFO]  Epoch[4] Batch [0-4]	Speed: 7411.45 samples/sec	cross-entropy=17.148068	ATSC7m-accuracy=0.000000
+2023-11-08 04:23:57,025 [INFO]  Epoch[4] Train-cross-entropy=14.267133
+2023-11-08 04:23:57,025 [INFO]  Epoch[4] Train-ATSC7m-accuracy=0.000000
+2023-11-08 04:23:57,025 [INFO]  Epoch[4] Time cost=0.018
+2023-11-08 04:23:57,029 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0004.params"
+2023-11-08 04:23:57,030 [INFO]  Epoch[4] Validation-cross-entropy=5.519568
+2023-11-08 04:23:57,030 [INFO]  Epoch[4] Validation-ATSC7m-accuracy=0.000000
+2023-11-08 04:23:57,030 [INFO]  
+========== done (0.11887907981872559 s) fit model
+2023-11-08 06:12:05,011 [INFO]  
+========== start: fit model
+2023-11-08 06:12:05,011 [WARNING]  Already bound, ignoring bind()
+2023-11-08 06:12:05,025 [INFO]  Epoch[0] Batch [0-4]	Speed: 7118.79 samples/sec	cross-entropy=43.493443	ATSC7m-accuracy=4.200000
+2023-11-08 06:12:05,031 [INFO]  Epoch[0] Train-cross-entropy=59.837470
+2023-11-08 06:12:05,031 [INFO]  Epoch[0] Train-ATSC7m-accuracy=3.250000
+2023-11-08 06:12:05,032 [INFO]  Epoch[0] Time cost=0.020
+2023-11-08 06:12:05,035 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0000.params"
+2023-11-08 06:12:05,036 [INFO]  Epoch[0] Validation-cross-entropy=28.487467
+2023-11-08 06:12:05,036 [INFO]  Epoch[0] Validation-ATSC7m-accuracy=0.000000
+2023-11-08 06:12:05,045 [INFO]  Epoch[1] Batch [0-4]	Speed: 9605.51 samples/sec	cross-entropy=184.913763	ATSC7m-accuracy=4.200000
+2023-11-08 06:12:05,050 [INFO]  Epoch[1] Train-cross-entropy=215.217690
+2023-11-08 06:12:05,051 [INFO]  Epoch[1] Train-ATSC7m-accuracy=3.250000
+2023-11-08 06:12:05,051 [INFO]  Epoch[1] Time cost=0.015
+2023-11-08 06:12:05,054 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0001.params"
+2023-11-08 06:12:05,056 [INFO]  Epoch[1] Validation-cross-entropy=63.243351
+2023-11-08 06:12:05,056 [INFO]  Epoch[1] Validation-ATSC7m-accuracy=0.000000
+2023-11-08 06:12:05,064 [INFO]  Epoch[2] Batch [0-4]	Speed: 10362.70 samples/sec	cross-entropy=92.564314	ATSC7m-accuracy=4.200000
+2023-11-08 06:12:05,069 [INFO]  Epoch[2] Train-cross-entropy=66.582797
+2023-11-08 06:12:05,069 [INFO]  Epoch[2] Train-ATSC7m-accuracy=3.250000
+2023-11-08 06:12:05,069 [INFO]  Epoch[2] Time cost=0.014
+2023-11-08 06:12:05,072 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0002.params"
+2023-11-08 06:12:05,073 [INFO]  Epoch[2] Validation-cross-entropy=41.068588
+2023-11-08 06:12:05,073 [INFO]  Epoch[2] Validation-ATSC7m-accuracy=0.000000
+2023-11-08 06:12:05,083 [INFO]  Epoch[3] Batch [0-4]	Speed: 8150.46 samples/sec	cross-entropy=43.537001	ATSC7m-accuracy=4.200000
+2023-11-08 06:12:05,090 [INFO]  Epoch[3] Train-cross-entropy=33.216904
+2023-11-08 06:12:05,090 [INFO]  Epoch[3] Train-ATSC7m-accuracy=3.250000
+2023-11-08 06:12:05,090 [INFO]  Epoch[3] Time cost=0.016
+2023-11-08 06:12:05,092 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0003.params"
+2023-11-08 06:12:05,093 [INFO]  Epoch[3] Validation-cross-entropy=28.310726
+2023-11-08 06:12:05,093 [INFO]  Epoch[3] Validation-ATSC7m-accuracy=0.000000
+2023-11-08 06:12:05,103 [INFO]  Epoch[4] Batch [0-4]	Speed: 8341.43 samples/sec	cross-entropy=15.776599	ATSC7m-accuracy=4.200000
+2023-11-08 06:12:05,109 [INFO]  Epoch[4] Train-cross-entropy=13.631068
+2023-11-08 06:12:05,109 [INFO]  Epoch[4] Train-ATSC7m-accuracy=3.250000
+2023-11-08 06:12:05,109 [INFO]  Epoch[4] Time cost=0.016
+2023-11-08 06:12:05,112 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0004.params"
+2023-11-08 06:12:05,113 [INFO]  Epoch[4] Validation-cross-entropy=23.213173
+2023-11-08 06:12:05,113 [INFO]  Epoch[4] Validation-ATSC7m-accuracy=0.000000
+2023-11-08 06:12:05,113 [INFO]  
+========== done (0.10205221176147461 s) fit model
+2023-11-08 08:00:27,958 [INFO]  
+========== start: fit model
+2023-11-08 08:00:27,958 [WARNING]  Already bound, ignoring bind()
+2023-11-08 08:00:27,971 [INFO]  Epoch[0] Batch [0-4]	Speed: 6888.26 samples/sec	cross-entropy=56.127972	ATSC7m-accuracy=0.000000
+2023-11-08 08:00:27,978 [INFO]  Epoch[0] Train-cross-entropy=56.258911
+2023-11-08 08:00:27,978 [INFO]  Epoch[0] Train-ATSC7m-accuracy=0.000000
+2023-11-08 08:00:27,978 [INFO]  Epoch[0] Time cost=0.019
+2023-11-08 08:00:27,982 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0000.params"
+2023-11-08 08:00:27,983 [INFO]  Epoch[0] Validation-cross-entropy=46.452435
+2023-11-08 08:00:27,983 [INFO]  Epoch[0] Validation-ATSC7m-accuracy=0.000000
+2023-11-08 08:00:27,991 [INFO]  Epoch[1] Batch [0-4]	Speed: 11344.10 samples/sec	cross-entropy=115.644160	ATSC7m-accuracy=0.000000
+2023-11-08 08:00:27,995 [INFO]  Epoch[1] Train-cross-entropy=118.146039
+2023-11-08 08:00:27,995 [INFO]  Epoch[1] Train-ATSC7m-accuracy=0.000000
+2023-11-08 08:00:27,995 [INFO]  Epoch[1] Time cost=0.012
+2023-11-08 08:00:27,997 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0001.params"
+2023-11-08 08:00:27,998 [INFO]  Epoch[1] Validation-cross-entropy=41.290020
+2023-11-08 08:00:27,998 [INFO]  Epoch[1] Validation-ATSC7m-accuracy=0.000000
+2023-11-08 08:00:28,005 [INFO]  Epoch[2] Batch [0-4]	Speed: 11807.15 samples/sec	cross-entropy=43.850241	ATSC7m-accuracy=0.000000
+2023-11-08 08:00:28,010 [INFO]  Epoch[2] Train-cross-entropy=59.281234
+2023-11-08 08:00:28,010 [INFO]  Epoch[2] Train-ATSC7m-accuracy=0.000000
+2023-11-08 08:00:28,010 [INFO]  Epoch[2] Time cost=0.012
+2023-11-08 08:00:28,012 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0002.params"
+2023-11-08 08:00:28,013 [INFO]  Epoch[2] Validation-cross-entropy=9.532465
+2023-11-08 08:00:28,013 [INFO]  Epoch[2] Validation-ATSC7m-accuracy=0.000000
+2023-11-08 08:00:28,021 [INFO]  Epoch[3] Batch [0-4]	Speed: 9677.19 samples/sec	cross-entropy=21.250044	ATSC7m-accuracy=0.000000
+2023-11-08 08:00:28,026 [INFO]  Epoch[3] Train-cross-entropy=17.658945
+2023-11-08 08:00:28,027 [INFO]  Epoch[3] Train-ATSC7m-accuracy=0.000000
+2023-11-08 08:00:28,027 [INFO]  Epoch[3] Time cost=0.014
+2023-11-08 08:00:28,029 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0003.params"
+2023-11-08 08:00:28,030 [INFO]  Epoch[3] Validation-cross-entropy=7.698046
+2023-11-08 08:00:28,030 [INFO]  Epoch[3] Validation-ATSC7m-accuracy=0.000000
+2023-11-08 08:00:28,038 [INFO]  Epoch[4] Batch [0-4]	Speed: 9846.51 samples/sec	cross-entropy=10.323600	ATSC7m-accuracy=0.000000
+2023-11-08 08:00:28,044 [INFO]  Epoch[4] Train-cross-entropy=9.225041
+2023-11-08 08:00:28,044 [INFO]  Epoch[4] Train-ATSC7m-accuracy=0.000000
+2023-11-08 08:00:28,044 [INFO]  Epoch[4] Time cost=0.014
+2023-11-08 08:00:28,046 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0004.params"
+2023-11-08 08:00:28,047 [INFO]  Epoch[4] Validation-cross-entropy=19.718327
+2023-11-08 08:00:28,047 [INFO]  Epoch[4] Validation-ATSC7m-accuracy=0.000000
+2023-11-08 08:00:28,047 [INFO]  
+========== done (0.08909010887145996 s) fit model
+2023-11-08 09:49:21,546 [INFO]  
+========== start: fit model
+2023-11-08 09:49:21,546 [WARNING]  Already bound, ignoring bind()
+2023-11-08 09:49:21,560 [INFO]  Epoch[0] Batch [0-4]	Speed: 7131.28 samples/sec	cross-entropy=35.179356	ATSC7m-accuracy=2.400000
+2023-11-08 09:49:21,567 [INFO]  Epoch[0] Train-cross-entropy=43.929593
+2023-11-08 09:49:21,567 [INFO]  Epoch[0] Train-ATSC7m-accuracy=2.500000
+2023-11-08 09:49:21,567 [INFO]  Epoch[0] Time cost=0.020
+2023-11-08 09:49:21,571 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0000.params"
+2023-11-08 09:49:21,572 [INFO]  Epoch[0] Validation-cross-entropy=22.806252
+2023-11-08 09:49:21,572 [INFO]  Epoch[0] Validation-ATSC7m-accuracy=0.000000
+2023-11-08 09:49:21,584 [INFO]  Epoch[1] Batch [0-4]	Speed: 7071.91 samples/sec	cross-entropy=56.752559	ATSC7m-accuracy=2.400000
+2023-11-08 09:49:21,590 [INFO]  Epoch[1] Train-cross-entropy=65.436364
+2023-11-08 09:49:21,591 [INFO]  Epoch[1] Train-ATSC7m-accuracy=2.500000
+2023-11-08 09:49:21,591 [INFO]  Epoch[1] Time cost=0.019
+2023-11-08 09:49:21,594 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0001.params"
+2023-11-08 09:49:21,596 [INFO]  Epoch[1] Validation-cross-entropy=10.986738
+2023-11-08 09:49:21,596 [INFO]  Epoch[1] Validation-ATSC7m-accuracy=0.000000
+2023-11-08 09:49:21,608 [INFO]  Epoch[2] Batch [0-4]	Speed: 6846.10 samples/sec	cross-entropy=49.378305	ATSC7m-accuracy=2.400000
+2023-11-08 09:49:21,615 [INFO]  Epoch[2] Train-cross-entropy=59.447042
+2023-11-08 09:49:21,615 [INFO]  Epoch[2] Train-ATSC7m-accuracy=2.500000
+2023-11-08 09:49:21,615 [INFO]  Epoch[2] Time cost=0.019
+2023-11-08 09:49:21,619 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0002.params"
+2023-11-08 09:49:21,620 [INFO]  Epoch[2] Validation-cross-entropy=8.386247
+2023-11-08 09:49:21,620 [INFO]  Epoch[2] Validation-ATSC7m-accuracy=0.000000
+2023-11-08 09:49:21,631 [INFO]  Epoch[3] Batch [0-4]	Speed: 7261.49 samples/sec	cross-entropy=30.767735	ATSC7m-accuracy=2.400000
+2023-11-08 09:49:21,638 [INFO]  Epoch[3] Train-cross-entropy=31.909477
+2023-11-08 09:49:21,638 [INFO]  Epoch[3] Train-ATSC7m-accuracy=2.500000
+2023-11-08 09:49:21,638 [INFO]  Epoch[3] Time cost=0.018
+2023-11-08 09:49:21,641 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0003.params"
+2023-11-08 09:49:21,642 [INFO]  Epoch[3] Validation-cross-entropy=4.894472
+2023-11-08 09:49:21,642 [INFO]  Epoch[3] Validation-ATSC7m-accuracy=0.000000
+2023-11-08 09:49:21,654 [INFO]  Epoch[4] Batch [0-4]	Speed: 7330.10 samples/sec	cross-entropy=7.509340	ATSC7m-accuracy=2.400000
+2023-11-08 09:49:21,660 [INFO]  Epoch[4] Train-cross-entropy=9.067333
+2023-11-08 09:49:21,660 [INFO]  Epoch[4] Train-ATSC7m-accuracy=2.500000
+2023-11-08 09:49:21,660 [INFO]  Epoch[4] Time cost=0.017
+2023-11-08 09:49:21,661 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0004.params"
+2023-11-08 09:49:21,662 [INFO]  Epoch[4] Validation-cross-entropy=10.357612
+2023-11-08 09:49:21,662 [INFO]  Epoch[4] Validation-ATSC7m-accuracy=0.000000
+2023-11-08 09:49:21,662 [INFO]  
+========== done (0.11626791954040527 s) fit model
+2023-11-08 11:39:39,183 [INFO]  
+========== start: fit model
+2023-11-08 11:39:39,183 [WARNING]  Already bound, ignoring bind()
+2023-11-08 11:39:39,196 [INFO]  Epoch[0] Batch [0-4]	Speed: 7474.40 samples/sec	cross-entropy=77.915312	ATSC7m-accuracy=0.000000
+2023-11-08 11:39:39,202 [INFO]  Epoch[0] Train-cross-entropy=72.154528
+2023-11-08 11:39:39,202 [INFO]  Epoch[0] Train-ATSC7m-accuracy=0.000000
+2023-11-08 11:39:39,202 [INFO]  Epoch[0] Time cost=0.018
+2023-11-08 11:39:39,203 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0000.params"
+2023-11-08 11:39:39,204 [INFO]  Epoch[0] Validation-cross-entropy=84.991234
+2023-11-08 11:39:39,204 [INFO]  Epoch[0] Validation-ATSC7m-accuracy=0.000000
+2023-11-08 11:39:39,212 [INFO]  Epoch[1] Batch [0-4]	Speed: 9696.41 samples/sec	cross-entropy=127.917742	ATSC7m-accuracy=0.000000
+2023-11-08 11:39:39,217 [INFO]  Epoch[1] Train-cross-entropy=153.066612
+2023-11-08 11:39:39,217 [INFO]  Epoch[1] Train-ATSC7m-accuracy=0.000000
+2023-11-08 11:39:39,217 [INFO]  Epoch[1] Time cost=0.013
+2023-11-08 11:39:39,220 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0001.params"
+2023-11-08 11:39:39,221 [INFO]  Epoch[1] Validation-cross-entropy=59.745720
+2023-11-08 11:39:39,221 [INFO]  Epoch[1] Validation-ATSC7m-accuracy=0.000000
+2023-11-08 11:39:39,229 [INFO]  Epoch[2] Batch [0-4]	Speed: 9757.74 samples/sec	cross-entropy=58.076812	ATSC7m-accuracy=0.000000
+2023-11-08 11:39:39,234 [INFO]  Epoch[2] Train-cross-entropy=48.197470
+2023-11-08 11:39:39,234 [INFO]  Epoch[2] Train-ATSC7m-accuracy=0.000000
+2023-11-08 11:39:39,235 [INFO]  Epoch[2] Time cost=0.014
+2023-11-08 11:39:39,237 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0002.params"
+2023-11-08 11:39:39,238 [INFO]  Epoch[2] Validation-cross-entropy=12.836895
+2023-11-08 11:39:39,238 [INFO]  Epoch[2] Validation-ATSC7m-accuracy=0.000000
+2023-11-08 11:39:39,247 [INFO]  Epoch[3] Batch [0-4]	Speed: 8767.24 samples/sec	cross-entropy=23.441895	ATSC7m-accuracy=0.000000
+2023-11-08 11:39:39,253 [INFO]  Epoch[3] Train-cross-entropy=22.003287
+2023-11-08 11:39:39,253 [INFO]  Epoch[3] Train-ATSC7m-accuracy=0.000000
+2023-11-08 11:39:39,253 [INFO]  Epoch[3] Time cost=0.015
+2023-11-08 11:39:39,255 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0003.params"
+2023-11-08 11:39:39,256 [INFO]  Epoch[3] Validation-cross-entropy=13.644329
+2023-11-08 11:39:39,256 [INFO]  Epoch[3] Validation-ATSC7m-accuracy=0.000000
+2023-11-08 11:39:39,267 [INFO]  Epoch[4] Batch [0-4]	Speed: 7603.97 samples/sec	cross-entropy=18.388371	ATSC7m-accuracy=0.000000
+2023-11-08 11:39:39,274 [INFO]  Epoch[4] Train-cross-entropy=15.817796
+2023-11-08 11:39:39,274 [INFO]  Epoch[4] Train-ATSC7m-accuracy=0.000000
+2023-11-08 11:39:39,274 [INFO]  Epoch[4] Time cost=0.017
+2023-11-08 11:39:39,277 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_ATSC7m/model-0004.params"
+2023-11-08 11:39:39,278 [INFO]  Epoch[4] Validation-cross-entropy=9.625454
+2023-11-08 11:39:39,278 [INFO]  Epoch[4] Validation-ATSC7m-accuracy=0.000000
+2023-11-08 11:39:39,278 [INFO]  
+========== done (0.09472966194152832 s) fit model
