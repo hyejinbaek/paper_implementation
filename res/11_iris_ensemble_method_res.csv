@@ -1,0 +1,151 @@
+Dataset,method,Experiment,Accuracy
+11_iris,1_zero+knn,1,0.6167 ± 0.0500
+11_iris,1_zero+knn,2,0.6917 ± 0.0829
+11_iris,1_zero+knn,3,0.6778 ± 0.0762
+11_iris,1_zero+knn,4,0.6750 ± 0.0741
+11_iris,1_zero+knn,5,0.6933 ± 0.0757
+11_iris,1_zero+knn,6,0.6806 ± 0.0751
+11_iris,1_zero+knn,7,0.6690 ± 0.0761
+11_iris,1_zero+knn,8,0.6542 ± 0.0832
+11_iris,1_zero+knn,9,0.6426 ± 0.0866
+11_iris,1_zero+knn,10,0.6467 ± 0.0872
+11_iris,2_zero + dynamic,1,0.7500 ± 0.0833
+11_iris,2_zero + dynamic,2,0.7500 ± 0.1213
+11_iris,2_zero + dynamic,3,0.7667 ± 0.1089
+11_iris,2_zero + dynamic,4,0.7667 ± 0.1000
+11_iris,2_zero + dynamic,5,0.7800 ± 0.0980
+11_iris,2_zero + dynamic,6,0.7722 ± 0.1137
+11_iris,2_zero + dynamic,7,0.7524 ± 0.1220
+11_iris,2_zero + dynamic,8,0.7479 ± 0.1184
+11_iris,2_zero + dynamic,9,0.7519 ± 0.1134
+11_iris,2_zero + dynamic,10,0.7567 ± 0.1131
+11_iris,3_zero+datawig,1,0.7000 ± 0.0333
+11_iris,3_zero+datawig,2,0.7167 ± 0.0373
+11_iris,3_zero+datawig,3,0.6944 ± 0.0448
+11_iris,3_zero+datawig,4,0.6875 ± 0.0525
+11_iris,3_zero+datawig,5,0.6833 ± 0.0563
+11_iris,3_zero+datawig,6,0.6722 ± 0.0575
+11_iris,3_zero+datawig,7,0.6595 ± 0.0620
+11_iris,3_zero+datawig,8,0.6562 ± 0.0586
+11_iris,3_zero+datawig,9,0.6444 ± 0.0667
+11_iris,3_zero+datawig,10,0.6533 ± 0.0694
+11_iris,4_knn + dynamic,1,0.7333 ± 0.0667
+11_iris,4_knn + dynamic,2,0.7583 ± 0.1402
+11_iris,4_knn + dynamic,3,0.7833 ± 0.1330
+11_iris,4_knn + dynamic,4,0.7792 ± 0.1201
+11_iris,4_knn + dynamic,5,0.7933 ± 0.1133
+11_iris,4_knn + dynamic,6,0.7861 ± 0.1213
+11_iris,4_knn + dynamic,7,0.7667 ± 0.1345
+11_iris,4_knn + dynamic,8,0.7667 ± 0.1344
+11_iris,4_knn + dynamic,9,0.7704 ± 0.1290
+11_iris,4_knn + dynamic,10,0.7700 ± 0.1264
+11_iris,5_knn+datawig,1,0.7167 ± 0.0167
+11_iris,5_knn+datawig,2,0.7417 ± 0.0276
+11_iris,5_knn+datawig,3,0.7222 ± 0.0369
+11_iris,5_knn+datawig,4,0.7250 ± 0.0323
+11_iris,5_knn+datawig,5,0.7267 ± 0.0327
+11_iris,5_knn+datawig,6,0.7083 ± 0.0511
+11_iris,5_knn+datawig,7,0.6929 ± 0.0607
+11_iris,5_knn+datawig,8,0.6854 ± 0.0601
+11_iris,5_knn+datawig,9,0.6741 ± 0.0653
+11_iris,5_knn+datawig,10,0.6833 ± 0.0679
+11_iris,6_dynamic + datawig,1,0.7000 ± 0.0333
+11_iris,6_dynamic + datawig,2,0.7250 ± 0.1115
+11_iris,6_dynamic + datawig,3,0.7556 ± 0.1117
+11_iris,6_dynamic + datawig,4,0.7625 ± 0.1060
+11_iris,6_dynamic + datawig,5,0.7700 ± 0.0971
+11_iris,6_dynamic + datawig,6,0.7528 ± 0.1049
+11_iris,6_dynamic + datawig,7,0.7286 ± 0.1154
+11_iris,6_dynamic + datawig,8,0.7292 ± 0.1105
+11_iris,6_dynamic + datawig,9,0.7370 ± 0.1088
+11_iris,6_dynamic + datawig,10,0.7400 ± 0.1083
+11_iris,7_dynamic + datawig + zero,1,0.7111 ± 0.0416
+11_iris,7_dynamic + datawig + zero,2,0.7333 ± 0.0861
+11_iris,7_dynamic + datawig + zero,3,0.7630 ± 0.0895
+11_iris,7_dynamic + datawig + zero,4,0.7750 ± 0.0894
+11_iris,7_dynamic + datawig + zero,5,0.7867 ± 0.0868
+11_iris,7_dynamic + datawig + zero,6,0.7796 ± 0.0957
+11_iris,7_dynamic + datawig + zero,7,0.7683 ± 0.1041
+11_iris,7_dynamic + datawig + zero,8,0.7625 ± 0.1011
+11_iris,7_dynamic + datawig + zero,9,0.7667 ± 0.0977
+11_iris,7_dynamic + datawig + zero,10,0.7722 ± 0.1004
+11_iris,8_dynamic + datawig + knn,1,0.7333 ± 0.0544
+11_iris,8_dynamic + datawig + knn,2,0.7611 ± 0.1161
+11_iris,8_dynamic + datawig + knn,3,0.7852 ± 0.1156
+11_iris,8_dynamic + datawig + knn,4,0.7917 ± 0.1090
+11_iris,8_dynamic + datawig + knn,5,0.8022 ± 0.1029
+11_iris,8_dynamic + datawig + knn,6,0.7981 ± 0.1097
+11_iris,8_dynamic + datawig + knn,7,0.7778 ± 0.1188
+11_iris,8_dynamic + datawig + knn,8,0.7750 ± 0.1164
+11_iris,8_dynamic + datawig + knn,9,0.7802 ± 0.1127
+11_iris,8_dynamic + datawig + knn,10,0.7856 ± 0.1121
+11_iris,9_datawig+zero+knn.py,1,0.7222 ± 0.0157
+11_iris,9_datawig+zero+knn.py,2,0.7333 ± 0.0272
+11_iris,9_datawig+zero+knn.py,3,0.7074 ± 0.0491
+11_iris,9_datawig+zero+knn.py,4,0.7000 ± 0.0593
+11_iris,9_datawig+zero+knn.py,5,0.6978 ± 0.0614
+11_iris,9_datawig+zero+knn.py,6,0.6852 ± 0.0631
+11_iris,9_datawig+zero+knn.py,7,0.6714 ± 0.0685
+11_iris,9_datawig+zero+knn.py,8,0.6653 ± 0.0663
+11_iris,9_datawig+zero+knn.py,9,0.6543 ± 0.0704
+11_iris,9_datawig+zero+knn.py,10,0.6633 ± 0.0727
+11_iris,10_dynamic+zero+knn,1,0.6667 ± 0.0000
+11_iris,10_dynamic+zero+knn,2,0.6000 ± 0.0000
+11_iris,10_dynamic+zero+knn,3,0.7000 ± 0.0000
+11_iris,10_dynamic+zero+knn,4,0.7000 ± 0.0000
+11_iris,10_dynamic+zero+knn,5,0.7667 ± 0.0000
+11_iris,10_dynamic+zero+knn,6,0.5667 ± 0.0000
+11_iris,10_dynamic+zero+knn,7,0.5333 ± 0.0000
+11_iris,10_dynamic+zero+knn,8,0.6333 ± 0.0000
+11_iris,10_dynamic+zero+knn,9,0.6333 ± 0.0000
+11_iris,10_dynamic+zero+knn,10,0.6667 ± 0.0000
+11_iris,11_all(dynamic+datawig+zero+knn),1,0.7500 ± 0.0601
+11_iris,11_all(dynamic+datawig+zero+knn),2,0.7750 ± 0.0997
+11_iris,11_all(dynamic+datawig+zero+knn),3,0.8000 ± 0.0981
+11_iris,11_all(dynamic+datawig+zero+knn),4,0.8000 ± 0.0898
+11_iris,11_all(dynamic+datawig+zero+knn),5,0.8083 ± 0.0842
+11_iris,11_all(dynamic+datawig+zero+knn),6,0.8056 ± 0.0956
+11_iris,11_all(dynamic+datawig+zero+knn),7,0.7893 ± 0.1020
+11_iris,11_all(dynamic+datawig+zero+knn),8,0.7854 ± 0.1007
+11_iris,11_all(dynamic+datawig+zero+knn),9,0.7852 ± 0.0980
+11_iris,11_all(dynamic+datawig+zero+knn),10,0.7858 ± 0.0960
+11_iris,datawig,1,0.7333 ± 0.0000
+11_iris,datawig,2,0.7667 ± 0.0000
+11_iris,datawig,3,0.6667 ± 0.0000
+11_iris,datawig,4,0.7333 ± 0.0000
+11_iris,datawig,5,0.7000 ± 0.0000
+11_iris,datawig,6,0.6333 ± 0.0000
+11_iris,datawig,7,0.6000 ± 0.0000
+11_iris,datawig,8,0.6000 ± 0.0000
+11_iris,datawig,9,0.6000 ± 0.0000
+11_iris,datawig,10,0.7667 ± 0.0000
+11_iris,dynamic,1,0.5333 ± 0.0000
+11_iris,dynamic,2,0.5667 ± 0.0000
+11_iris,dynamic,3,0.6000 ± 0.0000
+11_iris,dynamic,4,0.5333 ± 0.0000
+11_iris,dynamic,5,0.6667 ± 0.0000
+11_iris,dynamic,6,0.5000 ± 0.0000
+11_iris,dynamic,7,0.4667 ± 0.0000
+11_iris,dynamic,8,0.4667 ± 0.0000
+11_iris,dynamic,9,0.5667 ± 0.0000
+11_iris,dynamic,10,0.6000 ± 0.0000
+11_iris,knn,1,0.7333 ± 0.0000
+11_iris,knn,2,0.7667 ± 0.0000
+11_iris,knn,3,0.6667 ± 0.0000
+11_iris,knn,4,0.7333 ± 0.0000
+11_iris,knn,5,0.7667 ± 0.0000
+11_iris,knn,6,0.6000 ± 0.0000
+11_iris,knn,7,0.6333 ± 0.0000
+11_iris,knn,8,0.6333 ± 0.0000
+11_iris,knn,9,0.6000 ± 0.0000
+11_iris,knn,10,0.7667 ± 0.0000
+11_iris,zero,1,0.7000 ± 0.0000
+11_iris,zero,2,0.7333 ± 0.0000
+11_iris,zero,3,0.6667 ± 0.0000
+11_iris,zero,4,0.7000 ± 0.0000
+11_iris,zero,5,0.7333 ± 0.0000
+11_iris,zero,6,0.5333 ± 0.0000
+11_iris,zero,7,0.6333 ± 0.0000
+11_iris,zero,8,0.6333 ± 0.0000
+11_iris,zero,9,0.5667 ± 0.0000
+11_iris,zero,10,0.7333 ± 0.0000
