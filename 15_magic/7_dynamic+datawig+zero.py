@@ -92,7 +92,6 @@ imputers = {}
 def main(args):
 
     seed = args.seed
-    #dataset = args.dataset
     missing_rate = args.missing_rate
     
     hyperparameters = {'num_mi': args.num_mi, 'm': args.m, 'tau': args.tau}
@@ -123,7 +122,7 @@ def main(args):
 
     acc_list, auroc = [], []
 
-    for i  in range(10):
+    for i  in range(30):
         x_trnval, x_tst, y_trnval, y_tst = train_test_split(x,y, test_size=0.2, shuffle=True, random_state=i)
         dim_x = x_trnval.shape[1]
 

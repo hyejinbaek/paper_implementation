@@ -94,7 +94,6 @@ df_data['class'] = df_data['class'].replace({'g':0, 'h':1})
 
 data = df_data
 
-
 missing_length = 0.2
 for col in train_col:
     nan_mask = np.random.rand(data.shape[0]) < missing_length
@@ -103,7 +102,7 @@ for col in train_col:
 data_with_missing = data
 
 # 반복 횟수 설정
-num_iterations = 10
+num_iterations = 30
 
 accuracy_list = []
 
