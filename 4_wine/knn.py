@@ -10,7 +10,7 @@ from sklearn.impute import KNNImputer
 from sklearn.metrics import accuracy_score
 
 # CUDA 환경 설정
-os.environ['CUDA_VISIBLE_DEVICES'] = '3'
+os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 
 # 프로세스 제목 설정
 setproctitle('hyejin')
@@ -106,11 +106,9 @@ imputer = KNNImputer(n_neighbors=5)  # 이웃 개수 조정 가능
 data_imputed = imputer.fit_transform(data_with_missing)
 
 # 반복 횟수 설정
-num_iterations = 10
+num_iterations = 30
 
 accuracy_list = []
-rmse_list = []
-
 
 for iteration in range(num_iterations):
     # Train set과 test set으로 분할
