@@ -99,7 +99,7 @@ data_with_missing = data
 
 
 # 반복 횟수 설정
-num_iterations = 10
+num_iterations = 30
 
 accuracy_list = []
 imputers = {}
