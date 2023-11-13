@@ -112,7 +112,6 @@ imputers = {}
 def main(args):
 
     seed = args.seed
-    #dataset = args.dataset
     missing_rate = args.missing_rate
     
     hyperparameters = {'num_mi': args.num_mi, 'm': args.m, 'tau': args.tau}
@@ -131,14 +130,12 @@ def main(args):
     df_dummy_data = pd.get_dummies(df_encoded, columns=['class'], prefix='class')
     data = df_dummy_data
 
-
     # 고정 !!
     if len(data)>100000:
         np.random.seed(seed)
         random_sampled_idx = np.random.choice(len(data), 10000, replace=False)
         data = data[random_sampled_idx]
 
-    print(" == data ===", data)
     x = data[train_col].values
     # "class" 열을 y로 설정하고 shape를 (, 1)로 변경
     y = data['class_1']  # 예시로 'class_1'을 선택
@@ -149,7 +146,7 @@ def main(args):
 
     acc_list, auroc = [], []
     
-    for i  in range(10):
+    for i  in range(30):
         x_trnval, x_tst, y_trnval, y_tst = train_test_split(x,y, test_size=0.2, shuffle=True, random_state=i)
 
         dim_x = x_trnval.shape[1]
