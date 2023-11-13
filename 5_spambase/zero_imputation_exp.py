@@ -22,7 +22,6 @@ result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/5_spambas
 # 결과를 저장할 리스트 초기화
 results = []
 
-
 class DynamicImputationModel:
     def __init__(self, num_layers, num_hidden, dim_y):
         self.num_layers = num_layers
@@ -111,10 +110,9 @@ for col in train_col:
 data_with_missing = data
 
 # 반복 횟수 설정
-num_iterations = 10
+num_iterations = 30
 
 accuracy_list = []
-rmse_list = []
 
 for iteration in range(num_iterations):
     # Train set과 test set으로 분할

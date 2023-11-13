@@ -88,7 +88,6 @@ accuracy_list = []
 def main(args):
 
     seed = args.seed
-    #dataset = args.dataset
     missing_rate = args.missing_rate
     
     hyperparameters = {'num_mi': args.num_mi, 'm': args.m, 'tau': args.tau}
@@ -124,11 +123,8 @@ def main(args):
     x,y = preprocessing(x, y, missing_rate, seed)
 
     acc_list, auroc = [], []
-    
-    # rmse 추가!!!!
-    rmse_list = []
 
-    for i  in range(10):
+    for i  in range(30):
         x_trnval, x_tst, y_trnval, y_tst = train_test_split(x,y, test_size=0.2, shuffle=True, random_state=i)
 
         dim_x = x_trnval.shape[1]
