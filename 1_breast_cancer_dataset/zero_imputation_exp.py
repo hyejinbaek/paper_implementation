@@ -11,7 +11,7 @@ tf.disable_v2_behavior()
 from sklearn.metrics import accuracy_score
 
 # CUDA 환경 설정
-os.environ['CUDA_VISIBLE_DEVICES'] = '3'
+os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 
 # 프로세스 제목 설정
 setproctitle('hyejin')
@@ -124,7 +124,7 @@ for col in train_col:
 data_with_missing = data
 
 # 반복 횟수 설정
-num_iterations = 10
+num_iterations = 30
 
 accuracy_list = []
 
