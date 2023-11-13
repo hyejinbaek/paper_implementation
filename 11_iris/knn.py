@@ -128,10 +128,9 @@ imputer = KNNImputer(n_neighbors=5)  # 이웃 개수 조정 가능
 data_imputed = imputer.fit_transform(data_with_missing)
 
 # 반복 횟수 설정
-num_iterations = 10
+num_iterations = 30
 
 accuracy_list = []
-rmse_list = []
 
 for iteration in range(num_iterations):
     # Train set과 test set으로 분할
