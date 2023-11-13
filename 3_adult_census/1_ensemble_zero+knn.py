@@ -19,7 +19,7 @@ result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/3_adult_e
 results = []
 
 # CUDA 환경 설정
-os.environ['CUDA_VISIBLE_DEVICES'] = '3'
+os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 
 # 프로세스 제목 설정
 setproctitle('hyejin')
@@ -126,10 +126,9 @@ for col in train_col:
 data_with_missing = data
 
 # 반복 횟수 설정
-num_iterations = 10
+num_iterations = 30
 
 accuracy_list = []
-rmse_list = []
 
 for iteration in range(num_iterations):
     # Train set과 test set으로 분할
