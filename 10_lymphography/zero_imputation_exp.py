@@ -91,8 +91,6 @@ train_col =['lymphatics', 'block of affere', 'bl. of lymph.c', 'bl. of lymph.s',
                     'lym.nodes dimin', 'lym.nodes enlar', 'changes in lym', 'defect in node', 'changes in node', 'changes in stru', 'special forms', 'dislocation of',
                     'exclusion of no', 'no. of nodes in']
 data = df_data
-print("=== data === ", data)
-
 
 # 결측치 20% 생성
 missing_length = 0.2
@@ -103,7 +101,7 @@ for col in train_col:
 data_with_missing = data
 
 # 반복 횟수 설정
-num_iterations = 10
+num_iterations = 30
 
 accuracy_list = []
 
