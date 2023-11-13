@@ -77,9 +77,7 @@ class DynamicImputationModel:
             np.random.seed(epoch)
             np.random.shuffle(indices)
             train_X_shuffled = train_X[indices]
-            #print("==== train_X_shuffled ====", train_X_shuffled)
             train_y_shuffled = train_y[indices]
-            #print("==== train_y_shuffled ====", train_y_shuffled)
 
             for i in range(num_batches):
                 batch_X = train_X_shuffled[i * batch_size: (i + 1) * batch_size]
@@ -130,7 +128,7 @@ for col in train_col:
 data_with_missing = data
 
 # 반복 횟수 설정
-num_iterations = 10
+num_iterations = 30
 
 accuracy_list = []
 imputers = {}
