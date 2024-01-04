@@ -1,8 +1,10 @@
 import pandas as pd
-from scipy.stats import ttest_rel
+# ttest_ind : 독립 2- 표본 ttest
+# ttest_rel : 1- 표본 ttest 
+from scipy.stats import ttest_ind
 
 # CSV 파일 읽기
-file_path = './res/11_iris_ensemble_method_res.csv'  # 파일 경로를 실제 파일 경로로 대체
+file_path = './res/23_ai4i_ensemble_method_res.csv'  # 파일 경로를 실제 파일 경로로 대체
 data  = pd.read_csv(file_path)
 
 # 'Accuracy' 열을 숫자로 변환
@@ -13,7 +15,7 @@ methods = data['method'].unique()
 
 
 # 1등 성능으로 가정할 method 선택
-top_method = '11_all(dynamic+datawig+zero+knn)'
+top_method = '9_datawig+zero+knn.py'
 
 # 1등 성능 method와 나머지 method들 간의 t-test 수행
 for method in data['method'].unique():
@@ -23,7 +25,7 @@ for method in data['method'].unique():
         data_current = data[data['method'] == method]['Accuracy']
 
         # t-test 수행
-        t_statistic, p_value = ttest_rel(data_top, data_current)
+        t_statistic, p_value = ttest_ind(data_top, data_current)
 
         # 결과 출력
         print(f"{top_method}와 {method} 간의 t-test 결과:")
