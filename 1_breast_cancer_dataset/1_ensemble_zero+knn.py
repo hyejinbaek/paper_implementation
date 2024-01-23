@@ -10,15 +10,17 @@ import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior
 from sklearn.impute import KNNImputer
 from sklearn.metrics import accuracy_score
+from sklearn.metrics import mean_squared_error
+from math import sqrt
 
 # CSV 파일 경로 설정
-result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/1_breast_ensemble_method_res.csv'
+result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/add_rmse/1_breast_ensemble_method_res.csv'
 
 # 결과를 저장할 리스트 초기화
 results = []
 
 # CUDA 환경 설정
-os.environ['CUDA_VISIBLE_DEVICES'] = '0'
+os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 
 # 프로세스 제목 설정
 setproctitle('hyejin')
@@ -101,34 +103,41 @@ class DynamicImputationModel:
         return acc
 
 # 데이터 파일 경로 설정
-data_pth = './breast-cancer.data'
+data_pth = '/userHome/userhome2/hyejin/paper_implementation/00_dataset/missing/1_breast.csv'
+
+prepro_data = '/userHome/userhome2/hyejin/paper_implementation/00_dataset/preprocessing/1_breast.csv'
+prepro_data = pd.read_csv(prepro_data)
+prepro_data.columns = ['Class', 'age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'deg-malig', 'breast', 'breast-quad', 'irradiat']
 
 # 데이터 불러오기
 df_data = pd.read_csv(data_pth)
-df_data.columns = ['Class', 'age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'deg-malig', 'breast', 'breast-quad', 'irradiat']
-df_data['node-caps'] = df_data['node-caps'].replace('?', 0).astype(str)
-df_data['breast-quad'] = df_data['breast-quad'].replace('?', 0).astype(str)
-df_data['Class'] = df_data['Class'].replace({2: 0, 4: 1})
-data = df_data
+# df_data.columns = ['Class', 'age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'deg-malig', 'breast', 'breast-quad', 'irradiat']
+# df_data['node-caps'] = df_data['node-caps'].replace('?', 0).astype(str)
+# df_data['breast-quad'] = df_data['breast-quad'].replace('?', 0).astype(str)
+# df_data['Class'] = df_data['Class'].replace({2: 0, 4: 1})
+# data = df_data
 
-# 범주형 피처 선택
-categorical_columns = ['Class', 'age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'breast', 'breast-quad', 'irradiat']
+# # 범주형 피처 선택
+# categorical_columns = ['Class', 'age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'breast', 'breast-quad', 'irradiat']
 train_col = ['age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'deg-malig', 'breast', 'breast-quad', 'irradiat']
-# 레이블 인코딩 적용
-df_encoded = label_encode(df_data, categorical_columns)
-data = df_encoded
+# # 레이블 인코딩 적용
+# df_encoded = label_encode(df_data, categorical_columns)
+# data = df_encoded
 
-missing_length = 0.2
-for col in train_col:
-    nan_mask = np.random.rand(data.shape[0]) < missing_length
-    data.loc[nan_mask, col] = np.nan
+# missing_length = 0.2
+# for col in train_col:
+#     nan_mask = np.random.rand(data.shape[0]) < missing_length
+#     data.loc[nan_mask, col] = np.nan
 
+# data_with_missing = data
+data = df_data
 data_with_missing = data
 
 # 반복 횟수 설정
 num_iterations = 30
 
 accuracy_list = []
+accuracy_ensemble_list =[]
 rmse_list = []
 
 for iteration in range(num_iterations):
@@ -143,6 +152,15 @@ for iteration in range(num_iterations):
     # 데이터 결측치 채우기 (Zero Imputation)
     train_data_zero_imputed = train_data.fillna(0)
     test_data_zero_imputed = test_data.fillna(0)
+
+    # # 테스트 데이터의 imputation 결과 확인
+    # print("==========================================")
+    # print(str(iteration + 1) + "th KNN Imputation Test Data:")
+    # print(test_data_knn_imputed)
+    
+    # print(str(iteration + 1) + "th Zero Imputation Test Data:")
+    # print(test_data_zero_imputed)
+    # print("==========================================")
 
     # 학습을 위한 데이터 준비
     train_X_knn_imputed = train_data_knn_imputed.drop(columns=['Class'])
@@ -174,19 +192,78 @@ for iteration in range(num_iterations):
     accuracy_list.append(accuracy_knn_imputation)
     accuracy_list.append(accuracy_zero_imputation)
 
+    # 앙상블 모델 초기화
+    model_ensemble = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
+
+    # 결측치 생성 전의 데이터를 동일하게 train/test로 나누어서 저장
+    original_data_train, original_data_test = train_test_split(prepro_data, test_size=0.2, random_state=iteration)
+
+    # X와 y를 따로 분리
+    train_X_ensemble = pd.concat([train_data_knn_imputed, train_data_zero_imputed]).drop(columns=['Class'])
+    train_y_ensemble = pd.concat([train_data_knn_imputed['Class'], train_data_zero_imputed['Class']])
+
+    # model_ensemble.train_model 호출 시에 X와 y를 제대로 지정
+    model_ensemble.train_model(train_X_ensemble, train_y_ensemble, num_epochs=50, batch_size=32)
+
+    # 앙상블 모델을 훈련하고 예측
+    model_ensemble = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
+    model_ensemble.train_model(train_X_ensemble, train_y_ensemble, num_epochs=50, batch_size=32)
+
+    # 앙상블 모델로 테스트 데이터 예측
+    test_X_ensemble = pd.concat([test_data_knn_imputed, test_data_zero_imputed]).drop(columns=['Class'])
+    test_y_ensemble = pd.concat([test_data_knn_imputed['Class'], test_data_zero_imputed['Class']])
+    predictions_ensemble = model_ensemble.sess.run(model_ensemble.pred, feed_dict={model_ensemble.x: test_X_ensemble.values})
+
+    # 앙상블 모델로 예측한 정확도 출력
+    accuracy_ensemble = model_ensemble.get_accuracy(test_X_ensemble.values, test_y_ensemble.values.reshape(-1, 1))
+    print("==========================================")
+    print(str(iteration + 1) + "th Ensemble Imputation accuracy: ", accuracy_ensemble)
+    print("==========================================")
+
+    accuracy_ensemble_list.append(accuracy_ensemble)
+
+    # # RMSE 계산을 위해 결측치 생성 전의 데이터로 모델 예측
+    # if isinstance(original_data_test, pd.DataFrame):
+    #     predictions_original_data = model_ensemble.sess.run(model_ensemble.pred, feed_dict={model_ensemble.x: original_data_test.drop(columns=['Class']).values})
+    # else:
+    #     # 리스트일 경우, 원하는 방식으로 데이터 전처리를 수행하고 모델에 적용
+    #     # 여기서는 리스트를 DataFrame으로 변환한 후 drop 메소드 사용 예시
+    #     original_data_test_df = pd.DataFrame(original_data_test, columns=['Class', 'age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'deg-malig', 'breast', 'breast-quad', 'irradiat'])  # original_data_columns는 원래 데이터의 컬럼명 리스트
+    #     predictions_original_data = model_ensemble.sess.run(model_ensemble.pred, feed_dict={model_ensemble.x: original_data_test_df.drop(columns=['Class']).values})
+
+
+    # RMSE 계산을 위해 결측치 생성 전의 데이터로 모델 예측
+    predictions_original_data = model_ensemble.sess.run(model_ensemble.pred, feed_dict={model_ensemble.x: original_data_test.drop(columns=['Class']).values})
+    
+    # RMSE 계산 및 리스트에 추가
+    rmse = sqrt(mean_squared_error(original_data_test['Class'], predictions_original_data))
+    print("==========================================")
+    print(str(iteration + 1) + "th Ensemble Imputation rmse: ", rmse)
+    print("==========================================")
+    rmse_list.append(rmse)
+
+
     # 결과를 딕셔너리로 저장 (Ensemble 결과)
     result = {
         'Dataset': '1_breast',
         'method': '1_zero+knn',
         'Experiment': iteration + 1,
-        'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(accuracy_list), np.std(accuracy_list))
+        'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(accuracy_list), np.std(accuracy_list)),
+        'Ensemble accuracy':"{:.4f} ± {:.4f}".format(np.mean(accuracy_ensemble_list), np.std(accuracy_ensemble_list)),
+        'RMSE': "{:.4f} ± {:.4f}".format(np.mean(rmse_list), np.std(rmse_list))  # 추가된 부분
+
     }
     results.append(result)
 
-print("Mean Ensemble Accuracy: {:.4f}".format(np.mean(accuracy_list)))
-print("Standard Deviation of Ensemble Accuracy: {:.4f}".format(np.std(accuracy_list)))
+    # # 앙상블 모델로 예측한 결과 출력
+    # print(str(iteration + 1) + "th Ensemble Imputation Predictions:")
+    # print(predictions_ensemble)
+    # print("==========================================")
+
+
 print("==========================================")
-print("=== result : {:.4f} ± {:.4f}".format(sum(accuracy_list)/len(accuracy_list), np.std(accuracy_list)))
+print("=== Ensemble Accuracy : {:.4f} ± {:.4f}".format(np.mean(accuracy_list), np.std(accuracy_list)))
+print("=== RMSE result : {:.4f} ± {:.4f}".format(np.mean(rmse_list), np.std(rmse_list)))
 print("==========================================")
 
 # 결과를 DataFrame으로 변환하여 CSV 파일에 추가로 저장
