@@ -2,7 +2,7 @@
 # tensorflow version : 2.12.0
 # 실행 명령어 : python dynamic_imputation_main_exp.py --seed 0 --missing_rate 20 --num_mi 5 --m 10 --tau 0.05
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '0'
+os.environ['CUDA_VISIBLE_DEVICES'] = '1'
 from setproctitle import *
 setproctitle('hyejin')
 import warnings
@@ -16,11 +16,12 @@ import pandas as pd
 import argparse
 from tensorflow.keras.layers import Input, Embedding, Flatten
 from sklearn.preprocessing import LabelEncoder
-from math import sqrt
 from sklearn.metrics import accuracy_score
+from sklearn.metrics import mean_squared_error
+from math import sqrt
 
 # CSV 파일 경로 설정
-result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/1_breast_ensemble_method_res.csv'
+result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/add_rmse/1_breast_ensemble_method_res.csv'
 
 # 결과를 저장할 리스트 초기화
 results = []
@@ -43,6 +44,11 @@ def build_embedding_model(input_dims, embedding_dims):
         embeddings.append(embedding)
     return inputs, embeddings
 
+
+accuracy_list = []
+accuracy_ensemble_list =[]
+rmse_list = []
+
 def main(args):
 
     seed = args.seed
@@ -50,27 +56,30 @@ def main(args):
     
     hyperparameters = {'num_mi': args.num_mi, 'm': args.m, 'tau': args.tau}
 
-    data_pth = './breast-cancer.data'
-    df_data = pd.read_csv(data_pth)
-    col_data = df_data.columns = ['Class', 'age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'deg-malig', 'breast', 'breast-quad', 'irradiat']
+    prepro_data = '/userHome/userhome2/hyejin/paper_implementation/00_dataset/preprocessing/1_breast.csv'
+    prepro_data = pd.read_csv(prepro_data)
+    prepro_data.columns = ['Class', 'age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'deg-malig', 'breast', 'breast-quad', 'irradiat']
     train_col = ['age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'deg-malig', 'breast', 'breast-quad', 'irradiat']
-    df_data['node-caps'] = df_data['node-caps'].replace('?',0).astype(str)
-    df_data['breast-quad'] = df_data['breast-quad'].replace('?',0).astype(str)
-    df_data['Class'] = df_data['Class'].replace({2:0, 4:1})
+    prepro_x = prepro_data[train_col]
+    prepro_y = prepro_data['Class']
+    data_pth = '/userHome/userhome2/hyejin/paper_implementation/00_dataset/missing/1_breast.csv'
+    df_data = pd.read_csv(data_pth)
+    # col_data = df_data.columns = ['Class', 'age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'deg-malig', 'breast', 'breast-quad', 'irradiat']
+    train_col = ['age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'deg-malig', 'breast', 'breast-quad', 'irradiat']
+    # df_data['node-caps'] = df_data['node-caps'].replace('?',0).astype(str)
+    # df_data['breast-quad'] = df_data['breast-quad'].replace('?',0).astype(str)
+    # df_data['Class'] = df_data['Class'].replace({2:0, 4:1})
 
-    # 범주형 피처 선택
-    categorical_columns = ['Class', 'age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'breast', 'breast-quad', 'irradiat']
+    # # 범주형 피처 선택
+    # categorical_columns = ['Class', 'age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'breast', 'breast-quad', 'irradiat']
 
-    # 레이블 인코딩 적용
-    df_encoded = label_encode(df_data, categorical_columns)
+    # # 레이블 인코딩 적용
+    # df_encoded = label_encode(df_data, categorical_columns)
 
-    data = df_encoded
-    # 고정 !!
-    if len(data)>10000:
-        np.random.seed(seed)
-        random_sampled_idx = np.random.choice(len(data), 10000, replace=False)
-        data = data[random_sampled_idx]
-    
+    # data = df_encoded
+
+    data = df_data
+
     x = data[train_col].values
     y = data['Class'].values
 
@@ -81,7 +90,7 @@ def main(args):
     
     for i  in range(30):
         x_trnval, x_tst, y_trnval, y_tst = train_test_split(x,y, test_size=0.2, shuffle=True, random_state=i)
-
+        
         dim_x = x_trnval.shape[1]
 
         if y_trnval.shape[1] > 2:
@@ -97,19 +106,43 @@ def main(args):
         print(str(i+1)+"th accuracy === : ", acc)
         print("==========================================")
         acc_list.append(acc)
+        
+        imputed_train_data = model.impute_data(x_trnval)
+        # print("Imputed Data for Experiment {}: {}".format(i+1, imputed_train_data))
+        # print(imputed_train_data)
+        imputed_test_data = model.impute_data(x_tst)
+        # print("Imputed Data for Experiment {}: {}".format(i+1, imputed_test_data))
+        # print(imputed_test_data)
+
+
+        # 결측치 생성 전의 데이터를 동일하게 train/test로 나누어서 저장
+        # original_data_train, original_data_test = train_test_split(prepro_data, test_size=0.2, random_state=i)
+        original_x_train, original_x_test, original_y_train, original_y_test = train_test_split(prepro_x, prepro_y, test_size=0.2, random_state=i)
+        print(" == original_x_test", original_x_test)
+        print(" == imputed_test_data == ", imputed_test_data)
+        # RMSE 계산 및 리스트에 추가
+        rmse = sqrt(mean_squared_error(original_x_test, imputed_test_data))
+        print("==========================================")
+        print(str(i + 1) + "th dynamic Imputation rmse: ", rmse)
+        print("==========================================")
+        rmse_list.append(rmse)
+
 
         # 결과를 딕셔너리로 저장
         result = {
             'Dataset' : '1_breast',
             'method' : 'dynamic',
             'Experiment': i + 1,
-            'Accuracy': "{:.4f} ± {:.4f}".format(acc, np.std(acc))
+            'Accuracy': "{:.4f} ± {:.4f}".format(acc, np.std(acc)),
+            'Ensemble accuracy':"{:.4f} ± {:.4f}".format(np.mean(accuracy_ensemble_list), np.std(accuracy_ensemble_list)),
+            'RMSE': "{:.4f} ± {:.4f}".format(np.mean(rmse_list), np.std(rmse_list))  # 추가된 부분
 
         }
         results.append(result)
 
     print("==========================================")
-    print("=== result : {:.4f} ± {:.4f}".format(sum(acc_list)/len(acc_list), np.std(acc_list)))
+    print("=== Accuracy result : {:.4f} ± {:.4f}".format(sum(acc_list)/len(acc_list), np.std(acc_list)))
+    print("=== RMSE result : {:.4f} ± {:.4f}".format(np.mean(rmse_list), np.std(rmse_list)))
     print("==========================================")
 
     # 결과를 DataFrame으로 변환하여 CSV 파일에 추가로 저장

@@ -8,6 +8,8 @@ import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
 from sklearn.impute import KNNImputer 
 from sklearn.metrics import accuracy_score
+from sklearn.metrics import mean_squared_error
+from math import sqrt
 
 
 # CUDA 환경 설정
@@ -17,10 +19,12 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 setproctitle('hyejin')
 
 # CSV 파일 경로 설정
-result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/2_heart_ensemble_method_res.csv'
+result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/add_rmse/2_heart_ensemble_method_res.csv'
 
 # 결과를 저장할 리스트 초기화
 results = []
+rmse_list = []
+
 
 
 class DynamicImputationModel:
@@ -80,29 +84,17 @@ class DynamicImputationModel:
 
         return acc
 
-# 데이터 파일 경로 설정
-data_pth = './processed.cleveland.data'
+prepro_data = '/userHome/userhome2/hyejin/paper_implementation/00_dataset/preprocessing/2_heart.csv'
+prepro_data = pd.read_csv(prepro_data)
 
+# 데이터 파일 경로 설정
+data_pth = '/userHome/userhome2/hyejin/paper_implementation/00_dataset/missing/2_heart.csv'
 # 데이터 불러오기
 df_data = pd.read_csv(data_pth)
-col_data = df_data.columns = [
-        "age", "sex", "cp", "trestbps", "chol", "fbs", "restecg", "thalach",
-        "exang", "oldpeak", "slope", "ca", "thal", "class"
-    ]
-train_col = ["age", "sex", "cp", "trestbps", "chol", "fbs", "restecg", "thalach",
-        "exang", "oldpeak", "slope", "ca", "thal", ]
-df_data['ca'] = df_data['ca'].replace('?', 0.0).astype(float)
-df_data['thal'] = df_data['thal'].replace('?', 0.0).astype(float)
-
-data = df_data
+train_col = ["age", "sex", "cp", "trestbps", "chol", "fbs", "restecg", "thalach", "exang", "oldpeak", "slope", "ca", "thal"]
 
 
-missing_length = 0.2
-for col in train_col:
-    nan_mask = np.random.rand(data.shape[0]) < missing_length
-    data.loc[nan_mask, col] = np.nan
-
-data_with_missing = data
+data_with_missing = df_data
 
 # KNNImputer를 사용하여 결측치 처리
 imputer = KNNImputer(n_neighbors=5)  # 이웃 개수 조정 가능
@@ -139,20 +131,36 @@ for iteration in range(num_iterations):
     print(str(iteration+1)+"th accuracy === : ", accuracy)
     print("==========================================")
     accuracy_list.append(accuracy)
-    
+
     model.sess.close()
+
+    # 결측치 생성 전의 데이터를 동일하게 train/test로 나누어서 저장
+    original_data_train, original_data_test = train_test_split(prepro_data, test_size=0.2, random_state=iteration)
+
+    print(" === original_data_test === ", original_data_test)
+    print(" === original_data_test.drop(columns=['class']) === ", original_data_test.drop(columns=['class']))
+    print(" === test_X === ", test_X)
+    # RMSE 계산
+    rmse = sqrt(mean_squared_error(original_data_test.drop(columns=['class']), test_X))
+    print("==========================================")
+    print(str(iteration + 1) + "th Ensemble Imputation rmse: ", rmse)
+    print("==========================================")
+    rmse_list.append(rmse)
+    
 
     # 결과를 딕셔너리로 저장
     result = {
         'Dataset' : '2_heart',
         'method' : 'knn',
         'Experiment': iteration + 1,
-        'Accuracy': "{:.4f} ± {:.4f}".format(accuracy, np.std(accuracy))
+        'Accuracy': "{:.4f} ± {:.4f}".format(accuracy, np.std(accuracy)),
+        'RMSE': "{:.4f} ± {:.4f}".format(np.mean(rmse_list), np.std(rmse_list))
     }
     results.append(result)
 
 print("==========================================")
-print("=== result : {:.4f} ± {:.4f}".format(sum(accuracy_list)/len(accuracy_list), np.std(accuracy_list)))
+print("=== Accuracy result : {:.4f} ± {:.4f}".format(sum(accuracy_list)/len(accuracy_list), np.std(accuracy_list)))
+print("=== RMSE result : {:.4f} ± {:.4f}".format(np.mean(rmse_list), np.std(rmse_list)))
 print("==========================================")
 
 # 결과를 DataFrame으로 변환하여 CSV 파일에 추가로 저장

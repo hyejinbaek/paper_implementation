@@ -51,10 +51,18 @@ class Dynamic_imputation_nn():
         # skleanr -> IterativeImputer(회귀 대치)
         self.imputer = IterativeImputer(sample_posterior=True, random_state = self.seed)
         
-    # [230818] RMSE 때문에 추가 
+    # [240115] RMSE 때문에 추가 
     def predict(self, x):
-        predictions = self.model.predict(x)
-        return predictions
+        # 이 메서드는 학습된 모델을 사용하여 입력 데이터에 대한 예측값을 반환합니다.
+        # 여기서는 모델의 출력값인 pred를 반환하도록 하겠습니다.
+        return self.sess.run(self.pred, feed_dict={self.x: x})
+    
+    # [240123]dynamic imputation 결과를 확인하기 위해 추가
+    def impute_data(self, x):
+        # 모델이 학습된 후에 호출되는 메서드로, 입력 데이터의 누락된 값을 대체하여 반환합니다.
+        # 여기서는 IterativeImputer를 사용한 예시입니다.
+        imputed_data = self.imputer.transform(x)
+        return imputed_data
     
     def prediction(self, x):
         with tf.variable_scope('network'):
@@ -71,7 +79,6 @@ class Dynamic_imputation_nn():
         return logits, pred
     
     
-    
     def train_with_dynamic_imputation(self, x_trnval, y_trnval, save_path, num_mi, m, tau, early_stopping=True):
         
         self.imputer.fit(x_trnval)
@@ -82,7 +89,8 @@ class Dynamic_imputation_nn():
         x_val_imputed = np.mean(x_val_imputed_list, 0)
         
         n_batch = int(len(x_trn)/self.batch_size)
-        
+
+
         if self.dim_y == 1:
             # sigmoid_cross_entropy_with_logits, softmax_cross_entropy_with_logits : 손실함수
             # 차원에 따라 sigmoid/softmax 방법을 각각 적용하여 진행
@@ -145,13 +153,10 @@ class Dynamic_imputation_nn():
     def get_auroc(self, x_tst, y_tst):
         
         y_tst_hat = self.sess.run(self.pred, feed_dict={self.x: x_tst})
-        print(" === y_tst_hat ===", y_tst_hat)
         if self.dim_y == 1:
-            print("==== 1 =====")
             auroc = roc_auc_score(y_tst, y_tst_hat)
             
         else:
-            print("==== 2 =====")
             auroc = roc_auc_score(y_tst, y_tst_hat, average = 'macro', multi_class = 'ovr')
             
         return auroc

@@ -51,7 +51,12 @@ class Dynamic_imputation_nn():
         # skleanr -> IterativeImputer(회귀 대치)
         self.imputer = IterativeImputer(sample_posterior=True, random_state = self.seed)
         
-        
+    def impute_data(self, x):
+        # 모델이 학습된 후에 호출되는 메서드로, 입력 데이터의 누락된 값을 대체하여 반환합니다.
+        # 여기서는 IterativeImputer를 사용한 예시입니다.
+        imputed_data = self.imputer.transform(x)
+        return imputed_data
+    
     def prediction(self, x):
         with tf.variable_scope('network'):
             for _ in range(self.num_layers):

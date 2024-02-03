@@ -120,6 +120,7 @@ df_data = pd.read_csv(data_pth)
 # # 범주형 피처 선택
 # categorical_columns = ['Class', 'age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'breast', 'breast-quad', 'irradiat']
 train_col = ['age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'deg-malig', 'breast', 'breast-quad', 'irradiat']
+
 # # 레이블 인코딩 적용
 # df_encoded = label_encode(df_data, categorical_columns)
 # data = df_encoded
@@ -192,18 +193,12 @@ for iteration in range(num_iterations):
     accuracy_list.append(accuracy_knn_imputation)
     accuracy_list.append(accuracy_zero_imputation)
 
-    # 앙상블 모델 초기화
-    model_ensemble = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
-
     # 결측치 생성 전의 데이터를 동일하게 train/test로 나누어서 저장
     original_data_train, original_data_test = train_test_split(prepro_data, test_size=0.2, random_state=iteration)
 
     # X와 y를 따로 분리
     train_X_ensemble = pd.concat([train_data_knn_imputed, train_data_zero_imputed]).drop(columns=['Class'])
     train_y_ensemble = pd.concat([train_data_knn_imputed['Class'], train_data_zero_imputed['Class']])
-
-    # model_ensemble.train_model 호출 시에 X와 y를 제대로 지정
-    model_ensemble.train_model(train_X_ensemble, train_y_ensemble, num_epochs=50, batch_size=32)
 
     # 앙상블 모델을 훈련하고 예측
     model_ensemble = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
