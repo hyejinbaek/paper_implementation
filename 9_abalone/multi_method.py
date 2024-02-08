@@ -20,13 +20,13 @@ from sklearn.metrics import accuracy_score
 from sklearn.metrics import mean_squared_error
 from math import sqrt
 # CUDA 환경 설정
-os.environ['CUDA_VISIBLE_DEVICES'] = '1'
+os.environ['CUDA_VISIBLE_DEVICES'] = '1,0'
 
 # 프로세스 제목 설정
 setproctitle('hyejin')
 
 # CSV 파일 경로 설정
-result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/multi_method/1_breast_ensemble_method_res.csv'
+result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/multi_method/9_abalone_ensemble_method_res.csv'
 
 # 결과를 저장할 리스트 초기화
 results = []
@@ -96,20 +96,20 @@ class DynamicImputationModel:
     
     
 # 데이터 파일 경로 설정
-data_pth = '/userHome/userhome2/hyejin/paper_implementation/00_dataset/missing/1_breast.csv'
+data_pth = '/userHome/userhome2/hyejin/paper_implementation/00_dataset/missing/9_abalone.csv'
 df_data = pd.read_csv(data_pth)
-train_col =['age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'deg-malig', 'breast', 'breast-quad', 'irradiat']
+train_col = ['Length', 'Diameter', 'Height', 'Whole weight', 'Shucked weight', 'Viscera weight', 'Shell weight', 'Rings']
 
-prepro_data = '/userHome/userhome2/hyejin/paper_implementation/00_dataset/preprocessing/1_breast.csv'
+prepro_data = '/userHome/userhome2/hyejin/paper_implementation/00_dataset/preprocessing/9_abalone.csv'
 prepro_data = pd.read_csv(prepro_data)
-prepro_data.columns = ['Class', 'age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'deg-malig', 'breast', 'breast-quad', 'irradiat']
+
 prepro_x = prepro_data[train_col]
-prepro_y = prepro_data['Class']
+prepro_y = prepro_data['class']
 
 data_with_missing = df_data
 
 x = data_with_missing[train_col]
-y = data_with_missing['Class']
+y = data_with_missing['class']
 
 # 반복 횟수 설정
 num_iterations = 30
@@ -196,7 +196,7 @@ for iteration in range(num_iterations):
 
      # 결과를 딕셔너리로 저장
     result = {
-        'Dataset' : '1_breast',
+        'Dataset' : '9_abalone',
         'method' : 'multi',
         'Experiment': iteration + 1,
         'Accuracy': "{:.4f} ± {:.4f}".format(accuracy, np.std(accuracy)),
