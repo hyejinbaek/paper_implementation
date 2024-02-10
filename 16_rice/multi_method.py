@@ -1,4 +1,5 @@
 ## Multi-model ensemble method
+## nn제외
 from sklearn.impute import KNNImputer
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import LabelEncoder
@@ -20,7 +21,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.metrics import mean_squared_error
 from math import sqrt
 # CUDA 환경 설정
-os.environ['CUDA_VISIBLE_DEVICES'] = '1,0'
+os.environ['CUDA_VISIBLE_DEVICES'] = '1'
 
 # 프로세스 제목 설정
 setproctitle('hyejin')
@@ -31,70 +32,6 @@ result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/multi_met
 # 결과를 저장할 리스트 초기화
 results = []
 
-
-class DynamicImputationModel:
-    def __init__(self, num_layers, num_hidden, dim_y, num_features):  # Pass num_features
-        self.num_layers = num_layers
-        self.num_hidden = num_hidden
-        self.dim_y = dim_y
-        self.num_features = num_features  # Store num_features in the instance
-        tf.compat.v1.disable_eager_execution()
-        self.x = tf.compat.v1.placeholder(tf.float32, shape=[None, self.num_features])  # Use self.num_features here
-
-        self.y_true = tf.compat.v1.placeholder(tf.float32, shape=[None, dim_y])
-        self.logits, self.pred = self.build_model(self.x)
-        self.loss = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(labels=self.y_true, logits=self.logits))
-        self.optimizer = tf.train.AdamOptimizer(learning_rate=0.001)
-        self.train_op = self.optimizer.minimize(self.loss)
-        self.sess = tf.Session()
-        self.sess.run(tf.global_variables_initializer())
-
-
-    def build_model(self, x):
-        for _ in range(self.num_layers):
-            x = tf.layers.dense(x, self.num_hidden, activation=tf.nn.tanh)
-        logits = tf.layers.dense(x, self.dim_y)
-
-        if self.dim_y == 1:
-            pred = tf.nn.sigmoid(logits)
-        elif self.dim_y > 2:
-            pred = tf.nn.softmax(logits)
-
-        return logits, pred
-
-    def train_model(self, train_X, train_y, num_epochs, batch_size):
-        num_batches = int(np.ceil(len(train_X) / batch_size))
-        train_X = pd.DataFrame(train_X)  # Convert train_X to Pandas DataFrame
-        train_y = pd.DataFrame(train_y)
-        for epoch in range(num_epochs):
-            indices = np.arange(len(train_X))
-            np.random.shuffle(indices)
-            train_X_shuffled = train_X.iloc[indices]
-            train_y_shuffled = train_y.iloc[indices]
-
-            for i in range(num_batches):
-                batch_X = train_X_shuffled.iloc[i * batch_size: (i + 1) * batch_size]
-                batch_y = train_y_shuffled.iloc[i * batch_size: (i + 1) * batch_size]
-
-                self.sess.run(self.train_op, feed_dict={self.x: batch_X.values, self.y_true: batch_y.values.reshape(-1, 1)})
-    
-    def get_accuracy(self, x_tst, y_tst):
-        if self.dim_y == 1:
-            pred_Y = tf.cast(self.pred > 0.5, tf.float32)
-            correct_prediction = tf.equal(pred_Y, self.y_true)
-            accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
-
-            acc = self.sess.run(accuracy, feed_dict={self.x: x_tst, self.y_true: np.array(y_tst).reshape(-1, 1)})  # 수정된 부분
-        else:
-            y_tst_hat = self.sess.run(self.pred, feed_dict={self.x: x_tst})
-            y_tst_hat = np.argmax(y_tst_hat, axis=1)
-
-            acc = accuracy_score(np.argmax(y_tst, axis=1), y_tst_hat)
-
-        return acc
-
-    
-    
 # 데이터 파일 경로 설정
 data_pth = '/userHome/userhome2/hyejin/paper_implementation/00_dataset/missing/16_rice.csv'
 df_data = pd.read_csv(data_pth)
@@ -157,23 +94,7 @@ for iteration in range(num_iterations):
     print(str(iteration+1)+"th accuracy === : ", accuracy)
     print("==========================================")
 
-    # 신경망 모델 학습
-    model = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))  # Pass num_features
-    num_epochs = 50
-    batch_size = 32
-    model.train_model(X_train_imputed, y_train, num_epochs, batch_size)
-
-    accuracy_imputed = model.get_accuracy(X_test_imputed, y_test)
-    print("Accuracy for imputed data:", accuracy_imputed)
-
-
-    print("==========================================")
-    print(" ==== neural network 추가한 뒤 accuracy ")
-    print(str(iteration+1)+"th accuracy === : ", accuracy_imputed)
-    print("==========================================")
-    accuracy_list.append(accuracy_imputed)
-
-    model.sess.close()
+    accuracy_list.append(accuracy)
 
     # 모든 반복이 끝난 후에 평균 및 표준편차 계산
     accuracy_mean = np.mean(accuracy_list)
@@ -190,14 +111,13 @@ for iteration in range(num_iterations):
     rmse_list.append(rmse)
 
     print("==========================================")
-    print(" ==== neural network 추가한 뒤 rmse ")
     print(str(iteration+1)+"th rmse === : ", rmse)
     print("==========================================")
 
      # 결과를 딕셔너리로 저장
     result = {
         'Dataset' : '16_rice',
-        'method' : 'multi',
+        'method' : 'multi(nn제외)',
         'Experiment': iteration + 1,
         'Accuracy': "{:.4f} ± {:.4f}".format(accuracy, np.std(accuracy)),
         'RMSE': "{:.4f} ± {:.4f}".format(np.mean(rmse_list), np.std(rmse_list))
