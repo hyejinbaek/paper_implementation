@@ -2,7 +2,7 @@
 # tensorflow version : 2.12.0
 # 실행 명령어 : python dynamic_imputation_main_exp.py --seed 0 --missing_rate 20 --num_mi 5 --m 10 --tau 0.05
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '0'
+os.environ['CUDA_VISIBLE_DEVICES'] = '2'
 from setproctitle import *
 setproctitle('hyejin')
 import warnings
@@ -14,34 +14,16 @@ import tensorflow as tf
 import numpy as np
 import pandas as pd
 import argparse
-from tensorflow.keras.layers import Input, Embedding, Flatten
-from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import mean_squared_error
 from math import sqrt
+from sklearn.preprocessing import MinMaxScaler
 
 # CSV 파일 경로 설정
-result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/3_adult_ensemble_method_res.csv'
+result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/add_rmse/3_adult_ensemble_method_res.csv'
 
 # 결과를 저장할 리스트 초기화
 results = []
-
-def label_encode(df, columns):
-    df_encoded = df.copy()
-    label_encoder = LabelEncoder()
-    for col in columns:
-        df_encoded[col] = label_encoder.fit_transform(df_encoded[col].astype(str))
-    return df_encoded
-
-def build_embedding_model(input_dims, embedding_dims):
-    inputs = []
-    embeddings = []
-    for input_dim in input_dims:
-        input_layer = Input(shape=(1,))
-        embedding = Embedding(input_dim, embedding_dims)(input_layer)
-        embedding = Flatten()(embedding)
-        inputs.append(input_layer)
-        embeddings.append(embedding)
-    return inputs, embeddings
+rmse_list = []
 
 def main(args):
 
@@ -50,28 +32,19 @@ def main(args):
     
     hyperparameters = {'num_mi': args.num_mi, 'm': args.m, 'tau': args.tau}
 
-    data_pth = './adult.data'    
+    prepro_data = '/userHome/userhome2/hyejin/paper_implementation/00_dataset/preprocessing/3_adult.csv'
+    prepro_data = pd.read_csv(prepro_data)
+
+    data_pth = '/userHome/userhome2/hyejin/paper_implementation/00_dataset/missing/3_adult.csv'
     df_data = pd.read_csv(data_pth)
-    col_data = df_data.columns = ['age', 'workclass', 'fnlwgt', 'education', 'education-num', 'marital-status','occupation', 'relationship', 'race', 'sex', 'capital-gain', 'capital-loss',
-                    'hours-per-week', 'native-country', 'target']
+
     train_col = ['age', 'workclass', 'fnlwgt', 'education', 'education-num', 'marital-status','occupation', 'relationship', 'race', 'sex', 'capital-gain', 'capital-loss',
                     'hours-per-week', 'native-country']
-    df_data['workclass'] = df_data['workclass'].replace('?', 0).astype(str)
-    df_data['occupation'] = df_data['occupation'].replace('?', 0).astype(str)
 
-    categorical_columns = ['workclass', 'education', 'marital-status', 'occupation','relationship', 'race', 'sex', 'native-country', 'target']
+    prepro_x = prepro_data[train_col]
+    prepro_y = prepro_data['target']
+    data = df_data.values
 
-   # 레이블 인코딩 적용
-    df_encoded = label_encode(df_data, categorical_columns)
-
-    data = df_encoded[train_col].values
-
-    # 고정 !!
-    if len(data)>10000:
-        np.random.seed(seed)
-        random_sampled_idx = np.random.choice(len(data), 10000, replace=False)
-        data = data[random_sampled_idx]
-    
     x = data[:,:-1]
     y = data[:,-1]
 
@@ -84,7 +57,7 @@ def main(args):
     for i  in range(30):
        
         x_trnval, x_tst, y_trnval, y_tst = train_test_split(x,y, test_size=0.2, shuffle=True, random_state=i)
-        
+            
         dim_x = x_trnval.shape[1]
 
         if y_trnval.shape[1] > 2:
@@ -102,18 +75,44 @@ def main(args):
 
         acc_list.append(acc)
 
+        imputed_train_data = model.impute_data(x_trnval)
+        # print("Imputed Data for Experiment {}: {}".format(i+1, imputed_train_data))
+        # print(imputed_train_data)
+        imputed_test_data = model.impute_data(x_tst)
+        # print("Imputed Data for Experiment {}: {}".format(i+1, imputed_test_data))
+        # print(imputed_test_data)
+
+
+        # 결측치 생성 전의 데이터를 동일하게 train/test로 나누어서 저장
+        original_x_train, original_x_test, original_y_train, original_y_test = train_test_split(prepro_x, prepro_y, test_size=0.2, random_state=i)
+        
+        # Min-Max Scaling 수행
+        scaler = MinMaxScaler(feature_range=(-1, 1))  # imputed_test_data와 동일한 범위로 조정
+        original_x_test_scaled = scaler.fit_transform(original_x_test)
+        print(" == original_x_test_scaled == ", original_x_test_scaled)
+
+        # RMSE 계산 및 리스트에 추가
+        rmse = sqrt(mean_squared_error(original_x_test_scaled, imputed_test_data))
         print("==========================================")
-        print("=== result" : "{.4f} ± {.4f}".format(sum(acc_list)/len(acc_list), np.std(acc_list)))
+        print(str(i + 1) + "th dynamic Imputation rmse: ", rmse)
         print("==========================================")
+        rmse_list.append(rmse)
 
         # 결과를 딕셔너리로 저장
         result = {
             'Dataset' : '3_adult',
             'method' : 'dynamic',
             'Experiment': i + 1,
-            'Accuracy': "{:.4f} ± {:.4f}".format(acc, np.std(acc))
+            'Accuracy': "{:.4f} ± {:.4f}".format(acc, np.std(acc)),
+            'RMSE': "{:.4f} ± {:.4f}".format(np.mean(rmse_list), np.std(rmse_list))
         }
         results.append(result)
+
+    print("==========================================")
+    print("=== result : {:.4f} ± {:.4f}".format(sum(acc_list)/len(acc_list), np.std(acc_list)))
+    print("=== RMSE result : {:.4f} ± {:.4f}".format(np.mean(rmse_list), np.std(rmse_list)))
+    print("==========================================")
+    
 
 
     

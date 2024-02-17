@@ -2,7 +2,7 @@
 # tensorflow version : 2.12.0
 # 실행 명령어 : python dynamic_imputation_main_exp.py --seed 0 --missing_rate 20 --num_mi 5 --m 10 --tau 0.05
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '1'
+os.environ['CUDA_VISIBLE_DEVICES'] = '2'
 from setproctitle import *
 setproctitle('hyejin')
 import warnings
@@ -19,6 +19,8 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import mean_squared_error
 from math import sqrt
+from sklearn.preprocessing import MinMaxScaler
+
 
 # CSV 파일 경로 설정
 result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/add_rmse/1_breast_ensemble_method_res.csv'
@@ -88,7 +90,7 @@ def main(args):
 
     acc_list, auroc = [], []
     
-    for i  in range(30):
+    for i in range(30):
         x_trnval, x_tst, y_trnval, y_tst = train_test_split(x,y, test_size=0.2, shuffle=True, random_state=i)
         
         dim_x = x_trnval.shape[1]
@@ -115,13 +117,22 @@ def main(args):
         # print(imputed_test_data)
 
 
+
         # 결측치 생성 전의 데이터를 동일하게 train/test로 나누어서 저장
         # original_data_train, original_data_test = train_test_split(prepro_data, test_size=0.2, random_state=i)
         original_x_train, original_x_test, original_y_train, original_y_test = train_test_split(prepro_x, prepro_y, test_size=0.2, random_state=i)
+        print(" == original_x_test values", original_x_test.values)
         print(" == original_x_test", original_x_test)
         print(" == imputed_test_data == ", imputed_test_data)
+
+        # Min-Max Scaling 수행
+        scaler = MinMaxScaler(feature_range=(-1, 1))  # imputed_test_data와 동일한 범위로 조정
+        original_x_test_scaled = scaler.fit_transform(original_x_test)
+        print(" == original_x_test_scaled == ", original_x_test_scaled)
+
         # RMSE 계산 및 리스트에 추가
-        rmse = sqrt(mean_squared_error(original_x_test, imputed_test_data))
+        rmse = sqrt(mean_squared_error(original_x_test_scaled, imputed_test_data))
+        
         print("==========================================")
         print(str(i + 1) + "th dynamic Imputation rmse: ", rmse)
         print("==========================================")

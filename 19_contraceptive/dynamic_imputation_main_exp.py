@@ -1,4 +1,4 @@
-# 데이터셋 변경하여 진행(shuttle-landing-control dataset)
+# 데이터셋 변경하여 진행(post-patient dataset)
 # tensorflow version : 2.12.0
 # 실행 명령어 : python dynamic_imputation_main_exp.py --seed 0 --missing_rate 20 --num_mi 5 --m 10 --tau 0.05
 import os
@@ -20,7 +20,7 @@ from math import sqrt
 from sklearn.preprocessing import MinMaxScaler
 
 # CSV 파일 경로 설정
-result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/add_rmse/8_liver_ensemble_method_res.csv'
+result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/add_rmse/19_contraceptive_ensemble_method_res.csv'
 
 # 결과를 저장할 리스트 초기화
 results = []
@@ -33,15 +33,16 @@ def main(args):
     
     hyperparameters = {'num_mi': args.num_mi, 'm': args.m, 'tau': args.tau}
 
-    prepro_data = '/userHome/userhome2/hyejin/paper_implementation/00_dataset/preprocessing/8_liver.csv'
+    prepro_data = '/userHome/userhome2/hyejin/paper_implementation/00_dataset/preprocessing/19_contraceptive.csv'
     prepro_data = pd.read_csv(prepro_data)
 
-    data_pth = '/userHome/userhome2/hyejin/paper_implementation/00_dataset/missing/8_liver.csv'
+    data_pth = '/userHome/userhome2/hyejin/paper_implementation/00_dataset/missing/19_contraceptive.csv'
     df_data = pd.read_csv(data_pth)
-    train_col =['mcv', 'alkphos', 'sgpt', 'sgot', 'gammagt', 'selector']
+    train_col = ['age', 'wife education', 'husband education', 'number', 'wife religion', 'wife working', 'husband occupation', 'standard', 'media']
+
     prepro_x = prepro_data[train_col]
     prepro_y = prepro_data['class']
-    # for문에서 뺌*/
+    # for문에서 뺌
     x, y = preprocessing(df_data[train_col].values, df_data['class'].values, missing_rate, seed)
 
     acc_list, auroc = [], []
@@ -66,9 +67,8 @@ def main(args):
         print("==========================================")
 
         acc_list.append(acc)
-
         print("==========================================")
-        print("=== result : {:.4f} ± {:.4f}".format(acc, np.std(acc)))
+        print("=== result : {:.4f} ± {:.4f}".format(sum(acc_list)/len(acc_list), np.std(acc_list)))
         print("==========================================")
 
         imputed_train_data = model.impute_data(x_trnval)
@@ -81,6 +81,7 @@ def main(args):
 
         # 결측치 생성 전의 데이터를 동일하게 train/test로 나누어서 저장
         original_x_train, original_x_test, original_y_train, original_y_test = train_test_split(prepro_x, prepro_y, test_size=0.2, random_state=i)
+
         # Min-Max Scaling 수행
         scaler = MinMaxScaler(feature_range=(-1, 1))  # imputed_test_data와 동일한 범위로 조정
         original_x_test_scaled = scaler.fit_transform(original_x_test)
@@ -96,7 +97,7 @@ def main(args):
 
         # 결과를 딕셔너리로 저장
         result = {
-            'Dataset' : '8_liver',
+            'Dataset' : '19_contraceptive',
             'method' : 'dynamic',
             'Experiment': i + 1,
             'Accuracy': "{:.4f} ± {:.4f}".format(acc, np.std(acc)),
