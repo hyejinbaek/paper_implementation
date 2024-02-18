@@ -10,9 +10,10 @@ tf.disable_v2_behavior()
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import mean_squared_error
 from math import sqrt
+from sklearn.preprocessing import MinMaxScaler
 
 # CUDA 환경 설정
-os.environ['CUDA_VISIBLE_DEVICES'] = '1'
+os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 
 # 프로세스 제목 설정
 setproctitle('hyejin')
@@ -162,9 +163,17 @@ for iteration in range(num_iterations):
 
     # 결측치 생성 전의 데이터를 동일하게 train/test로 나누어서 저장
     original_data_train, original_data_test = train_test_split(prepro_data, test_size=0.2, random_state=iteration)
+    original_data_test = original_data_test.drop(columns=['class'])
+
+    # Min-Max Scaling 수행
+    scaler = MinMaxScaler(feature_range=(-1, 1))  # imputed_test_data와 동일한 범위로 조정
+    original_x_test_scaled = scaler.fit_transform(original_data_test)
+    test_X_scaled = scaler.fit_transform(test_imputed_df)
+    print(" == original_x_test_scaled == ", original_x_test_scaled)
+    print(" == test_X_scaled == ", test_X_scaled)
 
     # RMSE 계산
-    rmse = sqrt(mean_squared_error(original_data_test.drop(columns=['class']), test_imputed_df))
+    rmse = sqrt(mean_squared_error(original_x_test_scaled, test_X_scaled))
     print("==========================================")
     print(str(iteration + 1) + "th Ensemble Imputation rmse: ", rmse)
     print("==========================================")
