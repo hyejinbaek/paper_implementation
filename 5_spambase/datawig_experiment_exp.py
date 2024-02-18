@@ -8,6 +8,9 @@ import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
 from datawig import SimpleImputer
 from sklearn.metrics import accuracy_score
+from sklearn.metrics import mean_squared_error
+from math import sqrt
+from sklearn.preprocessing import MinMaxScaler
 
 # CUDA 환경 설정
 os.environ['CUDA_VISIBLE_DEVICES'] = '3'
@@ -16,10 +19,11 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 setproctitle('hyejin')
 
 # CSV 파일 경로 설정
-result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/5_spambase_ensemble_method_res.csv'
+result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/add_rmse/5_spambase_ensemble_method_res.csv'
 
 # 결과를 저장할 리스트 초기화
 results = []
+rmse_list = []
 
 class DynamicImputationModel:
     def __init__(self, num_layers, num_hidden, dim_y, num_features):  # Pass num_features
@@ -81,35 +85,21 @@ class DynamicImputationModel:
 
         return acc
 
-# 데이터 파일 경로 설정
-data_pth = './spambase.data'
+prepro_data = '/userHome/userhome2/hyejin/paper_implementation/00_dataset/preprocessing/5_spambase.csv'
+prepro_data = pd.read_csv(prepro_data)
 
-# 데이터 불러오기
+data_pth = '/userHome/userhome2/hyejin/paper_implementation/00_dataset/missing/5_spambase.csv'
 df_data = pd.read_csv(data_pth)
-col_data = df_data.columns =['freq_make','freq_address','freq_all','freq_3d','freq_our','freq_over','freq_remove','freq_internet','freq_order',
-                    'freq_mail','freq_receive','freq_will','freq_people','freq_report','freq_addresses','freq_free','freq_business',
-                    'freq_email','freq_you','freq_credit','freq_your','freq_font','freq_000','freq_money','freq_hp','freq_hpl',
-                    'freq_george','freq_650','freq_lab','freq_labs','freq_telnet','freq_857','freq_data','freq_415','freq_85',
-                    'freq_technology','freq_1999','freq_parts','freq_pm','freq_direct','freq_cs','freq_meeting','freq_original',
-                    'freq_project','freq_re','freq_edu','freq_table','freq_conference','char_freq','char_freq_1','char_freq_2','char_freq_3',
-                    'char_freq_4','char_freq_5','capital_run_length_average','capital_run_length_longest','capital_run_length_total', 'class']
-train_col = ['freq_make','freq_address','freq_all','freq_3d','freq_our','freq_over','freq_remove','freq_internet','freq_order',
-                    'freq_mail','freq_receive','freq_will','freq_people','freq_report','freq_addresses','freq_free','freq_business',
-                    'freq_email','freq_you','freq_credit','freq_your','freq_font','freq_000','freq_money','freq_hp','freq_hpl',
-                    'freq_george','freq_650','freq_lab','freq_labs','freq_telnet','freq_857','freq_data','freq_415','freq_85',
-                    'freq_technology','freq_1999','freq_parts','freq_pm','freq_direct','freq_cs','freq_meeting','freq_original',
-                    'freq_project','freq_re','freq_edu','freq_table','freq_conference','char_freq','char_freq_1','char_freq_2','char_freq_3',
-                    'char_freq_4','char_freq_5','capital_run_length_average','capital_run_length_longest','capital_run_length_total']
-
-data = df_data
+train_col = ['word_freq_make','word_freq_address','mword_freq_all','word_freq_3d','word_freq_our','word_freq_over','word_freq_remove','word_freq_internet','word_freq_order','word_freq_mail',
+'word_freq_receive','word_freq_will','word_freq_people','word_freq_report','word_freq_addresses','word_freq_free','word_freq_business','word_freq_email','word_freq_you','word_freq_credit',
+'word_freq_your','word_freq_font','word_freq_000','word_freq_money','word_freq_hp','word_freq_hpl','word_freq_george','word_freq_650','word_freq_lab','word_freq_labs','word_freq_telnet','word_freq_857',
+'word_freq_data','word_freq_415','word_freq_85','word_freq_technology','word_freq_1999','word_freq_parts','word_freq_pm','word_freq_direct','word_freq_cs','word_freq_meeting','word_freq_original',
+'word_freq_project','word_freq_re','word_freq_edu','word_freq_table','word_freq_conference','char_freq_1','char_freq_2','char_freq_3','char_freq_4','char_freq_5','char_freq_6','capital_run_length_average',
+'capital_run_length_longest','capital_run_length_total']
 
 
-missing_length = 0.2
-for col in train_col:
-    nan_mask = np.random.rand(data.shape[0]) < missing_length
-    data.loc[nan_mask, col] = np.nan
 
-data_with_missing = data
+data_with_missing = df_data
 
 # 반복 횟수 설정
 num_iterations = 30
@@ -174,12 +164,32 @@ for iteration in range(num_iterations):
     accuracy_mean = np.mean(accuracy_list)
     accuracy_std = np.std(accuracy_list)
 
+    # 결측치 생성 전의 데이터를 동일하게 train/test로 나누어서 저장
+    original_data_train, original_data_test = train_test_split(prepro_data, test_size=0.2, random_state=iteration)
+    original_data_test = original_data_test.drop(columns=['class'])
+
+    # Min-Max Scaling 수행
+    scaler = MinMaxScaler(feature_range=(-1, 1))  # imputed_test_data와 동일한 범위로 조정
+    original_x_test_scaled = scaler.fit_transform(original_data_test)
+    test_X_scaled = scaler.fit_transform(test_imputed_df)
+    print(" == original_x_test_scaled == ", original_x_test_scaled)
+    print(" == test_X_scaled == ", test_X_scaled)
+
+    # RMSE 계산
+    rmse = sqrt(mean_squared_error(original_x_test_scaled, test_X_scaled))
+    
+    print("==========================================")
+    print(str(iteration + 1) + "th Ensemble Imputation rmse: ", rmse)
+    print("==========================================")
+    rmse_list.append(rmse)
+
     # 결과를 딕셔너리로 저장
     result = {
         'Dataset' : '5_spambase',
         'method' : 'datawig',
         'Experiment': iteration + 1,
-        'Accuracy': "{:.4f} ± {:.4f}".format(accuracy, np.std(accuracy))
+        'Accuracy': "{:.4f} ± {:.4f}".format(accuracy, np.std(accuracy)),
+        'RMSE': "{:.4f} ± {:.4f}".format(np.mean(rmse_list), np.std(rmse_list))
     }
     results.append(result)
 
@@ -187,7 +197,8 @@ for iteration in range(num_iterations):
 print("Mean Accuracy: {:.2f}".format(accuracy_mean))
 print("Standard Deviation of Accuracy: {:.2f}".format(accuracy_std))
 print("==========================================")
-print("=== result : {:.4f} ± {:.4f}".format(sum(accuracy_list)/len(accuracy_list), np.std(accuracy_list)))
+print("=== Accuracy result : {:.4f} ± {:.4f}".format(sum(accuracy_list)/len(accuracy_list), np.std(accuracy_list)))
+print("=== RMSE result : {:.4f} ± {:.4f}".format(np.mean(rmse_list), np.std(rmse_list)))
 print("==========================================")
 
 # 결과를 DataFrame으로 변환하여 CSV 파일에 추가로 저장

@@ -3,43 +3,27 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 import tensorflow as tf
 from setproctitle import setproctitle
-from tensorflow.keras.layers import Input, Embedding, Flatten
-from sklearn.preprocessing import LabelEncoder
 from datawig import SimpleImputer
 import os
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
 from sklearn.metrics import accuracy_score
+from sklearn.metrics import mean_squared_error
+from math import sqrt
+from sklearn.preprocessing import MinMaxScaler
 
 # CUDA 환경 설정
-os.environ['CUDA_VISIBLE_DEVICES'] = '0'
+os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 
 # 프로세스 제목 설정
 setproctitle('hyejin')
 
 # CSV 파일 경로 설정
-result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/18_maternal_ensemble_method_res.csv'
+result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/add_rmse/18_maternal_ensemble_method_res.csv'
 
 # 결과를 저장할 리스트 초기화
 results = []
-
-def label_encode(df, columns):
-    df_encoded = df.copy()
-    label_encoder = LabelEncoder()
-    for col in columns:
-        df_encoded[col] = label_encoder.fit_transform(df_encoded[col].astype(str))
-    return df_encoded
-
-def build_embedding_model(input_dims, embedding_dims):
-    inputs = []
-    embeddings = []
-    for input_dim in input_dims:
-        input_layer = Input(shape=(1,))
-        embedding = Embedding(input_dim, embedding_dims)(input_layer)
-        embedding = Flatten()(embedding)
-        inputs.append(input_layer)
-        embeddings.append(embedding)
-    return inputs, embeddings
+rmse_list = []
 
 class DynamicImputationModel:
     def __init__(self, num_layers, num_hidden, dim_y, num_features):  # Pass num_features
@@ -102,23 +86,14 @@ class DynamicImputationModel:
         return acc
 
 
-data_pth = './Maternal Health Risk Data Set.csv'
+prepro_data = '/userHome/userhome2/hyejin/paper_implementation/00_dataset/preprocessing/18_maternal.csv'
+prepro_data = pd.read_csv(prepro_data)
 
-# 데이터 불러오기
+data_pth = '/userHome/userhome2/hyejin/paper_implementation/00_dataset/missing/18_maternal.csv'
 df_data = pd.read_csv(data_pth)
 train_col = ['Age', 'SystolicBP', 'DiastolicBP', 'BS', 'BodyTemp', 'HeartRate']
 
-categorical_columns = ['RiskLevel']
-# 레이블 인코딩 적용
-df_encoded = label_encode(df_data, categorical_columns)
-data = df_encoded
-
-missing_length = 0.2
-for col in train_col:
-    nan_mask = np.random.rand(data.shape[0]) < missing_length
-    data.loc[nan_mask, col] = np.nan
-
-data_with_missing = data
+data_with_missing = df_data
 
 # 반복 횟수 설정
 num_iterations = 30
@@ -160,9 +135,9 @@ for iteration in range(num_iterations):
 
     # 학습을 위한 데이터 준비
     train_X = train_imputed_df[train_col].values  # Select only the columns for training
-    train_y = train_data['RiskLevel'].values  # Convert to NumPy array
+    train_y = train_data['class'].values  # Convert to NumPy array
     test_X = test_imputed_df[train_col].values  # Select only the columns for testing
-    test_y = test_data['RiskLevel'].values  # Convert to NumPy array
+    test_y = test_data['class'].values  # Convert to NumPy array
 
     # 신경망 모델 학습
     model = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))  # Pass num_features
@@ -182,19 +157,39 @@ for iteration in range(num_iterations):
     accuracy_mean = np.mean(accuracy_list)
     accuracy_std = np.std(accuracy_list)
 
+    # 결측치 생성 전의 데이터를 동일하게 train/test로 나누어서 저장
+    original_data_train, original_data_test = train_test_split(prepro_data, test_size=0.2, random_state=iteration)
+    original_data_test = original_data_test.drop(columns=['class'])
+
+    # Min-Max Scaling 수행
+    scaler = MinMaxScaler(feature_range=(-1, 1))  # imputed_test_data와 동일한 범위로 조정
+    original_x_test_scaled = scaler.fit_transform(original_data_test)
+    test_X_scaled = scaler.fit_transform(test_imputed_df)
+    print(" == original_x_test_scaled == ", original_x_test_scaled)
+    print(" == test_X_scaled == ", test_X_scaled)
+
+    # RMSE 계산
+    rmse = sqrt(mean_squared_error(original_x_test_scaled, test_X_scaled))
+    print("==========================================")
+    print(str(iteration + 1) + "th Ensemble Imputation rmse: ", rmse)
+    print("==========================================")
+    rmse_list.append(rmse)
+
     # 결과를 딕셔너리로 저장
     result = {
         'Dataset' : '18_maternal',
         'method' : 'datawig',
         'Experiment': iteration + 1,
-        'Accuracy': "{:.4f} ± {:.4f}".format(accuracy, np.std(accuracy))
+        'Accuracy': "{:.4f} ± {:.4f}".format(accuracy, np.std(accuracy)),
+        'RMSE': "{:.4f} ± {:.4f}".format(np.mean(rmse_list), np.std(rmse_list))
     }
     results.append(result)
 
 print("Mean Accuracy: {:.2f}".format(accuracy_mean))
 print("Standard Deviation of Accuracy: {:.2f}".format(accuracy_std))
 print("==========================================")
-print("=== result : {:.4f} ± {:.4f}".format(sum(accuracy_list)/len(accuracy_list), np.std(accuracy_list)))
+print("=== Accuracy result : {:.4f} ± {:.4f}".format(sum(accuracy_list)/len(accuracy_list), np.std(accuracy_list)))
+print("=== RMSE result : {:.4f} ± {:.4f}".format(np.mean(rmse_list), np.std(rmse_list)))
 print("==========================================")
 
 # 결과를 DataFrame으로 변환하여 CSV 파일에 추가로 저장
