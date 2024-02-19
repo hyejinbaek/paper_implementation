@@ -2,11 +2,8 @@
 
 ## Multi-model ensemble method
 
-from sklearn.impute import KNNImputer
 from sklearn.decomposition import PCA
-from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
-from sklearn.ensemble import VotingClassifier
 from sklearn.metrics import accuracy_score
 from xgboost import XGBClassifier
 from sklearn.ensemble import RandomForestClassifier, ExtraTreesClassifier
@@ -22,8 +19,13 @@ tf.disable_v2_behavior()
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import mean_squared_error
 from math import sqrt
+
+from sklearn.decomposition import PCA
+from sklearn.impute import SimpleImputer
+from sklearn.preprocessing import StandardScaler
+
 # CUDA 환경 설정
-os.environ['CUDA_VISIBLE_DEVICES'] = '1'
+os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 
 # 프로세스 제목 설정
 setproctitle('hyejin')
@@ -33,7 +35,7 @@ result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/multi_met
 
 # 결과를 저장할 리스트 초기화
 results = []
-    
+
     
 # 데이터 파일 경로 설정
 data_pth = '/userHome/userhome2/hyejin/paper_implementation/00_dataset/missing/1_breast.csv'
@@ -62,28 +64,41 @@ for iteration in range(num_iterations):
     # Train set과 test set으로 분할
     X_train, X_test, y_train, y_test = train_test_split(x,y, test_size=0.2, random_state=42)
 
-    imputer = KNNImputer()
+    imputer = SimpleImputer(strategy='most_frequent')
     X_train_imputed = imputer.fit_transform(X_train)
-    X_test_imputed = imputer.transform(X_test)
+    X_test_imputed = imputer.fit_transform(X_test)
 
-    # PCA를 사용하여 중요한 특성을 선택한다고 가정
-    pca = PCA(n_components=min(X_train_imputed.shape[1], X_train_imputed.shape[0]))  # 특성 수와 동일하게 설정
-    X_train_pca = pca.fit_transform(X_train_imputed)
-    X_test_pca = pca.transform(X_test_imputed)
+    # Data standardization
+    scaler = StandardScaler()
+    X_train_scaled = scaler.fit_transform(X_train_imputed)
+    X_test_scaled = scaler.fit_transform(X_test_imputed)
+
+    # PCA 진행
+    pca = PCA()
+    X_train_pca = pca.fit_transform(X_train_scaled)
+    X_test_pca = pca.fit_transform(X_test_scaled)
+
+    # PCA 역변환을 수행하여 원래 feature 공간으로 되돌린다.
+    X_train_imputed_inv = pca.inverse_transform(X_train_pca)
+    X_test_imputed_inv = pca.inverse_transform(X_test_pca)
+    
+    # 표준화된 데이터를 다시 되돌린다.
+    X_train_filled = scaler.inverse_transform(X_train_imputed_inv)
+    X_test_filled = scaler.inverse_transform(X_test_imputed_inv)
 
     # 2. 모델 앙상블
     # 각각의 분류기를 독립적으로 학습시키고 예측한다고 가정
     xgb_model = XGBClassifier()
-    xgb_model.fit(X_train_pca, y_train)
-    xgb_pred_proba = xgb_model.predict_proba(X_test_pca)
+    xgb_model.fit(X_train_filled, y_train)
+    xgb_pred_proba = xgb_model.predict_proba(X_test_filled)
 
     rf_model = RandomForestClassifier()
-    rf_model.fit(X_train_pca, y_train)
-    rf_pred_proba = rf_model.predict_proba(X_test_pca)
+    rf_model.fit(X_train_filled, y_train)
+    rf_pred_proba = rf_model.predict_proba(X_test_filled)
 
     etc_model = ExtraTreesClassifier()
-    etc_model.fit(X_train_pca, y_train)
-    etc_pred_proba = etc_model.predict_proba(X_test_pca)
+    etc_model.fit(X_train_filled, y_train)
+    etc_pred_proba = etc_model.predict_proba(X_test_filled)
 
     # 각 모델의 예측 확률을 결합하여 최종 예측을 생성한다
     ensemble_pred_proba = (xgb_pred_proba + rf_pred_proba + etc_pred_proba) / 3
@@ -122,7 +137,7 @@ for iteration in range(num_iterations):
      # 결과를 딕셔너리로 저장
     result = {
         'Dataset' : '1_breast',
-        'method' : 'multi(nn제외)',
+        'method' : 'multi',
         'Experiment': iteration + 1,
         'Accuracy': "{:.4f} ± {:.4f}".format(accuracy, np.std(accuracy)),
         'RMSE': "{:.4f} ± {:.4f}".format(np.mean(rmse_list), np.std(rmse_list))
