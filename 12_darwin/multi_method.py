@@ -76,7 +76,7 @@ for iteration in range(num_iterations):
     # PCA 진행
     pca = PCA()
     X_train_pca = pca.fit_transform(X_train_scaled)
-    X_test_pca = pca.fit_transform(X_test_scaled)
+    X_test_pca = pca.transform(X_test_scaled)
 
     # PCA 역변환을 수행하여 원래 feature 공간으로 되돌린다.
     X_train_imputed_inv = pca.inverse_transform(X_train_pca)
