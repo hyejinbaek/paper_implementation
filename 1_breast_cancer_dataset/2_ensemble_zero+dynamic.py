@@ -2,7 +2,7 @@
 # tensorflow version : 2.12.0
 # 실행 명령어 : python 2_ensemble_zero+dynamic.py --seed 0 --missing_rate 20 --num_mi 5 --m 10 --tau 0.05
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '1, 3'
+os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 from setproctitle import *
 setproctitle('hyejin')
 import warnings
@@ -16,36 +16,16 @@ tf.disable_v2_behavior()
 import numpy as np
 import pandas as pd
 import argparse
-from tensorflow.keras.layers import Input, Embedding, Flatten
-from sklearn.preprocessing import LabelEncoder
 from math import sqrt
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import mean_squared_error
 from math import sqrt
 
 # CSV 파일 경로 설정
-result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/add_rmse/1_breast_ensemble_method_res.csv'
+result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/RMSE/1_breast_ensemble_method_res.csv'
 
 # 결과를 저장할 리스트 초기화
 results = []
-
-def label_encode(df, columns):
-    df_encoded = df.copy()
-    label_encoder = LabelEncoder()
-    for col in columns:
-        df_encoded[col] = label_encoder.fit_transform(df_encoded[col].astype(str))
-    return df_encoded
-
-def build_embedding_model(input_dims, embedding_dims):
-    inputs = []
-    embeddings = []
-    for input_dim in input_dims:
-        input_layer = Input(shape=(1,))
-        embedding = Embedding(input_dim, embedding_dims)(input_layer)
-        embedding = Flatten()(embedding)
-        inputs.append(input_layer)
-        embeddings.append(embedding)
-    return inputs, embeddings
 
 class DynamicImputationModel:
     def __init__(self, num_layers, num_hidden, dim_y, num_features):
@@ -95,8 +75,6 @@ class DynamicImputationModel:
 
                 self.sess.run(self.train_op, feed_dict={self.x: batch_X.values, self.y_true: batch_y.values.reshape(-1, 1)})
 
-
-
     def get_accuracy(self, x_tst, y_tst):
         if self.dim_y == 1:
             pred_Y = tf.cast(self.pred > 0.5, tf.float32)
@@ -115,6 +93,7 @@ class DynamicImputationModel:
 
 
 accuracy_list = []
+rmse_list = []
 
 def main(args):
 
@@ -123,18 +102,14 @@ def main(args):
     
     hyperparameters = {'num_mi': args.num_mi, 'm': args.m, 'tau': args.tau}
     
-    # 데이터 파일 경로 설정
-    data_pth = '/userHome/userhome2/hyejin/paper_implementation/00_dataset/missing/1_breast.csv'
-
-    # 데이터 불러오기
-    df_data = pd.read_csv(data_pth)
-    train_col = ['age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'deg-malig', 'breast', 'breast-quad', 'irradiat']
-
     prepro_data = '/userHome/userhome2/hyejin/paper_implementation/00_dataset/preprocessing/1_breast.csv'
     prepro_data = pd.read_csv(prepro_data)
     prepro_data.columns = ['Class', 'age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'deg-malig', 'breast', 'breast-quad', 'irradiat']
-    prepro_x = prepro_data[train_col].values
-    prepro_y = prepro_data['Class'].values
+    train_col = ['age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'deg-malig', 'breast', 'breast-quad', 'irradiat']
+    prepro_x = prepro_data[train_col]
+    prepro_y = prepro_data['Class']
+    data_pth = '/userHome/userhome2/hyejin/paper_implementation/00_dataset/missing/1_breast.csv'
+    df_data = pd.read_csv(data_pth)
 
     data = df_data
     
@@ -144,14 +119,9 @@ def main(args):
     # for문에서 뺌
     x,y = preprocessing(x, y, missing_rate, seed)
 
-    acc_list, auroc = [], []
-    accuracy_ensemble_list =[]
-    rmse_list = []
-
-    for i  in range(2):
+    for i  in range(30):
         x_trnval, x_tst, y_trnval, y_tst = train_test_split(x,y, test_size=0.2, shuffle=True, random_state=i)
         
-
         dim_x = x_trnval.shape[1]
 
         if y_trnval.shape[1] > 2:
@@ -188,83 +158,55 @@ def main(args):
         model.train_with_dynamic_imputation(x_trnval, y_trnval, save_path, **hyperparameters)
         acc = model.get_accuracy(x_tst, y_tst)
 
-        print("==========================================")
-        print(str(i+1)+"th dynamic accuracy === : ", acc)
-        print(str(i+1)+"th zero accuracy === : ", accuracy_zero_imputation)
-        print("==========================================")
-
-        acc_list.append(acc)
-        acc_list.append(accuracy_zero_imputation)
-
-        # zero imputation 결과
-        zero_imputed_train_data = model.impute_data(train_X_zero_imputed)
-        print("zero Imputed Data for Experiment {}: {}".format(i+1, zero_imputed_train_data))
-        print(zero_imputed_train_data)
-        zero_imputed_test_data = model.impute_data(x_tst)
-        print("zero Imputed Data for Experiment {}: {}".format(i+1, zero_imputed_test_data))
-        print(zero_imputed_test_data)
-
         # dynamic imputation 결과
         imputed_train_data = model.impute_data(x_trnval)
-        print("Imputed Data for Experiment {}: {}".format(i+1, imputed_train_data))
-        print(imputed_train_data)
+        # print("Imputed Data for Experiment {}: {}".format(i+1, imputed_train_data))
+        # print(imputed_train_data)
         imputed_test_data = model.impute_data(x_tst)
-        print("Imputed Data for Experiment {}: {}".format(i+1, imputed_test_data))
-        print(imputed_test_data)
+        # print("Imputed Data for Experiment {}: {}".format(i+1, imputed_test_data))
+        # print(imputed_test_data)
+
+        # 모델 학습 후 imputation 결과 확인
+        zero_imputed_model = model_zero_imputation.sess.run(model_zero_imputation.pred, feed_dict={model_zero_imputation.x: test_X_zero_imputed.values})
+        dynamic_imputed_model = model.sess.run(model.pred, feed_dict={model.x: imputed_test_data})
+    
+        # 예측값 평균 계산
+        avg_predictions = (zero_imputed_model + dynamic_imputed_model) / 2
+
+        # accuracy 계산
+        ensemble_accuracy = accuracy_score(y_tst, np.round(avg_predictions))
+        accuracy_list.append(ensemble_accuracy)
+        ensemble_accuracy_std = np.std(accuracy_list)
 
         # 결측치 생성 전의 데이터를 동일하게 train/test로 나누어서 저장
         original_x_train, original_x_test, original_y_train, original_y_test = train_test_split(prepro_x, prepro_y, test_size=0.2, random_state=i)
 
-        # X와 y를 따로 분리
-        # train_X_ensemble = pd.concat([pd.DataFrame(x_trnval, columns=train_col), x_trnval_zero_imputed])
-        train_X_ensemble = pd.concat([pd.DataFrame(imputed_train_data), pd.DataFrame(zero_imputed_train_data)])
+        # RMSE 계산
+        rmse = sqrt(((original_y_test.values - avg_predictions.flatten()) ** 2).mean())
 
-        # train_y_ensemble = pd.concat([pd.DataFrame(y_trnval), y_trnval_zero_imputed])
-        train_y_ensemble = pd.concat([pd.DataFrame(imputed_test_data), pd.DataFrame(zero_imputed_test_data)])
+        # RMSE의 표준편차 계산
+        rmse_list.append(rmse)
+        rmse_std = np.std(rmse_list)
 
-        #####################################
-        # 앙상블 모델 NN(ShuffleNet) 추가하기 #
-        #####################################
-        # 앙상블 모델을 훈련하고 예측
-        model_ensemble = shuffleNetModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
-        model_ensemble.shuffle_train_model(train_X_ensemble, train_y_ensemble, num_epochs=50, batch_size=32)
-
-        # 앙상블 모델로 테스트 데이터 예측
-        test_X_ensemble = pd.concat([x_tst, x_tst_zero])
-        test_y_ensemble = pd.concat([y_tst, y_tst_zero])
-        predictions_ensemble = model_ensemble.sess.run(model_ensemble.pred, feed_dict={model_ensemble.x: test_X_ensemble.values})
-
-        # 앙상블 모델로 예측한 정확도 출력
-        accuracy_ensemble = model_ensemble.get_accuracy(test_X_ensemble.values, test_y_ensemble.values.reshape(-1, 1))
         print("==========================================")
-        print(str(i + 1) + "th Ensemble Imputation accuracy: ", accuracy_ensemble)
+        print(str(i + 1) + "th Prediction Average : ", avg_predictions)
+        print(str(i + 1) + "th Ensemble Accuracy : {:.4f} ± {:.4f}".format(ensemble_accuracy, ensemble_accuracy_std))
+        print(str(i + 1) + "th Ensemble RMSE : {:.4f} ± {:.4f}".format(rmse, rmse_std))
         print("==========================================")
-
-        accuracy_ensemble_list.append(accuracy_ensemble)
 
         # 결과를 딕셔너리로 저장
         result = {
             'Dataset' : '1_breast',
             'method' : '2_zero + dynamic',
             'Experiment': i + 1,
-            'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(acc_list), np.std(acc_list))
+            'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(accuracy_list), np.std(accuracy_list)),
+            'RMSE': "{:.4f} ± {:.4f}".format(rmse, rmse_std)
         }
         results.append(result)
 
-        # RMSE 계산을 위해 결측치 생성 전의 데이터로 모델 예측
-        predictions_original_data = model_ensemble.sess.run(model_ensemble.pred, feed_dict={model_ensemble.x: original_y_test})
-        
-        # RMSE 계산 및 리스트에 추가
-        rmse = sqrt(mean_squared_error(original_y_test, predictions_original_data))
-        print("==========================================")
-        print(str(i + 1) + "th Ensemble Imputation rmse: ", rmse)
-        print("==========================================")
-        rmse_list.append(rmse)
-
-
     print("==========================================")
-    print("=== Ensemble Accuracy : {:.4f} ± {:.4f}".format(np.mean(acc_list), np.std(acc_list)))
-    print("=== RMSE result : {:.4f} ± {:.4f}".format(np.mean(rmse_list), np.std(rmse_list)))
+    print("=== Accuracy result : {:.4f} ± {:.4f}".format(sum(accuracy_list)/len(accuracy_list), np.std(accuracy_list)))
+    print("=== RMSE result : {:.4f} ± {:.4f}".format(sum(rmse_list)/len(rmse_list), np.std(rmse_list)))
     print("==========================================")
 
     # 결과를 DataFrame으로 변환하여 CSV 파일에 추가로 저장

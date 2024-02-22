@@ -3,43 +3,24 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 import tensorflow as tf
 from setproctitle import setproctitle
-from tensorflow.keras.layers import Input, Embedding, Flatten
-from sklearn.preprocessing import LabelEncoder
 import os
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior
 from sklearn.metrics import accuracy_score
 from datawig import SimpleImputer
+from math import sqrt
 
 # CSV 파일 경로 설정
-result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/1_breast_ensemble_method_res.csv'
+result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/RMSE/1_breast_ensemble_method_res.csv'
 
 # 결과를 저장할 리스트 초기화
 results = []
 
 # CUDA 환경 설정
-os.environ['CUDA_VISIBLE_DEVICES'] = '0'
+os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 
 # 프로세스 제목 설정
 setproctitle('hyejin')
-
-def label_encode(df, columns):
-    df_encoded = df.copy()
-    label_encoder = LabelEncoder()
-    for col in columns:
-        df_encoded[col] = label_encoder.fit_transform(df_encoded[col].astype(str))
-    return df_encoded
-
-def build_embedding_model(input_dims, embedding_dims):
-    inputs = []
-    embeddings = []
-    for input_dim in input_dims:
-        input_layer = Input(shape=(1,))
-        embedding = Embedding(input_dim, embedding_dims)(input_layer)
-        embedding = Flatten()(embedding)
-        inputs.append(input_layer)
-        embeddings.append(embedding)
-    return inputs, embeddings
 
 class DynamicImputationModel:
     def __init__(self, num_layers, num_hidden, dim_y, num_features):
@@ -100,32 +81,15 @@ class DynamicImputationModel:
 
         return acc
 
-# 데이터 파일 경로 설정
-data_pth = './breast-cancer.data'
-
-# 데이터 불러오기
-df_data = pd.read_csv(data_pth)
-df_data.columns = ['Class', 'age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'deg-malig', 'breast', 'breast-quad', 'irradiat']
-columns = ['Class', 'age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'deg-malig', 'breast', 'breast-quad', 'irradiat']
-df_data['node-caps'] = df_data['node-caps'].replace('?', 0).astype(str)
-df_data['breast-quad'] = df_data['breast-quad'].replace('?', 0).astype(str)
-df_data['Class'] = df_data['Class'].replace({2: 0, 4: 1})
-data = df_data
-
-# 범주형 피처 선택
-categorical_columns = ['Class', 'age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'breast', 'breast-quad', 'irradiat']
+prepro_data = '/userHome/userhome2/hyejin/paper_implementation/00_dataset/preprocessing/1_breast.csv'
+prepro_data = pd.read_csv(prepro_data)
+prepro_data.columns = ['Class', 'age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'deg-malig', 'breast', 'breast-quad', 'irradiat']
 train_col = ['age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'deg-malig', 'breast', 'breast-quad', 'irradiat']
-
-# 레이블 인코딩 적용
-df_encoded = label_encode(df_data, categorical_columns)
-data = df_encoded
-
-missing_length = 0.2
-for col in train_col:
-    nan_mask = np.random.rand(data.shape[0]) < missing_length
-    data.loc[nan_mask, col] = np.nan
-
-data_with_missing = data
+prepro_x = prepro_data[train_col]
+prepro_y = prepro_data['Class']
+data_pth = '/userHome/userhome2/hyejin/paper_implementation/00_dataset/missing/1_breast.csv'
+df_data = pd.read_csv(data_pth)
+data_with_missing = df_data
 
 # 반복 횟수 설정
 num_iterations = 30
@@ -198,22 +162,46 @@ for iteration in range(num_iterations):
     print(str(iteration + 1) + "th Zero Imputation accuracy: ", accuracy_zero_imputation)
     print("==========================================")
 
-    accuracy_list.append(accuracy)
-    accuracy_list.append(accuracy_zero_imputation)
+    # 모델 학습 후 imputation 결과 확인
+    zero_imputed_model = model_zero_imputation.sess.run(model_zero_imputation.pred, feed_dict={model_zero_imputation.x: test_X_zero_imputed.values})
+    datawig_imputed_model = model_datawig_imputation.sess.run(model_datawig_imputation.pred, feed_dict={model_datawig_imputation.x: test_X.values})
+    
+    # 예측값 평균 계산
+    avg_predictions = (zero_imputed_model + datawig_imputed_model) / 2
+
+    # accuracy 계산
+    ensemble_accuracy = accuracy_score(test_data['Class'].values, np.round(avg_predictions))
+    accuracy_list.append(ensemble_accuracy)
+    ensemble_accuracy_std = np.std(accuracy_list)
+
+    # 결측치 생성 전의 데이터를 동일하게 train/test로 나누어서 저장
+    original_x_train, original_x_test, original_y_train, original_y_test = train_test_split(prepro_x, prepro_y, test_size=0.2, random_state=iteration)
+    # RMSE 계산
+    rmse = sqrt(((original_y_test.values - avg_predictions.flatten()) ** 2).mean())
+
+    # RMSE의 표준편차 계산
+    rmse_list.append(rmse)
+    rmse_std = np.std(rmse_list)
+
+    print("==========================================")
+    print(str(iteration + 1) + "th Prediction Average : ", avg_predictions)
+    print(str(iteration + 1) + "th Ensemble Accuracy : {:.4f} ± {:.4f}".format(ensemble_accuracy, ensemble_accuracy_std))
+    print(str(iteration + 1) + "th Ensemble RMSE : {:.4f} ± {:.4f}".format(rmse, rmse_std))
+    print("==========================================")
 
     # 결과를 딕셔너리로 저장 (Ensemble 결과)
     result = {
         'Dataset': '1_breast',
         'method': '3_zero+datawig',
         'Experiment': iteration + 1,
-        'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(accuracy_list), np.std(accuracy_list))
+        'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(accuracy_list), np.std(accuracy_list)),
+        'RMSE': "{:.4f} ± {:.4f}".format(rmse, rmse_std)
     }
     results.append(result)
 
-print("Mean Ensemble Accuracy: {:.4f}".format(np.mean(accuracy_list)))
-print("Standard Deviation of Ensemble Accuracy: {:.4f}".format(np.std(accuracy_list)))
 print("==========================================")
-print("=== result : {:.4f} ± {:.4f}".format(sum(accuracy_list)/len(accuracy_list), np.std(accuracy_list)))
+print("=== Accuracy result : {:.4f} ± {:.4f}".format(sum(accuracy_list)/len(accuracy_list), np.std(accuracy_list)))
+print("=== RMSE result : {:.4f} ± {:.4f}".format(sum(rmse_list)/len(rmse_list), np.std(rmse_list)))
 print("==========================================")
 
 # 결과를 DataFrame으로 변환하여 CSV 파일에 추가로 저장
