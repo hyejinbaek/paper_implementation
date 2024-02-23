@@ -1,8 +1,9 @@
 # 데이터셋 변경하여 진행(breast-cancer dataset)
 # tensorflow version : 2.12.0
-# 실행 명령어 : python 4_ensemble_knn+dynamic.py --seed 0 --missing_rate 20 --num_mi 5 --m 10 --tau 0.05
+# 실행 명령어 : python 11_ensemble_datawig+dynamic+zero+knn.py --seed 0 --missing_rate 20 --num_mi 5 --m 10 --tau 0.05
+
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '2'
+os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 from setproctitle import *
 setproctitle('hyejin')
 import warnings
@@ -18,7 +19,9 @@ import pandas as pd
 import argparse
 from math import sqrt
 from sklearn.metrics import accuracy_score
+from datawig import SimpleImputer
 from sklearn.impute import KNNImputer
+
 
 # CSV 파일 경로 설정
 result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/RMSE/2_heart_ensemble_method_res.csv'
@@ -87,6 +90,7 @@ class DynamicImputationModel:
 
 accuracy_list = []
 rmse_list = []
+imputers = {}
 
 def main(args):
 
@@ -110,10 +114,9 @@ def main(args):
     x = data[train_col].values
     y = data['class'].values
 
+
     # for문에서 뺌
     x,y = preprocessing(x, y, missing_rate, seed)
-
-    acc_list, auroc = [], []
 
     for i  in range(30):
         x_trnval, x_tst, y_trnval, y_tst = train_test_split(x,y, test_size=0.2, shuffle=True, random_state=i)
@@ -126,6 +129,12 @@ def main(args):
             dim_y = 1
         save_path = ('./{0}_{1}_model'.format(seed, missing_rate))
 
+        # zero imputation을 위해 데이터 프레임으로 전환
+        x_trnval_zero = pd.DataFrame(x_trnval, columns=train_col)
+        y_trnval_zero = pd.DataFrame(y_trnval, columns=['class'])
+        x_tst_zero = pd.DataFrame(x_tst, columns=train_col)
+        y_tst_zero = pd.DataFrame(y_tst, columns=['class'])
+        
         # knn imputation을 위해 데이터 프레임으로 전환
         x_trnval_knn = pd.DataFrame(x_trnval, columns=train_col)
         y_trnval_knn = pd.DataFrame(y_trnval, columns=['class'])
@@ -137,26 +146,83 @@ def main(args):
         train_data_knn_imputed = pd.DataFrame(imputer.fit_transform(x_trnval_knn), columns=train_col)
         test_data_knn_imputed = pd.DataFrame(imputer.transform(x_tst_knn), columns=train_col)
 
+        # zero imputation
+        x_trnval_zero_imputed = x_trnval_zero.fillna(0)
+        y_trnval_zero_imputed = y_trnval_zero.fillna(0)
+        x_txt_zero_imputed = x_tst_zero.fillna(0)
+        y_txt_zero_imputed = y_tst_zero.fillna(0)
+
         # knn imputation 학습 위한 데이터 준비
         train_X_knn_imputed = train_data_knn_imputed
         train_y_knn_imputed = y_trnval_knn
         test_X_knn_imputed = test_data_knn_imputed
         test_y_knn_imputed = y_tst_knn
 
+        # zero imputation 학습 위한 데이터 준비
+        train_X_zero_imputed = x_trnval_zero_imputed
+        train_y_zero_imputed = y_trnval_zero_imputed
+        test_X_zero_imputed = x_txt_zero_imputed
+        test_y_zero_imputed = y_txt_zero_imputed
+
+        ## datawig
+        x_trnval_datawig = pd.DataFrame(x_trnval, columns=train_col)
+        y_trnval_datawig = pd.DataFrame(y_trnval, columns=['class'])
+        x_tst_datawig = pd.DataFrame(x_tst, columns=train_col)
+        y_tst_datawig = pd.DataFrame(y_tst, columns=['class'])
+
+        for col in train_col:
+            imputer = SimpleImputer(
+                input_columns=train_col,
+                output_column=col,
+                output_path=f'./imputer_model/imputer_model_{col}'
+            )
+            imputer.fit(train_df=x_trnval_datawig, num_epochs=5)
+            imputers[col] = imputer
+
+        # Impute missing values for each column in train_data
+        train_imputed_data = {}
+
+        for col, imputer in imputers.items():
+            predictions = imputer.predict(x_trnval_datawig)
+            train_imputed_data[col] = predictions[col + '_imputed']
+
+        # Create a DataFrame with imputed values for train set
+        train_imputed_df = pd.DataFrame(train_imputed_data)
+
+        # Impute missing values for each column in test_data
+        test_imputed_data = {}
+        for col, imputer in imputers.items():
+            predictions = imputer.predict(x_tst_datawig)
+            test_imputed_data[col] = predictions[col + '_imputed']
+
+        # Create a DataFrame with imputed values for test set
+        test_imputed_df = pd.DataFrame(test_imputed_data)
+
+        # datawig imputation을 위해 데이터 프레임으로 전환
+        x_trnval_datawig_imputed = train_imputed_df[train_col]
+        y_trnval_datawig_imputed = y_trnval_datawig
+        x_tst_datawig_imputed = test_imputed_df[train_col]
+        y_tst_datawig_imputed = y_tst_datawig
+
+        # 신경망 모델 초기화 및 학습 (Zero Imputation)
+        model_zero_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
+        model_zero_imputation.train_model(train_X_zero_imputed, train_y_zero_imputed, num_epochs=50, batch_size=32)
+        accuracy_zero_imputation = model_zero_imputation.get_accuracy(test_X_zero_imputed.values, test_y_zero_imputed.values.reshape(-1, 1))
+
         # 신경망 모델 초기화 및 학습 (knn Imputation)
         model_knn_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
         model_knn_imputation.train_model(train_X_knn_imputed, train_y_knn_imputed, num_epochs=50, batch_size=32)
         accuracy_knn_imputation = model_knn_imputation.get_accuracy(test_X_knn_imputed.values, test_y_knn_imputed.values.reshape(-1, 1))
 
+        # 신경망 모델 초기화 및 학습 (datawig Imputation)
+        model_datawig_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
+        model_datawig_imputation.train_model(x_trnval_datawig_imputed, y_trnval_datawig_imputed, num_epochs=50, batch_size=32)
+        accuracy_datawig_imputation = model_datawig_imputation.get_accuracy(x_tst_datawig_imputed.values, y_tst_datawig_imputed.values.reshape(-1, 1))
+
         # dynamic 신경망 모델
         model = Dynamic_imputation_nn(dim_x, dim_y, seed)
         model.train_with_dynamic_imputation(x_trnval, y_trnval, save_path, **hyperparameters)
         acc = model.get_accuracy(x_tst, y_tst)
-        
-        print("==========================================")
-        print(str(i+1)+"th dynamic accuracy === : ", acc)
-        print(str(i+1)+"th knn accuracy === : ", accuracy_knn_imputation)
-        print("==========================================")
 
         # dynamic imputation 결과
         imputed_train_data = model.impute_data(x_trnval)
@@ -167,11 +233,13 @@ def main(args):
         # print(imputed_test_data)
 
         # 모델 학습 후 imputation 결과 확인
-        knn_imputed_model = model_knn_imputation.sess.run(model_knn_imputation.pred, feed_dict={model_knn_imputation.x: test_X_knn_imputed.values})
+        datawig_imputed_model = model_datawig_imputation.sess.run(model_datawig_imputation.pred, feed_dict={model_datawig_imputation.x: test_imputed_df.values})
         dynamic_imputed_model = model.sess.run(model.pred, feed_dict={model.x: imputed_test_data})
+        zero_imputed_model = model_zero_imputation.sess.run(model_zero_imputation.pred, feed_dict={model_zero_imputation.x: test_X_zero_imputed.values})
+        knn_imputed_model = model_knn_imputation.sess.run(model_knn_imputation.pred, feed_dict={model_knn_imputation.x: test_X_knn_imputed.values})
 
         # 예측값 평균 계산
-        avg_predictions = (knn_imputed_model + dynamic_imputed_model) / 2
+        avg_predictions = (datawig_imputed_model + dynamic_imputed_model + zero_imputed_model + knn_imputed_model) / 4
 
         # accuracy 계산
         ensemble_accuracy = accuracy_score(y_tst, np.round(avg_predictions))
@@ -193,11 +261,12 @@ def main(args):
         print(str(i + 1) + "th Ensemble Accuracy : {:.4f} ± {:.4f}".format(ensemble_accuracy, ensemble_accuracy_std))
         print(str(i + 1) + "th Ensemble RMSE : {:.4f} ± {:.4f}".format(rmse, rmse_std))
         print("==========================================")
-    
+        
+
         # 결과를 딕셔너리로 저장
         result = {
             'Dataset' : '2_heart',
-            'method' : '4_knn + dynamic',
+            'method' : '11_dynamic+datawig+zero+knn',
             'Experiment': i + 1,
             'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(accuracy_list), np.std(accuracy_list)),
             'RMSE': "{:.4f} ± {:.4f}".format(rmse, rmse_std)
@@ -209,7 +278,6 @@ def main(args):
     print("=== Accuracy result : {:.4f} ± {:.4f}".format(sum(accuracy_list)/len(accuracy_list), np.std(accuracy_list)))
     print("=== RMSE result : {:.4f} ± {:.4f}".format(sum(rmse_list)/len(rmse_list), np.std(rmse_list)))
     print("==========================================")
-
 
     # 결과를 DataFrame으로 변환하여 CSV 파일에 추가로 저장
     results_df = pd.DataFrame(results)

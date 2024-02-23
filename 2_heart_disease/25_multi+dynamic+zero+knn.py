@@ -1,8 +1,8 @@
 # 데이터셋 변경하여 진행(breast-cancer dataset)
 # tensorflow version : 2.12.0
-# 실행 명령어 : python 4_ensemble_knn+dynamic.py --seed 0 --missing_rate 20 --num_mi 5 --m 10 --tau 0.05
+# 실행 명령어 : python 25_multi+dynamic+zero+knn.py --seed 0 --missing_rate 20 --num_mi 5 --m 10 --tau 0.05
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '2'
+os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 from setproctitle import *
 setproctitle('hyejin')
 import warnings
@@ -19,6 +19,9 @@ import argparse
 from math import sqrt
 from sklearn.metrics import accuracy_score
 from sklearn.impute import KNNImputer
+
+from xgboost import XGBClassifier
+from sklearn.ensemble import RandomForestClassifier, ExtraTreesClassifier
 
 # CSV 파일 경로 설정
 result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/RMSE/2_heart_ensemble_method_res.csv'
@@ -113,8 +116,6 @@ def main(args):
     # for문에서 뺌
     x,y = preprocessing(x, y, missing_rate, seed)
 
-    acc_list, auroc = [], []
-
     for i  in range(30):
         x_trnval, x_tst, y_trnval, y_tst = train_test_split(x,y, test_size=0.2, shuffle=True, random_state=i)
 
@@ -142,6 +143,56 @@ def main(args):
         train_y_knn_imputed = y_trnval_knn
         test_X_knn_imputed = test_data_knn_imputed
         test_y_knn_imputed = y_tst_knn
+        
+        # Zero Imputation 데이터 프레임
+        x_trnval_df = pd.DataFrame(x_trnval)
+        y_trnval_df = pd.DataFrame(y_trnval)
+        x_tst_df = pd.DataFrame(x_tst)
+        y_tst_df = pd.DataFrame(y_tst)
+        
+        # Zero Imputation
+        train_data_zero_imputed = x_trnval_df.fillna(0)
+        test_data_zero_imputed = x_tst_df.fillna(0)
+
+        # zero imputation 데이터 준비
+        train_X_zero_imputed = train_data_zero_imputed
+        train_y_zero_imputed = y_trnval_df
+        test_X_zero_imputed = test_data_zero_imputed
+        test_y_zero_imputed = y_tst_df
+
+        # Stacked ensemble method
+        imputer = KNNImputer()
+        X_train_imputed = imputer.fit_transform(x_trnval)
+        X_test_imputed = imputer.transform(x_tst)
+
+        # Stacked ensemble method
+        # 각각의 분류기를 독립적으로 학습시키고 예측한다고 가정
+        xgb_model = XGBClassifier()
+        xgb_model.fit(X_train_imputed, y_trnval)
+        xgb_pred_proba = xgb_model.predict_proba(X_test_imputed)
+
+        rf_model = RandomForestClassifier()
+        rf_model.fit(X_train_imputed, y_trnval)
+        rf_pred_proba = rf_model.predict_proba(X_test_imputed)
+
+        etc_model = ExtraTreesClassifier()
+        etc_model.fit(X_train_imputed, y_trnval)
+        etc_pred_proba = etc_model.predict_proba(X_test_imputed)
+
+        # 각 모델의 예측 확률을 결합하여 최종 예측을 생성한다
+        ensemble_pred_proba = (xgb_pred_proba + rf_pred_proba + etc_pred_proba) / 3
+
+        # 신경망 모델 학습
+        train_imputed_df = pd.DataFrame(X_train_imputed)
+        test_imputed_df = pd.DataFrame(X_test_imputed)
+        y_trnval_df = pd.DataFrame(y_trnval)
+        multi_model = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))  # Pass num_features
+        multi_model.train_model(train_imputed_df, y_trnval_df, num_epochs=50, batch_size=32)
+
+        # 신경망 모델 초기화 및 학습 (Zero Imputation)
+        model_zero_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
+        model_zero_imputation.train_model(train_X_zero_imputed, train_y_zero_imputed, num_epochs=50, batch_size=32)
+        accuracy_zero_imputation = model_zero_imputation.get_accuracy(test_X_zero_imputed.values, test_y_zero_imputed.values.reshape(-1, 1))
 
         # 신경망 모델 초기화 및 학습 (knn Imputation)
         model_knn_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
@@ -152,11 +203,6 @@ def main(args):
         model = Dynamic_imputation_nn(dim_x, dim_y, seed)
         model.train_with_dynamic_imputation(x_trnval, y_trnval, save_path, **hyperparameters)
         acc = model.get_accuracy(x_tst, y_tst)
-        
-        print("==========================================")
-        print(str(i+1)+"th dynamic accuracy === : ", acc)
-        print(str(i+1)+"th knn accuracy === : ", accuracy_knn_imputation)
-        print("==========================================")
 
         # dynamic imputation 결과
         imputed_train_data = model.impute_data(x_trnval)
@@ -167,11 +213,13 @@ def main(args):
         # print(imputed_test_data)
 
         # 모델 학습 후 imputation 결과 확인
-        knn_imputed_model = model_knn_imputation.sess.run(model_knn_imputation.pred, feed_dict={model_knn_imputation.x: test_X_knn_imputed.values})
+        multi_model = multi_model.sess.run(multi_model.pred, feed_dict={multi_model.x: X_test_imputed})
+        zero_imputed_model = model_zero_imputation.sess.run(model_zero_imputation.pred, feed_dict={model_zero_imputation.x: test_X_zero_imputed.values})
         dynamic_imputed_model = model.sess.run(model.pred, feed_dict={model.x: imputed_test_data})
+        knn_imputed_model = model_knn_imputation.sess.run(model_knn_imputation.pred, feed_dict={model_knn_imputation.x: test_X_knn_imputed.values})
 
         # 예측값 평균 계산
-        avg_predictions = (knn_imputed_model + dynamic_imputed_model) / 2
+        avg_predictions = (multi_model + zero_imputed_model + dynamic_imputed_model + knn_imputed_model) / 4
 
         # accuracy 계산
         ensemble_accuracy = accuracy_score(y_tst, np.round(avg_predictions))
@@ -197,7 +245,7 @@ def main(args):
         # 결과를 딕셔너리로 저장
         result = {
             'Dataset' : '2_heart',
-            'method' : '4_knn + dynamic',
+            'method' : '25_multi+dynamic+zero+knn',
             'Experiment': i + 1,
             'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(accuracy_list), np.std(accuracy_list)),
             'RMSE': "{:.4f} ± {:.4f}".format(rmse, rmse_std)
