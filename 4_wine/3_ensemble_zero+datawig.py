@@ -8,15 +8,16 @@ import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior
 from sklearn.metrics import accuracy_score
 from datawig import SimpleImputer
+from math import sqrt
 
 # CSV 파일 경로 설정
-result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/4_wine_ensemble_method_res.csv'
+result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/RMSE/4_wine_ensemble_method_res.csv'
 
 # 결과를 저장할 리스트 초기화
 results = []
 
 # CUDA 환경 설정
-os.environ['CUDA_VISIBLE_DEVICES'] = '0'
+os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 
 # 프로세스 제목 설정
 setproctitle('hyejin')
@@ -80,36 +81,30 @@ class DynamicImputationModel:
 
         return acc
 
-# 데이터 파일 경로 설정
-data_pth = './wine.data'
-
-# 데이터 불러오기
-df_data = pd.read_csv(data_pth)
-col_data = df_data.columns = ['class', 'Alcohol', 'Malic_acid', 'Ash', 'Alcalinity_of_ash', 'Magnesium',
-                    'Total_phenols', 'Flavanoids', 'Nonflavanoid_phenols', 'Proanthocyanins', 'Color_intensity',
-                    'Hue', 'OD280%2FOD315_of_diluted_wines', 'Proline']
+prepro_data = '/userHome/userhome2/hyejin/paper_implementation/00_dataset/preprocessing/4_wine.csv'
+prepro_data = pd.read_csv(prepro_data)
 train_col = ['Alcohol', 'Malic_acid', 'Ash', 'Alcalinity_of_ash', 'Magnesium',
                     'Total_phenols', 'Flavanoids', 'Nonflavanoid_phenols', 'Proanthocyanins', 'Color_intensity',
                     'Hue', 'OD280%2FOD315_of_diluted_wines', 'Proline']
-data = df_data
+prepro_x = prepro_data[train_col]
+prepro_y = prepro_data['class']
 
-missing_length = 0.2
-for col in train_col:
-    nan_mask = np.random.rand(data.shape[0]) < missing_length
-    data.loc[nan_mask, col] = np.nan
+data_pth = '/userHome/userhome2/hyejin/paper_implementation/00_dataset/missing/4_wine.csv'
+df_data = pd.read_csv(data_pth)
 
-data_with_missing = data
+data_with_missing = df_data
 
 # 반복 횟수 설정
 num_iterations = 30
 
 accuracy_list = []
+rmse_list = []
 imputers = {}
 
 for iteration in range(num_iterations):
     # Train set과 test set으로 분할
     train_data, test_data = train_test_split(data_with_missing, test_size=0.2, random_state=iteration)
-    
+
     ## datawig
     for col in train_col:
         imputer = SimpleImputer(
@@ -144,7 +139,7 @@ for iteration in range(num_iterations):
     train_y = train_data['class']
     test_X = test_imputed_df[train_col]
     test_y = test_data['class']
-        
+
     # 데이터 결측치 채우기 (Zero Imputation)
     train_data_zero_imputed = train_data.fillna(0)
     test_data_zero_imputed = test_data.fillna(0)
@@ -155,37 +150,61 @@ for iteration in range(num_iterations):
     test_X_zero_imputed = test_data_zero_imputed.drop(columns=['class'])
     test_y_zero_imputed = test_data_zero_imputed['class']
 
-    # datawig 신경망 모델 학습
-    model_datawig_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
-    model_datawig_imputation.train_model(train_X, train_y, num_epochs=50, batch_size=32)
-    accuracy = model_datawig_imputation.get_accuracy(test_X.values, test_y.values.reshape(-1, 1))
-
     # 신경망 모델 초기화 및 학습 (Zero Imputation)
     model_zero_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
     model_zero_imputation.train_model(train_X_zero_imputed, train_y_zero_imputed, num_epochs=50, batch_size=32)
     accuracy_zero_imputation = model_zero_imputation.get_accuracy(test_X_zero_imputed.values, test_y_zero_imputed.values.reshape(-1, 1))
-    
+
+    # dynamic 신경망 모델 학습
+    model_datawig_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
+    model_datawig_imputation.train_model(train_X, train_y, num_epochs=50, batch_size=32)
+    accuracy = model_datawig_imputation.get_accuracy(test_X.values, test_y.values.reshape(-1, 1))
+
     print("==========================================")
     print(str(iteration + 1) + "th Datawig Imputation accuracy: ", accuracy)
     print(str(iteration + 1) + "th Zero Imputation accuracy: ", accuracy_zero_imputation)
     print("==========================================")
 
-    accuracy_list.append(accuracy)
-    accuracy_list.append(accuracy_zero_imputation)
+    # 모델 학습 후 imputation 결과 확인
+    zero_imputed_model = model_zero_imputation.sess.run(model_zero_imputation.pred, feed_dict={model_zero_imputation.x: test_X_zero_imputed.values})
+    datawig_imputed_model = model_datawig_imputation.sess.run(model_datawig_imputation.pred, feed_dict={model_datawig_imputation.x: test_X.values})
+    
+    # 예측값 평균 계산
+    avg_predictions = (zero_imputed_model + datawig_imputed_model) / 2
+
+    # accuracy 계산
+    ensemble_accuracy = accuracy_score(test_data['class'].values, np.round(avg_predictions))
+    accuracy_list.append(ensemble_accuracy)
+    ensemble_accuracy_std = np.std(accuracy_list)
+
+    # 결측치 생성 전의 데이터를 동일하게 train/test로 나누어서 저장
+    original_x_train, original_x_test, original_y_train, original_y_test = train_test_split(prepro_x, prepro_y, test_size=0.2, random_state=iteration)
+    # RMSE 계산
+    rmse = sqrt(((original_y_test.values - avg_predictions.flatten()) ** 2).mean())
+
+    # RMSE의 표준편차 계산
+    rmse_list.append(rmse)
+    rmse_std = np.std(rmse_list)
+
+    print("==========================================")
+    print(str(iteration + 1) + "th Prediction Average : ", avg_predictions)
+    print(str(iteration + 1) + "th Ensemble Accuracy : {:.4f} ± {:.4f}".format(ensemble_accuracy, ensemble_accuracy_std))
+    print(str(iteration + 1) + "th Ensemble RMSE : {:.4f} ± {:.4f}".format(rmse, rmse_std))
+    print("==========================================")
 
     # 결과를 딕셔너리로 저장 (Ensemble 결과)
     result = {
         'Dataset': '4_wine',
         'method': '3_zero+datawig',
         'Experiment': iteration + 1,
-        'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(accuracy_list), np.std(accuracy_list))
+        'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(accuracy_list), np.std(accuracy_list)),
+        'RMSE': "{:.4f} ± {:.4f}".format(rmse, rmse_std)
     }
     results.append(result)
 
-print("Mean Ensemble Accuracy: {:.4f}".format(np.mean(accuracy_list)))
-print("Standard Deviation of Ensemble Accuracy: {:.4f}".format(np.std(accuracy_list)))
 print("==========================================")
-print("=== result : {:.4f} ± {:.4f}".format(sum(accuracy_list)/len(accuracy_list), np.std(accuracy_list)))
+print("=== Accuracy result : {:.4f} ± {:.4f}".format(sum(accuracy_list)/len(accuracy_list), np.std(accuracy_list)))
+print("=== RMSE result : {:.4f} ± {:.4f}".format(sum(rmse_list)/len(rmse_list), np.std(rmse_list)))
 print("==========================================")
 
 # 결과를 DataFrame으로 변환하여 CSV 파일에 추가로 저장

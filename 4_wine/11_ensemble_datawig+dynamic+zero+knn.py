@@ -1,6 +1,7 @@
 # 데이터셋 변경하여 진행(breast-cancer dataset)
 # tensorflow version : 2.12.0
-# 실행 명령어 : python 7_dynamic+datawig+zero.py --seed 0 --missing_rate 20 --num_mi 5 --m 10 --tau 0.05
+# 실행 명령어 : python 11_ensemble_datawig+dynamic+zero+knn.py --seed 0 --missing_rate 20 --num_mi 5 --m 10 --tau 0.05
+
 import os
 os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 from setproctitle import *
@@ -19,6 +20,7 @@ import argparse
 from math import sqrt
 from sklearn.metrics import accuracy_score
 from datawig import SimpleImputer
+from sklearn.impute import KNNImputer
 
 
 # CSV 파일 경로 설정
@@ -113,6 +115,7 @@ def main(args):
     x = data[train_col].values
     y = data['class'].values
 
+
     # for문에서 뺌
     x,y = preprocessing(x, y, missing_rate, seed)
 
@@ -133,11 +136,28 @@ def main(args):
         x_tst_zero = pd.DataFrame(x_tst, columns=train_col)
         y_tst_zero = pd.DataFrame(y_tst, columns=['class'])
         
+        # knn imputation을 위해 데이터 프레임으로 전환
+        x_trnval_knn = pd.DataFrame(x_trnval, columns=train_col)
+        y_trnval_knn = pd.DataFrame(y_trnval, columns=['class'])
+        x_tst_knn = pd.DataFrame(x_tst, columns=train_col)
+        y_tst_knn = pd.DataFrame(y_tst, columns=['class'])
+        
+        # knn imputation
+        imputer = KNNImputer(n_neighbors=5)
+        train_data_knn_imputed = pd.DataFrame(imputer.fit_transform(x_trnval_knn), columns=train_col)
+        test_data_knn_imputed = pd.DataFrame(imputer.transform(x_tst_knn), columns=train_col)
+
         # zero imputation
         x_trnval_zero_imputed = x_trnval_zero.fillna(0)
         y_trnval_zero_imputed = y_trnval_zero.fillna(0)
         x_txt_zero_imputed = x_tst_zero.fillna(0)
         y_txt_zero_imputed = y_tst_zero.fillna(0)
+
+        # knn imputation 학습 위한 데이터 준비
+        train_X_knn_imputed = train_data_knn_imputed
+        train_y_knn_imputed = y_trnval_knn
+        test_X_knn_imputed = test_data_knn_imputed
+        test_y_knn_imputed = y_tst_knn
 
         # zero imputation 학습 위한 데이터 준비
         train_X_zero_imputed = x_trnval_zero_imputed
@@ -184,11 +204,16 @@ def main(args):
         y_trnval_datawig_imputed = y_trnval_datawig
         x_tst_datawig_imputed = test_imputed_df[train_col]
         y_tst_datawig_imputed = y_tst_datawig
-        
+
         # 신경망 모델 초기화 및 학습 (Zero Imputation)
         model_zero_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
         model_zero_imputation.train_model(train_X_zero_imputed, train_y_zero_imputed, num_epochs=50, batch_size=32)
         accuracy_zero_imputation = model_zero_imputation.get_accuracy(test_X_zero_imputed.values, test_y_zero_imputed.values.reshape(-1, 1))
+
+        # 신경망 모델 초기화 및 학습 (knn Imputation)
+        model_knn_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
+        model_knn_imputation.train_model(train_X_knn_imputed, train_y_knn_imputed, num_epochs=50, batch_size=32)
+        accuracy_knn_imputation = model_knn_imputation.get_accuracy(test_X_knn_imputed.values, test_y_knn_imputed.values.reshape(-1, 1))
 
         # 신경망 모델 초기화 및 학습 (datawig Imputation)
         model_datawig_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
@@ -207,14 +232,15 @@ def main(args):
         imputed_test_data = model.impute_data(x_tst)
         # print("Imputed Data for Experiment {}: {}".format(i+1, imputed_test_data))
         # print(imputed_test_data)
-        
+
         # 모델 학습 후 imputation 결과 확인
         datawig_imputed_model = model_datawig_imputation.sess.run(model_datawig_imputation.pred, feed_dict={model_datawig_imputation.x: test_imputed_df.values})
         dynamic_imputed_model = model.sess.run(model.pred, feed_dict={model.x: imputed_test_data})
         zero_imputed_model = model_zero_imputation.sess.run(model_zero_imputation.pred, feed_dict={model_zero_imputation.x: test_X_zero_imputed.values})
+        knn_imputed_model = model_knn_imputation.sess.run(model_knn_imputation.pred, feed_dict={model_knn_imputation.x: test_X_knn_imputed.values})
 
         # 예측값 평균 계산
-        avg_predictions = (datawig_imputed_model + dynamic_imputed_model + zero_imputed_model) / 3
+        avg_predictions = (datawig_imputed_model + dynamic_imputed_model + zero_imputed_model + knn_imputed_model) / 4
 
         # accuracy 계산
         ensemble_accuracy = accuracy_score(y_tst, np.round(avg_predictions))
@@ -241,7 +267,7 @@ def main(args):
         # 결과를 딕셔너리로 저장
         result = {
             'Dataset' : '4_wine',
-            'method' : '7_dynamic + datawig + zero',
+            'method' : '11_dynamic+datawig+zero+knn',
             'Experiment': i + 1,
             'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(accuracy_list), np.std(accuracy_list)),
             'RMSE': "{:.4f} ± {:.4f}".format(rmse, rmse_std)

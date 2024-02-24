@@ -2,7 +2,7 @@
 # tensorflow version : 2.12.0
 # 실행 명령어 : python 10_dynamic+zero+knn.py --seed 0 --missing_rate 20 --num_mi 5 --m 10 --tau 0.05
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '0'
+os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 from setproctitle import *
 setproctitle('hyejin')
 import warnings
@@ -21,7 +21,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.impute import KNNImputer
 
 # CSV 파일 경로 설정
-result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/4_wine_ensemble_method_res.csv'
+result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/RMSE/4_wine_ensemble_method_res.csv'
 
 # 결과를 저장할 리스트 초기화
 results = []
@@ -86,6 +86,7 @@ class DynamicImputationModel:
         return acc
 
 accuracy_list = []
+rmse_list = []
 
 def main(args):
 
@@ -94,36 +95,27 @@ def main(args):
     
     hyperparameters = {'num_mi': args.num_mi, 'm': args.m, 'tau': args.tau}
 
-    data_pth = './wine.data'
-    
-    df_data = pd.read_csv(data_pth)
-    col_data = df_data.columns = ['class', 'Alcohol', 'Malic_acid', 'Ash', 'Alcalinity_of_ash', 'Magnesium',
-                    'Total_phenols', 'Flavanoids', 'Nonflavanoid_phenols', 'Proanthocyanins', 'Color_intensity',
-                    'Hue', 'OD280%2FOD315_of_diluted_wines', 'Proline']
+    prepro_data = '/userHome/userhome2/hyejin/paper_implementation/00_dataset/preprocessing/4_wine.csv'
+    prepro_data = pd.read_csv(prepro_data)
     train_col = ['Alcohol', 'Malic_acid', 'Ash', 'Alcalinity_of_ash', 'Magnesium',
-                    'Total_phenols', 'Flavanoids', 'Nonflavanoid_phenols', 'Proanthocyanins', 'Color_intensity',
-                    'Hue', 'OD280%2FOD315_of_diluted_wines', 'Proline']
+                        'Total_phenols', 'Flavanoids', 'Nonflavanoid_phenols', 'Proanthocyanins', 'Color_intensity',
+                        'Hue', 'OD280%2FOD315_of_diluted_wines', 'Proline']
+    prepro_x = prepro_data[train_col]
+    prepro_y = prepro_data['class']
 
+    data_pth = '/userHome/userhome2/hyejin/paper_implementation/00_dataset/missing/4_wine.csv'
+    df_data = pd.read_csv(data_pth)
 
-    df_data = pd.get_dummies(df_data, columns=['class'], prefix='class')
     data = df_data
     
-    # 고정 !!
-    if len(data)>10000:
-        np.random.seed(seed)
-        random_sampled_idx = np.random.choice(len(data), 10000, replace=False)
-        data = data[random_sampled_idx]
-    
     x = data[train_col].values
-    # "class" 열을 y로 설정하고 shape를 (, 1)로 변경
-    y = df_data['class_1']  # 예시로 'class_1'을 선택
-    y = y.values.reshape(-1, 1)
-
+    y = data['class'].values
 
     # for문에서 뺌
     x,y = preprocessing(x, y, missing_rate, seed)
 
     acc_list, auroc = [], []
+    
 
     for i  in range(30):
         x_trnval, x_tst, y_trnval, y_tst = train_test_split(x,y, test_size=0.2, shuffle=True, random_state=i)
@@ -141,6 +133,7 @@ def main(args):
         y_trnval_zero = pd.DataFrame(y_trnval, columns=['class'])
         x_tst_zero = pd.DataFrame(x_tst, columns=train_col)
         y_tst_zero = pd.DataFrame(y_tst, columns=['class'])
+        
 
         # knn imputation을 위해 데이터 프레임으로 전환
         x_trnval_knn = pd.DataFrame(x_trnval, columns=train_col)
@@ -181,34 +174,62 @@ def main(args):
         model_knn_imputation.train_model(train_X_knn_imputed, train_y_knn_imputed, num_epochs=50, batch_size=32)
         accuracy_knn_imputation = model_knn_imputation.get_accuracy(test_X_knn_imputed.values, test_y_knn_imputed.values.reshape(-1, 1))
 
-        # dynamic 신경망
+        # dynamic 신경망 모델
         model = Dynamic_imputation_nn(dim_x, dim_y, seed)
         model.train_with_dynamic_imputation(x_trnval, y_trnval, save_path, **hyperparameters)
         acc = model.get_accuracy(x_tst, y_tst)
+
+        # dynamic imputation 결과
+        imputed_train_data = model.impute_data(x_trnval)
+        # print("Imputed Data for Experiment {}: {}".format(i+1, imputed_train_data))
+        # print(imputed_train_data)
+        imputed_test_data = model.impute_data(x_tst)
+        # print("Imputed Data for Experiment {}: {}".format(i+1, imputed_test_data))
+        # print(imputed_test_data)
         
+        # 모델 학습 후 imputation 결과 확인
+        knn_imputed_model = model_knn_imputation.sess.run(model_knn_imputation.pred, feed_dict={model_knn_imputation.x: test_X_knn_imputed.values})
+        dynamic_imputed_model = model.sess.run(model.pred, feed_dict={model.x: imputed_test_data})
+        zero_imputed_model = model_zero_imputation.sess.run(model_zero_imputation.pred, feed_dict={model_zero_imputation.x: test_X_zero_imputed.values})
+
+        # 예측값 평균 계산
+        avg_predictions = (knn_imputed_model + dynamic_imputed_model + zero_imputed_model) / 3
+
+        # accuracy 계산
+        ensemble_accuracy = accuracy_score(y_tst, np.round(avg_predictions))
+        accuracy_list.append(ensemble_accuracy)
+        ensemble_accuracy_std = np.std(accuracy_list)
+
+        # 결측치 생성 전의 데이터를 동일하게 train/test로 나누어서 저장
+        original_x_train, original_x_test, original_y_train, original_y_test = train_test_split(prepro_x, prepro_y, test_size=0.2, random_state=i)
+
+        # RMSE 계산
+        rmse = sqrt(((original_y_test.values - avg_predictions.flatten()) ** 2).mean())
+
+        # RMSE의 표준편차 계산
+        rmse_list.append(rmse)
+        rmse_std = np.std(rmse_list)
+
         print("==========================================")
-        print(str(i+1)+"th dynamic accuracy === : ", acc)
-        print(str(i+1)+"th knn accuracy === : ", accuracy_knn_imputation)
-        print(str(i+1)+"th zero accuracy === : ", accuracy_zero_imputation)
+        print(str(i + 1) + "th Prediction Average : ", avg_predictions)
+        print(str(i + 1) + "th Ensemble Accuracy : {:.4f} ± {:.4f}".format(ensemble_accuracy, ensemble_accuracy_std))
+        print(str(i + 1) + "th Ensemble RMSE : {:.4f} ± {:.4f}".format(rmse, rmse_std))
         print("==========================================")
 
-        acc_list.append(acc)
-        acc_list.append(accuracy_knn_imputation)
-        acc_list.append(accuracy_zero_imputation)
-        
 
         # 결과를 딕셔너리로 저장
         result = {
             'Dataset' : '4_wine',
             'method' : '10_dynamic+zero+knn',
             'Experiment': i + 1,
-            'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(acc_list), np.std(acc_list))
+            'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(accuracy_list), np.std(accuracy_list)),
+            'RMSE': "{:.4f} ± {:.4f}".format(rmse, rmse_std)
         }
         results.append(result)
 
-
     print("==========================================")
-    print("=== result : {:.4f} ± {:.4f}".format(sum(acc_list)/len(acc_list), np.std(acc_list)))
+    print("=== Accuracy result : {:.4f} ± {:.4f}".format(sum(accuracy_list)/len(accuracy_list), np.std(accuracy_list)))
+    print("=== RMSE result : {:.4f} ± {:.4f}".format(sum(rmse_list)/len(rmse_list), np.std(rmse_list)))
     print("==========================================")
 
     # 결과를 DataFrame으로 변환하여 CSV 파일에 추가로 저장

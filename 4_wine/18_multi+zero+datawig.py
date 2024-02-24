@@ -1,27 +1,36 @@
+## Multi-model ensemble method
+
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+from xgboost import XGBClassifier
+from sklearn.ensemble import RandomForestClassifier, ExtraTreesClassifier
+from sklearn.metrics import mean_squared_error
+
 import pandas as pd
 import numpy as np
-from sklearn.model_selection import train_test_split
 import tensorflow as tf
 from setproctitle import setproctitle
 import os
 import tensorflow.compat.v1 as tf
-tf.disable_v2_behavior
+tf.disable_v2_behavior()
 from sklearn.metrics import accuracy_score
-from datawig import SimpleImputer
-from sklearn.impute import KNNImputer
+from sklearn.metrics import mean_squared_error
 from math import sqrt
+
+from sklearn.impute import KNNImputer
+from datawig import SimpleImputer
+
+# CUDA 환경 설정
+os.environ['CUDA_VISIBLE_DEVICES'] = '2'
+
+# 프로세스 제목 설정
+setproctitle('hyejin')
 
 # CSV 파일 경로 설정
 result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/RMSE/4_wine_ensemble_method_res.csv'
 
 # 결과를 저장할 리스트 초기화
 results = []
-
-# CUDA 환경 설정
-os.environ['CUDA_VISIBLE_DEVICES'] = '3'
-
-# 프로세스 제목 설정
-setproctitle('hyejin')
 
 class DynamicImputationModel:
     def __init__(self, num_layers, num_hidden, dim_y, num_features):
@@ -82,6 +91,8 @@ class DynamicImputationModel:
 
         return acc
 
+    
+# 데이터 파일 경로 설정
 prepro_data = '/userHome/userhome2/hyejin/paper_implementation/00_dataset/preprocessing/4_wine.csv'
 prepro_data = pd.read_csv(prepro_data)
 train_col = ['Alcohol', 'Malic_acid', 'Ash', 'Alcalinity_of_ash', 'Magnesium',
@@ -95,31 +106,40 @@ df_data = pd.read_csv(data_pth)
 
 data_with_missing = df_data
 
+x = data_with_missing[train_col]
+y = data_with_missing['class']
+
 # 반복 횟수 설정
 num_iterations = 30
 
 accuracy_list = []
-rmse_list = []
+rmse_list = []  # RMSE 값을 저장할 리스트 추가
 imputers = {}
 
 for iteration in range(num_iterations):
     # Train set과 test set으로 분할
-    train_data, test_data = train_test_split(data_with_missing, test_size=0.2, random_state=iteration)
+    X_train, X_test, y_train, y_test = train_test_split(x,y, test_size=0.2, random_state=42)
 
-    # datawig
+    # DataWig
+    x_trnval_datawig = pd.DataFrame(X_train)
+    y_trnval_datawig = pd.DataFrame(y_train)
+    x_tst_datawig = pd.DataFrame(X_test)
+    y_tst_datawig = pd.DataFrame(y_test)
+
     for col in train_col:
         imputer = SimpleImputer(
             input_columns=train_col,
             output_column=col,
             output_path=f'./imputer_model/imputer_model_{col}'
         )
-        imputer.fit(train_df=train_data, num_epochs=5)
+        imputer.fit(train_df=x_trnval_datawig, num_epochs=5)
         imputers[col] = imputer
 
     # Impute missing values for each column in train_data
     train_imputed_data = {}
+
     for col, imputer in imputers.items():
-        predictions = imputer.predict(train_data)
+        predictions = imputer.predict(x_trnval_datawig)
         train_imputed_data[col] = predictions[col + '_imputed']
 
     # Create a DataFrame with imputed values for train set
@@ -128,59 +148,84 @@ for iteration in range(num_iterations):
     # Impute missing values for each column in test_data
     test_imputed_data = {}
     for col, imputer in imputers.items():
-        predictions = imputer.predict(test_data)
+        predictions = imputer.predict(x_tst_datawig)
         test_imputed_data[col] = predictions[col + '_imputed']
 
     # Create a DataFrame with imputed values for test set
     test_imputed_df = pd.DataFrame(test_imputed_data)
 
-    # 학습을 위한 데이터 준비
-    train_X = train_imputed_df[train_col]
-    train_y = train_data['class']
-    test_X = test_imputed_df[train_col]
-    test_y = test_data['class']
-        
-     # 데이터 결측치 채우기 (KNN Imputation)
-    imputer = KNNImputer(n_neighbors=5)
-    train_data_knn_imputed = pd.DataFrame(imputer.fit_transform(train_data), columns=train_data.columns)
-    test_data_knn_imputed = pd.DataFrame(imputer.transform(test_data), columns=test_data.columns)
+    # datawig imputation을 위해 데이터 프레임으로 전환
+    x_trnval_datawig_imputed = train_imputed_df[train_col]
+    y_trnval_datawig_imputed = y_trnval_datawig
+    x_tst_datawig_imputed = test_imputed_df[train_col]
+    y_tst_datawig_imputed = y_tst_datawig
 
-    # 학습을 위한 데이터 준비
-    train_X_knn_imputed = train_data_knn_imputed.drop(columns=['class'])
-    train_y_knn_imputed = train_data_knn_imputed['class']
-    test_X_knn_imputed = test_data_knn_imputed.drop(columns=['class'])
-    test_y_knn_imputed = test_data_knn_imputed['class']
+    # Zero Imputation
+    train_data_zero_imputed = X_train.fillna(0)
+    test_data_zero_imputed = X_test.fillna(0)
 
-    # dynamic 신경망 모델 학습
+    # zero imputation 데이터 준비
+    train_X_zero_imputed = train_data_zero_imputed
+    train_y_zero_imputed = y_train
+    test_X_zero_imputed = test_data_zero_imputed
+    test_y_zero_imputed = y_test
+
+    # Stacked ensemble method
+    imputer = KNNImputer()
+    X_train_imputed = imputer.fit_transform(X_train)
+    X_test_imputed = imputer.transform(X_test)
+
+    # Stacked ensemble method
+    # 각각의 분류기를 독립적으로 학습시키고 예측한다고 가정
+    xgb_model = XGBClassifier()
+    xgb_model.fit(X_train_imputed, y_train)
+    xgb_pred_proba = xgb_model.predict_proba(X_test_imputed)
+
+    rf_model = RandomForestClassifier()
+    rf_model.fit(X_train_imputed, y_train)
+    rf_pred_proba = rf_model.predict_proba(X_test_imputed)
+
+    etc_model = ExtraTreesClassifier()
+    etc_model.fit(X_train_imputed, y_train)
+    etc_pred_proba = etc_model.predict_proba(X_test_imputed)
+
+    # 각 모델의 예측 확률을 결합하여 최종 예측을 생성한다
+    ensemble_pred_proba = (xgb_pred_proba + rf_pred_proba + etc_pred_proba) / 3
+    # print(" === ensemble_pred_proba == ", ensemble_pred_proba)
+
+    # 신경망 모델 초기화 및 학습 (datawig Imputation)
     model_datawig_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
-    model_datawig_imputation.train_model(train_X, train_y, num_epochs=50, batch_size=32)
-    accuracy = model_datawig_imputation.get_accuracy(test_X.values, test_y.values.reshape(-1, 1))
+    model_datawig_imputation.train_model(x_trnval_datawig_imputed, y_trnval_datawig_imputed, num_epochs=50, batch_size=32)
+    accuracy_datawig_imputation = model_datawig_imputation.get_accuracy(x_tst_datawig_imputed.values, y_tst_datawig_imputed.values.reshape(-1, 1))
 
-    # 신경망 모델 초기화 및 학습 (KNN Imputation)
-    model_knn_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
-    model_knn_imputation.train_model(train_X_knn_imputed, train_y_knn_imputed, num_epochs=50, batch_size=32)
-    accuracy_knn_imputation = model_knn_imputation.get_accuracy(test_X_knn_imputed.values, test_y_knn_imputed.values.reshape(-1, 1))
+    # 신경망 모델 초기화 및 학습 (Zero Imputation)
+    model_zero_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
+    model_zero_imputation.train_model(train_X_zero_imputed, train_y_zero_imputed, num_epochs=50, batch_size=32)
+    accuracy_zero_imputation = model_zero_imputation.get_accuracy(test_X_zero_imputed.values, test_y_zero_imputed.values.reshape(-1, 1))
 
-    print("==========================================")
-    print(str(iteration + 1) + "th Datawig Imputation accuracy: ", accuracy)
-    print(str(iteration + 1) + "th knn Imputation accuracy: ", accuracy_knn_imputation)
-    print("==========================================")
+    # 신경망 모델 학습
+    train_imputed_df = pd.DataFrame(X_train_imputed)
+    test_imputed_df = pd.DataFrame(X_test_imputed)
+    multi_model = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))  # Pass num_features
+    multi_model.train_model(train_imputed_df, y_train, num_epochs=50, batch_size=32)
+    # accuracy_multi_imputation = multi_model.get_accuracy(X_test_imputed, y_test)
 
-    
     # 모델 학습 후 imputation 결과 확인
-    datawig_imputed_model = model_datawig_imputation.sess.run(model_datawig_imputation.pred, feed_dict={model_datawig_imputation.x: test_X.values})
-    knn_imputed_model = model_knn_imputation.sess.run(model_knn_imputation.pred, feed_dict={model_knn_imputation.x: test_X_knn_imputed.values})
+    datawig_imputed_model = model_datawig_imputation.sess.run(model_datawig_imputation.pred, feed_dict={model_datawig_imputation.x: test_imputed_df.values})
+    zero_imputed_model = model_zero_imputation.sess.run(model_zero_imputation.pred, feed_dict={model_zero_imputation.x: test_X_zero_imputed.values})
+    multi_imputed_model = multi_model.sess.run(multi_model.pred, feed_dict={multi_model.x: X_test_imputed})
 
     # 예측값 평균 계산
-    avg_predictions = (datawig_imputed_model + knn_imputed_model) / 2
+    avg_predictions = (datawig_imputed_model + zero_imputed_model + multi_imputed_model) / 3
 
     # accuracy 계산
-    ensemble_accuracy = accuracy_score(test_y.values, np.round(avg_predictions))
+    ensemble_accuracy = accuracy_score(y_test.values, np.round(avg_predictions))
     accuracy_list.append(ensemble_accuracy)
     ensemble_accuracy_std = np.std(accuracy_list)
 
+    # 결측치 생성 전의 데이터를 동일하게 train/test로 나누어서 저장
     original_x_train, original_x_test, original_y_train, original_y_test = train_test_split(prepro_x, prepro_y, test_size=0.2, random_state=iteration)
-
+    
     # RMSE 계산
     rmse = sqrt(((original_y_test.values - avg_predictions.flatten()) ** 2).mean())
 
@@ -194,13 +239,15 @@ for iteration in range(num_iterations):
     print(str(iteration + 1) + "th Ensemble RMSE : {:.4f} ± {:.4f}".format(rmse, rmse_std))
     print("==========================================")
 
-    # 결과를 딕셔너리로 저장 (Ensemble 결과)
+
+     # 결과를 딕셔너리로 저장
     result = {
-        'Dataset': '4_wine',
-        'method': '5_knn+datawig',
+        'Dataset' : '4_wine',
+        'method' : '18_multi+zero+datawig',
         'Experiment': iteration + 1,
         'Accuracy': "{:.4f} ± {:.4f}".format(np.mean(accuracy_list), np.std(accuracy_list)),
         'RMSE': "{:.4f} ± {:.4f}".format(rmse, rmse_std)
+
     }
     results.append(result)
 
