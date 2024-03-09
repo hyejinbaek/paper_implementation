@@ -1,3 +1,4 @@
+## neural network 포함
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -10,17 +11,17 @@ from sklearn.impute import KNNImputer
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import mean_squared_error
 from math import sqrt
-
+from sklearn.metrics import confusion_matrix
 
 # CSV 파일 경로 설정
-result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/add_rmse/1_breast_ensemble_method_res.csv'
+result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/accuracy/1_breast_ensemble_method_res.csv'
 
 
 # 결과를 저장할 리스트 초기화
 results = []
 
 # CUDA 환경 설정
-os.environ['CUDA_VISIBLE_DEVICES'] = '1'
+os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 
 # 프로세스 제목 설정
 setproctitle('hyejin')
@@ -95,10 +96,6 @@ train_col =['age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'deg-mal
 
 data_with_missing = df_data
 
-# KNNImputer를 사용하여 결측치 처리
-imputer = KNNImputer(n_neighbors=5)  # 이웃 개수 조정 가능
-data_imputed = imputer.fit_transform(data_with_missing)
-
 # 반복 횟수 설정
 num_iterations = 30
 
@@ -110,7 +107,7 @@ for iteration in range(num_iterations):
     train_data, test_data = train_test_split(data_with_missing, test_size=0.2, random_state=iteration)
 
     # 데이터 결측치 채우기 (KNN Imputation)
-    imputer = KNNImputer(n_neighbors=5)
+    imputer = KNNImputer(n_neighbors=1)
     train_data = pd.DataFrame(imputer.fit_transform(train_data), columns=train_data.columns)
     test_data = pd.DataFrame(imputer.transform(test_data), columns=test_data.columns)
 
@@ -126,8 +123,11 @@ for iteration in range(num_iterations):
     batch_size = 32
 
     model.train_model(train_X, train_y, num_epochs, batch_size)
+    print(" === test_X.values ==== ",test_X.values)
+    print(" === test_y.values.reshape(-1, 1) ==== ", test_y.values.reshape(-1, 1))
+
     accuracy = model.get_accuracy(test_X.values, test_y.values.reshape(-1, 1))
-    
+
     print("==========================================")
     print(str(iteration+1)+"th accuracy === : ", accuracy)
     print("==========================================")
@@ -145,6 +145,7 @@ for iteration in range(num_iterations):
     print(" === original_data_test === ", original_data_test)
     print(" === original_data_test.drop(columns=['Class']) === ", original_data_test.drop(columns=['Class']))
     print(" === test_X === ", test_X)
+
     # RMSE 계산
     rmse = sqrt(mean_squared_error(original_data_test.drop(columns=['Class']), test_X))
     print("==========================================")

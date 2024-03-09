@@ -19,7 +19,7 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 setproctitle('hyejin')
 
 # CSV 파일 경로 설정
-result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/add_rmse/2_heart_ensemble_method_res.csv'
+result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/accuracy/2_heart_ensemble_method_res.csv'
 
 # 결과를 저장할 리스트 초기화
 results = []
@@ -96,9 +96,6 @@ train_col = ["age", "sex", "cp", "trestbps", "chol", "fbs", "restecg", "thalach"
 
 data_with_missing = df_data
 
-# KNNImputer를 사용하여 결측치 처리
-imputer = KNNImputer(n_neighbors=5)  # 이웃 개수 조정 가능
-data_imputed = imputer.fit_transform(data_with_missing)
 
 # 반복 횟수 설정
 num_iterations = 30
@@ -110,7 +107,7 @@ for iteration in range(num_iterations):
     train_data, test_data = train_test_split(data_with_missing, test_size=0.2, random_state=iteration)
 
     # 데이터 결측치 채우기 (KNN Imputation)
-    imputer = KNNImputer(n_neighbors=5)
+    imputer = KNNImputer(n_neighbors=1)
     train_data = pd.DataFrame(imputer.fit_transform(train_data), columns=train_data.columns)
     test_data = pd.DataFrame(imputer.transform(test_data), columns=test_data.columns)
 

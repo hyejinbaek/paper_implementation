@@ -11,7 +11,7 @@ from sklearn.metrics import mean_squared_error
 from math import sqrt
 
 # CUDA 환경 설정
-os.environ['CUDA_VISIBLE_DEVICES'] = '1'
+os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 
 # 프로세스 제목 설정
 setproctitle('hyejin')
@@ -132,7 +132,9 @@ for iteration in range(num_iterations):
 
     # 결측치 생성 전의 데이터를 동일하게 train/test로 나누어서 저장
     original_data_train, original_data_test = train_test_split(prepro_data, test_size=0.2, random_state=iteration)
-
+    print(" === original_data_test ====", original_data_test)
+    print(" === original_data_test.drop(columns=['Class']) ====", original_data_test.drop(columns=['Class']))
+    print(" === test_X ====", test_X)
     # RMSE 계산
     rmse = sqrt(mean_squared_error(original_data_test.drop(columns=['Class']), test_X))
     print("==========================================")

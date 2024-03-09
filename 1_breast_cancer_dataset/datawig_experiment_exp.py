@@ -12,7 +12,7 @@ from sklearn.metrics import mean_squared_error
 from math import sqrt
 
 # CUDA 환경 설정
-os.environ['CUDA_VISIBLE_DEVICES'] = '1'
+os.environ['CUDA_VISIBLE_DEVICES'] = '2'
 
 # 프로세스 제목 설정
 setproctitle('hyejin')
@@ -97,11 +97,12 @@ train_col =['age', 'menopause', 'tumor-size', 'inv-nodes', 'node-caps', 'deg-mal
 data_with_missing = df_data
 
 # 반복 횟수 설정
-num_iterations = 30
+num_iterations = 1
 
 accuracy_list = []
 rmse_list = []  # RMSE 값을 저장할 리스트 추가
 imputers = {}
+
 
 for iteration in range(num_iterations):
     # Train set과 test set으로 분할
@@ -109,22 +110,27 @@ for iteration in range(num_iterations):
 
     # 데이터 결측치 채우기
     for col in train_col:
+        print("== col == ", col)
         imputer = SimpleImputer(
             input_columns=train_col,
             output_column=col,
             output_path=f'./imputer_model/imputer_model_{col}'
         )
         imputer.fit(train_df=train_data, num_epochs=5)
+        print("== imputer_fit == ", imputer)
         imputers[col] = imputer
+        print("== imputers[col] == ", imputers[col])
 
     # Impute missing values for each column in train_data
     train_imputed_data = {}
     for col, imputer in imputers.items():
         predictions = imputer.predict(train_data)
+        print(" === prediction === ", predictions)
         train_imputed_data[col] = predictions[col + '_imputed']  # '_imputed' is added by datawig
 
     # Create a DataFrame with imputed values for train set
     train_imputed_df = pd.DataFrame(train_imputed_data)
+    print(" =-==== train_imputed_df === ", train_imputed_df)
 
     # Impute missing values for each column in test_data
     test_imputed_data = {}
@@ -163,6 +169,7 @@ for iteration in range(num_iterations):
     # 결측치 생성 전의 데이터를 동일하게 train/test로 나누어서 저장
     original_data_train, original_data_test = train_test_split(prepro_data, test_size=0.2, random_state=iteration)
 
+    print(" === test_imputed_df === ", test_imputed_df)
     # RMSE 계산
     rmse = sqrt(mean_squared_error(original_data_test.drop(columns=['Class']), test_imputed_df))
     print("==========================================")
@@ -188,11 +195,11 @@ print("=== result : {:.4f} ± {:.4f}".format(sum(accuracy_list)/len(accuracy_lis
 print("=== RMSE result : {:.4f} ± {:.4f}".format(np.mean(rmse_list), np.std(rmse_list)))
 print("==========================================")
 
-# 결과를 DataFrame으로 변환하여 CSV 파일에 추가로 저장
-results_df = pd.DataFrame(results)
-if os.path.exists(result_csv_path):
-    results_df.to_csv(result_csv_path, mode='a', header=False, index=False)
-else:
-    results_df.to_csv(result_csv_path, index=False)
+# # 결과를 DataFrame으로 변환하여 CSV 파일에 추가로 저장
+# results_df = pd.DataFrame(results)
+# if os.path.exists(result_csv_path):
+#     results_df.to_csv(result_csv_path, mode='a', header=False, index=False)
+# else:
+#     results_df.to_csv(result_csv_path, index=False)
 
-print("Results saved to:", result_csv_path)
+# print("Results saved to:", result_csv_path)

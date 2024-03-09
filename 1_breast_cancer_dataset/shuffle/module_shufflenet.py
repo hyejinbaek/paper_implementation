@@ -21,17 +21,17 @@ def shuffle_unit(x, groups):
     with tf.name_scope('shuffle_unit'):
         n, d = x.shape
         remainder = d % (groups * 2)  # 텐서 크기가 2의 배수로 나누어 떨어지지 않으면 나머지를 계산
+        print(" === shuffle_unit_remainder ==== ", remainder)
         if remainder != 0:
             pad_size = (groups * 2) - remainder  # 나머지가 0이 될 때까지 텐서를 패딩합니다.
             x = tf.pad(x, [[0, 0], [0, pad_size]])  # 패딩 추가
+            print(" ==== shuffle_unit_x === ", x)
             d += pad_size  # 패딩된 텐서 크기 업데이트
         group_size = d // groups
         x = tf.reshape(x, shape=[-1, groups, group_size])
         x = tf.transpose(x, perm=[0, 2, 1])
         x = tf.reshape(x, shape=[-1, d])
     return x
-
-
 
 
 def fully_connected_bn_relu(x, out_dim, training=True):

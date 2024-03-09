@@ -44,4 +44,5 @@ class ShuffleNetV2(tf.Module):
         return out
 
     def __call__(self, input_tensor, training=True):
+        print(" ==== input_tensor ==== ", input_tensor.shape)
         return self._build_model(input_tensor, training)

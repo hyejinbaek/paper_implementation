@@ -1,184 +1,198 @@
-# 데이터셋 변경하여 진행(heart-disease)
-# tensorflow version : 2.12.0
-# 실행 명령어 : python test.py --seed 0 --missing_rate 20 --num_mi 5 --m 10 --tau 0.05
-import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '3'
-from setproctitle import *
-setproctitle('hyejin')
-import warnings
-warnings.filterwarnings("ignore", category=DeprecationWarning) 
-from dynamic_imputation_model import Dynamic_imputation_nn
-from dynamic_imputation_preprocessing import preprocessing
+## Multi-model ensemble method
+## nn 제외
+from sklearn.impute import KNNImputer
+from sklearn.decomposition import PCA
+from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
-import tensorflow as tf
-import numpy as np
-import pandas as pd
-import argparse
+from sklearn.ensemble import VotingClassifier
 from sklearn.metrics import accuracy_score
+from xgboost import XGBClassifier
+from sklearn.ensemble import RandomForestClassifier, ExtraTreesClassifier
+from sklearn.metrics import mean_squared_error
+
+import pandas as pd
+import numpy as np
+import tensorflow as tf
+from setproctitle import setproctitle
+import os
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
+from sklearn.metrics import accuracy_score
+from sklearn.metrics import mean_squared_error
+from math import sqrt
 
-class DynamicImputationModel:
-    def __init__(self, num_layers, num_hidden, dim_y, num_features):
-        self.num_layers = num_layers
-        self.num_hidden = num_hidden
-        self.dim_y = dim_y
-        self.num_features = num_features
-        tf.compat.v1.disable_eager_execution()
-        self.x = tf.compat.v1.placeholder(tf.float32, shape=[None, self.num_features])
+from sklearn.decomposition import PCA
+from sklearn.impute import SimpleImputer
+from sklearn.preprocessing import StandardScaler
+from net import ShuffleNetV2
 
-        self.y_true = tf.compat.v1.placeholder(tf.float32, shape=[None, dim_y])
-        self.logits, self.pred = self.build_model(self.x)
-        self.loss = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(labels=self.y_true, logits=self.logits))
-        self.optimizer = tf.train.AdamOptimizer(learning_rate=0.001)
-        self.train_op = self.optimizer.minimize(self.loss)
-        self.sess = tf.Session()
-        self.sess.run(tf.global_variables_initializer())
+# CUDA 환경 설정
+os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 
-    def build_model(self, x):
-        for _ in range(self.num_layers):
-            x = tf.layers.dense(x, self.num_hidden, activation=tf.nn.tanh)
-        logits = tf.layers.dense(x, self.dim_y)
+# 프로세스 제목 설정
+setproctitle('hyejin')
 
-        if self.dim_y == 1:
-            pred = tf.nn.sigmoid(logits)
-        elif self.dim_y > 2:
-            pred = tf.nn.softmax(logits)
+# CSV 파일 경로 설정
+result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/res/multi_method/2_heart_ensemble_method_res.csv'
 
-        return logits, pred
-
-    def train_model(self, train_X, train_y, num_epochs, batch_size):
-        num_batches = int(np.ceil(len(train_X) / batch_size))
-        for epoch in range(num_epochs):
-            indices = np.arange(len(train_X))
-            np.random.shuffle(indices)
-            train_X_shuffled = train_X.iloc[indices]
-            train_y_shuffled = train_y.iloc[indices]
-
-            for i in range(num_batches):
-                batch_X = train_X_shuffled.iloc[i * batch_size: (i + 1) * batch_size]
-                batch_y = train_y_shuffled.iloc[i * batch_size: (i + 1) * batch_size]
-
-                self.sess.run(self.train_op, feed_dict={self.x: batch_X.values, self.y_true: batch_y.values.reshape(-1, 1)})
-
-    def get_accuracy(self, x_tst, y_tst):
-        if self.dim_y == 1:
-            pred_Y = tf.cast(self.pred > 0.5, tf.float32)
-            correct_prediction = tf.equal(pred_Y, self.y_true)
-            accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
-
-            acc = self.sess.run(accuracy, feed_dict={self.x: x_tst, self.y_true: y_tst})
-
-        else:
-            y_tst_hat = self.sess.run(self.pred, feed_dict={self.x: x_tst})
-            y_tst_hat = np.argmax(y_tst_hat, axis=1)
-
-            acc = accuracy_score(np.argmax(y_tst, axis=1), y_tst_hat)
-
-        return acc
-
-def main(args):
-
-    seed = args.seed
-    #dataset = args.dataset
-    missing_rate = args.missing_rate
+# 결과를 저장할 리스트 초기화
+results = []
     
-    hyperparameters = {'num_mi': args.num_mi, 'm': args.m, 'tau': args.tau}
+# 데이터 파일 경로 설정
+data_pth = '/userHome/userhome2/hyejin/paper_implementation/00_dataset/missing/2_heart.csv'
+df_data = pd.read_csv(data_pth)
+train_col = ["age", "sex", "cp", "trestbps", "chol", "fbs", "restecg", "thalach", "exang", "oldpeak", "slope", "ca", "thal"]
 
-    data_pth = './processed.cleveland.data'
-    df_data = pd.read_csv(data_pth)
-    col_data = df_data.columns = [
-        "age", "sex", "cp", "trestbps", "chol", "fbs", "restecg", "thalach",
-        "exang", "oldpeak", "slope", "ca", "thal", "class"
-    ]
-    train_col = ["age", "sex", "cp", "trestbps", "chol", "fbs", "restecg", "thalach",
-        "exang", "oldpeak", "slope", "ca", "thal", ]
-    df_data['ca'] = df_data['ca'].replace('?', 0.0).astype(float)
-    data = df_data[train_col].values
+prepro_data = '/userHome/userhome2/hyejin/paper_implementation/00_dataset/preprocessing/2_heart.csv'
+prepro_data = pd.read_csv(prepro_data)
+prepro_x = prepro_data[train_col]
+prepro_y = prepro_data['class']
+
+data_with_missing = df_data
+
+x = data_with_missing[train_col]
+y = data_with_missing['class']
+
+# 반복 횟수 설정
+num_iterations = 30
+
+accuracy_list = []
+rmse_list = []  # RMSE 값을 저장할 리스트 추가
+imputers = {}
+accuracy_net_list = []
+
+for iteration in range(num_iterations):
+    # Train set과 test set으로 분할
+    X_train, X_test, y_train, y_test = train_test_split(x,y, test_size=0.2, random_state=42)
+
+    imputer = SimpleImputer(strategy='most_frequent')
+    X_train_imputed = imputer.fit_transform(X_train)
+    X_test_imputed = imputer.fit_transform(X_test)
+
+    # Data standardization
+    scaler = StandardScaler()
+    X_train_scaled = scaler.fit_transform(X_train_imputed)
+    X_test_scaled = scaler.fit_transform(X_test_imputed)
+
+    # PCA 진행
+    pca = PCA()
+    X_train_pca = pca.fit_transform(X_train_scaled)
+    X_test_pca = pca.fit_transform(X_test_scaled)
+
+    # PCA 역변환을 수행하여 원래 feature 공간으로 되돌린다.
+    X_train_imputed_inv = pca.inverse_transform(X_train_pca)
+    X_test_imputed_inv = pca.inverse_transform(X_test_pca)
     
-    
-    # 고정 !!
-    if len(data)>10000:
-        np.random.seed(seed)
-        random_sampled_idx = np.random.choice(len(data), 10000, replace=False)
-        data = data[random_sampled_idx]
-    
-    x = data[:,:-1]
-    y = data[:,-1]
+    # 표준화된 데이터를 다시 되돌린다.
+    X_train_filled = scaler.inverse_transform(X_train_imputed_inv)
+    X_test_filled = scaler.inverse_transform(X_test_imputed_inv)
 
-    # for문에서 뺌
-    x,y = preprocessing(x, y, missing_rate, seed)
-    print(" ==== preprocessing x ====", x)
-    print(" ==== preprocessing y ====", y)
-    acc_list, auroc = [], []
-   
-    for i  in range(10):
-        x_trnval, x_tst, y_trnval, y_tst = train_test_split(x,y, test_size=0.2, shuffle=True, random_state=i)
-        print("x_trnval =-=======", x_trnval)
-        print("x_tst ===========", x_tst)
-        print("y_trnval ==========", y_trnval)
-        print("y_tst ===========", y_tst)
-
-        dim_x = x_trnval.shape[1]
-
-        if y_trnval.shape[1] > 2:
-            dim_y = y_trnval.shape[1]
-        else:
-            dim_y = 1
-        save_path = ('./{0}_{1}_model'.format(seed, missing_rate))
-
-        # zero imputation
-        x_trnval_zero = pd.DataFrame(x_trnval)
-        y_trnval_zero = pd.DataFrame(y_trnval)
-        x_tst_zero = pd.DataFrame(x_tst)
-        y_tst_zero = pd.DataFrame(y_tst)
-
-        # zero imputation
-        x_trnval_zero_imputed = x_trnval_zero.fillna(0)
-        y_trnval_zero_imputed = y_trnval_zero.fillna(0)
-        x_txt_zero_imputed = x_tst_zero.fillna(0)
-        y_txt_zero_imputed = y_tst_zero.fillna(0)
-
-        print(" == x_trnval_zero_imputed ===", x_trnval_zero_imputed.shape)
-        print(" == x_trnval_zero_imputed ===", x_trnval_zero_imputed)
-        print(" == y_trnval_zero_imputed ===", y_trnval_zero_imputed.shape)
-        print(" == y_trnval_zero_imputed ===", y_trnval_zero_imputed)
+    # 2. 모델 앙상블
+    # 각각의 분류기를 독립적으로 학습시키고 예측한다고 가정
+    xgb_model = XGBClassifier()
+    xgb_model.fit(X_train_filled, y_train)
+    xgb_pred_proba = xgb_model.predict_proba(X_test_filled)
 
 
-        # 신경망 모델 초기화 및 학습 (Zero Imputation)
-        model_zero_imputation = DynamicImputationModel(num_layers=3, num_hidden=128, dim_y=1, num_features=len(train_col))
-        model_zero_imputation.train_model(x_trnval_zero_imputed, y_trnval_zero_imputed, num_epochs=50, batch_size=32)
-        accuracy_zero_imputation = model_zero_imputation.get_accuracy(x_txt_zero_imputed.values, y_txt_zero_imputed.values.reshape(-1, 1))
+    rf_model = RandomForestClassifier()
+    rf_model.fit(X_train_filled, y_train)
+    rf_pred_proba = rf_model.predict_proba(X_test_filled)
 
-        # dynamic 모델
-        model = Dynamic_imputation_nn(dim_x, dim_y, seed)
-        model.train_with_dynamic_imputation(x_trnval, y_trnval, save_path, **hyperparameters)
-        acc = model.get_accuracy(x_tst, y_tst)
-        print("==========================================")
-        print(str(i+1)+"th accuracy === : ", acc)
-        print(str(i+1)+"th zero accuracy === : ", accuracy_zero_imputation)
-        print("==========================================")
-        #auroc = model.get_auroc(x_tst, y_tst)
-        acc_list.append(acc)
-        acc_list.append(accuracy_zero_imputation)
+    etc_model = ExtraTreesClassifier()
+    etc_model.fit(X_train_filled, y_train)
+    etc_pred_proba = etc_model.predict_proba(X_test_filled)
+
+
+    # 각 모델의 예측 확률을 결합하여 최종 예측을 생성한다
+    ensemble_pred_proba = (xgb_pred_proba + rf_pred_proba + etc_pred_proba) / 3
+
+    # 최종 예측 클래스를 선택한다
+    ensemble_pred = np.argmax(ensemble_pred_proba, axis=1)
+
+    # 평가 지표인 accuracy를 계산한다
+    accuracy = accuracy_score(y_test, ensemble_pred)
     print("==========================================")
-    print("=== result : {} ± {}".format(sum(acc_list)/len(acc_list), np.std(acc_list)))
+    print(str(iteration+1)+"th accuracy === : ", accuracy)
     print("==========================================")
 
+    
+    accuracy_list.append(accuracy)
 
-if __name__ == '__main__':
 
-    # python main.py --seed 0 --dataset avila --missing_rate 30 --num_mi 5 --m 10 --tau 0.05
-    # python dynamic_imputation_main.py --seed 0 --missing_rate 30 --num_mi 5 --m 10 --tau 0.05
-    arg_parser = argparse.ArgumentParser(description='Dynamic imputation')
+    # 모든 반복이 끝난 후에 평균 및 표준편차 계산
+    accuracy_mean = np.mean(accuracy_list)
+    accuracy_std = np.std(accuracy_list)
+
+    original_x_train, original_x_test, original_y_train, original_y_test = train_test_split(prepro_x, prepro_y, test_size=0.2, random_state=iteration)
+    ensemble_pred_original = ensemble_pred_proba.argmax(axis=1)
+    original_y_test.reset_index(drop=True, inplace=True)
+    comparison = pd.DataFrame({'Original': original_y_test, 'Predicted': ensemble_pred_original})
+    print(comparison)
+
+    original_y_test.reset_index(drop=True, inplace=True)
+    rmse = sqrt(mean_squared_error(original_y_test, ensemble_pred_original))
+    rmse_list.append(rmse)
+
+    print("==========================================")
+    print(str(iteration+1)+"th accuracy === : ", rmse)
+    print("==========================================")
+
+    # shuffleNet 추가
+    # Model hyperparameters
+    num_classes = 2
+    model_scale = 2.0
+    shuffle_group = 2
+
+    # Model: Using Net1 from net.py 
+    net = ShuffleNetV2(cls=num_classes, model_scale=model_scale, shuffle_group=shuffle_group)
+    print(net)
+    # Define loss and optimization operations for the model
+    optimizer = tf.keras.optimizers.Adam(learning_rate=0.001)
+
+    with tf.GradientTape() as tape:
+        logits_net = net(X_train_filled, training=True)
+        loss_net = tf.reduce_mean(tf.nn.sparse_softmax_cross_entropy_with_logits(labels=y_train, logits=logits_net))
+    gradients_net = tape.gradient(loss_net, net.trainable_variables)
+    optimizer.apply_gradients(zip(gradients_net, net.trainable_variables))
+    # print(f'Epoch {iteration + 1}, Loss Net: {loss_net.numpy()}')
+    print(f'======== Epoch {iteration + 1}, Loss Net: {loss_net}')
+
+    # Evaluation on the test set
+    # accuracy_net = tf.reduce_mean(tf.cast(tf.equal(tf.argmax(net(X_test_filled, training=False), axis=1), y_test), tf.float32)).numpy()
+    accuracy_net = tf.reduce_mean(tf.cast(tf.equal(tf.argmax(net(X_test_filled, training=False), axis=1), y_test), tf.float32))
+    accuracy_net_value = tf.keras.backend.eval(accuracy_net)
+    accuracy_net_std_value = tf.keras.backend.eval(tf.math.reduce_std(accuracy_net))
     
-    arg_parser.add_argument('--seed', help='Random seed', default=27407, type= int)
-    #arg_parser.add_argument('--dataset', help='Dataset name', choices=['avila', 'letter'], default=256, type=str)
-    arg_parser.add_argument('--missing_rate', help='Missing rate of dataset', default=30, type=float)
-    arg_parser.add_argument('--num_mi', help='Number of multiple imputation for validation set', default=5, type=int)
-    arg_parser.add_argument('--m', help='Number of imputations to calculate imputation uncertainty', default=10, type=int)
-    arg_parser.add_argument('--tau', help='Threshold of imputation uncertainty', default=0.05, type=float)
+    print("==========================================")
+    print(f'=========== Accuracy Net on Test Set: {accuracy_net_value}')
+    print("=== Shuffle_Accuracy : {:.4f} ± {:.4f}".format(accuracy_net_value, accuracy_net_std_value))
+    print("==========================================")
     
-    args = arg_parser.parse_args()
-    
-    main(args)
+    accuracy_net_list.append(accuracy_net_value)
+
+
+     # 결과를 딕셔너리로 저장
+    result = {
+        'Dataset' : '2_heart',
+        'method' : 'multi(nn제외)',
+        'Experiment': iteration + 1,
+        'Accuracy': "{:.4f} ± {:.4f}".format(accuracy, np.std(accuracy)),
+        'RMSE': "{:.4f} ± {:.4f}".format(np.mean(rmse_list), np.std(rmse_list)),
+        'Shuffle_Accuracy' : "{:.4f} ± {:.4f}".format(accuracy_net_value, accuracy_net_std_value)
+
+    }
+    results.append(result)
+
+print("==========================================")
+print("=== result : {:.4f} ± {:.4f}".format(sum(accuracy_list)/len(accuracy_list), np.std(accuracy_list)))
+print("=== RMSE result : {:.4f} ± {:.4f}".format(np.mean(rmse_list), np.std(rmse_list)))
+print("==========================================")
+
+# # 결과를 DataFrame으로 변환하여 CSV 파일에 추가로 저장
+# results_df = pd.DataFrame(results)
+# if os.path.exists(result_csv_path):
+#     results_df.to_csv(result_csv_path, mode='a', header=False, index=False)
+# else:
+#     results_df.to_csv(result_csv_path, index=False)
+
+# print("Results saved to:", result_csv_path)
