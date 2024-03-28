@@ -3,26 +3,30 @@ import pandas as pd
 # ttest_rel : 1- 표본 ttest 
 from scipy.stats import ttest_ind
 
+# datawig
+# knn
+# multi
+# chain01_datawig
+
 # CSV 파일 읽기
-file_path = './res/23_ai4i_ensemble_method_res.csv'  # 파일 경로를 실제 파일 경로로 대체
+file_path = './res/0_final/21_yeast_ensemble_method_res_final.csv'  # 파일 경로를 실제 파일 경로로 대체
 data  = pd.read_csv(file_path)
 
 # 'Accuracy' 열을 숫자로 변환
-data['Accuracy'] = data['Accuracy'].str.extract('(\d+\.\d+)').astype(float)
+data['RMSE'] = data['RMSE'].str.extract('(\d+\.\d+)').astype(float)
 
 # method 목록 추출
 methods = data['method'].unique()
 
-
 # 1등 성능으로 가정할 method 선택
-top_method = '9_datawig+zero+knn.py'
+top_method = 'datawig'
 
 # 1등 성능 method와 나머지 method들 간의 t-test 수행
 for method in data['method'].unique():
     if method != top_method:
         # 1등 성능 method와 다른 method 간의 데이터 추출
-        data_top = data[data['method'] == top_method]['Accuracy']
-        data_current = data[data['method'] == method]['Accuracy']
+        data_top = data[data['method'] == top_method]['RMSE']
+        data_current = data[data['method'] == method]['RMSE']
 
         # t-test 수행
         t_statistic, p_value = ttest_ind(data_top, data_current)
