@@ -1,0 +1,531 @@
+2024-03-06 15:50:10,083 [INFO]  
+========== start: fit model
+2024-03-06 15:50:10,083 [WARNING]  Already bound, ignoring bind()
+2024-03-06 15:50:11,200 [INFO]  Epoch[0] Batch [0-428]	Speed: 6253.04 samples/sec	cross-entropy=0.645829	fM3Trans-accuracy=0.000000
+2024-03-06 15:50:12,996 [INFO]  Epoch[0] Train-cross-entropy=0.361580
+2024-03-06 15:50:12,997 [INFO]  Epoch[0] Train-fM3Trans-accuracy=0.000000
+2024-03-06 15:50:12,997 [INFO]  Epoch[0] Time cost=2.904
+2024-03-06 15:50:13,000 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0000.params"
+2024-03-06 15:50:13,244 [INFO]  Epoch[0] Validation-cross-entropy=0.064116
+2024-03-06 15:50:13,244 [INFO]  Epoch[0] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 15:50:13,677 [INFO]  Epoch[1] Batch [0-428]	Speed: 15985.62 samples/sec	cross-entropy=0.083247	fM3Trans-accuracy=0.000000
+2024-03-06 15:50:14,195 [INFO]  Epoch[1] Train-cross-entropy=0.067240
+2024-03-06 15:50:14,195 [INFO]  Epoch[1] Train-fM3Trans-accuracy=0.000000
+2024-03-06 15:50:14,195 [INFO]  Epoch[1] Time cost=0.951
+2024-03-06 15:50:14,197 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0001.params"
+2024-03-06 15:50:14,228 [INFO]  Epoch[1] Validation-cross-entropy=0.020767
+2024-03-06 15:50:14,229 [INFO]  Epoch[1] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 15:50:14,658 [INFO]  Epoch[2] Batch [0-428]	Speed: 15983.92 samples/sec	cross-entropy=0.053295	fM3Trans-accuracy=0.000000
+2024-03-06 15:50:15,069 [INFO]  Epoch[2] Train-cross-entropy=0.042315
+2024-03-06 15:50:15,069 [INFO]  Epoch[2] Train-fM3Trans-accuracy=0.000000
+2024-03-06 15:50:15,070 [INFO]  Epoch[2] Time cost=0.841
+2024-03-06 15:50:15,071 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0002.params"
+2024-03-06 15:50:15,097 [INFO]  Epoch[2] Validation-cross-entropy=0.012806
+2024-03-06 15:50:15,097 [INFO]  Epoch[2] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 15:50:15,493 [INFO]  Epoch[3] Batch [0-428]	Speed: 17330.28 samples/sec	cross-entropy=0.064496	fM3Trans-accuracy=0.000000
+2024-03-06 15:50:16,165 [INFO]  Epoch[3] Train-cross-entropy=0.048299
+2024-03-06 15:50:16,165 [INFO]  Epoch[3] Train-fM3Trans-accuracy=0.000000
+2024-03-06 15:50:16,165 [INFO]  Epoch[3] Time cost=1.068
+2024-03-06 15:50:16,167 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0003.params"
+2024-03-06 15:50:16,223 [INFO]  Epoch[3] Validation-cross-entropy=0.015102
+2024-03-06 15:50:16,223 [INFO]  Epoch[3] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 15:50:16,666 [INFO]  Epoch[4] Batch [0-428]	Speed: 15463.71 samples/sec	cross-entropy=0.020076	fM3Trans-accuracy=0.000000
+2024-03-06 15:50:17,339 [INFO]  Epoch[4] Train-cross-entropy=0.028182
+2024-03-06 15:50:17,339 [INFO]  Epoch[4] Train-fM3Trans-accuracy=0.000000
+2024-03-06 15:50:17,339 [INFO]  Epoch[4] Time cost=1.116
+2024-03-06 15:50:17,341 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0004.params"
+2024-03-06 15:50:17,359 [INFO]  Epoch[4] Validation-cross-entropy=0.011550
+2024-03-06 15:50:17,359 [INFO]  Epoch[4] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 15:50:17,359 [INFO]  
+========== done (7.27591609954834 s) fit model
+2024-03-06 15:53:00,038 [INFO]  
+========== start: fit model
+2024-03-06 15:53:00,038 [WARNING]  Already bound, ignoring bind()
+2024-03-06 15:53:00,286 [INFO]  Epoch[0] Batch [0-428]	Speed: 27832.11 samples/sec	cross-entropy=0.537886	fM3Trans-accuracy=0.000000
+2024-03-06 15:53:00,531 [INFO]  Epoch[0] Train-cross-entropy=0.297451
+2024-03-06 15:53:00,531 [INFO]  Epoch[0] Train-fM3Trans-accuracy=0.000000
+2024-03-06 15:53:00,531 [INFO]  Epoch[0] Time cost=0.492
+2024-03-06 15:53:00,532 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0000.params"
+2024-03-06 15:53:00,549 [INFO]  Epoch[0] Validation-cross-entropy=0.039700
+2024-03-06 15:53:00,550 [INFO]  Epoch[0] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 15:53:00,794 [INFO]  Epoch[1] Batch [0-428]	Speed: 28107.57 samples/sec	cross-entropy=0.044861	fM3Trans-accuracy=0.000000
+2024-03-06 15:53:01,042 [INFO]  Epoch[1] Train-cross-entropy=0.042389
+2024-03-06 15:53:01,042 [INFO]  Epoch[1] Train-fM3Trans-accuracy=0.000000
+2024-03-06 15:53:01,042 [INFO]  Epoch[1] Time cost=0.492
+2024-03-06 15:53:01,043 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0001.params"
+2024-03-06 15:53:01,059 [INFO]  Epoch[1] Validation-cross-entropy=0.040542
+2024-03-06 15:53:01,060 [INFO]  Epoch[1] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 15:53:01,320 [INFO]  Epoch[2] Batch [0-428]	Speed: 26320.24 samples/sec	cross-entropy=0.037917	fM3Trans-accuracy=0.000000
+2024-03-06 15:53:01,567 [INFO]  Epoch[2] Train-cross-entropy=0.031475
+2024-03-06 15:53:01,568 [INFO]  Epoch[2] Train-fM3Trans-accuracy=0.000000
+2024-03-06 15:53:01,568 [INFO]  Epoch[2] Time cost=0.508
+2024-03-06 15:53:01,569 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0002.params"
+2024-03-06 15:53:01,585 [INFO]  Epoch[2] Validation-cross-entropy=0.026350
+2024-03-06 15:53:01,585 [INFO]  Epoch[2] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 15:53:01,834 [INFO]  Epoch[3] Batch [0-428]	Speed: 27670.83 samples/sec	cross-entropy=0.050376	fM3Trans-accuracy=0.000000
+2024-03-06 15:53:02,169 [INFO]  Epoch[3] Train-cross-entropy=0.038764
+2024-03-06 15:53:02,170 [INFO]  Epoch[3] Train-fM3Trans-accuracy=0.000000
+2024-03-06 15:53:02,170 [INFO]  Epoch[3] Time cost=0.584
+2024-03-06 15:53:02,171 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0003.params"
+2024-03-06 15:53:02,192 [INFO]  Epoch[3] Validation-cross-entropy=0.017298
+2024-03-06 15:53:02,192 [INFO]  Epoch[3] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 15:53:02,493 [INFO]  Epoch[4] Batch [0-428]	Speed: 22828.52 samples/sec	cross-entropy=0.028841	fM3Trans-accuracy=0.000000
+2024-03-06 15:53:02,746 [INFO]  Epoch[4] Train-cross-entropy=0.021708
+2024-03-06 15:53:02,746 [INFO]  Epoch[4] Train-fM3Trans-accuracy=0.000000
+2024-03-06 15:53:02,746 [INFO]  Epoch[4] Time cost=0.554
+2024-03-06 15:53:02,748 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0004.params"
+2024-03-06 15:53:02,765 [INFO]  Epoch[4] Validation-cross-entropy=0.054110
+2024-03-06 15:53:02,765 [INFO]  Epoch[4] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 15:53:02,765 [INFO]  
+========== done (2.727097749710083 s) fit model
+2024-03-06 15:55:13,868 [INFO]  
+========== start: fit model
+2024-03-06 15:55:13,869 [WARNING]  Already bound, ignoring bind()
+2024-03-06 15:55:14,569 [INFO]  Epoch[0] Batch [0-428]	Speed: 9962.87 samples/sec	cross-entropy=0.645829	fM3Trans-accuracy=0.000000
+2024-03-06 15:55:17,518 [INFO]  Epoch[0] Train-cross-entropy=0.361580
+2024-03-06 15:55:17,518 [INFO]  Epoch[0] Train-fM3Trans-accuracy=0.000000
+2024-03-06 15:55:17,518 [INFO]  Epoch[0] Time cost=3.649
+2024-03-06 15:55:17,520 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0000.params"
+2024-03-06 15:55:18,492 [INFO]  Epoch[0] Validation-cross-entropy=0.064116
+2024-03-06 15:55:18,492 [INFO]  Epoch[0] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 15:55:25,604 [INFO]  Epoch[1] Batch [0-428]	Speed: 967.95 samples/sec	cross-entropy=0.083247	fM3Trans-accuracy=0.000000
+2024-03-06 15:55:32,717 [INFO]  Epoch[1] Train-cross-entropy=0.067240
+2024-03-06 15:55:32,717 [INFO]  Epoch[1] Train-fM3Trans-accuracy=0.000000
+2024-03-06 15:55:32,717 [INFO]  Epoch[1] Time cost=14.225
+2024-03-06 15:55:32,719 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0001.params"
+2024-03-06 15:55:33,232 [INFO]  Epoch[1] Validation-cross-entropy=0.020767
+2024-03-06 15:55:33,232 [INFO]  Epoch[1] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 15:55:40,533 [INFO]  Epoch[2] Batch [0-428]	Speed: 938.21 samples/sec	cross-entropy=0.053295	fM3Trans-accuracy=0.000000
+2024-03-06 15:55:48,155 [INFO]  Epoch[2] Train-cross-entropy=0.042315
+2024-03-06 15:55:48,155 [INFO]  Epoch[2] Train-fM3Trans-accuracy=0.000000
+2024-03-06 15:55:48,156 [INFO]  Epoch[2] Time cost=14.923
+2024-03-06 15:55:48,157 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0002.params"
+2024-03-06 15:55:48,494 [INFO]  Epoch[2] Validation-cross-entropy=0.012806
+2024-03-06 15:55:48,495 [INFO]  Epoch[2] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 15:55:56,017 [INFO]  Epoch[3] Batch [0-428]	Speed: 910.52 samples/sec	cross-entropy=0.064496	fM3Trans-accuracy=0.000000
+2024-03-06 15:56:02,138 [INFO]  Epoch[3] Train-cross-entropy=0.048299
+2024-03-06 15:56:02,138 [INFO]  Epoch[3] Train-fM3Trans-accuracy=0.000000
+2024-03-06 15:56:02,138 [INFO]  Epoch[3] Time cost=13.644
+2024-03-06 15:56:02,140 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0003.params"
+2024-03-06 15:56:02,474 [INFO]  Epoch[3] Validation-cross-entropy=0.015102
+2024-03-06 15:56:02,474 [INFO]  Epoch[3] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 15:56:10,368 [INFO]  Epoch[4] Batch [0-428]	Speed: 867.86 samples/sec	cross-entropy=0.020076	fM3Trans-accuracy=0.000000
+2024-03-06 15:56:16,194 [INFO]  Epoch[4] Train-cross-entropy=0.028182
+2024-03-06 15:56:16,194 [INFO]  Epoch[4] Train-fM3Trans-accuracy=0.000000
+2024-03-06 15:56:16,194 [INFO]  Epoch[4] Time cost=13.720
+2024-03-06 15:56:16,196 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0004.params"
+2024-03-06 15:56:16,510 [INFO]  Epoch[4] Validation-cross-entropy=0.011550
+2024-03-06 15:56:16,510 [INFO]  Epoch[4] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 15:56:16,510 [INFO]  
+========== done (62.64151453971863 s) fit model
+2024-03-06 15:57:39,569 [INFO]  
+========== start: fit model
+2024-03-06 15:57:39,569 [WARNING]  Already bound, ignoring bind()
+2024-03-06 15:57:40,444 [INFO]  Epoch[0] Batch [0-428]	Speed: 8074.77 samples/sec	cross-entropy=0.643456	fM3Trans-accuracy=0.000000
+2024-03-06 15:57:40,889 [INFO]  Epoch[0] Train-cross-entropy=0.359405
+2024-03-06 15:57:40,889 [INFO]  Epoch[0] Train-fM3Trans-accuracy=0.000000
+2024-03-06 15:57:40,889 [INFO]  Epoch[0] Time cost=1.319
+2024-03-06 15:57:40,891 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0000.params"
+2024-03-06 15:57:40,917 [INFO]  Epoch[0] Validation-cross-entropy=0.039387
+2024-03-06 15:57:40,917 [INFO]  Epoch[0] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 15:57:42,401 [INFO]  Epoch[1] Batch [0-428]	Speed: 4618.61 samples/sec	cross-entropy=0.066150	fM3Trans-accuracy=0.000000
+2024-03-06 15:57:44,508 [INFO]  Epoch[1] Train-cross-entropy=0.055282
+2024-03-06 15:57:44,508 [INFO]  Epoch[1] Train-fM3Trans-accuracy=0.000000
+2024-03-06 15:57:44,508 [INFO]  Epoch[1] Time cost=3.591
+2024-03-06 15:57:44,509 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0001.params"
+2024-03-06 15:57:44,978 [INFO]  Epoch[1] Validation-cross-entropy=0.019128
+2024-03-06 15:57:44,978 [INFO]  Epoch[1] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 15:57:46,110 [INFO]  Epoch[2] Batch [0-428]	Speed: 6057.75 samples/sec	cross-entropy=0.031160	fM3Trans-accuracy=0.000000
+2024-03-06 15:57:46,619 [INFO]  Epoch[2] Train-cross-entropy=0.044483
+2024-03-06 15:57:46,620 [INFO]  Epoch[2] Train-fM3Trans-accuracy=0.000000
+2024-03-06 15:57:46,620 [INFO]  Epoch[2] Time cost=1.641
+2024-03-06 15:57:46,622 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0002.params"
+2024-03-06 15:57:46,647 [INFO]  Epoch[2] Validation-cross-entropy=0.014672
+2024-03-06 15:57:46,647 [INFO]  Epoch[2] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 15:57:47,131 [INFO]  Epoch[3] Batch [0-428]	Speed: 14204.61 samples/sec	cross-entropy=0.026630	fM3Trans-accuracy=0.000000
+2024-03-06 15:57:47,832 [INFO]  Epoch[3] Train-cross-entropy=0.037542
+2024-03-06 15:57:47,833 [INFO]  Epoch[3] Train-fM3Trans-accuracy=0.000000
+2024-03-06 15:57:47,833 [INFO]  Epoch[3] Time cost=1.186
+2024-03-06 15:57:47,835 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0003.params"
+2024-03-06 15:57:47,852 [INFO]  Epoch[3] Validation-cross-entropy=0.012825
+2024-03-06 15:57:47,852 [INFO]  Epoch[3] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 15:57:48,359 [INFO]  Epoch[4] Batch [0-428]	Speed: 13534.29 samples/sec	cross-entropy=0.020670	fM3Trans-accuracy=0.000000
+2024-03-06 15:57:48,615 [INFO]  Epoch[4] Train-cross-entropy=0.042695
+2024-03-06 15:57:48,615 [INFO]  Epoch[4] Train-fM3Trans-accuracy=0.000000
+2024-03-06 15:57:48,615 [INFO]  Epoch[4] Time cost=0.763
+2024-03-06 15:57:48,616 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0004.params"
+2024-03-06 15:57:48,634 [INFO]  Epoch[4] Validation-cross-entropy=0.008760
+2024-03-06 15:57:48,634 [INFO]  Epoch[4] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 15:57:48,634 [INFO]  
+========== done (9.064472436904907 s) fit model
+2024-03-06 16:01:59,202 [INFO]  
+========== start: fit model
+2024-03-06 16:01:59,202 [WARNING]  Already bound, ignoring bind()
+2024-03-06 16:01:59,936 [INFO]  Epoch[0] Batch [0-428]	Speed: 11594.35 samples/sec	cross-entropy=0.537886	fM3Trans-accuracy=0.000000
+2024-03-06 16:02:02,320 [INFO]  Epoch[0] Train-cross-entropy=0.297451
+2024-03-06 16:02:02,321 [INFO]  Epoch[0] Train-fM3Trans-accuracy=0.000000
+2024-03-06 16:02:02,321 [INFO]  Epoch[0] Time cost=3.118
+2024-03-06 16:02:02,323 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0000.params"
+2024-03-06 16:02:02,350 [INFO]  Epoch[0] Validation-cross-entropy=0.039700
+2024-03-06 16:02:02,350 [INFO]  Epoch[0] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 16:02:03,940 [INFO]  Epoch[1] Batch [0-428]	Speed: 4309.63 samples/sec	cross-entropy=0.044861	fM3Trans-accuracy=0.000000
+2024-03-06 16:02:04,761 [INFO]  Epoch[1] Train-cross-entropy=0.042389
+2024-03-06 16:02:04,761 [INFO]  Epoch[1] Train-fM3Trans-accuracy=0.000000
+2024-03-06 16:02:04,762 [INFO]  Epoch[1] Time cost=2.412
+2024-03-06 16:02:04,763 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0001.params"
+2024-03-06 16:02:04,790 [INFO]  Epoch[1] Validation-cross-entropy=0.040542
+2024-03-06 16:02:04,790 [INFO]  Epoch[1] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 16:02:05,888 [INFO]  Epoch[2] Batch [0-428]	Speed: 6241.25 samples/sec	cross-entropy=0.037917	fM3Trans-accuracy=0.000000
+2024-03-06 16:02:06,777 [INFO]  Epoch[2] Train-cross-entropy=0.031475
+2024-03-06 16:02:06,777 [INFO]  Epoch[2] Train-fM3Trans-accuracy=0.000000
+2024-03-06 16:02:06,777 [INFO]  Epoch[2] Time cost=1.987
+2024-03-06 16:02:06,780 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0002.params"
+2024-03-06 16:02:06,815 [INFO]  Epoch[2] Validation-cross-entropy=0.026350
+2024-03-06 16:02:06,815 [INFO]  Epoch[2] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 16:02:07,450 [INFO]  Epoch[3] Batch [0-428]	Speed: 10812.68 samples/sec	cross-entropy=0.050376	fM3Trans-accuracy=0.000000
+2024-03-06 16:02:08,156 [INFO]  Epoch[3] Train-cross-entropy=0.038764
+2024-03-06 16:02:08,156 [INFO]  Epoch[3] Train-fM3Trans-accuracy=0.000000
+2024-03-06 16:02:08,156 [INFO]  Epoch[3] Time cost=1.341
+2024-03-06 16:02:08,158 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0003.params"
+2024-03-06 16:02:08,182 [INFO]  Epoch[3] Validation-cross-entropy=0.017298
+2024-03-06 16:02:08,182 [INFO]  Epoch[3] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 16:02:09,758 [INFO]  Epoch[4] Batch [0-428]	Speed: 4358.47 samples/sec	cross-entropy=0.028841	fM3Trans-accuracy=0.000000
+2024-03-06 16:02:10,897 [INFO]  Epoch[4] Train-cross-entropy=0.021708
+2024-03-06 16:02:10,897 [INFO]  Epoch[4] Train-fM3Trans-accuracy=0.000000
+2024-03-06 16:02:10,897 [INFO]  Epoch[4] Time cost=2.715
+2024-03-06 16:02:10,899 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0004.params"
+2024-03-06 16:02:10,922 [INFO]  Epoch[4] Validation-cross-entropy=0.054110
+2024-03-06 16:02:10,922 [INFO]  Epoch[4] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 16:02:10,922 [INFO]  
+========== done (11.720617294311523 s) fit model
+2024-03-06 16:02:36,790 [INFO]  
+========== start: fit model
+2024-03-06 16:02:36,790 [WARNING]  Already bound, ignoring bind()
+2024-03-06 16:02:45,275 [INFO]  Epoch[0] Batch [0-428]	Speed: 814.05 samples/sec	cross-entropy=1.275632	fM3Trans-accuracy=3.221445
+2024-03-06 16:02:52,349 [INFO]  Epoch[0] Train-cross-entropy=0.673629
+2024-03-06 16:02:52,350 [INFO]  Epoch[0] Train-fM3Trans-accuracy=3.207944
+2024-03-06 16:02:52,350 [INFO]  Epoch[0] Time cost=15.559
+2024-03-06 16:02:52,352 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0000.params"
+2024-03-06 16:02:52,535 [INFO]  Epoch[0] Validation-cross-entropy=0.063940
+2024-03-06 16:02:52,535 [INFO]  Epoch[0] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 16:02:58,105 [INFO]  Epoch[1] Batch [0-428]	Speed: 1229.83 samples/sec	cross-entropy=0.061725	fM3Trans-accuracy=3.221445
+2024-03-06 16:03:04,560 [INFO]  Epoch[1] Train-cross-entropy=0.051915
+2024-03-06 16:03:04,560 [INFO]  Epoch[1] Train-fM3Trans-accuracy=3.207944
+2024-03-06 16:03:04,560 [INFO]  Epoch[1] Time cost=12.025
+2024-03-06 16:03:04,562 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0001.params"
+2024-03-06 16:03:05,054 [INFO]  Epoch[1] Validation-cross-entropy=0.046060
+2024-03-06 16:03:05,054 [INFO]  Epoch[1] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 16:09:44,067 [INFO]  Epoch[2] Batch [0-428]	Speed: 17.16 samples/sec	cross-entropy=0.051988	fM3Trans-accuracy=3.221445
+2024-03-06 16:19:24,993 [INFO]  Epoch[2] Train-cross-entropy=0.044571
+2024-03-06 16:19:24,993 [INFO]  Epoch[2] Train-fM3Trans-accuracy=3.207944
+2024-03-06 16:19:24,993 [INFO]  Epoch[2] Time cost=979.939
+2024-03-06 16:19:24,996 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0002.params"
+2024-03-06 16:19:52,721 [INFO]  Epoch[2] Validation-cross-entropy=0.056137
+2024-03-06 16:19:52,722 [INFO]  Epoch[2] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 16:29:42,665 [INFO]  Epoch[3] Batch [0-428]	Speed: 11.63 samples/sec	cross-entropy=0.069356	fM3Trans-accuracy=3.221445
+2024-03-06 16:39:29,474 [INFO]  Epoch[3] Train-cross-entropy=0.050004
+2024-03-06 16:39:29,474 [INFO]  Epoch[3] Train-fM3Trans-accuracy=3.207944
+2024-03-06 16:39:29,475 [INFO]  Epoch[3] Time cost=1176.753
+2024-03-06 16:39:29,477 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0003.params"
+2024-03-06 16:39:56,729 [INFO]  Epoch[3] Validation-cross-entropy=0.034326
+2024-03-06 16:39:56,729 [INFO]  Epoch[3] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 16:49:41,182 [INFO]  Epoch[4] Batch [0-428]	Speed: 11.74 samples/sec	cross-entropy=0.039384	fM3Trans-accuracy=3.221445
+2024-03-06 16:59:28,723 [INFO]  Epoch[4] Train-cross-entropy=0.035785
+2024-03-06 16:59:28,723 [INFO]  Epoch[4] Train-fM3Trans-accuracy=3.207944
+2024-03-06 16:59:28,724 [INFO]  Epoch[4] Time cost=1171.994
+2024-03-06 16:59:28,726 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0004.params"
+2024-03-06 16:59:55,249 [INFO]  Epoch[4] Validation-cross-entropy=0.061016
+2024-03-06 16:59:55,249 [INFO]  Epoch[4] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 16:59:55,250 [INFO]  
+========== done (3438.459993124008 s) fit model
+2024-03-06 19:01:44,291 [INFO]  
+========== start: fit model
+2024-03-06 19:01:44,292 [WARNING]  Already bound, ignoring bind()
+2024-03-06 19:01:44,660 [INFO]  Epoch[0] Batch [0-428]	Speed: 18714.07 samples/sec	cross-entropy=0.643456	fM3Trans-accuracy=0.000000
+2024-03-06 19:01:45,033 [INFO]  Epoch[0] Train-cross-entropy=0.359405
+2024-03-06 19:01:45,033 [INFO]  Epoch[0] Train-fM3Trans-accuracy=0.000000
+2024-03-06 19:01:45,033 [INFO]  Epoch[0] Time cost=0.740
+2024-03-06 19:01:45,035 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0000.params"
+2024-03-06 19:01:45,060 [INFO]  Epoch[0] Validation-cross-entropy=0.039387
+2024-03-06 19:01:45,060 [INFO]  Epoch[0] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 19:01:45,458 [INFO]  Epoch[1] Batch [0-428]	Speed: 17250.62 samples/sec	cross-entropy=0.066150	fM3Trans-accuracy=0.000000
+2024-03-06 19:01:45,859 [INFO]  Epoch[1] Train-cross-entropy=0.055282
+2024-03-06 19:01:45,859 [INFO]  Epoch[1] Train-fM3Trans-accuracy=0.000000
+2024-03-06 19:01:45,859 [INFO]  Epoch[1] Time cost=0.799
+2024-03-06 19:01:45,861 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0001.params"
+2024-03-06 19:01:45,887 [INFO]  Epoch[1] Validation-cross-entropy=0.019128
+2024-03-06 19:01:45,887 [INFO]  Epoch[1] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 19:01:46,192 [INFO]  Epoch[2] Batch [0-428]	Speed: 22533.89 samples/sec	cross-entropy=0.031160	fM3Trans-accuracy=0.000000
+2024-03-06 19:01:46,728 [INFO]  Epoch[2] Train-cross-entropy=0.044483
+2024-03-06 19:01:46,728 [INFO]  Epoch[2] Train-fM3Trans-accuracy=0.000000
+2024-03-06 19:01:46,728 [INFO]  Epoch[2] Time cost=0.841
+2024-03-06 19:01:46,730 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0002.params"
+2024-03-06 19:01:46,756 [INFO]  Epoch[2] Validation-cross-entropy=0.014672
+2024-03-06 19:01:46,756 [INFO]  Epoch[2] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 19:01:47,381 [INFO]  Epoch[3] Batch [0-428]	Speed: 10989.75 samples/sec	cross-entropy=0.026630	fM3Trans-accuracy=0.000000
+2024-03-06 19:01:47,855 [INFO]  Epoch[3] Train-cross-entropy=0.037542
+2024-03-06 19:01:47,855 [INFO]  Epoch[3] Train-fM3Trans-accuracy=0.000000
+2024-03-06 19:01:47,855 [INFO]  Epoch[3] Time cost=1.098
+2024-03-06 19:01:47,857 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0003.params"
+2024-03-06 19:01:47,890 [INFO]  Epoch[3] Validation-cross-entropy=0.012825
+2024-03-06 19:01:47,890 [INFO]  Epoch[3] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 19:01:48,335 [INFO]  Epoch[4] Batch [0-428]	Speed: 15426.64 samples/sec	cross-entropy=0.020670	fM3Trans-accuracy=0.000000
+2024-03-06 19:01:49,193 [INFO]  Epoch[4] Train-cross-entropy=0.042695
+2024-03-06 19:01:49,194 [INFO]  Epoch[4] Train-fM3Trans-accuracy=0.000000
+2024-03-06 19:01:49,194 [INFO]  Epoch[4] Time cost=1.304
+2024-03-06 19:01:49,197 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0004.params"
+2024-03-06 19:01:49,263 [INFO]  Epoch[4] Validation-cross-entropy=0.008760
+2024-03-06 19:01:49,263 [INFO]  Epoch[4] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 19:01:49,263 [INFO]  
+========== done (4.97175931930542 s) fit model
+2024-03-06 19:03:52,986 [INFO]  
+========== start: fit model
+2024-03-06 19:03:52,986 [WARNING]  Already bound, ignoring bind()
+2024-03-06 19:03:53,286 [INFO]  Epoch[0] Batch [0-428]	Speed: 22951.73 samples/sec	cross-entropy=0.407565	fM3Trans-accuracy=0.000000
+2024-03-06 19:03:53,597 [INFO]  Epoch[0] Train-cross-entropy=0.259854
+2024-03-06 19:03:53,598 [INFO]  Epoch[0] Train-fM3Trans-accuracy=0.000000
+2024-03-06 19:03:53,598 [INFO]  Epoch[0] Time cost=0.611
+2024-03-06 19:03:53,599 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0000.params"
+2024-03-06 19:03:53,621 [INFO]  Epoch[0] Validation-cross-entropy=0.044385
+2024-03-06 19:03:53,621 [INFO]  Epoch[0] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 19:03:53,895 [INFO]  Epoch[1] Batch [0-428]	Speed: 25109.03 samples/sec	cross-entropy=0.053509	fM3Trans-accuracy=0.000000
+2024-03-06 19:03:54,139 [INFO]  Epoch[1] Train-cross-entropy=0.047666
+2024-03-06 19:03:54,139 [INFO]  Epoch[1] Train-fM3Trans-accuracy=0.000000
+2024-03-06 19:03:54,139 [INFO]  Epoch[1] Time cost=0.518
+2024-03-06 19:03:54,141 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0001.params"
+2024-03-06 19:03:54,157 [INFO]  Epoch[1] Validation-cross-entropy=0.020001
+2024-03-06 19:03:54,157 [INFO]  Epoch[1] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 19:03:54,427 [INFO]  Epoch[2] Batch [0-428]	Speed: 25520.56 samples/sec	cross-entropy=0.040467	fM3Trans-accuracy=0.000000
+2024-03-06 19:03:54,700 [INFO]  Epoch[2] Train-cross-entropy=0.050877
+2024-03-06 19:03:54,700 [INFO]  Epoch[2] Train-fM3Trans-accuracy=0.000000
+2024-03-06 19:03:54,701 [INFO]  Epoch[2] Time cost=0.543
+2024-03-06 19:03:54,702 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0002.params"
+2024-03-06 19:03:54,723 [INFO]  Epoch[2] Validation-cross-entropy=0.018474
+2024-03-06 19:03:54,723 [INFO]  Epoch[2] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 19:03:54,980 [INFO]  Epoch[3] Batch [0-428]	Speed: 26758.22 samples/sec	cross-entropy=0.037539	fM3Trans-accuracy=0.000000
+2024-03-06 19:03:55,226 [INFO]  Epoch[3] Train-cross-entropy=0.027886
+2024-03-06 19:03:55,226 [INFO]  Epoch[3] Train-fM3Trans-accuracy=0.000000
+2024-03-06 19:03:55,226 [INFO]  Epoch[3] Time cost=0.503
+2024-03-06 19:03:55,227 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0003.params"
+2024-03-06 19:03:55,244 [INFO]  Epoch[3] Validation-cross-entropy=0.010126
+2024-03-06 19:03:55,244 [INFO]  Epoch[3] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 19:03:55,539 [INFO]  Epoch[4] Batch [0-428]	Speed: 23242.01 samples/sec	cross-entropy=0.072332	fM3Trans-accuracy=0.000000
+2024-03-06 19:03:55,921 [INFO]  Epoch[4] Train-cross-entropy=0.067969
+2024-03-06 19:03:55,921 [INFO]  Epoch[4] Train-fM3Trans-accuracy=0.000000
+2024-03-06 19:03:55,921 [INFO]  Epoch[4] Time cost=0.677
+2024-03-06 19:03:55,923 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0004.params"
+2024-03-06 19:03:55,948 [INFO]  Epoch[4] Validation-cross-entropy=0.007609
+2024-03-06 19:03:55,948 [INFO]  Epoch[4] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 19:03:55,948 [INFO]  
+========== done (2.9619150161743164 s) fit model
+2024-03-06 19:04:35,829 [INFO]  
+========== start: fit model
+2024-03-06 19:04:35,829 [WARNING]  Already bound, ignoring bind()
+2024-03-06 19:04:36,110 [INFO]  Epoch[0] Batch [0-428]	Speed: 24596.99 samples/sec	cross-entropy=1.275632	fM3Trans-accuracy=3.221445
+2024-03-06 19:04:36,388 [INFO]  Epoch[0] Train-cross-entropy=0.673629
+2024-03-06 19:04:36,388 [INFO]  Epoch[0] Train-fM3Trans-accuracy=3.207944
+2024-03-06 19:04:36,388 [INFO]  Epoch[0] Time cost=0.558
+2024-03-06 19:04:36,389 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0000.params"
+2024-03-06 19:04:36,407 [INFO]  Epoch[0] Validation-cross-entropy=0.063940
+2024-03-06 19:04:36,407 [INFO]  Epoch[0] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 19:04:36,691 [INFO]  Epoch[1] Batch [0-428]	Speed: 24179.22 samples/sec	cross-entropy=0.061725	fM3Trans-accuracy=3.221445
+2024-03-06 19:04:36,970 [INFO]  Epoch[1] Train-cross-entropy=0.051915
+2024-03-06 19:04:36,970 [INFO]  Epoch[1] Train-fM3Trans-accuracy=3.207944
+2024-03-06 19:04:36,970 [INFO]  Epoch[1] Time cost=0.563
+2024-03-06 19:04:36,971 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0001.params"
+2024-03-06 19:04:36,989 [INFO]  Epoch[1] Validation-cross-entropy=0.046060
+2024-03-06 19:04:36,989 [INFO]  Epoch[1] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 19:04:37,774 [INFO]  Epoch[2] Batch [0-428]	Speed: 8730.23 samples/sec	cross-entropy=0.051988	fM3Trans-accuracy=3.221445
+2024-03-06 19:04:38,196 [INFO]  Epoch[2] Train-cross-entropy=0.044571
+2024-03-06 19:04:38,196 [INFO]  Epoch[2] Train-fM3Trans-accuracy=3.207944
+2024-03-06 19:04:38,196 [INFO]  Epoch[2] Time cost=1.207
+2024-03-06 19:04:38,198 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0002.params"
+2024-03-06 19:04:38,216 [INFO]  Epoch[2] Validation-cross-entropy=0.056137
+2024-03-06 19:04:38,216 [INFO]  Epoch[2] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 19:04:38,499 [INFO]  Epoch[3] Batch [0-428]	Speed: 24328.34 samples/sec	cross-entropy=0.069356	fM3Trans-accuracy=3.221445
+2024-03-06 19:04:38,761 [INFO]  Epoch[3] Train-cross-entropy=0.050004
+2024-03-06 19:04:38,761 [INFO]  Epoch[3] Train-fM3Trans-accuracy=3.207944
+2024-03-06 19:04:38,761 [INFO]  Epoch[3] Time cost=0.545
+2024-03-06 19:04:38,762 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0003.params"
+2024-03-06 19:04:38,783 [INFO]  Epoch[3] Validation-cross-entropy=0.034326
+2024-03-06 19:04:38,783 [INFO]  Epoch[3] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 19:04:39,050 [INFO]  Epoch[4] Batch [0-428]	Speed: 25756.09 samples/sec	cross-entropy=0.039384	fM3Trans-accuracy=3.221445
+2024-03-06 19:04:39,329 [INFO]  Epoch[4] Train-cross-entropy=0.035785
+2024-03-06 19:04:39,330 [INFO]  Epoch[4] Train-fM3Trans-accuracy=3.207944
+2024-03-06 19:04:39,330 [INFO]  Epoch[4] Time cost=0.546
+2024-03-06 19:04:39,331 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0004.params"
+2024-03-06 19:04:39,350 [INFO]  Epoch[4] Validation-cross-entropy=0.061016
+2024-03-06 19:04:39,350 [INFO]  Epoch[4] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 19:04:39,350 [INFO]  
+========== done (3.520986557006836 s) fit model
+2024-03-06 19:07:17,127 [INFO]  
+========== start: fit model
+2024-03-06 19:07:17,128 [WARNING]  Already bound, ignoring bind()
+2024-03-06 19:07:17,719 [INFO]  Epoch[0] Batch [0-428]	Speed: 14884.12 samples/sec	cross-entropy=0.758869	fM3Trans-accuracy=0.000000
+2024-03-06 19:07:19,169 [INFO]  Epoch[0] Train-cross-entropy=0.426135
+2024-03-06 19:07:19,169 [INFO]  Epoch[0] Train-fM3Trans-accuracy=0.000000
+2024-03-06 19:07:19,169 [INFO]  Epoch[0] Time cost=2.041
+2024-03-06 19:07:19,172 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0000.params"
+2024-03-06 19:07:19,205 [INFO]  Epoch[0] Validation-cross-entropy=0.040423
+2024-03-06 19:07:19,205 [INFO]  Epoch[0] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 19:07:19,649 [INFO]  Epoch[1] Batch [0-428]	Speed: 15476.05 samples/sec	cross-entropy=0.046496	fM3Trans-accuracy=0.000000
+2024-03-06 19:07:20,277 [INFO]  Epoch[1] Train-cross-entropy=0.057183
+2024-03-06 19:07:20,277 [INFO]  Epoch[1] Train-fM3Trans-accuracy=0.000000
+2024-03-06 19:07:20,277 [INFO]  Epoch[1] Time cost=1.072
+2024-03-06 19:07:20,279 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0001.params"
+2024-03-06 19:07:20,299 [INFO]  Epoch[1] Validation-cross-entropy=0.028413
+2024-03-06 19:07:20,299 [INFO]  Epoch[1] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 19:07:21,387 [INFO]  Epoch[2] Batch [0-428]	Speed: 6301.38 samples/sec	cross-entropy=0.076024	fM3Trans-accuracy=0.000000
+2024-03-06 19:07:22,011 [INFO]  Epoch[2] Train-cross-entropy=0.053888
+2024-03-06 19:07:22,011 [INFO]  Epoch[2] Train-fM3Trans-accuracy=0.000000
+2024-03-06 19:07:22,011 [INFO]  Epoch[2] Time cost=1.712
+2024-03-06 19:07:22,013 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0002.params"
+2024-03-06 19:07:22,038 [INFO]  Epoch[2] Validation-cross-entropy=0.011275
+2024-03-06 19:07:22,038 [INFO]  Epoch[2] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 19:07:22,626 [INFO]  Epoch[3] Batch [0-428]	Speed: 11672.80 samples/sec	cross-entropy=0.055442	fM3Trans-accuracy=0.000000
+2024-03-06 19:07:23,223 [INFO]  Epoch[3] Train-cross-entropy=0.043230
+2024-03-06 19:07:23,223 [INFO]  Epoch[3] Train-fM3Trans-accuracy=0.000000
+2024-03-06 19:07:23,223 [INFO]  Epoch[3] Time cost=1.185
+2024-03-06 19:07:23,224 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0003.params"
+2024-03-06 19:07:23,250 [INFO]  Epoch[3] Validation-cross-entropy=0.009181
+2024-03-06 19:07:23,250 [INFO]  Epoch[3] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 19:07:24,312 [INFO]  Epoch[4] Batch [0-428]	Speed: 6460.50 samples/sec	cross-entropy=0.030316	fM3Trans-accuracy=0.000000
+2024-03-06 19:07:25,201 [INFO]  Epoch[4] Train-cross-entropy=0.027989
+2024-03-06 19:07:25,201 [INFO]  Epoch[4] Train-fM3Trans-accuracy=0.000000
+2024-03-06 19:07:25,201 [INFO]  Epoch[4] Time cost=1.951
+2024-03-06 19:07:25,203 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0004.params"
+2024-03-06 19:07:25,230 [INFO]  Epoch[4] Validation-cross-entropy=0.009940
+2024-03-06 19:07:25,230 [INFO]  Epoch[4] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 19:07:25,230 [INFO]  
+========== done (8.102493047714233 s) fit model
+2024-03-06 19:07:49,089 [INFO]  
+========== start: fit model
+2024-03-06 19:07:49,089 [WARNING]  Already bound, ignoring bind()
+2024-03-06 19:07:49,944 [INFO]  Epoch[0] Batch [0-428]	Speed: 8162.00 samples/sec	cross-entropy=0.407565	fM3Trans-accuracy=0.000000
+2024-03-06 19:07:50,470 [INFO]  Epoch[0] Train-cross-entropy=0.259854
+2024-03-06 19:07:50,471 [INFO]  Epoch[0] Train-fM3Trans-accuracy=0.000000
+2024-03-06 19:07:50,471 [INFO]  Epoch[0] Time cost=1.381
+2024-03-06 19:07:50,473 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0000.params"
+2024-03-06 19:07:50,496 [INFO]  Epoch[0] Validation-cross-entropy=0.044385
+2024-03-06 19:07:50,496 [INFO]  Epoch[0] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 19:07:51,129 [INFO]  Epoch[1] Batch [0-428]	Speed: 10845.92 samples/sec	cross-entropy=0.053509	fM3Trans-accuracy=0.000000
+2024-03-06 19:07:51,706 [INFO]  Epoch[1] Train-cross-entropy=0.047666
+2024-03-06 19:07:51,706 [INFO]  Epoch[1] Train-fM3Trans-accuracy=0.000000
+2024-03-06 19:07:51,706 [INFO]  Epoch[1] Time cost=1.210
+2024-03-06 19:07:51,708 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0001.params"
+2024-03-06 19:07:51,755 [INFO]  Epoch[1] Validation-cross-entropy=0.020001
+2024-03-06 19:07:51,755 [INFO]  Epoch[1] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 19:07:52,121 [INFO]  Epoch[2] Batch [0-428]	Speed: 18764.52 samples/sec	cross-entropy=0.040467	fM3Trans-accuracy=0.000000
+2024-03-06 19:07:52,757 [INFO]  Epoch[2] Train-cross-entropy=0.050877
+2024-03-06 19:07:52,757 [INFO]  Epoch[2] Train-fM3Trans-accuracy=0.000000
+2024-03-06 19:07:52,758 [INFO]  Epoch[2] Time cost=1.003
+2024-03-06 19:07:52,760 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0002.params"
+2024-03-06 19:07:52,784 [INFO]  Epoch[2] Validation-cross-entropy=0.018474
+2024-03-06 19:07:52,784 [INFO]  Epoch[2] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 19:07:53,965 [INFO]  Epoch[3] Batch [0-428]	Speed: 5805.68 samples/sec	cross-entropy=0.037539	fM3Trans-accuracy=0.000000
+2024-03-06 19:07:54,239 [INFO]  Epoch[3] Train-cross-entropy=0.027886
+2024-03-06 19:07:54,240 [INFO]  Epoch[3] Train-fM3Trans-accuracy=0.000000
+2024-03-06 19:07:54,240 [INFO]  Epoch[3] Time cost=1.455
+2024-03-06 19:07:54,241 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0003.params"
+2024-03-06 19:07:54,265 [INFO]  Epoch[3] Validation-cross-entropy=0.010126
+2024-03-06 19:07:54,265 [INFO]  Epoch[3] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 19:07:54,785 [INFO]  Epoch[4] Batch [0-428]	Speed: 13209.09 samples/sec	cross-entropy=0.072332	fM3Trans-accuracy=0.000000
+2024-03-06 19:07:55,256 [INFO]  Epoch[4] Train-cross-entropy=0.067969
+2024-03-06 19:07:55,256 [INFO]  Epoch[4] Train-fM3Trans-accuracy=0.000000
+2024-03-06 19:07:55,256 [INFO]  Epoch[4] Time cost=0.991
+2024-03-06 19:07:55,257 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0004.params"
+2024-03-06 19:07:55,276 [INFO]  Epoch[4] Validation-cross-entropy=0.007609
+2024-03-06 19:07:55,276 [INFO]  Epoch[4] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 19:07:55,276 [INFO]  
+========== done (6.18778395652771 s) fit model
+2024-03-06 20:31:04,093 [INFO]  
+========== start: fit model
+2024-03-06 20:31:04,093 [WARNING]  Already bound, ignoring bind()
+2024-03-06 20:41:08,646 [INFO]  Epoch[0] Batch [0-428]	Speed: 11.35 samples/sec	cross-entropy=0.823998	fM3Trans-accuracy=0.000000
+2024-03-06 20:50:52,193 [INFO]  Epoch[0] Train-cross-entropy=0.444225
+2024-03-06 20:50:52,194 [INFO]  Epoch[0] Train-fM3Trans-accuracy=0.000000
+2024-03-06 20:50:52,194 [INFO]  Epoch[0] Time cost=1188.099
+2024-03-06 20:50:52,200 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0000.params"
+2024-03-06 20:51:20,449 [INFO]  Epoch[0] Validation-cross-entropy=0.050156
+2024-03-06 20:51:20,449 [INFO]  Epoch[0] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 21:01:33,239 [INFO]  Epoch[1] Batch [0-428]	Speed: 11.20 samples/sec	cross-entropy=0.036820	fM3Trans-accuracy=0.000000
+2024-03-06 21:08:15,057 [INFO]  
+========== start: fit model
+2024-03-06 21:08:15,057 [WARNING]  Already bound, ignoring bind()
+2024-03-06 21:08:15,332 [INFO]  Epoch[0] Batch [0-428]	Speed: 25099.15 samples/sec	cross-entropy=0.645829	fM3Trans-accuracy=0.000000
+2024-03-06 21:08:15,567 [INFO]  Epoch[0] Train-cross-entropy=0.361580
+2024-03-06 21:08:15,567 [INFO]  Epoch[0] Train-fM3Trans-accuracy=0.000000
+2024-03-06 21:08:15,567 [INFO]  Epoch[0] Time cost=0.509
+2024-03-06 21:08:15,568 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0000.params"
+2024-03-06 21:08:15,585 [INFO]  Epoch[0] Validation-cross-entropy=0.064116
+2024-03-06 21:08:15,585 [INFO]  Epoch[0] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 21:08:15,822 [INFO]  Epoch[1] Batch [0-428]	Speed: 28962.20 samples/sec	cross-entropy=0.083247	fM3Trans-accuracy=0.000000
+2024-03-06 21:08:16,057 [INFO]  Epoch[1] Train-cross-entropy=0.067240
+2024-03-06 21:08:16,057 [INFO]  Epoch[1] Train-fM3Trans-accuracy=0.000000
+2024-03-06 21:08:16,057 [INFO]  Epoch[1] Time cost=0.472
+2024-03-06 21:08:16,058 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0001.params"
+2024-03-06 21:08:16,075 [INFO]  Epoch[1] Validation-cross-entropy=0.020767
+2024-03-06 21:08:16,075 [INFO]  Epoch[1] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 21:08:16,311 [INFO]  Epoch[2] Batch [0-428]	Speed: 29137.98 samples/sec	cross-entropy=0.053295	fM3Trans-accuracy=0.000000
+2024-03-06 21:08:16,545 [INFO]  Epoch[2] Train-cross-entropy=0.042315
+2024-03-06 21:08:16,545 [INFO]  Epoch[2] Train-fM3Trans-accuracy=0.000000
+2024-03-06 21:08:16,545 [INFO]  Epoch[2] Time cost=0.470
+2024-03-06 21:08:16,546 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0002.params"
+2024-03-06 21:08:16,563 [INFO]  Epoch[2] Validation-cross-entropy=0.012806
+2024-03-06 21:08:16,563 [INFO]  Epoch[2] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 21:08:16,798 [INFO]  Epoch[3] Batch [0-428]	Speed: 29167.75 samples/sec	cross-entropy=0.064496	fM3Trans-accuracy=0.000000
+2024-03-06 21:08:17,032 [INFO]  Epoch[3] Train-cross-entropy=0.048299
+2024-03-06 21:08:17,032 [INFO]  Epoch[3] Train-fM3Trans-accuracy=0.000000
+2024-03-06 21:08:17,032 [INFO]  Epoch[3] Time cost=0.469
+2024-03-06 21:08:17,033 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0003.params"
+2024-03-06 21:08:17,050 [INFO]  Epoch[3] Validation-cross-entropy=0.015102
+2024-03-06 21:08:17,050 [INFO]  Epoch[3] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 21:08:17,285 [INFO]  Epoch[4] Batch [0-428]	Speed: 29229.70 samples/sec	cross-entropy=0.020076	fM3Trans-accuracy=0.000000
+2024-03-06 21:08:17,519 [INFO]  Epoch[4] Train-cross-entropy=0.028182
+2024-03-06 21:08:17,519 [INFO]  Epoch[4] Train-fM3Trans-accuracy=0.000000
+2024-03-06 21:08:17,519 [INFO]  Epoch[4] Time cost=0.469
+2024-03-06 21:08:17,520 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0004.params"
+2024-03-06 21:08:17,537 [INFO]  Epoch[4] Validation-cross-entropy=0.011550
+2024-03-06 21:08:17,537 [INFO]  Epoch[4] Validation-fM3Trans-accuracy=0.000000
+2024-03-06 21:08:17,537 [INFO]  
+========== done (2.4795920848846436 s) fit model
+2024-03-10 13:23:01,566 [INFO]  
+========== start: fit model
+2024-03-10 13:23:01,566 [WARNING]  Already bound, ignoring bind()
+2024-03-10 13:34:18,975 [INFO]  Epoch[0] Batch [0-428]	Speed: 10.14 samples/sec	cross-entropy=0.770750	fM3Trans-accuracy=0.000000
+2024-03-10 13:35:17,099 [INFO]  Epoch[0] Train-cross-entropy=0.428918
+2024-03-10 13:35:17,099 [INFO]  Epoch[0] Train-fM3Trans-accuracy=0.000000
+2024-03-10 13:35:17,099 [INFO]  Epoch[0] Time cost=735.532
+2024-03-10 13:35:17,100 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0000.params"
+2024-03-10 13:35:17,158 [INFO]  Epoch[0] Validation-cross-entropy=0.049777
+2024-03-10 13:35:17,158 [INFO]  Epoch[0] Validation-fM3Trans-accuracy=0.000000
+2024-03-10 13:35:17,865 [INFO]  Epoch[1] Batch [0-428]	Speed: 9696.15 samples/sec	cross-entropy=0.088281	fM3Trans-accuracy=0.000000
+2024-03-10 13:35:29,775 [INFO]  Epoch[1] Train-cross-entropy=0.076256
+2024-03-10 13:35:29,775 [INFO]  Epoch[1] Train-fM3Trans-accuracy=0.000000
+2024-03-10 13:35:29,775 [INFO]  Epoch[1] Time cost=12.617
+2024-03-10 13:35:29,777 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0001.params"
+2024-03-10 13:35:30,366 [INFO]  Epoch[1] Validation-cross-entropy=0.026367
+2024-03-10 13:35:30,366 [INFO]  Epoch[1] Validation-fM3Trans-accuracy=0.000000
+2024-03-10 13:35:47,540 [INFO]  Epoch[2] Batch [0-428]	Speed: 398.77 samples/sec	cross-entropy=0.042523	fM3Trans-accuracy=0.000000
+2024-03-10 13:36:04,135 [INFO]  Epoch[2] Train-cross-entropy=0.038530
+2024-03-10 13:36:04,135 [INFO]  Epoch[2] Train-fM3Trans-accuracy=0.000000
+2024-03-10 13:36:04,135 [INFO]  Epoch[2] Time cost=33.769
+2024-03-10 13:36:04,140 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0002.params"
+2024-03-10 13:36:06,919 [INFO]  Epoch[2] Validation-cross-entropy=0.019007
+2024-03-10 13:36:06,919 [INFO]  Epoch[2] Validation-fM3Trans-accuracy=0.000000
+2024-03-10 13:36:07,935 [INFO]  Epoch[3] Batch [0-428]	Speed: 6745.19 samples/sec	cross-entropy=0.034241	fM3Trans-accuracy=0.000000
+2024-03-10 13:36:08,621 [INFO]  Epoch[3] Train-cross-entropy=0.045459
+2024-03-10 13:36:08,622 [INFO]  Epoch[3] Train-fM3Trans-accuracy=0.000000
+2024-03-10 13:36:08,622 [INFO]  Epoch[3] Time cost=1.703
+2024-03-10 13:36:08,623 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0003.params"
+2024-03-10 13:36:08,639 [INFO]  Epoch[3] Validation-cross-entropy=0.029941
+2024-03-10 13:36:08,639 [INFO]  Epoch[3] Validation-fM3Trans-accuracy=0.000000
+2024-03-10 13:36:08,910 [INFO]  Epoch[4] Batch [0-428]	Speed: 25346.65 samples/sec	cross-entropy=0.016877	fM3Trans-accuracy=0.000000
+2024-03-10 13:36:19,043 [INFO]  Epoch[4] Train-cross-entropy=0.082516
+2024-03-10 13:36:19,043 [INFO]  Epoch[4] Train-fM3Trans-accuracy=0.000000
+2024-03-10 13:36:19,043 [INFO]  Epoch[4] Time cost=10.404
+2024-03-10 13:36:19,045 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_fM3Trans/model-0004.params"
+2024-03-10 13:36:20,654 [INFO]  Epoch[4] Validation-cross-entropy=0.011313
+2024-03-10 13:36:20,654 [INFO]  Epoch[4] Validation-fM3Trans-accuracy=0.000000
+2024-03-10 13:36:20,654 [INFO]  
+========== done (799.0880768299103 s) fit model

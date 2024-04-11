@@ -1,0 +1,800 @@
+2024-04-01 09:38:33,599 [INFO]  
+========== start: fit model
+2024-04-01 09:38:33,599 [WARNING]  Already bound, ignoring bind()
+2024-04-01 09:38:56,310 [INFO]  Epoch[0] Batch [0-5708]	Speed: 4032.58 samples/sec	cross-entropy=0.092518	PhysActivity-accuracy=3.195656
+2024-04-01 09:39:20,158 [INFO]  Epoch[0] Train-cross-entropy=0.050709
+2024-04-01 09:39:20,158 [INFO]  Epoch[0] Train-PhysActivity-accuracy=3.183514
+2024-04-01 09:39:20,158 [INFO]  Epoch[0] Time cost=46.558
+2024-04-01 09:39:20,160 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0000.params"
+2024-04-01 09:39:21,793 [INFO]  Epoch[0] Validation-cross-entropy=0.005575
+2024-04-01 09:39:21,793 [INFO]  Epoch[0] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 09:39:51,313 [INFO]  Epoch[1] Batch [0-5708]	Speed: 3093.95 samples/sec	cross-entropy=0.005718	PhysActivity-accuracy=3.195656
+2024-04-01 09:40:12,163 [INFO]  Epoch[1] Train-cross-entropy=0.005067
+2024-04-01 09:40:12,163 [INFO]  Epoch[1] Train-PhysActivity-accuracy=3.183514
+2024-04-01 09:40:12,164 [INFO]  Epoch[1] Time cost=50.370
+2024-04-01 09:40:12,169 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0001.params"
+2024-04-01 09:40:13,909 [INFO]  Epoch[1] Validation-cross-entropy=0.001199
+2024-04-01 09:40:13,909 [INFO]  Epoch[1] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 09:40:43,957 [INFO]  Epoch[2] Batch [0-5708]	Speed: 3039.53 samples/sec	cross-entropy=0.002903	PhysActivity-accuracy=3.195656
+2024-04-01 09:41:10,332 [INFO]  Epoch[2] Train-cross-entropy=0.002449
+2024-04-01 09:41:10,332 [INFO]  Epoch[2] Train-PhysActivity-accuracy=3.183514
+2024-04-01 09:41:10,332 [INFO]  Epoch[2] Time cost=56.423
+2024-04-01 09:41:10,334 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0002.params"
+2024-04-01 09:41:11,013 [INFO]  Epoch[2] Validation-cross-entropy=0.000622
+2024-04-01 09:41:11,013 [INFO]  Epoch[2] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 09:41:29,422 [INFO]  Epoch[3] Batch [0-5708]	Speed: 4961.75 samples/sec	cross-entropy=0.001648	PhysActivity-accuracy=3.195656
+2024-04-01 09:41:53,878 [INFO]  Epoch[3] Train-cross-entropy=0.001454
+2024-04-01 09:41:53,879 [INFO]  Epoch[3] Train-PhysActivity-accuracy=3.183514
+2024-04-01 09:41:53,879 [INFO]  Epoch[3] Time cost=42.865
+2024-04-01 09:41:53,880 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0003.params"
+2024-04-01 09:41:55,509 [INFO]  Epoch[3] Validation-cross-entropy=0.001368
+2024-04-01 09:41:55,509 [INFO]  Epoch[3] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 09:42:26,388 [INFO]  Epoch[4] Batch [0-5708]	Speed: 2957.76 samples/sec	cross-entropy=0.001525	PhysActivity-accuracy=3.195656
+2024-04-01 09:42:58,865 [INFO]  Epoch[4] Train-cross-entropy=0.001204
+2024-04-01 09:42:58,866 [INFO]  Epoch[4] Train-PhysActivity-accuracy=3.183514
+2024-04-01 09:42:58,866 [INFO]  Epoch[4] Time cost=63.357
+2024-04-01 09:42:58,868 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0004.params"
+2024-04-01 09:43:02,642 [INFO]  Epoch[4] Validation-cross-entropy=0.000354
+2024-04-01 09:43:02,642 [INFO]  Epoch[4] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 09:43:02,642 [INFO]  
+========== done (269.0434670448303 s) fit model
+2024-04-01 11:24:47,579 [INFO]  
+========== start: fit model
+2024-04-01 11:24:47,579 [WARNING]  Already bound, ignoring bind()
+2024-04-01 11:25:04,138 [INFO]  Epoch[0] Batch [0-5708]	Speed: 5532.50 samples/sec	cross-entropy=0.092656	PhysActivity-accuracy=3.187423
+2024-04-01 11:25:21,618 [INFO]  Epoch[0] Train-cross-entropy=0.049655
+2024-04-01 11:25:21,618 [INFO]  Epoch[0] Train-PhysActivity-accuracy=3.180011
+2024-04-01 11:25:21,618 [INFO]  Epoch[0] Time cost=34.038
+2024-04-01 11:25:21,620 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0000.params"
+2024-04-01 11:25:23,036 [INFO]  Epoch[0] Validation-cross-entropy=0.000259
+2024-04-01 11:25:23,037 [INFO]  Epoch[0] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 11:25:41,596 [INFO]  Epoch[1] Batch [0-5708]	Speed: 4921.24 samples/sec	cross-entropy=0.003127	PhysActivity-accuracy=3.187423
+2024-04-01 11:25:59,461 [INFO]  Epoch[1] Train-cross-entropy=0.002781
+2024-04-01 11:25:59,461 [INFO]  Epoch[1] Train-PhysActivity-accuracy=3.180011
+2024-04-01 11:25:59,461 [INFO]  Epoch[1] Time cost=36.424
+2024-04-01 11:25:59,463 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0001.params"
+2024-04-01 11:26:00,177 [INFO]  Epoch[1] Validation-cross-entropy=0.000034
+2024-04-01 11:26:00,177 [INFO]  Epoch[1] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 11:26:17,960 [INFO]  Epoch[2] Batch [0-5708]	Speed: 5136.68 samples/sec	cross-entropy=0.001649	PhysActivity-accuracy=3.187423
+2024-04-01 11:26:30,938 [INFO]  Epoch[2] Train-cross-entropy=0.001683
+2024-04-01 11:26:30,938 [INFO]  Epoch[2] Train-PhysActivity-accuracy=3.180011
+2024-04-01 11:26:30,938 [INFO]  Epoch[2] Time cost=30.761
+2024-04-01 11:26:30,939 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0002.params"
+2024-04-01 11:26:32,246 [INFO]  Epoch[2] Validation-cross-entropy=0.000022
+2024-04-01 11:26:32,247 [INFO]  Epoch[2] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 11:26:48,749 [INFO]  Epoch[3] Batch [0-5708]	Speed: 5535.38 samples/sec	cross-entropy=0.001283	PhysActivity-accuracy=3.187423
+2024-04-01 11:27:05,156 [INFO]  Epoch[3] Train-cross-entropy=0.001300
+2024-04-01 11:27:05,156 [INFO]  Epoch[3] Train-PhysActivity-accuracy=3.180011
+2024-04-01 11:27:05,156 [INFO]  Epoch[3] Time cost=32.909
+2024-04-01 11:27:05,158 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0003.params"
+2024-04-01 11:27:05,956 [INFO]  Epoch[3] Validation-cross-entropy=0.000048
+2024-04-01 11:27:05,956 [INFO]  Epoch[3] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 11:27:18,471 [INFO]  Epoch[4] Batch [0-5708]	Speed: 7298.03 samples/sec	cross-entropy=0.000826	PhysActivity-accuracy=3.187423
+2024-04-01 11:27:34,190 [INFO]  Epoch[4] Train-cross-entropy=0.000766
+2024-04-01 11:27:34,190 [INFO]  Epoch[4] Train-PhysActivity-accuracy=3.180011
+2024-04-01 11:27:34,190 [INFO]  Epoch[4] Time cost=28.234
+2024-04-01 11:27:34,191 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0004.params"
+2024-04-01 11:27:34,426 [INFO]  Epoch[4] Validation-cross-entropy=0.000026
+2024-04-01 11:27:34,426 [INFO]  Epoch[4] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 11:27:34,426 [INFO]  
+========== done (166.84743309020996 s) fit model
+2024-04-01 13:17:09,453 [INFO]  
+========== start: fit model
+2024-04-01 13:17:09,453 [WARNING]  Already bound, ignoring bind()
+2024-04-01 13:17:55,130 [INFO]  Epoch[0] Batch [0-5708]	Speed: 1999.75 samples/sec	cross-entropy=0.101833	PhysActivity-accuracy=0.000000
+2024-04-01 13:18:51,807 [INFO]  Epoch[0] Train-cross-entropy=0.055749
+2024-04-01 13:18:51,807 [INFO]  Epoch[0] Train-PhysActivity-accuracy=0.000000
+2024-04-01 13:18:51,808 [INFO]  Epoch[0] Time cost=102.354
+2024-04-01 13:18:51,809 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0000.params"
+2024-04-01 13:18:55,566 [INFO]  Epoch[0] Validation-cross-entropy=0.006428
+2024-04-01 13:18:55,567 [INFO]  Epoch[0] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 13:19:40,126 [INFO]  Epoch[1] Batch [0-5708]	Speed: 2059.22 samples/sec	cross-entropy=0.002898	PhysActivity-accuracy=0.000000
+2024-04-01 13:20:08,082 [INFO]  Epoch[1] Train-cross-entropy=0.002796
+2024-04-01 13:20:08,083 [INFO]  Epoch[1] Train-PhysActivity-accuracy=0.000000
+2024-04-01 13:20:08,083 [INFO]  Epoch[1] Time cost=72.516
+2024-04-01 13:20:08,084 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0001.params"
+2024-04-01 13:20:11,906 [INFO]  Epoch[1] Validation-cross-entropy=0.001064
+2024-04-01 13:20:11,906 [INFO]  Epoch[1] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 13:21:07,119 [INFO]  Epoch[2] Batch [0-5708]	Speed: 1654.68 samples/sec	cross-entropy=0.001804	PhysActivity-accuracy=0.000000
+2024-04-01 13:22:07,796 [INFO]  Epoch[2] Train-cross-entropy=0.001754
+2024-04-01 13:22:07,797 [INFO]  Epoch[2] Train-PhysActivity-accuracy=0.000000
+2024-04-01 13:22:07,797 [INFO]  Epoch[2] Time cost=115.891
+2024-04-01 13:22:07,799 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0002.params"
+2024-04-01 13:22:10,147 [INFO]  Epoch[2] Validation-cross-entropy=0.003390
+2024-04-01 13:22:10,147 [INFO]  Epoch[2] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 13:22:46,245 [INFO]  Epoch[3] Batch [0-5708]	Speed: 2530.11 samples/sec	cross-entropy=0.001216	PhysActivity-accuracy=0.000000
+2024-04-01 13:23:31,625 [INFO]  Epoch[3] Train-cross-entropy=0.001399
+2024-04-01 13:23:31,626 [INFO]  Epoch[3] Train-PhysActivity-accuracy=0.000000
+2024-04-01 13:23:31,626 [INFO]  Epoch[3] Time cost=81.479
+2024-04-01 13:23:31,628 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0003.params"
+2024-04-01 13:23:36,138 [INFO]  Epoch[3] Validation-cross-entropy=0.001334
+2024-04-01 13:23:36,138 [INFO]  Epoch[3] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 13:24:26,001 [INFO]  Epoch[4] Batch [0-5708]	Speed: 1831.63 samples/sec	cross-entropy=0.001055	PhysActivity-accuracy=0.000000
+2024-04-01 13:24:50,913 [INFO]  Epoch[4] Train-cross-entropy=0.001128
+2024-04-01 13:24:50,913 [INFO]  Epoch[4] Train-PhysActivity-accuracy=0.000000
+2024-04-01 13:24:50,913 [INFO]  Epoch[4] Time cost=74.775
+2024-04-01 13:24:50,916 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0004.params"
+2024-04-01 13:24:52,503 [INFO]  Epoch[4] Validation-cross-entropy=0.000630
+2024-04-01 13:24:52,504 [INFO]  Epoch[4] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 13:24:52,504 [INFO]  
+========== done (463.0509657859802 s) fit model
+2024-04-01 15:00:04,488 [INFO]  
+========== start: fit model
+2024-04-01 15:00:04,501 [WARNING]  Already bound, ignoring bind()
+2024-04-01 15:00:33,451 [INFO]  Epoch[0] Batch [0-5708]	Speed: 3200.23 samples/sec	cross-entropy=0.120583	PhysActivity-accuracy=0.000000
+2024-04-01 15:00:48,887 [INFO]  Epoch[0] Train-cross-entropy=0.064259
+2024-04-01 15:00:48,888 [INFO]  Epoch[0] Train-PhysActivity-accuracy=0.000000
+2024-04-01 15:00:48,888 [INFO]  Epoch[0] Time cost=44.386
+2024-04-01 15:00:48,889 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0000.params"
+2024-04-01 15:00:49,846 [INFO]  Epoch[0] Validation-cross-entropy=0.003453
+2024-04-01 15:00:49,846 [INFO]  Epoch[0] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 15:01:23,849 [INFO]  Epoch[1] Batch [0-5708]	Speed: 2686.01 samples/sec	cross-entropy=0.003784	PhysActivity-accuracy=0.000000
+2024-04-01 15:01:49,372 [INFO]  Epoch[1] Train-cross-entropy=0.003133
+2024-04-01 15:01:49,372 [INFO]  Epoch[1] Train-PhysActivity-accuracy=0.000000
+2024-04-01 15:01:49,372 [INFO]  Epoch[1] Time cost=59.526
+2024-04-01 15:01:49,374 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0001.params"
+2024-04-01 15:01:49,955 [INFO]  Epoch[1] Validation-cross-entropy=0.000203
+2024-04-01 15:01:49,956 [INFO]  Epoch[1] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 15:02:19,151 [INFO]  Epoch[2] Batch [0-5708]	Speed: 3128.38 samples/sec	cross-entropy=0.002190	PhysActivity-accuracy=0.000000
+2024-04-01 15:02:51,413 [INFO]  Epoch[2] Train-cross-entropy=0.001787
+2024-04-01 15:02:51,414 [INFO]  Epoch[2] Train-PhysActivity-accuracy=0.000000
+2024-04-01 15:02:51,414 [INFO]  Epoch[2] Time cost=61.458
+2024-04-01 15:02:51,416 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0002.params"
+2024-04-01 15:02:52,147 [INFO]  Epoch[2] Validation-cross-entropy=0.000548
+2024-04-01 15:02:52,147 [INFO]  Epoch[2] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 15:03:20,974 [INFO]  Epoch[3] Batch [0-5708]	Speed: 3168.25 samples/sec	cross-entropy=0.001095	PhysActivity-accuracy=0.000000
+2024-04-01 15:03:46,152 [INFO]  Epoch[3] Train-cross-entropy=0.001141
+2024-04-01 15:03:46,152 [INFO]  Epoch[3] Train-PhysActivity-accuracy=0.000000
+2024-04-01 15:03:46,153 [INFO]  Epoch[3] Time cost=54.006
+2024-04-01 15:03:46,154 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0003.params"
+2024-04-01 15:03:46,891 [INFO]  Epoch[3] Validation-cross-entropy=0.005627
+2024-04-01 15:03:46,891 [INFO]  Epoch[3] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 15:04:06,166 [INFO]  Epoch[4] Batch [0-5708]	Speed: 4738.59 samples/sec	cross-entropy=0.001137	PhysActivity-accuracy=0.000000
+2024-04-01 15:04:32,781 [INFO]  Epoch[4] Train-cross-entropy=0.001104
+2024-04-01 15:04:32,781 [INFO]  Epoch[4] Train-PhysActivity-accuracy=0.000000
+2024-04-01 15:04:32,781 [INFO]  Epoch[4] Time cost=45.890
+2024-04-01 15:04:32,786 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0004.params"
+2024-04-01 15:04:36,022 [INFO]  Epoch[4] Validation-cross-entropy=0.000000
+2024-04-01 15:04:36,022 [INFO]  Epoch[4] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 15:04:36,022 [INFO]  
+========== done (271.53402876853943 s) fit model
+2024-04-01 16:40:59,782 [INFO]  
+========== start: fit model
+2024-04-01 16:40:59,787 [WARNING]  Already bound, ignoring bind()
+2024-04-01 16:41:14,373 [INFO]  Epoch[0] Batch [0-5708]	Speed: 6262.64 samples/sec	cross-entropy=0.101009	PhysActivity-accuracy=3.186898
+2024-04-01 16:41:31,233 [INFO]  Epoch[0] Train-cross-entropy=0.054690
+2024-04-01 16:41:31,233 [INFO]  Epoch[0] Train-PhysActivity-accuracy=3.178872
+2024-04-01 16:41:31,233 [INFO]  Epoch[0] Time cost=31.445
+2024-04-01 16:41:31,235 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0000.params"
+2024-04-01 16:41:32,087 [INFO]  Epoch[0] Validation-cross-entropy=0.031986
+2024-04-01 16:41:32,087 [INFO]  Epoch[0] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 16:41:47,577 [INFO]  Epoch[1] Batch [0-5708]	Speed: 5896.53 samples/sec	cross-entropy=0.005503	PhysActivity-accuracy=3.186898
+2024-04-01 16:42:05,860 [INFO]  Epoch[1] Train-cross-entropy=0.004264
+2024-04-01 16:42:05,860 [INFO]  Epoch[1] Train-PhysActivity-accuracy=3.178872
+2024-04-01 16:42:05,860 [INFO]  Epoch[1] Time cost=33.773
+2024-04-01 16:42:05,862 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0001.params"
+2024-04-01 16:42:06,841 [INFO]  Epoch[1] Validation-cross-entropy=0.000413
+2024-04-01 16:42:06,841 [INFO]  Epoch[1] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 16:42:26,820 [INFO]  Epoch[2] Batch [0-5708]	Speed: 4571.72 samples/sec	cross-entropy=0.002590	PhysActivity-accuracy=3.186898
+2024-04-01 16:42:45,723 [INFO]  Epoch[2] Train-cross-entropy=0.002321
+2024-04-01 16:42:45,724 [INFO]  Epoch[2] Train-PhysActivity-accuracy=3.178872
+2024-04-01 16:42:45,724 [INFO]  Epoch[2] Time cost=38.883
+2024-04-01 16:42:45,726 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0002.params"
+2024-04-01 16:42:46,275 [INFO]  Epoch[2] Validation-cross-entropy=0.000022
+2024-04-01 16:42:46,275 [INFO]  Epoch[2] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 16:43:09,685 [INFO]  Epoch[3] Batch [0-5708]	Speed: 3901.47 samples/sec	cross-entropy=0.001538	PhysActivity-accuracy=3.186898
+2024-04-01 16:43:30,427 [INFO]  Epoch[3] Train-cross-entropy=0.001590
+2024-04-01 16:43:30,427 [INFO]  Epoch[3] Train-PhysActivity-accuracy=3.178872
+2024-04-01 16:43:30,427 [INFO]  Epoch[3] Time cost=44.152
+2024-04-01 16:43:30,430 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0003.params"
+2024-04-01 16:43:31,780 [INFO]  Epoch[3] Validation-cross-entropy=0.000000
+2024-04-01 16:43:31,780 [INFO]  Epoch[3] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 16:43:52,579 [INFO]  Epoch[4] Batch [0-5708]	Speed: 4391.22 samples/sec	cross-entropy=0.001251	PhysActivity-accuracy=3.186898
+2024-04-01 16:44:16,891 [INFO]  Epoch[4] Train-cross-entropy=0.001120
+2024-04-01 16:44:16,891 [INFO]  Epoch[4] Train-PhysActivity-accuracy=3.178872
+2024-04-01 16:44:16,891 [INFO]  Epoch[4] Time cost=45.111
+2024-04-01 16:44:16,893 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0004.params"
+2024-04-01 16:44:17,611 [INFO]  Epoch[4] Validation-cross-entropy=0.000214
+2024-04-01 16:44:17,611 [INFO]  Epoch[4] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 16:44:17,611 [INFO]  
+========== done (197.82958340644836 s) fit model
+2024-04-01 18:26:48,379 [INFO]  
+========== start: fit model
+2024-04-01 18:26:48,399 [WARNING]  Already bound, ignoring bind()
+2024-04-01 18:27:05,410 [INFO]  Epoch[0] Batch [0-5708]	Speed: 5378.69 samples/sec	cross-entropy=0.083116	PhysActivity-accuracy=0.000000
+2024-04-01 18:27:26,631 [INFO]  Epoch[0] Train-cross-entropy=0.045572
+2024-04-01 18:27:26,631 [INFO]  Epoch[0] Train-PhysActivity-accuracy=0.000000
+2024-04-01 18:27:26,631 [INFO]  Epoch[0] Time cost=38.231
+2024-04-01 18:27:26,634 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0000.params"
+2024-04-01 18:27:28,092 [INFO]  Epoch[0] Validation-cross-entropy=0.000238
+2024-04-01 18:27:28,093 [INFO]  Epoch[0] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 18:27:49,080 [INFO]  Epoch[1] Batch [0-5708]	Speed: 4352.72 samples/sec	cross-entropy=0.003829	PhysActivity-accuracy=0.000000
+2024-04-01 18:28:13,655 [INFO]  Epoch[1] Train-cross-entropy=0.003143
+2024-04-01 18:28:13,655 [INFO]  Epoch[1] Train-PhysActivity-accuracy=0.000000
+2024-04-01 18:28:13,655 [INFO]  Epoch[1] Time cost=45.562
+2024-04-01 18:28:13,658 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0001.params"
+2024-04-01 18:28:16,911 [INFO]  Epoch[1] Validation-cross-entropy=0.001702
+2024-04-01 18:28:16,911 [INFO]  Epoch[1] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 18:28:39,424 [INFO]  Epoch[2] Batch [0-5708]	Speed: 4057.44 samples/sec	cross-entropy=0.001731	PhysActivity-accuracy=0.000000
+2024-04-01 18:29:03,397 [INFO]  Epoch[2] Train-cross-entropy=0.001640
+2024-04-01 18:29:03,398 [INFO]  Epoch[2] Train-PhysActivity-accuracy=0.000000
+2024-04-01 18:29:03,398 [INFO]  Epoch[2] Time cost=46.486
+2024-04-01 18:29:03,399 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0002.params"
+2024-04-01 18:29:04,810 [INFO]  Epoch[2] Validation-cross-entropy=0.000807
+2024-04-01 18:29:04,810 [INFO]  Epoch[2] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 18:29:26,156 [INFO]  Epoch[3] Batch [0-5708]	Speed: 4278.85 samples/sec	cross-entropy=0.001396	PhysActivity-accuracy=0.000000
+2024-04-01 18:29:47,296 [INFO]  Epoch[3] Train-cross-entropy=0.001206
+2024-04-01 18:29:47,296 [INFO]  Epoch[3] Train-PhysActivity-accuracy=0.000000
+2024-04-01 18:29:47,296 [INFO]  Epoch[3] Time cost=42.485
+2024-04-01 18:29:47,298 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0003.params"
+2024-04-01 18:29:48,211 [INFO]  Epoch[3] Validation-cross-entropy=0.000000
+2024-04-01 18:29:48,211 [INFO]  Epoch[3] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 18:30:04,301 [INFO]  Epoch[4] Batch [0-5708]	Speed: 5676.84 samples/sec	cross-entropy=0.001172	PhysActivity-accuracy=0.000000
+2024-04-01 18:30:27,279 [INFO]  Epoch[4] Train-cross-entropy=0.001104
+2024-04-01 18:30:27,279 [INFO]  Epoch[4] Train-PhysActivity-accuracy=0.000000
+2024-04-01 18:30:27,279 [INFO]  Epoch[4] Time cost=39.067
+2024-04-01 18:30:27,280 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0004.params"
+2024-04-01 18:30:27,936 [INFO]  Epoch[4] Validation-cross-entropy=0.000366
+2024-04-01 18:30:27,936 [INFO]  Epoch[4] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 18:30:27,936 [INFO]  
+========== done (219.55786299705505 s) fit model
+2024-04-01 20:59:24,273 [INFO]  
+========== start: fit model
+2024-04-01 20:59:24,289 [WARNING]  Already bound, ignoring bind()
+2024-04-01 20:59:27,650 [INFO]  Epoch[0] Batch [0-5708]	Speed: 27261.81 samples/sec	cross-entropy=0.103104	PhysActivity-accuracy=3.180592
+2024-04-01 20:59:31,302 [INFO]  Epoch[0] Train-cross-entropy=0.056202
+2024-04-01 20:59:31,302 [INFO]  Epoch[0] Train-PhysActivity-accuracy=3.200683
+2024-04-01 20:59:31,302 [INFO]  Epoch[0] Time cost=7.013
+2024-04-01 20:59:31,304 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0000.params"
+2024-04-01 20:59:31,538 [INFO]  Epoch[0] Validation-cross-entropy=0.002076
+2024-04-01 20:59:31,538 [INFO]  Epoch[0] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 20:59:36,296 [INFO]  Epoch[1] Batch [0-5708]	Speed: 19199.32 samples/sec	cross-entropy=0.004698	PhysActivity-accuracy=3.180592
+2024-04-01 20:59:39,923 [INFO]  Epoch[1] Train-cross-entropy=0.004184
+2024-04-01 20:59:39,924 [INFO]  Epoch[1] Train-PhysActivity-accuracy=3.200683
+2024-04-01 20:59:39,924 [INFO]  Epoch[1] Time cost=8.386
+2024-04-01 20:59:39,925 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0001.params"
+2024-04-01 20:59:40,175 [INFO]  Epoch[1] Validation-cross-entropy=0.000065
+2024-04-01 20:59:40,175 [INFO]  Epoch[1] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 20:59:43,818 [INFO]  Epoch[2] Batch [0-5708]	Speed: 25079.07 samples/sec	cross-entropy=0.002099	PhysActivity-accuracy=3.180592
+2024-04-01 20:59:48,500 [INFO]  Epoch[2] Train-cross-entropy=0.001904
+2024-04-01 20:59:48,500 [INFO]  Epoch[2] Train-PhysActivity-accuracy=3.200683
+2024-04-01 20:59:48,500 [INFO]  Epoch[2] Time cost=8.325
+2024-04-01 20:59:48,502 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0002.params"
+2024-04-01 20:59:48,749 [INFO]  Epoch[2] Validation-cross-entropy=0.000121
+2024-04-01 20:59:48,749 [INFO]  Epoch[2] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 20:59:52,359 [INFO]  Epoch[3] Batch [0-5708]	Speed: 25306.75 samples/sec	cross-entropy=0.001337	PhysActivity-accuracy=3.180592
+2024-04-01 20:59:55,988 [INFO]  Epoch[3] Train-cross-entropy=0.001344
+2024-04-01 20:59:55,988 [INFO]  Epoch[3] Train-PhysActivity-accuracy=3.200683
+2024-04-01 20:59:55,989 [INFO]  Epoch[3] Time cost=7.240
+2024-04-01 20:59:55,990 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0003.params"
+2024-04-01 20:59:56,226 [INFO]  Epoch[3] Validation-cross-entropy=0.000000
+2024-04-01 20:59:56,227 [INFO]  Epoch[3] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 21:00:00,738 [INFO]  Epoch[4] Batch [0-5708]	Speed: 20248.75 samples/sec	cross-entropy=0.001068	PhysActivity-accuracy=3.180592
+2024-04-01 21:00:04,515 [INFO]  Epoch[4] Train-cross-entropy=0.000985
+2024-04-01 21:00:04,515 [INFO]  Epoch[4] Train-PhysActivity-accuracy=3.200683
+2024-04-01 21:00:04,515 [INFO]  Epoch[4] Time cost=8.288
+2024-04-01 21:00:04,517 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0004.params"
+2024-04-01 21:00:04,763 [INFO]  Epoch[4] Validation-cross-entropy=0.000027
+2024-04-01 21:00:04,763 [INFO]  Epoch[4] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 21:00:04,763 [INFO]  
+========== done (40.48970913887024 s) fit model
+2024-04-01 21:27:57,822 [INFO]  
+========== start: fit model
+2024-04-01 21:27:57,822 [WARNING]  Already bound, ignoring bind()
+2024-04-01 21:28:01,761 [INFO]  Epoch[0] Batch [0-5708]	Speed: 23242.55 samples/sec	cross-entropy=0.121906	PhysActivity-accuracy=3.185321
+2024-04-01 21:28:06,395 [INFO]  Epoch[0] Train-cross-entropy=0.065834
+2024-04-01 21:28:06,395 [INFO]  Epoch[0] Train-PhysActivity-accuracy=3.183252
+2024-04-01 21:28:06,395 [INFO]  Epoch[0] Time cost=8.572
+2024-04-01 21:28:06,396 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0000.params"
+2024-04-01 21:28:06,643 [INFO]  Epoch[0] Validation-cross-entropy=0.000611
+2024-04-01 21:28:06,643 [INFO]  Epoch[0] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 21:28:10,045 [INFO]  Epoch[1] Batch [0-5708]	Speed: 26856.30 samples/sec	cross-entropy=0.004906	PhysActivity-accuracy=3.185321
+2024-04-01 21:28:13,659 [INFO]  Epoch[1] Train-cross-entropy=0.004507
+2024-04-01 21:28:13,659 [INFO]  Epoch[1] Train-PhysActivity-accuracy=3.183252
+2024-04-01 21:28:13,659 [INFO]  Epoch[1] Time cost=7.016
+2024-04-01 21:28:13,661 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0001.params"
+2024-04-01 21:28:13,909 [INFO]  Epoch[1] Validation-cross-entropy=0.000757
+2024-04-01 21:28:13,910 [INFO]  Epoch[1] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 21:28:17,726 [INFO]  Epoch[2] Batch [0-5708]	Speed: 23938.82 samples/sec	cross-entropy=0.002490	PhysActivity-accuracy=3.185321
+2024-04-01 21:28:22,810 [INFO]  Epoch[2] Train-cross-entropy=0.002187
+2024-04-01 21:28:22,810 [INFO]  Epoch[2] Train-PhysActivity-accuracy=3.183252
+2024-04-01 21:28:22,810 [INFO]  Epoch[2] Time cost=8.900
+2024-04-01 21:28:22,812 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0002.params"
+2024-04-01 21:28:23,085 [INFO]  Epoch[2] Validation-cross-entropy=0.000664
+2024-04-01 21:28:23,085 [INFO]  Epoch[2] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 21:28:26,705 [INFO]  Epoch[3] Batch [0-5708]	Speed: 25239.40 samples/sec	cross-entropy=0.001242	PhysActivity-accuracy=3.185321
+2024-04-01 21:28:30,301 [INFO]  Epoch[3] Train-cross-entropy=0.001234
+2024-04-01 21:28:30,301 [INFO]  Epoch[3] Train-PhysActivity-accuracy=3.183252
+2024-04-01 21:28:30,301 [INFO]  Epoch[3] Time cost=7.216
+2024-04-01 21:28:30,303 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0003.params"
+2024-04-01 21:28:30,538 [INFO]  Epoch[3] Validation-cross-entropy=0.000009
+2024-04-01 21:28:30,538 [INFO]  Epoch[3] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 21:28:35,220 [INFO]  Epoch[4] Batch [0-5708]	Speed: 19509.76 samples/sec	cross-entropy=0.000860	PhysActivity-accuracy=3.185321
+2024-04-01 21:28:38,813 [INFO]  Epoch[4] Train-cross-entropy=0.000850
+2024-04-01 21:28:38,813 [INFO]  Epoch[4] Train-PhysActivity-accuracy=3.183252
+2024-04-01 21:28:38,813 [INFO]  Epoch[4] Time cost=8.275
+2024-04-01 21:28:38,815 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0004.params"
+2024-04-01 21:28:39,051 [INFO]  Epoch[4] Validation-cross-entropy=0.000040
+2024-04-01 21:28:39,052 [INFO]  Epoch[4] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 21:28:39,052 [INFO]  
+========== done (41.230082750320435 s) fit model
+2024-04-01 22:14:09,421 [INFO]  
+========== start: fit model
+2024-04-01 22:14:09,447 [WARNING]  Already bound, ignoring bind()
+2024-04-01 22:14:29,342 [INFO]  Epoch[0] Batch [0-5708]	Speed: 4633.40 samples/sec	cross-entropy=0.097229	PhysActivity-accuracy=3.181468
+2024-04-01 22:14:43,956 [INFO]  Epoch[0] Train-cross-entropy=0.052779
+2024-04-01 22:14:43,956 [INFO]  Epoch[0] Train-PhysActivity-accuracy=3.188069
+2024-04-01 22:14:43,957 [INFO]  Epoch[0] Time cost=34.508
+2024-04-01 22:14:43,959 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0000.params"
+2024-04-01 22:14:44,386 [INFO]  Epoch[0] Validation-cross-entropy=0.006667
+2024-04-01 22:14:44,386 [INFO]  Epoch[0] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 22:15:06,945 [INFO]  Epoch[1] Batch [0-5708]	Speed: 4048.57 samples/sec	cross-entropy=0.004510	PhysActivity-accuracy=3.181468
+2024-04-01 22:15:26,034 [INFO]  Epoch[1] Train-cross-entropy=0.004120
+2024-04-01 22:15:26,034 [INFO]  Epoch[1] Train-PhysActivity-accuracy=3.188069
+2024-04-01 22:15:26,035 [INFO]  Epoch[1] Time cost=41.649
+2024-04-01 22:15:26,036 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0001.params"
+2024-04-01 22:15:27,632 [INFO]  Epoch[1] Validation-cross-entropy=0.001932
+2024-04-01 22:15:27,633 [INFO]  Epoch[1] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 22:15:46,250 [INFO]  Epoch[2] Batch [0-5708]	Speed: 4905.97 samples/sec	cross-entropy=0.002176	PhysActivity-accuracy=3.181468
+2024-04-01 22:16:00,435 [INFO]  Epoch[2] Train-cross-entropy=0.002118
+2024-04-01 22:16:00,436 [INFO]  Epoch[2] Train-PhysActivity-accuracy=3.188069
+2024-04-01 22:16:00,436 [INFO]  Epoch[2] Time cost=32.803
+2024-04-01 22:16:00,438 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0002.params"
+2024-04-01 22:16:01,477 [INFO]  Epoch[2] Validation-cross-entropy=0.001115
+2024-04-01 22:16:01,478 [INFO]  Epoch[2] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 22:16:24,411 [INFO]  Epoch[3] Batch [0-5708]	Speed: 3982.63 samples/sec	cross-entropy=0.001117	PhysActivity-accuracy=3.181468
+2024-04-01 22:16:42,972 [INFO]  Epoch[3] Train-cross-entropy=0.001063
+2024-04-01 22:16:42,972 [INFO]  Epoch[3] Train-PhysActivity-accuracy=3.188069
+2024-04-01 22:16:42,972 [INFO]  Epoch[3] Time cost=41.495
+2024-04-01 22:16:42,974 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0003.params"
+2024-04-01 22:16:44,610 [INFO]  Epoch[3] Validation-cross-entropy=0.000975
+2024-04-01 22:16:44,611 [INFO]  Epoch[3] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 22:17:01,867 [INFO]  Epoch[4] Batch [0-5708]	Speed: 5293.07 samples/sec	cross-entropy=0.000942	PhysActivity-accuracy=3.181468
+2024-04-01 22:17:17,057 [INFO]  Epoch[4] Train-cross-entropy=0.000910
+2024-04-01 22:17:17,058 [INFO]  Epoch[4] Train-PhysActivity-accuracy=3.188069
+2024-04-01 22:17:17,058 [INFO]  Epoch[4] Time cost=32.447
+2024-04-01 22:17:17,060 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0004.params"
+2024-04-01 22:17:18,359 [INFO]  Epoch[4] Validation-cross-entropy=0.004718
+2024-04-01 22:17:18,359 [INFO]  Epoch[4] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 22:17:18,360 [INFO]  
+========== done (188.93855381011963 s) fit model
+2024-04-01 23:41:09,942 [INFO]  
+========== start: fit model
+2024-04-01 23:41:09,942 [WARNING]  Already bound, ignoring bind()
+2024-04-01 23:41:33,168 [INFO]  Epoch[0] Batch [0-5708]	Speed: 3959.25 samples/sec	cross-entropy=0.092518	PhysActivity-accuracy=3.195656
+2024-04-01 23:41:49,988 [INFO]  Epoch[0] Train-cross-entropy=0.050709
+2024-04-01 23:41:49,989 [INFO]  Epoch[0] Train-PhysActivity-accuracy=3.183514
+2024-04-01 23:41:49,989 [INFO]  Epoch[0] Time cost=40.042
+2024-04-01 23:41:49,991 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0000.params"
+2024-04-01 23:41:50,688 [INFO]  Epoch[0] Validation-cross-entropy=0.005575
+2024-04-01 23:41:50,688 [INFO]  Epoch[0] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 23:42:09,804 [INFO]  Epoch[1] Batch [0-5708]	Speed: 4777.78 samples/sec	cross-entropy=0.005718	PhysActivity-accuracy=3.195656
+2024-04-01 23:42:38,072 [INFO]  Epoch[1] Train-cross-entropy=0.005067
+2024-04-01 23:42:38,073 [INFO]  Epoch[1] Train-PhysActivity-accuracy=3.183514
+2024-04-01 23:42:38,073 [INFO]  Epoch[1] Time cost=47.385
+2024-04-01 23:42:38,075 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0001.params"
+2024-04-01 23:42:39,459 [INFO]  Epoch[1] Validation-cross-entropy=0.001199
+2024-04-01 23:42:39,459 [INFO]  Epoch[1] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 23:42:49,375 [INFO]  Epoch[2] Batch [0-5708]	Speed: 9211.49 samples/sec	cross-entropy=0.002903	PhysActivity-accuracy=3.195656
+2024-04-01 23:43:09,335 [INFO]  Epoch[2] Train-cross-entropy=0.002449
+2024-04-01 23:43:09,336 [INFO]  Epoch[2] Train-PhysActivity-accuracy=3.183514
+2024-04-01 23:43:09,336 [INFO]  Epoch[2] Time cost=29.877
+2024-04-01 23:43:09,338 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0002.params"
+2024-04-01 23:43:13,553 [INFO]  Epoch[2] Validation-cross-entropy=0.000622
+2024-04-01 23:43:13,553 [INFO]  Epoch[2] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 23:43:32,206 [INFO]  Epoch[3] Batch [0-5708]	Speed: 4896.46 samples/sec	cross-entropy=0.001648	PhysActivity-accuracy=3.195656
+2024-04-01 23:43:49,954 [INFO]  Epoch[3] Train-cross-entropy=0.001454
+2024-04-01 23:43:49,955 [INFO]  Epoch[3] Train-PhysActivity-accuracy=3.183514
+2024-04-01 23:43:49,955 [INFO]  Epoch[3] Time cost=36.402
+2024-04-01 23:43:49,958 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0003.params"
+2024-04-01 23:43:50,570 [INFO]  Epoch[3] Validation-cross-entropy=0.001368
+2024-04-01 23:43:50,570 [INFO]  Epoch[3] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 23:44:07,966 [INFO]  Epoch[4] Batch [0-5708]	Speed: 5250.39 samples/sec	cross-entropy=0.001525	PhysActivity-accuracy=3.195656
+2024-04-01 23:44:28,919 [INFO]  Epoch[4] Train-cross-entropy=0.001204
+2024-04-01 23:44:28,919 [INFO]  Epoch[4] Train-PhysActivity-accuracy=3.183514
+2024-04-01 23:44:28,919 [INFO]  Epoch[4] Time cost=38.349
+2024-04-01 23:44:28,921 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0004.params"
+2024-04-01 23:44:29,279 [INFO]  Epoch[4] Validation-cross-entropy=0.000354
+2024-04-01 23:44:29,279 [INFO]  Epoch[4] Validation-PhysActivity-accuracy=0.000000
+2024-04-01 23:44:29,279 [INFO]  
+========== done (199.3372938632965 s) fit model
+2024-04-02 01:06:52,394 [INFO]  
+========== start: fit model
+2024-04-02 01:06:52,395 [WARNING]  Already bound, ignoring bind()
+2024-04-02 01:07:05,899 [INFO]  Epoch[0] Batch [0-5708]	Speed: 6794.03 samples/sec	cross-entropy=0.092656	PhysActivity-accuracy=3.187423
+2024-04-02 01:07:16,262 [INFO]  Epoch[0] Train-cross-entropy=0.049655
+2024-04-02 01:07:16,263 [INFO]  Epoch[0] Train-PhysActivity-accuracy=3.180011
+2024-04-02 01:07:16,263 [INFO]  Epoch[0] Time cost=23.867
+2024-04-02 01:07:16,264 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0000.params"
+2024-04-02 01:07:16,597 [INFO]  Epoch[0] Validation-cross-entropy=0.000259
+2024-04-02 01:07:16,597 [INFO]  Epoch[0] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 01:07:25,898 [INFO]  Epoch[1] Batch [0-5708]	Speed: 9820.40 samples/sec	cross-entropy=0.003127	PhysActivity-accuracy=3.187423
+2024-04-02 01:07:38,595 [INFO]  Epoch[1] Train-cross-entropy=0.002781
+2024-04-02 01:07:38,595 [INFO]  Epoch[1] Train-PhysActivity-accuracy=3.180011
+2024-04-02 01:07:38,595 [INFO]  Epoch[1] Time cost=21.998
+2024-04-02 01:07:38,598 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0001.params"
+2024-04-02 01:07:39,085 [INFO]  Epoch[1] Validation-cross-entropy=0.000034
+2024-04-02 01:07:39,086 [INFO]  Epoch[1] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 01:07:51,214 [INFO]  Epoch[2] Batch [0-5708]	Speed: 7530.35 samples/sec	cross-entropy=0.001649	PhysActivity-accuracy=3.187423
+2024-04-02 01:08:01,644 [INFO]  Epoch[2] Train-cross-entropy=0.001683
+2024-04-02 01:08:01,645 [INFO]  Epoch[2] Train-PhysActivity-accuracy=3.180011
+2024-04-02 01:08:01,645 [INFO]  Epoch[2] Time cost=22.559
+2024-04-02 01:08:01,647 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0002.params"
+2024-04-02 01:08:02,959 [INFO]  Epoch[2] Validation-cross-entropy=0.000022
+2024-04-02 01:08:02,959 [INFO]  Epoch[2] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 01:08:14,824 [INFO]  Epoch[3] Batch [0-5708]	Speed: 7700.98 samples/sec	cross-entropy=0.001283	PhysActivity-accuracy=3.187423
+2024-04-02 01:08:23,965 [INFO]  Epoch[3] Train-cross-entropy=0.001300
+2024-04-02 01:08:23,965 [INFO]  Epoch[3] Train-PhysActivity-accuracy=3.180011
+2024-04-02 01:08:23,965 [INFO]  Epoch[3] Time cost=21.006
+2024-04-02 01:08:23,967 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0003.params"
+2024-04-02 01:08:24,567 [INFO]  Epoch[3] Validation-cross-entropy=0.000048
+2024-04-02 01:08:24,567 [INFO]  Epoch[3] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 01:08:34,961 [INFO]  Epoch[4] Batch [0-5708]	Speed: 8788.10 samples/sec	cross-entropy=0.000826	PhysActivity-accuracy=3.187423
+2024-04-02 01:08:45,085 [INFO]  Epoch[4] Train-cross-entropy=0.000766
+2024-04-02 01:08:45,085 [INFO]  Epoch[4] Train-PhysActivity-accuracy=3.180011
+2024-04-02 01:08:45,085 [INFO]  Epoch[4] Time cost=20.518
+2024-04-02 01:08:45,087 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0004.params"
+2024-04-02 01:08:45,627 [INFO]  Epoch[4] Validation-cross-entropy=0.000026
+2024-04-02 01:08:45,627 [INFO]  Epoch[4] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 01:08:45,627 [INFO]  
+========== done (113.2330105304718 s) fit model
+2024-04-02 02:26:41,392 [INFO]  
+========== start: fit model
+2024-04-02 02:26:41,392 [WARNING]  Already bound, ignoring bind()
+2024-04-02 02:27:02,742 [INFO]  Epoch[0] Batch [0-5708]	Speed: 4279.75 samples/sec	cross-entropy=0.101833	PhysActivity-accuracy=0.000000
+2024-04-02 02:27:35,081 [INFO]  Epoch[0] Train-cross-entropy=0.055749
+2024-04-02 02:27:35,082 [INFO]  Epoch[0] Train-PhysActivity-accuracy=0.000000
+2024-04-02 02:27:35,082 [INFO]  Epoch[0] Time cost=53.689
+2024-04-02 02:27:35,083 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0000.params"
+2024-04-02 02:27:36,584 [INFO]  Epoch[0] Validation-cross-entropy=0.006428
+2024-04-02 02:27:36,584 [INFO]  Epoch[0] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 02:28:08,244 [INFO]  Epoch[1] Batch [0-5708]	Speed: 2884.83 samples/sec	cross-entropy=0.002898	PhysActivity-accuracy=0.000000
+2024-04-02 02:28:29,101 [INFO]  Epoch[1] Train-cross-entropy=0.002796
+2024-04-02 02:28:29,101 [INFO]  Epoch[1] Train-PhysActivity-accuracy=0.000000
+2024-04-02 02:28:29,101 [INFO]  Epoch[1] Time cost=52.516
+2024-04-02 02:28:29,102 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0001.params"
+2024-04-02 02:28:31,819 [INFO]  Epoch[1] Validation-cross-entropy=0.001064
+2024-04-02 02:28:31,820 [INFO]  Epoch[1] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 02:29:02,438 [INFO]  Epoch[2] Batch [0-5708]	Speed: 2983.24 samples/sec	cross-entropy=0.001804	PhysActivity-accuracy=0.000000
+2024-04-02 02:29:36,482 [INFO]  Epoch[2] Train-cross-entropy=0.001754
+2024-04-02 02:29:36,483 [INFO]  Epoch[2] Train-PhysActivity-accuracy=0.000000
+2024-04-02 02:29:36,483 [INFO]  Epoch[2] Time cost=64.663
+2024-04-02 02:29:36,486 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0002.params"
+2024-04-02 02:29:39,129 [INFO]  Epoch[2] Validation-cross-entropy=0.003390
+2024-04-02 02:29:39,129 [INFO]  Epoch[2] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 02:30:07,368 [INFO]  Epoch[3] Batch [0-5708]	Speed: 3234.24 samples/sec	cross-entropy=0.001216	PhysActivity-accuracy=0.000000
+2024-04-02 02:30:26,233 [INFO]  Epoch[3] Train-cross-entropy=0.001399
+2024-04-02 02:30:26,233 [INFO]  Epoch[3] Train-PhysActivity-accuracy=0.000000
+2024-04-02 02:30:26,233 [INFO]  Epoch[3] Time cost=47.104
+2024-04-02 02:30:26,235 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0003.params"
+2024-04-02 02:30:29,619 [INFO]  Epoch[3] Validation-cross-entropy=0.001334
+2024-04-02 02:30:29,619 [INFO]  Epoch[3] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 02:31:06,151 [INFO]  Epoch[4] Batch [0-5708]	Speed: 2500.94 samples/sec	cross-entropy=0.001055	PhysActivity-accuracy=0.000000
+2024-04-02 02:31:37,867 [INFO]  Epoch[4] Train-cross-entropy=0.001128
+2024-04-02 02:31:37,867 [INFO]  Epoch[4] Train-PhysActivity-accuracy=0.000000
+2024-04-02 02:31:37,867 [INFO]  Epoch[4] Time cost=68.248
+2024-04-02 02:31:37,870 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0004.params"
+2024-04-02 02:31:39,073 [INFO]  Epoch[4] Validation-cross-entropy=0.000630
+2024-04-02 02:31:39,073 [INFO]  Epoch[4] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 02:31:39,073 [INFO]  
+========== done (297.68178129196167 s) fit model
+2024-04-02 03:52:59,991 [INFO]  
+========== start: fit model
+2024-04-02 03:52:59,991 [WARNING]  Already bound, ignoring bind()
+2024-04-02 03:53:19,081 [INFO]  Epoch[0] Batch [0-5708]	Speed: 4888.47 samples/sec	cross-entropy=0.120583	PhysActivity-accuracy=0.000000
+2024-04-02 03:53:34,702 [INFO]  Epoch[0] Train-cross-entropy=0.064259
+2024-04-02 03:53:34,702 [INFO]  Epoch[0] Train-PhysActivity-accuracy=0.000000
+2024-04-02 03:53:34,702 [INFO]  Epoch[0] Time cost=34.710
+2024-04-02 03:53:34,704 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0000.params"
+2024-04-02 03:53:35,124 [INFO]  Epoch[0] Validation-cross-entropy=0.003453
+2024-04-02 03:53:35,124 [INFO]  Epoch[0] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 03:53:50,011 [INFO]  Epoch[1] Batch [0-5708]	Speed: 6135.27 samples/sec	cross-entropy=0.003784	PhysActivity-accuracy=0.000000
+2024-04-02 03:54:07,781 [INFO]  Epoch[1] Train-cross-entropy=0.003133
+2024-04-02 03:54:07,781 [INFO]  Epoch[1] Train-PhysActivity-accuracy=0.000000
+2024-04-02 03:54:07,781 [INFO]  Epoch[1] Time cost=32.657
+2024-04-02 03:54:07,783 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0001.params"
+2024-04-02 03:54:08,190 [INFO]  Epoch[1] Validation-cross-entropy=0.000203
+2024-04-02 03:54:08,190 [INFO]  Epoch[1] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 03:54:28,842 [INFO]  Epoch[2] Batch [0-5708]	Speed: 4422.54 samples/sec	cross-entropy=0.002190	PhysActivity-accuracy=0.000000
+2024-04-02 03:54:45,144 [INFO]  Epoch[2] Train-cross-entropy=0.001787
+2024-04-02 03:54:45,144 [INFO]  Epoch[2] Train-PhysActivity-accuracy=0.000000
+2024-04-02 03:54:45,144 [INFO]  Epoch[2] Time cost=36.954
+2024-04-02 03:54:45,146 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0002.params"
+2024-04-02 03:54:46,860 [INFO]  Epoch[2] Validation-cross-entropy=0.000548
+2024-04-02 03:54:46,861 [INFO]  Epoch[2] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 03:55:04,562 [INFO]  Epoch[3] Batch [0-5708]	Speed: 5160.00 samples/sec	cross-entropy=0.001095	PhysActivity-accuracy=0.000000
+2024-04-02 03:55:24,872 [INFO]  Epoch[3] Train-cross-entropy=0.001141
+2024-04-02 03:55:24,872 [INFO]  Epoch[3] Train-PhysActivity-accuracy=0.000000
+2024-04-02 03:55:24,872 [INFO]  Epoch[3] Time cost=38.011
+2024-04-02 03:55:24,874 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0003.params"
+2024-04-02 03:55:27,880 [INFO]  Epoch[3] Validation-cross-entropy=0.005627
+2024-04-02 03:55:27,880 [INFO]  Epoch[3] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 03:55:46,533 [INFO]  Epoch[4] Batch [0-5708]	Speed: 4896.67 samples/sec	cross-entropy=0.001137	PhysActivity-accuracy=0.000000
+2024-04-02 03:55:58,867 [INFO]  Epoch[4] Train-cross-entropy=0.001104
+2024-04-02 03:55:58,867 [INFO]  Epoch[4] Train-PhysActivity-accuracy=0.000000
+2024-04-02 03:55:58,867 [INFO]  Epoch[4] Time cost=30.987
+2024-04-02 03:55:58,870 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0004.params"
+2024-04-02 03:55:59,174 [INFO]  Epoch[4] Validation-cross-entropy=0.000000
+2024-04-02 03:55:59,174 [INFO]  Epoch[4] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 03:55:59,174 [INFO]  
+========== done (179.1835069656372 s) fit model
+2024-04-02 05:09:35,086 [INFO]  
+========== start: fit model
+2024-04-02 05:09:35,086 [WARNING]  Already bound, ignoring bind()
+2024-04-02 05:09:53,001 [INFO]  Epoch[0] Batch [0-5708]	Speed: 5099.61 samples/sec	cross-entropy=0.101009	PhysActivity-accuracy=3.186898
+2024-04-02 05:10:08,165 [INFO]  Epoch[0] Train-cross-entropy=0.054690
+2024-04-02 05:10:08,166 [INFO]  Epoch[0] Train-PhysActivity-accuracy=3.178872
+2024-04-02 05:10:08,166 [INFO]  Epoch[0] Time cost=33.079
+2024-04-02 05:10:08,168 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0000.params"
+2024-04-02 05:10:12,055 [INFO]  Epoch[0] Validation-cross-entropy=0.031986
+2024-04-02 05:10:12,055 [INFO]  Epoch[0] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 05:10:29,599 [INFO]  Epoch[1] Batch [0-5708]	Speed: 5300.11 samples/sec	cross-entropy=0.005503	PhysActivity-accuracy=3.186898
+2024-04-02 05:10:48,093 [INFO]  Epoch[1] Train-cross-entropy=0.004264
+2024-04-02 05:10:48,093 [INFO]  Epoch[1] Train-PhysActivity-accuracy=3.178872
+2024-04-02 05:10:48,093 [INFO]  Epoch[1] Time cost=36.038
+2024-04-02 05:10:48,096 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0001.params"
+2024-04-02 05:10:48,825 [INFO]  Epoch[1] Validation-cross-entropy=0.000413
+2024-04-02 05:10:48,825 [INFO]  Epoch[1] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 05:11:07,018 [INFO]  Epoch[2] Batch [0-5708]	Speed: 5020.24 samples/sec	cross-entropy=0.002590	PhysActivity-accuracy=3.186898
+2024-04-02 05:11:31,314 [INFO]  Epoch[2] Train-cross-entropy=0.002321
+2024-04-02 05:11:31,314 [INFO]  Epoch[2] Train-PhysActivity-accuracy=3.178872
+2024-04-02 05:11:31,314 [INFO]  Epoch[2] Time cost=42.489
+2024-04-02 05:11:31,316 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0002.params"
+2024-04-02 05:11:33,391 [INFO]  Epoch[2] Validation-cross-entropy=0.000022
+2024-04-02 05:11:33,391 [INFO]  Epoch[2] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 05:11:50,024 [INFO]  Epoch[3] Batch [0-5708]	Speed: 5491.32 samples/sec	cross-entropy=0.001538	PhysActivity-accuracy=3.186898
+2024-04-02 05:12:08,868 [INFO]  Epoch[3] Train-cross-entropy=0.001590
+2024-04-02 05:12:08,868 [INFO]  Epoch[3] Train-PhysActivity-accuracy=3.178872
+2024-04-02 05:12:08,868 [INFO]  Epoch[3] Time cost=35.477
+2024-04-02 05:12:08,872 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0003.params"
+2024-04-02 05:12:09,620 [INFO]  Epoch[3] Validation-cross-entropy=0.000000
+2024-04-02 05:12:09,620 [INFO]  Epoch[3] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 05:12:29,029 [INFO]  Epoch[4] Batch [0-5708]	Speed: 4705.84 samples/sec	cross-entropy=0.001251	PhysActivity-accuracy=3.186898
+2024-04-02 05:12:51,304 [INFO]  Epoch[4] Train-cross-entropy=0.001120
+2024-04-02 05:12:51,305 [INFO]  Epoch[4] Train-PhysActivity-accuracy=3.178872
+2024-04-02 05:12:51,305 [INFO]  Epoch[4] Time cost=41.684
+2024-04-02 05:12:51,308 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0004.params"
+2024-04-02 05:12:51,766 [INFO]  Epoch[4] Validation-cross-entropy=0.000214
+2024-04-02 05:12:51,766 [INFO]  Epoch[4] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 05:12:51,766 [INFO]  
+========== done (196.68046283721924 s) fit model
+2024-04-02 06:34:32,312 [INFO]  
+========== start: fit model
+2024-04-02 06:34:32,312 [WARNING]  Already bound, ignoring bind()
+2024-04-02 06:34:52,653 [INFO]  Epoch[0] Batch [0-5708]	Speed: 4612.43 samples/sec	cross-entropy=0.083116	PhysActivity-accuracy=0.000000
+2024-04-02 06:35:05,226 [INFO]  Epoch[0] Train-cross-entropy=0.045572
+2024-04-02 06:35:05,227 [INFO]  Epoch[0] Train-PhysActivity-accuracy=0.000000
+2024-04-02 06:35:05,227 [INFO]  Epoch[0] Time cost=32.914
+2024-04-02 06:35:05,228 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0000.params"
+2024-04-02 06:35:06,684 [INFO]  Epoch[0] Validation-cross-entropy=0.000238
+2024-04-02 06:35:06,684 [INFO]  Epoch[0] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 06:35:28,287 [INFO]  Epoch[1] Batch [0-5708]	Speed: 4227.72 samples/sec	cross-entropy=0.003829	PhysActivity-accuracy=0.000000
+2024-04-02 06:35:44,043 [INFO]  Epoch[1] Train-cross-entropy=0.003143
+2024-04-02 06:35:44,043 [INFO]  Epoch[1] Train-PhysActivity-accuracy=0.000000
+2024-04-02 06:35:44,043 [INFO]  Epoch[1] Time cost=37.359
+2024-04-02 06:35:44,044 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0001.params"
+2024-04-02 06:35:48,227 [INFO]  Epoch[1] Validation-cross-entropy=0.001702
+2024-04-02 06:35:48,228 [INFO]  Epoch[1] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 06:35:57,226 [INFO]  Epoch[2] Batch [0-5708]	Speed: 10150.99 samples/sec	cross-entropy=0.001731	PhysActivity-accuracy=0.000000
+2024-04-02 06:36:12,661 [INFO]  Epoch[2] Train-cross-entropy=0.001640
+2024-04-02 06:36:12,661 [INFO]  Epoch[2] Train-PhysActivity-accuracy=0.000000
+2024-04-02 06:36:12,661 [INFO]  Epoch[2] Time cost=24.434
+2024-04-02 06:36:12,664 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0002.params"
+2024-04-02 06:36:13,219 [INFO]  Epoch[2] Validation-cross-entropy=0.000807
+2024-04-02 06:36:13,219 [INFO]  Epoch[2] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 06:36:37,346 [INFO]  Epoch[3] Batch [0-5708]	Speed: 3785.60 samples/sec	cross-entropy=0.001396	PhysActivity-accuracy=0.000000
+2024-04-02 06:37:02,785 [INFO]  Epoch[3] Train-cross-entropy=0.001206
+2024-04-02 06:37:02,785 [INFO]  Epoch[3] Train-PhysActivity-accuracy=0.000000
+2024-04-02 06:37:02,785 [INFO]  Epoch[3] Time cost=49.566
+2024-04-02 06:37:02,787 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0003.params"
+2024-04-02 06:37:05,961 [INFO]  Epoch[3] Validation-cross-entropy=0.000000
+2024-04-02 06:37:05,962 [INFO]  Epoch[3] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 06:37:22,707 [INFO]  Epoch[4] Batch [0-5708]	Speed: 5454.65 samples/sec	cross-entropy=0.001172	PhysActivity-accuracy=0.000000
+2024-04-02 06:37:41,419 [INFO]  Epoch[4] Train-cross-entropy=0.001104
+2024-04-02 06:37:41,419 [INFO]  Epoch[4] Train-PhysActivity-accuracy=0.000000
+2024-04-02 06:37:41,419 [INFO]  Epoch[4] Time cost=35.457
+2024-04-02 06:37:41,420 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0004.params"
+2024-04-02 06:37:42,549 [INFO]  Epoch[4] Validation-cross-entropy=0.000366
+2024-04-02 06:37:42,549 [INFO]  Epoch[4] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 06:37:42,550 [INFO]  
+========== done (190.2378568649292 s) fit model
+2024-04-02 07:50:57,650 [INFO]  
+========== start: fit model
+2024-04-02 07:50:57,650 [WARNING]  Already bound, ignoring bind()
+2024-04-02 07:51:14,018 [INFO]  Epoch[0] Batch [0-5708]	Speed: 5695.14 samples/sec	cross-entropy=0.103104	PhysActivity-accuracy=3.180592
+2024-04-02 07:51:33,598 [INFO]  Epoch[0] Train-cross-entropy=0.056202
+2024-04-02 07:51:33,598 [INFO]  Epoch[0] Train-PhysActivity-accuracy=3.200683
+2024-04-02 07:51:33,598 [INFO]  Epoch[0] Time cost=35.947
+2024-04-02 07:51:33,601 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0000.params"
+2024-04-02 07:51:34,742 [INFO]  Epoch[0] Validation-cross-entropy=0.002076
+2024-04-02 07:51:34,742 [INFO]  Epoch[0] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 07:51:55,380 [INFO]  Epoch[1] Batch [0-5708]	Speed: 4425.58 samples/sec	cross-entropy=0.004698	PhysActivity-accuracy=3.180592
+2024-04-02 07:52:16,018 [INFO]  Epoch[1] Train-cross-entropy=0.004184
+2024-04-02 07:52:16,019 [INFO]  Epoch[1] Train-PhysActivity-accuracy=3.200683
+2024-04-02 07:52:16,019 [INFO]  Epoch[1] Time cost=41.277
+2024-04-02 07:52:16,021 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0001.params"
+2024-04-02 07:52:17,533 [INFO]  Epoch[1] Validation-cross-entropy=0.000065
+2024-04-02 07:52:17,533 [INFO]  Epoch[1] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 07:52:44,227 [INFO]  Epoch[2] Batch [0-5708]	Speed: 3421.48 samples/sec	cross-entropy=0.002099	PhysActivity-accuracy=3.180592
+2024-04-02 07:53:11,513 [INFO]  Epoch[2] Train-cross-entropy=0.001904
+2024-04-02 07:53:11,513 [INFO]  Epoch[2] Train-PhysActivity-accuracy=3.200683
+2024-04-02 07:53:11,513 [INFO]  Epoch[2] Time cost=53.979
+2024-04-02 07:53:11,515 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0002.params"
+2024-04-02 07:53:12,272 [INFO]  Epoch[2] Validation-cross-entropy=0.000121
+2024-04-02 07:53:12,272 [INFO]  Epoch[2] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 07:53:29,238 [INFO]  Epoch[3] Batch [0-5708]	Speed: 5383.63 samples/sec	cross-entropy=0.001337	PhysActivity-accuracy=3.180592
+2024-04-02 07:53:49,753 [INFO]  Epoch[3] Train-cross-entropy=0.001344
+2024-04-02 07:53:49,754 [INFO]  Epoch[3] Train-PhysActivity-accuracy=3.200683
+2024-04-02 07:53:49,754 [INFO]  Epoch[3] Time cost=37.482
+2024-04-02 07:53:49,756 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0003.params"
+2024-04-02 07:53:50,322 [INFO]  Epoch[3] Validation-cross-entropy=0.000000
+2024-04-02 07:53:50,323 [INFO]  Epoch[3] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 07:54:09,047 [INFO]  Epoch[4] Batch [0-5708]	Speed: 4877.81 samples/sec	cross-entropy=0.001068	PhysActivity-accuracy=3.180592
+2024-04-02 07:54:28,419 [INFO]  Epoch[4] Train-cross-entropy=0.000985
+2024-04-02 07:54:28,419 [INFO]  Epoch[4] Train-PhysActivity-accuracy=3.200683
+2024-04-02 07:54:28,419 [INFO]  Epoch[4] Time cost=38.096
+2024-04-02 07:54:28,421 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0004.params"
+2024-04-02 07:54:30,729 [INFO]  Epoch[4] Validation-cross-entropy=0.000027
+2024-04-02 07:54:30,730 [INFO]  Epoch[4] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 07:54:30,730 [INFO]  
+========== done (213.07954454421997 s) fit model
+2024-04-02 09:18:03,907 [INFO]  
+========== start: fit model
+2024-04-02 09:18:03,907 [WARNING]  Already bound, ignoring bind()
+2024-04-02 09:18:17,317 [INFO]  Epoch[0] Batch [0-5708]	Speed: 6844.12 samples/sec	cross-entropy=0.121906	PhysActivity-accuracy=3.185321
+2024-04-02 09:18:30,431 [INFO]  Epoch[0] Train-cross-entropy=0.065834
+2024-04-02 09:18:30,431 [INFO]  Epoch[0] Train-PhysActivity-accuracy=3.183252
+2024-04-02 09:18:30,431 [INFO]  Epoch[0] Time cost=26.523
+2024-04-02 09:18:30,433 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0000.params"
+2024-04-02 09:18:30,826 [INFO]  Epoch[0] Validation-cross-entropy=0.000611
+2024-04-02 09:18:30,826 [INFO]  Epoch[0] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 09:18:42,422 [INFO]  Epoch[1] Batch [0-5708]	Speed: 7876.76 samples/sec	cross-entropy=0.004906	PhysActivity-accuracy=3.185321
+2024-04-02 09:18:54,738 [INFO]  Epoch[1] Train-cross-entropy=0.004507
+2024-04-02 09:18:54,738 [INFO]  Epoch[1] Train-PhysActivity-accuracy=3.183252
+2024-04-02 09:18:54,738 [INFO]  Epoch[1] Time cost=23.912
+2024-04-02 09:18:54,740 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0001.params"
+2024-04-02 09:18:56,122 [INFO]  Epoch[1] Validation-cross-entropy=0.000757
+2024-04-02 09:18:56,122 [INFO]  Epoch[1] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 09:19:08,118 [INFO]  Epoch[2] Batch [0-5708]	Speed: 7614.54 samples/sec	cross-entropy=0.002490	PhysActivity-accuracy=3.185321
+2024-04-02 09:19:19,030 [INFO]  Epoch[2] Train-cross-entropy=0.002187
+2024-04-02 09:19:19,030 [INFO]  Epoch[2] Train-PhysActivity-accuracy=3.183252
+2024-04-02 09:19:19,031 [INFO]  Epoch[2] Time cost=22.908
+2024-04-02 09:19:19,033 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0002.params"
+2024-04-02 09:19:19,324 [INFO]  Epoch[2] Validation-cross-entropy=0.000664
+2024-04-02 09:19:19,325 [INFO]  Epoch[2] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 09:19:32,013 [INFO]  Epoch[3] Batch [0-5708]	Speed: 7198.04 samples/sec	cross-entropy=0.001242	PhysActivity-accuracy=3.185321
+2024-04-02 09:19:43,346 [INFO]  Epoch[3] Train-cross-entropy=0.001234
+2024-04-02 09:19:43,346 [INFO]  Epoch[3] Train-PhysActivity-accuracy=3.183252
+2024-04-02 09:19:43,346 [INFO]  Epoch[3] Time cost=24.022
+2024-04-02 09:19:43,348 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0003.params"
+2024-04-02 09:19:43,706 [INFO]  Epoch[3] Validation-cross-entropy=0.000009
+2024-04-02 09:19:43,706 [INFO]  Epoch[3] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 09:19:55,201 [INFO]  Epoch[4] Batch [0-5708]	Speed: 7954.72 samples/sec	cross-entropy=0.000860	PhysActivity-accuracy=3.185321
+2024-04-02 09:20:05,427 [INFO]  Epoch[4] Train-cross-entropy=0.000850
+2024-04-02 09:20:05,427 [INFO]  Epoch[4] Train-PhysActivity-accuracy=3.183252
+2024-04-02 09:20:05,427 [INFO]  Epoch[4] Time cost=21.721
+2024-04-02 09:20:05,430 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0004.params"
+2024-04-02 09:20:06,891 [INFO]  Epoch[4] Validation-cross-entropy=0.000040
+2024-04-02 09:20:06,892 [INFO]  Epoch[4] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 09:20:06,892 [INFO]  
+========== done (122.98507618904114 s) fit model
+2024-04-02 10:39:11,298 [INFO]  
+========== start: fit model
+2024-04-02 10:39:11,298 [WARNING]  Already bound, ignoring bind()
+2024-04-02 10:39:34,677 [INFO]  Epoch[0] Batch [0-5708]	Speed: 3909.44 samples/sec	cross-entropy=0.097229	PhysActivity-accuracy=3.181468
+2024-04-02 10:40:01,016 [INFO]  Epoch[0] Train-cross-entropy=0.052779
+2024-04-02 10:40:01,016 [INFO]  Epoch[0] Train-PhysActivity-accuracy=3.188069
+2024-04-02 10:40:01,016 [INFO]  Epoch[0] Time cost=49.717
+2024-04-02 10:40:01,018 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0000.params"
+2024-04-02 10:40:01,363 [INFO]  Epoch[0] Validation-cross-entropy=0.006667
+2024-04-02 10:40:01,364 [INFO]  Epoch[0] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 10:40:17,113 [INFO]  Epoch[1] Batch [0-5708]	Speed: 5799.56 samples/sec	cross-entropy=0.004510	PhysActivity-accuracy=3.181468
+2024-04-02 10:40:45,502 [INFO]  Epoch[1] Train-cross-entropy=0.004120
+2024-04-02 10:40:45,503 [INFO]  Epoch[1] Train-PhysActivity-accuracy=3.188069
+2024-04-02 10:40:45,503 [INFO]  Epoch[1] Time cost=44.139
+2024-04-02 10:40:45,505 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0001.params"
+2024-04-02 10:40:45,947 [INFO]  Epoch[1] Validation-cross-entropy=0.001932
+2024-04-02 10:40:45,947 [INFO]  Epoch[1] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 10:41:13,983 [INFO]  Epoch[2] Batch [0-5708]	Speed: 3257.68 samples/sec	cross-entropy=0.002176	PhysActivity-accuracy=3.181468
+2024-04-02 10:41:36,873 [INFO]  Epoch[2] Train-cross-entropy=0.002118
+2024-04-02 10:41:36,874 [INFO]  Epoch[2] Train-PhysActivity-accuracy=3.188069
+2024-04-02 10:41:36,874 [INFO]  Epoch[2] Time cost=50.927
+2024-04-02 10:41:36,876 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0002.params"
+2024-04-02 10:41:37,230 [INFO]  Epoch[2] Validation-cross-entropy=0.001115
+2024-04-02 10:41:37,230 [INFO]  Epoch[2] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 10:42:10,291 [INFO]  Epoch[3] Batch [0-5708]	Speed: 2762.59 samples/sec	cross-entropy=0.001117	PhysActivity-accuracy=3.181468
+2024-04-02 10:42:35,503 [INFO]  Epoch[3] Train-cross-entropy=0.001063
+2024-04-02 10:42:35,503 [INFO]  Epoch[3] Train-PhysActivity-accuracy=3.188069
+2024-04-02 10:42:35,503 [INFO]  Epoch[3] Time cost=58.272
+2024-04-02 10:42:35,505 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0003.params"
+2024-04-02 10:42:35,781 [INFO]  Epoch[3] Validation-cross-entropy=0.000975
+2024-04-02 10:42:35,781 [INFO]  Epoch[3] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 10:42:39,766 [INFO]  Epoch[4] Batch [0-5708]	Speed: 22925.32 samples/sec	cross-entropy=0.000942	PhysActivity-accuracy=3.181468
+2024-04-02 10:42:45,482 [INFO]  Epoch[4] Train-cross-entropy=0.000910
+2024-04-02 10:42:45,482 [INFO]  Epoch[4] Train-PhysActivity-accuracy=3.188069
+2024-04-02 10:42:45,482 [INFO]  Epoch[4] Time cost=9.701
+2024-04-02 10:42:45,483 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0004.params"
+2024-04-02 10:42:45,964 [INFO]  Epoch[4] Validation-cross-entropy=0.004718
+2024-04-02 10:42:45,964 [INFO]  Epoch[4] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 10:42:45,965 [INFO]  
+========== done (214.66661095619202 s) fit model
+2024-04-02 11:11:56,239 [INFO]  
+========== start: fit model
+2024-04-02 11:11:56,240 [WARNING]  Already bound, ignoring bind()
+2024-04-02 11:12:01,400 [INFO]  Epoch[0] Batch [0-5708]	Speed: 17719.79 samples/sec	cross-entropy=0.100202	PhysActivity-accuracy=0.000000
+2024-04-02 11:12:05,485 [INFO]  Epoch[0] Train-cross-entropy=0.054165
+2024-04-02 11:12:05,485 [INFO]  Epoch[0] Train-PhysActivity-accuracy=0.000000
+2024-04-02 11:12:05,485 [INFO]  Epoch[0] Time cost=9.245
+2024-04-02 11:12:05,486 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0000.params"
+2024-04-02 11:12:05,718 [INFO]  Epoch[0] Validation-cross-entropy=0.000659
+2024-04-02 11:12:05,718 [INFO]  Epoch[0] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 11:12:09,807 [INFO]  Epoch[1] Batch [0-5708]	Speed: 22336.22 samples/sec	cross-entropy=0.004428	PhysActivity-accuracy=0.000000
+2024-04-02 11:12:14,230 [INFO]  Epoch[1] Train-cross-entropy=0.003837
+2024-04-02 11:12:14,230 [INFO]  Epoch[1] Train-PhysActivity-accuracy=0.000000
+2024-04-02 11:12:14,230 [INFO]  Epoch[1] Time cost=8.512
+2024-04-02 11:12:14,232 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0001.params"
+2024-04-02 11:12:14,522 [INFO]  Epoch[1] Validation-cross-entropy=0.001541
+2024-04-02 11:12:14,523 [INFO]  Epoch[1] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 11:12:18,950 [INFO]  Epoch[2] Batch [0-5708]	Speed: 20634.11 samples/sec	cross-entropy=0.002210	PhysActivity-accuracy=0.000000
+2024-04-02 11:12:23,232 [INFO]  Epoch[2] Train-cross-entropy=0.002143
+2024-04-02 11:12:23,233 [INFO]  Epoch[2] Train-PhysActivity-accuracy=0.000000
+2024-04-02 11:12:23,233 [INFO]  Epoch[2] Time cost=8.710
+2024-04-02 11:12:23,234 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0002.params"
+2024-04-02 11:12:23,516 [INFO]  Epoch[2] Validation-cross-entropy=0.005275
+2024-04-02 11:12:23,516 [INFO]  Epoch[2] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 11:12:27,725 [INFO]  Epoch[3] Batch [0-5708]	Speed: 21705.61 samples/sec	cross-entropy=0.001351	PhysActivity-accuracy=0.000000
+2024-04-02 11:12:32,907 [INFO]  Epoch[3] Train-cross-entropy=0.001442
+2024-04-02 11:12:32,907 [INFO]  Epoch[3] Train-PhysActivity-accuracy=0.000000
+2024-04-02 11:12:32,907 [INFO]  Epoch[3] Time cost=9.391
+2024-04-02 11:12:32,909 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0003.params"
+2024-04-02 11:12:33,136 [INFO]  Epoch[3] Validation-cross-entropy=0.000533
+2024-04-02 11:12:33,136 [INFO]  Epoch[3] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 11:12:37,373 [INFO]  Epoch[4] Batch [0-5708]	Speed: 21558.13 samples/sec	cross-entropy=0.001273	PhysActivity-accuracy=0.000000
+2024-04-02 11:12:41,372 [INFO]  Epoch[4] Train-cross-entropy=0.001148
+2024-04-02 11:12:41,372 [INFO]  Epoch[4] Train-PhysActivity-accuracy=0.000000
+2024-04-02 11:12:41,372 [INFO]  Epoch[4] Time cost=8.236
+2024-04-02 11:12:41,373 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0004.params"
+2024-04-02 11:12:41,669 [INFO]  Epoch[4] Validation-cross-entropy=0.001663
+2024-04-02 11:12:41,669 [INFO]  Epoch[4] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 11:12:41,670 [INFO]  
+========== done (45.43013596534729 s) fit model
+2024-04-02 11:42:09,423 [INFO]  
+========== start: fit model
+2024-04-02 11:42:09,423 [WARNING]  Already bound, ignoring bind()
+2024-04-02 11:42:13,546 [INFO]  Epoch[0] Batch [0-5708]	Speed: 22196.23 samples/sec	cross-entropy=0.102771	PhysActivity-accuracy=3.178490
+2024-04-02 11:42:18,797 [INFO]  Epoch[0] Train-cross-entropy=0.055748
+2024-04-02 11:42:18,797 [INFO]  Epoch[0] Train-PhysActivity-accuracy=3.192186
+2024-04-02 11:42:18,797 [INFO]  Epoch[0] Time cost=9.373
+2024-04-02 11:42:18,798 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0000.params"
+2024-04-02 11:42:19,038 [INFO]  Epoch[0] Validation-cross-entropy=0.001505
+2024-04-02 11:42:19,038 [INFO]  Epoch[0] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 11:42:23,266 [INFO]  Epoch[1] Batch [0-5708]	Speed: 21603.79 samples/sec	cross-entropy=0.005645	PhysActivity-accuracy=3.178490
+2024-04-02 11:42:27,368 [INFO]  Epoch[1] Train-cross-entropy=0.004140
+2024-04-02 11:42:27,368 [INFO]  Epoch[1] Train-PhysActivity-accuracy=3.192186
+2024-04-02 11:42:27,368 [INFO]  Epoch[1] Time cost=8.330
+2024-04-02 11:42:27,370 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0001.params"
+2024-04-02 11:42:27,653 [INFO]  Epoch[1] Validation-cross-entropy=0.000882
+2024-04-02 11:42:27,653 [INFO]  Epoch[1] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 11:42:32,834 [INFO]  Epoch[2] Batch [0-5708]	Speed: 17630.69 samples/sec	cross-entropy=0.002257	PhysActivity-accuracy=3.178490
+2024-04-02 11:42:36,997 [INFO]  Epoch[2] Train-cross-entropy=0.002259
+2024-04-02 11:42:36,997 [INFO]  Epoch[2] Train-PhysActivity-accuracy=3.192186
+2024-04-02 11:42:36,997 [INFO]  Epoch[2] Time cost=9.344
+2024-04-02 11:42:36,998 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0002.params"
+2024-04-02 11:42:37,301 [INFO]  Epoch[2] Validation-cross-entropy=0.000010
+2024-04-02 11:42:37,301 [INFO]  Epoch[2] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 11:42:41,287 [INFO]  Epoch[3] Batch [0-5708]	Speed: 22918.03 samples/sec	cross-entropy=0.001943	PhysActivity-accuracy=3.178490
+2024-04-02 11:42:45,693 [INFO]  Epoch[3] Train-cross-entropy=0.001718
+2024-04-02 11:42:45,693 [INFO]  Epoch[3] Train-PhysActivity-accuracy=3.192186
+2024-04-02 11:42:45,693 [INFO]  Epoch[3] Time cost=8.392
+2024-04-02 11:42:45,695 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0003.params"
+2024-04-02 11:42:45,955 [INFO]  Epoch[3] Validation-cross-entropy=0.000009
+2024-04-02 11:42:45,955 [INFO]  Epoch[3] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 11:42:50,913 [INFO]  Epoch[4] Batch [0-5708]	Speed: 18422.39 samples/sec	cross-entropy=0.001532	PhysActivity-accuracy=3.178490
+2024-04-02 11:42:54,835 [INFO]  Epoch[4] Train-cross-entropy=0.001374
+2024-04-02 11:42:54,835 [INFO]  Epoch[4] Train-PhysActivity-accuracy=3.192186
+2024-04-02 11:42:54,835 [INFO]  Epoch[4] Time cost=8.880
+2024-04-02 11:42:54,837 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_PhysActivity/model-0004.params"
+2024-04-02 11:42:55,080 [INFO]  Epoch[4] Validation-cross-entropy=0.000007
+2024-04-02 11:42:55,080 [INFO]  Epoch[4] Validation-PhysActivity-accuracy=0.000000
+2024-04-02 11:42:55,081 [INFO]  
+========== done (45.65776705741882 s) fit model

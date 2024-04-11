@@ -1,0 +1,1240 @@
+2024-03-31 19:33:48,936 [INFO]  
+========== start: fit model
+2024-03-31 19:33:48,936 [WARNING]  Already bound, ignoring bind()
+2024-03-31 19:33:49,437 [INFO]  Epoch[0] Batch [0-16]	Speed: 731.33 samples/sec	cross-entropy=10.332694	A4-accuracy=2.941176
+2024-03-31 19:33:49,457 [INFO]  Epoch[0] Train-cross-entropy=7.092448
+2024-03-31 19:33:49,457 [INFO]  Epoch[0] Train-A4-accuracy=3.161290
+2024-03-31 19:33:49,457 [INFO]  Epoch[0] Time cost=0.508
+2024-03-31 19:33:49,459 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0000.params"
+2024-03-31 19:33:49,460 [INFO]  Epoch[0] Validation-cross-entropy=4.331331
+2024-03-31 19:33:49,461 [INFO]  Epoch[0] Validation-A4-accuracy=0.000000
+2024-03-31 19:33:49,520 [INFO]  Epoch[1] Batch [0-16]	Speed: 4399.01 samples/sec	cross-entropy=1.687486	A4-accuracy=2.941176
+2024-03-31 19:33:49,704 [INFO]  Epoch[1] Train-cross-entropy=1.670379
+2024-03-31 19:33:49,704 [INFO]  Epoch[1] Train-A4-accuracy=3.161290
+2024-03-31 19:33:49,704 [INFO]  Epoch[1] Time cost=0.243
+2024-03-31 19:33:49,705 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0001.params"
+2024-03-31 19:33:49,745 [INFO]  Epoch[1] Validation-cross-entropy=1.423383
+2024-03-31 19:33:49,745 [INFO]  Epoch[1] Validation-A4-accuracy=0.000000
+2024-03-31 19:33:49,951 [INFO]  Epoch[2] Batch [0-16]	Speed: 1250.08 samples/sec	cross-entropy=0.597006	A4-accuracy=2.941176
+2024-03-31 19:33:50,187 [INFO]  Epoch[2] Train-cross-entropy=0.800166
+2024-03-31 19:33:50,187 [INFO]  Epoch[2] Train-A4-accuracy=3.161290
+2024-03-31 19:33:50,187 [INFO]  Epoch[2] Time cost=0.442
+2024-03-31 19:33:50,191 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0002.params"
+2024-03-31 19:33:50,269 [INFO]  Epoch[2] Validation-cross-entropy=1.104504
+2024-03-31 19:33:50,269 [INFO]  Epoch[2] Validation-A4-accuracy=0.000000
+2024-03-31 19:33:50,367 [INFO]  Epoch[3] Batch [0-16]	Speed: 2657.69 samples/sec	cross-entropy=0.423880	A4-accuracy=2.941176
+2024-03-31 19:33:50,381 [INFO]  Epoch[3] Train-cross-entropy=0.634121
+2024-03-31 19:33:50,381 [INFO]  Epoch[3] Train-A4-accuracy=3.161290
+2024-03-31 19:33:50,381 [INFO]  Epoch[3] Time cost=0.112
+2024-03-31 19:33:50,382 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0003.params"
+2024-03-31 19:33:50,383 [INFO]  Epoch[3] Validation-cross-entropy=0.752833
+2024-03-31 19:33:50,383 [INFO]  Epoch[3] Validation-A4-accuracy=0.000000
+2024-03-31 19:33:50,395 [INFO]  Epoch[4] Batch [0-16]	Speed: 23380.84 samples/sec	cross-entropy=0.376313	A4-accuracy=2.941176
+2024-03-31 19:33:50,409 [INFO]  Epoch[4] Train-cross-entropy=0.467107
+2024-03-31 19:33:50,409 [INFO]  Epoch[4] Train-A4-accuracy=3.161290
+2024-03-31 19:33:50,409 [INFO]  Epoch[4] Time cost=0.026
+2024-03-31 19:33:50,411 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0004.params"
+2024-03-31 19:33:50,412 [INFO]  Epoch[4] Validation-cross-entropy=0.693882
+2024-03-31 19:33:50,412 [INFO]  Epoch[4] Validation-A4-accuracy=0.000000
+2024-03-31 19:33:50,412 [INFO]  
+========== done (1.4769468307495117 s) fit model
+2024-03-31 19:34:29,954 [INFO]  
+========== start: fit model
+2024-03-31 19:34:29,954 [WARNING]  Already bound, ignoring bind()
+2024-03-31 19:34:29,974 [INFO]  Epoch[0] Batch [0-16]	Speed: 16674.05 samples/sec	cross-entropy=7.851971	A4-accuracy=3.058824
+2024-03-31 19:34:29,985 [INFO]  Epoch[0] Train-cross-entropy=5.720687
+2024-03-31 19:34:29,985 [INFO]  Epoch[0] Train-A4-accuracy=3.064516
+2024-03-31 19:34:29,985 [INFO]  Epoch[0] Time cost=0.029
+2024-03-31 19:34:29,989 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0000.params"
+2024-03-31 19:34:29,991 [INFO]  Epoch[0] Validation-cross-entropy=2.300301
+2024-03-31 19:34:29,991 [INFO]  Epoch[0] Validation-A4-accuracy=0.000000
+2024-03-31 19:34:30,010 [INFO]  Epoch[1] Batch [0-16]	Speed: 15307.24 samples/sec	cross-entropy=1.295468	A4-accuracy=3.058824
+2024-03-31 19:34:30,020 [INFO]  Epoch[1] Train-cross-entropy=1.108194
+2024-03-31 19:34:30,020 [INFO]  Epoch[1] Train-A4-accuracy=3.064516
+2024-03-31 19:34:30,020 [INFO]  Epoch[1] Time cost=0.029
+2024-03-31 19:34:30,022 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0001.params"
+2024-03-31 19:34:30,023 [INFO]  Epoch[1] Validation-cross-entropy=0.938049
+2024-03-31 19:34:30,023 [INFO]  Epoch[1] Validation-A4-accuracy=0.000000
+2024-03-31 19:34:30,035 [INFO]  Epoch[2] Batch [0-16]	Speed: 25042.37 samples/sec	cross-entropy=0.498212	A4-accuracy=3.058824
+2024-03-31 19:34:30,043 [INFO]  Epoch[2] Train-cross-entropy=0.464863
+2024-03-31 19:34:30,043 [INFO]  Epoch[2] Train-A4-accuracy=3.064516
+2024-03-31 19:34:30,043 [INFO]  Epoch[2] Time cost=0.020
+2024-03-31 19:34:30,044 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0002.params"
+2024-03-31 19:34:30,045 [INFO]  Epoch[2] Validation-cross-entropy=0.521368
+2024-03-31 19:34:30,045 [INFO]  Epoch[2] Validation-A4-accuracy=0.000000
+2024-03-31 19:34:30,055 [INFO]  Epoch[3] Batch [0-16]	Speed: 28073.15 samples/sec	cross-entropy=0.301289	A4-accuracy=3.058824
+2024-03-31 19:34:30,064 [INFO]  Epoch[3] Train-cross-entropy=0.294973
+2024-03-31 19:34:30,064 [INFO]  Epoch[3] Train-A4-accuracy=3.064516
+2024-03-31 19:34:30,064 [INFO]  Epoch[3] Time cost=0.019
+2024-03-31 19:34:30,066 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0003.params"
+2024-03-31 19:34:30,067 [INFO]  Epoch[3] Validation-cross-entropy=0.496749
+2024-03-31 19:34:30,067 [INFO]  Epoch[3] Validation-A4-accuracy=0.000000
+2024-03-31 19:34:30,077 [INFO]  Epoch[4] Batch [0-16]	Speed: 27634.59 samples/sec	cross-entropy=0.207983	A4-accuracy=3.058824
+2024-03-31 19:34:30,085 [INFO]  Epoch[4] Train-cross-entropy=0.537560
+2024-03-31 19:34:30,085 [INFO]  Epoch[4] Train-A4-accuracy=3.064516
+2024-03-31 19:34:30,085 [INFO]  Epoch[4] Time cost=0.019
+2024-03-31 19:34:30,087 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0004.params"
+2024-03-31 19:34:30,088 [INFO]  Epoch[4] Validation-cross-entropy=0.693949
+2024-03-31 19:34:30,088 [INFO]  Epoch[4] Validation-A4-accuracy=0.000000
+2024-03-31 19:34:30,088 [INFO]  
+========== done (0.13379383087158203 s) fit model
+2024-03-31 19:34:47,253 [INFO]  
+========== start: fit model
+2024-03-31 19:34:47,253 [WARNING]  Already bound, ignoring bind()
+2024-03-31 19:34:47,644 [INFO]  Epoch[0] Batch [0-16]	Speed: 1133.89 samples/sec	cross-entropy=9.354525	A4-accuracy=3.411765
+2024-03-31 19:34:47,995 [INFO]  Epoch[0] Train-cross-entropy=6.301342
+2024-03-31 19:34:47,995 [INFO]  Epoch[0] Train-A4-accuracy=3.225806
+2024-03-31 19:34:47,995 [INFO]  Epoch[0] Time cost=0.741
+2024-03-31 19:34:47,997 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0000.params"
+2024-03-31 19:34:48,110 [INFO]  Epoch[0] Validation-cross-entropy=1.020757
+2024-03-31 19:34:48,110 [INFO]  Epoch[0] Validation-A4-accuracy=0.000000
+2024-03-31 19:34:48,667 [INFO]  Epoch[1] Batch [0-16]	Speed: 477.65 samples/sec	cross-entropy=1.157031	A4-accuracy=3.411765
+2024-03-31 19:34:49,162 [INFO]  Epoch[1] Train-cross-entropy=0.947443
+2024-03-31 19:34:49,162 [INFO]  Epoch[1] Train-A4-accuracy=3.225806
+2024-03-31 19:34:49,162 [INFO]  Epoch[1] Time cost=1.052
+2024-03-31 19:34:49,166 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0001.params"
+2024-03-31 19:34:49,244 [INFO]  Epoch[1] Validation-cross-entropy=1.088922
+2024-03-31 19:34:49,244 [INFO]  Epoch[1] Validation-A4-accuracy=0.000000
+2024-03-31 19:34:49,389 [INFO]  Epoch[2] Batch [0-16]	Speed: 1783.30 samples/sec	cross-entropy=0.375180	A4-accuracy=3.411765
+2024-03-31 19:34:49,444 [INFO]  Epoch[2] Train-cross-entropy=0.361495
+2024-03-31 19:34:49,444 [INFO]  Epoch[2] Train-A4-accuracy=3.225806
+2024-03-31 19:34:49,444 [INFO]  Epoch[2] Time cost=0.200
+2024-03-31 19:34:49,446 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0002.params"
+2024-03-31 19:34:49,447 [INFO]  Epoch[2] Validation-cross-entropy=0.661861
+2024-03-31 19:34:49,447 [INFO]  Epoch[2] Validation-A4-accuracy=0.000000
+2024-03-31 19:34:49,511 [INFO]  Epoch[3] Batch [0-16]	Speed: 4070.06 samples/sec	cross-entropy=0.265139	A4-accuracy=3.411765
+2024-03-31 19:34:49,530 [INFO]  Epoch[3] Train-cross-entropy=0.253121
+2024-03-31 19:34:49,530 [INFO]  Epoch[3] Train-A4-accuracy=3.225806
+2024-03-31 19:34:49,530 [INFO]  Epoch[3] Time cost=0.083
+2024-03-31 19:34:49,532 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0003.params"
+2024-03-31 19:34:49,533 [INFO]  Epoch[3] Validation-cross-entropy=0.580674
+2024-03-31 19:34:49,533 [INFO]  Epoch[3] Validation-A4-accuracy=0.000000
+2024-03-31 19:34:49,557 [INFO]  Epoch[4] Batch [0-16]	Speed: 11499.98 samples/sec	cross-entropy=0.170271	A4-accuracy=3.411765
+2024-03-31 19:34:49,682 [INFO]  Epoch[4] Train-cross-entropy=0.168160
+2024-03-31 19:34:49,683 [INFO]  Epoch[4] Train-A4-accuracy=3.225806
+2024-03-31 19:34:49,683 [INFO]  Epoch[4] Time cost=0.149
+2024-03-31 19:34:49,684 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0004.params"
+2024-03-31 19:34:49,686 [INFO]  Epoch[4] Validation-cross-entropy=0.436070
+2024-03-31 19:34:49,686 [INFO]  Epoch[4] Validation-A4-accuracy=0.000000
+2024-03-31 19:34:49,686 [INFO]  
+========== done (2.433196783065796 s) fit model
+2024-03-31 19:35:25,102 [INFO]  
+========== start: fit model
+2024-03-31 19:35:25,103 [WARNING]  Already bound, ignoring bind()
+2024-03-31 19:35:25,459 [INFO]  Epoch[0] Batch [0-16]	Speed: 797.29 samples/sec	cross-entropy=7.870317	A4-accuracy=0.000000
+2024-03-31 19:35:25,959 [INFO]  Epoch[0] Train-cross-entropy=5.746636
+2024-03-31 19:35:25,959 [INFO]  Epoch[0] Train-A4-accuracy=0.000000
+2024-03-31 19:35:25,959 [INFO]  Epoch[0] Time cost=0.856
+2024-03-31 19:35:25,961 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0000.params"
+2024-03-31 19:35:25,962 [INFO]  Epoch[0] Validation-cross-entropy=0.862292
+2024-03-31 19:35:25,962 [INFO]  Epoch[0] Validation-A4-accuracy=0.000000
+2024-03-31 19:35:26,046 [INFO]  Epoch[1] Batch [0-16]	Speed: 4062.05 samples/sec	cross-entropy=1.134294	A4-accuracy=0.000000
+2024-03-31 19:35:26,153 [INFO]  Epoch[1] Train-cross-entropy=0.979284
+2024-03-31 19:35:26,153 [INFO]  Epoch[1] Train-A4-accuracy=0.000000
+2024-03-31 19:35:26,153 [INFO]  Epoch[1] Time cost=0.192
+2024-03-31 19:35:26,155 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0001.params"
+2024-03-31 19:35:26,171 [INFO]  Epoch[1] Validation-cross-entropy=0.406238
+2024-03-31 19:35:26,171 [INFO]  Epoch[1] Validation-A4-accuracy=0.000000
+2024-03-31 19:35:26,584 [INFO]  Epoch[2] Batch [0-16]	Speed: 621.29 samples/sec	cross-entropy=0.328456	A4-accuracy=0.000000
+2024-03-31 19:35:26,618 [INFO]  Epoch[2] Train-cross-entropy=0.462546
+2024-03-31 19:35:26,618 [INFO]  Epoch[2] Train-A4-accuracy=0.000000
+2024-03-31 19:35:26,618 [INFO]  Epoch[2] Time cost=0.447
+2024-03-31 19:35:26,624 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0002.params"
+2024-03-31 19:35:26,708 [INFO]  Epoch[2] Validation-cross-entropy=0.252972
+2024-03-31 19:35:26,708 [INFO]  Epoch[2] Validation-A4-accuracy=0.000000
+2024-03-31 19:35:26,783 [INFO]  Epoch[3] Batch [0-16]	Speed: 3718.69 samples/sec	cross-entropy=0.350683	A4-accuracy=0.000000
+2024-03-31 19:35:27,458 [INFO]  Epoch[3] Train-cross-entropy=0.572860
+2024-03-31 19:35:27,459 [INFO]  Epoch[3] Train-A4-accuracy=0.000000
+2024-03-31 19:35:27,459 [INFO]  Epoch[3] Time cost=0.750
+2024-03-31 19:35:27,463 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0003.params"
+2024-03-31 19:35:27,520 [INFO]  Epoch[3] Validation-cross-entropy=0.348312
+2024-03-31 19:35:27,520 [INFO]  Epoch[3] Validation-A4-accuracy=0.000000
+2024-03-31 19:35:27,682 [INFO]  Epoch[4] Batch [0-16]	Speed: 1603.29 samples/sec	cross-entropy=0.288145	A4-accuracy=0.000000
+2024-03-31 19:35:27,890 [INFO]  Epoch[4] Train-cross-entropy=0.622806
+2024-03-31 19:35:27,891 [INFO]  Epoch[4] Train-A4-accuracy=0.000000
+2024-03-31 19:35:27,891 [INFO]  Epoch[4] Time cost=0.370
+2024-03-31 19:35:27,892 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0004.params"
+2024-03-31 19:35:27,893 [INFO]  Epoch[4] Validation-cross-entropy=0.434817
+2024-03-31 19:35:27,894 [INFO]  Epoch[4] Validation-A4-accuracy=0.000000
+2024-03-31 19:35:27,894 [INFO]  
+========== done (2.7913169860839844 s) fit model
+2024-03-31 19:36:00,652 [INFO]  
+========== start: fit model
+2024-03-31 19:36:00,653 [WARNING]  Already bound, ignoring bind()
+2024-03-31 19:36:01,050 [INFO]  Epoch[0] Batch [0-16]	Speed: 729.96 samples/sec	cross-entropy=6.001556	A4-accuracy=3.294118
+2024-03-31 19:36:01,311 [INFO]  Epoch[0] Train-cross-entropy=4.262964
+2024-03-31 19:36:01,311 [INFO]  Epoch[0] Train-A4-accuracy=3.193548
+2024-03-31 19:36:01,311 [INFO]  Epoch[0] Time cost=0.658
+2024-03-31 19:36:01,315 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0000.params"
+2024-03-31 19:36:01,400 [INFO]  Epoch[0] Validation-cross-entropy=1.487730
+2024-03-31 19:36:01,400 [INFO]  Epoch[0] Validation-A4-accuracy=0.000000
+2024-03-31 19:36:01,589 [INFO]  Epoch[1] Batch [0-16]	Speed: 1361.65 samples/sec	cross-entropy=0.888497	A4-accuracy=3.294118
+2024-03-31 19:36:01,773 [INFO]  Epoch[1] Train-cross-entropy=0.733808
+2024-03-31 19:36:01,773 [INFO]  Epoch[1] Train-A4-accuracy=3.193548
+2024-03-31 19:36:01,773 [INFO]  Epoch[1] Time cost=0.373
+2024-03-31 19:36:01,775 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0001.params"
+2024-03-31 19:36:01,776 [INFO]  Epoch[1] Validation-cross-entropy=0.736000
+2024-03-31 19:36:01,776 [INFO]  Epoch[1] Validation-A4-accuracy=0.000000
+2024-03-31 19:36:02,000 [INFO]  Epoch[2] Batch [0-16]	Speed: 1146.09 samples/sec	cross-entropy=0.365153	A4-accuracy=3.294118
+2024-03-31 19:36:02,091 [INFO]  Epoch[2] Train-cross-entropy=0.326152
+2024-03-31 19:36:02,092 [INFO]  Epoch[2] Train-A4-accuracy=3.193548
+2024-03-31 19:36:02,092 [INFO]  Epoch[2] Time cost=0.316
+2024-03-31 19:36:02,093 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0002.params"
+2024-03-31 19:36:02,099 [INFO]  Epoch[2] Validation-cross-entropy=0.450005
+2024-03-31 19:36:02,099 [INFO]  Epoch[2] Validation-A4-accuracy=0.000000
+2024-03-31 19:36:02,129 [INFO]  Epoch[3] Batch [0-16]	Speed: 8845.54 samples/sec	cross-entropy=0.222744	A4-accuracy=3.294118
+2024-03-31 19:36:02,222 [INFO]  Epoch[3] Train-cross-entropy=0.200008
+2024-03-31 19:36:02,222 [INFO]  Epoch[3] Train-A4-accuracy=3.193548
+2024-03-31 19:36:02,222 [INFO]  Epoch[3] Time cost=0.122
+2024-03-31 19:36:02,224 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0003.params"
+2024-03-31 19:36:02,231 [INFO]  Epoch[3] Validation-cross-entropy=1.429356
+2024-03-31 19:36:02,231 [INFO]  Epoch[3] Validation-A4-accuracy=0.000000
+2024-03-31 19:36:02,372 [INFO]  Epoch[4] Batch [0-16]	Speed: 1834.19 samples/sec	cross-entropy=0.276943	A4-accuracy=3.294118
+2024-03-31 19:36:02,482 [INFO]  Epoch[4] Train-cross-entropy=0.221423
+2024-03-31 19:36:02,482 [INFO]  Epoch[4] Train-A4-accuracy=3.193548
+2024-03-31 19:36:02,482 [INFO]  Epoch[4] Time cost=0.251
+2024-03-31 19:36:02,484 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0004.params"
+2024-03-31 19:36:02,486 [INFO]  Epoch[4] Validation-cross-entropy=1.690808
+2024-03-31 19:36:02,486 [INFO]  Epoch[4] Validation-A4-accuracy=0.000000
+2024-03-31 19:36:02,486 [INFO]  
+========== done (1.8333370685577393 s) fit model
+2024-03-31 19:36:24,711 [INFO]  
+========== start: fit model
+2024-03-31 19:36:24,711 [WARNING]  Already bound, ignoring bind()
+2024-03-31 19:36:24,722 [INFO]  Epoch[0] Batch [0-16]	Speed: 26227.85 samples/sec	cross-entropy=9.320520	A4-accuracy=3.705882
+2024-03-31 19:36:24,731 [INFO]  Epoch[0] Train-cross-entropy=5.793411
+2024-03-31 19:36:24,731 [INFO]  Epoch[0] Train-A4-accuracy=3.580645
+2024-03-31 19:36:24,731 [INFO]  Epoch[0] Time cost=0.020
+2024-03-31 19:36:24,732 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0000.params"
+2024-03-31 19:36:24,733 [INFO]  Epoch[0] Validation-cross-entropy=1.109297
+2024-03-31 19:36:24,733 [INFO]  Epoch[0] Validation-A4-accuracy=0.000000
+2024-03-31 19:36:24,743 [INFO]  Epoch[1] Batch [0-16]	Speed: 27683.75 samples/sec	cross-entropy=1.004345	A4-accuracy=3.705882
+2024-03-31 19:36:24,751 [INFO]  Epoch[1] Train-cross-entropy=0.801986
+2024-03-31 19:36:24,751 [INFO]  Epoch[1] Train-A4-accuracy=3.580645
+2024-03-31 19:36:24,751 [INFO]  Epoch[1] Time cost=0.018
+2024-03-31 19:36:24,753 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0001.params"
+2024-03-31 19:36:24,754 [INFO]  Epoch[1] Validation-cross-entropy=0.669870
+2024-03-31 19:36:24,754 [INFO]  Epoch[1] Validation-A4-accuracy=0.000000
+2024-03-31 19:36:24,763 [INFO]  Epoch[2] Batch [0-16]	Speed: 28225.17 samples/sec	cross-entropy=0.332159	A4-accuracy=3.705882
+2024-03-31 19:36:24,771 [INFO]  Epoch[2] Train-cross-entropy=0.296748
+2024-03-31 19:36:24,771 [INFO]  Epoch[2] Train-A4-accuracy=3.580645
+2024-03-31 19:36:24,772 [INFO]  Epoch[2] Time cost=0.018
+2024-03-31 19:36:24,773 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0002.params"
+2024-03-31 19:36:24,774 [INFO]  Epoch[2] Validation-cross-entropy=0.395435
+2024-03-31 19:36:24,774 [INFO]  Epoch[2] Validation-A4-accuracy=0.000000
+2024-03-31 19:36:24,783 [INFO]  Epoch[3] Batch [0-16]	Speed: 28044.55 samples/sec	cross-entropy=0.201237	A4-accuracy=3.705882
+2024-03-31 19:36:24,792 [INFO]  Epoch[3] Train-cross-entropy=0.198304
+2024-03-31 19:36:24,792 [INFO]  Epoch[3] Train-A4-accuracy=3.580645
+2024-03-31 19:36:24,792 [INFO]  Epoch[3] Time cost=0.018
+2024-03-31 19:36:24,793 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0003.params"
+2024-03-31 19:36:24,794 [INFO]  Epoch[3] Validation-cross-entropy=0.285411
+2024-03-31 19:36:24,794 [INFO]  Epoch[3] Validation-A4-accuracy=0.000000
+2024-03-31 19:36:24,804 [INFO]  Epoch[4] Batch [0-16]	Speed: 26929.05 samples/sec	cross-entropy=0.137627	A4-accuracy=3.705882
+2024-03-31 19:36:24,812 [INFO]  Epoch[4] Train-cross-entropy=0.140202
+2024-03-31 19:36:24,812 [INFO]  Epoch[4] Train-A4-accuracy=3.580645
+2024-03-31 19:36:24,812 [INFO]  Epoch[4] Time cost=0.018
+2024-03-31 19:36:24,814 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0004.params"
+2024-03-31 19:36:24,815 [INFO]  Epoch[4] Validation-cross-entropy=0.308559
+2024-03-31 19:36:24,815 [INFO]  Epoch[4] Validation-A4-accuracy=0.000000
+2024-03-31 19:36:24,815 [INFO]  
+========== done (0.1040961742401123 s) fit model
+2024-03-31 19:36:47,508 [INFO]  
+========== start: fit model
+2024-03-31 19:36:47,508 [WARNING]  Already bound, ignoring bind()
+2024-03-31 19:36:47,873 [INFO]  Epoch[0] Batch [0-16]	Speed: 705.72 samples/sec	cross-entropy=11.456245	A4-accuracy=0.000000
+2024-03-31 19:36:48,838 [INFO]  Epoch[0] Train-cross-entropy=8.471404
+2024-03-31 19:36:48,838 [INFO]  Epoch[0] Train-A4-accuracy=0.000000
+2024-03-31 19:36:48,838 [INFO]  Epoch[0] Time cost=1.330
+2024-03-31 19:36:48,840 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0000.params"
+2024-03-31 19:36:48,842 [INFO]  Epoch[0] Validation-cross-entropy=1.494131
+2024-03-31 19:36:48,842 [INFO]  Epoch[0] Validation-A4-accuracy=0.000000
+2024-03-31 19:36:49,265 [INFO]  Epoch[1] Batch [0-16]	Speed: 618.31 samples/sec	cross-entropy=1.494622	A4-accuracy=0.000000
+2024-03-31 19:36:49,684 [INFO]  Epoch[1] Train-cross-entropy=1.496567
+2024-03-31 19:36:49,684 [INFO]  Epoch[1] Train-A4-accuracy=0.000000
+2024-03-31 19:36:49,684 [INFO]  Epoch[1] Time cost=0.842
+2024-03-31 19:36:49,685 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0001.params"
+2024-03-31 19:36:49,691 [INFO]  Epoch[1] Validation-cross-entropy=0.467211
+2024-03-31 19:36:49,691 [INFO]  Epoch[1] Validation-A4-accuracy=0.000000
+2024-03-31 19:36:49,958 [INFO]  Epoch[2] Batch [0-16]	Speed: 963.09 samples/sec	cross-entropy=0.459605	A4-accuracy=0.000000
+2024-03-31 19:36:50,045 [INFO]  Epoch[2] Train-cross-entropy=0.562928
+2024-03-31 19:36:50,046 [INFO]  Epoch[2] Train-A4-accuracy=0.000000
+2024-03-31 19:36:50,046 [INFO]  Epoch[2] Time cost=0.355
+2024-03-31 19:36:50,047 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0002.params"
+2024-03-31 19:36:50,052 [INFO]  Epoch[2] Validation-cross-entropy=0.355928
+2024-03-31 19:36:50,052 [INFO]  Epoch[2] Validation-A4-accuracy=0.000000
+2024-03-31 19:36:50,298 [INFO]  Epoch[3] Batch [0-16]	Speed: 1045.00 samples/sec	cross-entropy=0.283807	A4-accuracy=0.000000
+2024-03-31 19:36:50,352 [INFO]  Epoch[3] Train-cross-entropy=0.363541
+2024-03-31 19:36:50,352 [INFO]  Epoch[3] Train-A4-accuracy=0.000000
+2024-03-31 19:36:50,352 [INFO]  Epoch[3] Time cost=0.300
+2024-03-31 19:36:50,353 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0003.params"
+2024-03-31 19:36:50,354 [INFO]  Epoch[3] Validation-cross-entropy=0.288576
+2024-03-31 19:36:50,354 [INFO]  Epoch[3] Validation-A4-accuracy=0.000000
+2024-03-31 19:36:50,520 [INFO]  Epoch[4] Batch [0-16]	Speed: 2338.87 samples/sec	cross-entropy=0.185268	A4-accuracy=0.000000
+2024-03-31 19:36:50,535 [INFO]  Epoch[4] Train-cross-entropy=0.273288
+2024-03-31 19:36:50,535 [INFO]  Epoch[4] Train-A4-accuracy=0.000000
+2024-03-31 19:36:50,535 [INFO]  Epoch[4] Time cost=0.181
+2024-03-31 19:36:50,537 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0004.params"
+2024-03-31 19:36:50,541 [INFO]  Epoch[4] Validation-cross-entropy=0.219408
+2024-03-31 19:36:50,541 [INFO]  Epoch[4] Validation-A4-accuracy=0.000000
+2024-03-31 19:36:50,541 [INFO]  
+========== done (3.033536195755005 s) fit model
+2024-03-31 19:37:07,797 [INFO]  
+========== start: fit model
+2024-03-31 19:37:07,797 [WARNING]  Already bound, ignoring bind()
+2024-03-31 19:37:07,914 [INFO]  Epoch[0] Batch [0-16]	Speed: 2242.63 samples/sec	cross-entropy=10.523841	A4-accuracy=3.117647
+2024-03-31 19:37:08,111 [INFO]  Epoch[0] Train-cross-entropy=7.035118
+2024-03-31 19:37:08,111 [INFO]  Epoch[0] Train-A4-accuracy=3.193548
+2024-03-31 19:37:08,111 [INFO]  Epoch[0] Time cost=0.313
+2024-03-31 19:37:08,113 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0000.params"
+2024-03-31 19:37:08,115 [INFO]  Epoch[0] Validation-cross-entropy=1.824231
+2024-03-31 19:37:08,115 [INFO]  Epoch[0] Validation-A4-accuracy=0.000000
+2024-03-31 19:37:08,198 [INFO]  Epoch[1] Batch [0-16]	Speed: 3103.04 samples/sec	cross-entropy=1.595615	A4-accuracy=3.117647
+2024-03-31 19:37:08,281 [INFO]  Epoch[1] Train-cross-entropy=1.311992
+2024-03-31 19:37:08,281 [INFO]  Epoch[1] Train-A4-accuracy=3.193548
+2024-03-31 19:37:08,281 [INFO]  Epoch[1] Time cost=0.166
+2024-03-31 19:37:08,283 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0001.params"
+2024-03-31 19:37:08,285 [INFO]  Epoch[1] Validation-cross-entropy=0.745667
+2024-03-31 19:37:08,285 [INFO]  Epoch[1] Validation-A4-accuracy=0.000000
+2024-03-31 19:37:08,315 [INFO]  Epoch[2] Batch [0-16]	Speed: 8939.43 samples/sec	cross-entropy=0.518195	A4-accuracy=3.117647
+2024-03-31 19:37:08,340 [INFO]  Epoch[2] Train-cross-entropy=0.602987
+2024-03-31 19:37:08,340 [INFO]  Epoch[2] Train-A4-accuracy=3.193548
+2024-03-31 19:37:08,340 [INFO]  Epoch[2] Time cost=0.055
+2024-03-31 19:37:08,342 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0002.params"
+2024-03-31 19:37:08,344 [INFO]  Epoch[2] Validation-cross-entropy=0.766118
+2024-03-31 19:37:08,344 [INFO]  Epoch[2] Validation-A4-accuracy=0.000000
+2024-03-31 19:37:08,364 [INFO]  Epoch[3] Batch [0-16]	Speed: 13100.00 samples/sec	cross-entropy=0.422618	A4-accuracy=3.117647
+2024-03-31 19:37:08,379 [INFO]  Epoch[3] Train-cross-entropy=0.469211
+2024-03-31 19:37:08,379 [INFO]  Epoch[3] Train-A4-accuracy=3.193548
+2024-03-31 19:37:08,380 [INFO]  Epoch[3] Time cost=0.036
+2024-03-31 19:37:08,381 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0003.params"
+2024-03-31 19:37:08,383 [INFO]  Epoch[3] Validation-cross-entropy=0.464685
+2024-03-31 19:37:08,383 [INFO]  Epoch[3] Validation-A4-accuracy=0.000000
+2024-03-31 19:37:08,562 [INFO]  Epoch[4] Batch [0-16]	Speed: 1436.87 samples/sec	cross-entropy=0.303831	A4-accuracy=3.117647
+2024-03-31 19:37:08,690 [INFO]  Epoch[4] Train-cross-entropy=0.429740
+2024-03-31 19:37:08,690 [INFO]  Epoch[4] Train-A4-accuracy=3.193548
+2024-03-31 19:37:08,690 [INFO]  Epoch[4] Time cost=0.307
+2024-03-31 19:37:08,699 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0004.params"
+2024-03-31 19:37:08,723 [INFO]  Epoch[4] Validation-cross-entropy=0.647631
+2024-03-31 19:37:08,723 [INFO]  Epoch[4] Validation-A4-accuracy=0.000000
+2024-03-31 19:37:08,723 [INFO]  
+========== done (0.9268250465393066 s) fit model
+2024-03-31 19:37:31,580 [INFO]  
+========== start: fit model
+2024-03-31 19:37:31,580 [WARNING]  Already bound, ignoring bind()
+2024-03-31 19:37:31,592 [INFO]  Epoch[0] Batch [0-16]	Speed: 25906.38 samples/sec	cross-entropy=6.472533	A4-accuracy=0.000000
+2024-03-31 19:37:31,600 [INFO]  Epoch[0] Train-cross-entropy=4.971193
+2024-03-31 19:37:31,600 [INFO]  Epoch[0] Train-A4-accuracy=0.000000
+2024-03-31 19:37:31,600 [INFO]  Epoch[0] Time cost=0.020
+2024-03-31 19:37:31,602 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0000.params"
+2024-03-31 19:37:31,603 [INFO]  Epoch[0] Validation-cross-entropy=4.425110
+2024-03-31 19:37:31,603 [INFO]  Epoch[0] Validation-A4-accuracy=0.000000
+2024-03-31 19:37:31,613 [INFO]  Epoch[1] Batch [0-16]	Speed: 26131.46 samples/sec	cross-entropy=1.486081	A4-accuracy=0.000000
+2024-03-31 19:37:31,637 [INFO]  Epoch[1] Train-cross-entropy=1.265163
+2024-03-31 19:37:31,637 [INFO]  Epoch[1] Train-A4-accuracy=0.000000
+2024-03-31 19:37:31,637 [INFO]  Epoch[1] Time cost=0.035
+2024-03-31 19:37:31,639 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0001.params"
+2024-03-31 19:37:31,640 [INFO]  Epoch[1] Validation-cross-entropy=0.823890
+2024-03-31 19:37:31,640 [INFO]  Epoch[1] Validation-A4-accuracy=0.000000
+2024-03-31 19:37:31,657 [INFO]  Epoch[2] Batch [0-16]	Speed: 16039.88 samples/sec	cross-entropy=0.621170	A4-accuracy=0.000000
+2024-03-31 19:37:31,683 [INFO]  Epoch[2] Train-cross-entropy=0.540155
+2024-03-31 19:37:31,683 [INFO]  Epoch[2] Train-A4-accuracy=0.000000
+2024-03-31 19:37:31,683 [INFO]  Epoch[2] Time cost=0.043
+2024-03-31 19:37:31,684 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0002.params"
+2024-03-31 19:37:31,685 [INFO]  Epoch[2] Validation-cross-entropy=1.225426
+2024-03-31 19:37:31,685 [INFO]  Epoch[2] Validation-A4-accuracy=0.000000
+2024-03-31 19:37:31,697 [INFO]  Epoch[3] Batch [0-16]	Speed: 23555.75 samples/sec	cross-entropy=0.291916	A4-accuracy=0.000000
+2024-03-31 19:37:31,707 [INFO]  Epoch[3] Train-cross-entropy=0.383552
+2024-03-31 19:37:31,707 [INFO]  Epoch[3] Train-A4-accuracy=0.000000
+2024-03-31 19:37:31,707 [INFO]  Epoch[3] Time cost=0.022
+2024-03-31 19:37:31,708 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0003.params"
+2024-03-31 19:37:31,709 [INFO]  Epoch[3] Validation-cross-entropy=0.444655
+2024-03-31 19:37:31,709 [INFO]  Epoch[3] Validation-A4-accuracy=0.000000
+2024-03-31 19:37:31,721 [INFO]  Epoch[4] Batch [0-16]	Speed: 22553.81 samples/sec	cross-entropy=0.373212	A4-accuracy=0.000000
+2024-03-31 19:37:31,738 [INFO]  Epoch[4] Train-cross-entropy=0.419062
+2024-03-31 19:37:31,738 [INFO]  Epoch[4] Train-A4-accuracy=0.000000
+2024-03-31 19:37:31,738 [INFO]  Epoch[4] Time cost=0.029
+2024-03-31 19:37:31,742 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0004.params"
+2024-03-31 19:37:31,744 [INFO]  Epoch[4] Validation-cross-entropy=0.871495
+2024-03-31 19:37:31,744 [INFO]  Epoch[4] Validation-A4-accuracy=0.000000
+2024-03-31 19:37:31,744 [INFO]  
+========== done (0.16411781311035156 s) fit model
+2024-03-31 19:37:51,668 [INFO]  
+========== start: fit model
+2024-03-31 19:37:51,668 [WARNING]  Already bound, ignoring bind()
+2024-03-31 19:37:51,689 [INFO]  Epoch[0] Batch [0-16]	Speed: 24186.64 samples/sec	cross-entropy=8.987187	A4-accuracy=0.000000
+2024-03-31 19:37:51,730 [INFO]  Epoch[0] Train-cross-entropy=6.327508
+2024-03-31 19:37:51,730 [INFO]  Epoch[0] Train-A4-accuracy=0.000000
+2024-03-31 19:37:51,730 [INFO]  Epoch[0] Time cost=0.062
+2024-03-31 19:37:51,734 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0000.params"
+2024-03-31 19:37:51,837 [INFO]  Epoch[0] Validation-cross-entropy=2.374931
+2024-03-31 19:37:51,837 [INFO]  Epoch[0] Validation-A4-accuracy=0.000000
+2024-03-31 19:37:52,045 [INFO]  Epoch[1] Batch [0-16]	Speed: 1240.92 samples/sec	cross-entropy=1.635228	A4-accuracy=0.000000
+2024-03-31 19:37:52,216 [INFO]  Epoch[1] Train-cross-entropy=1.245458
+2024-03-31 19:37:52,216 [INFO]  Epoch[1] Train-A4-accuracy=0.000000
+2024-03-31 19:37:52,216 [INFO]  Epoch[1] Time cost=0.379
+2024-03-31 19:37:52,218 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0001.params"
+2024-03-31 19:37:52,223 [INFO]  Epoch[1] Validation-cross-entropy=0.815371
+2024-03-31 19:37:52,223 [INFO]  Epoch[1] Validation-A4-accuracy=0.000000
+2024-03-31 19:37:52,470 [INFO]  Epoch[2] Batch [0-16]	Speed: 1045.11 samples/sec	cross-entropy=0.463530	A4-accuracy=0.000000
+2024-03-31 19:37:52,669 [INFO]  Epoch[2] Train-cross-entropy=0.432436
+2024-03-31 19:37:52,669 [INFO]  Epoch[2] Train-A4-accuracy=0.000000
+2024-03-31 19:37:52,669 [INFO]  Epoch[2] Time cost=0.446
+2024-03-31 19:37:52,671 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0002.params"
+2024-03-31 19:37:52,673 [INFO]  Epoch[2] Validation-cross-entropy=0.752863
+2024-03-31 19:37:52,673 [INFO]  Epoch[2] Validation-A4-accuracy=0.000000
+2024-03-31 19:37:52,808 [INFO]  Epoch[3] Batch [0-16]	Speed: 1915.35 samples/sec	cross-entropy=0.271719	A4-accuracy=0.000000
+2024-03-31 19:37:52,897 [INFO]  Epoch[3] Train-cross-entropy=0.246647
+2024-03-31 19:37:52,897 [INFO]  Epoch[3] Train-A4-accuracy=0.000000
+2024-03-31 19:37:52,897 [INFO]  Epoch[3] Time cost=0.224
+2024-03-31 19:37:52,898 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0003.params"
+2024-03-31 19:37:52,899 [INFO]  Epoch[3] Validation-cross-entropy=0.591797
+2024-03-31 19:37:52,899 [INFO]  Epoch[3] Validation-A4-accuracy=0.000000
+2024-03-31 19:37:53,103 [INFO]  Epoch[4] Batch [0-16]	Speed: 1260.20 samples/sec	cross-entropy=0.164803	A4-accuracy=0.000000
+2024-03-31 19:37:53,177 [INFO]  Epoch[4] Train-cross-entropy=0.157025
+2024-03-31 19:37:53,177 [INFO]  Epoch[4] Train-A4-accuracy=0.000000
+2024-03-31 19:37:53,177 [INFO]  Epoch[4] Time cost=0.278
+2024-03-31 19:37:53,179 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0004.params"
+2024-03-31 19:37:53,181 [INFO]  Epoch[4] Validation-cross-entropy=0.423331
+2024-03-31 19:37:53,181 [INFO]  Epoch[4] Validation-A4-accuracy=0.000000
+2024-03-31 19:37:53,181 [INFO]  
+========== done (1.5131995677947998 s) fit model
+2024-03-31 19:38:14,234 [INFO]  
+========== start: fit model
+2024-03-31 19:38:14,235 [WARNING]  Already bound, ignoring bind()
+2024-03-31 19:38:14,691 [INFO]  Epoch[0] Batch [0-16]	Speed: 617.27 samples/sec	cross-entropy=6.896811	A4-accuracy=0.000000
+2024-03-31 19:38:14,927 [INFO]  Epoch[0] Train-cross-entropy=5.448638
+2024-03-31 19:38:14,927 [INFO]  Epoch[0] Train-A4-accuracy=0.000000
+2024-03-31 19:38:14,927 [INFO]  Epoch[0] Time cost=0.692
+2024-03-31 19:38:14,928 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0000.params"
+2024-03-31 19:38:14,930 [INFO]  Epoch[0] Validation-cross-entropy=1.203496
+2024-03-31 19:38:14,930 [INFO]  Epoch[0] Validation-A4-accuracy=0.000000
+2024-03-31 19:38:15,059 [INFO]  Epoch[1] Batch [0-16]	Speed: 2006.63 samples/sec	cross-entropy=1.318632	A4-accuracy=0.000000
+2024-03-31 19:38:15,112 [INFO]  Epoch[1] Train-cross-entropy=1.030135
+2024-03-31 19:38:15,113 [INFO]  Epoch[1] Train-A4-accuracy=0.000000
+2024-03-31 19:38:15,113 [INFO]  Epoch[1] Time cost=0.183
+2024-03-31 19:38:15,114 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0001.params"
+2024-03-31 19:38:15,115 [INFO]  Epoch[1] Validation-cross-entropy=0.367492
+2024-03-31 19:38:15,115 [INFO]  Epoch[1] Validation-A4-accuracy=0.000000
+2024-03-31 19:38:15,197 [INFO]  Epoch[2] Batch [0-16]	Speed: 3136.53 samples/sec	cross-entropy=0.376552	A4-accuracy=0.000000
+2024-03-31 19:38:15,215 [INFO]  Epoch[2] Train-cross-entropy=0.331163
+2024-03-31 19:38:15,216 [INFO]  Epoch[2] Train-A4-accuracy=0.000000
+2024-03-31 19:38:15,216 [INFO]  Epoch[2] Time cost=0.101
+2024-03-31 19:38:15,217 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0002.params"
+2024-03-31 19:38:15,221 [INFO]  Epoch[2] Validation-cross-entropy=0.245729
+2024-03-31 19:38:15,221 [INFO]  Epoch[2] Validation-A4-accuracy=0.000000
+2024-03-31 19:38:15,299 [INFO]  Epoch[3] Batch [0-16]	Speed: 3316.05 samples/sec	cross-entropy=0.238249	A4-accuracy=0.000000
+2024-03-31 19:38:15,374 [INFO]  Epoch[3] Train-cross-entropy=0.213366
+2024-03-31 19:38:15,374 [INFO]  Epoch[3] Train-A4-accuracy=0.000000
+2024-03-31 19:38:15,374 [INFO]  Epoch[3] Time cost=0.154
+2024-03-31 19:38:15,376 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0003.params"
+2024-03-31 19:38:15,379 [INFO]  Epoch[3] Validation-cross-entropy=0.341916
+2024-03-31 19:38:15,379 [INFO]  Epoch[3] Validation-A4-accuracy=0.000000
+2024-03-31 19:38:15,409 [INFO]  Epoch[4] Batch [0-16]	Speed: 9062.11 samples/sec	cross-entropy=0.163649	A4-accuracy=0.000000
+2024-03-31 19:38:15,425 [INFO]  Epoch[4] Train-cross-entropy=0.143339
+2024-03-31 19:38:15,425 [INFO]  Epoch[4] Train-A4-accuracy=0.000000
+2024-03-31 19:38:15,426 [INFO]  Epoch[4] Time cost=0.046
+2024-03-31 19:38:15,428 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0004.params"
+2024-03-31 19:38:15,430 [INFO]  Epoch[4] Validation-cross-entropy=0.279025
+2024-03-31 19:38:15,430 [INFO]  Epoch[4] Validation-A4-accuracy=0.000000
+2024-03-31 19:38:15,430 [INFO]  
+========== done (1.1954050064086914 s) fit model
+2024-03-31 19:38:39,306 [INFO]  
+========== start: fit model
+2024-03-31 19:38:39,306 [WARNING]  Already bound, ignoring bind()
+2024-03-31 19:38:39,319 [INFO]  Epoch[0] Batch [0-16]	Speed: 23669.47 samples/sec	cross-entropy=9.967048	A4-accuracy=0.000000
+2024-03-31 19:38:39,327 [INFO]  Epoch[0] Train-cross-entropy=6.775721
+2024-03-31 19:38:39,327 [INFO]  Epoch[0] Train-A4-accuracy=0.000000
+2024-03-31 19:38:39,327 [INFO]  Epoch[0] Time cost=0.021
+2024-03-31 19:38:39,328 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0000.params"
+2024-03-31 19:38:39,329 [INFO]  Epoch[0] Validation-cross-entropy=1.581552
+2024-03-31 19:38:39,329 [INFO]  Epoch[0] Validation-A4-accuracy=0.000000
+2024-03-31 19:38:39,340 [INFO]  Epoch[1] Batch [0-16]	Speed: 26863.02 samples/sec	cross-entropy=1.549512	A4-accuracy=0.000000
+2024-03-31 19:38:39,348 [INFO]  Epoch[1] Train-cross-entropy=1.196891
+2024-03-31 19:38:39,348 [INFO]  Epoch[1] Train-A4-accuracy=0.000000
+2024-03-31 19:38:39,348 [INFO]  Epoch[1] Time cost=0.018
+2024-03-31 19:38:39,349 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0001.params"
+2024-03-31 19:38:39,350 [INFO]  Epoch[1] Validation-cross-entropy=0.669095
+2024-03-31 19:38:39,350 [INFO]  Epoch[1] Validation-A4-accuracy=0.000000
+2024-03-31 19:38:39,360 [INFO]  Epoch[2] Batch [0-16]	Speed: 27521.96 samples/sec	cross-entropy=0.619456	A4-accuracy=0.000000
+2024-03-31 19:38:39,368 [INFO]  Epoch[2] Train-cross-entropy=0.590237
+2024-03-31 19:38:39,368 [INFO]  Epoch[2] Train-A4-accuracy=0.000000
+2024-03-31 19:38:39,368 [INFO]  Epoch[2] Time cost=0.018
+2024-03-31 19:38:39,369 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0002.params"
+2024-03-31 19:38:39,370 [INFO]  Epoch[2] Validation-cross-entropy=0.495675
+2024-03-31 19:38:39,370 [INFO]  Epoch[2] Validation-A4-accuracy=0.000000
+2024-03-31 19:38:39,380 [INFO]  Epoch[3] Batch [0-16]	Speed: 27591.27 samples/sec	cross-entropy=0.365529	A4-accuracy=0.000000
+2024-03-31 19:38:39,388 [INFO]  Epoch[3] Train-cross-entropy=0.447760
+2024-03-31 19:38:39,388 [INFO]  Epoch[3] Train-A4-accuracy=0.000000
+2024-03-31 19:38:39,388 [INFO]  Epoch[3] Time cost=0.018
+2024-03-31 19:38:39,390 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0003.params"
+2024-03-31 19:38:39,390 [INFO]  Epoch[3] Validation-cross-entropy=0.371474
+2024-03-31 19:38:39,391 [INFO]  Epoch[3] Validation-A4-accuracy=0.000000
+2024-03-31 19:38:39,400 [INFO]  Epoch[4] Batch [0-16]	Speed: 27957.66 samples/sec	cross-entropy=0.306283	A4-accuracy=0.000000
+2024-03-31 19:38:39,409 [INFO]  Epoch[4] Train-cross-entropy=0.428552
+2024-03-31 19:38:39,409 [INFO]  Epoch[4] Train-A4-accuracy=0.000000
+2024-03-31 19:38:39,409 [INFO]  Epoch[4] Time cost=0.018
+2024-03-31 19:38:39,410 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0004.params"
+2024-03-31 19:38:39,411 [INFO]  Epoch[4] Validation-cross-entropy=0.439792
+2024-03-31 19:38:39,411 [INFO]  Epoch[4] Validation-A4-accuracy=0.000000
+2024-03-31 19:38:39,411 [INFO]  
+========== done (0.10560297966003418 s) fit model
+2024-03-31 19:38:57,702 [INFO]  
+========== start: fit model
+2024-03-31 19:38:57,702 [WARNING]  Already bound, ignoring bind()
+2024-03-31 19:38:57,967 [INFO]  Epoch[0] Batch [0-16]	Speed: 974.37 samples/sec	cross-entropy=7.822159	A4-accuracy=0.000000
+2024-03-31 19:38:58,335 [INFO]  Epoch[0] Train-cross-entropy=5.099344
+2024-03-31 19:38:58,335 [INFO]  Epoch[0] Train-A4-accuracy=0.000000
+2024-03-31 19:38:58,335 [INFO]  Epoch[0] Time cost=0.632
+2024-03-31 19:38:58,337 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0000.params"
+2024-03-31 19:38:58,338 [INFO]  Epoch[0] Validation-cross-entropy=1.075049
+2024-03-31 19:38:58,339 [INFO]  Epoch[0] Validation-A4-accuracy=0.000000
+2024-03-31 19:38:58,403 [INFO]  Epoch[1] Batch [0-16]	Speed: 4072.51 samples/sec	cross-entropy=0.932556	A4-accuracy=0.000000
+2024-03-31 19:38:58,435 [INFO]  Epoch[1] Train-cross-entropy=0.786687
+2024-03-31 19:38:58,435 [INFO]  Epoch[1] Train-A4-accuracy=0.000000
+2024-03-31 19:38:58,435 [INFO]  Epoch[1] Time cost=0.096
+2024-03-31 19:38:58,436 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0001.params"
+2024-03-31 19:38:58,440 [INFO]  Epoch[1] Validation-cross-entropy=0.513470
+2024-03-31 19:38:58,440 [INFO]  Epoch[1] Validation-A4-accuracy=0.000000
+2024-03-31 19:38:58,463 [INFO]  Epoch[2] Batch [0-16]	Speed: 11919.60 samples/sec	cross-entropy=0.380839	A4-accuracy=0.000000
+2024-03-31 19:38:58,512 [INFO]  Epoch[2] Train-cross-entropy=0.347339
+2024-03-31 19:38:58,512 [INFO]  Epoch[2] Train-A4-accuracy=0.000000
+2024-03-31 19:38:58,512 [INFO]  Epoch[2] Time cost=0.072
+2024-03-31 19:38:58,514 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0002.params"
+2024-03-31 19:38:58,528 [INFO]  Epoch[2] Validation-cross-entropy=0.480695
+2024-03-31 19:38:58,528 [INFO]  Epoch[2] Validation-A4-accuracy=0.000000
+2024-03-31 19:38:58,548 [INFO]  Epoch[3] Batch [0-16]	Speed: 13586.51 samples/sec	cross-entropy=0.205653	A4-accuracy=0.000000
+2024-03-31 19:38:58,565 [INFO]  Epoch[3] Train-cross-entropy=0.203996
+2024-03-31 19:38:58,565 [INFO]  Epoch[3] Train-A4-accuracy=0.000000
+2024-03-31 19:38:58,565 [INFO]  Epoch[3] Time cost=0.037
+2024-03-31 19:38:58,566 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0003.params"
+2024-03-31 19:38:58,568 [INFO]  Epoch[3] Validation-cross-entropy=0.370912
+2024-03-31 19:38:58,568 [INFO]  Epoch[3] Validation-A4-accuracy=0.000000
+2024-03-31 19:38:58,623 [INFO]  Epoch[4] Batch [0-16]	Speed: 4703.12 samples/sec	cross-entropy=0.138547	A4-accuracy=0.000000
+2024-03-31 19:38:58,675 [INFO]  Epoch[4] Train-cross-entropy=0.136242
+2024-03-31 19:38:58,675 [INFO]  Epoch[4] Train-A4-accuracy=0.000000
+2024-03-31 19:38:58,675 [INFO]  Epoch[4] Time cost=0.107
+2024-03-31 19:38:58,677 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0004.params"
+2024-03-31 19:38:58,678 [INFO]  Epoch[4] Validation-cross-entropy=0.302226
+2024-03-31 19:38:58,678 [INFO]  Epoch[4] Validation-A4-accuracy=0.000000
+2024-03-31 19:38:58,678 [INFO]  
+========== done (0.9758999347686768 s) fit model
+2024-03-31 19:40:16,316 [INFO]  
+========== start: fit model
+2024-03-31 19:40:16,316 [WARNING]  Already bound, ignoring bind()
+2024-03-31 19:40:16,640 [INFO]  Epoch[0] Batch [0-16]	Speed: 829.14 samples/sec	cross-entropy=8.870290	A4-accuracy=3.176471
+2024-03-31 19:40:16,651 [INFO]  Epoch[0] Train-cross-entropy=5.839289
+2024-03-31 19:40:16,651 [INFO]  Epoch[0] Train-A4-accuracy=3.032258
+2024-03-31 19:40:16,651 [INFO]  Epoch[0] Time cost=0.333
+2024-03-31 19:40:16,652 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0000.params"
+2024-03-31 19:40:16,654 [INFO]  Epoch[0] Validation-cross-entropy=0.955635
+2024-03-31 19:40:16,654 [INFO]  Epoch[0] Validation-A4-accuracy=0.000000
+2024-03-31 19:40:16,665 [INFO]  Epoch[1] Batch [0-16]	Speed: 23805.91 samples/sec	cross-entropy=1.082887	A4-accuracy=3.176471
+2024-03-31 19:40:16,676 [INFO]  Epoch[1] Train-cross-entropy=0.880634
+2024-03-31 19:40:16,676 [INFO]  Epoch[1] Train-A4-accuracy=3.032258
+2024-03-31 19:40:16,676 [INFO]  Epoch[1] Time cost=0.022
+2024-03-31 19:40:16,680 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0001.params"
+2024-03-31 19:40:16,684 [INFO]  Epoch[1] Validation-cross-entropy=0.540437
+2024-03-31 19:40:16,684 [INFO]  Epoch[1] Validation-A4-accuracy=0.000000
+2024-03-31 19:40:16,773 [INFO]  Epoch[2] Batch [0-16]	Speed: 2955.10 samples/sec	cross-entropy=0.439438	A4-accuracy=3.176471
+2024-03-31 19:40:17,841 [INFO]  Epoch[2] Train-cross-entropy=0.361397
+2024-03-31 19:40:17,841 [INFO]  Epoch[2] Train-A4-accuracy=3.032258
+2024-03-31 19:40:17,841 [INFO]  Epoch[2] Time cost=1.157
+2024-03-31 19:40:17,843 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0002.params"
+2024-03-31 19:40:18,383 [INFO]  Epoch[2] Validation-cross-entropy=0.543981
+2024-03-31 19:40:18,383 [INFO]  Epoch[2] Validation-A4-accuracy=0.000000
+2024-03-31 19:40:21,279 [INFO]  Epoch[3] Batch [0-16]	Speed: 98.57 samples/sec	cross-entropy=0.219360	A4-accuracy=3.176471
+2024-03-31 19:40:22,792 [INFO]  Epoch[3] Train-cross-entropy=0.202550
+2024-03-31 19:40:22,792 [INFO]  Epoch[3] Train-A4-accuracy=3.032258
+2024-03-31 19:40:22,792 [INFO]  Epoch[3] Time cost=4.409
+2024-03-31 19:40:22,795 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0003.params"
+2024-03-31 19:40:22,826 [INFO]  Epoch[3] Validation-cross-entropy=0.368667
+2024-03-31 19:40:22,827 [INFO]  Epoch[3] Validation-A4-accuracy=0.000000
+2024-03-31 19:40:30,243 [INFO]  Epoch[4] Batch [0-16]	Speed: 34.91 samples/sec	cross-entropy=0.169018	A4-accuracy=3.176471
+2024-03-31 19:40:31,670 [INFO]  Epoch[4] Train-cross-entropy=0.144266
+2024-03-31 19:40:31,670 [INFO]  Epoch[4] Train-A4-accuracy=3.032258
+2024-03-31 19:40:31,670 [INFO]  Epoch[4] Time cost=8.843
+2024-03-31 19:40:31,671 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0004.params"
+2024-03-31 19:40:31,675 [INFO]  Epoch[4] Validation-cross-entropy=0.432873
+2024-03-31 19:40:31,675 [INFO]  Epoch[4] Validation-A4-accuracy=0.000000
+2024-03-31 19:40:31,675 [INFO]  
+========== done (15.359330654144287 s) fit model
+2024-03-31 19:44:25,211 [INFO]  
+========== start: fit model
+2024-03-31 19:44:25,211 [WARNING]  Already bound, ignoring bind()
+2024-03-31 19:44:25,238 [INFO]  Epoch[0] Batch [0-16]	Speed: 10432.58 samples/sec	cross-entropy=9.186266	A4-accuracy=3.000000
+2024-03-31 19:44:25,266 [INFO]  Epoch[0] Train-cross-entropy=6.295446
+2024-03-31 19:44:25,266 [INFO]  Epoch[0] Train-A4-accuracy=3.290323
+2024-03-31 19:44:25,266 [INFO]  Epoch[0] Time cost=0.054
+2024-03-31 19:44:25,268 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0000.params"
+2024-03-31 19:44:25,269 [INFO]  Epoch[0] Validation-cross-entropy=1.266089
+2024-03-31 19:44:25,269 [INFO]  Epoch[0] Validation-A4-accuracy=0.000000
+2024-03-31 19:44:25,289 [INFO]  Epoch[1] Batch [0-16]	Speed: 14125.58 samples/sec	cross-entropy=1.486892	A4-accuracy=3.000000
+2024-03-31 19:44:25,331 [INFO]  Epoch[1] Train-cross-entropy=1.273494
+2024-03-31 19:44:25,331 [INFO]  Epoch[1] Train-A4-accuracy=3.290323
+2024-03-31 19:44:25,331 [INFO]  Epoch[1] Time cost=0.061
+2024-03-31 19:44:25,332 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0001.params"
+2024-03-31 19:44:25,333 [INFO]  Epoch[1] Validation-cross-entropy=0.813372
+2024-03-31 19:44:25,333 [INFO]  Epoch[1] Validation-A4-accuracy=0.000000
+2024-03-31 19:44:25,344 [INFO]  Epoch[2] Batch [0-16]	Speed: 24713.26 samples/sec	cross-entropy=0.531234	A4-accuracy=3.000000
+2024-03-31 19:44:25,376 [INFO]  Epoch[2] Train-cross-entropy=0.468622
+2024-03-31 19:44:25,376 [INFO]  Epoch[2] Train-A4-accuracy=3.290323
+2024-03-31 19:44:25,376 [INFO]  Epoch[2] Time cost=0.042
+2024-03-31 19:44:25,377 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0002.params"
+2024-03-31 19:44:25,378 [INFO]  Epoch[2] Validation-cross-entropy=0.549480
+2024-03-31 19:44:25,378 [INFO]  Epoch[2] Validation-A4-accuracy=0.000000
+2024-03-31 19:44:25,389 [INFO]  Epoch[3] Batch [0-16]	Speed: 24830.42 samples/sec	cross-entropy=0.278427	A4-accuracy=3.000000
+2024-03-31 19:44:25,435 [INFO]  Epoch[3] Train-cross-entropy=0.262862
+2024-03-31 19:44:25,436 [INFO]  Epoch[3] Train-A4-accuracy=3.290323
+2024-03-31 19:44:25,436 [INFO]  Epoch[3] Time cost=0.057
+2024-03-31 19:44:25,437 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0003.params"
+2024-03-31 19:44:25,442 [INFO]  Epoch[3] Validation-cross-entropy=0.398233
+2024-03-31 19:44:25,442 [INFO]  Epoch[3] Validation-A4-accuracy=0.000000
+2024-03-31 19:44:25,460 [INFO]  Epoch[4] Batch [0-16]	Speed: 15745.86 samples/sec	cross-entropy=0.185363	A4-accuracy=3.000000
+2024-03-31 19:44:25,473 [INFO]  Epoch[4] Train-cross-entropy=0.175152
+2024-03-31 19:44:25,473 [INFO]  Epoch[4] Train-A4-accuracy=3.290323
+2024-03-31 19:44:25,473 [INFO]  Epoch[4] Time cost=0.030
+2024-03-31 19:44:25,474 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0004.params"
+2024-03-31 19:44:25,476 [INFO]  Epoch[4] Validation-cross-entropy=0.319155
+2024-03-31 19:44:25,476 [INFO]  Epoch[4] Validation-A4-accuracy=0.000000
+2024-03-31 19:44:25,476 [INFO]  
+========== done (0.2649378776550293 s) fit model
+2024-03-31 19:47:33,999 [INFO]  
+========== start: fit model
+2024-03-31 19:47:33,999 [WARNING]  Already bound, ignoring bind()
+2024-03-31 19:47:34,017 [INFO]  Epoch[0] Batch [0-16]	Speed: 19025.83 samples/sec	cross-entropy=6.926962	A4-accuracy=0.000000
+2024-03-31 19:47:34,061 [INFO]  Epoch[0] Train-cross-entropy=4.748609
+2024-03-31 19:47:34,061 [INFO]  Epoch[0] Train-A4-accuracy=0.000000
+2024-03-31 19:47:34,061 [INFO]  Epoch[0] Time cost=0.062
+2024-03-31 19:47:34,063 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0000.params"
+2024-03-31 19:47:34,065 [INFO]  Epoch[0] Validation-cross-entropy=1.133571
+2024-03-31 19:47:34,065 [INFO]  Epoch[0] Validation-A4-accuracy=0.000000
+2024-03-31 19:47:34,110 [INFO]  Epoch[1] Batch [0-16]	Speed: 5746.42 samples/sec	cross-entropy=1.097672	A4-accuracy=0.000000
+2024-03-31 19:47:34,361 [INFO]  Epoch[1] Train-cross-entropy=0.865873
+2024-03-31 19:47:34,361 [INFO]  Epoch[1] Train-A4-accuracy=0.000000
+2024-03-31 19:47:34,361 [INFO]  Epoch[1] Time cost=0.296
+2024-03-31 19:47:34,375 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0001.params"
+2024-03-31 19:47:34,406 [INFO]  Epoch[1] Validation-cross-entropy=0.637461
+2024-03-31 19:47:34,407 [INFO]  Epoch[1] Validation-A4-accuracy=0.000000
+2024-03-31 19:47:34,562 [INFO]  Epoch[2] Batch [0-16]	Speed: 2287.30 samples/sec	cross-entropy=0.536783	A4-accuracy=0.000000
+2024-03-31 19:47:34,589 [INFO]  Epoch[2] Train-cross-entropy=0.419595
+2024-03-31 19:47:34,589 [INFO]  Epoch[2] Train-A4-accuracy=0.000000
+2024-03-31 19:47:34,589 [INFO]  Epoch[2] Time cost=0.182
+2024-03-31 19:47:34,591 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0002.params"
+2024-03-31 19:47:34,592 [INFO]  Epoch[2] Validation-cross-entropy=0.526178
+2024-03-31 19:47:34,592 [INFO]  Epoch[2] Validation-A4-accuracy=0.000000
+2024-03-31 19:47:34,609 [INFO]  Epoch[3] Batch [0-16]	Speed: 16176.41 samples/sec	cross-entropy=0.307011	A4-accuracy=0.000000
+2024-03-31 19:47:34,622 [INFO]  Epoch[3] Train-cross-entropy=0.246654
+2024-03-31 19:47:34,622 [INFO]  Epoch[3] Train-A4-accuracy=0.000000
+2024-03-31 19:47:34,622 [INFO]  Epoch[3] Time cost=0.030
+2024-03-31 19:47:34,624 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0003.params"
+2024-03-31 19:47:34,626 [INFO]  Epoch[3] Validation-cross-entropy=0.446363
+2024-03-31 19:47:34,626 [INFO]  Epoch[3] Validation-A4-accuracy=0.000000
+2024-03-31 19:47:34,673 [INFO]  Epoch[4] Batch [0-16]	Speed: 5615.36 samples/sec	cross-entropy=0.213661	A4-accuracy=0.000000
+2024-03-31 19:47:34,842 [INFO]  Epoch[4] Train-cross-entropy=0.173986
+2024-03-31 19:47:34,842 [INFO]  Epoch[4] Train-A4-accuracy=0.000000
+2024-03-31 19:47:34,842 [INFO]  Epoch[4] Time cost=0.215
+2024-03-31 19:47:34,844 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0004.params"
+2024-03-31 19:47:34,868 [INFO]  Epoch[4] Validation-cross-entropy=0.349187
+2024-03-31 19:47:34,869 [INFO]  Epoch[4] Validation-A4-accuracy=0.000000
+2024-03-31 19:47:34,869 [INFO]  
+========== done (0.8699648380279541 s) fit model
+2024-03-31 19:50:44,261 [INFO]  
+========== start: fit model
+2024-03-31 19:50:44,261 [WARNING]  Already bound, ignoring bind()
+2024-03-31 19:50:44,283 [INFO]  Epoch[0] Batch [0-16]	Speed: 16134.60 samples/sec	cross-entropy=11.066665	A4-accuracy=3.588235
+2024-03-31 19:50:44,294 [INFO]  Epoch[0] Train-cross-entropy=7.303870
+2024-03-31 19:50:44,294 [INFO]  Epoch[0] Train-A4-accuracy=3.258065
+2024-03-31 19:50:44,295 [INFO]  Epoch[0] Time cost=0.032
+2024-03-31 19:50:44,296 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0000.params"
+2024-03-31 19:50:44,297 [INFO]  Epoch[0] Validation-cross-entropy=1.737848
+2024-03-31 19:50:44,298 [INFO]  Epoch[0] Validation-A4-accuracy=0.000000
+2024-03-31 19:50:44,311 [INFO]  Epoch[1] Batch [0-16]	Speed: 21144.97 samples/sec	cross-entropy=1.606603	A4-accuracy=3.588235
+2024-03-31 19:50:44,326 [INFO]  Epoch[1] Train-cross-entropy=1.177018
+2024-03-31 19:50:44,326 [INFO]  Epoch[1] Train-A4-accuracy=3.258065
+2024-03-31 19:50:44,326 [INFO]  Epoch[1] Time cost=0.028
+2024-03-31 19:50:44,328 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0001.params"
+2024-03-31 19:50:44,329 [INFO]  Epoch[1] Validation-cross-entropy=0.861281
+2024-03-31 19:50:44,329 [INFO]  Epoch[1] Validation-A4-accuracy=0.000000
+2024-03-31 19:50:44,345 [INFO]  Epoch[2] Batch [0-16]	Speed: 16701.28 samples/sec	cross-entropy=0.495622	A4-accuracy=3.588235
+2024-03-31 19:50:44,359 [INFO]  Epoch[2] Train-cross-entropy=0.424336
+2024-03-31 19:50:44,359 [INFO]  Epoch[2] Train-A4-accuracy=3.258065
+2024-03-31 19:50:44,359 [INFO]  Epoch[2] Time cost=0.030
+2024-03-31 19:50:44,360 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0002.params"
+2024-03-31 19:50:44,361 [INFO]  Epoch[2] Validation-cross-entropy=0.667821
+2024-03-31 19:50:44,361 [INFO]  Epoch[2] Validation-A4-accuracy=0.000000
+2024-03-31 19:50:44,377 [INFO]  Epoch[3] Batch [0-16]	Speed: 16981.79 samples/sec	cross-entropy=0.274670	A4-accuracy=3.588235
+2024-03-31 19:50:44,417 [INFO]  Epoch[3] Train-cross-entropy=0.228066
+2024-03-31 19:50:44,417 [INFO]  Epoch[3] Train-A4-accuracy=3.258065
+2024-03-31 19:50:44,417 [INFO]  Epoch[3] Time cost=0.056
+2024-03-31 19:50:44,419 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0003.params"
+2024-03-31 19:50:44,421 [INFO]  Epoch[3] Validation-cross-entropy=0.462055
+2024-03-31 19:50:44,421 [INFO]  Epoch[3] Validation-A4-accuracy=0.000000
+2024-03-31 19:50:44,443 [INFO]  Epoch[4] Batch [0-16]	Speed: 11959.03 samples/sec	cross-entropy=0.148954	A4-accuracy=3.588235
+2024-03-31 19:50:44,454 [INFO]  Epoch[4] Train-cross-entropy=0.136378
+2024-03-31 19:50:44,454 [INFO]  Epoch[4] Train-A4-accuracy=3.258065
+2024-03-31 19:50:44,454 [INFO]  Epoch[4] Time cost=0.033
+2024-03-31 19:50:44,458 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0004.params"
+2024-03-31 19:50:44,465 [INFO]  Epoch[4] Validation-cross-entropy=0.388142
+2024-03-31 19:50:44,466 [INFO]  Epoch[4] Validation-A4-accuracy=0.000000
+2024-03-31 19:50:44,466 [INFO]  
+========== done (0.20427846908569336 s) fit model
+2024-03-31 19:53:53,160 [INFO]  
+========== start: fit model
+2024-03-31 19:53:53,160 [WARNING]  Already bound, ignoring bind()
+2024-03-31 19:53:53,174 [INFO]  Epoch[0] Batch [0-16]	Speed: 24377.74 samples/sec	cross-entropy=12.347247	A4-accuracy=3.411765
+2024-03-31 19:53:53,187 [INFO]  Epoch[0] Train-cross-entropy=8.234592
+2024-03-31 19:53:53,187 [INFO]  Epoch[0] Train-A4-accuracy=3.258065
+2024-03-31 19:53:53,187 [INFO]  Epoch[0] Time cost=0.026
+2024-03-31 19:53:53,194 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0000.params"
+2024-03-31 19:53:53,199 [INFO]  Epoch[0] Validation-cross-entropy=3.238201
+2024-03-31 19:53:53,199 [INFO]  Epoch[0] Validation-A4-accuracy=0.000000
+2024-03-31 19:53:53,209 [INFO]  Epoch[1] Batch [0-16]	Speed: 26839.52 samples/sec	cross-entropy=1.927250	A4-accuracy=3.411765
+2024-03-31 19:53:53,217 [INFO]  Epoch[1] Train-cross-entropy=1.538893
+2024-03-31 19:53:53,217 [INFO]  Epoch[1] Train-A4-accuracy=3.258065
+2024-03-31 19:53:53,217 [INFO]  Epoch[1] Time cost=0.019
+2024-03-31 19:53:53,219 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0001.params"
+2024-03-31 19:53:53,220 [INFO]  Epoch[1] Validation-cross-entropy=1.346662
+2024-03-31 19:53:53,220 [INFO]  Epoch[1] Validation-A4-accuracy=0.000000
+2024-03-31 19:53:53,231 [INFO]  Epoch[2] Batch [0-16]	Speed: 23593.54 samples/sec	cross-entropy=0.770364	A4-accuracy=3.411765
+2024-03-31 19:53:53,243 [INFO]  Epoch[2] Train-cross-entropy=0.600128
+2024-03-31 19:53:53,243 [INFO]  Epoch[2] Train-A4-accuracy=3.258065
+2024-03-31 19:53:53,243 [INFO]  Epoch[2] Time cost=0.023
+2024-03-31 19:53:53,244 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0002.params"
+2024-03-31 19:53:53,245 [INFO]  Epoch[2] Validation-cross-entropy=0.485354
+2024-03-31 19:53:53,245 [INFO]  Epoch[2] Validation-A4-accuracy=0.000000
+2024-03-31 19:53:53,277 [INFO]  Epoch[3] Batch [0-16]	Speed: 8197.94 samples/sec	cross-entropy=0.679904	A4-accuracy=3.411765
+2024-03-31 19:53:53,301 [INFO]  Epoch[3] Train-cross-entropy=0.510466
+2024-03-31 19:53:53,302 [INFO]  Epoch[3] Train-A4-accuracy=3.258065
+2024-03-31 19:53:53,302 [INFO]  Epoch[3] Time cost=0.057
+2024-03-31 19:53:53,303 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0003.params"
+2024-03-31 19:53:53,305 [INFO]  Epoch[3] Validation-cross-entropy=0.542749
+2024-03-31 19:53:53,305 [INFO]  Epoch[3] Validation-A4-accuracy=0.000000
+2024-03-31 19:53:53,319 [INFO]  Epoch[4] Batch [0-16]	Speed: 19253.04 samples/sec	cross-entropy=0.543968	A4-accuracy=3.411765
+2024-03-31 19:53:53,333 [INFO]  Epoch[4] Train-cross-entropy=0.399003
+2024-03-31 19:53:53,333 [INFO]  Epoch[4] Train-A4-accuracy=3.258065
+2024-03-31 19:53:53,333 [INFO]  Epoch[4] Time cost=0.028
+2024-03-31 19:53:53,334 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0004.params"
+2024-03-31 19:53:53,336 [INFO]  Epoch[4] Validation-cross-entropy=0.275203
+2024-03-31 19:53:53,336 [INFO]  Epoch[4] Validation-A4-accuracy=0.000000
+2024-03-31 19:53:53,336 [INFO]  
+========== done (0.17559313774108887 s) fit model
+2024-03-31 19:54:13,968 [INFO]  
+========== start: fit model
+2024-03-31 19:54:13,969 [WARNING]  Already bound, ignoring bind()
+2024-03-31 19:54:14,331 [INFO]  Epoch[0] Batch [0-16]	Speed: 1027.04 samples/sec	cross-entropy=7.231651	A4-accuracy=3.411765
+2024-03-31 19:54:14,422 [INFO]  Epoch[0] Train-cross-entropy=5.318936
+2024-03-31 19:54:14,422 [INFO]  Epoch[0] Train-A4-accuracy=3.354839
+2024-03-31 19:54:14,422 [INFO]  Epoch[0] Time cost=0.453
+2024-03-31 19:54:14,424 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0000.params"
+2024-03-31 19:54:14,433 [INFO]  Epoch[0] Validation-cross-entropy=1.554950
+2024-03-31 19:54:14,433 [INFO]  Epoch[0] Validation-A4-accuracy=0.000000
+2024-03-31 19:54:14,660 [INFO]  Epoch[1] Batch [0-16]	Speed: 1152.90 samples/sec	cross-entropy=1.192124	A4-accuracy=3.411765
+2024-03-31 19:54:14,943 [INFO]  Epoch[1] Train-cross-entropy=0.978954
+2024-03-31 19:54:14,944 [INFO]  Epoch[1] Train-A4-accuracy=3.354839
+2024-03-31 19:54:14,944 [INFO]  Epoch[1] Time cost=0.510
+2024-03-31 19:54:14,945 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0001.params"
+2024-03-31 19:54:14,946 [INFO]  Epoch[1] Validation-cross-entropy=0.657008
+2024-03-31 19:54:14,946 [INFO]  Epoch[1] Validation-A4-accuracy=0.000000
+2024-03-31 19:54:15,067 [INFO]  Epoch[2] Batch [0-16]	Speed: 2275.02 samples/sec	cross-entropy=0.357477	A4-accuracy=3.411765
+2024-03-31 19:54:15,181 [INFO]  Epoch[2] Train-cross-entropy=0.348077
+2024-03-31 19:54:15,182 [INFO]  Epoch[2] Train-A4-accuracy=3.354839
+2024-03-31 19:54:15,182 [INFO]  Epoch[2] Time cost=0.235
+2024-03-31 19:54:15,183 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0002.params"
+2024-03-31 19:54:15,191 [INFO]  Epoch[2] Validation-cross-entropy=0.398367
+2024-03-31 19:54:15,191 [INFO]  Epoch[2] Validation-A4-accuracy=0.000000
+2024-03-31 19:54:15,280 [INFO]  Epoch[3] Batch [0-16]	Speed: 5126.58 samples/sec	cross-entropy=0.166384	A4-accuracy=3.411765
+2024-03-31 19:54:15,301 [INFO]  Epoch[3] Train-cross-entropy=0.211370
+2024-03-31 19:54:15,301 [INFO]  Epoch[3] Train-A4-accuracy=3.354839
+2024-03-31 19:54:15,301 [INFO]  Epoch[3] Time cost=0.109
+2024-03-31 19:54:15,303 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0003.params"
+2024-03-31 19:54:15,306 [INFO]  Epoch[3] Validation-cross-entropy=0.328672
+2024-03-31 19:54:15,306 [INFO]  Epoch[3] Validation-A4-accuracy=0.000000
+2024-03-31 19:54:15,453 [INFO]  Epoch[4] Batch [0-16]	Speed: 1757.36 samples/sec	cross-entropy=0.152273	A4-accuracy=3.411765
+2024-03-31 19:54:15,626 [INFO]  Epoch[4] Train-cross-entropy=0.209263
+2024-03-31 19:54:15,626 [INFO]  Epoch[4] Train-A4-accuracy=3.354839
+2024-03-31 19:54:15,627 [INFO]  Epoch[4] Time cost=0.321
+2024-03-31 19:54:15,631 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0004.params"
+2024-03-31 19:54:15,738 [INFO]  Epoch[4] Validation-cross-entropy=0.234151
+2024-03-31 19:54:15,738 [INFO]  Epoch[4] Validation-A4-accuracy=0.000000
+2024-03-31 19:54:15,738 [INFO]  
+========== done (1.7700984477996826 s) fit model
+2024-03-31 19:54:36,696 [INFO]  
+========== start: fit model
+2024-03-31 19:54:36,696 [WARNING]  Already bound, ignoring bind()
+2024-03-31 19:54:36,874 [INFO]  Epoch[0] Batch [0-16]	Speed: 1498.08 samples/sec	cross-entropy=10.278859	A4-accuracy=3.470588
+2024-03-31 19:54:36,967 [INFO]  Epoch[0] Train-cross-entropy=6.513103
+2024-03-31 19:54:36,967 [INFO]  Epoch[0] Train-A4-accuracy=3.225806
+2024-03-31 19:54:36,967 [INFO]  Epoch[0] Time cost=0.270
+2024-03-31 19:54:36,969 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0000.params"
+2024-03-31 19:54:36,974 [INFO]  Epoch[0] Validation-cross-entropy=1.610300
+2024-03-31 19:54:36,974 [INFO]  Epoch[0] Validation-A4-accuracy=0.000000
+2024-03-31 19:54:37,082 [INFO]  Epoch[1] Batch [0-16]	Speed: 2392.00 samples/sec	cross-entropy=1.857797	A4-accuracy=3.470588
+2024-03-31 19:54:37,184 [INFO]  Epoch[1] Train-cross-entropy=1.404230
+2024-03-31 19:54:37,184 [INFO]  Epoch[1] Train-A4-accuracy=3.225806
+2024-03-31 19:54:37,184 [INFO]  Epoch[1] Time cost=0.210
+2024-03-31 19:54:37,186 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0001.params"
+2024-03-31 19:54:37,187 [INFO]  Epoch[1] Validation-cross-entropy=1.100349
+2024-03-31 19:54:37,188 [INFO]  Epoch[1] Validation-A4-accuracy=0.000000
+2024-03-31 19:54:37,209 [INFO]  Epoch[2] Batch [0-16]	Speed: 12866.12 samples/sec	cross-entropy=1.310830	A4-accuracy=3.470588
+2024-03-31 19:54:37,223 [INFO]  Epoch[2] Train-cross-entropy=0.937077
+2024-03-31 19:54:37,223 [INFO]  Epoch[2] Train-A4-accuracy=3.225806
+2024-03-31 19:54:37,223 [INFO]  Epoch[2] Time cost=0.035
+2024-03-31 19:54:37,225 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0002.params"
+2024-03-31 19:54:37,227 [INFO]  Epoch[2] Validation-cross-entropy=0.541441
+2024-03-31 19:54:37,227 [INFO]  Epoch[2] Validation-A4-accuracy=0.000000
+2024-03-31 19:54:37,243 [INFO]  Epoch[3] Batch [0-16]	Speed: 17017.32 samples/sec	cross-entropy=1.018498	A4-accuracy=3.470588
+2024-03-31 19:54:37,261 [INFO]  Epoch[3] Train-cross-entropy=0.724074
+2024-03-31 19:54:37,261 [INFO]  Epoch[3] Train-A4-accuracy=3.225806
+2024-03-31 19:54:37,261 [INFO]  Epoch[3] Time cost=0.034
+2024-03-31 19:54:37,263 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0003.params"
+2024-03-31 19:54:37,264 [INFO]  Epoch[3] Validation-cross-entropy=0.610007
+2024-03-31 19:54:37,264 [INFO]  Epoch[3] Validation-A4-accuracy=0.000000
+2024-03-31 19:54:37,296 [INFO]  Epoch[4] Batch [0-16]	Speed: 8638.03 samples/sec	cross-entropy=0.909478	A4-accuracy=3.470588
+2024-03-31 19:54:37,328 [INFO]  Epoch[4] Train-cross-entropy=0.644433
+2024-03-31 19:54:37,328 [INFO]  Epoch[4] Train-A4-accuracy=3.225806
+2024-03-31 19:54:37,328 [INFO]  Epoch[4] Time cost=0.064
+2024-03-31 19:54:37,330 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0004.params"
+2024-03-31 19:54:37,331 [INFO]  Epoch[4] Validation-cross-entropy=0.350913
+2024-03-31 19:54:37,331 [INFO]  Epoch[4] Validation-A4-accuracy=0.000000
+2024-03-31 19:54:37,331 [INFO]  
+========== done (0.6353926658630371 s) fit model
+2024-03-31 19:55:02,937 [INFO]  
+========== start: fit model
+2024-03-31 19:55:02,937 [WARNING]  Already bound, ignoring bind()
+2024-03-31 19:55:02,955 [INFO]  Epoch[0] Batch [0-16]	Speed: 16443.72 samples/sec	cross-entropy=9.962364	A4-accuracy=3.352941
+2024-03-31 19:55:02,964 [INFO]  Epoch[0] Train-cross-entropy=7.131299
+2024-03-31 19:55:02,965 [INFO]  Epoch[0] Train-A4-accuracy=2.870968
+2024-03-31 19:55:02,965 [INFO]  Epoch[0] Time cost=0.027
+2024-03-31 19:55:02,966 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0000.params"
+2024-03-31 19:55:02,967 [INFO]  Epoch[0] Validation-cross-entropy=1.072936
+2024-03-31 19:55:02,967 [INFO]  Epoch[0] Validation-A4-accuracy=0.000000
+2024-03-31 19:55:02,979 [INFO]  Epoch[1] Batch [0-16]	Speed: 23449.26 samples/sec	cross-entropy=1.405093	A4-accuracy=3.352941
+2024-03-31 19:55:02,988 [INFO]  Epoch[1] Train-cross-entropy=1.198050
+2024-03-31 19:55:02,988 [INFO]  Epoch[1] Train-A4-accuracy=2.870968
+2024-03-31 19:55:02,988 [INFO]  Epoch[1] Time cost=0.021
+2024-03-31 19:55:02,990 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0001.params"
+2024-03-31 19:55:02,991 [INFO]  Epoch[1] Validation-cross-entropy=0.386204
+2024-03-31 19:55:02,991 [INFO]  Epoch[1] Validation-A4-accuracy=0.000000
+2024-03-31 19:55:03,002 [INFO]  Epoch[2] Batch [0-16]	Speed: 24090.59 samples/sec	cross-entropy=0.440295	A4-accuracy=3.352941
+2024-03-31 19:55:03,011 [INFO]  Epoch[2] Train-cross-entropy=0.455281
+2024-03-31 19:55:03,012 [INFO]  Epoch[2] Train-A4-accuracy=2.870968
+2024-03-31 19:55:03,012 [INFO]  Epoch[2] Time cost=0.021
+2024-03-31 19:55:03,013 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0002.params"
+2024-03-31 19:55:03,014 [INFO]  Epoch[2] Validation-cross-entropy=0.615113
+2024-03-31 19:55:03,014 [INFO]  Epoch[2] Validation-A4-accuracy=0.000000
+2024-03-31 19:55:03,026 [INFO]  Epoch[3] Batch [0-16]	Speed: 23440.05 samples/sec	cross-entropy=0.257181	A4-accuracy=3.352941
+2024-03-31 19:55:03,035 [INFO]  Epoch[3] Train-cross-entropy=0.279994
+2024-03-31 19:55:03,035 [INFO]  Epoch[3] Train-A4-accuracy=2.870968
+2024-03-31 19:55:03,035 [INFO]  Epoch[3] Time cost=0.021
+2024-03-31 19:55:03,037 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0003.params"
+2024-03-31 19:55:03,038 [INFO]  Epoch[3] Validation-cross-entropy=0.150621
+2024-03-31 19:55:03,038 [INFO]  Epoch[3] Validation-A4-accuracy=0.000000
+2024-03-31 19:55:03,050 [INFO]  Epoch[4] Batch [0-16]	Speed: 23156.96 samples/sec	cross-entropy=0.186125	A4-accuracy=3.352941
+2024-03-31 19:55:03,059 [INFO]  Epoch[4] Train-cross-entropy=0.248569
+2024-03-31 19:55:03,059 [INFO]  Epoch[4] Train-A4-accuracy=2.870968
+2024-03-31 19:55:03,059 [INFO]  Epoch[4] Time cost=0.021
+2024-03-31 19:55:03,061 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0004.params"
+2024-03-31 19:55:03,062 [INFO]  Epoch[4] Validation-cross-entropy=0.661238
+2024-03-31 19:55:03,062 [INFO]  Epoch[4] Validation-A4-accuracy=0.000000
+2024-03-31 19:55:03,062 [INFO]  
+========== done (0.12523317337036133 s) fit model
+2024-03-31 19:55:14,545 [INFO]  
+========== start: fit model
+2024-03-31 19:55:14,546 [WARNING]  Already bound, ignoring bind()
+2024-03-31 19:55:14,985 [INFO]  Epoch[0] Batch [0-16]	Speed: 664.16 samples/sec	cross-entropy=12.606464	A4-accuracy=0.000000
+2024-03-31 19:55:15,061 [INFO]  Epoch[0] Train-cross-entropy=7.851320
+2024-03-31 19:55:15,061 [INFO]  Epoch[0] Train-A4-accuracy=0.000000
+2024-03-31 19:55:15,061 [INFO]  Epoch[0] Time cost=0.514
+2024-03-31 19:55:15,062 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0000.params"
+2024-03-31 19:55:15,063 [INFO]  Epoch[0] Validation-cross-entropy=1.967127
+2024-03-31 19:55:15,063 [INFO]  Epoch[0] Validation-A4-accuracy=0.000000
+2024-03-31 19:55:15,164 [INFO]  Epoch[1] Batch [0-16]	Speed: 2557.41 samples/sec	cross-entropy=1.758660	A4-accuracy=0.000000
+2024-03-31 19:55:15,224 [INFO]  Epoch[1] Train-cross-entropy=1.286694
+2024-03-31 19:55:15,225 [INFO]  Epoch[1] Train-A4-accuracy=0.000000
+2024-03-31 19:55:15,225 [INFO]  Epoch[1] Time cost=0.161
+2024-03-31 19:55:15,226 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0001.params"
+2024-03-31 19:55:15,231 [INFO]  Epoch[1] Validation-cross-entropy=0.508213
+2024-03-31 19:55:15,231 [INFO]  Epoch[1] Validation-A4-accuracy=0.000000
+2024-03-31 19:55:15,317 [INFO]  Epoch[2] Batch [0-16]	Speed: 3022.87 samples/sec	cross-entropy=0.552761	A4-accuracy=0.000000
+2024-03-31 19:55:15,330 [INFO]  Epoch[2] Train-cross-entropy=0.456646
+2024-03-31 19:55:15,330 [INFO]  Epoch[2] Train-A4-accuracy=0.000000
+2024-03-31 19:55:15,330 [INFO]  Epoch[2] Time cost=0.099
+2024-03-31 19:55:15,332 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0002.params"
+2024-03-31 19:55:15,332 [INFO]  Epoch[2] Validation-cross-entropy=0.516183
+2024-03-31 19:55:15,332 [INFO]  Epoch[2] Validation-A4-accuracy=0.000000
+2024-03-31 19:55:15,574 [INFO]  Epoch[3] Batch [0-16]	Speed: 1064.48 samples/sec	cross-entropy=0.316393	A4-accuracy=0.000000
+2024-03-31 19:55:15,608 [INFO]  Epoch[3] Train-cross-entropy=0.271707
+2024-03-31 19:55:15,608 [INFO]  Epoch[3] Train-A4-accuracy=0.000000
+2024-03-31 19:55:15,608 [INFO]  Epoch[3] Time cost=0.275
+2024-03-31 19:55:15,610 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0003.params"
+2024-03-31 19:55:15,611 [INFO]  Epoch[3] Validation-cross-entropy=0.358063
+2024-03-31 19:55:15,611 [INFO]  Epoch[3] Validation-A4-accuracy=0.000000
+2024-03-31 19:55:15,682 [INFO]  Epoch[4] Batch [0-16]	Speed: 3649.25 samples/sec	cross-entropy=0.185261	A4-accuracy=0.000000
+2024-03-31 19:55:15,809 [INFO]  Epoch[4] Train-cross-entropy=0.161834
+2024-03-31 19:55:15,809 [INFO]  Epoch[4] Train-A4-accuracy=0.000000
+2024-03-31 19:55:15,809 [INFO]  Epoch[4] Time cost=0.198
+2024-03-31 19:55:15,810 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0004.params"
+2024-03-31 19:55:15,812 [INFO]  Epoch[4] Validation-cross-entropy=0.403699
+2024-03-31 19:55:15,812 [INFO]  Epoch[4] Validation-A4-accuracy=0.000000
+2024-03-31 19:55:15,812 [INFO]  
+========== done (1.2668960094451904 s) fit model
+2024-03-31 19:55:42,220 [INFO]  
+========== start: fit model
+2024-03-31 19:55:42,220 [WARNING]  Already bound, ignoring bind()
+2024-03-31 19:55:42,275 [INFO]  Epoch[0] Batch [0-16]	Speed: 6937.80 samples/sec	cross-entropy=13.914252	A4-accuracy=0.000000
+2024-03-31 19:55:42,440 [INFO]  Epoch[0] Train-cross-entropy=8.661114
+2024-03-31 19:55:42,440 [INFO]  Epoch[0] Train-A4-accuracy=0.000000
+2024-03-31 19:55:42,440 [INFO]  Epoch[0] Time cost=0.219
+2024-03-31 19:55:42,441 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0000.params"
+2024-03-31 19:55:42,442 [INFO]  Epoch[0] Validation-cross-entropy=2.279338
+2024-03-31 19:55:42,442 [INFO]  Epoch[0] Validation-A4-accuracy=0.000000
+2024-03-31 19:55:42,746 [INFO]  Epoch[1] Batch [0-16]	Speed: 933.76 samples/sec	cross-entropy=1.636691	A4-accuracy=0.000000
+2024-03-31 19:55:42,789 [INFO]  Epoch[1] Train-cross-entropy=1.237192
+2024-03-31 19:55:42,789 [INFO]  Epoch[1] Train-A4-accuracy=0.000000
+2024-03-31 19:55:42,789 [INFO]  Epoch[1] Time cost=0.347
+2024-03-31 19:55:42,791 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0001.params"
+2024-03-31 19:55:42,793 [INFO]  Epoch[1] Validation-cross-entropy=0.772173
+2024-03-31 19:55:42,793 [INFO]  Epoch[1] Validation-A4-accuracy=0.000000
+2024-03-31 19:55:42,929 [INFO]  Epoch[2] Batch [0-16]	Speed: 1895.29 samples/sec	cross-entropy=0.489633	A4-accuracy=0.000000
+2024-03-31 19:55:42,941 [INFO]  Epoch[2] Train-cross-entropy=0.420637
+2024-03-31 19:55:42,941 [INFO]  Epoch[2] Train-A4-accuracy=0.000000
+2024-03-31 19:55:42,941 [INFO]  Epoch[2] Time cost=0.149
+2024-03-31 19:55:42,943 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0002.params"
+2024-03-31 19:55:42,944 [INFO]  Epoch[2] Validation-cross-entropy=0.328908
+2024-03-31 19:55:42,944 [INFO]  Epoch[2] Validation-A4-accuracy=0.000000
+2024-03-31 19:55:43,204 [INFO]  Epoch[3] Batch [0-16]	Speed: 988.15 samples/sec	cross-entropy=0.273867	A4-accuracy=0.000000
+2024-03-31 19:55:43,541 [INFO]  Epoch[3] Train-cross-entropy=0.248596
+2024-03-31 19:55:43,541 [INFO]  Epoch[3] Train-A4-accuracy=0.000000
+2024-03-31 19:55:43,541 [INFO]  Epoch[3] Time cost=0.597
+2024-03-31 19:55:43,543 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0003.params"
+2024-03-31 19:55:43,544 [INFO]  Epoch[3] Validation-cross-entropy=0.258482
+2024-03-31 19:55:43,544 [INFO]  Epoch[3] Validation-A4-accuracy=0.000000
+2024-03-31 19:55:43,734 [INFO]  Epoch[4] Batch [0-16]	Speed: 1354.22 samples/sec	cross-entropy=0.172454	A4-accuracy=0.000000
+2024-03-31 19:55:43,774 [INFO]  Epoch[4] Train-cross-entropy=0.162492
+2024-03-31 19:55:43,774 [INFO]  Epoch[4] Train-A4-accuracy=0.000000
+2024-03-31 19:55:43,774 [INFO]  Epoch[4] Time cost=0.230
+2024-03-31 19:55:43,775 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0004.params"
+2024-03-31 19:55:43,777 [INFO]  Epoch[4] Validation-cross-entropy=0.193913
+2024-03-31 19:55:43,777 [INFO]  Epoch[4] Validation-A4-accuracy=0.000000
+2024-03-31 19:55:43,777 [INFO]  
+========== done (1.5571043491363525 s) fit model
+2024-03-31 19:56:11,977 [INFO]  
+========== start: fit model
+2024-03-31 19:56:11,977 [WARNING]  Already bound, ignoring bind()
+2024-03-31 19:56:12,011 [INFO]  Epoch[0] Batch [0-16]	Speed: 10116.66 samples/sec	cross-entropy=9.105553	A4-accuracy=2.941176
+2024-03-31 19:56:12,021 [INFO]  Epoch[0] Train-cross-entropy=6.611103
+2024-03-31 19:56:12,021 [INFO]  Epoch[0] Train-A4-accuracy=3.064516
+2024-03-31 19:56:12,021 [INFO]  Epoch[0] Time cost=0.043
+2024-03-31 19:56:12,022 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0000.params"
+2024-03-31 19:56:12,023 [INFO]  Epoch[0] Validation-cross-entropy=2.238380
+2024-03-31 19:56:12,023 [INFO]  Epoch[0] Validation-A4-accuracy=0.000000
+2024-03-31 19:56:12,035 [INFO]  Epoch[1] Batch [0-16]	Speed: 23520.15 samples/sec	cross-entropy=1.656096	A4-accuracy=2.941176
+2024-03-31 19:56:12,045 [INFO]  Epoch[1] Train-cross-entropy=1.335071
+2024-03-31 19:56:12,045 [INFO]  Epoch[1] Train-A4-accuracy=3.064516
+2024-03-31 19:56:12,045 [INFO]  Epoch[1] Time cost=0.021
+2024-03-31 19:56:12,046 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0001.params"
+2024-03-31 19:56:12,047 [INFO]  Epoch[1] Validation-cross-entropy=0.869335
+2024-03-31 19:56:12,048 [INFO]  Epoch[1] Validation-A4-accuracy=0.000000
+2024-03-31 19:56:12,060 [INFO]  Epoch[2] Batch [0-16]	Speed: 22754.55 samples/sec	cross-entropy=0.518543	A4-accuracy=2.941176
+2024-03-31 19:56:12,069 [INFO]  Epoch[2] Train-cross-entropy=0.449299
+2024-03-31 19:56:12,069 [INFO]  Epoch[2] Train-A4-accuracy=3.064516
+2024-03-31 19:56:12,069 [INFO]  Epoch[2] Time cost=0.022
+2024-03-31 19:56:12,071 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0002.params"
+2024-03-31 19:56:12,072 [INFO]  Epoch[2] Validation-cross-entropy=0.386775
+2024-03-31 19:56:12,072 [INFO]  Epoch[2] Validation-A4-accuracy=0.000000
+2024-03-31 19:56:12,083 [INFO]  Epoch[3] Batch [0-16]	Speed: 24004.96 samples/sec	cross-entropy=0.301928	A4-accuracy=2.941176
+2024-03-31 19:56:12,093 [INFO]  Epoch[3] Train-cross-entropy=0.272612
+2024-03-31 19:56:12,093 [INFO]  Epoch[3] Train-A4-accuracy=3.064516
+2024-03-31 19:56:12,093 [INFO]  Epoch[3] Time cost=0.021
+2024-03-31 19:56:12,094 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0003.params"
+2024-03-31 19:56:12,095 [INFO]  Epoch[3] Validation-cross-entropy=0.269421
+2024-03-31 19:56:12,095 [INFO]  Epoch[3] Validation-A4-accuracy=0.000000
+2024-03-31 19:56:12,107 [INFO]  Epoch[4] Batch [0-16]	Speed: 23413.47 samples/sec	cross-entropy=0.203645	A4-accuracy=2.941176
+2024-03-31 19:56:12,117 [INFO]  Epoch[4] Train-cross-entropy=0.180264
+2024-03-31 19:56:12,117 [INFO]  Epoch[4] Train-A4-accuracy=3.064516
+2024-03-31 19:56:12,117 [INFO]  Epoch[4] Time cost=0.021
+2024-03-31 19:56:12,118 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0004.params"
+2024-03-31 19:56:12,119 [INFO]  Epoch[4] Validation-cross-entropy=0.225144
+2024-03-31 19:56:12,120 [INFO]  Epoch[4] Validation-A4-accuracy=0.000000
+2024-03-31 19:56:12,120 [INFO]  
+========== done (0.14314961433410645 s) fit model
+2024-03-31 19:56:23,853 [INFO]  
+========== start: fit model
+2024-03-31 19:56:23,853 [WARNING]  Already bound, ignoring bind()
+2024-03-31 19:56:23,901 [INFO]  Epoch[0] Batch [0-16]	Speed: 10850.04 samples/sec	cross-entropy=5.972481	A4-accuracy=0.000000
+2024-03-31 19:56:23,934 [INFO]  Epoch[0] Train-cross-entropy=4.496225
+2024-03-31 19:56:23,934 [INFO]  Epoch[0] Train-A4-accuracy=0.000000
+2024-03-31 19:56:23,934 [INFO]  Epoch[0] Time cost=0.080
+2024-03-31 19:56:23,938 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0000.params"
+2024-03-31 19:56:23,966 [INFO]  Epoch[0] Validation-cross-entropy=1.647194
+2024-03-31 19:56:23,966 [INFO]  Epoch[0] Validation-A4-accuracy=0.000000
+2024-03-31 19:56:24,087 [INFO]  Epoch[1] Batch [0-16]	Speed: 2141.01 samples/sec	cross-entropy=0.744714	A4-accuracy=0.000000
+2024-03-31 19:56:24,191 [INFO]  Epoch[1] Train-cross-entropy=0.693534
+2024-03-31 19:56:24,191 [INFO]  Epoch[1] Train-A4-accuracy=0.000000
+2024-03-31 19:56:24,191 [INFO]  Epoch[1] Time cost=0.225
+2024-03-31 19:56:24,192 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0001.params"
+2024-03-31 19:56:24,193 [INFO]  Epoch[1] Validation-cross-entropy=0.735350
+2024-03-31 19:56:24,193 [INFO]  Epoch[1] Validation-A4-accuracy=0.000000
+2024-03-31 19:56:24,207 [INFO]  Epoch[2] Batch [0-16]	Speed: 19842.95 samples/sec	cross-entropy=0.322092	A4-accuracy=0.000000
+2024-03-31 19:56:24,251 [INFO]  Epoch[2] Train-cross-entropy=0.307104
+2024-03-31 19:56:24,251 [INFO]  Epoch[2] Train-A4-accuracy=0.000000
+2024-03-31 19:56:24,251 [INFO]  Epoch[2] Time cost=0.058
+2024-03-31 19:56:24,253 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0002.params"
+2024-03-31 19:56:24,266 [INFO]  Epoch[2] Validation-cross-entropy=0.454126
+2024-03-31 19:56:24,266 [INFO]  Epoch[2] Validation-A4-accuracy=0.000000
+2024-03-31 19:56:24,411 [INFO]  Epoch[3] Batch [0-16]	Speed: 1782.76 samples/sec	cross-entropy=0.172780	A4-accuracy=0.000000
+2024-03-31 19:56:24,557 [INFO]  Epoch[3] Train-cross-entropy=0.168332
+2024-03-31 19:56:24,557 [INFO]  Epoch[3] Train-A4-accuracy=0.000000
+2024-03-31 19:56:24,557 [INFO]  Epoch[3] Time cost=0.291
+2024-03-31 19:56:24,559 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0003.params"
+2024-03-31 19:56:24,560 [INFO]  Epoch[3] Validation-cross-entropy=0.354263
+2024-03-31 19:56:24,560 [INFO]  Epoch[3] Validation-A4-accuracy=0.000000
+2024-03-31 19:56:25,088 [INFO]  Epoch[4] Batch [0-16]	Speed: 487.01 samples/sec	cross-entropy=0.113918	A4-accuracy=0.000000
+2024-03-31 19:56:25,470 [INFO]  Epoch[4] Train-cross-entropy=0.115655
+2024-03-31 19:56:25,470 [INFO]  Epoch[4] Train-A4-accuracy=0.000000
+2024-03-31 19:56:25,470 [INFO]  Epoch[4] Time cost=0.910
+2024-03-31 19:56:25,472 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0004.params"
+2024-03-31 19:56:25,528 [INFO]  Epoch[4] Validation-cross-entropy=0.314150
+2024-03-31 19:56:25,528 [INFO]  Epoch[4] Validation-A4-accuracy=0.000000
+2024-03-31 19:56:25,528 [INFO]  
+========== done (1.6754045486450195 s) fit model
+2024-03-31 19:56:51,893 [INFO]  
+========== start: fit model
+2024-03-31 19:56:51,894 [WARNING]  Already bound, ignoring bind()
+2024-03-31 19:56:52,049 [INFO]  Epoch[0] Batch [0-16]	Speed: 2331.17 samples/sec	cross-entropy=13.748460	A4-accuracy=2.882353
+2024-03-31 19:56:52,194 [INFO]  Epoch[0] Train-cross-entropy=10.021840
+2024-03-31 19:56:52,194 [INFO]  Epoch[0] Train-A4-accuracy=3.129032
+2024-03-31 19:56:52,194 [INFO]  Epoch[0] Time cost=0.299
+2024-03-31 19:56:52,196 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0000.params"
+2024-03-31 19:56:52,201 [INFO]  Epoch[0] Validation-cross-entropy=1.355615
+2024-03-31 19:56:52,201 [INFO]  Epoch[0] Validation-A4-accuracy=0.000000
+2024-03-31 19:56:52,524 [INFO]  Epoch[1] Batch [0-16]	Speed: 795.61 samples/sec	cross-entropy=1.995364	A4-accuracy=2.882353
+2024-03-31 19:56:52,680 [INFO]  Epoch[1] Train-cross-entropy=1.849784
+2024-03-31 19:56:52,680 [INFO]  Epoch[1] Train-A4-accuracy=3.129032
+2024-03-31 19:56:52,680 [INFO]  Epoch[1] Time cost=0.479
+2024-03-31 19:56:52,681 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0001.params"
+2024-03-31 19:56:52,690 [INFO]  Epoch[1] Validation-cross-entropy=0.507198
+2024-03-31 19:56:52,690 [INFO]  Epoch[1] Validation-A4-accuracy=0.000000
+2024-03-31 19:56:52,853 [INFO]  Epoch[2] Batch [0-16]	Speed: 7087.73 samples/sec	cross-entropy=0.669484	A4-accuracy=2.882353
+2024-03-31 19:56:52,891 [INFO]  Epoch[2] Train-cross-entropy=0.622975
+2024-03-31 19:56:52,892 [INFO]  Epoch[2] Train-A4-accuracy=3.129032
+2024-03-31 19:56:52,892 [INFO]  Epoch[2] Time cost=0.201
+2024-03-31 19:56:52,895 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0002.params"
+2024-03-31 19:56:52,968 [INFO]  Epoch[2] Validation-cross-entropy=0.371493
+2024-03-31 19:56:52,969 [INFO]  Epoch[2] Validation-A4-accuracy=0.000000
+2024-03-31 19:56:53,455 [INFO]  Epoch[3] Batch [0-16]	Speed: 535.31 samples/sec	cross-entropy=0.292918	A4-accuracy=2.882353
+2024-03-31 19:56:53,493 [INFO]  Epoch[3] Train-cross-entropy=0.282260
+2024-03-31 19:56:53,493 [INFO]  Epoch[3] Train-A4-accuracy=3.129032
+2024-03-31 19:56:53,493 [INFO]  Epoch[3] Time cost=0.524
+2024-03-31 19:56:53,495 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0003.params"
+2024-03-31 19:56:53,620 [INFO]  Epoch[3] Validation-cross-entropy=0.285693
+2024-03-31 19:56:53,620 [INFO]  Epoch[3] Validation-A4-accuracy=0.000000
+2024-03-31 19:56:53,951 [INFO]  Epoch[4] Batch [0-16]	Speed: 787.02 samples/sec	cross-entropy=0.196248	A4-accuracy=2.882353
+2024-03-31 19:56:54,139 [INFO]  Epoch[4] Train-cross-entropy=0.184930
+2024-03-31 19:56:54,139 [INFO]  Epoch[4] Train-A4-accuracy=3.129032
+2024-03-31 19:56:54,139 [INFO]  Epoch[4] Time cost=0.519
+2024-03-31 19:56:54,141 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0004.params"
+2024-03-31 19:56:54,142 [INFO]  Epoch[4] Validation-cross-entropy=0.220980
+2024-03-31 19:56:54,142 [INFO]  Epoch[4] Validation-A4-accuracy=0.000000
+2024-03-31 19:56:54,142 [INFO]  
+========== done (2.2486133575439453 s) fit model
+2024-03-31 19:57:20,978 [INFO]  
+========== start: fit model
+2024-03-31 19:57:20,978 [WARNING]  Already bound, ignoring bind()
+2024-03-31 19:57:20,996 [INFO]  Epoch[0] Batch [0-16]	Speed: 15960.96 samples/sec	cross-entropy=8.752415	A4-accuracy=3.352941
+2024-03-31 19:57:21,009 [INFO]  Epoch[0] Train-cross-entropy=5.783473
+2024-03-31 19:57:21,009 [INFO]  Epoch[0] Train-A4-accuracy=3.225806
+2024-03-31 19:57:21,009 [INFO]  Epoch[0] Time cost=0.030
+2024-03-31 19:57:21,011 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0000.params"
+2024-03-31 19:57:21,012 [INFO]  Epoch[0] Validation-cross-entropy=1.533536
+2024-03-31 19:57:21,012 [INFO]  Epoch[0] Validation-A4-accuracy=0.000000
+2024-03-31 19:57:21,023 [INFO]  Epoch[1] Batch [0-16]	Speed: 24277.97 samples/sec	cross-entropy=1.658816	A4-accuracy=3.352941
+2024-03-31 19:57:21,032 [INFO]  Epoch[1] Train-cross-entropy=1.299219
+2024-03-31 19:57:21,032 [INFO]  Epoch[1] Train-A4-accuracy=3.225806
+2024-03-31 19:57:21,032 [INFO]  Epoch[1] Time cost=0.021
+2024-03-31 19:57:21,034 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0001.params"
+2024-03-31 19:57:21,035 [INFO]  Epoch[1] Validation-cross-entropy=0.566145
+2024-03-31 19:57:21,035 [INFO]  Epoch[1] Validation-A4-accuracy=0.000000
+2024-03-31 19:57:21,046 [INFO]  Epoch[2] Batch [0-16]	Speed: 24485.03 samples/sec	cross-entropy=0.574848	A4-accuracy=3.352941
+2024-03-31 19:57:21,056 [INFO]  Epoch[2] Train-cross-entropy=0.469413
+2024-03-31 19:57:21,056 [INFO]  Epoch[2] Train-A4-accuracy=3.225806
+2024-03-31 19:57:21,056 [INFO]  Epoch[2] Time cost=0.021
+2024-03-31 19:57:21,057 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0002.params"
+2024-03-31 19:57:21,058 [INFO]  Epoch[2] Validation-cross-entropy=0.321069
+2024-03-31 19:57:21,058 [INFO]  Epoch[2] Validation-A4-accuracy=0.000000
+2024-03-31 19:57:21,077 [INFO]  Epoch[3] Batch [0-16]	Speed: 14653.59 samples/sec	cross-entropy=0.275040	A4-accuracy=3.352941
+2024-03-31 19:57:21,092 [INFO]  Epoch[3] Train-cross-entropy=0.238212
+2024-03-31 19:57:21,092 [INFO]  Epoch[3] Train-A4-accuracy=3.225806
+2024-03-31 19:57:21,093 [INFO]  Epoch[3] Time cost=0.034
+2024-03-31 19:57:21,095 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0003.params"
+2024-03-31 19:57:21,096 [INFO]  Epoch[3] Validation-cross-entropy=0.182693
+2024-03-31 19:57:21,096 [INFO]  Epoch[3] Validation-A4-accuracy=0.000000
+2024-03-31 19:57:21,107 [INFO]  Epoch[4] Batch [0-16]	Speed: 25312.76 samples/sec	cross-entropy=0.193380	A4-accuracy=3.352941
+2024-03-31 19:57:21,115 [INFO]  Epoch[4] Train-cross-entropy=0.170420
+2024-03-31 19:57:21,115 [INFO]  Epoch[4] Train-A4-accuracy=3.225806
+2024-03-31 19:57:21,115 [INFO]  Epoch[4] Time cost=0.019
+2024-03-31 19:57:21,117 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0004.params"
+2024-03-31 19:57:21,117 [INFO]  Epoch[4] Validation-cross-entropy=0.151184
+2024-03-31 19:57:21,117 [INFO]  Epoch[4] Validation-A4-accuracy=0.000000
+2024-03-31 19:57:21,117 [INFO]  
+========== done (0.1397385597229004 s) fit model
+2024-03-31 19:57:31,573 [INFO]  
+========== start: fit model
+2024-03-31 19:57:31,573 [WARNING]  Already bound, ignoring bind()
+2024-03-31 19:57:31,705 [INFO]  Epoch[0] Batch [0-16]	Speed: 2787.25 samples/sec	cross-entropy=10.817143	A4-accuracy=2.882353
+2024-03-31 19:57:31,730 [INFO]  Epoch[0] Train-cross-entropy=6.924814
+2024-03-31 19:57:31,730 [INFO]  Epoch[0] Train-A4-accuracy=3.258065
+2024-03-31 19:57:31,730 [INFO]  Epoch[0] Time cost=0.156
+2024-03-31 19:57:31,732 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0000.params"
+2024-03-31 19:57:31,733 [INFO]  Epoch[0] Validation-cross-entropy=0.684388
+2024-03-31 19:57:31,733 [INFO]  Epoch[0] Validation-A4-accuracy=0.000000
+2024-03-31 19:57:31,834 [INFO]  Epoch[1] Batch [0-16]	Speed: 2542.38 samples/sec	cross-entropy=1.257168	A4-accuracy=2.882353
+2024-03-31 19:57:31,847 [INFO]  Epoch[1] Train-cross-entropy=0.978972
+2024-03-31 19:57:31,847 [INFO]  Epoch[1] Train-A4-accuracy=3.258065
+2024-03-31 19:57:31,847 [INFO]  Epoch[1] Time cost=0.114
+2024-03-31 19:57:31,849 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0001.params"
+2024-03-31 19:57:31,852 [INFO]  Epoch[1] Validation-cross-entropy=0.243882
+2024-03-31 19:57:31,852 [INFO]  Epoch[1] Validation-A4-accuracy=0.000000
+2024-03-31 19:57:32,032 [INFO]  Epoch[2] Batch [0-16]	Speed: 1509.11 samples/sec	cross-entropy=0.395558	A4-accuracy=2.882353
+2024-03-31 19:57:32,235 [INFO]  Epoch[2] Train-cross-entropy=0.331110
+2024-03-31 19:57:32,235 [INFO]  Epoch[2] Train-A4-accuracy=3.258065
+2024-03-31 19:57:32,235 [INFO]  Epoch[2] Time cost=0.383
+2024-03-31 19:57:32,239 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0002.params"
+2024-03-31 19:57:32,257 [INFO]  Epoch[2] Validation-cross-entropy=0.253870
+2024-03-31 19:57:32,257 [INFO]  Epoch[2] Validation-A4-accuracy=0.000000
+2024-03-31 19:57:32,555 [INFO]  Epoch[3] Batch [0-16]	Speed: 1286.02 samples/sec	cross-entropy=0.221687	A4-accuracy=2.882353
+2024-03-31 19:57:32,653 [INFO]  Epoch[3] Train-cross-entropy=0.188598
+2024-03-31 19:57:32,654 [INFO]  Epoch[3] Train-A4-accuracy=3.258065
+2024-03-31 19:57:32,654 [INFO]  Epoch[3] Time cost=0.396
+2024-03-31 19:57:32,655 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0003.params"
+2024-03-31 19:57:32,656 [INFO]  Epoch[3] Validation-cross-entropy=0.174564
+2024-03-31 19:57:32,656 [INFO]  Epoch[3] Validation-A4-accuracy=0.000000
+2024-03-31 19:57:32,879 [INFO]  Epoch[4] Batch [0-16]	Speed: 1153.99 samples/sec	cross-entropy=0.151058	A4-accuracy=2.882353
+2024-03-31 19:57:33,110 [INFO]  Epoch[4] Train-cross-entropy=0.131296
+2024-03-31 19:57:33,110 [INFO]  Epoch[4] Train-A4-accuracy=3.258065
+2024-03-31 19:57:33,110 [INFO]  Epoch[4] Time cost=0.454
+2024-03-31 19:57:33,111 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0004.params"
+2024-03-31 19:57:33,113 [INFO]  Epoch[4] Validation-cross-entropy=0.151678
+2024-03-31 19:57:33,113 [INFO]  Epoch[4] Validation-A4-accuracy=0.000000
+2024-03-31 19:57:33,113 [INFO]  
+========== done (1.5400803089141846 s) fit model
+2024-03-31 19:58:03,417 [INFO]  
+========== start: fit model
+2024-03-31 19:58:03,417 [WARNING]  Already bound, ignoring bind()
+2024-03-31 19:58:03,821 [INFO]  Epoch[0] Batch [0-16]	Speed: 918.35 samples/sec	cross-entropy=17.141780	A4-accuracy=3.470588
+2024-03-31 19:58:03,898 [INFO]  Epoch[0] Train-cross-entropy=11.639522
+2024-03-31 19:58:03,898 [INFO]  Epoch[0] Train-A4-accuracy=3.193548
+2024-03-31 19:58:03,898 [INFO]  Epoch[0] Time cost=0.480
+2024-03-31 19:58:03,900 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0000.params"
+2024-03-31 19:58:03,903 [INFO]  Epoch[0] Validation-cross-entropy=1.346945
+2024-03-31 19:58:03,903 [INFO]  Epoch[0] Validation-A4-accuracy=0.000000
+2024-03-31 19:58:03,950 [INFO]  Epoch[1] Batch [0-16]	Speed: 5613.72 samples/sec	cross-entropy=2.070274	A4-accuracy=3.470588
+2024-03-31 19:58:04,167 [INFO]  Epoch[1] Train-cross-entropy=1.682065
+2024-03-31 19:58:04,167 [INFO]  Epoch[1] Train-A4-accuracy=3.193548
+2024-03-31 19:58:04,167 [INFO]  Epoch[1] Time cost=0.264
+2024-03-31 19:58:04,169 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0001.params"
+2024-03-31 19:58:04,170 [INFO]  Epoch[1] Validation-cross-entropy=0.612419
+2024-03-31 19:58:04,170 [INFO]  Epoch[1] Validation-A4-accuracy=0.000000
+2024-03-31 19:58:04,343 [INFO]  Epoch[2] Batch [0-16]	Speed: 1493.93 samples/sec	cross-entropy=0.792274	A4-accuracy=3.470588
+2024-03-31 19:58:04,374 [INFO]  Epoch[2] Train-cross-entropy=0.659888
+2024-03-31 19:58:04,374 [INFO]  Epoch[2] Train-A4-accuracy=3.193548
+2024-03-31 19:58:04,374 [INFO]  Epoch[2] Time cost=0.203
+2024-03-31 19:58:04,378 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0002.params"
+2024-03-31 19:58:04,414 [INFO]  Epoch[2] Validation-cross-entropy=0.368781
+2024-03-31 19:58:04,414 [INFO]  Epoch[2] Validation-A4-accuracy=0.000000
+2024-03-31 19:58:04,743 [INFO]  Epoch[3] Batch [0-16]	Speed: 840.47 samples/sec	cross-entropy=0.347589	A4-accuracy=3.470588
+2024-03-31 19:58:04,844 [INFO]  Epoch[3] Train-cross-entropy=0.308942
+2024-03-31 19:58:04,844 [INFO]  Epoch[3] Train-A4-accuracy=3.193548
+2024-03-31 19:58:04,844 [INFO]  Epoch[3] Time cost=0.430
+2024-03-31 19:58:04,846 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0003.params"
+2024-03-31 19:58:04,847 [INFO]  Epoch[3] Validation-cross-entropy=0.279767
+2024-03-31 19:58:04,848 [INFO]  Epoch[3] Validation-A4-accuracy=0.000000
+2024-03-31 19:58:04,864 [INFO]  Epoch[4] Batch [0-16]	Speed: 16479.05 samples/sec	cross-entropy=0.201252	A4-accuracy=3.470588
+2024-03-31 19:58:04,977 [INFO]  Epoch[4] Train-cross-entropy=0.186795
+2024-03-31 19:58:04,977 [INFO]  Epoch[4] Train-A4-accuracy=3.193548
+2024-03-31 19:58:04,977 [INFO]  Epoch[4] Time cost=0.130
+2024-03-31 19:58:04,979 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0004.params"
+2024-03-31 19:58:05,031 [INFO]  Epoch[4] Validation-cross-entropy=0.208948
+2024-03-31 19:58:05,031 [INFO]  Epoch[4] Validation-A4-accuracy=0.000000
+2024-03-31 19:58:05,031 [INFO]  
+========== done (1.6136753559112549 s) fit model
+2024-03-31 19:58:30,845 [INFO]  
+========== start: fit model
+2024-03-31 19:58:30,845 [WARNING]  Already bound, ignoring bind()
+2024-03-31 19:58:30,858 [INFO]  Epoch[0] Batch [0-16]	Speed: 23446.70 samples/sec	cross-entropy=8.349122	A4-accuracy=0.000000
+2024-03-31 19:58:30,867 [INFO]  Epoch[0] Train-cross-entropy=5.558978
+2024-03-31 19:58:30,867 [INFO]  Epoch[0] Train-A4-accuracy=0.000000
+2024-03-31 19:58:30,867 [INFO]  Epoch[0] Time cost=0.021
+2024-03-31 19:58:30,868 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0000.params"
+2024-03-31 19:58:30,869 [INFO]  Epoch[0] Validation-cross-entropy=0.880126
+2024-03-31 19:58:30,869 [INFO]  Epoch[0] Validation-A4-accuracy=0.000000
+2024-03-31 19:58:30,879 [INFO]  Epoch[1] Batch [0-16]	Speed: 27508.57 samples/sec	cross-entropy=1.283345	A4-accuracy=0.000000
+2024-03-31 19:58:30,887 [INFO]  Epoch[1] Train-cross-entropy=1.002053
+2024-03-31 19:58:30,887 [INFO]  Epoch[1] Train-A4-accuracy=0.000000
+2024-03-31 19:58:30,887 [INFO]  Epoch[1] Time cost=0.018
+2024-03-31 19:58:30,889 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0001.params"
+2024-03-31 19:58:30,889 [INFO]  Epoch[1] Validation-cross-entropy=0.493731
+2024-03-31 19:58:30,889 [INFO]  Epoch[1] Validation-A4-accuracy=0.000000
+2024-03-31 19:58:30,918 [INFO]  Epoch[2] Batch [0-16]	Speed: 9131.47 samples/sec	cross-entropy=0.462109	A4-accuracy=0.000000
+2024-03-31 19:58:30,933 [INFO]  Epoch[2] Train-cross-entropy=0.408267
+2024-03-31 19:58:30,933 [INFO]  Epoch[2] Train-A4-accuracy=0.000000
+2024-03-31 19:58:30,933 [INFO]  Epoch[2] Time cost=0.044
+2024-03-31 19:58:30,935 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0002.params"
+2024-03-31 19:58:30,937 [INFO]  Epoch[2] Validation-cross-entropy=0.281692
+2024-03-31 19:58:30,937 [INFO]  Epoch[2] Validation-A4-accuracy=0.000000
+2024-03-31 19:58:30,968 [INFO]  Epoch[3] Batch [0-16]	Speed: 8455.93 samples/sec	cross-entropy=0.304075	A4-accuracy=0.000000
+2024-03-31 19:58:30,977 [INFO]  Epoch[3] Train-cross-entropy=0.270829
+2024-03-31 19:58:30,977 [INFO]  Epoch[3] Train-A4-accuracy=0.000000
+2024-03-31 19:58:30,977 [INFO]  Epoch[3] Time cost=0.040
+2024-03-31 19:58:30,978 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0003.params"
+2024-03-31 19:58:30,979 [INFO]  Epoch[3] Validation-cross-entropy=0.208852
+2024-03-31 19:58:30,979 [INFO]  Epoch[3] Validation-A4-accuracy=0.000000
+2024-03-31 19:58:30,989 [INFO]  Epoch[4] Batch [0-16]	Speed: 26848.92 samples/sec	cross-entropy=0.174094	A4-accuracy=0.000000
+2024-03-31 19:58:30,998 [INFO]  Epoch[4] Train-cross-entropy=0.154911
+2024-03-31 19:58:30,998 [INFO]  Epoch[4] Train-A4-accuracy=0.000000
+2024-03-31 19:58:30,998 [INFO]  Epoch[4] Time cost=0.019
+2024-03-31 19:58:30,999 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0004.params"
+2024-03-31 19:58:31,000 [INFO]  Epoch[4] Validation-cross-entropy=0.151412
+2024-03-31 19:58:31,000 [INFO]  Epoch[4] Validation-A4-accuracy=0.000000
+2024-03-31 19:58:31,000 [INFO]  
+========== done (0.15510249137878418 s) fit model
+2024-03-31 19:58:38,195 [INFO]  
+========== start: fit model
+2024-03-31 19:58:38,195 [WARNING]  Already bound, ignoring bind()
+2024-03-31 19:58:38,208 [INFO]  Epoch[0] Batch [0-16]	Speed: 22590.35 samples/sec	cross-entropy=5.419681	A4-accuracy=0.000000
+2024-03-31 19:58:38,218 [INFO]  Epoch[0] Train-cross-entropy=4.112417
+2024-03-31 19:58:38,218 [INFO]  Epoch[0] Train-A4-accuracy=0.000000
+2024-03-31 19:58:38,218 [INFO]  Epoch[0] Time cost=0.022
+2024-03-31 19:58:38,219 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0000.params"
+2024-03-31 19:58:38,220 [INFO]  Epoch[0] Validation-cross-entropy=1.085078
+2024-03-31 19:58:38,220 [INFO]  Epoch[0] Validation-A4-accuracy=0.000000
+2024-03-31 19:58:38,231 [INFO]  Epoch[1] Batch [0-16]	Speed: 24547.16 samples/sec	cross-entropy=1.615288	A4-accuracy=0.000000
+2024-03-31 19:58:38,240 [INFO]  Epoch[1] Train-cross-entropy=1.172859
+2024-03-31 19:58:38,240 [INFO]  Epoch[1] Train-A4-accuracy=0.000000
+2024-03-31 19:58:38,240 [INFO]  Epoch[1] Time cost=0.020
+2024-03-31 19:58:38,242 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0001.params"
+2024-03-31 19:58:38,243 [INFO]  Epoch[1] Validation-cross-entropy=0.486814
+2024-03-31 19:58:38,243 [INFO]  Epoch[1] Validation-A4-accuracy=0.000000
+2024-03-31 19:58:38,254 [INFO]  Epoch[2] Batch [0-16]	Speed: 24625.98 samples/sec	cross-entropy=0.397722	A4-accuracy=0.000000
+2024-03-31 19:58:38,263 [INFO]  Epoch[2] Train-cross-entropy=0.319529
+2024-03-31 19:58:38,263 [INFO]  Epoch[2] Train-A4-accuracy=0.000000
+2024-03-31 19:58:38,263 [INFO]  Epoch[2] Time cost=0.021
+2024-03-31 19:58:38,265 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0002.params"
+2024-03-31 19:58:38,266 [INFO]  Epoch[2] Validation-cross-entropy=0.357966
+2024-03-31 19:58:38,266 [INFO]  Epoch[2] Validation-A4-accuracy=0.000000
+2024-03-31 19:58:38,277 [INFO]  Epoch[3] Batch [0-16]	Speed: 24862.04 samples/sec	cross-entropy=0.210992	A4-accuracy=0.000000
+2024-03-31 19:58:38,286 [INFO]  Epoch[3] Train-cross-entropy=0.180572
+2024-03-31 19:58:38,286 [INFO]  Epoch[3] Train-A4-accuracy=0.000000
+2024-03-31 19:58:38,286 [INFO]  Epoch[3] Time cost=0.020
+2024-03-31 19:58:38,287 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0003.params"
+2024-03-31 19:58:38,288 [INFO]  Epoch[3] Validation-cross-entropy=0.290066
+2024-03-31 19:58:38,288 [INFO]  Epoch[3] Validation-A4-accuracy=0.000000
+2024-03-31 19:58:38,299 [INFO]  Epoch[4] Batch [0-16]	Speed: 24560.63 samples/sec	cross-entropy=0.131481	A4-accuracy=0.000000
+2024-03-31 19:58:38,308 [INFO]  Epoch[4] Train-cross-entropy=0.119162
+2024-03-31 19:58:38,308 [INFO]  Epoch[4] Train-A4-accuracy=0.000000
+2024-03-31 19:58:38,309 [INFO]  Epoch[4] Time cost=0.020
+2024-03-31 19:58:38,310 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_A4/model-0004.params"
+2024-03-31 19:58:38,311 [INFO]  Epoch[4] Validation-cross-entropy=0.240998
+2024-03-31 19:58:38,311 [INFO]  Epoch[4] Validation-A4-accuracy=0.000000
+2024-03-31 19:58:38,311 [INFO]  
+========== done (0.11621880531311035 s) fit model

@@ -1,0 +1,1600 @@
+2024-03-06 08:49:13,597 [INFO]  
+========== start: fit model
+2024-03-06 08:49:13,598 [WARNING]  Already bound, ignoring bind()
+2024-03-06 08:49:21,243 [INFO]  Epoch[0] Batch [0-4]	Speed: 10.87 samples/sec	cross-entropy=16.163418	sepal_length-accuracy=0.000000
+2024-03-06 08:49:23,861 [INFO]  Epoch[0] Train-cross-entropy=14.159511
+2024-03-06 08:49:23,861 [INFO]  Epoch[0] Train-sepal_length-accuracy=0.000000
+2024-03-06 08:49:23,862 [INFO]  Epoch[0] Time cost=10.262
+2024-03-06 08:49:23,864 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 08:49:24,252 [INFO]  Epoch[0] Validation-cross-entropy=8.468739
+2024-03-06 08:49:24,252 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 08:49:28,648 [INFO]  Epoch[1] Batch [0-4]	Speed: 18.35 samples/sec	cross-entropy=5.615384	sepal_length-accuracy=0.000000
+2024-03-06 08:49:30,577 [INFO]  Epoch[1] Train-cross-entropy=4.994809
+2024-03-06 08:49:30,578 [INFO]  Epoch[1] Train-sepal_length-accuracy=0.000000
+2024-03-06 08:49:30,578 [INFO]  Epoch[1] Time cost=6.325
+2024-03-06 08:49:30,580 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 08:49:30,894 [INFO]  Epoch[1] Validation-cross-entropy=2.448676
+2024-03-06 08:49:30,894 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 08:49:37,207 [INFO]  Epoch[2] Batch [0-4]	Speed: 11.83 samples/sec	cross-entropy=2.270803	sepal_length-accuracy=0.000000
+2024-03-06 08:49:39,904 [INFO]  Epoch[2] Train-cross-entropy=1.936805
+2024-03-06 08:49:39,904 [INFO]  Epoch[2] Train-sepal_length-accuracy=0.000000
+2024-03-06 08:49:39,904 [INFO]  Epoch[2] Time cost=9.009
+2024-03-06 08:49:39,906 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 08:49:40,163 [INFO]  Epoch[2] Validation-cross-entropy=1.957703
+2024-03-06 08:49:40,164 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 08:49:47,205 [INFO]  Epoch[3] Batch [0-4]	Speed: 11.00 samples/sec	cross-entropy=1.123335	sepal_length-accuracy=0.000000
+2024-03-06 08:49:50,008 [INFO]  Epoch[3] Train-cross-entropy=1.071468
+2024-03-06 08:49:50,008 [INFO]  Epoch[3] Train-sepal_length-accuracy=0.000000
+2024-03-06 08:49:50,009 [INFO]  Epoch[3] Time cost=9.844
+2024-03-06 08:49:50,011 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 08:49:50,347 [INFO]  Epoch[3] Validation-cross-entropy=0.967779
+2024-03-06 08:49:50,348 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 08:49:55,928 [INFO]  Epoch[4] Batch [0-4]	Speed: 14.23 samples/sec	cross-entropy=0.707445	sepal_length-accuracy=0.000000
+2024-03-06 08:49:57,767 [INFO]  Epoch[4] Train-cross-entropy=0.652918
+2024-03-06 08:49:57,767 [INFO]  Epoch[4] Train-sepal_length-accuracy=0.000000
+2024-03-06 08:49:57,768 [INFO]  Epoch[4] Time cost=7.420
+2024-03-06 08:49:57,769 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 08:49:58,088 [INFO]  Epoch[4] Validation-cross-entropy=0.443435
+2024-03-06 08:49:58,088 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 08:49:58,088 [INFO]  
+========== done (44.49153256416321 s) fit model
+2024-03-06 08:52:18,293 [INFO]  
+========== start: fit model
+2024-03-06 08:52:18,293 [WARNING]  Already bound, ignoring bind()
+2024-03-06 08:52:23,741 [INFO]  Epoch[0] Batch [0-4]	Speed: 18.44 samples/sec	cross-entropy=18.026110	sepal_length-accuracy=3.400000
+2024-03-06 08:52:25,741 [INFO]  Epoch[0] Train-cross-entropy=15.034439
+2024-03-06 08:52:25,741 [INFO]  Epoch[0] Train-sepal_length-accuracy=3.285714
+2024-03-06 08:52:25,741 [INFO]  Epoch[0] Time cost=7.444
+2024-03-06 08:52:25,743 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 08:52:25,934 [INFO]  Epoch[0] Validation-cross-entropy=2.454417
+2024-03-06 08:52:25,935 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 08:52:30,411 [INFO]  Epoch[1] Batch [0-4]	Speed: 17.53 samples/sec	cross-entropy=5.087636	sepal_length-accuracy=3.400000
+2024-03-06 08:52:32,357 [INFO]  Epoch[1] Train-cross-entropy=4.784877
+2024-03-06 08:52:32,357 [INFO]  Epoch[1] Train-sepal_length-accuracy=3.285714
+2024-03-06 08:52:32,357 [INFO]  Epoch[1] Time cost=6.422
+2024-03-06 08:52:32,359 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 08:52:32,598 [INFO]  Epoch[1] Validation-cross-entropy=1.914660
+2024-03-06 08:52:32,598 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 08:52:37,696 [INFO]  Epoch[2] Batch [0-4]	Speed: 15.91 samples/sec	cross-entropy=3.355277	sepal_length-accuracy=3.400000
+2024-03-06 08:52:40,127 [INFO]  Epoch[2] Train-cross-entropy=2.847901
+2024-03-06 08:52:40,127 [INFO]  Epoch[2] Train-sepal_length-accuracy=3.285714
+2024-03-06 08:52:40,127 [INFO]  Epoch[2] Time cost=7.529
+2024-03-06 08:52:40,128 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 08:52:40,476 [INFO]  Epoch[2] Validation-cross-entropy=0.540218
+2024-03-06 08:52:40,476 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 08:52:43,709 [INFO]  Epoch[3] Batch [0-4]	Speed: 30.15 samples/sec	cross-entropy=1.075902	sepal_length-accuracy=3.400000
+2024-03-06 08:52:43,711 [INFO]  Epoch[3] Train-cross-entropy=0.887113
+2024-03-06 08:52:43,711 [INFO]  Epoch[3] Train-sepal_length-accuracy=3.285714
+2024-03-06 08:52:43,711 [INFO]  Epoch[3] Time cost=3.235
+2024-03-06 08:52:43,712 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 08:52:43,716 [INFO]  Epoch[3] Validation-cross-entropy=0.362577
+2024-03-06 08:52:43,716 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 08:52:43,721 [INFO]  Epoch[4] Batch [0-4]	Speed: 18498.76 samples/sec	cross-entropy=0.532843	sepal_length-accuracy=3.400000
+2024-03-06 08:52:43,723 [INFO]  Epoch[4] Train-cross-entropy=0.462970
+2024-03-06 08:52:43,723 [INFO]  Epoch[4] Train-sepal_length-accuracy=3.285714
+2024-03-06 08:52:43,723 [INFO]  Epoch[4] Time cost=0.006
+2024-03-06 08:52:43,725 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 08:52:43,725 [INFO]  Epoch[4] Validation-cross-entropy=0.144118
+2024-03-06 08:52:43,725 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 08:52:43,726 [INFO]  
+========== done (25.43303394317627 s) fit model
+2024-03-06 08:54:55,468 [INFO]  
+========== start: fit model
+2024-03-06 08:54:55,468 [WARNING]  Already bound, ignoring bind()
+2024-03-06 08:55:01,391 [INFO]  Epoch[0] Batch [0-4]	Speed: 14.35 samples/sec	cross-entropy=12.213954	sepal_length-accuracy=0.000000
+2024-03-06 08:55:03,514 [INFO]  Epoch[0] Train-cross-entropy=10.254609
+2024-03-06 08:55:03,514 [INFO]  Epoch[0] Train-sepal_length-accuracy=0.000000
+2024-03-06 08:55:03,514 [INFO]  Epoch[0] Time cost=8.045
+2024-03-06 08:55:03,516 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 08:55:03,739 [INFO]  Epoch[0] Validation-cross-entropy=4.597513
+2024-03-06 08:55:03,739 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 08:55:10,243 [INFO]  Epoch[1] Batch [0-4]	Speed: 12.08 samples/sec	cross-entropy=2.031719	sepal_length-accuracy=0.000000
+2024-03-06 08:55:15,129 [INFO]  Epoch[1] Train-cross-entropy=2.245256
+2024-03-06 08:55:15,129 [INFO]  Epoch[1] Train-sepal_length-accuracy=0.000000
+2024-03-06 08:55:15,129 [INFO]  Epoch[1] Time cost=11.390
+2024-03-06 08:55:15,131 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 08:55:15,787 [INFO]  Epoch[1] Validation-cross-entropy=1.359785
+2024-03-06 08:55:15,787 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 08:55:26,895 [INFO]  Epoch[2] Batch [0-4]	Speed: 7.25 samples/sec	cross-entropy=2.610318	sepal_length-accuracy=0.000000
+2024-03-06 08:55:31,049 [INFO]  Epoch[2] Train-cross-entropy=2.188210
+2024-03-06 08:55:31,049 [INFO]  Epoch[2] Train-sepal_length-accuracy=0.000000
+2024-03-06 08:55:31,049 [INFO]  Epoch[2] Time cost=15.263
+2024-03-06 08:55:31,052 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 08:55:31,686 [INFO]  Epoch[2] Validation-cross-entropy=0.462492
+2024-03-06 08:55:31,686 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 08:55:44,297 [INFO]  Epoch[3] Batch [0-4]	Speed: 6.15 samples/sec	cross-entropy=0.627129	sepal_length-accuracy=0.000000
+2024-03-06 08:55:49,296 [INFO]  Epoch[3] Train-cross-entropy=0.554671
+2024-03-06 08:55:49,296 [INFO]  Epoch[3] Train-sepal_length-accuracy=0.000000
+2024-03-06 08:55:49,297 [INFO]  Epoch[3] Time cost=17.610
+2024-03-06 08:55:49,299 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 08:55:50,047 [INFO]  Epoch[3] Validation-cross-entropy=1.032093
+2024-03-06 08:55:50,047 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 08:56:02,439 [INFO]  Epoch[4] Batch [0-4]	Speed: 6.53 samples/sec	cross-entropy=0.683089	sepal_length-accuracy=0.000000
+2024-03-06 08:56:07,841 [INFO]  Epoch[4] Train-cross-entropy=0.564898
+2024-03-06 08:56:07,842 [INFO]  Epoch[4] Train-sepal_length-accuracy=0.000000
+2024-03-06 08:56:07,842 [INFO]  Epoch[4] Time cost=17.795
+2024-03-06 08:56:07,843 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 08:56:08,456 [INFO]  Epoch[4] Validation-cross-entropy=0.659210
+2024-03-06 08:56:08,457 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 08:56:08,457 [INFO]  
+========== done (72.98855829238892 s) fit model
+2024-03-06 09:01:58,322 [INFO]  
+========== start: fit model
+2024-03-06 09:01:58,322 [WARNING]  Already bound, ignoring bind()
+2024-03-06 09:02:13,731 [INFO]  Epoch[0] Batch [0-4]	Speed: 5.67 samples/sec	cross-entropy=6.519513	sepal_length-accuracy=0.000000
+2024-03-06 09:02:19,172 [INFO]  Epoch[0] Train-cross-entropy=5.719540
+2024-03-06 09:02:19,172 [INFO]  Epoch[0] Train-sepal_length-accuracy=0.000000
+2024-03-06 09:02:19,172 [INFO]  Epoch[0] Time cost=20.849
+2024-03-06 09:02:19,178 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 09:02:19,894 [INFO]  Epoch[0] Validation-cross-entropy=0.285756
+2024-03-06 09:02:19,894 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 09:02:33,561 [INFO]  Epoch[1] Batch [0-4]	Speed: 5.85 samples/sec	cross-entropy=1.685974	sepal_length-accuracy=0.000000
+2024-03-06 09:02:38,601 [INFO]  Epoch[1] Train-cross-entropy=1.512472
+2024-03-06 09:02:38,601 [INFO]  Epoch[1] Train-sepal_length-accuracy=0.000000
+2024-03-06 09:02:38,601 [INFO]  Epoch[1] Time cost=18.707
+2024-03-06 09:02:38,603 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 09:02:39,262 [INFO]  Epoch[1] Validation-cross-entropy=0.885142
+2024-03-06 09:02:39,262 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 09:02:53,036 [INFO]  Epoch[2] Batch [0-4]	Speed: 5.76 samples/sec	cross-entropy=0.903125	sepal_length-accuracy=0.000000
+2024-03-06 09:02:59,153 [INFO]  Epoch[2] Train-cross-entropy=0.911739
+2024-03-06 09:02:59,153 [INFO]  Epoch[2] Train-sepal_length-accuracy=0.000000
+2024-03-06 09:02:59,153 [INFO]  Epoch[2] Time cost=19.891
+2024-03-06 09:02:59,155 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 09:02:59,853 [INFO]  Epoch[2] Validation-cross-entropy=0.685293
+2024-03-06 09:02:59,853 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 09:03:10,987 [INFO]  Epoch[3] Batch [0-4]	Speed: 7.60 samples/sec	cross-entropy=0.301061	sepal_length-accuracy=0.000000
+2024-03-06 09:03:15,915 [INFO]  Epoch[3] Train-cross-entropy=0.286903
+2024-03-06 09:03:15,915 [INFO]  Epoch[3] Train-sepal_length-accuracy=0.000000
+2024-03-06 09:03:15,915 [INFO]  Epoch[3] Time cost=16.062
+2024-03-06 09:03:15,917 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 09:03:16,754 [INFO]  Epoch[3] Validation-cross-entropy=0.122408
+2024-03-06 09:03:16,754 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 09:03:31,821 [INFO]  Epoch[4] Batch [0-4]	Speed: 5.56 samples/sec	cross-entropy=0.228989	sepal_length-accuracy=0.000000
+2024-03-06 09:03:37,166 [INFO]  Epoch[4] Train-cross-entropy=0.211003
+2024-03-06 09:03:37,166 [INFO]  Epoch[4] Train-sepal_length-accuracy=0.000000
+2024-03-06 09:03:37,166 [INFO]  Epoch[4] Time cost=20.412
+2024-03-06 09:03:37,168 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 09:03:37,705 [INFO]  Epoch[4] Validation-cross-entropy=0.111459
+2024-03-06 09:03:37,705 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 09:03:37,706 [INFO]  
+========== done (99.38373303413391 s) fit model
+2024-03-06 09:09:17,704 [INFO]  
+========== start: fit model
+2024-03-06 09:09:17,704 [WARNING]  Already bound, ignoring bind()
+2024-03-06 09:09:32,298 [INFO]  Epoch[0] Batch [0-4]	Speed: 5.75 samples/sec	cross-entropy=22.037896	sepal_length-accuracy=0.000000
+2024-03-06 09:09:36,885 [INFO]  Epoch[0] Train-cross-entropy=17.376684
+2024-03-06 09:09:36,885 [INFO]  Epoch[0] Train-sepal_length-accuracy=0.000000
+2024-03-06 09:09:36,885 [INFO]  Epoch[0] Time cost=19.180
+2024-03-06 09:09:36,887 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 09:09:37,593 [INFO]  Epoch[0] Validation-cross-entropy=4.520696
+2024-03-06 09:09:37,593 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 09:09:50,825 [INFO]  Epoch[1] Batch [0-4]	Speed: 6.26 samples/sec	cross-entropy=2.789488	sepal_length-accuracy=0.000000
+2024-03-06 09:09:56,704 [INFO]  Epoch[1] Train-cross-entropy=2.385513
+2024-03-06 09:09:56,704 [INFO]  Epoch[1] Train-sepal_length-accuracy=0.000000
+2024-03-06 09:09:56,704 [INFO]  Epoch[1] Time cost=19.111
+2024-03-06 09:09:56,706 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 09:09:57,269 [INFO]  Epoch[1] Validation-cross-entropy=1.242549
+2024-03-06 09:09:57,269 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 09:10:11,165 [INFO]  Epoch[2] Batch [0-4]	Speed: 5.81 samples/sec	cross-entropy=1.264617	sepal_length-accuracy=0.000000
+2024-03-06 09:10:15,949 [INFO]  Epoch[2] Train-cross-entropy=1.405324
+2024-03-06 09:10:15,949 [INFO]  Epoch[2] Train-sepal_length-accuracy=0.000000
+2024-03-06 09:10:15,949 [INFO]  Epoch[2] Time cost=18.681
+2024-03-06 09:10:15,951 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 09:10:16,526 [INFO]  Epoch[2] Validation-cross-entropy=1.351743
+2024-03-06 09:10:16,526 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 09:10:31,131 [INFO]  Epoch[3] Batch [0-4]	Speed: 5.29 samples/sec	cross-entropy=1.229470	sepal_length-accuracy=0.000000
+2024-03-06 09:10:36,210 [INFO]  Epoch[3] Train-cross-entropy=1.153130
+2024-03-06 09:10:36,210 [INFO]  Epoch[3] Train-sepal_length-accuracy=0.000000
+2024-03-06 09:10:36,210 [INFO]  Epoch[3] Time cost=19.684
+2024-03-06 09:10:36,212 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 09:10:37,027 [INFO]  Epoch[3] Validation-cross-entropy=0.257645
+2024-03-06 09:10:37,027 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 09:10:49,177 [INFO]  Epoch[4] Batch [0-4]	Speed: 6.59 samples/sec	cross-entropy=0.394777	sepal_length-accuracy=0.000000
+2024-03-06 09:10:55,233 [INFO]  Epoch[4] Train-cross-entropy=0.338887
+2024-03-06 09:10:55,233 [INFO]  Epoch[4] Train-sepal_length-accuracy=0.000000
+2024-03-06 09:10:55,234 [INFO]  Epoch[4] Time cost=18.206
+2024-03-06 09:10:55,236 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 09:10:55,829 [INFO]  Epoch[4] Validation-cross-entropy=0.111581
+2024-03-06 09:10:55,829 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 09:10:55,830 [INFO]  
+========== done (98.12523484230042 s) fit model
+2024-03-06 09:16:37,559 [INFO]  
+========== start: fit model
+2024-03-06 09:16:37,559 [WARNING]  Already bound, ignoring bind()
+2024-03-06 09:16:52,887 [INFO]  Epoch[0] Batch [0-4]	Speed: 5.21 samples/sec	cross-entropy=9.919677	sepal_length-accuracy=0.000000
+2024-03-06 09:16:57,832 [INFO]  Epoch[0] Train-cross-entropy=8.430696
+2024-03-06 09:16:57,832 [INFO]  Epoch[0] Train-sepal_length-accuracy=0.000000
+2024-03-06 09:16:57,832 [INFO]  Epoch[0] Time cost=20.261
+2024-03-06 09:16:57,834 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 09:16:58,354 [INFO]  Epoch[0] Validation-cross-entropy=4.135623
+2024-03-06 09:16:58,354 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 09:17:12,469 [INFO]  Epoch[1] Batch [0-4]	Speed: 5.47 samples/sec	cross-entropy=1.653631	sepal_length-accuracy=0.000000
+2024-03-06 09:17:18,332 [INFO]  Epoch[1] Train-cross-entropy=1.819882
+2024-03-06 09:17:18,332 [INFO]  Epoch[1] Train-sepal_length-accuracy=0.000000
+2024-03-06 09:17:18,332 [INFO]  Epoch[1] Time cost=19.978
+2024-03-06 09:17:18,335 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 09:17:19,219 [INFO]  Epoch[1] Validation-cross-entropy=0.974939
+2024-03-06 09:17:19,219 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 09:17:31,873 [INFO]  Epoch[2] Batch [0-4]	Speed: 6.39 samples/sec	cross-entropy=1.374414	sepal_length-accuracy=0.000000
+2024-03-06 09:17:37,885 [INFO]  Epoch[2] Train-cross-entropy=1.084596
+2024-03-06 09:17:37,885 [INFO]  Epoch[2] Train-sepal_length-accuracy=0.000000
+2024-03-06 09:17:37,885 [INFO]  Epoch[2] Time cost=18.666
+2024-03-06 09:17:37,887 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 09:17:38,582 [INFO]  Epoch[2] Validation-cross-entropy=1.071259
+2024-03-06 09:17:38,582 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 09:17:50,636 [INFO]  Epoch[3] Batch [0-4]	Speed: 6.74 samples/sec	cross-entropy=0.235146	sepal_length-accuracy=0.000000
+2024-03-06 09:17:57,268 [INFO]  Epoch[3] Train-cross-entropy=0.237797
+2024-03-06 09:17:57,268 [INFO]  Epoch[3] Train-sepal_length-accuracy=0.000000
+2024-03-06 09:17:57,268 [INFO]  Epoch[3] Time cost=18.686
+2024-03-06 09:17:57,270 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 09:17:57,940 [INFO]  Epoch[3] Validation-cross-entropy=0.174207
+2024-03-06 09:17:57,940 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 09:18:11,343 [INFO]  Epoch[4] Batch [0-4]	Speed: 6.01 samples/sec	cross-entropy=0.482151	sepal_length-accuracy=0.000000
+2024-03-06 09:18:16,397 [INFO]  Epoch[4] Train-cross-entropy=0.385759
+2024-03-06 09:18:16,397 [INFO]  Epoch[4] Train-sepal_length-accuracy=0.000000
+2024-03-06 09:18:16,397 [INFO]  Epoch[4] Time cost=18.457
+2024-03-06 09:18:16,399 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 09:18:17,156 [INFO]  Epoch[4] Validation-cross-entropy=0.152791
+2024-03-06 09:18:17,156 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 09:18:17,156 [INFO]  
+========== done (99.59753966331482 s) fit model
+2024-03-06 09:24:03,148 [INFO]  
+========== start: fit model
+2024-03-06 09:24:03,148 [WARNING]  Already bound, ignoring bind()
+2024-03-06 09:24:17,347 [INFO]  Epoch[0] Batch [0-4]	Speed: 6.12 samples/sec	cross-entropy=17.976332	sepal_length-accuracy=2.800000
+2024-03-06 09:24:23,536 [INFO]  Epoch[0] Train-cross-entropy=14.254931
+2024-03-06 09:24:23,536 [INFO]  Epoch[0] Train-sepal_length-accuracy=3.000000
+2024-03-06 09:24:23,536 [INFO]  Epoch[0] Time cost=20.387
+2024-03-06 09:24:23,538 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 09:24:24,189 [INFO]  Epoch[0] Validation-cross-entropy=7.629676
+2024-03-06 09:24:24,189 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 09:24:37,504 [INFO]  Epoch[1] Batch [0-4]	Speed: 5.96 samples/sec	cross-entropy=5.242988	sepal_length-accuracy=2.800000
+2024-03-06 09:24:41,984 [INFO]  Epoch[1] Train-cross-entropy=4.541134
+2024-03-06 09:24:41,984 [INFO]  Epoch[1] Train-sepal_length-accuracy=3.000000
+2024-03-06 09:24:41,984 [INFO]  Epoch[1] Time cost=17.795
+2024-03-06 09:24:41,986 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 09:24:42,687 [INFO]  Epoch[1] Validation-cross-entropy=3.406423
+2024-03-06 09:24:42,687 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 09:24:54,947 [INFO]  Epoch[2] Batch [0-4]	Speed: 6.40 samples/sec	cross-entropy=1.486901	sepal_length-accuracy=2.800000
+2024-03-06 09:25:00,393 [INFO]  Epoch[2] Train-cross-entropy=1.232549
+2024-03-06 09:25:00,394 [INFO]  Epoch[2] Train-sepal_length-accuracy=3.000000
+2024-03-06 09:25:00,394 [INFO]  Epoch[2] Time cost=17.706
+2024-03-06 09:25:00,396 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 09:25:01,354 [INFO]  Epoch[2] Validation-cross-entropy=0.335831
+2024-03-06 09:25:01,354 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 09:25:15,750 [INFO]  Epoch[3] Batch [0-4]	Speed: 5.50 samples/sec	cross-entropy=0.487095	sepal_length-accuracy=2.800000
+2024-03-06 09:25:20,757 [INFO]  Epoch[3] Train-cross-entropy=0.528406
+2024-03-06 09:25:20,757 [INFO]  Epoch[3] Train-sepal_length-accuracy=3.000000
+2024-03-06 09:25:20,757 [INFO]  Epoch[3] Time cost=19.403
+2024-03-06 09:25:20,759 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 09:25:21,505 [INFO]  Epoch[3] Validation-cross-entropy=0.717309
+2024-03-06 09:25:21,505 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 09:25:36,468 [INFO]  Epoch[4] Batch [0-4]	Speed: 5.11 samples/sec	cross-entropy=0.558696	sepal_length-accuracy=2.800000
+2024-03-06 09:25:42,065 [INFO]  Epoch[4] Train-cross-entropy=0.501405
+2024-03-06 09:25:42,065 [INFO]  Epoch[4] Train-sepal_length-accuracy=3.000000
+2024-03-06 09:25:42,065 [INFO]  Epoch[4] Time cost=20.559
+2024-03-06 09:25:42,067 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 09:25:42,701 [INFO]  Epoch[4] Validation-cross-entropy=0.207237
+2024-03-06 09:25:42,701 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 09:25:42,701 [INFO]  
+========== done (99.55309319496155 s) fit model
+2024-03-06 09:31:19,452 [INFO]  
+========== start: fit model
+2024-03-06 09:31:19,452 [WARNING]  Already bound, ignoring bind()
+2024-03-06 09:31:31,529 [INFO]  Epoch[0] Batch [0-4]	Speed: 7.33 samples/sec	cross-entropy=14.320169	sepal_length-accuracy=2.600000
+2024-03-06 09:31:37,696 [INFO]  Epoch[0] Train-cross-entropy=11.900398
+2024-03-06 09:31:37,696 [INFO]  Epoch[0] Train-sepal_length-accuracy=2.857143
+2024-03-06 09:31:37,696 [INFO]  Epoch[0] Time cost=18.242
+2024-03-06 09:31:37,698 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 09:31:38,551 [INFO]  Epoch[0] Validation-cross-entropy=2.252479
+2024-03-06 09:31:38,551 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 09:31:51,565 [INFO]  Epoch[1] Batch [0-4]	Speed: 6.19 samples/sec	cross-entropy=3.417177	sepal_length-accuracy=2.600000
+2024-03-06 09:31:56,558 [INFO]  Epoch[1] Train-cross-entropy=3.426496
+2024-03-06 09:31:56,559 [INFO]  Epoch[1] Train-sepal_length-accuracy=2.857143
+2024-03-06 09:31:56,559 [INFO]  Epoch[1] Time cost=18.008
+2024-03-06 09:31:56,561 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 09:31:57,215 [INFO]  Epoch[1] Validation-cross-entropy=1.922450
+2024-03-06 09:31:57,215 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 09:32:09,461 [INFO]  Epoch[2] Batch [0-4]	Speed: 6.53 samples/sec	cross-entropy=2.109628	sepal_length-accuracy=2.600000
+2024-03-06 09:32:13,943 [INFO]  Epoch[2] Train-cross-entropy=1.771348
+2024-03-06 09:32:13,944 [INFO]  Epoch[2] Train-sepal_length-accuracy=2.857143
+2024-03-06 09:32:13,944 [INFO]  Epoch[2] Time cost=16.728
+2024-03-06 09:32:13,946 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 09:32:14,710 [INFO]  Epoch[2] Validation-cross-entropy=0.297094
+2024-03-06 09:32:14,711 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 09:32:27,034 [INFO]  Epoch[3] Batch [0-4]	Speed: 6.71 samples/sec	cross-entropy=0.973265	sepal_length-accuracy=2.600000
+2024-03-06 09:32:32,161 [INFO]  Epoch[3] Train-cross-entropy=0.836717
+2024-03-06 09:32:32,161 [INFO]  Epoch[3] Train-sepal_length-accuracy=2.857143
+2024-03-06 09:32:32,161 [INFO]  Epoch[3] Time cost=17.451
+2024-03-06 09:32:32,168 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 09:32:32,776 [INFO]  Epoch[3] Validation-cross-entropy=0.759109
+2024-03-06 09:32:32,776 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 09:32:46,938 [INFO]  Epoch[4] Batch [0-4]	Speed: 5.67 samples/sec	cross-entropy=0.539071	sepal_length-accuracy=2.600000
+2024-03-06 09:32:52,463 [INFO]  Epoch[4] Train-cross-entropy=0.451440
+2024-03-06 09:32:52,463 [INFO]  Epoch[4] Train-sepal_length-accuracy=2.857143
+2024-03-06 09:32:52,463 [INFO]  Epoch[4] Time cost=19.687
+2024-03-06 09:32:52,465 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 09:32:53,146 [INFO]  Epoch[4] Validation-cross-entropy=0.223942
+2024-03-06 09:32:53,146 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 09:32:53,146 [INFO]  
+========== done (93.69385528564453 s) fit model
+2024-03-06 09:38:14,573 [INFO]  
+========== start: fit model
+2024-03-06 09:38:14,573 [WARNING]  Already bound, ignoring bind()
+2024-03-06 09:38:29,035 [INFO]  Epoch[0] Batch [0-4]	Speed: 5.81 samples/sec	cross-entropy=27.447097	sepal_length-accuracy=0.000000
+2024-03-06 09:38:34,371 [INFO]  Epoch[0] Train-cross-entropy=24.748720
+2024-03-06 09:38:34,371 [INFO]  Epoch[0] Train-sepal_length-accuracy=0.000000
+2024-03-06 09:38:34,371 [INFO]  Epoch[0] Time cost=19.784
+2024-03-06 09:38:34,373 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 09:38:35,198 [INFO]  Epoch[0] Validation-cross-entropy=22.966345
+2024-03-06 09:38:35,198 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 09:38:48,637 [INFO]  Epoch[1] Batch [0-4]	Speed: 5.74 samples/sec	cross-entropy=8.691474	sepal_length-accuracy=0.000000
+2024-03-06 09:38:55,257 [INFO]  Epoch[1] Train-cross-entropy=7.335918
+2024-03-06 09:38:55,257 [INFO]  Epoch[1] Train-sepal_length-accuracy=0.000000
+2024-03-06 09:38:55,257 [INFO]  Epoch[1] Time cost=20.060
+2024-03-06 09:38:55,259 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 09:38:55,845 [INFO]  Epoch[1] Validation-cross-entropy=4.568276
+2024-03-06 09:38:55,845 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 09:39:09,931 [INFO]  Epoch[2] Batch [0-4]	Speed: 5.67 samples/sec	cross-entropy=2.725707	sepal_length-accuracy=0.000000
+2024-03-06 09:39:15,403 [INFO]  Epoch[2] Train-cross-entropy=2.360432
+2024-03-06 09:39:15,404 [INFO]  Epoch[2] Train-sepal_length-accuracy=0.000000
+2024-03-06 09:39:15,404 [INFO]  Epoch[2] Time cost=19.558
+2024-03-06 09:39:15,409 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 09:39:15,971 [INFO]  Epoch[2] Validation-cross-entropy=1.742878
+2024-03-06 09:39:15,971 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 09:39:26,923 [INFO]  Epoch[3] Batch [0-4]	Speed: 7.41 samples/sec	cross-entropy=2.038078	sepal_length-accuracy=0.000000
+2024-03-06 09:39:30,955 [INFO]  Epoch[3] Train-cross-entropy=1.892816
+2024-03-06 09:39:30,955 [INFO]  Epoch[3] Train-sepal_length-accuracy=0.000000
+2024-03-06 09:39:30,955 [INFO]  Epoch[3] Time cost=14.984
+2024-03-06 09:39:30,957 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 09:39:31,520 [INFO]  Epoch[3] Validation-cross-entropy=1.092831
+2024-03-06 09:39:31,520 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 09:39:43,031 [INFO]  Epoch[4] Batch [0-4]	Speed: 7.04 samples/sec	cross-entropy=1.784867	sepal_length-accuracy=0.000000
+2024-03-06 09:39:49,928 [INFO]  Epoch[4] Train-cross-entropy=1.553713
+2024-03-06 09:39:49,929 [INFO]  Epoch[4] Train-sepal_length-accuracy=0.000000
+2024-03-06 09:39:49,929 [INFO]  Epoch[4] Time cost=18.409
+2024-03-06 09:39:49,931 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 09:39:50,558 [INFO]  Epoch[4] Validation-cross-entropy=0.580442
+2024-03-06 09:39:50,558 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 09:39:50,558 [INFO]  
+========== done (95.9852089881897 s) fit model
+2024-03-06 10:07:12,365 [INFO]  
+========== start: fit model
+2024-03-06 10:07:12,379 [WARNING]  Already bound, ignoring bind()
+2024-03-06 10:07:12,914 [INFO]  Epoch[0] Batch [0-4]	Speed: 498.21 samples/sec	cross-entropy=16.163418	sepal_length-accuracy=0.000000
+2024-03-06 10:07:13,400 [INFO]  Epoch[0] Train-cross-entropy=14.159511
+2024-03-06 10:07:13,400 [INFO]  Epoch[0] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:07:13,400 [INFO]  Epoch[0] Time cost=1.020
+2024-03-06 10:07:13,402 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 10:07:13,521 [INFO]  Epoch[0] Validation-cross-entropy=8.468739
+2024-03-06 10:07:13,521 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:07:13,673 [INFO]  Epoch[1] Batch [0-4]	Speed: 13768.75 samples/sec	cross-entropy=5.615384	sepal_length-accuracy=0.000000
+2024-03-06 10:07:13,679 [INFO]  Epoch[1] Train-cross-entropy=4.994809
+2024-03-06 10:07:13,679 [INFO]  Epoch[1] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:07:13,679 [INFO]  Epoch[1] Time cost=0.158
+2024-03-06 10:07:13,892 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 10:07:14,036 [INFO]  Epoch[1] Validation-cross-entropy=2.448676
+2024-03-06 10:07:14,037 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:07:14,107 [INFO]  Epoch[2] Batch [0-4]	Speed: 9181.36 samples/sec	cross-entropy=2.270803	sepal_length-accuracy=0.000000
+2024-03-06 10:07:14,226 [INFO]  Epoch[2] Train-cross-entropy=1.936805
+2024-03-06 10:07:14,226 [INFO]  Epoch[2] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:07:14,226 [INFO]  Epoch[2] Time cost=0.189
+2024-03-06 10:07:14,228 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 10:07:14,362 [INFO]  Epoch[2] Validation-cross-entropy=1.957703
+2024-03-06 10:07:14,362 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:07:15,660 [INFO]  Epoch[3] Batch [0-4]	Speed: 63.88 samples/sec	cross-entropy=1.123335	sepal_length-accuracy=0.000000
+2024-03-06 10:07:16,109 [INFO]  Epoch[3] Train-cross-entropy=1.071468
+2024-03-06 10:07:16,110 [INFO]  Epoch[3] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:07:16,110 [INFO]  Epoch[3] Time cost=1.748
+2024-03-06 10:07:16,117 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 10:07:16,129 [INFO]  Epoch[3] Validation-cross-entropy=0.967779
+2024-03-06 10:07:16,129 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:07:16,331 [INFO]  Epoch[4] Batch [0-4]	Speed: 499.05 samples/sec	cross-entropy=0.707445	sepal_length-accuracy=0.000000
+2024-03-06 10:07:16,981 [INFO]  Epoch[4] Train-cross-entropy=0.652918
+2024-03-06 10:07:16,981 [INFO]  Epoch[4] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:07:16,982 [INFO]  Epoch[4] Time cost=0.852
+2024-03-06 10:07:16,983 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 10:07:17,094 [INFO]  Epoch[4] Validation-cross-entropy=0.443435
+2024-03-06 10:07:17,094 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:07:17,094 [INFO]  
+========== done (4.7294533252716064 s) fit model
+2024-03-06 10:07:38,274 [INFO]  
+========== start: fit model
+2024-03-06 10:07:38,282 [WARNING]  Already bound, ignoring bind()
+2024-03-06 10:07:38,553 [INFO]  Epoch[0] Batch [0-4]	Speed: 16350.07 samples/sec	cross-entropy=18.026110	sepal_length-accuracy=3.400000
+2024-03-06 10:07:38,555 [INFO]  Epoch[0] Train-cross-entropy=15.034439
+2024-03-06 10:07:38,555 [INFO]  Epoch[0] Train-sepal_length-accuracy=3.285714
+2024-03-06 10:07:38,555 [INFO]  Epoch[0] Time cost=0.272
+2024-03-06 10:07:38,556 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 10:07:38,680 [INFO]  Epoch[0] Validation-cross-entropy=2.454417
+2024-03-06 10:07:38,680 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:07:40,007 [INFO]  Epoch[1] Batch [0-4]	Speed: 48.82 samples/sec	cross-entropy=5.087636	sepal_length-accuracy=3.400000
+2024-03-06 10:07:40,132 [INFO]  Epoch[1] Train-cross-entropy=4.784877
+2024-03-06 10:07:40,133 [INFO]  Epoch[1] Train-sepal_length-accuracy=3.285714
+2024-03-06 10:07:40,133 [INFO]  Epoch[1] Time cost=1.453
+2024-03-06 10:07:40,134 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 10:07:40,186 [INFO]  Epoch[1] Validation-cross-entropy=1.914660
+2024-03-06 10:07:40,186 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:07:40,481 [INFO]  Epoch[2] Batch [0-4]	Speed: 401.35 samples/sec	cross-entropy=3.355277	sepal_length-accuracy=3.400000
+2024-03-06 10:07:40,483 [INFO]  Epoch[2] Train-cross-entropy=2.847901
+2024-03-06 10:07:40,484 [INFO]  Epoch[2] Train-sepal_length-accuracy=3.285714
+2024-03-06 10:07:40,484 [INFO]  Epoch[2] Time cost=0.297
+2024-03-06 10:07:40,492 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 10:07:40,500 [INFO]  Epoch[2] Validation-cross-entropy=0.540218
+2024-03-06 10:07:40,501 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:07:40,696 [INFO]  Epoch[3] Batch [0-4]	Speed: 452.55 samples/sec	cross-entropy=1.075902	sepal_length-accuracy=3.400000
+2024-03-06 10:07:40,861 [INFO]  Epoch[3] Train-cross-entropy=0.887113
+2024-03-06 10:07:40,861 [INFO]  Epoch[3] Train-sepal_length-accuracy=3.285714
+2024-03-06 10:07:40,861 [INFO]  Epoch[3] Time cost=0.360
+2024-03-06 10:07:40,865 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 10:07:40,914 [INFO]  Epoch[3] Validation-cross-entropy=0.362577
+2024-03-06 10:07:40,914 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:07:41,762 [INFO]  Epoch[4] Batch [0-4]	Speed: 75.66 samples/sec	cross-entropy=0.532843	sepal_length-accuracy=3.400000
+2024-03-06 10:07:41,764 [INFO]  Epoch[4] Train-cross-entropy=0.462970
+2024-03-06 10:07:41,764 [INFO]  Epoch[4] Train-sepal_length-accuracy=3.285714
+2024-03-06 10:07:41,764 [INFO]  Epoch[4] Time cost=0.850
+2024-03-06 10:07:41,766 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 10:07:41,869 [INFO]  Epoch[4] Validation-cross-entropy=0.144118
+2024-03-06 10:07:41,869 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:07:41,869 [INFO]  
+========== done (3.5950543880462646 s) fit model
+2024-03-06 10:07:59,316 [INFO]  
+========== start: fit model
+2024-03-06 10:07:59,316 [WARNING]  Already bound, ignoring bind()
+2024-03-06 10:07:59,591 [INFO]  Epoch[0] Batch [0-4]	Speed: 616.08 samples/sec	cross-entropy=12.213954	sepal_length-accuracy=0.000000
+2024-03-06 10:07:59,849 [INFO]  Epoch[0] Train-cross-entropy=10.254609
+2024-03-06 10:07:59,849 [INFO]  Epoch[0] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:07:59,849 [INFO]  Epoch[0] Time cost=0.533
+2024-03-06 10:07:59,851 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 10:07:59,852 [INFO]  Epoch[0] Validation-cross-entropy=4.597513
+2024-03-06 10:07:59,852 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:00,384 [INFO]  Epoch[1] Batch [0-4]	Speed: 121.37 samples/sec	cross-entropy=2.031719	sepal_length-accuracy=0.000000
+2024-03-06 10:08:00,407 [INFO]  Epoch[1] Train-cross-entropy=2.245256
+2024-03-06 10:08:00,407 [INFO]  Epoch[1] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:08:00,407 [INFO]  Epoch[1] Time cost=0.555
+2024-03-06 10:08:00,408 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 10:08:00,416 [INFO]  Epoch[1] Validation-cross-entropy=1.359785
+2024-03-06 10:08:00,417 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:00,511 [INFO]  Epoch[2] Batch [0-4]	Speed: 1569.44 samples/sec	cross-entropy=2.610318	sepal_length-accuracy=0.000000
+2024-03-06 10:08:00,553 [INFO]  Epoch[2] Train-cross-entropy=2.188210
+2024-03-06 10:08:00,553 [INFO]  Epoch[2] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:08:00,553 [INFO]  Epoch[2] Time cost=0.137
+2024-03-06 10:08:00,555 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 10:08:00,557 [INFO]  Epoch[2] Validation-cross-entropy=0.462492
+2024-03-06 10:08:00,557 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:00,566 [INFO]  Epoch[3] Batch [0-4]	Speed: 13792.09 samples/sec	cross-entropy=0.627129	sepal_length-accuracy=0.000000
+2024-03-06 10:08:00,709 [INFO]  Epoch[3] Train-cross-entropy=0.554671
+2024-03-06 10:08:00,709 [INFO]  Epoch[3] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:08:00,709 [INFO]  Epoch[3] Time cost=0.152
+2024-03-06 10:08:00,710 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 10:08:00,850 [INFO]  Epoch[3] Validation-cross-entropy=1.032093
+2024-03-06 10:08:00,850 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:01,418 [INFO]  Epoch[4] Batch [0-4]	Speed: 152.95 samples/sec	cross-entropy=0.683089	sepal_length-accuracy=0.000000
+2024-03-06 10:08:01,420 [INFO]  Epoch[4] Train-cross-entropy=0.564898
+2024-03-06 10:08:01,421 [INFO]  Epoch[4] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:08:01,421 [INFO]  Epoch[4] Time cost=0.570
+2024-03-06 10:08:01,422 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 10:08:01,423 [INFO]  Epoch[4] Validation-cross-entropy=0.659210
+2024-03-06 10:08:01,423 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:01,423 [INFO]  
+========== done (2.1076059341430664 s) fit model
+2024-03-06 10:08:04,755 [INFO]  
+========== start: fit model
+2024-03-06 10:08:04,755 [WARNING]  Already bound, ignoring bind()
+2024-03-06 10:08:04,760 [INFO]  Epoch[0] Batch [0-4]	Speed: 23791.14 samples/sec	cross-entropy=6.519513	sepal_length-accuracy=0.000000
+2024-03-06 10:08:04,761 [INFO]  Epoch[0] Train-cross-entropy=5.719540
+2024-03-06 10:08:04,761 [INFO]  Epoch[0] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:08:04,762 [INFO]  Epoch[0] Time cost=0.006
+2024-03-06 10:08:04,763 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 10:08:04,763 [INFO]  Epoch[0] Validation-cross-entropy=0.285756
+2024-03-06 10:08:04,763 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:04,767 [INFO]  Epoch[1] Batch [0-4]	Speed: 22843.63 samples/sec	cross-entropy=1.685974	sepal_length-accuracy=0.000000
+2024-03-06 10:08:04,768 [INFO]  Epoch[1] Train-cross-entropy=1.512472
+2024-03-06 10:08:04,768 [INFO]  Epoch[1] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:08:04,769 [INFO]  Epoch[1] Time cost=0.005
+2024-03-06 10:08:04,770 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 10:08:04,770 [INFO]  Epoch[1] Validation-cross-entropy=0.885142
+2024-03-06 10:08:04,770 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:04,778 [INFO]  Epoch[2] Batch [0-4]	Speed: 9077.97 samples/sec	cross-entropy=0.903125	sepal_length-accuracy=0.000000
+2024-03-06 10:08:04,823 [INFO]  Epoch[2] Train-cross-entropy=0.911739
+2024-03-06 10:08:04,823 [INFO]  Epoch[2] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:08:04,823 [INFO]  Epoch[2] Time cost=0.053
+2024-03-06 10:08:04,825 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 10:08:04,826 [INFO]  Epoch[2] Validation-cross-entropy=0.685293
+2024-03-06 10:08:04,826 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:04,833 [INFO]  Epoch[3] Batch [0-4]	Speed: 10873.11 samples/sec	cross-entropy=0.301061	sepal_length-accuracy=0.000000
+2024-03-06 10:08:04,836 [INFO]  Epoch[3] Train-cross-entropy=0.286903
+2024-03-06 10:08:04,836 [INFO]  Epoch[3] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:08:04,836 [INFO]  Epoch[3] Time cost=0.010
+2024-03-06 10:08:04,838 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 10:08:04,839 [INFO]  Epoch[3] Validation-cross-entropy=0.122408
+2024-03-06 10:08:04,839 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:04,844 [INFO]  Epoch[4] Batch [0-4]	Speed: 16786.66 samples/sec	cross-entropy=0.228989	sepal_length-accuracy=0.000000
+2024-03-06 10:08:04,846 [INFO]  Epoch[4] Train-cross-entropy=0.211003
+2024-03-06 10:08:04,846 [INFO]  Epoch[4] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:08:04,846 [INFO]  Epoch[4] Time cost=0.007
+2024-03-06 10:08:04,848 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 10:08:04,849 [INFO]  Epoch[4] Validation-cross-entropy=0.111459
+2024-03-06 10:08:04,849 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:04,849 [INFO]  
+========== done (0.09423398971557617 s) fit model
+2024-03-06 10:08:08,672 [INFO]  
+========== start: fit model
+2024-03-06 10:08:08,673 [WARNING]  Already bound, ignoring bind()
+2024-03-06 10:08:08,886 [INFO]  Epoch[0] Batch [0-4]	Speed: 25565.28 samples/sec	cross-entropy=22.037896	sepal_length-accuracy=0.000000
+2024-03-06 10:08:08,887 [INFO]  Epoch[0] Train-cross-entropy=17.376684
+2024-03-06 10:08:08,888 [INFO]  Epoch[0] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:08:08,888 [INFO]  Epoch[0] Time cost=0.214
+2024-03-06 10:08:08,890 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 10:08:08,890 [INFO]  Epoch[0] Validation-cross-entropy=4.520696
+2024-03-06 10:08:08,890 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:08,893 [INFO]  Epoch[1] Batch [0-4]	Speed: 26556.73 samples/sec	cross-entropy=2.789488	sepal_length-accuracy=0.000000
+2024-03-06 10:08:08,895 [INFO]  Epoch[1] Train-cross-entropy=2.385513
+2024-03-06 10:08:08,895 [INFO]  Epoch[1] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:08:08,895 [INFO]  Epoch[1] Time cost=0.005
+2024-03-06 10:08:10,062 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 10:08:10,064 [INFO]  Epoch[1] Validation-cross-entropy=1.242549
+2024-03-06 10:08:10,064 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:10,073 [INFO]  Epoch[2] Batch [0-4]	Speed: 9394.72 samples/sec	cross-entropy=1.264617	sepal_length-accuracy=0.000000
+2024-03-06 10:08:10,076 [INFO]  Epoch[2] Train-cross-entropy=1.405324
+2024-03-06 10:08:10,076 [INFO]  Epoch[2] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:08:10,076 [INFO]  Epoch[2] Time cost=0.012
+2024-03-06 10:08:10,129 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 10:08:10,131 [INFO]  Epoch[2] Validation-cross-entropy=1.351743
+2024-03-06 10:08:10,131 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:10,147 [INFO]  Epoch[3] Batch [0-4]	Speed: 9674.40 samples/sec	cross-entropy=1.229470	sepal_length-accuracy=0.000000
+2024-03-06 10:08:10,150 [INFO]  Epoch[3] Train-cross-entropy=1.153130
+2024-03-06 10:08:10,150 [INFO]  Epoch[3] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:08:10,150 [INFO]  Epoch[3] Time cost=0.019
+2024-03-06 10:08:10,152 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 10:08:10,153 [INFO]  Epoch[3] Validation-cross-entropy=0.257645
+2024-03-06 10:08:10,153 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:10,158 [INFO]  Epoch[4] Batch [0-4]	Speed: 16280.66 samples/sec	cross-entropy=0.394777	sepal_length-accuracy=0.000000
+2024-03-06 10:08:10,160 [INFO]  Epoch[4] Train-cross-entropy=0.338887
+2024-03-06 10:08:10,160 [INFO]  Epoch[4] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:08:10,160 [INFO]  Epoch[4] Time cost=0.007
+2024-03-06 10:08:10,162 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 10:08:10,163 [INFO]  Epoch[4] Validation-cross-entropy=0.111581
+2024-03-06 10:08:10,163 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:10,163 [INFO]  
+========== done (1.490652084350586 s) fit model
+2024-03-06 10:08:13,131 [INFO]  
+========== start: fit model
+2024-03-06 10:08:13,131 [WARNING]  Already bound, ignoring bind()
+2024-03-06 10:08:13,136 [INFO]  Epoch[0] Batch [0-4]	Speed: 21423.42 samples/sec	cross-entropy=9.919677	sepal_length-accuracy=0.000000
+2024-03-06 10:08:13,138 [INFO]  Epoch[0] Train-cross-entropy=8.430696
+2024-03-06 10:08:13,138 [INFO]  Epoch[0] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:08:13,138 [INFO]  Epoch[0] Time cost=0.006
+2024-03-06 10:08:13,139 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 10:08:13,140 [INFO]  Epoch[0] Validation-cross-entropy=4.135623
+2024-03-06 10:08:13,140 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:13,143 [INFO]  Epoch[1] Batch [0-4]	Speed: 22262.02 samples/sec	cross-entropy=1.653631	sepal_length-accuracy=0.000000
+2024-03-06 10:08:13,145 [INFO]  Epoch[1] Train-cross-entropy=1.819882
+2024-03-06 10:08:13,145 [INFO]  Epoch[1] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:08:13,145 [INFO]  Epoch[1] Time cost=0.005
+2024-03-06 10:08:13,147 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 10:08:13,147 [INFO]  Epoch[1] Validation-cross-entropy=0.974939
+2024-03-06 10:08:13,147 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:13,150 [INFO]  Epoch[2] Batch [0-4]	Speed: 25233.64 samples/sec	cross-entropy=1.374414	sepal_length-accuracy=0.000000
+2024-03-06 10:08:13,152 [INFO]  Epoch[2] Train-cross-entropy=1.084596
+2024-03-06 10:08:13,152 [INFO]  Epoch[2] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:08:13,152 [INFO]  Epoch[2] Time cost=0.005
+2024-03-06 10:08:13,153 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 10:08:13,154 [INFO]  Epoch[2] Validation-cross-entropy=1.071259
+2024-03-06 10:08:13,154 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:13,157 [INFO]  Epoch[3] Batch [0-4]	Speed: 24498.99 samples/sec	cross-entropy=0.235146	sepal_length-accuracy=0.000000
+2024-03-06 10:08:13,158 [INFO]  Epoch[3] Train-cross-entropy=0.237797
+2024-03-06 10:08:13,159 [INFO]  Epoch[3] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:08:13,159 [INFO]  Epoch[3] Time cost=0.005
+2024-03-06 10:08:13,160 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 10:08:13,160 [INFO]  Epoch[3] Validation-cross-entropy=0.174207
+2024-03-06 10:08:13,160 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:13,164 [INFO]  Epoch[4] Batch [0-4]	Speed: 24880.48 samples/sec	cross-entropy=0.482151	sepal_length-accuracy=0.000000
+2024-03-06 10:08:13,165 [INFO]  Epoch[4] Train-cross-entropy=0.385759
+2024-03-06 10:08:13,165 [INFO]  Epoch[4] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:08:13,165 [INFO]  Epoch[4] Time cost=0.005
+2024-03-06 10:08:13,166 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 10:08:13,167 [INFO]  Epoch[4] Validation-cross-entropy=0.152791
+2024-03-06 10:08:13,167 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:13,167 [INFO]  
+========== done (0.03595733642578125 s) fit model
+2024-03-06 10:08:16,445 [INFO]  
+========== start: fit model
+2024-03-06 10:08:16,445 [WARNING]  Already bound, ignoring bind()
+2024-03-06 10:08:16,451 [INFO]  Epoch[0] Batch [0-4]	Speed: 21873.81 samples/sec	cross-entropy=17.976332	sepal_length-accuracy=2.800000
+2024-03-06 10:08:16,452 [INFO]  Epoch[0] Train-cross-entropy=14.254931
+2024-03-06 10:08:16,452 [INFO]  Epoch[0] Train-sepal_length-accuracy=3.000000
+2024-03-06 10:08:16,452 [INFO]  Epoch[0] Time cost=0.006
+2024-03-06 10:08:16,454 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 10:08:16,454 [INFO]  Epoch[0] Validation-cross-entropy=7.629676
+2024-03-06 10:08:16,454 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:16,458 [INFO]  Epoch[1] Batch [0-4]	Speed: 21968.69 samples/sec	cross-entropy=5.242988	sepal_length-accuracy=2.800000
+2024-03-06 10:08:16,460 [INFO]  Epoch[1] Train-cross-entropy=4.541134
+2024-03-06 10:08:16,460 [INFO]  Epoch[1] Train-sepal_length-accuracy=3.000000
+2024-03-06 10:08:16,460 [INFO]  Epoch[1] Time cost=0.005
+2024-03-06 10:08:16,461 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 10:08:16,461 [INFO]  Epoch[1] Validation-cross-entropy=3.406423
+2024-03-06 10:08:16,461 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:16,465 [INFO]  Epoch[2] Batch [0-4]	Speed: 24469.96 samples/sec	cross-entropy=1.486901	sepal_length-accuracy=2.800000
+2024-03-06 10:08:16,466 [INFO]  Epoch[2] Train-cross-entropy=1.232549
+2024-03-06 10:08:16,466 [INFO]  Epoch[2] Train-sepal_length-accuracy=3.000000
+2024-03-06 10:08:16,466 [INFO]  Epoch[2] Time cost=0.005
+2024-03-06 10:08:16,468 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 10:08:16,468 [INFO]  Epoch[2] Validation-cross-entropy=0.335831
+2024-03-06 10:08:16,468 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:16,472 [INFO]  Epoch[3] Batch [0-4]	Speed: 24982.36 samples/sec	cross-entropy=0.487095	sepal_length-accuracy=2.800000
+2024-03-06 10:08:16,473 [INFO]  Epoch[3] Train-cross-entropy=0.528406
+2024-03-06 10:08:16,473 [INFO]  Epoch[3] Train-sepal_length-accuracy=3.000000
+2024-03-06 10:08:16,473 [INFO]  Epoch[3] Time cost=0.005
+2024-03-06 10:08:16,474 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 10:08:16,475 [INFO]  Epoch[3] Validation-cross-entropy=0.717309
+2024-03-06 10:08:16,475 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:16,478 [INFO]  Epoch[4] Batch [0-4]	Speed: 25181.56 samples/sec	cross-entropy=0.558696	sepal_length-accuracy=2.800000
+2024-03-06 10:08:16,480 [INFO]  Epoch[4] Train-cross-entropy=0.501405
+2024-03-06 10:08:16,480 [INFO]  Epoch[4] Train-sepal_length-accuracy=3.000000
+2024-03-06 10:08:16,480 [INFO]  Epoch[4] Time cost=0.005
+2024-03-06 10:08:16,481 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 10:08:16,481 [INFO]  Epoch[4] Validation-cross-entropy=0.207237
+2024-03-06 10:08:16,481 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:16,481 [INFO]  
+========== done (0.03627753257751465 s) fit model
+2024-03-06 10:08:19,898 [INFO]  
+========== start: fit model
+2024-03-06 10:08:19,898 [WARNING]  Already bound, ignoring bind()
+2024-03-06 10:08:19,912 [INFO]  Epoch[0] Batch [0-4]	Speed: 9876.21 samples/sec	cross-entropy=14.320169	sepal_length-accuracy=2.600000
+2024-03-06 10:08:19,916 [INFO]  Epoch[0] Train-cross-entropy=11.900398
+2024-03-06 10:08:19,916 [INFO]  Epoch[0] Train-sepal_length-accuracy=2.857143
+2024-03-06 10:08:19,916 [INFO]  Epoch[0] Time cost=0.017
+2024-03-06 10:08:19,919 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 10:08:19,920 [INFO]  Epoch[0] Validation-cross-entropy=2.252479
+2024-03-06 10:08:19,920 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:19,926 [INFO]  Epoch[1] Batch [0-4]	Speed: 14218.73 samples/sec	cross-entropy=3.417177	sepal_length-accuracy=2.600000
+2024-03-06 10:08:19,929 [INFO]  Epoch[1] Train-cross-entropy=3.426496
+2024-03-06 10:08:19,929 [INFO]  Epoch[1] Train-sepal_length-accuracy=2.857143
+2024-03-06 10:08:19,929 [INFO]  Epoch[1] Time cost=0.009
+2024-03-06 10:08:19,931 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 10:08:19,931 [INFO]  Epoch[1] Validation-cross-entropy=1.922450
+2024-03-06 10:08:19,931 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:19,935 [INFO]  Epoch[2] Batch [0-4]	Speed: 24094.38 samples/sec	cross-entropy=2.109628	sepal_length-accuracy=2.600000
+2024-03-06 10:08:19,936 [INFO]  Epoch[2] Train-cross-entropy=1.771348
+2024-03-06 10:08:19,936 [INFO]  Epoch[2] Train-sepal_length-accuracy=2.857143
+2024-03-06 10:08:19,937 [INFO]  Epoch[2] Time cost=0.005
+2024-03-06 10:08:19,938 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 10:08:19,939 [INFO]  Epoch[2] Validation-cross-entropy=0.297094
+2024-03-06 10:08:19,939 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:19,942 [INFO]  Epoch[3] Batch [0-4]	Speed: 28017.48 samples/sec	cross-entropy=0.973265	sepal_length-accuracy=2.600000
+2024-03-06 10:08:19,943 [INFO]  Epoch[3] Train-cross-entropy=0.836717
+2024-03-06 10:08:19,943 [INFO]  Epoch[3] Train-sepal_length-accuracy=2.857143
+2024-03-06 10:08:19,943 [INFO]  Epoch[3] Time cost=0.005
+2024-03-06 10:08:19,945 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 10:08:19,945 [INFO]  Epoch[3] Validation-cross-entropy=0.759109
+2024-03-06 10:08:19,945 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:19,948 [INFO]  Epoch[4] Batch [0-4]	Speed: 27436.17 samples/sec	cross-entropy=0.539071	sepal_length-accuracy=2.600000
+2024-03-06 10:08:19,950 [INFO]  Epoch[4] Train-cross-entropy=0.451440
+2024-03-06 10:08:19,950 [INFO]  Epoch[4] Train-sepal_length-accuracy=2.857143
+2024-03-06 10:08:19,950 [INFO]  Epoch[4] Time cost=0.005
+2024-03-06 10:08:19,951 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 10:08:19,952 [INFO]  Epoch[4] Validation-cross-entropy=0.223942
+2024-03-06 10:08:19,952 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:19,952 [INFO]  
+========== done (0.0540766716003418 s) fit model
+2024-03-06 10:08:23,930 [INFO]  
+========== start: fit model
+2024-03-06 10:08:23,931 [WARNING]  Already bound, ignoring bind()
+2024-03-06 10:08:24,294 [INFO]  Epoch[0] Batch [0-4]	Speed: 22540.55 samples/sec	cross-entropy=27.447097	sepal_length-accuracy=0.000000
+2024-03-06 10:08:24,296 [INFO]  Epoch[0] Train-cross-entropy=24.748720
+2024-03-06 10:08:24,296 [INFO]  Epoch[0] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:08:24,296 [INFO]  Epoch[0] Time cost=0.365
+2024-03-06 10:08:24,298 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 10:08:24,299 [INFO]  Epoch[0] Validation-cross-entropy=22.966345
+2024-03-06 10:08:24,299 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:24,304 [INFO]  Epoch[1] Batch [0-4]	Speed: 17794.86 samples/sec	cross-entropy=8.691474	sepal_length-accuracy=0.000000
+2024-03-06 10:08:24,306 [INFO]  Epoch[1] Train-cross-entropy=7.335918
+2024-03-06 10:08:24,306 [INFO]  Epoch[1] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:08:24,307 [INFO]  Epoch[1] Time cost=0.007
+2024-03-06 10:08:24,309 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 10:08:24,309 [INFO]  Epoch[1] Validation-cross-entropy=4.568276
+2024-03-06 10:08:24,309 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:24,322 [INFO]  Epoch[2] Batch [0-4]	Speed: 5782.51 samples/sec	cross-entropy=2.725707	sepal_length-accuracy=0.000000
+2024-03-06 10:08:24,369 [INFO]  Epoch[2] Train-cross-entropy=2.360432
+2024-03-06 10:08:24,369 [INFO]  Epoch[2] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:08:24,369 [INFO]  Epoch[2] Time cost=0.060
+2024-03-06 10:08:24,371 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 10:08:24,372 [INFO]  Epoch[2] Validation-cross-entropy=1.742878
+2024-03-06 10:08:24,372 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:24,384 [INFO]  Epoch[3] Batch [0-4]	Speed: 6031.99 samples/sec	cross-entropy=2.038078	sepal_length-accuracy=0.000000
+2024-03-06 10:08:24,412 [INFO]  Epoch[3] Train-cross-entropy=1.892816
+2024-03-06 10:08:24,412 [INFO]  Epoch[3] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:08:24,412 [INFO]  Epoch[3] Time cost=0.040
+2024-03-06 10:08:24,414 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 10:08:24,415 [INFO]  Epoch[3] Validation-cross-entropy=1.092831
+2024-03-06 10:08:24,415 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:24,423 [INFO]  Epoch[4] Batch [0-4]	Speed: 8623.60 samples/sec	cross-entropy=1.784867	sepal_length-accuracy=0.000000
+2024-03-06 10:08:24,430 [INFO]  Epoch[4] Train-cross-entropy=1.553713
+2024-03-06 10:08:24,430 [INFO]  Epoch[4] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:08:24,430 [INFO]  Epoch[4] Time cost=0.015
+2024-03-06 10:08:24,431 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 10:08:24,432 [INFO]  Epoch[4] Validation-cross-entropy=0.580442
+2024-03-06 10:08:24,432 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:24,432 [INFO]  
+========== done (0.5013093948364258 s) fit model
+2024-03-06 10:08:30,370 [INFO]  
+========== start: fit model
+2024-03-06 10:08:30,371 [WARNING]  Already bound, ignoring bind()
+2024-03-06 10:08:30,417 [INFO]  Epoch[0] Batch [0-4]	Speed: 11746.18 samples/sec	cross-entropy=18.997915	sepal_length-accuracy=0.000000
+2024-03-06 10:08:30,419 [INFO]  Epoch[0] Train-cross-entropy=15.590441
+2024-03-06 10:08:30,419 [INFO]  Epoch[0] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:08:30,419 [INFO]  Epoch[0] Time cost=0.048
+2024-03-06 10:08:30,424 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 10:08:30,444 [INFO]  Epoch[0] Validation-cross-entropy=2.388015
+2024-03-06 10:08:30,444 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:30,448 [INFO]  Epoch[1] Batch [0-4]	Speed: 23131.02 samples/sec	cross-entropy=2.918729	sepal_length-accuracy=0.000000
+2024-03-06 10:08:30,449 [INFO]  Epoch[1] Train-cross-entropy=2.973763
+2024-03-06 10:08:30,449 [INFO]  Epoch[1] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:08:30,449 [INFO]  Epoch[1] Time cost=0.005
+2024-03-06 10:08:30,451 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 10:08:30,451 [INFO]  Epoch[1] Validation-cross-entropy=5.838245
+2024-03-06 10:08:30,451 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:30,612 [INFO]  Epoch[2] Batch [0-4]	Speed: 415.40 samples/sec	cross-entropy=3.579919	sepal_length-accuracy=0.000000
+2024-03-06 10:08:30,621 [INFO]  Epoch[2] Train-cross-entropy=3.196883
+2024-03-06 10:08:30,622 [INFO]  Epoch[2] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:08:30,622 [INFO]  Epoch[2] Time cost=0.171
+2024-03-06 10:08:30,624 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 10:08:30,624 [INFO]  Epoch[2] Validation-cross-entropy=2.507798
+2024-03-06 10:08:30,625 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:30,652 [INFO]  Epoch[3] Batch [0-4]	Speed: 2448.09 samples/sec	cross-entropy=1.102891	sepal_length-accuracy=0.000000
+2024-03-06 10:08:30,662 [INFO]  Epoch[3] Train-cross-entropy=1.024781
+2024-03-06 10:08:30,662 [INFO]  Epoch[3] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:08:30,662 [INFO]  Epoch[3] Time cost=0.037
+2024-03-06 10:08:30,663 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 10:08:30,664 [INFO]  Epoch[3] Validation-cross-entropy=0.605538
+2024-03-06 10:08:30,664 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:30,670 [INFO]  Epoch[4] Batch [0-4]	Speed: 14726.54 samples/sec	cross-entropy=0.631943	sepal_length-accuracy=0.000000
+2024-03-06 10:08:30,671 [INFO]  Epoch[4] Train-cross-entropy=0.810683
+2024-03-06 10:08:30,671 [INFO]  Epoch[4] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:08:30,671 [INFO]  Epoch[4] Time cost=0.007
+2024-03-06 10:08:30,675 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 10:08:30,695 [INFO]  Epoch[4] Validation-cross-entropy=0.936428
+2024-03-06 10:08:30,695 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:30,695 [INFO]  
+========== done (0.3246784210205078 s) fit model
+2024-03-06 10:08:37,100 [INFO]  
+========== start: fit model
+2024-03-06 10:08:37,100 [WARNING]  Already bound, ignoring bind()
+2024-03-06 10:08:37,526 [INFO]  Epoch[0] Batch [0-4]	Speed: 361.77 samples/sec	cross-entropy=15.926674	sepal_length-accuracy=0.000000
+2024-03-06 10:08:37,528 [INFO]  Epoch[0] Train-cross-entropy=13.372400
+2024-03-06 10:08:37,528 [INFO]  Epoch[0] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:08:37,528 [INFO]  Epoch[0] Time cost=0.419
+2024-03-06 10:08:37,530 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 10:08:37,531 [INFO]  Epoch[0] Validation-cross-entropy=1.120762
+2024-03-06 10:08:37,531 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:37,847 [INFO]  Epoch[1] Batch [0-4]	Speed: 202.77 samples/sec	cross-entropy=3.323564	sepal_length-accuracy=0.000000
+2024-03-06 10:08:38,191 [INFO]  Epoch[1] Train-cross-entropy=2.702793
+2024-03-06 10:08:38,192 [INFO]  Epoch[1] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:08:38,192 [INFO]  Epoch[1] Time cost=0.661
+2024-03-06 10:08:38,195 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 10:08:38,341 [INFO]  Epoch[1] Validation-cross-entropy=2.228447
+2024-03-06 10:08:38,341 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:38,564 [INFO]  Epoch[2] Batch [0-4]	Speed: 3285.42 samples/sec	cross-entropy=1.932997	sepal_length-accuracy=0.000000
+2024-03-06 10:08:38,954 [INFO]  Epoch[2] Train-cross-entropy=1.885087
+2024-03-06 10:08:38,955 [INFO]  Epoch[2] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:08:38,955 [INFO]  Epoch[2] Time cost=0.613
+2024-03-06 10:08:38,957 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 10:08:39,085 [INFO]  Epoch[2] Validation-cross-entropy=2.094704
+2024-03-06 10:08:39,085 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:39,642 [INFO]  Epoch[3] Batch [0-4]	Speed: 119.22 samples/sec	cross-entropy=1.078996	sepal_length-accuracy=0.000000
+2024-03-06 10:08:39,870 [INFO]  Epoch[3] Train-cross-entropy=0.921854
+2024-03-06 10:08:39,871 [INFO]  Epoch[3] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:08:39,871 [INFO]  Epoch[3] Time cost=0.786
+2024-03-06 10:08:39,873 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 10:08:39,952 [INFO]  Epoch[3] Validation-cross-entropy=0.428279
+2024-03-06 10:08:39,952 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:39,957 [INFO]  Epoch[4] Batch [0-4]	Speed: 17454.68 samples/sec	cross-entropy=0.387704	sepal_length-accuracy=0.000000
+2024-03-06 10:08:39,959 [INFO]  Epoch[4] Train-cross-entropy=0.379153
+2024-03-06 10:08:39,960 [INFO]  Epoch[4] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:08:39,960 [INFO]  Epoch[4] Time cost=0.007
+2024-03-06 10:08:39,965 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 10:08:39,988 [INFO]  Epoch[4] Validation-cross-entropy=0.254290
+2024-03-06 10:08:39,988 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:08:39,988 [INFO]  
+========== done (2.8885738849639893 s) fit model
+2024-03-06 10:09:01,100 [INFO]  
+========== start: fit model
+2024-03-06 10:09:01,100 [WARNING]  Already bound, ignoring bind()
+2024-03-06 10:09:01,443 [INFO]  Epoch[0] Batch [0-4]	Speed: 287.72 samples/sec	cross-entropy=9.063720	sepal_length-accuracy=0.000000
+2024-03-06 10:09:01,446 [INFO]  Epoch[0] Train-cross-entropy=8.614160
+2024-03-06 10:09:01,446 [INFO]  Epoch[0] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:09:01,446 [INFO]  Epoch[0] Time cost=0.344
+2024-03-06 10:09:01,448 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 10:09:01,593 [INFO]  Epoch[0] Validation-cross-entropy=1.478569
+2024-03-06 10:09:01,593 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:09:01,854 [INFO]  Epoch[1] Batch [0-4]	Speed: 776.95 samples/sec	cross-entropy=3.284225	sepal_length-accuracy=0.000000
+2024-03-06 10:09:01,955 [INFO]  Epoch[1] Train-cross-entropy=3.112651
+2024-03-06 10:09:01,955 [INFO]  Epoch[1] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:09:01,955 [INFO]  Epoch[1] Time cost=0.362
+2024-03-06 10:09:01,957 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 10:09:02,078 [INFO]  Epoch[1] Validation-cross-entropy=1.337699
+2024-03-06 10:09:02,078 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:09:02,333 [INFO]  Epoch[2] Batch [0-4]	Speed: 457.19 samples/sec	cross-entropy=1.117224	sepal_length-accuracy=0.000000
+2024-03-06 10:09:02,336 [INFO]  Epoch[2] Train-cross-entropy=1.030567
+2024-03-06 10:09:02,336 [INFO]  Epoch[2] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:09:02,336 [INFO]  Epoch[2] Time cost=0.258
+2024-03-06 10:09:02,341 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 10:09:02,432 [INFO]  Epoch[2] Validation-cross-entropy=0.422980
+2024-03-06 10:09:02,432 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:09:03,003 [INFO]  Epoch[3] Batch [0-4]	Speed: 112.51 samples/sec	cross-entropy=0.451499	sepal_length-accuracy=0.000000
+2024-03-06 10:09:03,335 [INFO]  Epoch[3] Train-cross-entropy=0.482178
+2024-03-06 10:09:03,335 [INFO]  Epoch[3] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:09:03,335 [INFO]  Epoch[3] Time cost=0.903
+2024-03-06 10:09:03,337 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 10:09:03,428 [INFO]  Epoch[3] Validation-cross-entropy=0.673683
+2024-03-06 10:09:03,429 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:09:03,434 [INFO]  Epoch[4] Batch [0-4]	Speed: 25786.31 samples/sec	cross-entropy=0.321245	sepal_length-accuracy=0.000000
+2024-03-06 10:09:03,435 [INFO]  Epoch[4] Train-cross-entropy=0.348920
+2024-03-06 10:09:03,435 [INFO]  Epoch[4] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:09:03,435 [INFO]  Epoch[4] Time cost=0.007
+2024-03-06 10:09:03,448 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 10:09:03,472 [INFO]  Epoch[4] Validation-cross-entropy=0.625107
+2024-03-06 10:09:03,473 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:09:03,473 [INFO]  
+========== done (2.372373104095459 s) fit model
+2024-03-06 10:09:22,634 [INFO]  
+========== start: fit model
+2024-03-06 10:09:22,634 [WARNING]  Already bound, ignoring bind()
+2024-03-06 10:09:22,858 [INFO]  Epoch[0] Batch [0-4]	Speed: 334.46 samples/sec	cross-entropy=19.497358	sepal_length-accuracy=0.000000
+2024-03-06 10:09:22,860 [INFO]  Epoch[0] Train-cross-entropy=17.416446
+2024-03-06 10:09:22,860 [INFO]  Epoch[0] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:09:22,860 [INFO]  Epoch[0] Time cost=0.225
+2024-03-06 10:09:22,861 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 10:09:22,862 [INFO]  Epoch[0] Validation-cross-entropy=11.358159
+2024-03-06 10:09:22,862 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:09:22,867 [INFO]  Epoch[1] Batch [0-4]	Speed: 18280.81 samples/sec	cross-entropy=4.589340	sepal_length-accuracy=0.000000
+2024-03-06 10:09:22,869 [INFO]  Epoch[1] Train-cross-entropy=4.132766
+2024-03-06 10:09:22,869 [INFO]  Epoch[1] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:09:22,869 [INFO]  Epoch[1] Time cost=0.007
+2024-03-06 10:09:22,871 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 10:09:22,872 [INFO]  Epoch[1] Validation-cross-entropy=1.414408
+2024-03-06 10:09:22,872 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:09:22,877 [INFO]  Epoch[2] Batch [0-4]	Speed: 17682.33 samples/sec	cross-entropy=1.366395	sepal_length-accuracy=0.000000
+2024-03-06 10:09:22,879 [INFO]  Epoch[2] Train-cross-entropy=1.423320
+2024-03-06 10:09:22,879 [INFO]  Epoch[2] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:09:22,879 [INFO]  Epoch[2] Time cost=0.007
+2024-03-06 10:09:22,881 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 10:09:22,882 [INFO]  Epoch[2] Validation-cross-entropy=1.252689
+2024-03-06 10:09:22,882 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:09:22,887 [INFO]  Epoch[3] Batch [0-4]	Speed: 16563.96 samples/sec	cross-entropy=1.165277	sepal_length-accuracy=0.000000
+2024-03-06 10:09:22,889 [INFO]  Epoch[3] Train-cross-entropy=1.157712
+2024-03-06 10:09:22,889 [INFO]  Epoch[3] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:09:22,889 [INFO]  Epoch[3] Time cost=0.007
+2024-03-06 10:09:22,891 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 10:09:22,892 [INFO]  Epoch[3] Validation-cross-entropy=0.745928
+2024-03-06 10:09:22,892 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:09:22,897 [INFO]  Epoch[4] Batch [0-4]	Speed: 17187.57 samples/sec	cross-entropy=0.798710	sepal_length-accuracy=0.000000
+2024-03-06 10:09:22,899 [INFO]  Epoch[4] Train-cross-entropy=0.720518
+2024-03-06 10:09:22,899 [INFO]  Epoch[4] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:09:22,900 [INFO]  Epoch[4] Time cost=0.007
+2024-03-06 10:09:22,902 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 10:09:22,902 [INFO]  Epoch[4] Validation-cross-entropy=0.836089
+2024-03-06 10:09:22,902 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:09:22,903 [INFO]  
+========== done (0.2686915397644043 s) fit model
+2024-03-06 10:09:29,222 [INFO]  
+========== start: fit model
+2024-03-06 10:09:29,222 [WARNING]  Already bound, ignoring bind()
+2024-03-06 10:09:29,231 [INFO]  Epoch[0] Batch [0-4]	Speed: 11934.18 samples/sec	cross-entropy=14.942968	sepal_length-accuracy=0.000000
+2024-03-06 10:09:29,235 [INFO]  Epoch[0] Train-cross-entropy=11.670511
+2024-03-06 10:09:29,236 [INFO]  Epoch[0] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:09:29,236 [INFO]  Epoch[0] Time cost=0.012
+2024-03-06 10:09:29,240 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 10:09:29,240 [INFO]  Epoch[0] Validation-cross-entropy=2.280885
+2024-03-06 10:09:29,241 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:09:29,247 [INFO]  Epoch[1] Batch [0-4]	Speed: 13434.54 samples/sec	cross-entropy=3.311375	sepal_length-accuracy=0.000000
+2024-03-06 10:09:29,249 [INFO]  Epoch[1] Train-cross-entropy=2.780690
+2024-03-06 10:09:29,249 [INFO]  Epoch[1] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:09:29,249 [INFO]  Epoch[1] Time cost=0.008
+2024-03-06 10:09:29,251 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 10:09:29,251 [INFO]  Epoch[1] Validation-cross-entropy=1.726820
+2024-03-06 10:09:29,251 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:09:29,255 [INFO]  Epoch[2] Batch [0-4]	Speed: 21090.15 samples/sec	cross-entropy=1.794015	sepal_length-accuracy=0.000000
+2024-03-06 10:09:29,257 [INFO]  Epoch[2] Train-cross-entropy=1.511747
+2024-03-06 10:09:29,257 [INFO]  Epoch[2] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:09:29,257 [INFO]  Epoch[2] Time cost=0.006
+2024-03-06 10:09:29,259 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 10:09:29,259 [INFO]  Epoch[2] Validation-cross-entropy=0.502618
+2024-03-06 10:09:29,259 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:09:29,262 [INFO]  Epoch[3] Batch [0-4]	Speed: 26800.66 samples/sec	cross-entropy=0.556683	sepal_length-accuracy=0.000000
+2024-03-06 10:09:29,263 [INFO]  Epoch[3] Train-cross-entropy=0.481585
+2024-03-06 10:09:29,263 [INFO]  Epoch[3] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:09:29,263 [INFO]  Epoch[3] Time cost=0.004
+2024-03-06 10:09:29,265 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 10:09:29,265 [INFO]  Epoch[3] Validation-cross-entropy=0.618714
+2024-03-06 10:09:29,265 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:09:29,268 [INFO]  Epoch[4] Batch [0-4]	Speed: 26158.20 samples/sec	cross-entropy=0.604687	sepal_length-accuracy=0.000000
+2024-03-06 10:09:29,270 [INFO]  Epoch[4] Train-cross-entropy=0.553279
+2024-03-06 10:09:29,270 [INFO]  Epoch[4] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:09:29,270 [INFO]  Epoch[4] Time cost=0.005
+2024-03-06 10:09:29,271 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 10:09:29,271 [INFO]  Epoch[4] Validation-cross-entropy=0.794089
+2024-03-06 10:09:29,271 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:09:29,271 [INFO]  
+========== done (0.0497891902923584 s) fit model
+2024-03-06 10:09:35,143 [INFO]  
+========== start: fit model
+2024-03-06 10:09:35,144 [WARNING]  Already bound, ignoring bind()
+2024-03-06 10:09:35,149 [INFO]  Epoch[0] Batch [0-4]	Speed: 20056.44 samples/sec	cross-entropy=15.558154	sepal_length-accuracy=2.800000
+2024-03-06 10:09:35,151 [INFO]  Epoch[0] Train-cross-entropy=11.964479
+2024-03-06 10:09:35,151 [INFO]  Epoch[0] Train-sepal_length-accuracy=2.428571
+2024-03-06 10:09:35,151 [INFO]  Epoch[0] Time cost=0.006
+2024-03-06 10:09:35,153 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 10:09:35,153 [INFO]  Epoch[0] Validation-cross-entropy=2.689389
+2024-03-06 10:09:35,153 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:09:35,157 [INFO]  Epoch[1] Batch [0-4]	Speed: 23168.95 samples/sec	cross-entropy=3.695126	sepal_length-accuracy=2.800000
+2024-03-06 10:09:35,158 [INFO]  Epoch[1] Train-cross-entropy=3.128266
+2024-03-06 10:09:35,159 [INFO]  Epoch[1] Train-sepal_length-accuracy=2.428571
+2024-03-06 10:09:35,159 [INFO]  Epoch[1] Time cost=0.005
+2024-03-06 10:09:35,160 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 10:09:35,160 [INFO]  Epoch[1] Validation-cross-entropy=2.539546
+2024-03-06 10:09:35,160 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:09:35,164 [INFO]  Epoch[2] Batch [0-4]	Speed: 24701.89 samples/sec	cross-entropy=2.722056	sepal_length-accuracy=2.800000
+2024-03-06 10:09:35,165 [INFO]  Epoch[2] Train-cross-entropy=2.202347
+2024-03-06 10:09:35,165 [INFO]  Epoch[2] Train-sepal_length-accuracy=2.428571
+2024-03-06 10:09:35,165 [INFO]  Epoch[2] Time cost=0.005
+2024-03-06 10:09:35,167 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 10:09:35,167 [INFO]  Epoch[2] Validation-cross-entropy=2.133020
+2024-03-06 10:09:35,167 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:09:35,170 [INFO]  Epoch[3] Batch [0-4]	Speed: 23780.60 samples/sec	cross-entropy=0.820438	sepal_length-accuracy=2.800000
+2024-03-06 10:09:35,172 [INFO]  Epoch[3] Train-cross-entropy=0.674034
+2024-03-06 10:09:35,172 [INFO]  Epoch[3] Train-sepal_length-accuracy=2.428571
+2024-03-06 10:09:35,172 [INFO]  Epoch[3] Time cost=0.005
+2024-03-06 10:09:35,173 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 10:09:35,174 [INFO]  Epoch[3] Validation-cross-entropy=0.543020
+2024-03-06 10:09:35,174 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:09:35,177 [INFO]  Epoch[4] Batch [0-4]	Speed: 25150.89 samples/sec	cross-entropy=0.792865	sepal_length-accuracy=2.800000
+2024-03-06 10:09:35,179 [INFO]  Epoch[4] Train-cross-entropy=0.640649
+2024-03-06 10:09:35,179 [INFO]  Epoch[4] Train-sepal_length-accuracy=2.428571
+2024-03-06 10:09:35,179 [INFO]  Epoch[4] Time cost=0.005
+2024-03-06 10:09:35,180 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 10:09:35,180 [INFO]  Epoch[4] Validation-cross-entropy=0.198940
+2024-03-06 10:09:35,180 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:09:35,180 [INFO]  
+========== done (0.037085533142089844 s) fit model
+2024-03-06 10:09:41,797 [INFO]  
+========== start: fit model
+2024-03-06 10:09:41,797 [WARNING]  Already bound, ignoring bind()
+2024-03-06 10:09:41,910 [INFO]  Epoch[0] Batch [0-4]	Speed: 2770.37 samples/sec	cross-entropy=13.480426	sepal_length-accuracy=2.800000
+2024-03-06 10:09:41,912 [INFO]  Epoch[0] Train-cross-entropy=11.332515
+2024-03-06 10:09:41,912 [INFO]  Epoch[0] Train-sepal_length-accuracy=2.857143
+2024-03-06 10:09:41,912 [INFO]  Epoch[0] Time cost=0.114
+2024-03-06 10:09:41,914 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 10:09:41,914 [INFO]  Epoch[0] Validation-cross-entropy=6.896614
+2024-03-06 10:09:41,914 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:09:41,951 [INFO]  Epoch[1] Batch [0-4]	Speed: 1782.56 samples/sec	cross-entropy=3.305852	sepal_length-accuracy=2.800000
+2024-03-06 10:09:41,964 [INFO]  Epoch[1] Train-cross-entropy=3.836722
+2024-03-06 10:09:41,965 [INFO]  Epoch[1] Train-sepal_length-accuracy=2.857143
+2024-03-06 10:09:41,965 [INFO]  Epoch[1] Time cost=0.050
+2024-03-06 10:09:41,966 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 10:09:41,966 [INFO]  Epoch[1] Validation-cross-entropy=2.127468
+2024-03-06 10:09:41,967 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:09:42,036 [INFO]  Epoch[2] Batch [0-4]	Speed: 934.60 samples/sec	cross-entropy=2.099544	sepal_length-accuracy=2.800000
+2024-03-06 10:09:42,037 [INFO]  Epoch[2] Train-cross-entropy=1.777814
+2024-03-06 10:09:42,037 [INFO]  Epoch[2] Train-sepal_length-accuracy=2.857143
+2024-03-06 10:09:42,037 [INFO]  Epoch[2] Time cost=0.071
+2024-03-06 10:09:42,039 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 10:09:42,039 [INFO]  Epoch[2] Validation-cross-entropy=1.077340
+2024-03-06 10:09:42,039 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:09:42,043 [INFO]  Epoch[3] Batch [0-4]	Speed: 27221.93 samples/sec	cross-entropy=0.587196	sepal_length-accuracy=2.800000
+2024-03-06 10:09:42,063 [INFO]  Epoch[3] Train-cross-entropy=0.673427
+2024-03-06 10:09:42,063 [INFO]  Epoch[3] Train-sepal_length-accuracy=2.857143
+2024-03-06 10:09:42,063 [INFO]  Epoch[3] Time cost=0.024
+2024-03-06 10:09:42,065 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 10:09:42,109 [INFO]  Epoch[3] Validation-cross-entropy=1.634855
+2024-03-06 10:09:42,109 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:09:42,113 [INFO]  Epoch[4] Batch [0-4]	Speed: 24474.42 samples/sec	cross-entropy=0.581418	sepal_length-accuracy=2.800000
+2024-03-06 10:09:42,216 [INFO]  Epoch[4] Train-cross-entropy=0.489623
+2024-03-06 10:09:42,217 [INFO]  Epoch[4] Train-sepal_length-accuracy=2.857143
+2024-03-06 10:09:42,217 [INFO]  Epoch[4] Time cost=0.108
+2024-03-06 10:09:42,219 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 10:09:42,220 [INFO]  Epoch[4] Validation-cross-entropy=1.231754
+2024-03-06 10:09:42,220 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:09:42,220 [INFO]  
+========== done (0.42317628860473633 s) fit model
+2024-03-06 10:09:51,080 [INFO]  
+========== start: fit model
+2024-03-06 10:09:51,080 [WARNING]  Already bound, ignoring bind()
+2024-03-06 10:09:51,906 [INFO]  Epoch[0] Batch [0-4]	Speed: 183.28 samples/sec	cross-entropy=13.900486	sepal_length-accuracy=3.200000
+2024-03-06 10:09:51,907 [INFO]  Epoch[0] Train-cross-entropy=11.334768
+2024-03-06 10:09:51,907 [INFO]  Epoch[0] Train-sepal_length-accuracy=3.142857
+2024-03-06 10:09:51,907 [INFO]  Epoch[0] Time cost=0.826
+2024-03-06 10:09:51,909 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 10:09:51,909 [INFO]  Epoch[0] Validation-cross-entropy=2.649548
+2024-03-06 10:09:51,909 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:09:51,913 [INFO]  Epoch[1] Batch [0-4]	Speed: 24697.35 samples/sec	cross-entropy=2.099291	sepal_length-accuracy=3.200000
+2024-03-06 10:09:51,914 [INFO]  Epoch[1] Train-cross-entropy=2.412864
+2024-03-06 10:09:51,914 [INFO]  Epoch[1] Train-sepal_length-accuracy=3.142857
+2024-03-06 10:09:51,914 [INFO]  Epoch[1] Time cost=0.005
+2024-03-06 10:09:51,916 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 10:09:51,973 [INFO]  Epoch[1] Validation-cross-entropy=0.926567
+2024-03-06 10:09:51,973 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:09:53,328 [INFO]  Epoch[2] Batch [0-4]	Speed: 57.09 samples/sec	cross-entropy=2.200940	sepal_length-accuracy=3.200000
+2024-03-06 10:09:53,723 [INFO]  Epoch[2] Train-cross-entropy=1.709830
+2024-03-06 10:09:53,723 [INFO]  Epoch[2] Train-sepal_length-accuracy=3.142857
+2024-03-06 10:09:53,724 [INFO]  Epoch[2] Time cost=1.751
+2024-03-06 10:09:53,735 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 10:09:53,760 [INFO]  Epoch[2] Validation-cross-entropy=0.179684
+2024-03-06 10:09:53,760 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:09:54,252 [INFO]  Epoch[3] Batch [0-4]	Speed: 255.38 samples/sec	cross-entropy=0.748325	sepal_length-accuracy=3.200000
+2024-03-06 10:09:54,405 [INFO]  Epoch[3] Train-cross-entropy=0.714572
+2024-03-06 10:09:54,405 [INFO]  Epoch[3] Train-sepal_length-accuracy=3.142857
+2024-03-06 10:09:54,405 [INFO]  Epoch[3] Time cost=0.645
+2024-03-06 10:09:54,407 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 10:09:54,521 [INFO]  Epoch[3] Validation-cross-entropy=0.302519
+2024-03-06 10:09:54,521 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:09:55,852 [INFO]  Epoch[4] Batch [0-4]	Speed: 52.23 samples/sec	cross-entropy=0.350327	sepal_length-accuracy=3.200000
+2024-03-06 10:09:55,946 [INFO]  Epoch[4] Train-cross-entropy=0.289167
+2024-03-06 10:09:55,947 [INFO]  Epoch[4] Train-sepal_length-accuracy=3.142857
+2024-03-06 10:09:55,947 [INFO]  Epoch[4] Time cost=1.426
+2024-03-06 10:09:55,951 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 10:09:55,999 [INFO]  Epoch[4] Validation-cross-entropy=0.142206
+2024-03-06 10:09:55,999 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:09:56,000 [INFO]  
+========== done (4.919302701950073 s) fit model
+2024-03-06 10:10:19,984 [INFO]  
+========== start: fit model
+2024-03-06 10:10:19,989 [WARNING]  Already bound, ignoring bind()
+2024-03-06 10:10:20,358 [INFO]  Epoch[0] Batch [0-4]	Speed: 22820.32 samples/sec	cross-entropy=29.865309	sepal_length-accuracy=0.000000
+2024-03-06 10:10:20,836 [INFO]  Epoch[0] Train-cross-entropy=27.786515
+2024-03-06 10:10:20,836 [INFO]  Epoch[0] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:10:20,840 [INFO]  Epoch[0] Time cost=0.851
+2024-03-06 10:10:20,842 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 10:10:20,941 [INFO]  Epoch[0] Validation-cross-entropy=20.414555
+2024-03-06 10:10:20,941 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:10:21,129 [INFO]  Epoch[1] Batch [0-4]	Speed: 1436.20 samples/sec	cross-entropy=9.498257	sepal_length-accuracy=0.000000
+2024-03-06 10:10:21,130 [INFO]  Epoch[1] Train-cross-entropy=9.005417
+2024-03-06 10:10:21,130 [INFO]  Epoch[1] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:10:21,130 [INFO]  Epoch[1] Time cost=0.189
+2024-03-06 10:10:21,132 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 10:10:21,227 [INFO]  Epoch[1] Validation-cross-entropy=3.453801
+2024-03-06 10:10:21,227 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:10:22,068 [INFO]  Epoch[2] Batch [0-4]	Speed: 76.97 samples/sec	cross-entropy=3.776315	sepal_length-accuracy=0.000000
+2024-03-06 10:10:22,074 [INFO]  Epoch[2] Train-cross-entropy=3.201040
+2024-03-06 10:10:22,074 [INFO]  Epoch[2] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:10:22,074 [INFO]  Epoch[2] Time cost=0.847
+2024-03-06 10:10:22,075 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 10:10:22,076 [INFO]  Epoch[2] Validation-cross-entropy=1.121517
+2024-03-06 10:10:22,076 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:10:22,147 [INFO]  Epoch[3] Batch [0-4]	Speed: 13696.39 samples/sec	cross-entropy=0.948249	sepal_length-accuracy=0.000000
+2024-03-06 10:10:22,393 [INFO]  Epoch[3] Train-cross-entropy=0.798239
+2024-03-06 10:10:22,393 [INFO]  Epoch[3] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:10:22,393 [INFO]  Epoch[3] Time cost=0.317
+2024-03-06 10:10:22,397 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 10:10:22,426 [INFO]  Epoch[3] Validation-cross-entropy=1.348862
+2024-03-06 10:10:22,426 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:10:23,043 [INFO]  Epoch[4] Batch [0-4]	Speed: 167.43 samples/sec	cross-entropy=0.766088	sepal_length-accuracy=0.000000
+2024-03-06 10:10:23,067 [INFO]  Epoch[4] Train-cross-entropy=0.711317
+2024-03-06 10:10:23,067 [INFO]  Epoch[4] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:10:23,067 [INFO]  Epoch[4] Time cost=0.640
+2024-03-06 10:10:23,068 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 10:10:23,152 [INFO]  Epoch[4] Validation-cross-entropy=0.827014
+2024-03-06 10:10:23,152 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:10:23,152 [INFO]  
+========== done (3.168288469314575 s) fit model
+2024-03-06 10:10:42,769 [INFO]  
+========== start: fit model
+2024-03-06 10:10:42,769 [WARNING]  Already bound, ignoring bind()
+2024-03-06 10:10:42,774 [INFO]  Epoch[0] Batch [0-4]	Speed: 22517.86 samples/sec	cross-entropy=10.867273	sepal_length-accuracy=0.000000
+2024-03-06 10:10:42,775 [INFO]  Epoch[0] Train-cross-entropy=8.911760
+2024-03-06 10:10:42,776 [INFO]  Epoch[0] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:10:42,776 [INFO]  Epoch[0] Time cost=0.006
+2024-03-06 10:10:42,777 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 10:10:42,778 [INFO]  Epoch[0] Validation-cross-entropy=3.744521
+2024-03-06 10:10:42,778 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:10:42,781 [INFO]  Epoch[1] Batch [0-4]	Speed: 23247.20 samples/sec	cross-entropy=3.003260	sepal_length-accuracy=0.000000
+2024-03-06 10:10:42,783 [INFO]  Epoch[1] Train-cross-entropy=2.582341
+2024-03-06 10:10:42,783 [INFO]  Epoch[1] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:10:42,783 [INFO]  Epoch[1] Time cost=0.005
+2024-03-06 10:10:42,784 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 10:10:42,784 [INFO]  Epoch[1] Validation-cross-entropy=1.539936
+2024-03-06 10:10:42,785 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:10:42,788 [INFO]  Epoch[2] Batch [0-4]	Speed: 27299.45 samples/sec	cross-entropy=1.207779	sepal_length-accuracy=0.000000
+2024-03-06 10:10:42,789 [INFO]  Epoch[2] Train-cross-entropy=1.139249
+2024-03-06 10:10:42,789 [INFO]  Epoch[2] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:10:42,789 [INFO]  Epoch[2] Time cost=0.005
+2024-03-06 10:10:42,791 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 10:10:42,791 [INFO]  Epoch[2] Validation-cross-entropy=2.545722
+2024-03-06 10:10:42,792 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:10:42,795 [INFO]  Epoch[3] Batch [0-4]	Speed: 25611.63 samples/sec	cross-entropy=0.797250	sepal_length-accuracy=0.000000
+2024-03-06 10:10:42,796 [INFO]  Epoch[3] Train-cross-entropy=0.788967
+2024-03-06 10:10:42,796 [INFO]  Epoch[3] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:10:42,796 [INFO]  Epoch[3] Time cost=0.005
+2024-03-06 10:10:42,798 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 10:10:42,798 [INFO]  Epoch[3] Validation-cross-entropy=1.682233
+2024-03-06 10:10:42,798 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:10:42,801 [INFO]  Epoch[4] Batch [0-4]	Speed: 27759.61 samples/sec	cross-entropy=0.393793	sepal_length-accuracy=0.000000
+2024-03-06 10:10:42,802 [INFO]  Epoch[4] Train-cross-entropy=0.348957
+2024-03-06 10:10:42,802 [INFO]  Epoch[4] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:10:42,802 [INFO]  Epoch[4] Time cost=0.004
+2024-03-06 10:10:42,804 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 10:10:42,804 [INFO]  Epoch[4] Validation-cross-entropy=0.652056
+2024-03-06 10:10:42,804 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:10:42,804 [INFO]  
+========== done (0.0354461669921875 s) fit model
+2024-03-06 10:10:50,813 [INFO]  
+========== start: fit model
+2024-03-06 10:10:50,814 [WARNING]  Already bound, ignoring bind()
+2024-03-06 10:10:50,819 [INFO]  Epoch[0] Batch [0-4]	Speed: 19809.27 samples/sec	cross-entropy=12.509327	sepal_length-accuracy=2.800000
+2024-03-06 10:10:50,821 [INFO]  Epoch[0] Train-cross-entropy=12.660995
+2024-03-06 10:10:50,821 [INFO]  Epoch[0] Train-sepal_length-accuracy=3.000000
+2024-03-06 10:10:50,821 [INFO]  Epoch[0] Time cost=0.007
+2024-03-06 10:10:50,823 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 10:10:50,823 [INFO]  Epoch[0] Validation-cross-entropy=0.897938
+2024-03-06 10:10:50,823 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:10:50,827 [INFO]  Epoch[1] Batch [0-4]	Speed: 20722.21 samples/sec	cross-entropy=3.191933	sepal_length-accuracy=2.800000
+2024-03-06 10:10:50,829 [INFO]  Epoch[1] Train-cross-entropy=3.658652
+2024-03-06 10:10:50,829 [INFO]  Epoch[1] Train-sepal_length-accuracy=3.000000
+2024-03-06 10:10:50,829 [INFO]  Epoch[1] Time cost=0.006
+2024-03-06 10:10:50,830 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 10:10:50,831 [INFO]  Epoch[1] Validation-cross-entropy=1.224443
+2024-03-06 10:10:50,831 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:10:50,835 [INFO]  Epoch[2] Batch [0-4]	Speed: 21311.17 samples/sec	cross-entropy=1.606890	sepal_length-accuracy=2.800000
+2024-03-06 10:10:50,836 [INFO]  Epoch[2] Train-cross-entropy=1.625913
+2024-03-06 10:10:50,837 [INFO]  Epoch[2] Train-sepal_length-accuracy=3.000000
+2024-03-06 10:10:50,837 [INFO]  Epoch[2] Time cost=0.006
+2024-03-06 10:10:50,838 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 10:10:50,838 [INFO]  Epoch[2] Validation-cross-entropy=0.450908
+2024-03-06 10:10:50,838 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:10:50,842 [INFO]  Epoch[3] Batch [0-4]	Speed: 21581.88 samples/sec	cross-entropy=0.711788	sepal_length-accuracy=2.800000
+2024-03-06 10:10:50,844 [INFO]  Epoch[3] Train-cross-entropy=0.666331
+2024-03-06 10:10:50,844 [INFO]  Epoch[3] Train-sepal_length-accuracy=3.000000
+2024-03-06 10:10:50,844 [INFO]  Epoch[3] Time cost=0.006
+2024-03-06 10:10:50,845 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 10:10:50,846 [INFO]  Epoch[3] Validation-cross-entropy=0.286435
+2024-03-06 10:10:50,846 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:10:50,850 [INFO]  Epoch[4] Batch [0-4]	Speed: 21514.42 samples/sec	cross-entropy=0.495482	sepal_length-accuracy=2.800000
+2024-03-06 10:10:50,851 [INFO]  Epoch[4] Train-cross-entropy=0.460548
+2024-03-06 10:10:50,851 [INFO]  Epoch[4] Train-sepal_length-accuracy=3.000000
+2024-03-06 10:10:50,851 [INFO]  Epoch[4] Time cost=0.005
+2024-03-06 10:10:50,853 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 10:10:50,853 [INFO]  Epoch[4] Validation-cross-entropy=0.195936
+2024-03-06 10:10:50,853 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:10:50,853 [INFO]  
+========== done (0.040078163146972656 s) fit model
+2024-03-06 10:10:59,712 [INFO]  
+========== start: fit model
+2024-03-06 10:10:59,712 [WARNING]  Already bound, ignoring bind()
+2024-03-06 10:10:59,804 [INFO]  Epoch[0] Batch [0-4]	Speed: 732.83 samples/sec	cross-entropy=9.488237	sepal_length-accuracy=0.000000
+2024-03-06 10:10:59,858 [INFO]  Epoch[0] Train-cross-entropy=7.869763
+2024-03-06 10:10:59,858 [INFO]  Epoch[0] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:10:59,858 [INFO]  Epoch[0] Time cost=0.145
+2024-03-06 10:10:59,859 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 10:10:59,860 [INFO]  Epoch[0] Validation-cross-entropy=3.805881
+2024-03-06 10:10:59,860 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:10:59,884 [INFO]  Epoch[1] Batch [0-4]	Speed: 24374.42 samples/sec	cross-entropy=2.349958	sepal_length-accuracy=0.000000
+2024-03-06 10:10:59,885 [INFO]  Epoch[1] Train-cross-entropy=1.928947
+2024-03-06 10:10:59,885 [INFO]  Epoch[1] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:10:59,885 [INFO]  Epoch[1] Time cost=0.026
+2024-03-06 10:10:59,887 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 10:10:59,887 [INFO]  Epoch[1] Validation-cross-entropy=2.878527
+2024-03-06 10:10:59,887 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:10:59,890 [INFO]  Epoch[2] Batch [0-4]	Speed: 28182.20 samples/sec	cross-entropy=1.721486	sepal_length-accuracy=0.000000
+2024-03-06 10:10:59,891 [INFO]  Epoch[2] Train-cross-entropy=1.381168
+2024-03-06 10:10:59,891 [INFO]  Epoch[2] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:10:59,891 [INFO]  Epoch[2] Time cost=0.004
+2024-03-06 10:10:59,892 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 10:10:59,893 [INFO]  Epoch[2] Validation-cross-entropy=1.633550
+2024-03-06 10:10:59,893 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:10:59,920 [INFO]  Epoch[3] Batch [0-4]	Speed: 2428.82 samples/sec	cross-entropy=0.643941	sepal_length-accuracy=0.000000
+2024-03-06 10:10:59,973 [INFO]  Epoch[3] Train-cross-entropy=0.592217
+2024-03-06 10:10:59,973 [INFO]  Epoch[3] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:10:59,973 [INFO]  Epoch[3] Time cost=0.080
+2024-03-06 10:10:59,978 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 10:11:00,010 [INFO]  Epoch[3] Validation-cross-entropy=0.240638
+2024-03-06 10:11:00,011 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:11:00,069 [INFO]  Epoch[4] Batch [0-4]	Speed: 1114.47 samples/sec	cross-entropy=0.238479	sepal_length-accuracy=0.000000
+2024-03-06 10:11:00,076 [INFO]  Epoch[4] Train-cross-entropy=0.232852
+2024-03-06 10:11:00,076 [INFO]  Epoch[4] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:11:00,076 [INFO]  Epoch[4] Time cost=0.065
+2024-03-06 10:11:00,080 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 10:11:00,090 [INFO]  Epoch[4] Validation-cross-entropy=0.237863
+2024-03-06 10:11:00,090 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:11:00,090 [INFO]  
+========== done (0.3785524368286133 s) fit model
+2024-03-06 10:11:12,152 [INFO]  
+========== start: fit model
+2024-03-06 10:11:12,152 [WARNING]  Already bound, ignoring bind()
+2024-03-06 10:11:12,569 [INFO]  Epoch[0] Batch [0-4]	Speed: 15625.79 samples/sec	cross-entropy=5.134579	sepal_length-accuracy=0.000000
+2024-03-06 10:11:12,642 [INFO]  Epoch[0] Train-cross-entropy=4.412132
+2024-03-06 10:11:12,642 [INFO]  Epoch[0] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:11:12,642 [INFO]  Epoch[0] Time cost=0.490
+2024-03-06 10:11:12,644 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 10:11:12,749 [INFO]  Epoch[0] Validation-cross-entropy=0.603821
+2024-03-06 10:11:12,749 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:11:13,663 [INFO]  Epoch[1] Batch [0-4]	Speed: 70.16 samples/sec	cross-entropy=1.227348	sepal_length-accuracy=0.000000
+2024-03-06 10:11:13,666 [INFO]  Epoch[1] Train-cross-entropy=1.069709
+2024-03-06 10:11:13,666 [INFO]  Epoch[1] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:11:13,666 [INFO]  Epoch[1] Time cost=0.917
+2024-03-06 10:11:13,674 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 10:11:13,813 [INFO]  Epoch[1] Validation-cross-entropy=0.977953
+2024-03-06 10:11:13,813 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:11:14,088 [INFO]  Epoch[2] Batch [0-4]	Speed: 390.88 samples/sec	cross-entropy=0.535521	sepal_length-accuracy=0.000000
+2024-03-06 10:11:14,161 [INFO]  Epoch[2] Train-cross-entropy=0.467947
+2024-03-06 10:11:14,161 [INFO]  Epoch[2] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:11:14,161 [INFO]  Epoch[2] Time cost=0.348
+2024-03-06 10:11:14,163 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 10:11:14,164 [INFO]  Epoch[2] Validation-cross-entropy=0.152053
+2024-03-06 10:11:14,165 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:11:14,198 [INFO]  Epoch[3] Batch [0-4]	Speed: 1998.14 samples/sec	cross-entropy=0.331831	sepal_length-accuracy=0.000000
+2024-03-06 10:11:14,359 [INFO]  Epoch[3] Train-cross-entropy=0.261562
+2024-03-06 10:11:14,360 [INFO]  Epoch[3] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:11:14,360 [INFO]  Epoch[3] Time cost=0.195
+2024-03-06 10:11:14,362 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 10:11:14,369 [INFO]  Epoch[3] Validation-cross-entropy=0.117298
+2024-03-06 10:11:14,369 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:11:14,973 [INFO]  Epoch[4] Batch [0-4]	Speed: 106.07 samples/sec	cross-entropy=0.119722	sepal_length-accuracy=0.000000
+2024-03-06 10:11:14,976 [INFO]  Epoch[4] Train-cross-entropy=0.130363
+2024-03-06 10:11:14,976 [INFO]  Epoch[4] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:11:14,976 [INFO]  Epoch[4] Time cost=0.607
+2024-03-06 10:11:14,986 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 10:11:15,052 [INFO]  Epoch[4] Validation-cross-entropy=0.106517
+2024-03-06 10:11:15,052 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:11:15,052 [INFO]  
+========== done (2.9005470275878906 s) fit model
+2024-03-06 10:11:40,461 [INFO]  
+========== start: fit model
+2024-03-06 10:11:40,461 [WARNING]  Already bound, ignoring bind()
+2024-03-06 10:11:40,753 [INFO]  Epoch[0] Batch [0-4]	Speed: 550.82 samples/sec	cross-entropy=21.958912	sepal_length-accuracy=3.000000
+2024-03-06 10:11:40,773 [INFO]  Epoch[0] Train-cross-entropy=20.205905
+2024-03-06 10:11:40,773 [INFO]  Epoch[0] Train-sepal_length-accuracy=2.857143
+2024-03-06 10:11:40,774 [INFO]  Epoch[0] Time cost=0.312
+2024-03-06 10:11:40,776 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 10:11:40,893 [INFO]  Epoch[0] Validation-cross-entropy=5.149228
+2024-03-06 10:11:40,894 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:11:41,529 [INFO]  Epoch[1] Batch [0-4]	Speed: 107.14 samples/sec	cross-entropy=5.721640	sepal_length-accuracy=3.000000
+2024-03-06 10:11:41,844 [INFO]  Epoch[1] Train-cross-entropy=5.498071
+2024-03-06 10:11:41,845 [INFO]  Epoch[1] Train-sepal_length-accuracy=2.857143
+2024-03-06 10:11:41,845 [INFO]  Epoch[1] Time cost=0.951
+2024-03-06 10:11:41,853 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 10:11:41,950 [INFO]  Epoch[1] Validation-cross-entropy=0.722259
+2024-03-06 10:11:41,950 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:11:42,648 [INFO]  Epoch[2] Batch [0-4]	Speed: 377.53 samples/sec	cross-entropy=3.439184	sepal_length-accuracy=3.000000
+2024-03-06 10:11:43,290 [INFO]  Epoch[2] Train-cross-entropy=3.023751
+2024-03-06 10:11:43,291 [INFO]  Epoch[2] Train-sepal_length-accuracy=2.857143
+2024-03-06 10:11:43,291 [INFO]  Epoch[2] Time cost=1.340
+2024-03-06 10:11:43,293 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 10:11:43,392 [INFO]  Epoch[2] Validation-cross-entropy=1.114700
+2024-03-06 10:11:43,392 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:11:44,159 [INFO]  Epoch[3] Batch [0-4]	Speed: 84.13 samples/sec	cross-entropy=1.901614	sepal_length-accuracy=3.000000
+2024-03-06 10:11:44,450 [INFO]  Epoch[3] Train-cross-entropy=1.630665
+2024-03-06 10:11:44,450 [INFO]  Epoch[3] Train-sepal_length-accuracy=2.857143
+2024-03-06 10:11:44,450 [INFO]  Epoch[3] Time cost=1.058
+2024-03-06 10:11:44,452 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 10:11:44,557 [INFO]  Epoch[3] Validation-cross-entropy=0.630183
+2024-03-06 10:11:44,557 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:11:45,280 [INFO]  Epoch[4] Batch [0-4]	Speed: 122.36 samples/sec	cross-entropy=0.677812	sepal_length-accuracy=3.000000
+2024-03-06 10:11:45,283 [INFO]  Epoch[4] Train-cross-entropy=0.617437
+2024-03-06 10:11:45,283 [INFO]  Epoch[4] Train-sepal_length-accuracy=2.857143
+2024-03-06 10:11:45,284 [INFO]  Epoch[4] Time cost=0.727
+2024-03-06 10:11:45,292 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 10:11:45,433 [INFO]  Epoch[4] Validation-cross-entropy=0.227491
+2024-03-06 10:11:45,433 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:11:45,433 [INFO]  
+========== done (4.9724836349487305 s) fit model
+2024-03-06 10:12:00,844 [INFO]  
+========== start: fit model
+2024-03-06 10:12:00,844 [WARNING]  Already bound, ignoring bind()
+2024-03-06 10:12:00,849 [INFO]  Epoch[0] Batch [0-4]	Speed: 23241.17 samples/sec	cross-entropy=18.877858	sepal_length-accuracy=0.000000
+2024-03-06 10:12:00,850 [INFO]  Epoch[0] Train-cross-entropy=14.665626
+2024-03-06 10:12:00,850 [INFO]  Epoch[0] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:12:00,850 [INFO]  Epoch[0] Time cost=0.006
+2024-03-06 10:12:00,852 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 10:12:00,852 [INFO]  Epoch[0] Validation-cross-entropy=3.433282
+2024-03-06 10:12:00,852 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:12:00,856 [INFO]  Epoch[1] Batch [0-4]	Speed: 24105.20 samples/sec	cross-entropy=4.434539	sepal_length-accuracy=0.000000
+2024-03-06 10:12:00,857 [INFO]  Epoch[1] Train-cross-entropy=3.918146
+2024-03-06 10:12:00,857 [INFO]  Epoch[1] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:12:00,857 [INFO]  Epoch[1] Time cost=0.005
+2024-03-06 10:12:00,859 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 10:12:00,859 [INFO]  Epoch[1] Validation-cross-entropy=2.499493
+2024-03-06 10:12:00,859 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:12:00,863 [INFO]  Epoch[2] Batch [0-4]	Speed: 24566.25 samples/sec	cross-entropy=2.094653	sepal_length-accuracy=0.000000
+2024-03-06 10:12:00,864 [INFO]  Epoch[2] Train-cross-entropy=1.955190
+2024-03-06 10:12:00,864 [INFO]  Epoch[2] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:12:00,864 [INFO]  Epoch[2] Time cost=0.005
+2024-03-06 10:12:00,865 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 10:12:00,866 [INFO]  Epoch[2] Validation-cross-entropy=0.484312
+2024-03-06 10:12:00,866 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:12:00,873 [INFO]  Epoch[3] Batch [0-4]	Speed: 10486.58 samples/sec	cross-entropy=0.601409	sepal_length-accuracy=0.000000
+2024-03-06 10:12:00,874 [INFO]  Epoch[3] Train-cross-entropy=0.657268
+2024-03-06 10:12:00,874 [INFO]  Epoch[3] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:12:00,874 [INFO]  Epoch[3] Time cost=0.008
+2024-03-06 10:12:00,875 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 10:12:00,876 [INFO]  Epoch[3] Validation-cross-entropy=0.682480
+2024-03-06 10:12:00,876 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:12:00,879 [INFO]  Epoch[4] Batch [0-4]	Speed: 27999.94 samples/sec	cross-entropy=0.624235	sepal_length-accuracy=0.000000
+2024-03-06 10:12:00,880 [INFO]  Epoch[4] Train-cross-entropy=0.637013
+2024-03-06 10:12:00,880 [INFO]  Epoch[4] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:12:00,880 [INFO]  Epoch[4] Time cost=0.004
+2024-03-06 10:12:00,881 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 10:12:00,882 [INFO]  Epoch[4] Validation-cross-entropy=0.400775
+2024-03-06 10:12:00,882 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:12:00,882 [INFO]  
+========== done (0.03836703300476074 s) fit model
+2024-03-06 10:12:11,752 [INFO]  
+========== start: fit model
+2024-03-06 10:12:11,752 [WARNING]  Already bound, ignoring bind()
+2024-03-06 10:12:11,757 [INFO]  Epoch[0] Batch [0-4]	Speed: 25155.60 samples/sec	cross-entropy=6.106835	sepal_length-accuracy=0.000000
+2024-03-06 10:12:11,758 [INFO]  Epoch[0] Train-cross-entropy=4.998642
+2024-03-06 10:12:11,759 [INFO]  Epoch[0] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:12:11,759 [INFO]  Epoch[0] Time cost=0.006
+2024-03-06 10:12:11,760 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 10:12:11,760 [INFO]  Epoch[0] Validation-cross-entropy=6.575169
+2024-03-06 10:12:11,760 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:12:11,763 [INFO]  Epoch[1] Batch [0-4]	Speed: 27098.27 samples/sec	cross-entropy=2.150064	sepal_length-accuracy=0.000000
+2024-03-06 10:12:11,765 [INFO]  Epoch[1] Train-cross-entropy=1.906574
+2024-03-06 10:12:11,765 [INFO]  Epoch[1] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:12:11,765 [INFO]  Epoch[1] Time cost=0.004
+2024-03-06 10:12:11,766 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 10:12:11,766 [INFO]  Epoch[1] Validation-cross-entropy=4.838097
+2024-03-06 10:12:11,767 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:12:11,770 [INFO]  Epoch[2] Batch [0-4]	Speed: 27625.34 samples/sec	cross-entropy=0.990652	sepal_length-accuracy=0.000000
+2024-03-06 10:12:11,771 [INFO]  Epoch[2] Train-cross-entropy=0.886610
+2024-03-06 10:12:11,771 [INFO]  Epoch[2] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:12:11,771 [INFO]  Epoch[2] Time cost=0.004
+2024-03-06 10:12:11,772 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 10:12:11,920 [INFO]  Epoch[2] Validation-cross-entropy=1.268715
+2024-03-06 10:12:11,921 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:12:11,924 [INFO]  Epoch[3] Batch [0-4]	Speed: 26954.06 samples/sec	cross-entropy=0.350559	sepal_length-accuracy=0.000000
+2024-03-06 10:12:11,926 [INFO]  Epoch[3] Train-cross-entropy=0.282727
+2024-03-06 10:12:11,926 [INFO]  Epoch[3] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:12:11,926 [INFO]  Epoch[3] Time cost=0.005
+2024-03-06 10:12:11,927 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 10:12:11,927 [INFO]  Epoch[3] Validation-cross-entropy=0.264000
+2024-03-06 10:12:11,928 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:12:11,931 [INFO]  Epoch[4] Batch [0-4]	Speed: 27341.15 samples/sec	cross-entropy=0.167626	sepal_length-accuracy=0.000000
+2024-03-06 10:12:11,932 [INFO]  Epoch[4] Train-cross-entropy=0.146959
+2024-03-06 10:12:11,932 [INFO]  Epoch[4] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:12:11,932 [INFO]  Epoch[4] Time cost=0.004
+2024-03-06 10:12:11,933 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 10:12:11,934 [INFO]  Epoch[4] Validation-cross-entropy=0.221202
+2024-03-06 10:12:11,934 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:12:11,934 [INFO]  
+========== done (0.18195581436157227 s) fit model
+2024-03-06 10:12:24,668 [INFO]  
+========== start: fit model
+2024-03-06 10:12:24,669 [WARNING]  Already bound, ignoring bind()
+2024-03-06 10:12:25,293 [INFO]  Epoch[0] Batch [0-4]	Speed: 890.05 samples/sec	cross-entropy=13.290540	sepal_length-accuracy=2.400000
+2024-03-06 10:12:25,410 [INFO]  Epoch[0] Train-cross-entropy=10.814361
+2024-03-06 10:12:25,410 [INFO]  Epoch[0] Train-sepal_length-accuracy=2.285714
+2024-03-06 10:12:25,411 [INFO]  Epoch[0] Time cost=0.741
+2024-03-06 10:12:25,416 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 10:12:25,550 [INFO]  Epoch[0] Validation-cross-entropy=2.483013
+2024-03-06 10:12:25,550 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:12:26,377 [INFO]  Epoch[1] Batch [0-4]	Speed: 238.76 samples/sec	cross-entropy=1.545472	sepal_length-accuracy=2.400000
+2024-03-06 10:12:26,689 [INFO]  Epoch[1] Train-cross-entropy=1.494263
+2024-03-06 10:12:26,690 [INFO]  Epoch[1] Train-sepal_length-accuracy=2.285714
+2024-03-06 10:12:26,690 [INFO]  Epoch[1] Time cost=1.139
+2024-03-06 10:12:26,702 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 10:12:26,820 [INFO]  Epoch[1] Validation-cross-entropy=2.846358
+2024-03-06 10:12:26,820 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:12:27,055 [INFO]  Epoch[2] Batch [0-4]	Speed: 984.74 samples/sec	cross-entropy=1.720870	sepal_length-accuracy=2.400000
+2024-03-06 10:12:27,308 [INFO]  Epoch[2] Train-cross-entropy=1.640003
+2024-03-06 10:12:27,309 [INFO]  Epoch[2] Train-sepal_length-accuracy=2.285714
+2024-03-06 10:12:27,309 [INFO]  Epoch[2] Time cost=0.489
+2024-03-06 10:12:27,314 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 10:12:27,466 [INFO]  Epoch[2] Validation-cross-entropy=3.075529
+2024-03-06 10:12:27,466 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:12:28,071 [INFO]  Epoch[3] Batch [0-4]	Speed: 1907.40 samples/sec	cross-entropy=1.024788	sepal_length-accuracy=2.400000
+2024-03-06 10:12:28,073 [INFO]  Epoch[3] Train-cross-entropy=0.874845
+2024-03-06 10:12:28,073 [INFO]  Epoch[3] Train-sepal_length-accuracy=2.285714
+2024-03-06 10:12:28,073 [INFO]  Epoch[3] Time cost=0.607
+2024-03-06 10:12:28,075 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 10:12:28,075 [INFO]  Epoch[3] Validation-cross-entropy=0.133970
+2024-03-06 10:12:28,075 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:12:28,911 [INFO]  Epoch[4] Batch [0-4]	Speed: 208.63 samples/sec	cross-entropy=0.179001	sepal_length-accuracy=2.400000
+2024-03-06 10:12:29,130 [INFO]  Epoch[4] Train-cross-entropy=0.199779
+2024-03-06 10:12:29,130 [INFO]  Epoch[4] Train-sepal_length-accuracy=2.285714
+2024-03-06 10:12:29,130 [INFO]  Epoch[4] Time cost=1.055
+2024-03-06 10:12:29,134 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 10:12:29,159 [INFO]  Epoch[4] Validation-cross-entropy=0.396169
+2024-03-06 10:12:29,159 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:12:29,160 [INFO]  
+========== done (4.491145610809326 s) fit model
+2024-03-06 10:12:55,216 [INFO]  
+========== start: fit model
+2024-03-06 10:12:55,216 [WARNING]  Already bound, ignoring bind()
+2024-03-06 10:12:56,004 [INFO]  Epoch[0] Batch [0-4]	Speed: 82.95 samples/sec	cross-entropy=6.539145	sepal_length-accuracy=3.600000
+2024-03-06 10:12:56,532 [INFO]  Epoch[0] Train-cross-entropy=5.924993
+2024-03-06 10:12:56,532 [INFO]  Epoch[0] Train-sepal_length-accuracy=3.142857
+2024-03-06 10:12:56,532 [INFO]  Epoch[0] Time cost=1.316
+2024-03-06 10:12:56,535 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 10:12:56,680 [INFO]  Epoch[0] Validation-cross-entropy=2.015360
+2024-03-06 10:12:56,680 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:12:57,085 [INFO]  Epoch[1] Batch [0-4]	Speed: 3171.05 samples/sec	cross-entropy=2.864601	sepal_length-accuracy=3.600000
+2024-03-06 10:12:57,087 [INFO]  Epoch[1] Train-cross-entropy=2.394757
+2024-03-06 10:12:57,087 [INFO]  Epoch[1] Train-sepal_length-accuracy=3.142857
+2024-03-06 10:12:57,087 [INFO]  Epoch[1] Time cost=0.406
+2024-03-06 10:12:57,088 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 10:12:57,089 [INFO]  Epoch[1] Validation-cross-entropy=0.687407
+2024-03-06 10:12:57,089 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:12:57,369 [INFO]  Epoch[2] Batch [0-4]	Speed: 236.11 samples/sec	cross-entropy=0.789178	sepal_length-accuracy=3.600000
+2024-03-06 10:12:57,371 [INFO]  Epoch[2] Train-cross-entropy=0.708609
+2024-03-06 10:12:57,371 [INFO]  Epoch[2] Train-sepal_length-accuracy=3.142857
+2024-03-06 10:12:57,371 [INFO]  Epoch[2] Time cost=0.282
+2024-03-06 10:12:57,373 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 10:12:57,472 [INFO]  Epoch[2] Validation-cross-entropy=0.347091
+2024-03-06 10:12:57,472 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:12:57,481 [INFO]  Epoch[3] Batch [0-4]	Speed: 17336.31 samples/sec	cross-entropy=0.290438	sepal_length-accuracy=3.600000
+2024-03-06 10:12:57,530 [INFO]  Epoch[3] Train-cross-entropy=0.317775
+2024-03-06 10:12:57,530 [INFO]  Epoch[3] Train-sepal_length-accuracy=3.142857
+2024-03-06 10:12:57,531 [INFO]  Epoch[3] Time cost=0.059
+2024-03-06 10:12:57,533 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 10:12:57,616 [INFO]  Epoch[3] Validation-cross-entropy=0.255879
+2024-03-06 10:12:57,617 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:12:57,773 [INFO]  Epoch[4] Batch [0-4]	Speed: 859.73 samples/sec	cross-entropy=0.208429	sepal_length-accuracy=3.600000
+2024-03-06 10:12:57,964 [INFO]  Epoch[4] Train-cross-entropy=0.213934
+2024-03-06 10:12:57,965 [INFO]  Epoch[4] Train-sepal_length-accuracy=3.142857
+2024-03-06 10:12:57,965 [INFO]  Epoch[4] Time cost=0.348
+2024-03-06 10:12:57,967 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 10:12:58,112 [INFO]  Epoch[4] Validation-cross-entropy=0.264926
+2024-03-06 10:12:58,112 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:12:58,113 [INFO]  
+========== done (2.8970601558685303 s) fit model
+2024-03-06 10:13:18,563 [INFO]  
+========== start: fit model
+2024-03-06 10:13:18,564 [WARNING]  Already bound, ignoring bind()
+2024-03-06 10:13:18,570 [INFO]  Epoch[0] Batch [0-4]	Speed: 17857.60 samples/sec	cross-entropy=14.795721	sepal_length-accuracy=0.000000
+2024-03-06 10:13:18,571 [INFO]  Epoch[0] Train-cross-entropy=11.991366
+2024-03-06 10:13:18,571 [INFO]  Epoch[0] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:13:18,571 [INFO]  Epoch[0] Time cost=0.007
+2024-03-06 10:13:18,573 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 10:13:18,574 [INFO]  Epoch[0] Validation-cross-entropy=3.183526
+2024-03-06 10:13:18,574 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:13:18,577 [INFO]  Epoch[1] Batch [0-4]	Speed: 22084.36 samples/sec	cross-entropy=3.219861	sepal_length-accuracy=0.000000
+2024-03-06 10:13:18,579 [INFO]  Epoch[1] Train-cross-entropy=2.770483
+2024-03-06 10:13:18,579 [INFO]  Epoch[1] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:13:18,579 [INFO]  Epoch[1] Time cost=0.005
+2024-03-06 10:13:18,580 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 10:13:18,581 [INFO]  Epoch[1] Validation-cross-entropy=0.575312
+2024-03-06 10:13:18,581 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:13:18,584 [INFO]  Epoch[2] Batch [0-4]	Speed: 23684.09 samples/sec	cross-entropy=1.458573	sepal_length-accuracy=0.000000
+2024-03-06 10:13:18,586 [INFO]  Epoch[2] Train-cross-entropy=1.291936
+2024-03-06 10:13:18,586 [INFO]  Epoch[2] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:13:18,586 [INFO]  Epoch[2] Time cost=0.005
+2024-03-06 10:13:18,587 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 10:13:18,588 [INFO]  Epoch[2] Validation-cross-entropy=0.853959
+2024-03-06 10:13:18,588 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:13:18,591 [INFO]  Epoch[3] Batch [0-4]	Speed: 25424.84 samples/sec	cross-entropy=0.960961	sepal_length-accuracy=0.000000
+2024-03-06 10:13:18,593 [INFO]  Epoch[3] Train-cross-entropy=0.781384
+2024-03-06 10:13:18,593 [INFO]  Epoch[3] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:13:18,593 [INFO]  Epoch[3] Time cost=0.005
+2024-03-06 10:13:18,594 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 10:13:18,594 [INFO]  Epoch[3] Validation-cross-entropy=0.374323
+2024-03-06 10:13:18,594 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:13:18,598 [INFO]  Epoch[4] Batch [0-4]	Speed: 24940.58 samples/sec	cross-entropy=0.529902	sepal_length-accuracy=0.000000
+2024-03-06 10:13:18,599 [INFO]  Epoch[4] Train-cross-entropy=0.398977
+2024-03-06 10:13:18,599 [INFO]  Epoch[4] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:13:18,599 [INFO]  Epoch[4] Time cost=0.005
+2024-03-06 10:13:18,601 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 10:13:18,601 [INFO]  Epoch[4] Validation-cross-entropy=0.061365
+2024-03-06 10:13:18,601 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:13:18,601 [INFO]  
+========== done (0.03770041465759277 s) fit model
+2024-03-06 10:13:32,194 [INFO]  
+========== start: fit model
+2024-03-06 10:13:32,194 [WARNING]  Already bound, ignoring bind()
+2024-03-06 10:13:32,295 [INFO]  Epoch[0] Batch [0-4]	Speed: 747.94 samples/sec	cross-entropy=8.379668	sepal_length-accuracy=2.600000
+2024-03-06 10:13:32,459 [INFO]  Epoch[0] Train-cross-entropy=7.698923
+2024-03-06 10:13:32,459 [INFO]  Epoch[0] Train-sepal_length-accuracy=3.000000
+2024-03-06 10:13:32,459 [INFO]  Epoch[0] Time cost=0.264
+2024-03-06 10:13:32,463 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 10:13:32,509 [INFO]  Epoch[0] Validation-cross-entropy=0.701398
+2024-03-06 10:13:32,509 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:13:32,513 [INFO]  Epoch[1] Batch [0-4]	Speed: 21799.21 samples/sec	cross-entropy=2.171950	sepal_length-accuracy=2.600000
+2024-03-06 10:13:32,514 [INFO]  Epoch[1] Train-cross-entropy=2.083588
+2024-03-06 10:13:32,514 [INFO]  Epoch[1] Train-sepal_length-accuracy=3.000000
+2024-03-06 10:13:32,514 [INFO]  Epoch[1] Time cost=0.005
+2024-03-06 10:13:32,516 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 10:13:32,565 [INFO]  Epoch[1] Validation-cross-entropy=1.778877
+2024-03-06 10:13:32,565 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:13:32,570 [INFO]  Epoch[2] Batch [0-4]	Speed: 17206.30 samples/sec	cross-entropy=1.688655	sepal_length-accuracy=2.600000
+2024-03-06 10:13:32,572 [INFO]  Epoch[2] Train-cross-entropy=1.426023
+2024-03-06 10:13:32,572 [INFO]  Epoch[2] Train-sepal_length-accuracy=3.000000
+2024-03-06 10:13:32,572 [INFO]  Epoch[2] Time cost=0.007
+2024-03-06 10:13:32,574 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 10:13:32,574 [INFO]  Epoch[2] Validation-cross-entropy=0.829748
+2024-03-06 10:13:32,574 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:13:32,647 [INFO]  Epoch[3] Batch [0-4]	Speed: 885.78 samples/sec	cross-entropy=0.642499	sepal_length-accuracy=2.600000
+2024-03-06 10:13:32,697 [INFO]  Epoch[3] Train-cross-entropy=0.594104
+2024-03-06 10:13:32,698 [INFO]  Epoch[3] Train-sepal_length-accuracy=3.000000
+2024-03-06 10:13:32,698 [INFO]  Epoch[3] Time cost=0.124
+2024-03-06 10:13:32,701 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 10:13:32,705 [INFO]  Epoch[3] Validation-cross-entropy=0.135666
+2024-03-06 10:13:32,706 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:13:32,869 [INFO]  Epoch[4] Batch [0-4]	Speed: 395.82 samples/sec	cross-entropy=0.374192	sepal_length-accuracy=2.600000
+2024-03-06 10:13:32,870 [INFO]  Epoch[4] Train-cross-entropy=0.345896
+2024-03-06 10:13:32,871 [INFO]  Epoch[4] Train-sepal_length-accuracy=3.000000
+2024-03-06 10:13:32,871 [INFO]  Epoch[4] Time cost=0.165
+2024-03-06 10:13:32,873 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 10:13:32,892 [INFO]  Epoch[4] Validation-cross-entropy=0.080785
+2024-03-06 10:13:32,892 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:13:32,892 [INFO]  
+========== done (0.6989395618438721 s) fit model
+2024-03-06 10:13:50,077 [INFO]  
+========== start: fit model
+2024-03-06 10:13:50,077 [WARNING]  Already bound, ignoring bind()
+2024-03-06 10:13:50,566 [INFO]  Epoch[0] Batch [0-4]	Speed: 242.84 samples/sec	cross-entropy=21.627445	sepal_length-accuracy=0.000000
+2024-03-06 10:13:50,629 [INFO]  Epoch[0] Train-cross-entropy=18.463526
+2024-03-06 10:13:50,630 [INFO]  Epoch[0] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:13:50,630 [INFO]  Epoch[0] Time cost=0.552
+2024-03-06 10:13:50,636 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-06 10:13:50,773 [INFO]  Epoch[0] Validation-cross-entropy=9.314123
+2024-03-06 10:13:50,773 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:13:51,470 [INFO]  Epoch[1] Batch [0-4]	Speed: 171.31 samples/sec	cross-entropy=5.551327	sepal_length-accuracy=0.000000
+2024-03-06 10:13:51,581 [INFO]  Epoch[1] Train-cross-entropy=5.564982
+2024-03-06 10:13:51,581 [INFO]  Epoch[1] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:13:51,581 [INFO]  Epoch[1] Time cost=0.808
+2024-03-06 10:13:51,583 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-06 10:13:51,600 [INFO]  Epoch[1] Validation-cross-entropy=7.590355
+2024-03-06 10:13:51,600 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:13:52,260 [INFO]  Epoch[2] Batch [0-4]	Speed: 130.99 samples/sec	cross-entropy=3.483396	sepal_length-accuracy=0.000000
+2024-03-06 10:13:52,483 [INFO]  Epoch[2] Train-cross-entropy=3.411120
+2024-03-06 10:13:52,483 [INFO]  Epoch[2] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:13:52,483 [INFO]  Epoch[2] Time cost=0.883
+2024-03-06 10:13:52,485 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-06 10:13:52,489 [INFO]  Epoch[2] Validation-cross-entropy=4.624278
+2024-03-06 10:13:52,490 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:13:54,027 [INFO]  Epoch[3] Batch [0-4]	Speed: 48.87 samples/sec	cross-entropy=1.714959	sepal_length-accuracy=0.000000
+2024-03-06 10:13:54,488 [INFO]  Epoch[3] Train-cross-entropy=1.599538
+2024-03-06 10:13:54,488 [INFO]  Epoch[3] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:13:54,488 [INFO]  Epoch[3] Time cost=1.999
+2024-03-06 10:13:54,492 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-06 10:13:54,565 [INFO]  Epoch[3] Validation-cross-entropy=1.110693
+2024-03-06 10:13:54,566 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:13:55,114 [INFO]  Epoch[4] Batch [0-4]	Speed: 232.55 samples/sec	cross-entropy=0.743890	sepal_length-accuracy=0.000000
+2024-03-06 10:13:55,452 [INFO]  Epoch[4] Train-cross-entropy=0.680613
+2024-03-06 10:13:55,452 [INFO]  Epoch[4] Train-sepal_length-accuracy=0.000000
+2024-03-06 10:13:55,453 [INFO]  Epoch[4] Time cost=0.887
+2024-03-06 10:13:55,456 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-06 10:13:55,615 [INFO]  Epoch[4] Validation-cross-entropy=0.752562
+2024-03-06 10:13:55,615 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-06 10:13:55,615 [INFO]  
+========== done (5.537829160690308 s) fit model
+2024-03-10 07:55:26,196 [INFO]  
+========== start: fit model
+2024-03-10 07:55:26,216 [WARNING]  Already bound, ignoring bind()
+2024-03-10 07:55:26,610 [INFO]  Epoch[0] Batch [0-4]	Speed: 586.05 samples/sec	cross-entropy=19.750126	sepal_length-accuracy=7.000000
+2024-03-10 07:55:26,613 [INFO]  Epoch[0] Train-cross-entropy=16.713521
+2024-03-10 07:55:26,613 [INFO]  Epoch[0] Train-sepal_length-accuracy=6.571429
+2024-03-10 07:55:26,613 [INFO]  Epoch[0] Time cost=0.396
+2024-03-10 07:55:26,615 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0000.params"
+2024-03-10 07:55:26,618 [INFO]  Epoch[0] Validation-cross-entropy=16.212336
+2024-03-10 07:55:26,618 [INFO]  Epoch[0] Validation-sepal_length-accuracy=0.000000
+2024-03-10 07:55:26,623 [INFO]  Epoch[1] Batch [0-4]	Speed: 15688.81 samples/sec	cross-entropy=8.198275	sepal_length-accuracy=7.000000
+2024-03-10 07:55:26,625 [INFO]  Epoch[1] Train-cross-entropy=6.779191
+2024-03-10 07:55:26,625 [INFO]  Epoch[1] Train-sepal_length-accuracy=6.571429
+2024-03-10 07:55:26,626 [INFO]  Epoch[1] Time cost=0.007
+2024-03-10 07:55:26,627 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0001.params"
+2024-03-10 07:55:26,628 [INFO]  Epoch[1] Validation-cross-entropy=4.365704
+2024-03-10 07:55:26,628 [INFO]  Epoch[1] Validation-sepal_length-accuracy=0.000000
+2024-03-10 07:55:26,702 [INFO]  Epoch[2] Batch [0-4]	Speed: 933.80 samples/sec	cross-entropy=3.837360	sepal_length-accuracy=7.000000
+2024-03-10 07:55:26,707 [INFO]  Epoch[2] Train-cross-entropy=3.082557
+2024-03-10 07:55:26,708 [INFO]  Epoch[2] Train-sepal_length-accuracy=6.571429
+2024-03-10 07:55:26,709 [INFO]  Epoch[2] Time cost=0.080
+2024-03-10 07:55:26,711 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0002.params"
+2024-03-10 07:55:26,725 [INFO]  Epoch[2] Validation-cross-entropy=2.158496
+2024-03-10 07:55:26,725 [INFO]  Epoch[2] Validation-sepal_length-accuracy=0.000000
+2024-03-10 07:55:27,132 [INFO]  Epoch[3] Batch [0-4]	Speed: 159.92 samples/sec	cross-entropy=1.565175	sepal_length-accuracy=7.000000
+2024-03-10 07:55:27,134 [INFO]  Epoch[3] Train-cross-entropy=1.280186
+2024-03-10 07:55:27,134 [INFO]  Epoch[3] Train-sepal_length-accuracy=6.571429
+2024-03-10 07:55:27,134 [INFO]  Epoch[3] Time cost=0.409
+2024-03-10 07:55:27,136 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0003.params"
+2024-03-10 07:55:27,177 [INFO]  Epoch[3] Validation-cross-entropy=1.418677
+2024-03-10 07:55:27,178 [INFO]  Epoch[3] Validation-sepal_length-accuracy=0.000000
+2024-03-10 07:55:27,194 [INFO]  Epoch[4] Batch [0-4]	Speed: 4247.80 samples/sec	cross-entropy=0.790724	sepal_length-accuracy=7.000000
+2024-03-10 07:55:27,274 [INFO]  Epoch[4] Train-cross-entropy=0.736190
+2024-03-10 07:55:27,274 [INFO]  Epoch[4] Train-sepal_length-accuracy=6.571429
+2024-03-10 07:55:27,274 [INFO]  Epoch[4] Time cost=0.096
+2024-03-10 07:55:27,275 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_sepal_length/model-0004.params"
+2024-03-10 07:55:27,276 [INFO]  Epoch[4] Validation-cross-entropy=0.644332
+2024-03-10 07:55:27,276 [INFO]  Epoch[4] Validation-sepal_length-accuracy=0.000000
+2024-03-10 07:55:27,276 [INFO]  
+========== done (1.0801846981048584 s) fit model

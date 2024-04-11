@@ -1,0 +1,1440 @@
+2024-03-05 06:28:21,744 [INFO]  
+========== start: fit model
+2024-03-05 06:28:21,744 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:28:21,751 [INFO]  Epoch[0] Batch [0-7]	Speed: 22201.52 samples/sec	cross-entropy=18.905197	menopause-accuracy=2.625000
+2024-03-05 06:28:21,759 [INFO]  Epoch[0] Train-cross-entropy=14.269190
+2024-03-05 06:28:21,759 [INFO]  Epoch[0] Train-menopause-accuracy=3.384615
+2024-03-05 06:28:21,759 [INFO]  Epoch[0] Time cost=0.014
+2024-03-05 06:28:21,762 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0000.params"
+2024-03-05 06:28:21,764 [INFO]  Epoch[0] Validation-cross-entropy=10.051594
+2024-03-05 06:28:21,764 [INFO]  Epoch[0] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:21,775 [INFO]  Epoch[1] Batch [0-7]	Speed: 14875.77 samples/sec	cross-entropy=2.849395	menopause-accuracy=2.625000
+2024-03-05 06:28:21,779 [INFO]  Epoch[1] Train-cross-entropy=2.394089
+2024-03-05 06:28:21,779 [INFO]  Epoch[1] Train-menopause-accuracy=3.384615
+2024-03-05 06:28:21,779 [INFO]  Epoch[1] Time cost=0.015
+2024-03-05 06:28:21,780 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0001.params"
+2024-03-05 06:28:21,781 [INFO]  Epoch[1] Validation-cross-entropy=1.496364
+2024-03-05 06:28:21,781 [INFO]  Epoch[1] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:21,787 [INFO]  Epoch[2] Batch [0-7]	Speed: 25548.60 samples/sec	cross-entropy=1.532903	menopause-accuracy=2.625000
+2024-03-05 06:28:21,790 [INFO]  Epoch[2] Train-cross-entropy=1.168375
+2024-03-05 06:28:21,790 [INFO]  Epoch[2] Train-menopause-accuracy=3.384615
+2024-03-05 06:28:21,790 [INFO]  Epoch[2] Time cost=0.009
+2024-03-05 06:28:21,791 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0002.params"
+2024-03-05 06:28:21,792 [INFO]  Epoch[2] Validation-cross-entropy=0.294598
+2024-03-05 06:28:21,792 [INFO]  Epoch[2] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:21,797 [INFO]  Epoch[3] Batch [0-7]	Speed: 25129.03 samples/sec	cross-entropy=0.502290	menopause-accuracy=2.625000
+2024-03-05 06:28:21,801 [INFO]  Epoch[3] Train-cross-entropy=0.432324
+2024-03-05 06:28:21,801 [INFO]  Epoch[3] Train-menopause-accuracy=3.384615
+2024-03-05 06:28:21,801 [INFO]  Epoch[3] Time cost=0.009
+2024-03-05 06:28:21,802 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0003.params"
+2024-03-05 06:28:21,803 [INFO]  Epoch[3] Validation-cross-entropy=0.385301
+2024-03-05 06:28:21,803 [INFO]  Epoch[3] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:21,809 [INFO]  Epoch[4] Batch [0-7]	Speed: 22454.09 samples/sec	cross-entropy=0.309871	menopause-accuracy=2.625000
+2024-03-05 06:28:21,812 [INFO]  Epoch[4] Train-cross-entropy=0.255508
+2024-03-05 06:28:21,812 [INFO]  Epoch[4] Train-menopause-accuracy=3.384615
+2024-03-05 06:28:21,812 [INFO]  Epoch[4] Time cost=0.009
+2024-03-05 06:28:21,813 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0004.params"
+2024-03-05 06:28:21,814 [INFO]  Epoch[4] Validation-cross-entropy=0.423869
+2024-03-05 06:28:21,814 [INFO]  Epoch[4] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:21,814 [INFO]  
+========== done (0.06996345520019531 s) fit model
+2024-03-05 06:28:27,647 [INFO]  
+========== start: fit model
+2024-03-05 06:28:27,647 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:28:27,661 [INFO]  Epoch[0] Batch [0-7]	Speed: 12410.82 samples/sec	cross-entropy=10.536888	menopause-accuracy=3.375000
+2024-03-05 06:28:27,667 [INFO]  Epoch[0] Train-cross-entropy=8.878303
+2024-03-05 06:28:27,667 [INFO]  Epoch[0] Train-menopause-accuracy=3.230769
+2024-03-05 06:28:27,667 [INFO]  Epoch[0] Time cost=0.018
+2024-03-05 06:28:27,669 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0000.params"
+2024-03-05 06:28:27,670 [INFO]  Epoch[0] Validation-cross-entropy=2.192489
+2024-03-05 06:28:27,670 [INFO]  Epoch[0] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:27,675 [INFO]  Epoch[1] Batch [0-7]	Speed: 23138.71 samples/sec	cross-entropy=2.487589	menopause-accuracy=3.375000
+2024-03-05 06:28:27,680 [INFO]  Epoch[1] Train-cross-entropy=2.245356
+2024-03-05 06:28:27,680 [INFO]  Epoch[1] Train-menopause-accuracy=3.230769
+2024-03-05 06:28:27,680 [INFO]  Epoch[1] Time cost=0.011
+2024-03-05 06:28:27,682 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0001.params"
+2024-03-05 06:28:27,682 [INFO]  Epoch[1] Validation-cross-entropy=0.777795
+2024-03-05 06:28:27,682 [INFO]  Epoch[1] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:27,688 [INFO]  Epoch[2] Batch [0-7]	Speed: 22828.36 samples/sec	cross-entropy=0.895886	menopause-accuracy=3.375000
+2024-03-05 06:28:27,691 [INFO]  Epoch[2] Train-cross-entropy=0.820382
+2024-03-05 06:28:27,691 [INFO]  Epoch[2] Train-menopause-accuracy=3.230769
+2024-03-05 06:28:27,691 [INFO]  Epoch[2] Time cost=0.009
+2024-03-05 06:28:27,693 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0002.params"
+2024-03-05 06:28:27,693 [INFO]  Epoch[2] Validation-cross-entropy=0.408941
+2024-03-05 06:28:27,693 [INFO]  Epoch[2] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:27,699 [INFO]  Epoch[3] Batch [0-7]	Speed: 25257.38 samples/sec	cross-entropy=0.469179	menopause-accuracy=3.375000
+2024-03-05 06:28:27,702 [INFO]  Epoch[3] Train-cross-entropy=0.441591
+2024-03-05 06:28:27,702 [INFO]  Epoch[3] Train-menopause-accuracy=3.230769
+2024-03-05 06:28:27,702 [INFO]  Epoch[3] Time cost=0.009
+2024-03-05 06:28:27,703 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0003.params"
+2024-03-05 06:28:27,704 [INFO]  Epoch[3] Validation-cross-entropy=0.363607
+2024-03-05 06:28:27,704 [INFO]  Epoch[3] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:27,709 [INFO]  Epoch[4] Batch [0-7]	Speed: 24468.05 samples/sec	cross-entropy=0.276492	menopause-accuracy=3.375000
+2024-03-05 06:28:27,713 [INFO]  Epoch[4] Train-cross-entropy=0.257964
+2024-03-05 06:28:27,713 [INFO]  Epoch[4] Train-menopause-accuracy=3.230769
+2024-03-05 06:28:27,713 [INFO]  Epoch[4] Time cost=0.009
+2024-03-05 06:28:27,715 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0004.params"
+2024-03-05 06:28:27,716 [INFO]  Epoch[4] Validation-cross-entropy=0.325918
+2024-03-05 06:28:27,716 [INFO]  Epoch[4] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:27,716 [INFO]  
+========== done (0.06908774375915527 s) fit model
+2024-03-05 06:28:32,242 [INFO]  
+========== start: fit model
+2024-03-05 06:28:32,242 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:28:32,250 [INFO]  Epoch[0] Batch [0-7]	Speed: 19074.31 samples/sec	cross-entropy=10.678383	menopause-accuracy=2.875000
+2024-03-05 06:28:32,256 [INFO]  Epoch[0] Train-cross-entropy=8.053075
+2024-03-05 06:28:32,257 [INFO]  Epoch[0] Train-menopause-accuracy=3.230769
+2024-03-05 06:28:32,257 [INFO]  Epoch[0] Time cost=0.014
+2024-03-05 06:28:32,258 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0000.params"
+2024-03-05 06:28:32,259 [INFO]  Epoch[0] Validation-cross-entropy=2.265760
+2024-03-05 06:28:32,259 [INFO]  Epoch[0] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:32,264 [INFO]  Epoch[1] Batch [0-7]	Speed: 25218.06 samples/sec	cross-entropy=1.853604	menopause-accuracy=2.875000
+2024-03-05 06:28:32,268 [INFO]  Epoch[1] Train-cross-entropy=1.543031
+2024-03-05 06:28:32,268 [INFO]  Epoch[1] Train-menopause-accuracy=3.230769
+2024-03-05 06:28:32,268 [INFO]  Epoch[1] Time cost=0.009
+2024-03-05 06:28:32,269 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0001.params"
+2024-03-05 06:28:32,270 [INFO]  Epoch[1] Validation-cross-entropy=0.501929
+2024-03-05 06:28:32,270 [INFO]  Epoch[1] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:32,275 [INFO]  Epoch[2] Batch [0-7]	Speed: 25850.87 samples/sec	cross-entropy=0.675541	menopause-accuracy=2.875000
+2024-03-05 06:28:32,279 [INFO]  Epoch[2] Train-cross-entropy=0.569594
+2024-03-05 06:28:32,279 [INFO]  Epoch[2] Train-menopause-accuracy=3.230769
+2024-03-05 06:28:32,279 [INFO]  Epoch[2] Time cost=0.009
+2024-03-05 06:28:32,280 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0002.params"
+2024-03-05 06:28:32,281 [INFO]  Epoch[2] Validation-cross-entropy=0.215987
+2024-03-05 06:28:32,281 [INFO]  Epoch[2] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:32,286 [INFO]  Epoch[3] Batch [0-7]	Speed: 24219.53 samples/sec	cross-entropy=0.342257	menopause-accuracy=2.875000
+2024-03-05 06:28:32,290 [INFO]  Epoch[3] Train-cross-entropy=0.282467
+2024-03-05 06:28:32,290 [INFO]  Epoch[3] Train-menopause-accuracy=3.230769
+2024-03-05 06:28:32,290 [INFO]  Epoch[3] Time cost=0.009
+2024-03-05 06:28:32,291 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0003.params"
+2024-03-05 06:28:32,292 [INFO]  Epoch[3] Validation-cross-entropy=0.213422
+2024-03-05 06:28:32,292 [INFO]  Epoch[3] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:32,297 [INFO]  Epoch[4] Batch [0-7]	Speed: 23705.00 samples/sec	cross-entropy=0.191598	menopause-accuracy=2.875000
+2024-03-05 06:28:32,301 [INFO]  Epoch[4] Train-cross-entropy=0.159041
+2024-03-05 06:28:32,301 [INFO]  Epoch[4] Train-menopause-accuracy=3.230769
+2024-03-05 06:28:32,301 [INFO]  Epoch[4] Time cost=0.009
+2024-03-05 06:28:32,302 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0004.params"
+2024-03-05 06:28:32,303 [INFO]  Epoch[4] Validation-cross-entropy=0.543393
+2024-03-05 06:28:32,303 [INFO]  Epoch[4] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:32,303 [INFO]  
+========== done (0.06128334999084473 s) fit model
+2024-03-05 06:28:36,777 [INFO]  
+========== start: fit model
+2024-03-05 06:28:36,777 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:28:36,784 [INFO]  Epoch[0] Batch [0-7]	Speed: 21217.80 samples/sec	cross-entropy=11.712314	menopause-accuracy=2.875000
+2024-03-05 06:28:36,788 [INFO]  Epoch[0] Train-cross-entropy=8.842282
+2024-03-05 06:28:36,788 [INFO]  Epoch[0] Train-menopause-accuracy=2.692308
+2024-03-05 06:28:36,789 [INFO]  Epoch[0] Time cost=0.011
+2024-03-05 06:28:36,790 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0000.params"
+2024-03-05 06:28:36,790 [INFO]  Epoch[0] Validation-cross-entropy=3.180133
+2024-03-05 06:28:36,790 [INFO]  Epoch[0] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:36,796 [INFO]  Epoch[1] Batch [0-7]	Speed: 22857.24 samples/sec	cross-entropy=2.853290	menopause-accuracy=2.875000
+2024-03-05 06:28:36,799 [INFO]  Epoch[1] Train-cross-entropy=2.488555
+2024-03-05 06:28:36,799 [INFO]  Epoch[1] Train-menopause-accuracy=2.692308
+2024-03-05 06:28:36,799 [INFO]  Epoch[1] Time cost=0.009
+2024-03-05 06:28:36,801 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0001.params"
+2024-03-05 06:28:36,801 [INFO]  Epoch[1] Validation-cross-entropy=1.052472
+2024-03-05 06:28:36,801 [INFO]  Epoch[1] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:36,806 [INFO]  Epoch[2] Batch [0-7]	Speed: 26086.30 samples/sec	cross-entropy=0.842704	menopause-accuracy=2.875000
+2024-03-05 06:28:36,809 [INFO]  Epoch[2] Train-cross-entropy=0.746583
+2024-03-05 06:28:36,810 [INFO]  Epoch[2] Train-menopause-accuracy=2.692308
+2024-03-05 06:28:36,810 [INFO]  Epoch[2] Time cost=0.008
+2024-03-05 06:28:36,811 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0002.params"
+2024-03-05 06:28:36,811 [INFO]  Epoch[2] Validation-cross-entropy=0.705673
+2024-03-05 06:28:36,811 [INFO]  Epoch[2] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:36,816 [INFO]  Epoch[3] Batch [0-7]	Speed: 27970.35 samples/sec	cross-entropy=0.333266	menopause-accuracy=2.875000
+2024-03-05 06:28:36,819 [INFO]  Epoch[3] Train-cross-entropy=0.286478
+2024-03-05 06:28:36,819 [INFO]  Epoch[3] Train-menopause-accuracy=2.692308
+2024-03-05 06:28:36,819 [INFO]  Epoch[3] Time cost=0.008
+2024-03-05 06:28:36,820 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0003.params"
+2024-03-05 06:28:36,821 [INFO]  Epoch[3] Validation-cross-entropy=0.204250
+2024-03-05 06:28:36,821 [INFO]  Epoch[3] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:36,826 [INFO]  Epoch[4] Batch [0-7]	Speed: 26868.11 samples/sec	cross-entropy=0.228923	menopause-accuracy=2.875000
+2024-03-05 06:28:36,829 [INFO]  Epoch[4] Train-cross-entropy=0.200177
+2024-03-05 06:28:36,829 [INFO]  Epoch[4] Train-menopause-accuracy=2.692308
+2024-03-05 06:28:36,829 [INFO]  Epoch[4] Time cost=0.008
+2024-03-05 06:28:36,830 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0004.params"
+2024-03-05 06:28:36,830 [INFO]  Epoch[4] Validation-cross-entropy=0.199812
+2024-03-05 06:28:36,831 [INFO]  Epoch[4] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:36,831 [INFO]  
+========== done (0.05401134490966797 s) fit model
+2024-03-05 06:28:41,622 [INFO]  
+========== start: fit model
+2024-03-05 06:28:41,622 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:28:41,633 [INFO]  Epoch[0] Batch [0-7]	Speed: 13482.25 samples/sec	cross-entropy=23.363570	menopause-accuracy=2.750000
+2024-03-05 06:28:41,639 [INFO]  Epoch[0] Train-cross-entropy=17.723645
+2024-03-05 06:28:41,639 [INFO]  Epoch[0] Train-menopause-accuracy=3.153846
+2024-03-05 06:28:41,639 [INFO]  Epoch[0] Time cost=0.016
+2024-03-05 06:28:41,641 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0000.params"
+2024-03-05 06:28:41,642 [INFO]  Epoch[0] Validation-cross-entropy=18.798489
+2024-03-05 06:28:41,642 [INFO]  Epoch[0] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:41,649 [INFO]  Epoch[1] Batch [0-7]	Speed: 20136.40 samples/sec	cross-entropy=3.384426	menopause-accuracy=2.750000
+2024-03-05 06:28:41,652 [INFO]  Epoch[1] Train-cross-entropy=2.812737
+2024-03-05 06:28:41,652 [INFO]  Epoch[1] Train-menopause-accuracy=3.153846
+2024-03-05 06:28:41,652 [INFO]  Epoch[1] Time cost=0.010
+2024-03-05 06:28:41,654 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0001.params"
+2024-03-05 06:28:41,654 [INFO]  Epoch[1] Validation-cross-entropy=3.650568
+2024-03-05 06:28:41,654 [INFO]  Epoch[1] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:41,660 [INFO]  Epoch[2] Batch [0-7]	Speed: 23684.69 samples/sec	cross-entropy=1.598196	menopause-accuracy=2.750000
+2024-03-05 06:28:41,663 [INFO]  Epoch[2] Train-cross-entropy=1.332814
+2024-03-05 06:28:41,664 [INFO]  Epoch[2] Train-menopause-accuracy=3.153846
+2024-03-05 06:28:41,664 [INFO]  Epoch[2] Time cost=0.009
+2024-03-05 06:28:41,665 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0002.params"
+2024-03-05 06:28:41,666 [INFO]  Epoch[2] Validation-cross-entropy=1.438254
+2024-03-05 06:28:41,666 [INFO]  Epoch[2] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:41,671 [INFO]  Epoch[3] Batch [0-7]	Speed: 23613.25 samples/sec	cross-entropy=0.596755	menopause-accuracy=2.750000
+2024-03-05 06:28:41,675 [INFO]  Epoch[3] Train-cross-entropy=0.530262
+2024-03-05 06:28:41,675 [INFO]  Epoch[3] Train-menopause-accuracy=3.153846
+2024-03-05 06:28:41,675 [INFO]  Epoch[3] Time cost=0.009
+2024-03-05 06:28:41,676 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0003.params"
+2024-03-05 06:28:41,677 [INFO]  Epoch[3] Validation-cross-entropy=0.978146
+2024-03-05 06:28:41,677 [INFO]  Epoch[3] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:41,682 [INFO]  Epoch[4] Batch [0-7]	Speed: 24129.96 samples/sec	cross-entropy=0.363186	menopause-accuracy=2.750000
+2024-03-05 06:28:41,686 [INFO]  Epoch[4] Train-cross-entropy=0.335723
+2024-03-05 06:28:41,686 [INFO]  Epoch[4] Train-menopause-accuracy=3.153846
+2024-03-05 06:28:41,686 [INFO]  Epoch[4] Time cost=0.009
+2024-03-05 06:28:41,687 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0004.params"
+2024-03-05 06:28:41,687 [INFO]  Epoch[4] Validation-cross-entropy=0.770406
+2024-03-05 06:28:41,688 [INFO]  Epoch[4] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:41,688 [INFO]  
+========== done (0.06531095504760742 s) fit model
+2024-03-05 06:28:47,017 [INFO]  
+========== start: fit model
+2024-03-05 06:28:47,017 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:28:47,026 [INFO]  Epoch[0] Batch [0-7]	Speed: 17150.86 samples/sec	cross-entropy=20.788513	menopause-accuracy=3.375000
+2024-03-05 06:28:47,030 [INFO]  Epoch[0] Train-cross-entropy=16.027506
+2024-03-05 06:28:47,030 [INFO]  Epoch[0] Train-menopause-accuracy=3.153846
+2024-03-05 06:28:47,030 [INFO]  Epoch[0] Time cost=0.012
+2024-03-05 06:28:47,031 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0000.params"
+2024-03-05 06:28:47,032 [INFO]  Epoch[0] Validation-cross-entropy=16.321331
+2024-03-05 06:28:47,032 [INFO]  Epoch[0] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:47,038 [INFO]  Epoch[1] Batch [0-7]	Speed: 21538.84 samples/sec	cross-entropy=3.450452	menopause-accuracy=3.375000
+2024-03-05 06:28:47,042 [INFO]  Epoch[1] Train-cross-entropy=2.683754
+2024-03-05 06:28:47,042 [INFO]  Epoch[1] Train-menopause-accuracy=3.153846
+2024-03-05 06:28:47,042 [INFO]  Epoch[1] Time cost=0.010
+2024-03-05 06:28:47,043 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0001.params"
+2024-03-05 06:28:47,044 [INFO]  Epoch[1] Validation-cross-entropy=2.107133
+2024-03-05 06:28:47,044 [INFO]  Epoch[1] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:47,050 [INFO]  Epoch[2] Batch [0-7]	Speed: 20701.66 samples/sec	cross-entropy=1.712542	menopause-accuracy=3.375000
+2024-03-05 06:28:47,054 [INFO]  Epoch[2] Train-cross-entropy=1.307234
+2024-03-05 06:28:47,054 [INFO]  Epoch[2] Train-menopause-accuracy=3.153846
+2024-03-05 06:28:47,054 [INFO]  Epoch[2] Time cost=0.010
+2024-03-05 06:28:47,055 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0002.params"
+2024-03-05 06:28:47,056 [INFO]  Epoch[2] Validation-cross-entropy=1.185742
+2024-03-05 06:28:47,056 [INFO]  Epoch[2] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:47,062 [INFO]  Epoch[3] Batch [0-7]	Speed: 23286.67 samples/sec	cross-entropy=0.635715	menopause-accuracy=3.375000
+2024-03-05 06:28:47,065 [INFO]  Epoch[3] Train-cross-entropy=0.522500
+2024-03-05 06:28:47,065 [INFO]  Epoch[3] Train-menopause-accuracy=3.153846
+2024-03-05 06:28:47,065 [INFO]  Epoch[3] Time cost=0.009
+2024-03-05 06:28:47,067 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0003.params"
+2024-03-05 06:28:47,067 [INFO]  Epoch[3] Validation-cross-entropy=0.787819
+2024-03-05 06:28:47,067 [INFO]  Epoch[3] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:47,073 [INFO]  Epoch[4] Batch [0-7]	Speed: 24806.57 samples/sec	cross-entropy=0.322157	menopause-accuracy=3.375000
+2024-03-05 06:28:47,076 [INFO]  Epoch[4] Train-cross-entropy=0.277589
+2024-03-05 06:28:47,076 [INFO]  Epoch[4] Train-menopause-accuracy=3.153846
+2024-03-05 06:28:47,076 [INFO]  Epoch[4] Time cost=0.009
+2024-03-05 06:28:47,078 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0004.params"
+2024-03-05 06:28:47,079 [INFO]  Epoch[4] Validation-cross-entropy=0.507618
+2024-03-05 06:28:47,079 [INFO]  Epoch[4] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:47,079 [INFO]  
+========== done (0.06174659729003906 s) fit model
+2024-03-05 06:28:52,283 [INFO]  
+========== start: fit model
+2024-03-05 06:28:52,283 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:28:52,291 [INFO]  Epoch[0] Batch [0-7]	Speed: 20716.27 samples/sec	cross-entropy=27.536309	menopause-accuracy=2.625000
+2024-03-05 06:28:52,294 [INFO]  Epoch[0] Train-cross-entropy=20.364377
+2024-03-05 06:28:52,294 [INFO]  Epoch[0] Train-menopause-accuracy=2.769231
+2024-03-05 06:28:52,294 [INFO]  Epoch[0] Time cost=0.011
+2024-03-05 06:28:52,296 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0000.params"
+2024-03-05 06:28:52,296 [INFO]  Epoch[0] Validation-cross-entropy=13.435150
+2024-03-05 06:28:52,296 [INFO]  Epoch[0] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:52,301 [INFO]  Epoch[1] Batch [0-7]	Speed: 25806.85 samples/sec	cross-entropy=5.291765	menopause-accuracy=2.625000
+2024-03-05 06:28:52,305 [INFO]  Epoch[1] Train-cross-entropy=4.032558
+2024-03-05 06:28:52,305 [INFO]  Epoch[1] Train-menopause-accuracy=2.769231
+2024-03-05 06:28:52,305 [INFO]  Epoch[1] Time cost=0.008
+2024-03-05 06:28:52,306 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0001.params"
+2024-03-05 06:28:52,307 [INFO]  Epoch[1] Validation-cross-entropy=3.888815
+2024-03-05 06:28:52,307 [INFO]  Epoch[1] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:52,312 [INFO]  Epoch[2] Batch [0-7]	Speed: 27628.19 samples/sec	cross-entropy=2.048316	menopause-accuracy=2.625000
+2024-03-05 06:28:52,315 [INFO]  Epoch[2] Train-cross-entropy=1.671386
+2024-03-05 06:28:52,315 [INFO]  Epoch[2] Train-menopause-accuracy=2.769231
+2024-03-05 06:28:52,315 [INFO]  Epoch[2] Time cost=0.008
+2024-03-05 06:28:52,316 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0002.params"
+2024-03-05 06:28:52,316 [INFO]  Epoch[2] Validation-cross-entropy=1.542780
+2024-03-05 06:28:52,317 [INFO]  Epoch[2] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:52,321 [INFO]  Epoch[3] Batch [0-7]	Speed: 28708.80 samples/sec	cross-entropy=0.713715	menopause-accuracy=2.625000
+2024-03-05 06:28:52,324 [INFO]  Epoch[3] Train-cross-entropy=0.561083
+2024-03-05 06:28:52,324 [INFO]  Epoch[3] Train-menopause-accuracy=2.769231
+2024-03-05 06:28:52,324 [INFO]  Epoch[3] Time cost=0.008
+2024-03-05 06:28:52,325 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0003.params"
+2024-03-05 06:28:52,326 [INFO]  Epoch[3] Validation-cross-entropy=0.761380
+2024-03-05 06:28:52,326 [INFO]  Epoch[3] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:52,331 [INFO]  Epoch[4] Batch [0-7]	Speed: 27745.68 samples/sec	cross-entropy=0.287178	menopause-accuracy=2.625000
+2024-03-05 06:28:52,334 [INFO]  Epoch[4] Train-cross-entropy=0.260034
+2024-03-05 06:28:52,334 [INFO]  Epoch[4] Train-menopause-accuracy=2.769231
+2024-03-05 06:28:52,334 [INFO]  Epoch[4] Time cost=0.008
+2024-03-05 06:28:52,335 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0004.params"
+2024-03-05 06:28:52,335 [INFO]  Epoch[4] Validation-cross-entropy=0.363230
+2024-03-05 06:28:52,335 [INFO]  Epoch[4] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:52,335 [INFO]  
+========== done (0.0528569221496582 s) fit model
+2024-03-05 06:28:57,846 [INFO]  
+========== start: fit model
+2024-03-05 06:28:57,846 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:28:57,854 [INFO]  Epoch[0] Batch [0-7]	Speed: 20601.79 samples/sec	cross-entropy=16.194468	menopause-accuracy=3.250000
+2024-03-05 06:28:57,858 [INFO]  Epoch[0] Train-cross-entropy=13.284479
+2024-03-05 06:28:57,858 [INFO]  Epoch[0] Train-menopause-accuracy=3.307692
+2024-03-05 06:28:57,858 [INFO]  Epoch[0] Time cost=0.011
+2024-03-05 06:28:57,860 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0000.params"
+2024-03-05 06:28:57,860 [INFO]  Epoch[0] Validation-cross-entropy=6.714808
+2024-03-05 06:28:57,860 [INFO]  Epoch[0] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:57,867 [INFO]  Epoch[1] Batch [0-7]	Speed: 21367.39 samples/sec	cross-entropy=3.577087	menopause-accuracy=3.250000
+2024-03-05 06:28:57,872 [INFO]  Epoch[1] Train-cross-entropy=3.043301
+2024-03-05 06:28:57,872 [INFO]  Epoch[1] Train-menopause-accuracy=3.307692
+2024-03-05 06:28:57,872 [INFO]  Epoch[1] Time cost=0.011
+2024-03-05 06:28:57,874 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0001.params"
+2024-03-05 06:28:57,875 [INFO]  Epoch[1] Validation-cross-entropy=1.782039
+2024-03-05 06:28:57,875 [INFO]  Epoch[1] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:57,883 [INFO]  Epoch[2] Batch [0-7]	Speed: 16385.71 samples/sec	cross-entropy=1.209302	menopause-accuracy=3.250000
+2024-03-05 06:28:57,887 [INFO]  Epoch[2] Train-cross-entropy=1.118831
+2024-03-05 06:28:57,887 [INFO]  Epoch[2] Train-menopause-accuracy=3.307692
+2024-03-05 06:28:57,887 [INFO]  Epoch[2] Time cost=0.013
+2024-03-05 06:28:57,890 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0002.params"
+2024-03-05 06:28:57,890 [INFO]  Epoch[2] Validation-cross-entropy=0.862279
+2024-03-05 06:28:57,890 [INFO]  Epoch[2] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:57,899 [INFO]  Epoch[3] Batch [0-7]	Speed: 15284.27 samples/sec	cross-entropy=0.343855	menopause-accuracy=3.250000
+2024-03-05 06:28:57,905 [INFO]  Epoch[3] Train-cross-entropy=0.343731
+2024-03-05 06:28:57,905 [INFO]  Epoch[3] Train-menopause-accuracy=3.307692
+2024-03-05 06:28:57,905 [INFO]  Epoch[3] Time cost=0.015
+2024-03-05 06:28:57,907 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0003.params"
+2024-03-05 06:28:57,907 [INFO]  Epoch[3] Validation-cross-entropy=0.436710
+2024-03-05 06:28:57,907 [INFO]  Epoch[3] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:57,914 [INFO]  Epoch[4] Batch [0-7]	Speed: 20248.36 samples/sec	cross-entropy=0.234981	menopause-accuracy=3.250000
+2024-03-05 06:28:57,917 [INFO]  Epoch[4] Train-cross-entropy=0.227200
+2024-03-05 06:28:57,917 [INFO]  Epoch[4] Train-menopause-accuracy=3.307692
+2024-03-05 06:28:57,917 [INFO]  Epoch[4] Time cost=0.010
+2024-03-05 06:28:57,919 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0004.params"
+2024-03-05 06:28:57,919 [INFO]  Epoch[4] Validation-cross-entropy=0.194585
+2024-03-05 06:28:57,920 [INFO]  Epoch[4] Validation-menopause-accuracy=0.000000
+2024-03-05 06:28:57,920 [INFO]  
+========== done (0.07328629493713379 s) fit model
+2024-03-05 06:29:03,943 [INFO]  
+========== start: fit model
+2024-03-05 06:29:03,943 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:29:03,950 [INFO]  Epoch[0] Batch [0-7]	Speed: 26073.27 samples/sec	cross-entropy=12.065289	menopause-accuracy=3.375000
+2024-03-05 06:29:03,953 [INFO]  Epoch[0] Train-cross-entropy=8.706252
+2024-03-05 06:29:03,953 [INFO]  Epoch[0] Train-menopause-accuracy=3.153846
+2024-03-05 06:29:03,953 [INFO]  Epoch[0] Time cost=0.009
+2024-03-05 06:29:03,954 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0000.params"
+2024-03-05 06:29:03,955 [INFO]  Epoch[0] Validation-cross-entropy=1.950037
+2024-03-05 06:29:03,955 [INFO]  Epoch[0] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:03,960 [INFO]  Epoch[1] Batch [0-7]	Speed: 25393.92 samples/sec	cross-entropy=1.652804	menopause-accuracy=3.375000
+2024-03-05 06:29:03,964 [INFO]  Epoch[1] Train-cross-entropy=1.713934
+2024-03-05 06:29:03,964 [INFO]  Epoch[1] Train-menopause-accuracy=3.153846
+2024-03-05 06:29:03,964 [INFO]  Epoch[1] Time cost=0.009
+2024-03-05 06:29:03,965 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0001.params"
+2024-03-05 06:29:03,965 [INFO]  Epoch[1] Validation-cross-entropy=0.799576
+2024-03-05 06:29:03,966 [INFO]  Epoch[1] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:03,971 [INFO]  Epoch[2] Batch [0-7]	Speed: 25772.87 samples/sec	cross-entropy=0.670121	menopause-accuracy=3.375000
+2024-03-05 06:29:03,974 [INFO]  Epoch[2] Train-cross-entropy=0.553004
+2024-03-05 06:29:03,974 [INFO]  Epoch[2] Train-menopause-accuracy=3.153846
+2024-03-05 06:29:03,974 [INFO]  Epoch[2] Time cost=0.008
+2024-03-05 06:29:03,975 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0002.params"
+2024-03-05 06:29:03,976 [INFO]  Epoch[2] Validation-cross-entropy=0.404601
+2024-03-05 06:29:03,976 [INFO]  Epoch[2] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:03,988 [INFO]  Epoch[3] Batch [0-7]	Speed: 9973.72 samples/sec	cross-entropy=0.297546	menopause-accuracy=3.375000
+2024-03-05 06:29:03,994 [INFO]  Epoch[3] Train-cross-entropy=0.282580
+2024-03-05 06:29:03,994 [INFO]  Epoch[3] Train-menopause-accuracy=3.153846
+2024-03-05 06:29:03,994 [INFO]  Epoch[3] Time cost=0.019
+2024-03-05 06:29:03,997 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0003.params"
+2024-03-05 06:29:03,998 [INFO]  Epoch[3] Validation-cross-entropy=0.170925
+2024-03-05 06:29:03,998 [INFO]  Epoch[3] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:04,005 [INFO]  Epoch[4] Batch [0-7]	Speed: 20670.69 samples/sec	cross-entropy=0.216395	menopause-accuracy=3.375000
+2024-03-05 06:29:04,008 [INFO]  Epoch[4] Train-cross-entropy=0.189951
+2024-03-05 06:29:04,008 [INFO]  Epoch[4] Train-menopause-accuracy=3.153846
+2024-03-05 06:29:04,008 [INFO]  Epoch[4] Time cost=0.010
+2024-03-05 06:29:04,010 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0004.params"
+2024-03-05 06:29:04,010 [INFO]  Epoch[4] Validation-cross-entropy=0.139495
+2024-03-05 06:29:04,011 [INFO]  Epoch[4] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:04,011 [INFO]  
+========== done (0.06762504577636719 s) fit model
+2024-03-05 06:29:09,969 [INFO]  
+========== start: fit model
+2024-03-05 06:29:09,969 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:29:09,976 [INFO]  Epoch[0] Batch [0-7]	Speed: 22812.84 samples/sec	cross-entropy=12.612081	menopause-accuracy=3.750000
+2024-03-05 06:29:09,979 [INFO]  Epoch[0] Train-cross-entropy=9.348511
+2024-03-05 06:29:09,979 [INFO]  Epoch[0] Train-menopause-accuracy=3.769231
+2024-03-05 06:29:09,979 [INFO]  Epoch[0] Time cost=0.009
+2024-03-05 06:29:09,980 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0000.params"
+2024-03-05 06:29:09,981 [INFO]  Epoch[0] Validation-cross-entropy=2.443470
+2024-03-05 06:29:09,981 [INFO]  Epoch[0] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:09,986 [INFO]  Epoch[1] Batch [0-7]	Speed: 23867.60 samples/sec	cross-entropy=2.428882	menopause-accuracy=3.750000
+2024-03-05 06:29:09,990 [INFO]  Epoch[1] Train-cross-entropy=2.249172
+2024-03-05 06:29:09,990 [INFO]  Epoch[1] Train-menopause-accuracy=3.769231
+2024-03-05 06:29:09,990 [INFO]  Epoch[1] Time cost=0.009
+2024-03-05 06:29:09,991 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0001.params"
+2024-03-05 06:29:09,992 [INFO]  Epoch[1] Validation-cross-entropy=0.956690
+2024-03-05 06:29:09,992 [INFO]  Epoch[1] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:09,997 [INFO]  Epoch[2] Batch [0-7]	Speed: 25658.84 samples/sec	cross-entropy=0.800881	menopause-accuracy=3.750000
+2024-03-05 06:29:10,000 [INFO]  Epoch[2] Train-cross-entropy=0.657837
+2024-03-05 06:29:10,001 [INFO]  Epoch[2] Train-menopause-accuracy=3.769231
+2024-03-05 06:29:10,001 [INFO]  Epoch[2] Time cost=0.008
+2024-03-05 06:29:10,002 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0002.params"
+2024-03-05 06:29:10,002 [INFO]  Epoch[2] Validation-cross-entropy=0.669044
+2024-03-05 06:29:10,003 [INFO]  Epoch[2] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:10,008 [INFO]  Epoch[3] Batch [0-7]	Speed: 22164.86 samples/sec	cross-entropy=0.290218	menopause-accuracy=3.750000
+2024-03-05 06:29:10,011 [INFO]  Epoch[3] Train-cross-entropy=0.275854
+2024-03-05 06:29:10,012 [INFO]  Epoch[3] Train-menopause-accuracy=3.769231
+2024-03-05 06:29:10,012 [INFO]  Epoch[3] Time cost=0.009
+2024-03-05 06:29:10,013 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0003.params"
+2024-03-05 06:29:10,014 [INFO]  Epoch[3] Validation-cross-entropy=0.345215
+2024-03-05 06:29:10,014 [INFO]  Epoch[3] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:10,019 [INFO]  Epoch[4] Batch [0-7]	Speed: 24820.99 samples/sec	cross-entropy=0.170059	menopause-accuracy=3.750000
+2024-03-05 06:29:10,022 [INFO]  Epoch[4] Train-cross-entropy=0.163207
+2024-03-05 06:29:10,022 [INFO]  Epoch[4] Train-menopause-accuracy=3.769231
+2024-03-05 06:29:10,022 [INFO]  Epoch[4] Time cost=0.009
+2024-03-05 06:29:10,023 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0004.params"
+2024-03-05 06:29:10,024 [INFO]  Epoch[4] Validation-cross-entropy=0.178344
+2024-03-05 06:29:10,024 [INFO]  Epoch[4] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:10,024 [INFO]  
+========== done (0.055567264556884766 s) fit model
+2024-03-05 06:29:16,528 [INFO]  
+========== start: fit model
+2024-03-05 06:29:16,528 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:29:16,535 [INFO]  Epoch[0] Batch [0-7]	Speed: 24131.20 samples/sec	cross-entropy=17.064678	menopause-accuracy=0.000000
+2024-03-05 06:29:16,539 [INFO]  Epoch[0] Train-cross-entropy=12.538818
+2024-03-05 06:29:16,539 [INFO]  Epoch[0] Train-menopause-accuracy=0.000000
+2024-03-05 06:29:16,539 [INFO]  Epoch[0] Time cost=0.010
+2024-03-05 06:29:16,540 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0000.params"
+2024-03-05 06:29:16,540 [INFO]  Epoch[0] Validation-cross-entropy=2.899677
+2024-03-05 06:29:16,541 [INFO]  Epoch[0] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:16,546 [INFO]  Epoch[1] Batch [0-7]	Speed: 25897.90 samples/sec	cross-entropy=2.149258	menopause-accuracy=0.000000
+2024-03-05 06:29:16,549 [INFO]  Epoch[1] Train-cross-entropy=1.781893
+2024-03-05 06:29:16,549 [INFO]  Epoch[1] Train-menopause-accuracy=0.000000
+2024-03-05 06:29:16,549 [INFO]  Epoch[1] Time cost=0.008
+2024-03-05 06:29:16,550 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0001.params"
+2024-03-05 06:29:16,550 [INFO]  Epoch[1] Validation-cross-entropy=1.220594
+2024-03-05 06:29:16,550 [INFO]  Epoch[1] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:16,555 [INFO]  Epoch[2] Batch [0-7]	Speed: 25875.08 samples/sec	cross-entropy=1.157525	menopause-accuracy=0.000000
+2024-03-05 06:29:16,559 [INFO]  Epoch[2] Train-cross-entropy=0.877506
+2024-03-05 06:29:16,559 [INFO]  Epoch[2] Train-menopause-accuracy=0.000000
+2024-03-05 06:29:16,559 [INFO]  Epoch[2] Time cost=0.009
+2024-03-05 06:29:16,560 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0002.params"
+2024-03-05 06:29:16,561 [INFO]  Epoch[2] Validation-cross-entropy=0.247528
+2024-03-05 06:29:16,561 [INFO]  Epoch[2] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:16,566 [INFO]  Epoch[3] Batch [0-7]	Speed: 24220.78 samples/sec	cross-entropy=0.409963	menopause-accuracy=0.000000
+2024-03-05 06:29:16,569 [INFO]  Epoch[3] Train-cross-entropy=0.343807
+2024-03-05 06:29:16,569 [INFO]  Epoch[3] Train-menopause-accuracy=0.000000
+2024-03-05 06:29:16,570 [INFO]  Epoch[3] Time cost=0.009
+2024-03-05 06:29:16,571 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0003.params"
+2024-03-05 06:29:16,571 [INFO]  Epoch[3] Validation-cross-entropy=0.415117
+2024-03-05 06:29:16,571 [INFO]  Epoch[3] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:16,577 [INFO]  Epoch[4] Batch [0-7]	Speed: 24390.55 samples/sec	cross-entropy=0.248588	menopause-accuracy=0.000000
+2024-03-05 06:29:16,580 [INFO]  Epoch[4] Train-cross-entropy=0.201770
+2024-03-05 06:29:16,580 [INFO]  Epoch[4] Train-menopause-accuracy=0.000000
+2024-03-05 06:29:16,580 [INFO]  Epoch[4] Time cost=0.009
+2024-03-05 06:29:16,581 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0004.params"
+2024-03-05 06:29:16,582 [INFO]  Epoch[4] Validation-cross-entropy=0.157530
+2024-03-05 06:29:16,582 [INFO]  Epoch[4] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:16,582 [INFO]  
+========== done (0.05365395545959473 s) fit model
+2024-03-05 06:29:23,366 [INFO]  
+========== start: fit model
+2024-03-05 06:29:23,366 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:29:23,382 [INFO]  Epoch[0] Batch [0-7]	Speed: 8905.10 samples/sec	cross-entropy=13.790366	menopause-accuracy=2.875000
+2024-03-05 06:29:23,389 [INFO]  Epoch[0] Train-cross-entropy=9.863328
+2024-03-05 06:29:23,389 [INFO]  Epoch[0] Train-menopause-accuracy=2.692308
+2024-03-05 06:29:23,389 [INFO]  Epoch[0] Time cost=0.022
+2024-03-05 06:29:23,391 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0000.params"
+2024-03-05 06:29:23,393 [INFO]  Epoch[0] Validation-cross-entropy=3.657054
+2024-03-05 06:29:23,393 [INFO]  Epoch[0] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:23,400 [INFO]  Epoch[1] Batch [0-7]	Speed: 21448.36 samples/sec	cross-entropy=2.336363	menopause-accuracy=2.875000
+2024-03-05 06:29:23,403 [INFO]  Epoch[1] Train-cross-entropy=2.063196
+2024-03-05 06:29:23,403 [INFO]  Epoch[1] Train-menopause-accuracy=2.692308
+2024-03-05 06:29:23,403 [INFO]  Epoch[1] Time cost=0.010
+2024-03-05 06:29:23,404 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0001.params"
+2024-03-05 06:29:23,405 [INFO]  Epoch[1] Validation-cross-entropy=1.089374
+2024-03-05 06:29:23,405 [INFO]  Epoch[1] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:23,410 [INFO]  Epoch[2] Batch [0-7]	Speed: 26148.74 samples/sec	cross-entropy=0.972837	menopause-accuracy=2.875000
+2024-03-05 06:29:23,413 [INFO]  Epoch[2] Train-cross-entropy=0.690729
+2024-03-05 06:29:23,413 [INFO]  Epoch[2] Train-menopause-accuracy=2.692308
+2024-03-05 06:29:23,413 [INFO]  Epoch[2] Time cost=0.008
+2024-03-05 06:29:23,414 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0002.params"
+2024-03-05 06:29:23,415 [INFO]  Epoch[2] Validation-cross-entropy=0.695938
+2024-03-05 06:29:23,415 [INFO]  Epoch[2] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:23,420 [INFO]  Epoch[3] Batch [0-7]	Speed: 26156.02 samples/sec	cross-entropy=0.411842	menopause-accuracy=2.875000
+2024-03-05 06:29:23,423 [INFO]  Epoch[3] Train-cross-entropy=0.331655
+2024-03-05 06:29:23,423 [INFO]  Epoch[3] Train-menopause-accuracy=2.692308
+2024-03-05 06:29:23,423 [INFO]  Epoch[3] Time cost=0.008
+2024-03-05 06:29:23,425 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0003.params"
+2024-03-05 06:29:23,425 [INFO]  Epoch[3] Validation-cross-entropy=0.691707
+2024-03-05 06:29:23,425 [INFO]  Epoch[3] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:23,430 [INFO]  Epoch[4] Batch [0-7]	Speed: 27973.68 samples/sec	cross-entropy=0.265641	menopause-accuracy=2.875000
+2024-03-05 06:29:23,433 [INFO]  Epoch[4] Train-cross-entropy=0.211875
+2024-03-05 06:29:23,433 [INFO]  Epoch[4] Train-menopause-accuracy=2.692308
+2024-03-05 06:29:23,433 [INFO]  Epoch[4] Time cost=0.008
+2024-03-05 06:29:23,434 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0004.params"
+2024-03-05 06:29:23,435 [INFO]  Epoch[4] Validation-cross-entropy=0.342989
+2024-03-05 06:29:23,435 [INFO]  Epoch[4] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:23,435 [INFO]  
+========== done (0.06902194023132324 s) fit model
+2024-03-05 06:29:30,539 [INFO]  
+========== start: fit model
+2024-03-05 06:29:30,539 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:29:30,546 [INFO]  Epoch[0] Batch [0-7]	Speed: 23730.15 samples/sec	cross-entropy=14.638616	menopause-accuracy=0.000000
+2024-03-05 06:29:30,550 [INFO]  Epoch[0] Train-cross-entropy=10.579557
+2024-03-05 06:29:30,550 [INFO]  Epoch[0] Train-menopause-accuracy=0.000000
+2024-03-05 06:29:30,550 [INFO]  Epoch[0] Time cost=0.010
+2024-03-05 06:29:30,555 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0000.params"
+2024-03-05 06:29:30,557 [INFO]  Epoch[0] Validation-cross-entropy=3.082938
+2024-03-05 06:29:30,557 [INFO]  Epoch[0] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:30,571 [INFO]  Epoch[1] Batch [0-7]	Speed: 9835.07 samples/sec	cross-entropy=2.354678	menopause-accuracy=0.000000
+2024-03-05 06:29:30,575 [INFO]  Epoch[1] Train-cross-entropy=2.018537
+2024-03-05 06:29:30,575 [INFO]  Epoch[1] Train-menopause-accuracy=0.000000
+2024-03-05 06:29:30,576 [INFO]  Epoch[1] Time cost=0.018
+2024-03-05 06:29:30,577 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0001.params"
+2024-03-05 06:29:30,578 [INFO]  Epoch[1] Validation-cross-entropy=1.312223
+2024-03-05 06:29:30,578 [INFO]  Epoch[1] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:30,583 [INFO]  Epoch[2] Batch [0-7]	Speed: 26735.08 samples/sec	cross-entropy=1.349106	menopause-accuracy=0.000000
+2024-03-05 06:29:30,587 [INFO]  Epoch[2] Train-cross-entropy=1.021937
+2024-03-05 06:29:30,587 [INFO]  Epoch[2] Train-menopause-accuracy=0.000000
+2024-03-05 06:29:30,587 [INFO]  Epoch[2] Time cost=0.009
+2024-03-05 06:29:30,588 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0002.params"
+2024-03-05 06:29:30,589 [INFO]  Epoch[2] Validation-cross-entropy=0.727444
+2024-03-05 06:29:30,589 [INFO]  Epoch[2] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:30,594 [INFO]  Epoch[3] Batch [0-7]	Speed: 27757.15 samples/sec	cross-entropy=0.524591	menopause-accuracy=0.000000
+2024-03-05 06:29:30,597 [INFO]  Epoch[3] Train-cross-entropy=0.455153
+2024-03-05 06:29:30,597 [INFO]  Epoch[3] Train-menopause-accuracy=0.000000
+2024-03-05 06:29:30,597 [INFO]  Epoch[3] Time cost=0.008
+2024-03-05 06:29:30,598 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0003.params"
+2024-03-05 06:29:30,599 [INFO]  Epoch[3] Validation-cross-entropy=0.347624
+2024-03-05 06:29:30,599 [INFO]  Epoch[3] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:30,604 [INFO]  Epoch[4] Batch [0-7]	Speed: 27885.67 samples/sec	cross-entropy=0.310774	menopause-accuracy=0.000000
+2024-03-05 06:29:30,607 [INFO]  Epoch[4] Train-cross-entropy=0.278187
+2024-03-05 06:29:30,607 [INFO]  Epoch[4] Train-menopause-accuracy=0.000000
+2024-03-05 06:29:30,607 [INFO]  Epoch[4] Time cost=0.008
+2024-03-05 06:29:30,608 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0004.params"
+2024-03-05 06:29:30,608 [INFO]  Epoch[4] Validation-cross-entropy=0.312455
+2024-03-05 06:29:30,608 [INFO]  Epoch[4] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:30,609 [INFO]  
+========== done (0.06978416442871094 s) fit model
+2024-03-05 06:29:38,158 [INFO]  
+========== start: fit model
+2024-03-05 06:29:38,158 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:29:38,168 [INFO]  Epoch[0] Batch [0-7]	Speed: 13601.31 samples/sec	cross-entropy=15.461544	menopause-accuracy=4.000000
+2024-03-05 06:29:38,176 [INFO]  Epoch[0] Train-cross-entropy=11.984745
+2024-03-05 06:29:38,176 [INFO]  Epoch[0] Train-menopause-accuracy=3.153846
+2024-03-05 06:29:38,176 [INFO]  Epoch[0] Time cost=0.018
+2024-03-05 06:29:38,179 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0000.params"
+2024-03-05 06:29:38,180 [INFO]  Epoch[0] Validation-cross-entropy=5.874281
+2024-03-05 06:29:38,181 [INFO]  Epoch[0] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:38,188 [INFO]  Epoch[1] Batch [0-7]	Speed: 18350.08 samples/sec	cross-entropy=3.561960	menopause-accuracy=4.000000
+2024-03-05 06:29:38,193 [INFO]  Epoch[1] Train-cross-entropy=3.067568
+2024-03-05 06:29:38,193 [INFO]  Epoch[1] Train-menopause-accuracy=3.153846
+2024-03-05 06:29:38,193 [INFO]  Epoch[1] Time cost=0.013
+2024-03-05 06:29:38,195 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0001.params"
+2024-03-05 06:29:38,196 [INFO]  Epoch[1] Validation-cross-entropy=1.642381
+2024-03-05 06:29:38,196 [INFO]  Epoch[1] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:38,203 [INFO]  Epoch[2] Batch [0-7]	Speed: 19763.64 samples/sec	cross-entropy=1.101786	menopause-accuracy=4.000000
+2024-03-05 06:29:38,207 [INFO]  Epoch[2] Train-cross-entropy=0.881814
+2024-03-05 06:29:38,207 [INFO]  Epoch[2] Train-menopause-accuracy=3.153846
+2024-03-05 06:29:38,207 [INFO]  Epoch[2] Time cost=0.011
+2024-03-05 06:29:38,209 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0002.params"
+2024-03-05 06:29:38,209 [INFO]  Epoch[2] Validation-cross-entropy=0.502428
+2024-03-05 06:29:38,209 [INFO]  Epoch[2] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:38,216 [INFO]  Epoch[3] Batch [0-7]	Speed: 20554.02 samples/sec	cross-entropy=0.366504	menopause-accuracy=4.000000
+2024-03-05 06:29:38,220 [INFO]  Epoch[3] Train-cross-entropy=0.345918
+2024-03-05 06:29:38,220 [INFO]  Epoch[3] Train-menopause-accuracy=3.153846
+2024-03-05 06:29:38,220 [INFO]  Epoch[3] Time cost=0.010
+2024-03-05 06:29:38,221 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0003.params"
+2024-03-05 06:29:38,222 [INFO]  Epoch[3] Validation-cross-entropy=0.263731
+2024-03-05 06:29:38,222 [INFO]  Epoch[3] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:38,229 [INFO]  Epoch[4] Batch [0-7]	Speed: 20109.68 samples/sec	cross-entropy=0.233746	menopause-accuracy=4.000000
+2024-03-05 06:29:38,232 [INFO]  Epoch[4] Train-cross-entropy=0.223372
+2024-03-05 06:29:38,232 [INFO]  Epoch[4] Train-menopause-accuracy=3.153846
+2024-03-05 06:29:38,232 [INFO]  Epoch[4] Time cost=0.010
+2024-03-05 06:29:38,233 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0004.params"
+2024-03-05 06:29:38,234 [INFO]  Epoch[4] Validation-cross-entropy=0.235923
+2024-03-05 06:29:38,234 [INFO]  Epoch[4] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:38,234 [INFO]  
+========== done (0.0763700008392334 s) fit model
+2024-03-05 06:29:46,154 [INFO]  
+========== start: fit model
+2024-03-05 06:29:46,154 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:29:46,161 [INFO]  Epoch[0] Batch [0-7]	Speed: 23221.06 samples/sec	cross-entropy=15.675973	menopause-accuracy=3.250000
+2024-03-05 06:29:46,165 [INFO]  Epoch[0] Train-cross-entropy=12.335586
+2024-03-05 06:29:46,165 [INFO]  Epoch[0] Train-menopause-accuracy=3.307692
+2024-03-05 06:29:46,165 [INFO]  Epoch[0] Time cost=0.010
+2024-03-05 06:29:46,166 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0000.params"
+2024-03-05 06:29:46,167 [INFO]  Epoch[0] Validation-cross-entropy=3.254131
+2024-03-05 06:29:46,167 [INFO]  Epoch[0] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:46,172 [INFO]  Epoch[1] Batch [0-7]	Speed: 24598.74 samples/sec	cross-entropy=3.527252	menopause-accuracy=3.250000
+2024-03-05 06:29:46,176 [INFO]  Epoch[1] Train-cross-entropy=2.881961
+2024-03-05 06:29:46,176 [INFO]  Epoch[1] Train-menopause-accuracy=3.307692
+2024-03-05 06:29:46,176 [INFO]  Epoch[1] Time cost=0.009
+2024-03-05 06:29:46,177 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0001.params"
+2024-03-05 06:29:46,178 [INFO]  Epoch[1] Validation-cross-entropy=1.224269
+2024-03-05 06:29:46,179 [INFO]  Epoch[1] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:46,184 [INFO]  Epoch[2] Batch [0-7]	Speed: 25960.88 samples/sec	cross-entropy=1.424501	menopause-accuracy=3.250000
+2024-03-05 06:29:46,187 [INFO]  Epoch[2] Train-cross-entropy=1.102682
+2024-03-05 06:29:46,187 [INFO]  Epoch[2] Train-menopause-accuracy=3.307692
+2024-03-05 06:29:46,187 [INFO]  Epoch[2] Time cost=0.009
+2024-03-05 06:29:46,188 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0002.params"
+2024-03-05 06:29:46,189 [INFO]  Epoch[2] Validation-cross-entropy=0.773573
+2024-03-05 06:29:46,189 [INFO]  Epoch[2] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:46,194 [INFO]  Epoch[3] Batch [0-7]	Speed: 26475.91 samples/sec	cross-entropy=0.503012	menopause-accuracy=3.250000
+2024-03-05 06:29:46,197 [INFO]  Epoch[3] Train-cross-entropy=0.428629
+2024-03-05 06:29:46,197 [INFO]  Epoch[3] Train-menopause-accuracy=3.307692
+2024-03-05 06:29:46,197 [INFO]  Epoch[3] Time cost=0.008
+2024-03-05 06:29:46,199 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0003.params"
+2024-03-05 06:29:46,199 [INFO]  Epoch[3] Validation-cross-entropy=0.402121
+2024-03-05 06:29:46,199 [INFO]  Epoch[3] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:46,204 [INFO]  Epoch[4] Batch [0-7]	Speed: 25164.03 samples/sec	cross-entropy=0.252051	menopause-accuracy=3.250000
+2024-03-05 06:29:46,208 [INFO]  Epoch[4] Train-cross-entropy=0.223729
+2024-03-05 06:29:46,208 [INFO]  Epoch[4] Train-menopause-accuracy=3.307692
+2024-03-05 06:29:46,208 [INFO]  Epoch[4] Time cost=0.008
+2024-03-05 06:29:46,209 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0004.params"
+2024-03-05 06:29:46,210 [INFO]  Epoch[4] Validation-cross-entropy=0.366801
+2024-03-05 06:29:46,210 [INFO]  Epoch[4] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:46,210 [INFO]  
+========== done (0.055773019790649414 s) fit model
+2024-03-05 06:29:54,466 [INFO]  
+========== start: fit model
+2024-03-05 06:29:54,466 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:29:54,473 [INFO]  Epoch[0] Batch [0-7]	Speed: 21720.09 samples/sec	cross-entropy=11.056867	menopause-accuracy=0.000000
+2024-03-05 06:29:54,477 [INFO]  Epoch[0] Train-cross-entropy=8.188032
+2024-03-05 06:29:54,477 [INFO]  Epoch[0] Train-menopause-accuracy=0.000000
+2024-03-05 06:29:54,478 [INFO]  Epoch[0] Time cost=0.010
+2024-03-05 06:29:54,479 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0000.params"
+2024-03-05 06:29:54,480 [INFO]  Epoch[0] Validation-cross-entropy=2.492054
+2024-03-05 06:29:54,480 [INFO]  Epoch[0] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:54,485 [INFO]  Epoch[1] Batch [0-7]	Speed: 24519.13 samples/sec	cross-entropy=2.413963	menopause-accuracy=0.000000
+2024-03-05 06:29:54,489 [INFO]  Epoch[1] Train-cross-entropy=1.942612
+2024-03-05 06:29:54,489 [INFO]  Epoch[1] Train-menopause-accuracy=0.000000
+2024-03-05 06:29:54,489 [INFO]  Epoch[1] Time cost=0.009
+2024-03-05 06:29:54,490 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0001.params"
+2024-03-05 06:29:54,491 [INFO]  Epoch[1] Validation-cross-entropy=0.419834
+2024-03-05 06:29:54,491 [INFO]  Epoch[1] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:54,496 [INFO]  Epoch[2] Batch [0-7]	Speed: 25155.94 samples/sec	cross-entropy=0.932658	menopause-accuracy=0.000000
+2024-03-05 06:29:54,499 [INFO]  Epoch[2] Train-cross-entropy=0.712476
+2024-03-05 06:29:54,500 [INFO]  Epoch[2] Train-menopause-accuracy=0.000000
+2024-03-05 06:29:54,500 [INFO]  Epoch[2] Time cost=0.009
+2024-03-05 06:29:54,501 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0002.params"
+2024-03-05 06:29:54,502 [INFO]  Epoch[2] Validation-cross-entropy=0.204283
+2024-03-05 06:29:54,502 [INFO]  Epoch[2] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:54,507 [INFO]  Epoch[3] Batch [0-7]	Speed: 25509.75 samples/sec	cross-entropy=0.477361	menopause-accuracy=0.000000
+2024-03-05 06:29:54,511 [INFO]  Epoch[3] Train-cross-entropy=0.407552
+2024-03-05 06:29:54,511 [INFO]  Epoch[3] Train-menopause-accuracy=0.000000
+2024-03-05 06:29:54,511 [INFO]  Epoch[3] Time cost=0.009
+2024-03-05 06:29:54,512 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0003.params"
+2024-03-05 06:29:54,513 [INFO]  Epoch[3] Validation-cross-entropy=0.102583
+2024-03-05 06:29:54,513 [INFO]  Epoch[3] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:54,519 [INFO]  Epoch[4] Batch [0-7]	Speed: 20394.29 samples/sec	cross-entropy=0.286191	menopause-accuracy=0.000000
+2024-03-05 06:29:54,524 [INFO]  Epoch[4] Train-cross-entropy=0.244903
+2024-03-05 06:29:54,524 [INFO]  Epoch[4] Train-menopause-accuracy=0.000000
+2024-03-05 06:29:54,524 [INFO]  Epoch[4] Time cost=0.011
+2024-03-05 06:29:54,525 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0004.params"
+2024-03-05 06:29:54,526 [INFO]  Epoch[4] Validation-cross-entropy=0.074341
+2024-03-05 06:29:54,526 [INFO]  Epoch[4] Validation-menopause-accuracy=0.000000
+2024-03-05 06:29:54,526 [INFO]  
+========== done (0.05987858772277832 s) fit model
+2024-03-05 06:30:03,274 [INFO]  
+========== start: fit model
+2024-03-05 06:30:03,274 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:30:03,280 [INFO]  Epoch[0] Batch [0-7]	Speed: 26665.27 samples/sec	cross-entropy=11.268030	menopause-accuracy=0.000000
+2024-03-05 06:30:03,283 [INFO]  Epoch[0] Train-cross-entropy=8.735053
+2024-03-05 06:30:03,283 [INFO]  Epoch[0] Train-menopause-accuracy=0.000000
+2024-03-05 06:30:03,283 [INFO]  Epoch[0] Time cost=0.009
+2024-03-05 06:30:03,284 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0000.params"
+2024-03-05 06:30:03,285 [INFO]  Epoch[0] Validation-cross-entropy=2.087028
+2024-03-05 06:30:03,285 [INFO]  Epoch[0] Validation-menopause-accuracy=0.000000
+2024-03-05 06:30:03,291 [INFO]  Epoch[1] Batch [0-7]	Speed: 22199.43 samples/sec	cross-entropy=2.990978	menopause-accuracy=0.000000
+2024-03-05 06:30:03,294 [INFO]  Epoch[1] Train-cross-entropy=2.446854
+2024-03-05 06:30:03,294 [INFO]  Epoch[1] Train-menopause-accuracy=0.000000
+2024-03-05 06:30:03,294 [INFO]  Epoch[1] Time cost=0.009
+2024-03-05 06:30:03,296 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0001.params"
+2024-03-05 06:30:03,297 [INFO]  Epoch[1] Validation-cross-entropy=0.935998
+2024-03-05 06:30:03,297 [INFO]  Epoch[1] Validation-menopause-accuracy=0.000000
+2024-03-05 06:30:03,302 [INFO]  Epoch[2] Batch [0-7]	Speed: 25290.02 samples/sec	cross-entropy=1.031391	menopause-accuracy=0.000000
+2024-03-05 06:30:03,305 [INFO]  Epoch[2] Train-cross-entropy=0.888572
+2024-03-05 06:30:03,306 [INFO]  Epoch[2] Train-menopause-accuracy=0.000000
+2024-03-05 06:30:03,306 [INFO]  Epoch[2] Time cost=0.009
+2024-03-05 06:30:03,307 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0002.params"
+2024-03-05 06:30:03,307 [INFO]  Epoch[2] Validation-cross-entropy=0.593764
+2024-03-05 06:30:03,308 [INFO]  Epoch[2] Validation-menopause-accuracy=0.000000
+2024-03-05 06:30:03,313 [INFO]  Epoch[3] Batch [0-7]	Speed: 22186.84 samples/sec	cross-entropy=0.432289	menopause-accuracy=0.000000
+2024-03-05 06:30:03,317 [INFO]  Epoch[3] Train-cross-entropy=0.408648
+2024-03-05 06:30:03,317 [INFO]  Epoch[3] Train-menopause-accuracy=0.000000
+2024-03-05 06:30:03,317 [INFO]  Epoch[3] Time cost=0.009
+2024-03-05 06:30:03,318 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0003.params"
+2024-03-05 06:30:03,319 [INFO]  Epoch[3] Validation-cross-entropy=0.566859
+2024-03-05 06:30:03,319 [INFO]  Epoch[3] Validation-menopause-accuracy=0.000000
+2024-03-05 06:30:03,324 [INFO]  Epoch[4] Batch [0-7]	Speed: 23675.14 samples/sec	cross-entropy=0.265094	menopause-accuracy=0.000000
+2024-03-05 06:30:03,328 [INFO]  Epoch[4] Train-cross-entropy=0.245549
+2024-03-05 06:30:03,328 [INFO]  Epoch[4] Train-menopause-accuracy=0.000000
+2024-03-05 06:30:03,328 [INFO]  Epoch[4] Time cost=0.009
+2024-03-05 06:30:03,329 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0004.params"
+2024-03-05 06:30:03,330 [INFO]  Epoch[4] Validation-cross-entropy=0.486935
+2024-03-05 06:30:03,330 [INFO]  Epoch[4] Validation-menopause-accuracy=0.000000
+2024-03-05 06:30:03,330 [INFO]  
+========== done (0.05633282661437988 s) fit model
+2024-03-05 06:30:12,576 [INFO]  
+========== start: fit model
+2024-03-05 06:30:12,576 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:30:12,582 [INFO]  Epoch[0] Batch [0-7]	Speed: 25985.29 samples/sec	cross-entropy=13.223959	menopause-accuracy=0.000000
+2024-03-05 06:30:12,586 [INFO]  Epoch[0] Train-cross-entropy=10.476767
+2024-03-05 06:30:12,586 [INFO]  Epoch[0] Train-menopause-accuracy=0.000000
+2024-03-05 06:30:12,586 [INFO]  Epoch[0] Time cost=0.009
+2024-03-05 06:30:12,587 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0000.params"
+2024-03-05 06:30:12,588 [INFO]  Epoch[0] Validation-cross-entropy=3.141401
+2024-03-05 06:30:12,588 [INFO]  Epoch[0] Validation-menopause-accuracy=0.000000
+2024-03-05 06:30:12,593 [INFO]  Epoch[1] Batch [0-7]	Speed: 26331.95 samples/sec	cross-entropy=2.901536	menopause-accuracy=0.000000
+2024-03-05 06:30:12,596 [INFO]  Epoch[1] Train-cross-entropy=2.682620
+2024-03-05 06:30:12,596 [INFO]  Epoch[1] Train-menopause-accuracy=0.000000
+2024-03-05 06:30:12,596 [INFO]  Epoch[1] Time cost=0.008
+2024-03-05 06:30:12,598 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0001.params"
+2024-03-05 06:30:12,598 [INFO]  Epoch[1] Validation-cross-entropy=2.042361
+2024-03-05 06:30:12,598 [INFO]  Epoch[1] Validation-menopause-accuracy=0.000000
+2024-03-05 06:30:12,603 [INFO]  Epoch[2] Batch [0-7]	Speed: 26029.92 samples/sec	cross-entropy=0.985513	menopause-accuracy=0.000000
+2024-03-05 06:30:12,607 [INFO]  Epoch[2] Train-cross-entropy=0.884228
+2024-03-05 06:30:12,607 [INFO]  Epoch[2] Train-menopause-accuracy=0.000000
+2024-03-05 06:30:12,607 [INFO]  Epoch[2] Time cost=0.009
+2024-03-05 06:30:12,608 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0002.params"
+2024-03-05 06:30:12,609 [INFO]  Epoch[2] Validation-cross-entropy=0.958985
+2024-03-05 06:30:12,609 [INFO]  Epoch[2] Validation-menopause-accuracy=0.000000
+2024-03-05 06:30:12,614 [INFO]  Epoch[3] Batch [0-7]	Speed: 26486.36 samples/sec	cross-entropy=0.385722	menopause-accuracy=0.000000
+2024-03-05 06:30:12,618 [INFO]  Epoch[3] Train-cross-entropy=0.375112
+2024-03-05 06:30:12,618 [INFO]  Epoch[3] Train-menopause-accuracy=0.000000
+2024-03-05 06:30:12,618 [INFO]  Epoch[3] Time cost=0.009
+2024-03-05 06:30:12,619 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0003.params"
+2024-03-05 06:30:12,620 [INFO]  Epoch[3] Validation-cross-entropy=0.780686
+2024-03-05 06:30:12,620 [INFO]  Epoch[3] Validation-menopause-accuracy=0.000000
+2024-03-05 06:30:12,627 [INFO]  Epoch[4] Batch [0-7]	Speed: 18981.82 samples/sec	cross-entropy=0.264930	menopause-accuracy=0.000000
+2024-03-05 06:30:12,631 [INFO]  Epoch[4] Train-cross-entropy=0.248475
+2024-03-05 06:30:12,631 [INFO]  Epoch[4] Train-menopause-accuracy=0.000000
+2024-03-05 06:30:12,631 [INFO]  Epoch[4] Time cost=0.011
+2024-03-05 06:30:12,633 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0004.params"
+2024-03-05 06:30:12,634 [INFO]  Epoch[4] Validation-cross-entropy=0.620184
+2024-03-05 06:30:12,634 [INFO]  Epoch[4] Validation-menopause-accuracy=0.000000
+2024-03-05 06:30:12,634 [INFO]  
+========== done (0.05788874626159668 s) fit model
+2024-03-05 06:30:23,235 [INFO]  
+========== start: fit model
+2024-03-05 06:30:23,235 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:30:23,252 [INFO]  Epoch[0] Batch [0-7]	Speed: 7751.59 samples/sec	cross-entropy=18.731369	menopause-accuracy=0.000000
+2024-03-05 06:30:23,258 [INFO]  Epoch[0] Train-cross-entropy=13.900848
+2024-03-05 06:30:23,258 [INFO]  Epoch[0] Train-menopause-accuracy=0.000000
+2024-03-05 06:30:23,258 [INFO]  Epoch[0] Time cost=0.022
+2024-03-05 06:30:23,260 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0000.params"
+2024-03-05 06:30:23,261 [INFO]  Epoch[0] Validation-cross-entropy=5.494431
+2024-03-05 06:30:23,261 [INFO]  Epoch[0] Validation-menopause-accuracy=0.000000
+2024-03-05 06:30:23,277 [INFO]  Epoch[1] Batch [0-7]	Speed: 7513.19 samples/sec	cross-entropy=2.846206	menopause-accuracy=0.000000
+2024-03-05 06:30:23,283 [INFO]  Epoch[1] Train-cross-entropy=2.452088
+2024-03-05 06:30:23,283 [INFO]  Epoch[1] Train-menopause-accuracy=0.000000
+2024-03-05 06:30:23,283 [INFO]  Epoch[1] Time cost=0.021
+2024-03-05 06:30:23,284 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0001.params"
+2024-03-05 06:30:23,285 [INFO]  Epoch[1] Validation-cross-entropy=1.767867
+2024-03-05 06:30:23,286 [INFO]  Epoch[1] Validation-menopause-accuracy=0.000000
+2024-03-05 06:30:23,292 [INFO]  Epoch[2] Batch [0-7]	Speed: 22011.15 samples/sec	cross-entropy=1.522549	menopause-accuracy=0.000000
+2024-03-05 06:30:23,297 [INFO]  Epoch[2] Train-cross-entropy=1.227948
+2024-03-05 06:30:23,297 [INFO]  Epoch[2] Train-menopause-accuracy=0.000000
+2024-03-05 06:30:23,297 [INFO]  Epoch[2] Time cost=0.011
+2024-03-05 06:30:23,299 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0002.params"
+2024-03-05 06:30:23,299 [INFO]  Epoch[2] Validation-cross-entropy=0.753944
+2024-03-05 06:30:23,300 [INFO]  Epoch[2] Validation-menopause-accuracy=0.000000
+2024-03-05 06:30:23,306 [INFO]  Epoch[3] Batch [0-7]	Speed: 21058.01 samples/sec	cross-entropy=0.496197	menopause-accuracy=0.000000
+2024-03-05 06:30:23,323 [INFO]  Epoch[3] Train-cross-entropy=0.416891
+2024-03-05 06:30:23,323 [INFO]  Epoch[3] Train-menopause-accuracy=0.000000
+2024-03-05 06:30:23,323 [INFO]  Epoch[3] Time cost=0.023
+2024-03-05 06:30:23,325 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0003.params"
+2024-03-05 06:30:23,326 [INFO]  Epoch[3] Validation-cross-entropy=0.585941
+2024-03-05 06:30:23,326 [INFO]  Epoch[3] Validation-menopause-accuracy=0.000000
+2024-03-05 06:30:23,332 [INFO]  Epoch[4] Batch [0-7]	Speed: 23034.33 samples/sec	cross-entropy=0.359292	menopause-accuracy=0.000000
+2024-03-05 06:30:23,336 [INFO]  Epoch[4] Train-cross-entropy=0.290369
+2024-03-05 06:30:23,336 [INFO]  Epoch[4] Train-menopause-accuracy=0.000000
+2024-03-05 06:30:23,336 [INFO]  Epoch[4] Time cost=0.010
+2024-03-05 06:30:23,338 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0004.params"
+2024-03-05 06:30:23,339 [INFO]  Epoch[4] Validation-cross-entropy=0.263288
+2024-03-05 06:30:23,339 [INFO]  Epoch[4] Validation-menopause-accuracy=0.000000
+2024-03-05 06:30:23,339 [INFO]  
+========== done (0.10418558120727539 s) fit model
+2024-03-05 06:30:35,209 [INFO]  
+========== start: fit model
+2024-03-05 06:30:35,209 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:30:35,216 [INFO]  Epoch[0] Batch [0-7]	Speed: 24159.74 samples/sec	cross-entropy=22.305602	menopause-accuracy=2.875000
+2024-03-05 06:30:35,219 [INFO]  Epoch[0] Train-cross-entropy=17.793895
+2024-03-05 06:30:35,219 [INFO]  Epoch[0] Train-menopause-accuracy=2.923077
+2024-03-05 06:30:35,219 [INFO]  Epoch[0] Time cost=0.009
+2024-03-05 06:30:35,221 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0000.params"
+2024-03-05 06:30:35,221 [INFO]  Epoch[0] Validation-cross-entropy=7.739500
+2024-03-05 06:30:35,221 [INFO]  Epoch[0] Validation-menopause-accuracy=0.000000
+2024-03-05 06:30:35,226 [INFO]  Epoch[1] Batch [0-7]	Speed: 26872.72 samples/sec	cross-entropy=6.081813	menopause-accuracy=2.875000
+2024-03-05 06:30:35,229 [INFO]  Epoch[1] Train-cross-entropy=5.031002
+2024-03-05 06:30:35,229 [INFO]  Epoch[1] Train-menopause-accuracy=2.923077
+2024-03-05 06:30:35,229 [INFO]  Epoch[1] Time cost=0.008
+2024-03-05 06:30:35,231 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0001.params"
+2024-03-05 06:30:35,231 [INFO]  Epoch[1] Validation-cross-entropy=2.183584
+2024-03-05 06:30:35,231 [INFO]  Epoch[1] Validation-menopause-accuracy=0.000000
+2024-03-05 06:30:35,236 [INFO]  Epoch[2] Batch [0-7]	Speed: 28527.48 samples/sec	cross-entropy=2.264324	menopause-accuracy=2.875000
+2024-03-05 06:30:35,239 [INFO]  Epoch[2] Train-cross-entropy=1.937165
+2024-03-05 06:30:35,239 [INFO]  Epoch[2] Train-menopause-accuracy=2.923077
+2024-03-05 06:30:35,239 [INFO]  Epoch[2] Time cost=0.008
+2024-03-05 06:30:35,240 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0002.params"
+2024-03-05 06:30:35,242 [INFO]  Epoch[2] Validation-cross-entropy=1.202559
+2024-03-05 06:30:35,242 [INFO]  Epoch[2] Validation-menopause-accuracy=0.000000
+2024-03-05 06:30:35,246 [INFO]  Epoch[3] Batch [0-7]	Speed: 28406.73 samples/sec	cross-entropy=1.013958	menopause-accuracy=2.875000
+2024-03-05 06:30:35,249 [INFO]  Epoch[3] Train-cross-entropy=0.842252
+2024-03-05 06:30:35,249 [INFO]  Epoch[3] Train-menopause-accuracy=2.923077
+2024-03-05 06:30:35,250 [INFO]  Epoch[3] Time cost=0.008
+2024-03-05 06:30:35,251 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0003.params"
+2024-03-05 06:30:35,251 [INFO]  Epoch[3] Validation-cross-entropy=0.611799
+2024-03-05 06:30:35,251 [INFO]  Epoch[3] Validation-menopause-accuracy=0.000000
+2024-03-05 06:30:35,256 [INFO]  Epoch[4] Batch [0-7]	Speed: 28485.96 samples/sec	cross-entropy=0.462457	menopause-accuracy=2.875000
+2024-03-05 06:30:35,260 [INFO]  Epoch[4] Train-cross-entropy=0.398964
+2024-03-05 06:30:35,260 [INFO]  Epoch[4] Train-menopause-accuracy=2.923077
+2024-03-05 06:30:35,260 [INFO]  Epoch[4] Time cost=0.009
+2024-03-05 06:30:35,261 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0004.params"
+2024-03-05 06:30:35,262 [INFO]  Epoch[4] Validation-cross-entropy=0.382919
+2024-03-05 06:30:35,262 [INFO]  Epoch[4] Validation-menopause-accuracy=0.000000
+2024-03-05 06:30:35,262 [INFO]  
+========== done (0.05289745330810547 s) fit model
+2024-03-05 06:30:45,774 [INFO]  
+========== start: fit model
+2024-03-05 06:30:45,774 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:30:45,781 [INFO]  Epoch[0] Batch [0-7]	Speed: 23486.93 samples/sec	cross-entropy=13.878106	menopause-accuracy=0.000000
+2024-03-05 06:30:45,785 [INFO]  Epoch[0] Train-cross-entropy=10.905402
+2024-03-05 06:30:45,785 [INFO]  Epoch[0] Train-menopause-accuracy=0.000000
+2024-03-05 06:30:45,785 [INFO]  Epoch[0] Time cost=0.010
+2024-03-05 06:30:45,786 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0000.params"
+2024-03-05 06:30:45,787 [INFO]  Epoch[0] Validation-cross-entropy=6.198563
+2024-03-05 06:30:45,787 [INFO]  Epoch[0] Validation-menopause-accuracy=0.000000
+2024-03-05 06:30:45,794 [INFO]  Epoch[1] Batch [0-7]	Speed: 18698.49 samples/sec	cross-entropy=3.237822	menopause-accuracy=0.000000
+2024-03-05 06:30:45,802 [INFO]  Epoch[1] Train-cross-entropy=3.018088
+2024-03-05 06:30:45,802 [INFO]  Epoch[1] Train-menopause-accuracy=0.000000
+2024-03-05 06:30:45,802 [INFO]  Epoch[1] Time cost=0.015
+2024-03-05 06:30:45,805 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0001.params"
+2024-03-05 06:30:45,806 [INFO]  Epoch[1] Validation-cross-entropy=1.188911
+2024-03-05 06:30:45,806 [INFO]  Epoch[1] Validation-menopause-accuracy=0.000000
+2024-03-05 06:30:45,814 [INFO]  Epoch[2] Batch [0-7]	Speed: 16285.74 samples/sec	cross-entropy=1.111176	menopause-accuracy=0.000000
+2024-03-05 06:30:45,818 [INFO]  Epoch[2] Train-cross-entropy=1.031149
+2024-03-05 06:30:45,818 [INFO]  Epoch[2] Train-menopause-accuracy=0.000000
+2024-03-05 06:30:45,818 [INFO]  Epoch[2] Time cost=0.012
+2024-03-05 06:30:45,819 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0002.params"
+2024-03-05 06:30:45,820 [INFO]  Epoch[2] Validation-cross-entropy=1.445142
+2024-03-05 06:30:45,820 [INFO]  Epoch[2] Validation-menopause-accuracy=0.000000
+2024-03-05 06:30:45,827 [INFO]  Epoch[3] Batch [0-7]	Speed: 18642.09 samples/sec	cross-entropy=0.605938	menopause-accuracy=0.000000
+2024-03-05 06:30:45,832 [INFO]  Epoch[3] Train-cross-entropy=0.548440
+2024-03-05 06:30:45,832 [INFO]  Epoch[3] Train-menopause-accuracy=0.000000
+2024-03-05 06:30:45,832 [INFO]  Epoch[3] Time cost=0.012
+2024-03-05 06:30:45,833 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0003.params"
+2024-03-05 06:30:45,834 [INFO]  Epoch[3] Validation-cross-entropy=0.743442
+2024-03-05 06:30:45,834 [INFO]  Epoch[3] Validation-menopause-accuracy=0.000000
+2024-03-05 06:30:45,839 [INFO]  Epoch[4] Batch [0-7]	Speed: 25147.86 samples/sec	cross-entropy=0.318086	menopause-accuracy=0.000000
+2024-03-05 06:30:45,842 [INFO]  Epoch[4] Train-cross-entropy=0.309849
+2024-03-05 06:30:45,842 [INFO]  Epoch[4] Train-menopause-accuracy=0.000000
+2024-03-05 06:30:45,842 [INFO]  Epoch[4] Time cost=0.009
+2024-03-05 06:30:45,844 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0004.params"
+2024-03-05 06:30:45,845 [INFO]  Epoch[4] Validation-cross-entropy=0.462533
+2024-03-05 06:30:45,845 [INFO]  Epoch[4] Validation-menopause-accuracy=0.000000
+2024-03-05 06:30:45,845 [INFO]  
+========== done (0.07042670249938965 s) fit model
+2024-03-05 06:30:56,711 [INFO]  
+========== start: fit model
+2024-03-05 06:30:56,711 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:30:56,718 [INFO]  Epoch[0] Batch [0-7]	Speed: 24756.89 samples/sec	cross-entropy=15.024105	menopause-accuracy=3.500000
+2024-03-05 06:30:56,721 [INFO]  Epoch[0] Train-cross-entropy=11.281312
+2024-03-05 06:30:56,721 [INFO]  Epoch[0] Train-menopause-accuracy=3.153846
+2024-03-05 06:30:56,721 [INFO]  Epoch[0] Time cost=0.009
+2024-03-05 06:30:56,723 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0000.params"
+2024-03-05 06:30:56,723 [INFO]  Epoch[0] Validation-cross-entropy=5.107849
+2024-03-05 06:30:56,723 [INFO]  Epoch[0] Validation-menopause-accuracy=0.000000
+2024-03-05 06:30:56,729 [INFO]  Epoch[1] Batch [0-7]	Speed: 24767.34 samples/sec	cross-entropy=2.324823	menopause-accuracy=3.500000
+2024-03-05 06:30:56,732 [INFO]  Epoch[1] Train-cross-entropy=1.969780
+2024-03-05 06:30:56,732 [INFO]  Epoch[1] Train-menopause-accuracy=3.153846
+2024-03-05 06:30:56,732 [INFO]  Epoch[1] Time cost=0.009
+2024-03-05 06:30:56,733 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0001.params"
+2024-03-05 06:30:56,734 [INFO]  Epoch[1] Validation-cross-entropy=1.718697
+2024-03-05 06:30:56,734 [INFO]  Epoch[1] Validation-menopause-accuracy=0.000000
+2024-03-05 06:30:56,739 [INFO]  Epoch[2] Batch [0-7]	Speed: 23072.79 samples/sec	cross-entropy=1.161222	menopause-accuracy=3.500000
+2024-03-05 06:30:56,743 [INFO]  Epoch[2] Train-cross-entropy=0.879390
+2024-03-05 06:30:56,743 [INFO]  Epoch[2] Train-menopause-accuracy=3.153846
+2024-03-05 06:30:56,743 [INFO]  Epoch[2] Time cost=0.010
+2024-03-05 06:30:56,744 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0002.params"
+2024-03-05 06:30:56,745 [INFO]  Epoch[2] Validation-cross-entropy=0.657813
+2024-03-05 06:30:56,745 [INFO]  Epoch[2] Validation-menopause-accuracy=0.000000
+2024-03-05 06:30:56,750 [INFO]  Epoch[3] Batch [0-7]	Speed: 24575.57 samples/sec	cross-entropy=0.352002	menopause-accuracy=3.500000
+2024-03-05 06:30:56,754 [INFO]  Epoch[3] Train-cross-entropy=0.330930
+2024-03-05 06:30:56,754 [INFO]  Epoch[3] Train-menopause-accuracy=3.153846
+2024-03-05 06:30:56,754 [INFO]  Epoch[3] Time cost=0.009
+2024-03-05 06:30:56,755 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0003.params"
+2024-03-05 06:30:56,756 [INFO]  Epoch[3] Validation-cross-entropy=0.558055
+2024-03-05 06:30:56,756 [INFO]  Epoch[3] Validation-menopause-accuracy=0.000000
+2024-03-05 06:30:56,761 [INFO]  Epoch[4] Batch [0-7]	Speed: 23320.20 samples/sec	cross-entropy=0.253017	menopause-accuracy=3.500000
+2024-03-05 06:30:56,765 [INFO]  Epoch[4] Train-cross-entropy=0.220786
+2024-03-05 06:30:56,765 [INFO]  Epoch[4] Train-menopause-accuracy=3.153846
+2024-03-05 06:30:56,765 [INFO]  Epoch[4] Time cost=0.009
+2024-03-05 06:30:56,766 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0004.params"
+2024-03-05 06:30:56,767 [INFO]  Epoch[4] Validation-cross-entropy=0.360459
+2024-03-05 06:30:56,767 [INFO]  Epoch[4] Validation-menopause-accuracy=0.000000
+2024-03-05 06:30:56,767 [INFO]  
+========== done (0.05575084686279297 s) fit model
+2024-03-05 06:31:08,521 [INFO]  
+========== start: fit model
+2024-03-05 06:31:08,521 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:31:08,527 [INFO]  Epoch[0] Batch [0-7]	Speed: 27548.79 samples/sec	cross-entropy=10.997601	menopause-accuracy=3.125000
+2024-03-05 06:31:08,531 [INFO]  Epoch[0] Train-cross-entropy=8.371973
+2024-03-05 06:31:08,531 [INFO]  Epoch[0] Train-menopause-accuracy=3.076923
+2024-03-05 06:31:08,531 [INFO]  Epoch[0] Time cost=0.009
+2024-03-05 06:31:08,532 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0000.params"
+2024-03-05 06:31:08,533 [INFO]  Epoch[0] Validation-cross-entropy=1.604583
+2024-03-05 06:31:08,533 [INFO]  Epoch[0] Validation-menopause-accuracy=0.000000
+2024-03-05 06:31:08,538 [INFO]  Epoch[1] Batch [0-7]	Speed: 28736.90 samples/sec	cross-entropy=1.635716	menopause-accuracy=3.125000
+2024-03-05 06:31:08,541 [INFO]  Epoch[1] Train-cross-entropy=1.668142
+2024-03-05 06:31:08,541 [INFO]  Epoch[1] Train-menopause-accuracy=3.076923
+2024-03-05 06:31:08,541 [INFO]  Epoch[1] Time cost=0.008
+2024-03-05 06:31:08,542 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0001.params"
+2024-03-05 06:31:08,542 [INFO]  Epoch[1] Validation-cross-entropy=0.244876
+2024-03-05 06:31:08,542 [INFO]  Epoch[1] Validation-menopause-accuracy=0.000000
+2024-03-05 06:31:08,547 [INFO]  Epoch[2] Batch [0-7]	Speed: 28828.60 samples/sec	cross-entropy=0.716611	menopause-accuracy=3.125000
+2024-03-05 06:31:08,551 [INFO]  Epoch[2] Train-cross-entropy=0.607626
+2024-03-05 06:31:08,551 [INFO]  Epoch[2] Train-menopause-accuracy=3.076923
+2024-03-05 06:31:08,551 [INFO]  Epoch[2] Time cost=0.009
+2024-03-05 06:31:08,555 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0002.params"
+2024-03-05 06:31:08,556 [INFO]  Epoch[2] Validation-cross-entropy=0.305505
+2024-03-05 06:31:08,556 [INFO]  Epoch[2] Validation-menopause-accuracy=0.000000
+2024-03-05 06:31:08,566 [INFO]  Epoch[3] Batch [0-7]	Speed: 14017.31 samples/sec	cross-entropy=0.346453	menopause-accuracy=3.125000
+2024-03-05 06:31:08,571 [INFO]  Epoch[3] Train-cross-entropy=0.357879
+2024-03-05 06:31:08,571 [INFO]  Epoch[3] Train-menopause-accuracy=3.076923
+2024-03-05 06:31:08,571 [INFO]  Epoch[3] Time cost=0.015
+2024-03-05 06:31:08,573 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0003.params"
+2024-03-05 06:31:08,574 [INFO]  Epoch[3] Validation-cross-entropy=0.196734
+2024-03-05 06:31:08,574 [INFO]  Epoch[3] Validation-menopause-accuracy=0.000000
+2024-03-05 06:31:08,581 [INFO]  Epoch[4] Batch [0-7]	Speed: 18898.58 samples/sec	cross-entropy=0.159415	menopause-accuracy=3.125000
+2024-03-05 06:31:08,584 [INFO]  Epoch[4] Train-cross-entropy=0.172262
+2024-03-05 06:31:08,584 [INFO]  Epoch[4] Train-menopause-accuracy=3.076923
+2024-03-05 06:31:08,584 [INFO]  Epoch[4] Time cost=0.010
+2024-03-05 06:31:08,585 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0004.params"
+2024-03-05 06:31:08,586 [INFO]  Epoch[4] Validation-cross-entropy=0.149152
+2024-03-05 06:31:08,586 [INFO]  Epoch[4] Validation-menopause-accuracy=0.000000
+2024-03-05 06:31:08,586 [INFO]  
+========== done (0.06475090980529785 s) fit model
+2024-03-05 06:31:20,785 [INFO]  
+========== start: fit model
+2024-03-05 06:31:20,785 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:31:20,792 [INFO]  Epoch[0] Batch [0-7]	Speed: 22731.15 samples/sec	cross-entropy=11.616207	menopause-accuracy=3.000000
+2024-03-05 06:31:20,797 [INFO]  Epoch[0] Train-cross-entropy=8.678655
+2024-03-05 06:31:20,797 [INFO]  Epoch[0] Train-menopause-accuracy=3.076923
+2024-03-05 06:31:20,797 [INFO]  Epoch[0] Time cost=0.011
+2024-03-05 06:31:20,799 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0000.params"
+2024-03-05 06:31:20,799 [INFO]  Epoch[0] Validation-cross-entropy=2.329082
+2024-03-05 06:31:20,799 [INFO]  Epoch[0] Validation-menopause-accuracy=0.000000
+2024-03-05 06:31:20,805 [INFO]  Epoch[1] Batch [0-7]	Speed: 20802.50 samples/sec	cross-entropy=2.113054	menopause-accuracy=3.000000
+2024-03-05 06:31:20,809 [INFO]  Epoch[1] Train-cross-entropy=1.872762
+2024-03-05 06:31:20,809 [INFO]  Epoch[1] Train-menopause-accuracy=3.076923
+2024-03-05 06:31:20,809 [INFO]  Epoch[1] Time cost=0.010
+2024-03-05 06:31:20,810 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0001.params"
+2024-03-05 06:31:20,811 [INFO]  Epoch[1] Validation-cross-entropy=2.389305
+2024-03-05 06:31:20,811 [INFO]  Epoch[1] Validation-menopause-accuracy=0.000000
+2024-03-05 06:31:20,817 [INFO]  Epoch[2] Batch [0-7]	Speed: 18336.47 samples/sec	cross-entropy=0.857631	menopause-accuracy=3.000000
+2024-03-05 06:31:20,823 [INFO]  Epoch[2] Train-cross-entropy=0.746181
+2024-03-05 06:31:20,823 [INFO]  Epoch[2] Train-menopause-accuracy=3.076923
+2024-03-05 06:31:20,823 [INFO]  Epoch[2] Time cost=0.013
+2024-03-05 06:31:20,825 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0002.params"
+2024-03-05 06:31:20,825 [INFO]  Epoch[2] Validation-cross-entropy=0.847002
+2024-03-05 06:31:20,825 [INFO]  Epoch[2] Validation-menopause-accuracy=0.000000
+2024-03-05 06:31:20,832 [INFO]  Epoch[3] Batch [0-7]	Speed: 19073.53 samples/sec	cross-entropy=0.383856	menopause-accuracy=3.000000
+2024-03-05 06:31:20,837 [INFO]  Epoch[3] Train-cross-entropy=0.362626
+2024-03-05 06:31:20,837 [INFO]  Epoch[3] Train-menopause-accuracy=3.076923
+2024-03-05 06:31:20,837 [INFO]  Epoch[3] Time cost=0.011
+2024-03-05 06:31:20,838 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0003.params"
+2024-03-05 06:31:20,839 [INFO]  Epoch[3] Validation-cross-entropy=0.611074
+2024-03-05 06:31:20,839 [INFO]  Epoch[3] Validation-menopause-accuracy=0.000000
+2024-03-05 06:31:20,845 [INFO]  Epoch[4] Batch [0-7]	Speed: 22055.59 samples/sec	cross-entropy=0.250164	menopause-accuracy=3.000000
+2024-03-05 06:31:20,849 [INFO]  Epoch[4] Train-cross-entropy=0.229756
+2024-03-05 06:31:20,849 [INFO]  Epoch[4] Train-menopause-accuracy=3.076923
+2024-03-05 06:31:20,849 [INFO]  Epoch[4] Time cost=0.010
+2024-03-05 06:31:20,851 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0004.params"
+2024-03-05 06:31:20,851 [INFO]  Epoch[4] Validation-cross-entropy=0.540617
+2024-03-05 06:31:20,851 [INFO]  Epoch[4] Validation-menopause-accuracy=0.000000
+2024-03-05 06:31:20,851 [INFO]  
+========== done (0.06630158424377441 s) fit model
+2024-03-05 06:31:33,455 [INFO]  
+========== start: fit model
+2024-03-05 06:31:33,456 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:31:33,465 [INFO]  Epoch[0] Batch [0-7]	Speed: 25135.75 samples/sec	cross-entropy=18.656569	menopause-accuracy=0.000000
+2024-03-05 06:31:33,469 [INFO]  Epoch[0] Train-cross-entropy=15.034336
+2024-03-05 06:31:33,469 [INFO]  Epoch[0] Train-menopause-accuracy=0.000000
+2024-03-05 06:31:33,469 [INFO]  Epoch[0] Time cost=0.013
+2024-03-05 06:31:33,470 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0000.params"
+2024-03-05 06:31:33,471 [INFO]  Epoch[0] Validation-cross-entropy=5.536592
+2024-03-05 06:31:33,471 [INFO]  Epoch[0] Validation-menopause-accuracy=0.000000
+2024-03-05 06:31:33,476 [INFO]  Epoch[1] Batch [0-7]	Speed: 27270.52 samples/sec	cross-entropy=2.531438	menopause-accuracy=0.000000
+2024-03-05 06:31:33,479 [INFO]  Epoch[1] Train-cross-entropy=2.348659
+2024-03-05 06:31:33,479 [INFO]  Epoch[1] Train-menopause-accuracy=0.000000
+2024-03-05 06:31:33,480 [INFO]  Epoch[1] Time cost=0.009
+2024-03-05 06:31:33,481 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0001.params"
+2024-03-05 06:31:33,481 [INFO]  Epoch[1] Validation-cross-entropy=1.716876
+2024-03-05 06:31:33,481 [INFO]  Epoch[1] Validation-menopause-accuracy=0.000000
+2024-03-05 06:31:33,486 [INFO]  Epoch[2] Batch [0-7]	Speed: 28595.21 samples/sec	cross-entropy=1.635653	menopause-accuracy=0.000000
+2024-03-05 06:31:33,489 [INFO]  Epoch[2] Train-cross-entropy=1.295680
+2024-03-05 06:31:33,489 [INFO]  Epoch[2] Train-menopause-accuracy=0.000000
+2024-03-05 06:31:33,489 [INFO]  Epoch[2] Time cost=0.008
+2024-03-05 06:31:33,490 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0002.params"
+2024-03-05 06:31:33,491 [INFO]  Epoch[2] Validation-cross-entropy=0.873906
+2024-03-05 06:31:33,491 [INFO]  Epoch[2] Validation-menopause-accuracy=0.000000
+2024-03-05 06:31:33,495 [INFO]  Epoch[3] Batch [0-7]	Speed: 27758.79 samples/sec	cross-entropy=0.552306	menopause-accuracy=0.000000
+2024-03-05 06:31:33,498 [INFO]  Epoch[3] Train-cross-entropy=0.501480
+2024-03-05 06:31:33,498 [INFO]  Epoch[3] Train-menopause-accuracy=0.000000
+2024-03-05 06:31:33,499 [INFO]  Epoch[3] Time cost=0.008
+2024-03-05 06:31:33,500 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0003.params"
+2024-03-05 06:31:33,500 [INFO]  Epoch[3] Validation-cross-entropy=0.706097
+2024-03-05 06:31:33,500 [INFO]  Epoch[3] Validation-menopause-accuracy=0.000000
+2024-03-05 06:31:33,506 [INFO]  Epoch[4] Batch [0-7]	Speed: 20998.71 samples/sec	cross-entropy=0.322624	menopause-accuracy=0.000000
+2024-03-05 06:31:33,510 [INFO]  Epoch[4] Train-cross-entropy=0.303336
+2024-03-05 06:31:33,510 [INFO]  Epoch[4] Train-menopause-accuracy=0.000000
+2024-03-05 06:31:33,510 [INFO]  Epoch[4] Time cost=0.010
+2024-03-05 06:31:33,511 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0004.params"
+2024-03-05 06:31:33,512 [INFO]  Epoch[4] Validation-cross-entropy=0.411349
+2024-03-05 06:31:33,512 [INFO]  Epoch[4] Validation-menopause-accuracy=0.000000
+2024-03-05 06:31:33,512 [INFO]  
+========== done (0.056624412536621094 s) fit model
+2024-03-05 06:31:46,756 [INFO]  
+========== start: fit model
+2024-03-05 06:31:46,756 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:31:46,768 [INFO]  Epoch[0] Batch [0-7]	Speed: 11878.58 samples/sec	cross-entropy=15.466868	menopause-accuracy=0.000000
+2024-03-05 06:31:46,777 [INFO]  Epoch[0] Train-cross-entropy=12.171799
+2024-03-05 06:31:46,777 [INFO]  Epoch[0] Train-menopause-accuracy=0.000000
+2024-03-05 06:31:46,777 [INFO]  Epoch[0] Time cost=0.020
+2024-03-05 06:31:46,780 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0000.params"
+2024-03-05 06:31:46,781 [INFO]  Epoch[0] Validation-cross-entropy=3.496157
+2024-03-05 06:31:46,782 [INFO]  Epoch[0] Validation-menopause-accuracy=0.000000
+2024-03-05 06:31:46,791 [INFO]  Epoch[1] Batch [0-7]	Speed: 14102.31 samples/sec	cross-entropy=3.406543	menopause-accuracy=0.000000
+2024-03-05 06:31:46,796 [INFO]  Epoch[1] Train-cross-entropy=2.934005
+2024-03-05 06:31:46,796 [INFO]  Epoch[1] Train-menopause-accuracy=0.000000
+2024-03-05 06:31:46,796 [INFO]  Epoch[1] Time cost=0.014
+2024-03-05 06:31:46,797 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0001.params"
+2024-03-05 06:31:46,798 [INFO]  Epoch[1] Validation-cross-entropy=1.721300
+2024-03-05 06:31:46,798 [INFO]  Epoch[1] Validation-menopause-accuracy=0.000000
+2024-03-05 06:31:46,803 [INFO]  Epoch[2] Batch [0-7]	Speed: 27064.70 samples/sec	cross-entropy=1.384313	menopause-accuracy=0.000000
+2024-03-05 06:31:46,806 [INFO]  Epoch[2] Train-cross-entropy=1.135892
+2024-03-05 06:31:46,806 [INFO]  Epoch[2] Train-menopause-accuracy=0.000000
+2024-03-05 06:31:46,806 [INFO]  Epoch[2] Time cost=0.008
+2024-03-05 06:31:46,808 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0002.params"
+2024-03-05 06:31:46,809 [INFO]  Epoch[2] Validation-cross-entropy=0.722116
+2024-03-05 06:31:46,809 [INFO]  Epoch[2] Validation-menopause-accuracy=0.000000
+2024-03-05 06:31:46,814 [INFO]  Epoch[3] Batch [0-7]	Speed: 24547.32 samples/sec	cross-entropy=0.574323	menopause-accuracy=0.000000
+2024-03-05 06:31:46,818 [INFO]  Epoch[3] Train-cross-entropy=0.541114
+2024-03-05 06:31:46,818 [INFO]  Epoch[3] Train-menopause-accuracy=0.000000
+2024-03-05 06:31:46,818 [INFO]  Epoch[3] Time cost=0.009
+2024-03-05 06:31:46,819 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0003.params"
+2024-03-05 06:31:46,820 [INFO]  Epoch[3] Validation-cross-entropy=0.370459
+2024-03-05 06:31:46,820 [INFO]  Epoch[3] Validation-menopause-accuracy=0.000000
+2024-03-05 06:31:46,825 [INFO]  Epoch[4] Batch [0-7]	Speed: 22943.20 samples/sec	cross-entropy=0.358754	menopause-accuracy=0.000000
+2024-03-05 06:31:46,829 [INFO]  Epoch[4] Train-cross-entropy=0.329998
+2024-03-05 06:31:46,829 [INFO]  Epoch[4] Train-menopause-accuracy=0.000000
+2024-03-05 06:31:46,829 [INFO]  Epoch[4] Time cost=0.009
+2024-03-05 06:31:46,830 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0004.params"
+2024-03-05 06:31:46,831 [INFO]  Epoch[4] Validation-cross-entropy=0.217598
+2024-03-05 06:31:46,831 [INFO]  Epoch[4] Validation-menopause-accuracy=0.000000
+2024-03-05 06:31:46,831 [INFO]  
+========== done (0.07513856887817383 s) fit model
+2024-03-05 06:32:00,395 [INFO]  
+========== start: fit model
+2024-03-05 06:32:00,395 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:32:00,402 [INFO]  Epoch[0] Batch [0-7]	Speed: 22666.44 samples/sec	cross-entropy=12.670447	menopause-accuracy=2.750000
+2024-03-05 06:32:00,407 [INFO]  Epoch[0] Train-cross-entropy=9.032169
+2024-03-05 06:32:00,407 [INFO]  Epoch[0] Train-menopause-accuracy=2.692308
+2024-03-05 06:32:00,407 [INFO]  Epoch[0] Time cost=0.011
+2024-03-05 06:32:00,408 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0000.params"
+2024-03-05 06:32:00,409 [INFO]  Epoch[0] Validation-cross-entropy=4.313742
+2024-03-05 06:32:00,409 [INFO]  Epoch[0] Validation-menopause-accuracy=0.000000
+2024-03-05 06:32:00,414 [INFO]  Epoch[1] Batch [0-7]	Speed: 27594.11 samples/sec	cross-entropy=2.253578	menopause-accuracy=2.750000
+2024-03-05 06:32:00,417 [INFO]  Epoch[1] Train-cross-entropy=1.954696
+2024-03-05 06:32:00,417 [INFO]  Epoch[1] Train-menopause-accuracy=2.692308
+2024-03-05 06:32:00,417 [INFO]  Epoch[1] Time cost=0.008
+2024-03-05 06:32:00,418 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0001.params"
+2024-03-05 06:32:00,419 [INFO]  Epoch[1] Validation-cross-entropy=2.388655
+2024-03-05 06:32:00,419 [INFO]  Epoch[1] Validation-menopause-accuracy=0.000000
+2024-03-05 06:32:00,424 [INFO]  Epoch[2] Batch [0-7]	Speed: 25410.40 samples/sec	cross-entropy=0.785463	menopause-accuracy=2.750000
+2024-03-05 06:32:00,428 [INFO]  Epoch[2] Train-cross-entropy=0.617448
+2024-03-05 06:32:00,428 [INFO]  Epoch[2] Train-menopause-accuracy=2.692308
+2024-03-05 06:32:00,428 [INFO]  Epoch[2] Time cost=0.009
+2024-03-05 06:32:00,429 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0002.params"
+2024-03-05 06:32:00,430 [INFO]  Epoch[2] Validation-cross-entropy=1.270046
+2024-03-05 06:32:00,430 [INFO]  Epoch[2] Validation-menopause-accuracy=0.000000
+2024-03-05 06:32:00,435 [INFO]  Epoch[3] Batch [0-7]	Speed: 27561.73 samples/sec	cross-entropy=0.410459	menopause-accuracy=2.750000
+2024-03-05 06:32:00,438 [INFO]  Epoch[3] Train-cross-entropy=0.349673
+2024-03-05 06:32:00,438 [INFO]  Epoch[3] Train-menopause-accuracy=2.692308
+2024-03-05 06:32:00,438 [INFO]  Epoch[3] Time cost=0.008
+2024-03-05 06:32:00,439 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0003.params"
+2024-03-05 06:32:00,439 [INFO]  Epoch[3] Validation-cross-entropy=0.552315
+2024-03-05 06:32:00,439 [INFO]  Epoch[3] Validation-menopause-accuracy=0.000000
+2024-03-05 06:32:00,445 [INFO]  Epoch[4] Batch [0-7]	Speed: 22716.86 samples/sec	cross-entropy=0.260852	menopause-accuracy=2.750000
+2024-03-05 06:32:00,448 [INFO]  Epoch[4] Train-cross-entropy=0.225675
+2024-03-05 06:32:00,449 [INFO]  Epoch[4] Train-menopause-accuracy=2.692308
+2024-03-05 06:32:00,449 [INFO]  Epoch[4] Time cost=0.009
+2024-03-05 06:32:00,450 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0004.params"
+2024-03-05 06:32:00,451 [INFO]  Epoch[4] Validation-cross-entropy=0.430948
+2024-03-05 06:32:00,451 [INFO]  Epoch[4] Validation-menopause-accuracy=0.000000
+2024-03-05 06:32:00,451 [INFO]  
+========== done (0.05571436882019043 s) fit model
+2024-03-05 06:32:14,503 [INFO]  
+========== start: fit model
+2024-03-05 06:32:14,503 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:32:14,510 [INFO]  Epoch[0] Batch [0-7]	Speed: 21199.61 samples/sec	cross-entropy=17.225919	menopause-accuracy=3.625000
+2024-03-05 06:32:14,515 [INFO]  Epoch[0] Train-cross-entropy=13.060572
+2024-03-05 06:32:14,515 [INFO]  Epoch[0] Train-menopause-accuracy=3.384615
+2024-03-05 06:32:14,515 [INFO]  Epoch[0] Time cost=0.011
+2024-03-05 06:32:14,516 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0000.params"
+2024-03-05 06:32:14,517 [INFO]  Epoch[0] Validation-cross-entropy=2.096010
+2024-03-05 06:32:14,517 [INFO]  Epoch[0] Validation-menopause-accuracy=0.000000
+2024-03-05 06:32:14,522 [INFO]  Epoch[1] Batch [0-7]	Speed: 24052.12 samples/sec	cross-entropy=3.597286	menopause-accuracy=3.625000
+2024-03-05 06:32:14,527 [INFO]  Epoch[1] Train-cross-entropy=3.050473
+2024-03-05 06:32:14,527 [INFO]  Epoch[1] Train-menopause-accuracy=3.384615
+2024-03-05 06:32:14,527 [INFO]  Epoch[1] Time cost=0.010
+2024-03-05 06:32:14,529 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0001.params"
+2024-03-05 06:32:14,529 [INFO]  Epoch[1] Validation-cross-entropy=3.882856
+2024-03-05 06:32:14,529 [INFO]  Epoch[1] Validation-menopause-accuracy=0.000000
+2024-03-05 06:32:14,534 [INFO]  Epoch[2] Batch [0-7]	Speed: 26886.56 samples/sec	cross-entropy=1.293319	menopause-accuracy=3.625000
+2024-03-05 06:32:14,538 [INFO]  Epoch[2] Train-cross-entropy=1.132815
+2024-03-05 06:32:14,538 [INFO]  Epoch[2] Train-menopause-accuracy=3.384615
+2024-03-05 06:32:14,538 [INFO]  Epoch[2] Time cost=0.009
+2024-03-05 06:32:14,540 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0002.params"
+2024-03-05 06:32:14,540 [INFO]  Epoch[2] Validation-cross-entropy=1.400544
+2024-03-05 06:32:14,540 [INFO]  Epoch[2] Validation-menopause-accuracy=0.000000
+2024-03-05 06:32:14,545 [INFO]  Epoch[3] Batch [0-7]	Speed: 26138.55 samples/sec	cross-entropy=0.526575	menopause-accuracy=3.625000
+2024-03-05 06:32:14,549 [INFO]  Epoch[3] Train-cross-entropy=0.461800
+2024-03-05 06:32:14,549 [INFO]  Epoch[3] Train-menopause-accuracy=3.384615
+2024-03-05 06:32:14,549 [INFO]  Epoch[3] Time cost=0.009
+2024-03-05 06:32:14,551 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0003.params"
+2024-03-05 06:32:14,551 [INFO]  Epoch[3] Validation-cross-entropy=1.143348
+2024-03-05 06:32:14,551 [INFO]  Epoch[3] Validation-menopause-accuracy=0.000000
+2024-03-05 06:32:14,557 [INFO]  Epoch[4] Batch [0-7]	Speed: 20287.72 samples/sec	cross-entropy=0.336376	menopause-accuracy=3.625000
+2024-03-05 06:32:14,561 [INFO]  Epoch[4] Train-cross-entropy=0.296450
+2024-03-05 06:32:14,562 [INFO]  Epoch[4] Train-menopause-accuracy=3.384615
+2024-03-05 06:32:14,562 [INFO]  Epoch[4] Time cost=0.010
+2024-03-05 06:32:14,563 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0004.params"
+2024-03-05 06:32:14,563 [INFO]  Epoch[4] Validation-cross-entropy=0.776866
+2024-03-05 06:32:14,563 [INFO]  Epoch[4] Validation-menopause-accuracy=0.000000
+2024-03-05 06:32:14,564 [INFO]  
+========== done (0.06060600280761719 s) fit model
+2024-03-05 06:32:29,844 [INFO]  
+========== start: fit model
+2024-03-05 06:32:29,844 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:32:29,853 [INFO]  Epoch[0] Batch [0-7]	Speed: 19148.17 samples/sec	cross-entropy=14.726932	menopause-accuracy=2.625000
+2024-03-05 06:32:29,858 [INFO]  Epoch[0] Train-cross-entropy=11.169307
+2024-03-05 06:32:29,858 [INFO]  Epoch[0] Train-menopause-accuracy=3.230769
+2024-03-05 06:32:29,858 [INFO]  Epoch[0] Time cost=0.012
+2024-03-05 06:32:29,859 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0000.params"
+2024-03-05 06:32:29,860 [INFO]  Epoch[0] Validation-cross-entropy=5.550199
+2024-03-05 06:32:29,860 [INFO]  Epoch[0] Validation-menopause-accuracy=0.000000
+2024-03-05 06:32:29,867 [INFO]  Epoch[1] Batch [0-7]	Speed: 18642.09 samples/sec	cross-entropy=2.599783	menopause-accuracy=2.625000
+2024-03-05 06:32:29,872 [INFO]  Epoch[1] Train-cross-entropy=2.079414
+2024-03-05 06:32:29,872 [INFO]  Epoch[1] Train-menopause-accuracy=3.230769
+2024-03-05 06:32:29,872 [INFO]  Epoch[1] Time cost=0.011
+2024-03-05 06:32:29,873 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0001.params"
+2024-03-05 06:32:29,874 [INFO]  Epoch[1] Validation-cross-entropy=1.053946
+2024-03-05 06:32:29,874 [INFO]  Epoch[1] Validation-menopause-accuracy=0.000000
+2024-03-05 06:32:29,881 [INFO]  Epoch[2] Batch [0-7]	Speed: 19318.26 samples/sec	cross-entropy=1.102114	menopause-accuracy=2.625000
+2024-03-05 06:32:29,886 [INFO]  Epoch[2] Train-cross-entropy=0.834308
+2024-03-05 06:32:29,886 [INFO]  Epoch[2] Train-menopause-accuracy=3.230769
+2024-03-05 06:32:29,886 [INFO]  Epoch[2] Time cost=0.011
+2024-03-05 06:32:29,887 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0002.params"
+2024-03-05 06:32:29,888 [INFO]  Epoch[2] Validation-cross-entropy=0.417073
+2024-03-05 06:32:29,888 [INFO]  Epoch[2] Validation-menopause-accuracy=0.000000
+2024-03-05 06:32:29,893 [INFO]  Epoch[3] Batch [0-7]	Speed: 25036.62 samples/sec	cross-entropy=0.321292	menopause-accuracy=2.625000
+2024-03-05 06:32:29,897 [INFO]  Epoch[3] Train-cross-entropy=0.317755
+2024-03-05 06:32:29,897 [INFO]  Epoch[3] Train-menopause-accuracy=3.230769
+2024-03-05 06:32:29,897 [INFO]  Epoch[3] Time cost=0.009
+2024-03-05 06:32:29,898 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0003.params"
+2024-03-05 06:32:29,899 [INFO]  Epoch[3] Validation-cross-entropy=0.402915
+2024-03-05 06:32:29,899 [INFO]  Epoch[3] Validation-menopause-accuracy=0.000000
+2024-03-05 06:32:29,904 [INFO]  Epoch[4] Batch [0-7]	Speed: 24834.11 samples/sec	cross-entropy=0.252734	menopause-accuracy=2.625000
+2024-03-05 06:32:29,908 [INFO]  Epoch[4] Train-cross-entropy=0.218253
+2024-03-05 06:32:29,908 [INFO]  Epoch[4] Train-menopause-accuracy=3.230769
+2024-03-05 06:32:29,908 [INFO]  Epoch[4] Time cost=0.009
+2024-03-05 06:32:29,909 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0004.params"
+2024-03-05 06:32:29,910 [INFO]  Epoch[4] Validation-cross-entropy=0.158101
+2024-03-05 06:32:29,910 [INFO]  Epoch[4] Validation-menopause-accuracy=0.000000
+2024-03-05 06:32:29,910 [INFO]  
+========== done (0.06579208374023438 s) fit model
+2024-03-05 06:32:48,003 [INFO]  
+========== start: fit model
+2024-03-05 06:32:48,003 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:32:48,018 [INFO]  Epoch[0] Batch [0-7]	Speed: 8863.60 samples/sec	cross-entropy=14.136735	menopause-accuracy=0.000000
+2024-03-05 06:32:48,023 [INFO]  Epoch[0] Train-cross-entropy=10.939376
+2024-03-05 06:32:48,023 [INFO]  Epoch[0] Train-menopause-accuracy=0.000000
+2024-03-05 06:32:48,023 [INFO]  Epoch[0] Time cost=0.019
+2024-03-05 06:32:48,025 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0000.params"
+2024-03-05 06:32:48,026 [INFO]  Epoch[0] Validation-cross-entropy=3.414135
+2024-03-05 06:32:48,026 [INFO]  Epoch[0] Validation-menopause-accuracy=0.000000
+2024-03-05 06:32:48,032 [INFO]  Epoch[1] Batch [0-7]	Speed: 21258.13 samples/sec	cross-entropy=2.463107	menopause-accuracy=0.000000
+2024-03-05 06:32:48,037 [INFO]  Epoch[1] Train-cross-entropy=2.197080
+2024-03-05 06:32:48,037 [INFO]  Epoch[1] Train-menopause-accuracy=0.000000
+2024-03-05 06:32:48,037 [INFO]  Epoch[1] Time cost=0.011
+2024-03-05 06:32:48,039 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0001.params"
+2024-03-05 06:32:48,040 [INFO]  Epoch[1] Validation-cross-entropy=1.178097
+2024-03-05 06:32:48,040 [INFO]  Epoch[1] Validation-menopause-accuracy=0.000000
+2024-03-05 06:32:48,045 [INFO]  Epoch[2] Batch [0-7]	Speed: 23086.40 samples/sec	cross-entropy=1.256240	menopause-accuracy=0.000000
+2024-03-05 06:32:48,049 [INFO]  Epoch[2] Train-cross-entropy=1.010737
+2024-03-05 06:32:48,049 [INFO]  Epoch[2] Train-menopause-accuracy=0.000000
+2024-03-05 06:32:48,049 [INFO]  Epoch[2] Time cost=0.009
+2024-03-05 06:32:48,051 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0002.params"
+2024-03-05 06:32:48,051 [INFO]  Epoch[2] Validation-cross-entropy=0.522557
+2024-03-05 06:32:48,052 [INFO]  Epoch[2] Validation-menopause-accuracy=0.000000
+2024-03-05 06:32:48,057 [INFO]  Epoch[3] Batch [0-7]	Speed: 23519.85 samples/sec	cross-entropy=0.378775	menopause-accuracy=0.000000
+2024-03-05 06:32:48,062 [INFO]  Epoch[3] Train-cross-entropy=0.371586
+2024-03-05 06:32:48,062 [INFO]  Epoch[3] Train-menopause-accuracy=0.000000
+2024-03-05 06:32:48,062 [INFO]  Epoch[3] Time cost=0.010
+2024-03-05 06:32:48,064 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0003.params"
+2024-03-05 06:32:48,064 [INFO]  Epoch[3] Validation-cross-entropy=0.199687
+2024-03-05 06:32:48,065 [INFO]  Epoch[3] Validation-menopause-accuracy=0.000000
+2024-03-05 06:32:48,078 [INFO]  Epoch[4] Batch [0-7]	Speed: 10873.87 samples/sec	cross-entropy=0.219180	menopause-accuracy=0.000000
+2024-03-05 06:32:48,084 [INFO]  Epoch[4] Train-cross-entropy=0.209461
+2024-03-05 06:32:48,085 [INFO]  Epoch[4] Train-menopause-accuracy=0.000000
+2024-03-05 06:32:48,085 [INFO]  Epoch[4] Time cost=0.020
+2024-03-05 06:32:48,086 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0004.params"
+2024-03-05 06:32:48,097 [INFO]  Epoch[4] Validation-cross-entropy=0.185954
+2024-03-05 06:32:48,097 [INFO]  Epoch[4] Validation-menopause-accuracy=0.000000
+2024-03-05 06:32:48,097 [INFO]  
+========== done (0.09421777725219727 s) fit model
+2024-03-09 14:12:21,410 [INFO]  
+========== start: fit model
+2024-03-09 14:12:21,445 [WARNING]  Already bound, ignoring bind()
+2024-03-09 14:12:21,456 [INFO]  Epoch[0] Batch [0-8]	Speed: 15384.44 samples/sec	cross-entropy=16.747828	menopause-accuracy=3.222222
+2024-03-09 14:12:21,464 [INFO]  Epoch[0] Train-cross-entropy=11.966643
+2024-03-09 14:12:21,464 [INFO]  Epoch[0] Train-menopause-accuracy=3.187500
+2024-03-09 14:12:21,464 [INFO]  Epoch[0] Time cost=0.018
+2024-03-09 14:12:21,466 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0000.params"
+2024-03-09 14:12:21,467 [INFO]  Epoch[0] Validation-cross-entropy=4.328448
+2024-03-09 14:12:21,467 [INFO]  Epoch[0] Validation-menopause-accuracy=0.000000
+2024-03-09 14:12:21,473 [INFO]  Epoch[1] Batch [0-8]	Speed: 22735.28 samples/sec	cross-entropy=2.421378	menopause-accuracy=3.222222
+2024-03-09 14:12:21,478 [INFO]  Epoch[1] Train-cross-entropy=2.061099
+2024-03-09 14:12:21,478 [INFO]  Epoch[1] Train-menopause-accuracy=3.187500
+2024-03-09 14:12:21,478 [INFO]  Epoch[1] Time cost=0.011
+2024-03-09 14:12:21,479 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0001.params"
+2024-03-09 14:12:21,480 [INFO]  Epoch[1] Validation-cross-entropy=1.227064
+2024-03-09 14:12:21,480 [INFO]  Epoch[1] Validation-menopause-accuracy=0.000000
+2024-03-09 14:12:21,487 [INFO]  Epoch[2] Batch [0-8]	Speed: 21581.02 samples/sec	cross-entropy=0.802661	menopause-accuracy=3.222222
+2024-03-09 14:12:21,492 [INFO]  Epoch[2] Train-cross-entropy=0.672799
+2024-03-09 14:12:21,492 [INFO]  Epoch[2] Train-menopause-accuracy=3.187500
+2024-03-09 14:12:21,492 [INFO]  Epoch[2] Time cost=0.012
+2024-03-09 14:12:21,493 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0002.params"
+2024-03-09 14:12:21,494 [INFO]  Epoch[2] Validation-cross-entropy=0.377847
+2024-03-09 14:12:21,494 [INFO]  Epoch[2] Validation-menopause-accuracy=0.000000
+2024-03-09 14:12:21,500 [INFO]  Epoch[3] Batch [0-8]	Speed: 24472.19 samples/sec	cross-entropy=0.331395	menopause-accuracy=3.222222
+2024-03-09 14:12:21,505 [INFO]  Epoch[3] Train-cross-entropy=0.287963
+2024-03-09 14:12:21,505 [INFO]  Epoch[3] Train-menopause-accuracy=3.187500
+2024-03-09 14:12:21,505 [INFO]  Epoch[3] Time cost=0.011
+2024-03-09 14:12:21,507 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0003.params"
+2024-03-09 14:12:21,507 [INFO]  Epoch[3] Validation-cross-entropy=0.096646
+2024-03-09 14:12:21,507 [INFO]  Epoch[3] Validation-menopause-accuracy=0.000000
+2024-03-09 14:12:21,513 [INFO]  Epoch[4] Batch [0-8]	Speed: 24576.38 samples/sec	cross-entropy=0.175893	menopause-accuracy=3.222222
+2024-03-09 14:12:21,518 [INFO]  Epoch[4] Train-cross-entropy=0.167986
+2024-03-09 14:12:21,518 [INFO]  Epoch[4] Train-menopause-accuracy=3.187500
+2024-03-09 14:12:21,518 [INFO]  Epoch[4] Time cost=0.011
+2024-03-09 14:12:21,520 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0004.params"
+2024-03-09 14:12:21,520 [INFO]  Epoch[4] Validation-cross-entropy=0.087430
+2024-03-09 14:12:21,520 [INFO]  Epoch[4] Validation-menopause-accuracy=0.000000
+2024-03-09 14:12:21,520 [INFO]  
+========== done (0.11014509201049805 s) fit model
+2024-03-09 14:15:46,146 [INFO]  
+========== start: fit model
+2024-03-09 14:15:46,146 [WARNING]  Already bound, ignoring bind()
+2024-03-09 14:15:46,153 [INFO]  Epoch[0] Batch [0-7]	Speed: 21868.72 samples/sec	cross-entropy=20.537427	menopause-accuracy=5.250000
+2024-03-09 14:15:46,157 [INFO]  Epoch[0] Train-cross-entropy=15.670869
+2024-03-09 14:15:46,157 [INFO]  Epoch[0] Train-menopause-accuracy=6.230769
+2024-03-09 14:15:46,157 [INFO]  Epoch[0] Time cost=0.010
+2024-03-09 14:15:46,158 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0000.params"
+2024-03-09 14:15:46,159 [INFO]  Epoch[0] Validation-cross-entropy=8.087899
+2024-03-09 14:15:46,159 [INFO]  Epoch[0] Validation-menopause-accuracy=0.000000
+2024-03-09 14:15:46,164 [INFO]  Epoch[1] Batch [0-7]	Speed: 24151.05 samples/sec	cross-entropy=3.224428	menopause-accuracy=5.250000
+2024-03-09 14:15:46,168 [INFO]  Epoch[1] Train-cross-entropy=2.578494
+2024-03-09 14:15:46,168 [INFO]  Epoch[1] Train-menopause-accuracy=6.230769
+2024-03-09 14:15:46,168 [INFO]  Epoch[1] Time cost=0.009
+2024-03-09 14:15:46,169 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0001.params"
+2024-03-09 14:15:46,169 [INFO]  Epoch[1] Validation-cross-entropy=0.862725
+2024-03-09 14:15:46,170 [INFO]  Epoch[1] Validation-menopause-accuracy=0.000000
+2024-03-09 14:15:46,175 [INFO]  Epoch[2] Batch [0-7]	Speed: 24010.33 samples/sec	cross-entropy=1.291248	menopause-accuracy=5.250000
+2024-03-09 14:15:46,179 [INFO]  Epoch[2] Train-cross-entropy=1.027793
+2024-03-09 14:15:46,179 [INFO]  Epoch[2] Train-menopause-accuracy=6.230769
+2024-03-09 14:15:46,179 [INFO]  Epoch[2] Time cost=0.009
+2024-03-09 14:15:46,180 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0002.params"
+2024-03-09 14:15:46,181 [INFO]  Epoch[2] Validation-cross-entropy=0.511074
+2024-03-09 14:15:46,181 [INFO]  Epoch[2] Validation-menopause-accuracy=0.000000
+2024-03-09 14:15:46,185 [INFO]  Epoch[3] Batch [0-7]	Speed: 29058.64 samples/sec	cross-entropy=0.515913	menopause-accuracy=5.250000
+2024-03-09 14:15:46,188 [INFO]  Epoch[3] Train-cross-entropy=0.443909
+2024-03-09 14:15:46,188 [INFO]  Epoch[3] Train-menopause-accuracy=6.230769
+2024-03-09 14:15:46,188 [INFO]  Epoch[3] Time cost=0.007
+2024-03-09 14:15:46,190 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0003.params"
+2024-03-09 14:15:46,190 [INFO]  Epoch[3] Validation-cross-entropy=0.273914
+2024-03-09 14:15:46,190 [INFO]  Epoch[3] Validation-menopause-accuracy=0.000000
+2024-03-09 14:15:46,195 [INFO]  Epoch[4] Batch [0-7]	Speed: 28855.16 samples/sec	cross-entropy=0.335572	menopause-accuracy=5.250000
+2024-03-09 14:15:46,198 [INFO]  Epoch[4] Train-cross-entropy=0.272196
+2024-03-09 14:15:46,198 [INFO]  Epoch[4] Train-menopause-accuracy=6.230769
+2024-03-09 14:15:46,198 [INFO]  Epoch[4] Time cost=0.008
+2024-03-09 14:15:46,199 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0004.params"
+2024-03-09 14:15:46,199 [INFO]  Epoch[4] Validation-cross-entropy=0.238432
+2024-03-09 14:15:46,200 [INFO]  Epoch[4] Validation-menopause-accuracy=0.000000
+2024-03-09 14:15:46,200 [INFO]  
+========== done (0.05376791954040527 s) fit model
+2024-03-09 14:29:00,136 [INFO]  
+========== start: fit model
+2024-03-09 14:29:00,136 [WARNING]  Already bound, ignoring bind()
+2024-03-09 14:29:00,143 [INFO]  Epoch[0] Batch [0-7]	Speed: 25558.33 samples/sec	cross-entropy=20.537427	menopause-accuracy=5.250000
+2024-03-09 14:29:00,146 [INFO]  Epoch[0] Train-cross-entropy=15.670869
+2024-03-09 14:29:00,146 [INFO]  Epoch[0] Train-menopause-accuracy=6.230769
+2024-03-09 14:29:00,146 [INFO]  Epoch[0] Time cost=0.009
+2024-03-09 14:29:00,147 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0000.params"
+2024-03-09 14:29:00,148 [INFO]  Epoch[0] Validation-cross-entropy=8.087899
+2024-03-09 14:29:00,148 [INFO]  Epoch[0] Validation-menopause-accuracy=0.000000
+2024-03-09 14:29:00,153 [INFO]  Epoch[1] Batch [0-7]	Speed: 27972.02 samples/sec	cross-entropy=3.224428	menopause-accuracy=5.250000
+2024-03-09 14:29:00,156 [INFO]  Epoch[1] Train-cross-entropy=2.578494
+2024-03-09 14:29:00,156 [INFO]  Epoch[1] Train-menopause-accuracy=6.230769
+2024-03-09 14:29:00,156 [INFO]  Epoch[1] Time cost=0.008
+2024-03-09 14:29:00,158 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0001.params"
+2024-03-09 14:29:00,158 [INFO]  Epoch[1] Validation-cross-entropy=0.862725
+2024-03-09 14:29:00,158 [INFO]  Epoch[1] Validation-menopause-accuracy=0.000000
+2024-03-09 14:29:00,163 [INFO]  Epoch[2] Batch [0-7]	Speed: 27204.20 samples/sec	cross-entropy=1.291248	menopause-accuracy=5.250000
+2024-03-09 14:29:00,166 [INFO]  Epoch[2] Train-cross-entropy=1.027793
+2024-03-09 14:29:00,166 [INFO]  Epoch[2] Train-menopause-accuracy=6.230769
+2024-03-09 14:29:00,166 [INFO]  Epoch[2] Time cost=0.008
+2024-03-09 14:29:00,168 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0002.params"
+2024-03-09 14:29:00,168 [INFO]  Epoch[2] Validation-cross-entropy=0.511074
+2024-03-09 14:29:00,168 [INFO]  Epoch[2] Validation-menopause-accuracy=0.000000
+2024-03-09 14:29:00,177 [INFO]  Epoch[3] Batch [0-7]	Speed: 13933.74 samples/sec	cross-entropy=0.515913	menopause-accuracy=5.250000
+2024-03-09 14:29:00,183 [INFO]  Epoch[3] Train-cross-entropy=0.443909
+2024-03-09 14:29:00,183 [INFO]  Epoch[3] Train-menopause-accuracy=6.230769
+2024-03-09 14:29:00,183 [INFO]  Epoch[3] Time cost=0.015
+2024-03-09 14:29:00,184 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0003.params"
+2024-03-09 14:29:00,185 [INFO]  Epoch[3] Validation-cross-entropy=0.273914
+2024-03-09 14:29:00,185 [INFO]  Epoch[3] Validation-menopause-accuracy=0.000000
+2024-03-09 14:29:00,190 [INFO]  Epoch[4] Batch [0-7]	Speed: 27275.27 samples/sec	cross-entropy=0.335572	menopause-accuracy=5.250000
+2024-03-09 14:29:00,193 [INFO]  Epoch[4] Train-cross-entropy=0.272196
+2024-03-09 14:29:00,194 [INFO]  Epoch[4] Train-menopause-accuracy=6.230769
+2024-03-09 14:29:00,194 [INFO]  Epoch[4] Time cost=0.009
+2024-03-09 14:29:00,195 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0004.params"
+2024-03-09 14:29:00,195 [INFO]  Epoch[4] Validation-cross-entropy=0.238432
+2024-03-09 14:29:00,196 [INFO]  Epoch[4] Validation-menopause-accuracy=0.000000
+2024-03-09 14:29:00,196 [INFO]  
+========== done (0.05958080291748047 s) fit model
+2024-03-09 14:30:32,443 [INFO]  
+========== start: fit model
+2024-03-09 14:30:32,444 [WARNING]  Already bound, ignoring bind()
+2024-03-09 14:30:32,450 [INFO]  Epoch[0] Batch [0-7]	Speed: 24026.29 samples/sec	cross-entropy=20.537427	menopause-accuracy=5.250000
+2024-03-09 14:30:32,454 [INFO]  Epoch[0] Train-cross-entropy=15.670869
+2024-03-09 14:30:32,454 [INFO]  Epoch[0] Train-menopause-accuracy=6.230769
+2024-03-09 14:30:32,454 [INFO]  Epoch[0] Time cost=0.010
+2024-03-09 14:30:32,456 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0000.params"
+2024-03-09 14:30:32,456 [INFO]  Epoch[0] Validation-cross-entropy=8.087899
+2024-03-09 14:30:32,456 [INFO]  Epoch[0] Validation-menopause-accuracy=0.000000
+2024-03-09 14:30:32,462 [INFO]  Epoch[1] Batch [0-7]	Speed: 24710.01 samples/sec	cross-entropy=3.224428	menopause-accuracy=5.250000
+2024-03-09 14:30:32,465 [INFO]  Epoch[1] Train-cross-entropy=2.578494
+2024-03-09 14:30:32,465 [INFO]  Epoch[1] Train-menopause-accuracy=6.230769
+2024-03-09 14:30:32,465 [INFO]  Epoch[1] Time cost=0.009
+2024-03-09 14:30:32,467 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0001.params"
+2024-03-09 14:30:32,467 [INFO]  Epoch[1] Validation-cross-entropy=0.862725
+2024-03-09 14:30:32,467 [INFO]  Epoch[1] Validation-menopause-accuracy=0.000000
+2024-03-09 14:30:32,472 [INFO]  Epoch[2] Batch [0-7]	Speed: 24278.36 samples/sec	cross-entropy=1.291248	menopause-accuracy=5.250000
+2024-03-09 14:30:32,476 [INFO]  Epoch[2] Train-cross-entropy=1.027793
+2024-03-09 14:30:32,476 [INFO]  Epoch[2] Train-menopause-accuracy=6.230769
+2024-03-09 14:30:32,476 [INFO]  Epoch[2] Time cost=0.009
+2024-03-09 14:30:32,478 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0002.params"
+2024-03-09 14:30:32,478 [INFO]  Epoch[2] Validation-cross-entropy=0.511074
+2024-03-09 14:30:32,478 [INFO]  Epoch[2] Validation-menopause-accuracy=0.000000
+2024-03-09 14:30:32,484 [INFO]  Epoch[3] Batch [0-7]	Speed: 24745.16 samples/sec	cross-entropy=0.515913	menopause-accuracy=5.250000
+2024-03-09 14:30:32,487 [INFO]  Epoch[3] Train-cross-entropy=0.443909
+2024-03-09 14:30:32,487 [INFO]  Epoch[3] Train-menopause-accuracy=6.230769
+2024-03-09 14:30:32,487 [INFO]  Epoch[3] Time cost=0.009
+2024-03-09 14:30:32,488 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0003.params"
+2024-03-09 14:30:32,489 [INFO]  Epoch[3] Validation-cross-entropy=0.273914
+2024-03-09 14:30:32,489 [INFO]  Epoch[3] Validation-menopause-accuracy=0.000000
+2024-03-09 14:30:32,494 [INFO]  Epoch[4] Batch [0-7]	Speed: 24662.01 samples/sec	cross-entropy=0.335572	menopause-accuracy=5.250000
+2024-03-09 14:30:32,498 [INFO]  Epoch[4] Train-cross-entropy=0.272196
+2024-03-09 14:30:32,498 [INFO]  Epoch[4] Train-menopause-accuracy=6.230769
+2024-03-09 14:30:32,498 [INFO]  Epoch[4] Time cost=0.009
+2024-03-09 14:30:32,500 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0004.params"
+2024-03-09 14:30:32,500 [INFO]  Epoch[4] Validation-cross-entropy=0.238432
+2024-03-09 14:30:32,500 [INFO]  Epoch[4] Validation-menopause-accuracy=0.000000
+2024-03-09 14:30:32,500 [INFO]  
+========== done (0.05700802803039551 s) fit model
+2024-03-09 14:32:40,013 [INFO]  
+========== start: fit model
+2024-03-09 14:32:40,013 [WARNING]  Already bound, ignoring bind()
+2024-03-09 14:32:40,019 [INFO]  Epoch[0] Batch [0-7]	Speed: 28360.42 samples/sec	cross-entropy=20.537427	menopause-accuracy=5.250000
+2024-03-09 14:32:40,022 [INFO]  Epoch[0] Train-cross-entropy=15.670869
+2024-03-09 14:32:40,022 [INFO]  Epoch[0] Train-menopause-accuracy=6.230769
+2024-03-09 14:32:40,022 [INFO]  Epoch[0] Time cost=0.008
+2024-03-09 14:32:40,024 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0000.params"
+2024-03-09 14:32:40,024 [INFO]  Epoch[0] Validation-cross-entropy=8.087899
+2024-03-09 14:32:40,024 [INFO]  Epoch[0] Validation-menopause-accuracy=0.000000
+2024-03-09 14:32:40,029 [INFO]  Epoch[1] Batch [0-7]	Speed: 28652.76 samples/sec	cross-entropy=3.224428	menopause-accuracy=5.250000
+2024-03-09 14:32:40,033 [INFO]  Epoch[1] Train-cross-entropy=2.578494
+2024-03-09 14:32:40,034 [INFO]  Epoch[1] Train-menopause-accuracy=6.230769
+2024-03-09 14:32:40,034 [INFO]  Epoch[1] Time cost=0.009
+2024-03-09 14:32:40,035 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0001.params"
+2024-03-09 14:32:40,035 [INFO]  Epoch[1] Validation-cross-entropy=0.862725
+2024-03-09 14:32:40,035 [INFO]  Epoch[1] Validation-menopause-accuracy=0.000000
+2024-03-09 14:32:40,040 [INFO]  Epoch[2] Batch [0-7]	Speed: 26577.77 samples/sec	cross-entropy=1.291248	menopause-accuracy=5.250000
+2024-03-09 14:32:40,045 [INFO]  Epoch[2] Train-cross-entropy=1.027793
+2024-03-09 14:32:40,045 [INFO]  Epoch[2] Train-menopause-accuracy=6.230769
+2024-03-09 14:32:40,045 [INFO]  Epoch[2] Time cost=0.009
+2024-03-09 14:32:40,046 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0002.params"
+2024-03-09 14:32:40,047 [INFO]  Epoch[2] Validation-cross-entropy=0.511074
+2024-03-09 14:32:40,047 [INFO]  Epoch[2] Validation-menopause-accuracy=0.000000
+2024-03-09 14:32:40,054 [INFO]  Epoch[3] Batch [0-7]	Speed: 18835.69 samples/sec	cross-entropy=0.515913	menopause-accuracy=5.250000
+2024-03-09 14:32:40,058 [INFO]  Epoch[3] Train-cross-entropy=0.443909
+2024-03-09 14:32:40,058 [INFO]  Epoch[3] Train-menopause-accuracy=6.230769
+2024-03-09 14:32:40,058 [INFO]  Epoch[3] Time cost=0.012
+2024-03-09 14:32:40,060 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0003.params"
+2024-03-09 14:32:40,061 [INFO]  Epoch[3] Validation-cross-entropy=0.273914
+2024-03-09 14:32:40,061 [INFO]  Epoch[3] Validation-menopause-accuracy=0.000000
+2024-03-09 14:32:40,067 [INFO]  Epoch[4] Batch [0-7]	Speed: 21590.31 samples/sec	cross-entropy=0.335572	menopause-accuracy=5.250000
+2024-03-09 14:32:40,070 [INFO]  Epoch[4] Train-cross-entropy=0.272196
+2024-03-09 14:32:40,070 [INFO]  Epoch[4] Train-menopause-accuracy=6.230769
+2024-03-09 14:32:40,070 [INFO]  Epoch[4] Time cost=0.010
+2024-03-09 14:32:40,072 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0004.params"
+2024-03-09 14:32:40,072 [INFO]  Epoch[4] Validation-cross-entropy=0.238432
+2024-03-09 14:32:40,072 [INFO]  Epoch[4] Validation-menopause-accuracy=0.000000
+2024-03-09 14:32:40,072 [INFO]  
+========== done (0.05923628807067871 s) fit model
+2024-03-09 15:34:06,613 [INFO]  
+========== start: fit model
+2024-03-09 15:34:06,613 [WARNING]  Already bound, ignoring bind()
+2024-03-09 15:34:06,619 [INFO]  Epoch[0] Batch [0-7]	Speed: 27518.13 samples/sec	cross-entropy=20.537427	menopause-accuracy=5.250000
+2024-03-09 15:34:06,623 [INFO]  Epoch[0] Train-cross-entropy=15.670869
+2024-03-09 15:34:06,623 [INFO]  Epoch[0] Train-menopause-accuracy=6.230769
+2024-03-09 15:34:06,623 [INFO]  Epoch[0] Time cost=0.009
+2024-03-09 15:34:06,624 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0000.params"
+2024-03-09 15:34:06,624 [INFO]  Epoch[0] Validation-cross-entropy=8.087899
+2024-03-09 15:34:06,625 [INFO]  Epoch[0] Validation-menopause-accuracy=0.000000
+2024-03-09 15:34:06,629 [INFO]  Epoch[1] Batch [0-7]	Speed: 28283.58 samples/sec	cross-entropy=3.224428	menopause-accuracy=5.250000
+2024-03-09 15:34:06,632 [INFO]  Epoch[1] Train-cross-entropy=2.578494
+2024-03-09 15:34:06,632 [INFO]  Epoch[1] Train-menopause-accuracy=6.230769
+2024-03-09 15:34:06,632 [INFO]  Epoch[1] Time cost=0.008
+2024-03-09 15:34:06,634 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0001.params"
+2024-03-09 15:34:06,634 [INFO]  Epoch[1] Validation-cross-entropy=0.862725
+2024-03-09 15:34:06,634 [INFO]  Epoch[1] Validation-menopause-accuracy=0.000000
+2024-03-09 15:34:06,639 [INFO]  Epoch[2] Batch [0-7]	Speed: 27755.51 samples/sec	cross-entropy=1.291248	menopause-accuracy=5.250000
+2024-03-09 15:34:06,642 [INFO]  Epoch[2] Train-cross-entropy=1.027793
+2024-03-09 15:34:06,642 [INFO]  Epoch[2] Train-menopause-accuracy=6.230769
+2024-03-09 15:34:06,642 [INFO]  Epoch[2] Time cost=0.008
+2024-03-09 15:34:06,643 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0002.params"
+2024-03-09 15:34:06,644 [INFO]  Epoch[2] Validation-cross-entropy=0.511074
+2024-03-09 15:34:06,644 [INFO]  Epoch[2] Validation-menopause-accuracy=0.000000
+2024-03-09 15:34:06,649 [INFO]  Epoch[3] Batch [0-7]	Speed: 28178.40 samples/sec	cross-entropy=0.515913	menopause-accuracy=5.250000
+2024-03-09 15:34:06,652 [INFO]  Epoch[3] Train-cross-entropy=0.443909
+2024-03-09 15:34:06,652 [INFO]  Epoch[3] Train-menopause-accuracy=6.230769
+2024-03-09 15:34:06,652 [INFO]  Epoch[3] Time cost=0.008
+2024-03-09 15:34:06,653 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0003.params"
+2024-03-09 15:34:06,653 [INFO]  Epoch[3] Validation-cross-entropy=0.273914
+2024-03-09 15:34:06,653 [INFO]  Epoch[3] Validation-menopause-accuracy=0.000000
+2024-03-09 15:34:06,658 [INFO]  Epoch[4] Batch [0-7]	Speed: 28178.40 samples/sec	cross-entropy=0.335572	menopause-accuracy=5.250000
+2024-03-09 15:34:06,662 [INFO]  Epoch[4] Train-cross-entropy=0.272196
+2024-03-09 15:34:06,662 [INFO]  Epoch[4] Train-menopause-accuracy=6.230769
+2024-03-09 15:34:06,662 [INFO]  Epoch[4] Time cost=0.008
+2024-03-09 15:34:06,663 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_menopause/model-0004.params"
+2024-03-09 15:34:06,663 [INFO]  Epoch[4] Validation-cross-entropy=0.238432
+2024-03-09 15:34:06,663 [INFO]  Epoch[4] Validation-menopause-accuracy=0.000000
+2024-03-09 15:34:06,663 [INFO]  
+========== done (0.05022478103637695 s) fit model

@@ -1,0 +1,40 @@
+2024-03-11 12:09:36,688 [INFO]  
+========== start: fit model
+2024-03-11 12:09:36,688 [WARNING]  Already bound, ignoring bind()
+2024-03-11 12:11:03,990 [INFO]  Epoch[0] Batch [0-48]	Speed: 9.04 samples/sec	cross-entropy=4.608205	family_history_with_overweight-accuracy=0.000000
+2024-03-11 12:12:14,592 [INFO]  Epoch[0] Train-cross-entropy=2.644613
+2024-03-11 12:12:14,593 [INFO]  Epoch[0] Train-family_history_with_overweight-accuracy=0.000000
+2024-03-11 12:12:14,593 [INFO]  Epoch[0] Time cost=157.904
+2024-03-11 12:12:14,596 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_family_history_with_overweight/model-0000.params"
+2024-03-11 12:12:17,813 [INFO]  Epoch[0] Validation-cross-entropy=0.332464
+2024-03-11 12:12:17,813 [INFO]  Epoch[0] Validation-family_history_with_overweight-accuracy=0.000000
+2024-03-11 12:13:33,204 [INFO]  Epoch[1] Batch [0-48]	Speed: 10.38 samples/sec	cross-entropy=0.318793	family_history_with_overweight-accuracy=0.000000
+2024-03-11 12:14:46,594 [INFO]  Epoch[1] Train-cross-entropy=0.239999
+2024-03-11 12:14:46,594 [INFO]  Epoch[1] Train-family_history_with_overweight-accuracy=0.000000
+2024-03-11 12:14:46,594 [INFO]  Epoch[1] Time cost=148.781
+2024-03-11 12:14:46,598 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_family_history_with_overweight/model-0001.params"
+2024-03-11 12:14:49,203 [INFO]  Epoch[1] Validation-cross-entropy=0.171669
+2024-03-11 12:14:49,203 [INFO]  Epoch[1] Validation-family_history_with_overweight-accuracy=0.000000
+2024-03-11 12:16:06,715 [INFO]  Epoch[2] Batch [0-48]	Speed: 10.14 samples/sec	cross-entropy=0.113758	family_history_with_overweight-accuracy=0.000000
+2024-03-11 12:17:21,072 [INFO]  Epoch[2] Train-cross-entropy=0.108644
+2024-03-11 12:17:21,072 [INFO]  Epoch[2] Train-family_history_with_overweight-accuracy=0.000000
+2024-03-11 12:17:21,072 [INFO]  Epoch[2] Time cost=151.869
+2024-03-11 12:17:21,079 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_family_history_with_overweight/model-0002.params"
+2024-03-11 12:17:24,038 [INFO]  Epoch[2] Validation-cross-entropy=0.135271
+2024-03-11 12:17:24,038 [INFO]  Epoch[2] Validation-family_history_with_overweight-accuracy=0.000000
+2024-03-11 12:18:47,125 [INFO]  Epoch[3] Batch [0-48]	Speed: 9.41 samples/sec	cross-entropy=0.078250	family_history_with_overweight-accuracy=0.000000
+2024-03-11 12:20:10,328 [INFO]  Epoch[3] Train-cross-entropy=0.079736
+2024-03-11 12:20:10,328 [INFO]  Epoch[3] Train-family_history_with_overweight-accuracy=0.000000
+2024-03-11 12:20:10,329 [INFO]  Epoch[3] Time cost=166.290
+2024-03-11 12:20:10,332 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_family_history_with_overweight/model-0003.params"
+2024-03-11 12:20:13,914 [INFO]  Epoch[3] Validation-cross-entropy=0.111871
+2024-03-11 12:20:13,914 [INFO]  Epoch[3] Validation-family_history_with_overweight-accuracy=0.000000
+2024-03-11 12:21:35,216 [INFO]  Epoch[4] Batch [0-48]	Speed: 9.69 samples/sec	cross-entropy=0.063127	family_history_with_overweight-accuracy=0.000000
+2024-03-11 12:22:44,655 [INFO]  Epoch[4] Train-cross-entropy=0.064828
+2024-03-11 12:22:44,656 [INFO]  Epoch[4] Train-family_history_with_overweight-accuracy=0.000000
+2024-03-11 12:22:44,656 [INFO]  Epoch[4] Time cost=150.742
+2024-03-11 12:22:44,659 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_family_history_with_overweight/model-0004.params"
+2024-03-11 12:22:47,232 [INFO]  Epoch[4] Validation-cross-entropy=0.103999
+2024-03-11 12:22:47,232 [INFO]  Epoch[4] Validation-family_history_with_overweight-accuracy=0.000000
+2024-03-11 12:22:47,232 [INFO]  
+========== done (790.5441036224365 s) fit model

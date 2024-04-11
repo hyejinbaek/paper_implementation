@@ -1,0 +1,40 @@
+2024-03-11 06:32:46,405 [INFO]  
+========== start: fit model
+2024-03-11 06:32:46,405 [WARNING]  Already bound, ignoring bind()
+2024-03-11 06:32:46,466 [INFO]  Epoch[0] Batch [0-102]	Speed: 27333.40 samples/sec	cross-entropy=4.730655	balance-accuracy=0.000000
+2024-03-11 06:32:46,524 [INFO]  Epoch[0] Train-cross-entropy=2.571582
+2024-03-11 06:32:46,524 [INFO]  Epoch[0] Train-balance-accuracy=0.000000
+2024-03-11 06:32:46,524 [INFO]  Epoch[0] Time cost=0.119
+2024-03-11 06:32:46,526 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_balance/model-0000.params"
+2024-03-11 06:32:46,529 [INFO]  Epoch[0] Validation-cross-entropy=0.315060
+2024-03-11 06:32:46,529 [INFO]  Epoch[0] Validation-balance-accuracy=0.000000
+2024-03-11 06:32:46,601 [INFO]  Epoch[1] Batch [0-102]	Speed: 23183.62 samples/sec	cross-entropy=0.170207	balance-accuracy=0.000000
+2024-03-11 06:32:46,670 [INFO]  Epoch[1] Train-cross-entropy=0.139193
+2024-03-11 06:32:46,670 [INFO]  Epoch[1] Train-balance-accuracy=0.000000
+2024-03-11 06:32:46,670 [INFO]  Epoch[1] Time cost=0.141
+2024-03-11 06:32:46,672 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_balance/model-0001.params"
+2024-03-11 06:32:46,675 [INFO]  Epoch[1] Validation-cross-entropy=0.115369
+2024-03-11 06:32:46,675 [INFO]  Epoch[1] Validation-balance-accuracy=0.000000
+2024-03-11 06:32:46,734 [INFO]  Epoch[2] Batch [0-102]	Speed: 27985.46 samples/sec	cross-entropy=0.084967	balance-accuracy=0.000000
+2024-03-11 06:32:46,793 [INFO]  Epoch[2] Train-cross-entropy=0.078219
+2024-03-11 06:32:46,793 [INFO]  Epoch[2] Train-balance-accuracy=0.000000
+2024-03-11 06:32:46,793 [INFO]  Epoch[2] Time cost=0.117
+2024-03-11 06:32:46,794 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_balance/model-0002.params"
+2024-03-11 06:32:46,798 [INFO]  Epoch[2] Validation-cross-entropy=0.086308
+2024-03-11 06:32:46,798 [INFO]  Epoch[2] Validation-balance-accuracy=0.000000
+2024-03-11 06:32:46,874 [INFO]  Epoch[3] Batch [0-102]	Speed: 21763.51 samples/sec	cross-entropy=0.060087	balance-accuracy=0.000000
+2024-03-11 06:32:46,940 [INFO]  Epoch[3] Train-cross-entropy=0.060906
+2024-03-11 06:32:46,940 [INFO]  Epoch[3] Train-balance-accuracy=0.000000
+2024-03-11 06:32:46,940 [INFO]  Epoch[3] Time cost=0.142
+2024-03-11 06:32:46,942 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_balance/model-0003.params"
+2024-03-11 06:32:46,945 [INFO]  Epoch[3] Validation-cross-entropy=0.072867
+2024-03-11 06:32:46,945 [INFO]  Epoch[3] Validation-balance-accuracy=0.000000
+2024-03-11 06:32:47,021 [INFO]  Epoch[4] Batch [0-102]	Speed: 21763.10 samples/sec	cross-entropy=0.051672	balance-accuracy=0.000000
+2024-03-11 06:32:47,090 [INFO]  Epoch[4] Train-cross-entropy=0.051336
+2024-03-11 06:32:47,090 [INFO]  Epoch[4] Train-balance-accuracy=0.000000
+2024-03-11 06:32:47,090 [INFO]  Epoch[4] Time cost=0.144
+2024-03-11 06:32:47,091 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_balance/model-0004.params"
+2024-03-11 06:32:47,095 [INFO]  Epoch[4] Validation-cross-entropy=0.071730
+2024-03-11 06:32:47,095 [INFO]  Epoch[4] Validation-balance-accuracy=0.000000
+2024-03-11 06:32:47,095 [INFO]  
+========== done (0.6906390190124512 s) fit model

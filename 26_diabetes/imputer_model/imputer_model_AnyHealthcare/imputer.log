@@ -1,0 +1,800 @@
+2024-04-01 09:56:34,897 [INFO]  
+========== start: fit model
+2024-04-01 09:56:34,897 [WARNING]  Already bound, ignoring bind()
+2024-04-01 09:57:04,033 [INFO]  Epoch[0] Batch [0-5708]	Speed: 3136.95 samples/sec	cross-entropy=0.132911	AnyHealthcare-accuracy=3.238746
+2024-04-01 09:57:29,354 [INFO]  Epoch[0] Train-cross-entropy=0.074623
+2024-04-01 09:57:29,355 [INFO]  Epoch[0] Train-AnyHealthcare-accuracy=3.230028
+2024-04-01 09:57:29,355 [INFO]  Epoch[0] Time cost=54.457
+2024-04-01 09:57:29,357 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0000.params"
+2024-04-01 09:57:29,750 [INFO]  Epoch[0] Validation-cross-entropy=0.002167
+2024-04-01 09:57:29,750 [INFO]  Epoch[0] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 09:57:57,078 [INFO]  Epoch[1] Batch [0-5708]	Speed: 3345.61 samples/sec	cross-entropy=0.014353	AnyHealthcare-accuracy=3.238746
+2024-04-01 09:58:24,959 [INFO]  Epoch[1] Train-cross-entropy=0.013320
+2024-04-01 09:58:24,959 [INFO]  Epoch[1] Train-AnyHealthcare-accuracy=3.230028
+2024-04-01 09:58:24,959 [INFO]  Epoch[1] Time cost=55.209
+2024-04-01 09:58:24,961 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0001.params"
+2024-04-01 09:58:27,803 [INFO]  Epoch[1] Validation-cross-entropy=0.021660
+2024-04-01 09:58:27,803 [INFO]  Epoch[1] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 09:58:50,432 [INFO]  Epoch[2] Batch [0-5708]	Speed: 4037.94 samples/sec	cross-entropy=0.008625	AnyHealthcare-accuracy=3.238746
+2024-04-01 09:59:23,537 [INFO]  Epoch[2] Train-cross-entropy=0.007100
+2024-04-01 09:59:23,537 [INFO]  Epoch[2] Train-AnyHealthcare-accuracy=3.230028
+2024-04-01 09:59:23,537 [INFO]  Epoch[2] Time cost=55.735
+2024-04-01 09:59:23,540 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0002.params"
+2024-04-01 09:59:25,863 [INFO]  Epoch[2] Validation-cross-entropy=0.001011
+2024-04-01 09:59:25,864 [INFO]  Epoch[2] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 09:59:46,836 [INFO]  Epoch[3] Batch [0-5708]	Speed: 4355.02 samples/sec	cross-entropy=0.008463	AnyHealthcare-accuracy=3.238746
+2024-04-01 10:00:13,156 [INFO]  Epoch[3] Train-cross-entropy=0.005815
+2024-04-01 10:00:13,156 [INFO]  Epoch[3] Train-AnyHealthcare-accuracy=3.230028
+2024-04-01 10:00:13,156 [INFO]  Epoch[3] Time cost=47.292
+2024-04-01 10:00:13,158 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0003.params"
+2024-04-01 10:00:13,879 [INFO]  Epoch[3] Validation-cross-entropy=0.003122
+2024-04-01 10:00:13,879 [INFO]  Epoch[3] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 10:00:31,891 [INFO]  Epoch[4] Batch [0-5708]	Speed: 5081.61 samples/sec	cross-entropy=0.002646	AnyHealthcare-accuracy=3.238746
+2024-04-01 10:00:57,776 [INFO]  Epoch[4] Train-cross-entropy=0.003587
+2024-04-01 10:00:57,776 [INFO]  Epoch[4] Train-AnyHealthcare-accuracy=3.230028
+2024-04-01 10:00:57,776 [INFO]  Epoch[4] Time cost=43.897
+2024-04-01 10:00:57,778 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0004.params"
+2024-04-01 10:00:59,048 [INFO]  Epoch[4] Validation-cross-entropy=0.005295
+2024-04-01 10:00:59,048 [INFO]  Epoch[4] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 10:00:59,048 [INFO]  
+========== done (264.15181946754456 s) fit model
+2024-04-01 11:45:58,357 [INFO]  
+========== start: fit model
+2024-04-01 11:45:58,357 [WARNING]  Already bound, ignoring bind()
+2024-04-01 11:46:30,852 [INFO]  Epoch[0] Batch [0-5708]	Speed: 2812.42 samples/sec	cross-entropy=0.123596	AnyHealthcare-accuracy=0.000000
+2024-04-01 11:46:59,219 [INFO]  Epoch[0] Train-cross-entropy=0.070769
+2024-04-01 11:46:59,219 [INFO]  Epoch[0] Train-AnyHealthcare-accuracy=0.000000
+2024-04-01 11:46:59,219 [INFO]  Epoch[0] Time cost=60.861
+2024-04-01 11:46:59,221 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0000.params"
+2024-04-01 11:47:00,142 [INFO]  Epoch[0] Validation-cross-entropy=0.012168
+2024-04-01 11:47:00,142 [INFO]  Epoch[0] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 11:47:32,436 [INFO]  Epoch[1] Batch [0-5708]	Speed: 2828.23 samples/sec	cross-entropy=0.012440	AnyHealthcare-accuracy=0.000000
+2024-04-01 11:47:52,119 [INFO]  Epoch[1] Train-cross-entropy=0.011541
+2024-04-01 11:47:52,119 [INFO]  Epoch[1] Train-AnyHealthcare-accuracy=0.000000
+2024-04-01 11:47:52,119 [INFO]  Epoch[1] Time cost=51.977
+2024-04-01 11:47:52,121 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0001.params"
+2024-04-01 11:47:53,425 [INFO]  Epoch[1] Validation-cross-entropy=0.001185
+2024-04-01 11:47:53,426 [INFO]  Epoch[1] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 11:48:21,016 [INFO]  Epoch[2] Batch [0-5708]	Speed: 3310.38 samples/sec	cross-entropy=0.010246	AnyHealthcare-accuracy=0.000000
+2024-04-01 11:49:01,158 [INFO]  Epoch[2] Train-cross-entropy=0.008336
+2024-04-01 11:49:01,158 [INFO]  Epoch[2] Train-AnyHealthcare-accuracy=0.000000
+2024-04-01 11:49:01,158 [INFO]  Epoch[2] Time cost=67.732
+2024-04-01 11:49:01,162 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0002.params"
+2024-04-01 11:49:03,778 [INFO]  Epoch[2] Validation-cross-entropy=0.000021
+2024-04-01 11:49:03,778 [INFO]  Epoch[2] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 11:49:56,422 [INFO]  Epoch[3] Batch [0-5708]	Speed: 1734.89 samples/sec	cross-entropy=0.004472	AnyHealthcare-accuracy=0.000000
+2024-04-01 11:50:46,345 [INFO]  Epoch[3] Train-cross-entropy=0.004169
+2024-04-01 11:50:46,345 [INFO]  Epoch[3] Train-AnyHealthcare-accuracy=0.000000
+2024-04-01 11:50:46,345 [INFO]  Epoch[3] Time cost=102.567
+2024-04-01 11:50:46,346 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0003.params"
+2024-04-01 11:50:49,718 [INFO]  Epoch[3] Validation-cross-entropy=0.000056
+2024-04-01 11:50:49,718 [INFO]  Epoch[3] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 11:51:24,128 [INFO]  Epoch[4] Batch [0-5708]	Speed: 2655.12 samples/sec	cross-entropy=0.003015	AnyHealthcare-accuracy=0.000000
+2024-04-01 11:52:20,619 [INFO]  Epoch[4] Train-cross-entropy=0.002927
+2024-04-01 11:52:20,619 [INFO]  Epoch[4] Train-AnyHealthcare-accuracy=0.000000
+2024-04-01 11:52:20,619 [INFO]  Epoch[4] Time cost=90.901
+2024-04-01 11:52:20,624 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0004.params"
+2024-04-01 11:52:25,855 [INFO]  Epoch[4] Validation-cross-entropy=0.002412
+2024-04-01 11:52:25,855 [INFO]  Epoch[4] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 11:52:25,855 [INFO]  
+========== done (387.49822783470154 s) fit model
+2024-04-01 13:38:13,496 [INFO]  
+========== start: fit model
+2024-04-01 13:38:13,530 [WARNING]  Already bound, ignoring bind()
+2024-04-01 13:38:38,639 [INFO]  Epoch[0] Batch [0-5708]	Speed: 3672.30 samples/sec	cross-entropy=0.125782	AnyHealthcare-accuracy=0.000000
+2024-04-01 13:38:58,978 [INFO]  Epoch[0] Train-cross-entropy=0.072053
+2024-04-01 13:38:58,979 [INFO]  Epoch[0] Train-AnyHealthcare-accuracy=0.000000
+2024-04-01 13:38:58,979 [INFO]  Epoch[0] Time cost=45.445
+2024-04-01 13:38:58,985 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0000.params"
+2024-04-01 13:38:59,271 [INFO]  Epoch[0] Validation-cross-entropy=0.002033
+2024-04-01 13:38:59,271 [INFO]  Epoch[0] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 13:39:22,439 [INFO]  Epoch[1] Batch [0-5708]	Speed: 3942.07 samples/sec	cross-entropy=0.016762	AnyHealthcare-accuracy=0.000000
+2024-04-01 13:39:51,386 [INFO]  Epoch[1] Train-cross-entropy=0.012830
+2024-04-01 13:39:51,387 [INFO]  Epoch[1] Train-AnyHealthcare-accuracy=0.000000
+2024-04-01 13:39:51,387 [INFO]  Epoch[1] Time cost=52.116
+2024-04-01 13:39:51,389 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0001.params"
+2024-04-01 13:39:55,434 [INFO]  Epoch[1] Validation-cross-entropy=0.013000
+2024-04-01 13:39:55,434 [INFO]  Epoch[1] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 13:40:22,272 [INFO]  Epoch[2] Batch [0-5708]	Speed: 3403.11 samples/sec	cross-entropy=0.006989	AnyHealthcare-accuracy=0.000000
+2024-04-01 13:40:46,958 [INFO]  Epoch[2] Train-cross-entropy=0.006148
+2024-04-01 13:40:46,958 [INFO]  Epoch[2] Train-AnyHealthcare-accuracy=0.000000
+2024-04-01 13:40:46,959 [INFO]  Epoch[2] Time cost=51.524
+2024-04-01 13:40:46,961 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0002.params"
+2024-04-01 13:40:48,754 [INFO]  Epoch[2] Validation-cross-entropy=0.014991
+2024-04-01 13:40:48,754 [INFO]  Epoch[2] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 13:41:14,256 [INFO]  Epoch[3] Batch [0-5708]	Speed: 3581.52 samples/sec	cross-entropy=0.005175	AnyHealthcare-accuracy=0.000000
+2024-04-01 13:41:32,397 [INFO]  Epoch[3] Train-cross-entropy=0.004241
+2024-04-01 13:41:32,397 [INFO]  Epoch[3] Train-AnyHealthcare-accuracy=0.000000
+2024-04-01 13:41:32,397 [INFO]  Epoch[3] Time cost=43.643
+2024-04-01 13:41:32,399 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0003.params"
+2024-04-01 13:41:35,626 [INFO]  Epoch[3] Validation-cross-entropy=0.005399
+2024-04-01 13:41:35,626 [INFO]  Epoch[3] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 13:41:57,406 [INFO]  Epoch[4] Batch [0-5708]	Speed: 4200.75 samples/sec	cross-entropy=0.004211	AnyHealthcare-accuracy=0.000000
+2024-04-01 13:42:15,829 [INFO]  Epoch[4] Train-cross-entropy=0.003847
+2024-04-01 13:42:15,830 [INFO]  Epoch[4] Train-AnyHealthcare-accuracy=0.000000
+2024-04-01 13:42:15,830 [INFO]  Epoch[4] Time cost=40.203
+2024-04-01 13:42:15,832 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0004.params"
+2024-04-01 13:42:16,843 [INFO]  Epoch[4] Validation-cross-entropy=0.005538
+2024-04-01 13:42:16,844 [INFO]  Epoch[4] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 13:42:16,844 [INFO]  
+========== done (243.34787154197693 s) fit model
+2024-04-01 15:18:02,808 [INFO]  
+========== start: fit model
+2024-04-01 15:18:02,819 [WARNING]  Already bound, ignoring bind()
+2024-04-01 15:18:27,460 [INFO]  Epoch[0] Batch [0-5708]	Speed: 3730.89 samples/sec	cross-entropy=0.102779	AnyHealthcare-accuracy=0.000000
+2024-04-01 15:19:13,613 [INFO]  Epoch[0] Train-cross-entropy=0.062423
+2024-04-01 15:19:13,613 [INFO]  Epoch[0] Train-AnyHealthcare-accuracy=0.000000
+2024-04-01 15:19:13,613 [INFO]  Epoch[0] Time cost=70.793
+2024-04-01 15:19:13,616 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0000.params"
+2024-04-01 15:19:16,584 [INFO]  Epoch[0] Validation-cross-entropy=0.022937
+2024-04-01 15:19:16,584 [INFO]  Epoch[0] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 15:19:46,643 [INFO]  Epoch[1] Batch [0-5708]	Speed: 3038.44 samples/sec	cross-entropy=0.011411	AnyHealthcare-accuracy=0.000000
+2024-04-01 15:20:38,062 [INFO]  Epoch[1] Train-cross-entropy=0.011170
+2024-04-01 15:20:38,062 [INFO]  Epoch[1] Train-AnyHealthcare-accuracy=0.000000
+2024-04-01 15:20:38,062 [INFO]  Epoch[1] Time cost=81.478
+2024-04-01 15:20:38,064 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0001.params"
+2024-04-01 15:20:42,210 [INFO]  Epoch[1] Validation-cross-entropy=0.001587
+2024-04-01 15:20:42,210 [INFO]  Epoch[1] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 15:21:30,336 [INFO]  Epoch[2] Batch [0-5708]	Speed: 1897.77 samples/sec	cross-entropy=0.006415	AnyHealthcare-accuracy=0.000000
+2024-04-01 15:22:20,849 [INFO]  Epoch[2] Train-cross-entropy=0.006500
+2024-04-01 15:22:20,849 [INFO]  Epoch[2] Train-AnyHealthcare-accuracy=0.000000
+2024-04-01 15:22:20,849 [INFO]  Epoch[2] Time cost=98.639
+2024-04-01 15:22:20,850 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0002.params"
+2024-04-01 15:22:24,259 [INFO]  Epoch[2] Validation-cross-entropy=0.003721
+2024-04-01 15:22:24,259 [INFO]  Epoch[2] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 15:23:00,371 [INFO]  Epoch[3] Batch [0-5708]	Speed: 2529.17 samples/sec	cross-entropy=0.006141	AnyHealthcare-accuracy=0.000000
+2024-04-01 15:23:40,205 [INFO]  Epoch[3] Train-cross-entropy=0.006413
+2024-04-01 15:23:40,205 [INFO]  Epoch[3] Train-AnyHealthcare-accuracy=0.000000
+2024-04-01 15:23:40,205 [INFO]  Epoch[3] Time cost=75.946
+2024-04-01 15:23:40,207 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0003.params"
+2024-04-01 15:23:42,176 [INFO]  Epoch[3] Validation-cross-entropy=0.000383
+2024-04-01 15:23:42,176 [INFO]  Epoch[3] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 15:24:30,240 [INFO]  Epoch[4] Batch [0-5708]	Speed: 1900.21 samples/sec	cross-entropy=0.003279	AnyHealthcare-accuracy=0.000000
+2024-04-01 15:25:14,754 [INFO]  Epoch[4] Train-cross-entropy=0.003115
+2024-04-01 15:25:14,754 [INFO]  Epoch[4] Train-AnyHealthcare-accuracy=0.000000
+2024-04-01 15:25:14,754 [INFO]  Epoch[4] Time cost=92.578
+2024-04-01 15:25:14,756 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0004.params"
+2024-04-01 15:25:17,554 [INFO]  Epoch[4] Validation-cross-entropy=0.011133
+2024-04-01 15:25:17,554 [INFO]  Epoch[4] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 15:25:17,554 [INFO]  
+========== done (434.7454762458801 s) fit model
+2024-04-01 17:05:28,515 [INFO]  
+========== start: fit model
+2024-04-01 17:05:28,521 [WARNING]  Already bound, ignoring bind()
+2024-04-01 17:06:06,909 [INFO]  Epoch[0] Batch [0-5708]	Speed: 2379.56 samples/sec	cross-entropy=0.133587	AnyHealthcare-accuracy=0.000000
+2024-04-01 17:06:35,382 [INFO]  Epoch[0] Train-cross-entropy=0.076167
+2024-04-01 17:06:35,382 [INFO]  Epoch[0] Train-AnyHealthcare-accuracy=0.000000
+2024-04-01 17:06:35,382 [INFO]  Epoch[0] Time cost=66.855
+2024-04-01 17:06:35,384 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0000.params"
+2024-04-01 17:06:38,583 [INFO]  Epoch[0] Validation-cross-entropy=0.006530
+2024-04-01 17:06:38,583 [INFO]  Epoch[0] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 17:07:07,161 [INFO]  Epoch[1] Batch [0-5708]	Speed: 3195.87 samples/sec	cross-entropy=0.012589	AnyHealthcare-accuracy=0.000000
+2024-04-01 17:07:34,645 [INFO]  Epoch[1] Train-cross-entropy=0.011583
+2024-04-01 17:07:34,646 [INFO]  Epoch[1] Train-AnyHealthcare-accuracy=0.000000
+2024-04-01 17:07:34,646 [INFO]  Epoch[1] Time cost=56.063
+2024-04-01 17:07:34,648 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0001.params"
+2024-04-01 17:07:35,532 [INFO]  Epoch[1] Validation-cross-entropy=0.000376
+2024-04-01 17:07:35,532 [INFO]  Epoch[1] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 17:08:01,144 [INFO]  Epoch[2] Batch [0-5708]	Speed: 3566.16 samples/sec	cross-entropy=0.007610	AnyHealthcare-accuracy=0.000000
+2024-04-01 17:08:27,362 [INFO]  Epoch[2] Train-cross-entropy=0.008227
+2024-04-01 17:08:27,362 [INFO]  Epoch[2] Train-AnyHealthcare-accuracy=0.000000
+2024-04-01 17:08:27,363 [INFO]  Epoch[2] Time cost=51.830
+2024-04-01 17:08:27,365 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0002.params"
+2024-04-01 17:08:28,119 [INFO]  Epoch[2] Validation-cross-entropy=0.001927
+2024-04-01 17:08:28,119 [INFO]  Epoch[2] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 17:08:48,388 [INFO]  Epoch[3] Batch [0-5708]	Speed: 4506.05 samples/sec	cross-entropy=0.005231	AnyHealthcare-accuracy=0.000000
+2024-04-01 17:09:16,088 [INFO]  Epoch[3] Train-cross-entropy=0.005470
+2024-04-01 17:09:16,088 [INFO]  Epoch[3] Train-AnyHealthcare-accuracy=0.000000
+2024-04-01 17:09:16,088 [INFO]  Epoch[3] Time cost=47.969
+2024-04-01 17:09:16,090 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0003.params"
+2024-04-01 17:09:18,127 [INFO]  Epoch[3] Validation-cross-entropy=0.001636
+2024-04-01 17:09:18,128 [INFO]  Epoch[3] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 17:09:47,594 [INFO]  Epoch[4] Batch [0-5708]	Speed: 3099.53 samples/sec	cross-entropy=0.005350	AnyHealthcare-accuracy=0.000000
+2024-04-01 17:10:14,810 [INFO]  Epoch[4] Train-cross-entropy=0.006042
+2024-04-01 17:10:14,810 [INFO]  Epoch[4] Train-AnyHealthcare-accuracy=0.000000
+2024-04-01 17:10:14,810 [INFO]  Epoch[4] Time cost=56.682
+2024-04-01 17:10:14,812 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0004.params"
+2024-04-01 17:10:17,147 [INFO]  Epoch[4] Validation-cross-entropy=0.000966
+2024-04-01 17:10:17,148 [INFO]  Epoch[4] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 17:10:17,148 [INFO]  
+========== done (288.63267636299133 s) fit model
+2024-04-01 18:42:50,304 [INFO]  
+========== start: fit model
+2024-04-01 18:42:50,330 [WARNING]  Already bound, ignoring bind()
+2024-04-01 18:43:11,635 [INFO]  Epoch[0] Batch [0-5708]	Speed: 4362.87 samples/sec	cross-entropy=0.096332	AnyHealthcare-accuracy=0.000000
+2024-04-01 18:43:32,961 [INFO]  Epoch[0] Train-cross-entropy=0.060328
+2024-04-01 18:43:32,961 [INFO]  Epoch[0] Train-AnyHealthcare-accuracy=0.000000
+2024-04-01 18:43:32,961 [INFO]  Epoch[0] Time cost=42.630
+2024-04-01 18:43:32,964 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0000.params"
+2024-04-01 18:43:35,461 [INFO]  Epoch[0] Validation-cross-entropy=0.000671
+2024-04-01 18:43:35,461 [INFO]  Epoch[0] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 18:44:20,220 [INFO]  Epoch[1] Batch [0-5708]	Speed: 2040.49 samples/sec	cross-entropy=0.012436	AnyHealthcare-accuracy=0.000000
+2024-04-01 18:50:58,351 [INFO]  Epoch[1] Train-cross-entropy=0.010832
+2024-04-01 18:50:58,351 [INFO]  Epoch[1] Train-AnyHealthcare-accuracy=0.000000
+2024-04-01 18:50:58,352 [INFO]  Epoch[1] Time cost=442.891
+2024-04-01 18:50:58,356 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0001.params"
+2024-04-01 18:53:41,934 [INFO]  Epoch[1] Validation-cross-entropy=0.003828
+2024-04-01 18:53:41,934 [INFO]  Epoch[1] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 19:19:21,800 [INFO]  Epoch[2] Batch [0-5708]	Speed: 59.34 samples/sec	cross-entropy=0.008244	AnyHealthcare-accuracy=0.000000
+2024-04-01 19:20:30,753 [INFO]  Epoch[2] Train-cross-entropy=0.008757
+2024-04-01 19:20:30,753 [INFO]  Epoch[2] Train-AnyHealthcare-accuracy=0.000000
+2024-04-01 19:20:30,753 [INFO]  Epoch[2] Time cost=1608.819
+2024-04-01 19:20:30,755 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0002.params"
+2024-04-01 19:20:33,326 [INFO]  Epoch[2] Validation-cross-entropy=0.007615
+2024-04-01 19:20:33,326 [INFO]  Epoch[2] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 19:21:48,952 [INFO]  Epoch[3] Batch [0-5708]	Speed: 1207.77 samples/sec	cross-entropy=0.005257	AnyHealthcare-accuracy=0.000000
+2024-04-01 19:23:51,033 [INFO]  Epoch[3] Train-cross-entropy=0.006157
+2024-04-01 19:23:51,034 [INFO]  Epoch[3] Train-AnyHealthcare-accuracy=0.000000
+2024-04-01 19:23:51,034 [INFO]  Epoch[3] Time cost=197.707
+2024-04-01 19:23:51,036 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0003.params"
+2024-04-01 19:23:58,389 [INFO]  Epoch[3] Validation-cross-entropy=0.000895
+2024-04-01 19:23:58,389 [INFO]  Epoch[3] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 19:35:53,687 [INFO]  Epoch[4] Batch [0-5708]	Speed: 127.68 samples/sec	cross-entropy=0.004939	AnyHealthcare-accuracy=0.000000
+2024-04-01 20:21:27,545 [INFO]  Epoch[4] Train-cross-entropy=0.006200
+2024-04-01 20:21:27,558 [INFO]  Epoch[4] Train-AnyHealthcare-accuracy=0.000000
+2024-04-01 20:21:27,559 [INFO]  Epoch[4] Time cost=3449.170
+2024-04-01 20:21:27,561 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0004.params"
+2024-04-01 20:22:41,621 [INFO]  Epoch[4] Validation-cross-entropy=0.000445
+2024-04-01 20:22:41,622 [INFO]  Epoch[4] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 20:22:41,622 [INFO]  
+========== done (5991.3182809352875 s) fit model
+2024-04-01 21:02:14,637 [INFO]  
+========== start: fit model
+2024-04-01 21:02:14,637 [WARNING]  Already bound, ignoring bind()
+2024-04-01 21:02:19,491 [INFO]  Epoch[0] Batch [0-5708]	Speed: 18845.86 samples/sec	cross-entropy=0.131585	AnyHealthcare-accuracy=3.211946
+2024-04-01 21:02:22,758 [INFO]  Epoch[0] Train-cross-entropy=0.073650
+2024-04-01 21:02:22,758 [INFO]  Epoch[0] Train-AnyHealthcare-accuracy=3.221794
+2024-04-01 21:02:22,758 [INFO]  Epoch[0] Time cost=8.120
+2024-04-01 21:02:22,760 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0000.params"
+2024-04-01 21:02:22,978 [INFO]  Epoch[0] Validation-cross-entropy=0.012294
+2024-04-01 21:02:22,979 [INFO]  Epoch[0] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 21:02:26,436 [INFO]  Epoch[1] Batch [0-5708]	Speed: 26422.59 samples/sec	cross-entropy=0.012379	AnyHealthcare-accuracy=3.211946
+2024-04-01 21:02:31,202 [INFO]  Epoch[1] Train-cross-entropy=0.009310
+2024-04-01 21:02:31,202 [INFO]  Epoch[1] Train-AnyHealthcare-accuracy=3.221794
+2024-04-01 21:02:31,202 [INFO]  Epoch[1] Time cost=8.224
+2024-04-01 21:02:31,204 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0001.params"
+2024-04-01 21:02:31,450 [INFO]  Epoch[1] Validation-cross-entropy=0.015277
+2024-04-01 21:02:31,450 [INFO]  Epoch[1] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 21:02:34,953 [INFO]  Epoch[2] Batch [0-5708]	Speed: 26078.21 samples/sec	cross-entropy=0.006098	AnyHealthcare-accuracy=3.211946
+2024-04-01 21:02:38,146 [INFO]  Epoch[2] Train-cross-entropy=0.005573
+2024-04-01 21:02:38,146 [INFO]  Epoch[2] Train-AnyHealthcare-accuracy=3.221794
+2024-04-01 21:02:38,146 [INFO]  Epoch[2] Time cost=6.695
+2024-04-01 21:02:38,147 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0002.params"
+2024-04-01 21:02:38,362 [INFO]  Epoch[2] Validation-cross-entropy=0.002057
+2024-04-01 21:02:38,362 [INFO]  Epoch[2] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 21:02:41,919 [INFO]  Epoch[3] Batch [0-5708]	Speed: 25681.91 samples/sec	cross-entropy=0.005584	AnyHealthcare-accuracy=3.211946
+2024-04-01 21:02:46,264 [INFO]  Epoch[3] Train-cross-entropy=0.004311
+2024-04-01 21:02:46,265 [INFO]  Epoch[3] Train-AnyHealthcare-accuracy=3.221794
+2024-04-01 21:02:46,265 [INFO]  Epoch[3] Time cost=7.903
+2024-04-01 21:02:46,266 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0003.params"
+2024-04-01 21:02:46,489 [INFO]  Epoch[3] Validation-cross-entropy=0.012935
+2024-04-01 21:02:46,489 [INFO]  Epoch[3] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 21:02:50,889 [INFO]  Epoch[4] Batch [0-5708]	Speed: 20763.02 samples/sec	cross-entropy=0.003150	AnyHealthcare-accuracy=3.211946
+2024-04-01 21:02:55,967 [INFO]  Epoch[4] Train-cross-entropy=0.003028
+2024-04-01 21:02:55,967 [INFO]  Epoch[4] Train-AnyHealthcare-accuracy=3.221794
+2024-04-01 21:02:55,967 [INFO]  Epoch[4] Time cost=9.479
+2024-04-01 21:02:55,969 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0004.params"
+2024-04-01 21:02:56,242 [INFO]  Epoch[4] Validation-cross-entropy=0.006704
+2024-04-01 21:02:56,242 [INFO]  Epoch[4] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 21:02:56,242 [INFO]  
+========== done (41.605759143829346 s) fit model
+2024-04-01 21:30:47,185 [INFO]  
+========== start: fit model
+2024-04-01 21:30:47,185 [WARNING]  Already bound, ignoring bind()
+2024-04-01 21:30:51,786 [INFO]  Epoch[0] Batch [0-5708]	Speed: 19881.43 samples/sec	cross-entropy=0.135005	AnyHealthcare-accuracy=0.000000
+2024-04-01 21:30:55,411 [INFO]  Epoch[0] Train-cross-entropy=0.077102
+2024-04-01 21:30:55,411 [INFO]  Epoch[0] Train-AnyHealthcare-accuracy=0.000000
+2024-04-01 21:30:55,411 [INFO]  Epoch[0] Time cost=8.225
+2024-04-01 21:30:55,412 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0000.params"
+2024-04-01 21:30:55,669 [INFO]  Epoch[0] Validation-cross-entropy=0.081084
+2024-04-01 21:30:55,669 [INFO]  Epoch[0] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 21:30:59,286 [INFO]  Epoch[1] Batch [0-5708]	Speed: 25255.83 samples/sec	cross-entropy=0.011982	AnyHealthcare-accuracy=0.000000
+2024-04-01 21:31:03,632 [INFO]  Epoch[1] Train-cross-entropy=0.010467
+2024-04-01 21:31:03,632 [INFO]  Epoch[1] Train-AnyHealthcare-accuracy=0.000000
+2024-04-01 21:31:03,632 [INFO]  Epoch[1] Time cost=7.963
+2024-04-01 21:31:03,634 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0001.params"
+2024-04-01 21:31:03,879 [INFO]  Epoch[1] Validation-cross-entropy=0.077855
+2024-04-01 21:31:03,879 [INFO]  Epoch[1] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 21:31:07,312 [INFO]  Epoch[2] Batch [0-5708]	Speed: 26606.48 samples/sec	cross-entropy=0.006393	AnyHealthcare-accuracy=0.000000
+2024-04-01 21:31:10,551 [INFO]  Epoch[2] Train-cross-entropy=0.006112
+2024-04-01 21:31:10,551 [INFO]  Epoch[2] Train-AnyHealthcare-accuracy=0.000000
+2024-04-01 21:31:10,551 [INFO]  Epoch[2] Time cost=6.673
+2024-04-01 21:31:10,553 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0002.params"
+2024-04-01 21:31:10,769 [INFO]  Epoch[2] Validation-cross-entropy=0.005209
+2024-04-01 21:31:10,769 [INFO]  Epoch[2] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 21:31:14,333 [INFO]  Epoch[3] Batch [0-5708]	Speed: 25632.86 samples/sec	cross-entropy=0.005998	AnyHealthcare-accuracy=0.000000
+2024-04-01 21:31:19,073 [INFO]  Epoch[3] Train-cross-entropy=0.005911
+2024-04-01 21:31:19,074 [INFO]  Epoch[3] Train-AnyHealthcare-accuracy=0.000000
+2024-04-01 21:31:19,074 [INFO]  Epoch[3] Time cost=8.305
+2024-04-01 21:31:19,075 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0003.params"
+2024-04-01 21:31:19,318 [INFO]  Epoch[3] Validation-cross-entropy=0.002878
+2024-04-01 21:31:19,318 [INFO]  Epoch[3] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 21:31:22,857 [INFO]  Epoch[4] Batch [0-5708]	Speed: 25816.16 samples/sec	cross-entropy=0.005543	AnyHealthcare-accuracy=0.000000
+2024-04-01 21:31:26,473 [INFO]  Epoch[4] Train-cross-entropy=0.005045
+2024-04-01 21:31:26,473 [INFO]  Epoch[4] Train-AnyHealthcare-accuracy=0.000000
+2024-04-01 21:31:26,473 [INFO]  Epoch[4] Time cost=7.155
+2024-04-01 21:31:26,475 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0004.params"
+2024-04-01 21:31:26,715 [INFO]  Epoch[4] Validation-cross-entropy=0.000409
+2024-04-01 21:31:26,715 [INFO]  Epoch[4] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 21:31:26,716 [INFO]  
+========== done (39.53100299835205 s) fit model
+2024-04-01 22:25:32,959 [INFO]  
+========== start: fit model
+2024-04-01 22:25:32,959 [WARNING]  Already bound, ignoring bind()
+2024-04-01 22:25:48,798 [INFO]  Epoch[0] Batch [0-5708]	Speed: 5767.45 samples/sec	cross-entropy=0.106387	AnyHealthcare-accuracy=0.000000
+2024-04-01 22:26:08,271 [INFO]  Epoch[0] Train-cross-entropy=0.066054
+2024-04-01 22:26:08,271 [INFO]  Epoch[0] Train-AnyHealthcare-accuracy=0.000000
+2024-04-01 22:26:08,272 [INFO]  Epoch[0] Time cost=35.312
+2024-04-01 22:26:08,273 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0000.params"
+2024-04-01 22:26:08,695 [INFO]  Epoch[0] Validation-cross-entropy=0.003824
+2024-04-01 22:26:08,696 [INFO]  Epoch[0] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 22:26:26,817 [INFO]  Epoch[1] Batch [0-5708]	Speed: 5040.14 samples/sec	cross-entropy=0.015000	AnyHealthcare-accuracy=0.000000
+2024-04-01 22:26:42,237 [INFO]  Epoch[1] Train-cross-entropy=0.012278
+2024-04-01 22:26:42,237 [INFO]  Epoch[1] Train-AnyHealthcare-accuracy=0.000000
+2024-04-01 22:26:42,237 [INFO]  Epoch[1] Time cost=33.542
+2024-04-01 22:26:42,239 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0001.params"
+2024-04-01 22:26:42,656 [INFO]  Epoch[1] Validation-cross-entropy=0.011844
+2024-04-01 22:26:42,656 [INFO]  Epoch[1] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 22:26:56,450 [INFO]  Epoch[2] Batch [0-5708]	Speed: 6621.60 samples/sec	cross-entropy=0.007091	AnyHealthcare-accuracy=0.000000
+2024-04-01 22:27:13,064 [INFO]  Epoch[2] Train-cross-entropy=0.006203
+2024-04-01 22:27:13,064 [INFO]  Epoch[2] Train-AnyHealthcare-accuracy=0.000000
+2024-04-01 22:27:13,064 [INFO]  Epoch[2] Time cost=30.408
+2024-04-01 22:27:13,066 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0002.params"
+2024-04-01 22:27:13,729 [INFO]  Epoch[2] Validation-cross-entropy=0.000012
+2024-04-01 22:27:13,730 [INFO]  Epoch[2] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 22:27:28,645 [INFO]  Epoch[3] Batch [0-5708]	Speed: 6123.52 samples/sec	cross-entropy=0.003358	AnyHealthcare-accuracy=0.000000
+2024-04-01 22:27:38,597 [INFO]  Epoch[3] Train-cross-entropy=0.002892
+2024-04-01 22:27:38,597 [INFO]  Epoch[3] Train-AnyHealthcare-accuracy=0.000000
+2024-04-01 22:27:38,597 [INFO]  Epoch[3] Time cost=24.868
+2024-04-01 22:27:38,599 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0003.params"
+2024-04-01 22:27:38,927 [INFO]  Epoch[3] Validation-cross-entropy=0.001031
+2024-04-01 22:27:38,927 [INFO]  Epoch[3] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 22:27:49,105 [INFO]  Epoch[4] Batch [0-5708]	Speed: 8974.29 samples/sec	cross-entropy=0.002163	AnyHealthcare-accuracy=0.000000
+2024-04-01 22:27:58,589 [INFO]  Epoch[4] Train-cross-entropy=0.002207
+2024-04-01 22:27:58,589 [INFO]  Epoch[4] Train-AnyHealthcare-accuracy=0.000000
+2024-04-01 22:27:58,589 [INFO]  Epoch[4] Time cost=19.662
+2024-04-01 22:27:58,591 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0004.params"
+2024-04-01 22:27:59,171 [INFO]  Epoch[4] Validation-cross-entropy=0.003098
+2024-04-01 22:27:59,171 [INFO]  Epoch[4] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 22:27:59,171 [INFO]  
+========== done (146.21258068084717 s) fit model
+2024-04-01 23:54:31,772 [INFO]  
+========== start: fit model
+2024-04-01 23:54:31,772 [WARNING]  Already bound, ignoring bind()
+2024-04-01 23:54:46,634 [INFO]  Epoch[0] Batch [0-5708]	Speed: 6210.63 samples/sec	cross-entropy=0.132911	AnyHealthcare-accuracy=3.238746
+2024-04-01 23:55:02,433 [INFO]  Epoch[0] Train-cross-entropy=0.074623
+2024-04-01 23:55:02,433 [INFO]  Epoch[0] Train-AnyHealthcare-accuracy=3.230028
+2024-04-01 23:55:02,433 [INFO]  Epoch[0] Time cost=30.660
+2024-04-01 23:55:02,435 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0000.params"
+2024-04-01 23:55:04,071 [INFO]  Epoch[0] Validation-cross-entropy=0.002167
+2024-04-01 23:55:04,071 [INFO]  Epoch[0] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 23:55:25,236 [INFO]  Epoch[1] Batch [0-5708]	Speed: 4315.41 samples/sec	cross-entropy=0.014353	AnyHealthcare-accuracy=3.238746
+2024-04-01 23:55:44,796 [INFO]  Epoch[1] Train-cross-entropy=0.013320
+2024-04-01 23:55:44,796 [INFO]  Epoch[1] Train-AnyHealthcare-accuracy=3.230028
+2024-04-01 23:55:44,796 [INFO]  Epoch[1] Time cost=40.725
+2024-04-01 23:55:44,798 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0001.params"
+2024-04-01 23:55:46,025 [INFO]  Epoch[1] Validation-cross-entropy=0.021660
+2024-04-01 23:55:46,026 [INFO]  Epoch[1] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 23:55:57,509 [INFO]  Epoch[2] Batch [0-5708]	Speed: 7954.26 samples/sec	cross-entropy=0.008625	AnyHealthcare-accuracy=3.238746
+2024-04-01 23:56:14,278 [INFO]  Epoch[2] Train-cross-entropy=0.007100
+2024-04-01 23:56:14,279 [INFO]  Epoch[2] Train-AnyHealthcare-accuracy=3.230028
+2024-04-01 23:56:14,279 [INFO]  Epoch[2] Time cost=28.253
+2024-04-01 23:56:14,281 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0002.params"
+2024-04-01 23:56:14,856 [INFO]  Epoch[2] Validation-cross-entropy=0.001011
+2024-04-01 23:56:14,856 [INFO]  Epoch[2] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 23:56:43,026 [INFO]  Epoch[3] Batch [0-5708]	Speed: 3242.23 samples/sec	cross-entropy=0.008463	AnyHealthcare-accuracy=3.238746
+2024-04-01 23:57:02,671 [INFO]  Epoch[3] Train-cross-entropy=0.005815
+2024-04-01 23:57:02,671 [INFO]  Epoch[3] Train-AnyHealthcare-accuracy=3.230028
+2024-04-01 23:57:02,672 [INFO]  Epoch[3] Time cost=47.816
+2024-04-01 23:57:02,674 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0003.params"
+2024-04-01 23:57:03,039 [INFO]  Epoch[3] Validation-cross-entropy=0.003122
+2024-04-01 23:57:03,039 [INFO]  Epoch[3] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 23:57:25,869 [INFO]  Epoch[4] Batch [0-5708]	Speed: 4000.68 samples/sec	cross-entropy=0.002646	AnyHealthcare-accuracy=3.238746
+2024-04-01 23:57:46,008 [INFO]  Epoch[4] Train-cross-entropy=0.003587
+2024-04-01 23:57:46,008 [INFO]  Epoch[4] Train-AnyHealthcare-accuracy=3.230028
+2024-04-01 23:57:46,008 [INFO]  Epoch[4] Time cost=42.969
+2024-04-01 23:57:46,010 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0004.params"
+2024-04-01 23:57:46,607 [INFO]  Epoch[4] Validation-cross-entropy=0.005295
+2024-04-01 23:57:46,608 [INFO]  Epoch[4] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-01 23:57:46,608 [INFO]  
+========== done (194.836021900177 s) fit model
+2024-04-02 01:20:36,073 [INFO]  
+========== start: fit model
+2024-04-02 01:20:36,073 [WARNING]  Already bound, ignoring bind()
+2024-04-02 01:21:03,095 [INFO]  Epoch[0] Batch [0-5708]	Speed: 3391.64 samples/sec	cross-entropy=0.123596	AnyHealthcare-accuracy=0.000000
+2024-04-02 01:21:16,133 [INFO]  Epoch[0] Train-cross-entropy=0.070769
+2024-04-02 01:21:16,133 [INFO]  Epoch[0] Train-AnyHealthcare-accuracy=0.000000
+2024-04-02 01:21:16,134 [INFO]  Epoch[0] Time cost=40.060
+2024-04-02 01:21:16,136 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0000.params"
+2024-04-02 01:21:18,087 [INFO]  Epoch[0] Validation-cross-entropy=0.012168
+2024-04-02 01:21:18,088 [INFO]  Epoch[0] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 01:21:43,525 [INFO]  Epoch[1] Batch [0-5708]	Speed: 3593.09 samples/sec	cross-entropy=0.012440	AnyHealthcare-accuracy=0.000000
+2024-04-02 01:22:03,253 [INFO]  Epoch[1] Train-cross-entropy=0.011541
+2024-04-02 01:22:03,253 [INFO]  Epoch[1] Train-AnyHealthcare-accuracy=0.000000
+2024-04-02 01:22:03,253 [INFO]  Epoch[1] Time cost=45.166
+2024-04-02 01:22:03,256 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0001.params"
+2024-04-02 01:22:03,721 [INFO]  Epoch[1] Validation-cross-entropy=0.001185
+2024-04-02 01:22:03,721 [INFO]  Epoch[1] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 01:22:23,630 [INFO]  Epoch[2] Batch [0-5708]	Speed: 4587.57 samples/sec	cross-entropy=0.010246	AnyHealthcare-accuracy=0.000000
+2024-04-02 01:22:40,599 [INFO]  Epoch[2] Train-cross-entropy=0.008336
+2024-04-02 01:22:40,599 [INFO]  Epoch[2] Train-AnyHealthcare-accuracy=0.000000
+2024-04-02 01:22:40,600 [INFO]  Epoch[2] Time cost=36.879
+2024-04-02 01:22:40,602 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0002.params"
+2024-04-02 01:22:40,982 [INFO]  Epoch[2] Validation-cross-entropy=0.000021
+2024-04-02 01:22:40,982 [INFO]  Epoch[2] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 01:22:59,277 [INFO]  Epoch[3] Batch [0-5708]	Speed: 4992.50 samples/sec	cross-entropy=0.004472	AnyHealthcare-accuracy=0.000000
+2024-04-02 01:23:16,320 [INFO]  Epoch[3] Train-cross-entropy=0.004169
+2024-04-02 01:23:16,320 [INFO]  Epoch[3] Train-AnyHealthcare-accuracy=0.000000
+2024-04-02 01:23:16,320 [INFO]  Epoch[3] Time cost=35.338
+2024-04-02 01:23:16,321 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0003.params"
+2024-04-02 01:23:16,671 [INFO]  Epoch[3] Validation-cross-entropy=0.000056
+2024-04-02 01:23:16,671 [INFO]  Epoch[3] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 01:23:30,430 [INFO]  Epoch[4] Batch [0-5708]	Speed: 6638.61 samples/sec	cross-entropy=0.003015	AnyHealthcare-accuracy=0.000000
+2024-04-02 01:23:45,501 [INFO]  Epoch[4] Train-cross-entropy=0.002927
+2024-04-02 01:23:45,502 [INFO]  Epoch[4] Train-AnyHealthcare-accuracy=0.000000
+2024-04-02 01:23:45,502 [INFO]  Epoch[4] Time cost=28.831
+2024-04-02 01:23:45,503 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0004.params"
+2024-04-02 01:23:47,096 [INFO]  Epoch[4] Validation-cross-entropy=0.002412
+2024-04-02 01:23:47,096 [INFO]  Epoch[4] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 01:23:47,096 [INFO]  
+========== done (191.02355003356934 s) fit model
+2024-04-02 02:39:58,557 [INFO]  
+========== start: fit model
+2024-04-02 02:39:58,557 [WARNING]  Already bound, ignoring bind()
+2024-04-02 02:40:10,885 [INFO]  Epoch[0] Batch [0-5708]	Speed: 7604.69 samples/sec	cross-entropy=0.125782	AnyHealthcare-accuracy=0.000000
+2024-04-02 02:40:23,586 [INFO]  Epoch[0] Train-cross-entropy=0.072053
+2024-04-02 02:40:23,586 [INFO]  Epoch[0] Train-AnyHealthcare-accuracy=0.000000
+2024-04-02 02:40:23,586 [INFO]  Epoch[0] Time cost=25.028
+2024-04-02 02:40:23,588 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0000.params"
+2024-04-02 02:40:24,480 [INFO]  Epoch[0] Validation-cross-entropy=0.002033
+2024-04-02 02:40:24,480 [INFO]  Epoch[0] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 02:40:44,560 [INFO]  Epoch[1] Batch [0-5708]	Speed: 4548.43 samples/sec	cross-entropy=0.016762	AnyHealthcare-accuracy=0.000000
+2024-04-02 02:41:04,460 [INFO]  Epoch[1] Train-cross-entropy=0.012830
+2024-04-02 02:41:04,460 [INFO]  Epoch[1] Train-AnyHealthcare-accuracy=0.000000
+2024-04-02 02:41:04,460 [INFO]  Epoch[1] Time cost=39.980
+2024-04-02 02:41:04,463 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0001.params"
+2024-04-02 02:41:06,376 [INFO]  Epoch[1] Validation-cross-entropy=0.013000
+2024-04-02 02:41:06,376 [INFO]  Epoch[1] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 02:41:27,953 [INFO]  Epoch[2] Batch [0-5708]	Speed: 4232.82 samples/sec	cross-entropy=0.006989	AnyHealthcare-accuracy=0.000000
+2024-04-02 02:41:49,521 [INFO]  Epoch[2] Train-cross-entropy=0.006148
+2024-04-02 02:41:49,522 [INFO]  Epoch[2] Train-AnyHealthcare-accuracy=0.000000
+2024-04-02 02:41:49,522 [INFO]  Epoch[2] Time cost=43.146
+2024-04-02 02:41:49,524 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0002.params"
+2024-04-02 02:41:52,123 [INFO]  Epoch[2] Validation-cross-entropy=0.014991
+2024-04-02 02:41:52,124 [INFO]  Epoch[2] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 02:42:15,451 [INFO]  Epoch[3] Batch [0-5708]	Speed: 3915.35 samples/sec	cross-entropy=0.005175	AnyHealthcare-accuracy=0.000000
+2024-04-02 02:42:30,058 [INFO]  Epoch[3] Train-cross-entropy=0.004241
+2024-04-02 02:42:30,058 [INFO]  Epoch[3] Train-AnyHealthcare-accuracy=0.000000
+2024-04-02 02:42:30,059 [INFO]  Epoch[3] Time cost=37.935
+2024-04-02 02:42:30,060 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0003.params"
+2024-04-02 02:42:30,664 [INFO]  Epoch[3] Validation-cross-entropy=0.005399
+2024-04-02 02:42:30,664 [INFO]  Epoch[3] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 02:42:43,975 [INFO]  Epoch[4] Batch [0-5708]	Speed: 6862.32 samples/sec	cross-entropy=0.004211	AnyHealthcare-accuracy=0.000000
+2024-04-02 02:42:59,595 [INFO]  Epoch[4] Train-cross-entropy=0.003847
+2024-04-02 02:42:59,595 [INFO]  Epoch[4] Train-AnyHealthcare-accuracy=0.000000
+2024-04-02 02:42:59,596 [INFO]  Epoch[4] Time cost=28.931
+2024-04-02 02:42:59,598 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0004.params"
+2024-04-02 02:43:00,590 [INFO]  Epoch[4] Validation-cross-entropy=0.005538
+2024-04-02 02:43:00,590 [INFO]  Epoch[4] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 02:43:00,590 [INFO]  
+========== done (182.03301548957825 s) fit model
+2024-04-02 04:06:24,067 [INFO]  
+========== start: fit model
+2024-04-02 04:06:24,067 [WARNING]  Already bound, ignoring bind()
+2024-04-02 04:06:36,166 [INFO]  Epoch[0] Batch [0-5708]	Speed: 7573.14 samples/sec	cross-entropy=0.102779	AnyHealthcare-accuracy=0.000000
+2024-04-02 04:06:57,008 [INFO]  Epoch[0] Train-cross-entropy=0.062423
+2024-04-02 04:06:57,009 [INFO]  Epoch[0] Train-AnyHealthcare-accuracy=0.000000
+2024-04-02 04:06:57,009 [INFO]  Epoch[0] Time cost=32.941
+2024-04-02 04:06:57,011 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0000.params"
+2024-04-02 04:06:58,772 [INFO]  Epoch[0] Validation-cross-entropy=0.022937
+2024-04-02 04:06:58,773 [INFO]  Epoch[0] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 04:07:17,531 [INFO]  Epoch[1] Batch [0-5708]	Speed: 4869.21 samples/sec	cross-entropy=0.011411	AnyHealthcare-accuracy=0.000000
+2024-04-02 04:07:31,915 [INFO]  Epoch[1] Train-cross-entropy=0.011170
+2024-04-02 04:07:31,916 [INFO]  Epoch[1] Train-AnyHealthcare-accuracy=0.000000
+2024-04-02 04:07:31,916 [INFO]  Epoch[1] Time cost=33.143
+2024-04-02 04:07:31,920 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0001.params"
+2024-04-02 04:07:33,358 [INFO]  Epoch[1] Validation-cross-entropy=0.001587
+2024-04-02 04:07:33,358 [INFO]  Epoch[1] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 04:07:57,142 [INFO]  Epoch[2] Batch [0-5708]	Speed: 3840.20 samples/sec	cross-entropy=0.006415	AnyHealthcare-accuracy=0.000000
+2024-04-02 04:08:18,553 [INFO]  Epoch[2] Train-cross-entropy=0.006500
+2024-04-02 04:08:18,553 [INFO]  Epoch[2] Train-AnyHealthcare-accuracy=0.000000
+2024-04-02 04:08:18,553 [INFO]  Epoch[2] Time cost=45.195
+2024-04-02 04:08:18,555 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0002.params"
+2024-04-02 04:08:19,379 [INFO]  Epoch[2] Validation-cross-entropy=0.003721
+2024-04-02 04:08:19,379 [INFO]  Epoch[2] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 04:08:38,813 [INFO]  Epoch[3] Batch [0-5708]	Speed: 4699.89 samples/sec	cross-entropy=0.006141	AnyHealthcare-accuracy=0.000000
+2024-04-02 04:08:52,826 [INFO]  Epoch[3] Train-cross-entropy=0.006413
+2024-04-02 04:08:52,827 [INFO]  Epoch[3] Train-AnyHealthcare-accuracy=0.000000
+2024-04-02 04:08:52,827 [INFO]  Epoch[3] Time cost=33.447
+2024-04-02 04:08:52,830 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0003.params"
+2024-04-02 04:08:53,173 [INFO]  Epoch[3] Validation-cross-entropy=0.000383
+2024-04-02 04:08:53,173 [INFO]  Epoch[3] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 04:09:11,287 [INFO]  Epoch[4] Batch [0-5708]	Speed: 5042.05 samples/sec	cross-entropy=0.003279	AnyHealthcare-accuracy=0.000000
+2024-04-02 04:09:33,116 [INFO]  Epoch[4] Train-cross-entropy=0.003115
+2024-04-02 04:09:33,116 [INFO]  Epoch[4] Train-AnyHealthcare-accuracy=0.000000
+2024-04-02 04:09:33,116 [INFO]  Epoch[4] Time cost=39.943
+2024-04-02 04:09:33,119 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0004.params"
+2024-04-02 04:09:35,956 [INFO]  Epoch[4] Validation-cross-entropy=0.011133
+2024-04-02 04:09:35,956 [INFO]  Epoch[4] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 04:09:35,956 [INFO]  
+========== done (191.8893051147461 s) fit model
+2024-04-02 05:23:41,961 [INFO]  
+========== start: fit model
+2024-04-02 05:23:41,961 [WARNING]  Already bound, ignoring bind()
+2024-04-02 05:24:08,196 [INFO]  Epoch[0] Batch [0-5708]	Speed: 3536.92 samples/sec	cross-entropy=0.133587	AnyHealthcare-accuracy=0.000000
+2024-04-02 05:24:26,288 [INFO]  Epoch[0] Train-cross-entropy=0.076167
+2024-04-02 05:24:26,288 [INFO]  Epoch[0] Train-AnyHealthcare-accuracy=0.000000
+2024-04-02 05:24:26,288 [INFO]  Epoch[0] Time cost=44.326
+2024-04-02 05:24:26,290 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0000.params"
+2024-04-02 05:24:30,825 [INFO]  Epoch[0] Validation-cross-entropy=0.006530
+2024-04-02 05:24:30,825 [INFO]  Epoch[0] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 05:24:42,782 [INFO]  Epoch[1] Batch [0-5708]	Speed: 7639.11 samples/sec	cross-entropy=0.012589	AnyHealthcare-accuracy=0.000000
+2024-04-02 05:25:00,739 [INFO]  Epoch[1] Train-cross-entropy=0.011583
+2024-04-02 05:25:00,739 [INFO]  Epoch[1] Train-AnyHealthcare-accuracy=0.000000
+2024-04-02 05:25:00,739 [INFO]  Epoch[1] Time cost=29.914
+2024-04-02 05:25:00,742 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0001.params"
+2024-04-02 05:25:04,130 [INFO]  Epoch[1] Validation-cross-entropy=0.000376
+2024-04-02 05:25:04,130 [INFO]  Epoch[1] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 05:25:21,169 [INFO]  Epoch[2] Batch [0-5708]	Speed: 5360.13 samples/sec	cross-entropy=0.007610	AnyHealthcare-accuracy=0.000000
+2024-04-02 05:25:40,957 [INFO]  Epoch[2] Train-cross-entropy=0.008227
+2024-04-02 05:25:40,958 [INFO]  Epoch[2] Train-AnyHealthcare-accuracy=0.000000
+2024-04-02 05:25:40,958 [INFO]  Epoch[2] Time cost=36.828
+2024-04-02 05:25:40,961 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0002.params"
+2024-04-02 05:25:42,077 [INFO]  Epoch[2] Validation-cross-entropy=0.001927
+2024-04-02 05:25:42,078 [INFO]  Epoch[2] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 05:26:06,687 [INFO]  Epoch[3] Batch [0-5708]	Speed: 3711.49 samples/sec	cross-entropy=0.005231	AnyHealthcare-accuracy=0.000000
+2024-04-02 05:26:27,232 [INFO]  Epoch[3] Train-cross-entropy=0.005470
+2024-04-02 05:26:27,232 [INFO]  Epoch[3] Train-AnyHealthcare-accuracy=0.000000
+2024-04-02 05:26:27,232 [INFO]  Epoch[3] Time cost=45.154
+2024-04-02 05:26:27,234 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0003.params"
+2024-04-02 05:26:29,776 [INFO]  Epoch[3] Validation-cross-entropy=0.001636
+2024-04-02 05:26:29,776 [INFO]  Epoch[3] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 05:26:44,787 [INFO]  Epoch[4] Batch [0-5708]	Speed: 6084.43 samples/sec	cross-entropy=0.005350	AnyHealthcare-accuracy=0.000000
+2024-04-02 05:26:56,427 [INFO]  Epoch[4] Train-cross-entropy=0.006042
+2024-04-02 05:26:56,427 [INFO]  Epoch[4] Train-AnyHealthcare-accuracy=0.000000
+2024-04-02 05:26:56,427 [INFO]  Epoch[4] Time cost=26.651
+2024-04-02 05:26:56,428 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0004.params"
+2024-04-02 05:26:58,355 [INFO]  Epoch[4] Validation-cross-entropy=0.000966
+2024-04-02 05:26:58,356 [INFO]  Epoch[4] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 05:26:58,356 [INFO]  
+========== done (196.3943796157837 s) fit model
+2024-04-02 06:47:51,771 [INFO]  
+========== start: fit model
+2024-04-02 06:47:51,771 [WARNING]  Already bound, ignoring bind()
+2024-04-02 06:48:10,581 [INFO]  Epoch[0] Batch [0-5708]	Speed: 4917.34 samples/sec	cross-entropy=0.096332	AnyHealthcare-accuracy=0.000000
+2024-04-02 06:48:29,722 [INFO]  Epoch[0] Train-cross-entropy=0.060328
+2024-04-02 06:48:29,722 [INFO]  Epoch[0] Train-AnyHealthcare-accuracy=0.000000
+2024-04-02 06:48:29,722 [INFO]  Epoch[0] Time cost=37.950
+2024-04-02 06:48:29,724 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0000.params"
+2024-04-02 06:48:33,678 [INFO]  Epoch[0] Validation-cross-entropy=0.000671
+2024-04-02 06:48:33,679 [INFO]  Epoch[0] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 06:48:53,398 [INFO]  Epoch[1] Batch [0-5708]	Speed: 4631.61 samples/sec	cross-entropy=0.012436	AnyHealthcare-accuracy=0.000000
+2024-04-02 06:49:10,285 [INFO]  Epoch[1] Train-cross-entropy=0.010832
+2024-04-02 06:49:10,286 [INFO]  Epoch[1] Train-AnyHealthcare-accuracy=0.000000
+2024-04-02 06:49:10,286 [INFO]  Epoch[1] Time cost=36.608
+2024-04-02 06:49:10,289 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0001.params"
+2024-04-02 06:49:11,039 [INFO]  Epoch[1] Validation-cross-entropy=0.003828
+2024-04-02 06:49:11,039 [INFO]  Epoch[1] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 06:49:39,407 [INFO]  Epoch[2] Batch [0-5708]	Speed: 3219.58 samples/sec	cross-entropy=0.008244	AnyHealthcare-accuracy=0.000000
+2024-04-02 06:50:00,357 [INFO]  Epoch[2] Train-cross-entropy=0.008757
+2024-04-02 06:50:00,357 [INFO]  Epoch[2] Train-AnyHealthcare-accuracy=0.000000
+2024-04-02 06:50:00,358 [INFO]  Epoch[2] Time cost=49.319
+2024-04-02 06:50:00,360 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0002.params"
+2024-04-02 06:50:00,692 [INFO]  Epoch[2] Validation-cross-entropy=0.007615
+2024-04-02 06:50:00,693 [INFO]  Epoch[2] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 06:50:25,391 [INFO]  Epoch[3] Batch [0-5708]	Speed: 3698.05 samples/sec	cross-entropy=0.005257	AnyHealthcare-accuracy=0.000000
+2024-04-02 06:50:41,140 [INFO]  Epoch[3] Train-cross-entropy=0.006157
+2024-04-02 06:50:41,140 [INFO]  Epoch[3] Train-AnyHealthcare-accuracy=0.000000
+2024-04-02 06:50:41,141 [INFO]  Epoch[3] Time cost=40.448
+2024-04-02 06:50:41,143 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0003.params"
+2024-04-02 06:50:42,022 [INFO]  Epoch[3] Validation-cross-entropy=0.000895
+2024-04-02 06:50:42,022 [INFO]  Epoch[3] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 06:51:02,837 [INFO]  Epoch[4] Batch [0-5708]	Speed: 4388.08 samples/sec	cross-entropy=0.004939	AnyHealthcare-accuracy=0.000000
+2024-04-02 06:51:12,719 [INFO]  Epoch[4] Train-cross-entropy=0.006200
+2024-04-02 06:51:12,719 [INFO]  Epoch[4] Train-AnyHealthcare-accuracy=0.000000
+2024-04-02 06:51:12,719 [INFO]  Epoch[4] Time cost=30.697
+2024-04-02 06:51:12,721 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0004.params"
+2024-04-02 06:51:13,049 [INFO]  Epoch[4] Validation-cross-entropy=0.000445
+2024-04-02 06:51:13,049 [INFO]  Epoch[4] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 06:51:13,049 [INFO]  
+========== done (201.2779414653778 s) fit model
+2024-04-02 08:05:01,900 [INFO]  
+========== start: fit model
+2024-04-02 08:05:01,900 [WARNING]  Already bound, ignoring bind()
+2024-04-02 08:05:21,382 [INFO]  Epoch[0] Batch [0-5708]	Speed: 4710.16 samples/sec	cross-entropy=0.131585	AnyHealthcare-accuracy=3.211946
+2024-04-02 08:05:36,286 [INFO]  Epoch[0] Train-cross-entropy=0.073650
+2024-04-02 08:05:36,286 [INFO]  Epoch[0] Train-AnyHealthcare-accuracy=3.221794
+2024-04-02 08:05:36,286 [INFO]  Epoch[0] Time cost=34.384
+2024-04-02 08:05:36,288 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0000.params"
+2024-04-02 08:05:36,816 [INFO]  Epoch[0] Validation-cross-entropy=0.012294
+2024-04-02 08:05:36,817 [INFO]  Epoch[0] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 08:05:57,914 [INFO]  Epoch[1] Batch [0-5708]	Speed: 4329.18 samples/sec	cross-entropy=0.012379	AnyHealthcare-accuracy=3.211946
+2024-04-02 08:06:16,736 [INFO]  Epoch[1] Train-cross-entropy=0.009310
+2024-04-02 08:06:16,737 [INFO]  Epoch[1] Train-AnyHealthcare-accuracy=3.221794
+2024-04-02 08:06:16,737 [INFO]  Epoch[1] Time cost=39.920
+2024-04-02 08:06:16,739 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0001.params"
+2024-04-02 08:06:17,088 [INFO]  Epoch[1] Validation-cross-entropy=0.015277
+2024-04-02 08:06:17,088 [INFO]  Epoch[1] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 08:06:54,336 [INFO]  Epoch[2] Batch [0-5708]	Speed: 2451.96 samples/sec	cross-entropy=0.006098	AnyHealthcare-accuracy=3.211946
+2024-04-02 08:07:22,710 [INFO]  Epoch[2] Train-cross-entropy=0.005573
+2024-04-02 08:07:22,710 [INFO]  Epoch[2] Train-AnyHealthcare-accuracy=3.221794
+2024-04-02 08:07:22,710 [INFO]  Epoch[2] Time cost=65.622
+2024-04-02 08:07:22,712 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0002.params"
+2024-04-02 08:07:23,518 [INFO]  Epoch[2] Validation-cross-entropy=0.002057
+2024-04-02 08:07:23,518 [INFO]  Epoch[2] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 08:07:46,080 [INFO]  Epoch[3] Batch [0-5708]	Speed: 4048.19 samples/sec	cross-entropy=0.005584	AnyHealthcare-accuracy=3.211946
+2024-04-02 08:08:17,352 [INFO]  Epoch[3] Train-cross-entropy=0.004311
+2024-04-02 08:08:17,352 [INFO]  Epoch[3] Train-AnyHealthcare-accuracy=3.221794
+2024-04-02 08:08:17,352 [INFO]  Epoch[3] Time cost=53.833
+2024-04-02 08:08:17,354 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0003.params"
+2024-04-02 08:08:19,544 [INFO]  Epoch[3] Validation-cross-entropy=0.012935
+2024-04-02 08:08:19,544 [INFO]  Epoch[3] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 08:08:57,852 [INFO]  Epoch[4] Batch [0-5708]	Speed: 2384.17 samples/sec	cross-entropy=0.003150	AnyHealthcare-accuracy=3.211946
+2024-04-02 08:09:29,567 [INFO]  Epoch[4] Train-cross-entropy=0.003028
+2024-04-02 08:09:29,567 [INFO]  Epoch[4] Train-AnyHealthcare-accuracy=3.221794
+2024-04-02 08:09:29,567 [INFO]  Epoch[4] Time cost=70.023
+2024-04-02 08:09:29,570 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0004.params"
+2024-04-02 08:09:29,856 [INFO]  Epoch[4] Validation-cross-entropy=0.006704
+2024-04-02 08:09:29,856 [INFO]  Epoch[4] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 08:09:29,856 [INFO]  
+========== done (267.9563670158386 s) fit model
+2024-04-02 09:30:07,403 [INFO]  
+========== start: fit model
+2024-04-02 09:30:07,404 [WARNING]  Already bound, ignoring bind()
+2024-04-02 09:30:29,924 [INFO]  Epoch[0] Batch [0-5708]	Speed: 4094.15 samples/sec	cross-entropy=0.135005	AnyHealthcare-accuracy=0.000000
+2024-04-02 09:30:50,060 [INFO]  Epoch[0] Train-cross-entropy=0.077102
+2024-04-02 09:30:50,061 [INFO]  Epoch[0] Train-AnyHealthcare-accuracy=0.000000
+2024-04-02 09:30:50,061 [INFO]  Epoch[0] Time cost=42.655
+2024-04-02 09:30:50,062 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0000.params"
+2024-04-02 09:30:52,195 [INFO]  Epoch[0] Validation-cross-entropy=0.081084
+2024-04-02 09:30:52,195 [INFO]  Epoch[0] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 09:31:07,708 [INFO]  Epoch[1] Batch [0-5708]	Speed: 5889.30 samples/sec	cross-entropy=0.011982	AnyHealthcare-accuracy=0.000000
+2024-04-02 09:31:29,158 [INFO]  Epoch[1] Train-cross-entropy=0.010467
+2024-04-02 09:31:29,158 [INFO]  Epoch[1] Train-AnyHealthcare-accuracy=0.000000
+2024-04-02 09:31:29,158 [INFO]  Epoch[1] Time cost=36.963
+2024-04-02 09:31:29,160 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0001.params"
+2024-04-02 09:31:29,812 [INFO]  Epoch[1] Validation-cross-entropy=0.077855
+2024-04-02 09:31:29,812 [INFO]  Epoch[1] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 09:31:53,394 [INFO]  Epoch[2] Batch [0-5708]	Speed: 3873.06 samples/sec	cross-entropy=0.006393	AnyHealthcare-accuracy=0.000000
+2024-04-02 09:32:12,432 [INFO]  Epoch[2] Train-cross-entropy=0.006112
+2024-04-02 09:32:12,432 [INFO]  Epoch[2] Train-AnyHealthcare-accuracy=0.000000
+2024-04-02 09:32:12,432 [INFO]  Epoch[2] Time cost=42.620
+2024-04-02 09:32:12,434 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0002.params"
+2024-04-02 09:32:13,163 [INFO]  Epoch[2] Validation-cross-entropy=0.005209
+2024-04-02 09:32:13,163 [INFO]  Epoch[2] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 09:32:38,031 [INFO]  Epoch[3] Batch [0-5708]	Speed: 3672.81 samples/sec	cross-entropy=0.005998	AnyHealthcare-accuracy=0.000000
+2024-04-02 09:32:54,945 [INFO]  Epoch[3] Train-cross-entropy=0.005911
+2024-04-02 09:32:54,946 [INFO]  Epoch[3] Train-AnyHealthcare-accuracy=0.000000
+2024-04-02 09:32:54,946 [INFO]  Epoch[3] Time cost=41.783
+2024-04-02 09:32:54,948 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0003.params"
+2024-04-02 09:32:56,378 [INFO]  Epoch[3] Validation-cross-entropy=0.002878
+2024-04-02 09:32:56,378 [INFO]  Epoch[3] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 09:33:14,566 [INFO]  Epoch[4] Batch [0-5708]	Speed: 5021.72 samples/sec	cross-entropy=0.005543	AnyHealthcare-accuracy=0.000000
+2024-04-02 09:33:38,628 [INFO]  Epoch[4] Train-cross-entropy=0.005045
+2024-04-02 09:33:38,628 [INFO]  Epoch[4] Train-AnyHealthcare-accuracy=0.000000
+2024-04-02 09:33:38,629 [INFO]  Epoch[4] Time cost=42.251
+2024-04-02 09:33:38,631 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0004.params"
+2024-04-02 09:33:39,348 [INFO]  Epoch[4] Validation-cross-entropy=0.000409
+2024-04-02 09:33:39,348 [INFO]  Epoch[4] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 09:33:39,348 [INFO]  
+========== done (211.94499325752258 s) fit model
+2024-04-02 10:45:07,930 [INFO]  
+========== start: fit model
+2024-04-02 10:45:07,930 [WARNING]  Already bound, ignoring bind()
+2024-04-02 10:45:12,319 [INFO]  Epoch[0] Batch [0-5708]	Speed: 20844.67 samples/sec	cross-entropy=0.106387	AnyHealthcare-accuracy=0.000000
+2024-04-02 10:45:16,123 [INFO]  Epoch[0] Train-cross-entropy=0.066054
+2024-04-02 10:45:16,123 [INFO]  Epoch[0] Train-AnyHealthcare-accuracy=0.000000
+2024-04-02 10:45:16,123 [INFO]  Epoch[0] Time cost=8.192
+2024-04-02 10:45:16,125 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0000.params"
+2024-04-02 10:45:16,358 [INFO]  Epoch[0] Validation-cross-entropy=0.003824
+2024-04-02 10:45:16,358 [INFO]  Epoch[0] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 10:45:19,862 [INFO]  Epoch[1] Batch [0-5708]	Speed: 26071.33 samples/sec	cross-entropy=0.015000	AnyHealthcare-accuracy=0.000000
+2024-04-02 10:45:23,783 [INFO]  Epoch[1] Train-cross-entropy=0.012278
+2024-04-02 10:45:23,783 [INFO]  Epoch[1] Train-AnyHealthcare-accuracy=0.000000
+2024-04-02 10:45:23,784 [INFO]  Epoch[1] Time cost=7.426
+2024-04-02 10:45:23,785 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0001.params"
+2024-04-02 10:45:24,011 [INFO]  Epoch[1] Validation-cross-entropy=0.011844
+2024-04-02 10:45:24,012 [INFO]  Epoch[1] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 10:45:29,806 [INFO]  Epoch[2] Batch [0-5708]	Speed: 15763.13 samples/sec	cross-entropy=0.007091	AnyHealthcare-accuracy=0.000000
+2024-04-02 10:45:33,764 [INFO]  Epoch[2] Train-cross-entropy=0.006203
+2024-04-02 10:45:33,764 [INFO]  Epoch[2] Train-AnyHealthcare-accuracy=0.000000
+2024-04-02 10:45:33,764 [INFO]  Epoch[2] Time cost=9.752
+2024-04-02 10:45:33,765 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0002.params"
+2024-04-02 10:45:34,001 [INFO]  Epoch[2] Validation-cross-entropy=0.000012
+2024-04-02 10:45:34,001 [INFO]  Epoch[2] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 10:45:37,765 [INFO]  Epoch[3] Batch [0-5708]	Speed: 24271.50 samples/sec	cross-entropy=0.003358	AnyHealthcare-accuracy=0.000000
+2024-04-02 10:45:41,512 [INFO]  Epoch[3] Train-cross-entropy=0.002892
+2024-04-02 10:45:41,512 [INFO]  Epoch[3] Train-AnyHealthcare-accuracy=0.000000
+2024-04-02 10:45:41,512 [INFO]  Epoch[3] Time cost=7.511
+2024-04-02 10:45:41,514 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0003.params"
+2024-04-02 10:45:41,750 [INFO]  Epoch[3] Validation-cross-entropy=0.001031
+2024-04-02 10:45:41,750 [INFO]  Epoch[3] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 10:45:47,621 [INFO]  Epoch[4] Batch [0-5708]	Speed: 15558.90 samples/sec	cross-entropy=0.002163	AnyHealthcare-accuracy=0.000000
+2024-04-02 10:45:51,203 [INFO]  Epoch[4] Train-cross-entropy=0.002207
+2024-04-02 10:45:51,203 [INFO]  Epoch[4] Train-AnyHealthcare-accuracy=0.000000
+2024-04-02 10:45:51,203 [INFO]  Epoch[4] Time cost=9.453
+2024-04-02 10:45:51,205 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0004.params"
+2024-04-02 10:45:51,440 [INFO]  Epoch[4] Validation-cross-entropy=0.003098
+2024-04-02 10:45:51,440 [INFO]  Epoch[4] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 10:45:51,440 [INFO]  
+========== done (43.51058101654053 s) fit model
+2024-04-02 11:15:06,711 [INFO]  
+========== start: fit model
+2024-04-02 11:15:06,711 [WARNING]  Already bound, ignoring bind()
+2024-04-02 11:15:10,901 [INFO]  Epoch[0] Batch [0-5708]	Speed: 21861.58 samples/sec	cross-entropy=0.119658	AnyHealthcare-accuracy=3.222456
+2024-04-02 11:15:14,892 [INFO]  Epoch[0] Train-cross-entropy=0.069225
+2024-04-02 11:15:14,892 [INFO]  Epoch[0] Train-AnyHealthcare-accuracy=3.240102
+2024-04-02 11:15:14,892 [INFO]  Epoch[0] Time cost=8.180
+2024-04-02 11:15:14,893 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0000.params"
+2024-04-02 11:15:15,177 [INFO]  Epoch[0] Validation-cross-entropy=0.000127
+2024-04-02 11:15:15,177 [INFO]  Epoch[0] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 11:15:20,305 [INFO]  Epoch[1] Batch [0-5708]	Speed: 17810.99 samples/sec	cross-entropy=0.012938	AnyHealthcare-accuracy=3.222456
+2024-04-02 11:15:24,640 [INFO]  Epoch[1] Train-cross-entropy=0.011077
+2024-04-02 11:15:24,640 [INFO]  Epoch[1] Train-AnyHealthcare-accuracy=3.240102
+2024-04-02 11:15:24,640 [INFO]  Epoch[1] Time cost=9.464
+2024-04-02 11:15:24,644 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0001.params"
+2024-04-02 11:15:24,885 [INFO]  Epoch[1] Validation-cross-entropy=0.001121
+2024-04-02 11:15:24,885 [INFO]  Epoch[1] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 11:15:28,810 [INFO]  Epoch[2] Batch [0-5708]	Speed: 23273.14 samples/sec	cross-entropy=0.008186	AnyHealthcare-accuracy=3.222456
+2024-04-02 11:15:33,748 [INFO]  Epoch[2] Train-cross-entropy=0.008113
+2024-04-02 11:15:33,748 [INFO]  Epoch[2] Train-AnyHealthcare-accuracy=3.240102
+2024-04-02 11:15:33,748 [INFO]  Epoch[2] Time cost=8.863
+2024-04-02 11:15:33,749 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0002.params"
+2024-04-02 11:15:34,223 [INFO]  Epoch[2] Validation-cross-entropy=0.000093
+2024-04-02 11:15:34,223 [INFO]  Epoch[2] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 11:15:38,215 [INFO]  Epoch[3] Batch [0-5708]	Speed: 22882.77 samples/sec	cross-entropy=0.006218	AnyHealthcare-accuracy=3.222456
+2024-04-02 11:15:42,124 [INFO]  Epoch[3] Train-cross-entropy=0.005862
+2024-04-02 11:15:42,124 [INFO]  Epoch[3] Train-AnyHealthcare-accuracy=3.240102
+2024-04-02 11:15:42,125 [INFO]  Epoch[3] Time cost=7.901
+2024-04-02 11:15:42,126 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0003.params"
+2024-04-02 11:15:42,396 [INFO]  Epoch[3] Validation-cross-entropy=0.000192
+2024-04-02 11:15:42,396 [INFO]  Epoch[3] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 11:15:46,355 [INFO]  Epoch[4] Batch [0-5708]	Speed: 23075.25 samples/sec	cross-entropy=0.005797	AnyHealthcare-accuracy=3.222456
+2024-04-02 11:15:51,388 [INFO]  Epoch[4] Train-cross-entropy=0.005718
+2024-04-02 11:15:51,388 [INFO]  Epoch[4] Train-AnyHealthcare-accuracy=3.240102
+2024-04-02 11:15:51,388 [INFO]  Epoch[4] Time cost=8.993
+2024-04-02 11:15:51,390 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0004.params"
+2024-04-02 11:15:51,693 [INFO]  Epoch[4] Validation-cross-entropy=0.000001
+2024-04-02 11:15:51,693 [INFO]  Epoch[4] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 11:15:51,693 [INFO]  
+========== done (44.98232054710388 s) fit model
+2024-04-02 11:45:28,826 [INFO]  
+========== start: fit model
+2024-04-02 11:45:28,826 [WARNING]  Already bound, ignoring bind()
+2024-04-02 11:45:33,665 [INFO]  Epoch[0] Batch [0-5708]	Speed: 18903.82 samples/sec	cross-entropy=0.122065	AnyHealthcare-accuracy=3.237520
+2024-04-02 11:46:46,478 [INFO]  Epoch[0] Train-cross-entropy=0.070290
+2024-04-02 11:46:46,478 [INFO]  Epoch[0] Train-AnyHealthcare-accuracy=3.235284
+2024-04-02 11:46:46,478 [INFO]  Epoch[0] Time cost=77.651
+2024-04-02 11:46:46,480 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0000.params"
+2024-04-02 11:46:51,970 [INFO]  Epoch[0] Validation-cross-entropy=0.040811
+2024-04-02 11:46:51,971 [INFO]  Epoch[0] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 11:47:57,720 [INFO]  Epoch[1] Batch [0-5708]	Speed: 1389.06 samples/sec	cross-entropy=0.014041	AnyHealthcare-accuracy=3.237520
+2024-04-02 11:49:05,832 [INFO]  Epoch[1] Train-cross-entropy=0.012054
+2024-04-02 11:49:05,833 [INFO]  Epoch[1] Train-AnyHealthcare-accuracy=3.235284
+2024-04-02 11:49:05,833 [INFO]  Epoch[1] Time cost=133.862
+2024-04-02 11:49:05,835 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0001.params"
+2024-04-02 11:49:16,342 [INFO]  Epoch[1] Validation-cross-entropy=0.022148
+2024-04-02 11:49:16,342 [INFO]  Epoch[1] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 11:50:09,368 [INFO]  Epoch[2] Batch [0-5708]	Speed: 1722.81 samples/sec	cross-entropy=0.011226	AnyHealthcare-accuracy=3.237520
+2024-04-02 11:51:26,163 [INFO]  Epoch[2] Train-cross-entropy=0.009811
+2024-04-02 11:51:26,164 [INFO]  Epoch[2] Train-AnyHealthcare-accuracy=3.235284
+2024-04-02 11:51:26,164 [INFO]  Epoch[2] Time cost=129.821
+2024-04-02 11:51:26,165 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0002.params"
+2024-04-02 11:51:26,439 [INFO]  Epoch[2] Validation-cross-entropy=0.017024
+2024-04-02 11:51:26,439 [INFO]  Epoch[2] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 11:52:23,455 [INFO]  Epoch[3] Batch [0-5708]	Speed: 1601.84 samples/sec	cross-entropy=0.009329	AnyHealthcare-accuracy=3.237520
+2024-04-02 11:53:19,510 [INFO]  Epoch[3] Train-cross-entropy=0.007373
+2024-04-02 11:53:19,510 [INFO]  Epoch[3] Train-AnyHealthcare-accuracy=3.235284
+2024-04-02 11:53:19,510 [INFO]  Epoch[3] Time cost=113.071
+2024-04-02 11:53:19,512 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0003.params"
+2024-04-02 11:53:19,760 [INFO]  Epoch[3] Validation-cross-entropy=0.002500
+2024-04-02 11:53:19,760 [INFO]  Epoch[3] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 11:54:14,486 [INFO]  Epoch[4] Batch [0-5708]	Speed: 1668.84 samples/sec	cross-entropy=0.005017	AnyHealthcare-accuracy=3.237520
+2024-04-02 11:55:13,116 [INFO]  Epoch[4] Train-cross-entropy=0.004758
+2024-04-02 11:55:13,117 [INFO]  Epoch[4] Train-AnyHealthcare-accuracy=3.235284
+2024-04-02 11:55:13,117 [INFO]  Epoch[4] Time cost=113.357
+2024-04-02 11:55:13,118 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_AnyHealthcare/model-0004.params"
+2024-04-02 11:55:13,356 [INFO]  Epoch[4] Validation-cross-entropy=0.015263
+2024-04-02 11:55:13,356 [INFO]  Epoch[4] Validation-AnyHealthcare-accuracy=0.000000
+2024-04-02 11:55:13,356 [INFO]  
+========== done (584.5302410125732 s) fit model

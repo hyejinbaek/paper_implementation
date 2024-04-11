@@ -1,0 +1,778 @@
+2024-04-01 10:05:37,748 [INFO]  
+========== start: fit model
+2024-04-01 10:05:37,748 [WARNING]  Already bound, ignoring bind()
+2024-04-01 10:06:05,699 [INFO]  Epoch[0] Batch [0-5708]	Speed: 3279.98 samples/sec	cross-entropy=0.099531	GenHlth-accuracy=3.189175
+2024-04-01 10:06:29,626 [INFO]  Epoch[0] Train-cross-entropy=0.054901
+2024-04-01 10:06:29,626 [INFO]  Epoch[0] Train-GenHlth-accuracy=3.202786
+2024-04-01 10:06:29,626 [INFO]  Epoch[0] Time cost=51.877
+2024-04-01 10:06:29,628 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0000.params"
+2024-04-01 10:06:30,575 [INFO]  Epoch[0] Validation-cross-entropy=0.008811
+2024-04-01 10:06:30,576 [INFO]  Epoch[0] Validation-GenHlth-accuracy=0.000000
+2024-04-01 10:06:54,797 [INFO]  Epoch[1] Batch [0-5708]	Speed: 3770.73 samples/sec	cross-entropy=0.007115	GenHlth-accuracy=3.189175
+2024-04-01 10:07:18,422 [INFO]  Epoch[1] Train-cross-entropy=0.005586
+2024-04-01 10:07:18,422 [INFO]  Epoch[1] Train-GenHlth-accuracy=3.202786
+2024-04-01 10:07:18,422 [INFO]  Epoch[1] Time cost=47.847
+2024-04-01 10:07:18,424 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0001.params"
+2024-04-01 10:07:18,733 [INFO]  Epoch[1] Validation-cross-entropy=0.005507
+2024-04-01 10:07:18,733 [INFO]  Epoch[1] Validation-GenHlth-accuracy=0.000000
+2024-04-01 10:07:45,716 [INFO]  Epoch[2] Batch [0-5708]	Speed: 3384.75 samples/sec	cross-entropy=0.003812	GenHlth-accuracy=3.189175
+2024-04-01 10:08:14,170 [INFO]  Epoch[2] Train-cross-entropy=0.003147
+2024-04-01 10:08:14,170 [INFO]  Epoch[2] Train-GenHlth-accuracy=3.202786
+2024-04-01 10:08:14,170 [INFO]  Epoch[2] Time cost=55.437
+2024-04-01 10:08:14,172 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0002.params"
+2024-04-01 10:08:14,675 [INFO]  Epoch[2] Validation-cross-entropy=0.000270
+2024-04-01 10:08:14,675 [INFO]  Epoch[2] Validation-GenHlth-accuracy=0.000000
+2024-04-01 10:08:39,470 [INFO]  Epoch[3] Batch [0-5708]	Speed: 3683.64 samples/sec	cross-entropy=0.002627	GenHlth-accuracy=3.189175
+2024-04-01 10:09:04,995 [INFO]  Epoch[3] Train-cross-entropy=0.002505
+2024-04-01 10:09:04,995 [INFO]  Epoch[3] Train-GenHlth-accuracy=3.202786
+2024-04-01 10:09:04,995 [INFO]  Epoch[3] Time cost=50.320
+2024-04-01 10:09:04,997 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0003.params"
+2024-04-01 10:09:06,528 [INFO]  Epoch[3] Validation-cross-entropy=0.000613
+2024-04-01 10:09:06,529 [INFO]  Epoch[3] Validation-GenHlth-accuracy=0.000000
+2024-04-01 10:09:35,604 [INFO]  Epoch[4] Batch [0-5708]	Speed: 3141.20 samples/sec	cross-entropy=0.002235	GenHlth-accuracy=3.189175
+2024-04-01 10:09:58,702 [INFO]  Epoch[4] Train-cross-entropy=0.002240
+2024-04-01 10:09:58,702 [INFO]  Epoch[4] Train-GenHlth-accuracy=3.202786
+2024-04-01 10:09:58,702 [INFO]  Epoch[4] Time cost=52.173
+2024-04-01 10:09:58,704 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0004.params"
+2024-04-01 10:10:01,527 [INFO]  Epoch[4] Validation-cross-entropy=0.007876
+2024-04-01 10:10:01,527 [INFO]  Epoch[4] Validation-GenHlth-accuracy=0.000000
+2024-04-01 10:10:01,527 [INFO]  
+========== done (263.77919006347656 s) fit model
+2024-04-01 11:58:49,596 [INFO]  
+========== start: fit model
+2024-04-01 11:58:49,596 [WARNING]  Already bound, ignoring bind()
+2024-04-01 11:59:18,826 [INFO]  Epoch[0] Batch [0-5708]	Speed: 3130.98 samples/sec	cross-entropy=0.082857	GenHlth-accuracy=0.000000
+2024-04-01 11:59:46,084 [INFO]  Epoch[0] Train-cross-entropy=0.047981
+2024-04-01 11:59:46,085 [INFO]  Epoch[0] Train-GenHlth-accuracy=0.000000
+2024-04-01 11:59:46,085 [INFO]  Epoch[0] Time cost=56.488
+2024-04-01 11:59:46,086 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0000.params"
+2024-04-01 11:59:47,466 [INFO]  Epoch[0] Validation-cross-entropy=0.006053
+2024-04-01 11:59:47,466 [INFO]  Epoch[0] Validation-GenHlth-accuracy=0.000000
+2024-04-01 12:00:15,056 [INFO]  Epoch[1] Batch [0-5708]	Speed: 3310.82 samples/sec	cross-entropy=0.006454	GenHlth-accuracy=0.000000
+2024-04-01 12:00:32,702 [INFO]  Epoch[1] Train-cross-entropy=0.005165
+2024-04-01 12:00:32,703 [INFO]  Epoch[1] Train-GenHlth-accuracy=0.000000
+2024-04-01 12:00:32,703 [INFO]  Epoch[1] Time cost=45.237
+2024-04-01 12:00:32,705 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0001.params"
+2024-04-01 12:00:33,728 [INFO]  Epoch[1] Validation-cross-entropy=0.003943
+2024-04-01 12:00:33,728 [INFO]  Epoch[1] Validation-GenHlth-accuracy=0.000000
+2024-04-01 12:00:57,598 [INFO]  Epoch[2] Batch [0-5708]	Speed: 3826.35 samples/sec	cross-entropy=0.003109	GenHlth-accuracy=0.000000
+2024-04-01 12:01:27,018 [INFO]  Epoch[2] Train-cross-entropy=0.003210
+2024-04-01 12:01:27,018 [INFO]  Epoch[2] Train-GenHlth-accuracy=0.000000
+2024-04-01 12:01:27,018 [INFO]  Epoch[2] Time cost=53.290
+2024-04-01 12:01:27,020 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0002.params"
+2024-04-01 12:01:28,483 [INFO]  Epoch[2] Validation-cross-entropy=0.000013
+2024-04-01 12:01:28,483 [INFO]  Epoch[2] Validation-GenHlth-accuracy=0.000000
+2024-04-01 12:01:58,862 [INFO]  Epoch[3] Batch [0-5708]	Speed: 3006.39 samples/sec	cross-entropy=0.002602	GenHlth-accuracy=0.000000
+2024-04-01 12:02:21,701 [INFO]  Epoch[3] Train-cross-entropy=0.002502
+2024-04-01 12:02:21,701 [INFO]  Epoch[3] Train-GenHlth-accuracy=0.000000
+2024-04-01 12:02:21,701 [INFO]  Epoch[3] Time cost=53.218
+2024-04-01 12:02:21,703 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0003.params"
+2024-04-01 12:02:22,187 [INFO]  Epoch[3] Validation-cross-entropy=0.001014
+2024-04-01 12:02:22,187 [INFO]  Epoch[3] Validation-GenHlth-accuracy=0.000000
+2024-04-01 12:02:50,807 [INFO]  Epoch[4] Batch [0-5708]	Speed: 3191.17 samples/sec	cross-entropy=0.002145	GenHlth-accuracy=0.000000
+2024-04-01 12:03:21,843 [INFO]  Epoch[4] Train-cross-entropy=0.001941
+2024-04-01 12:03:21,844 [INFO]  Epoch[4] Train-GenHlth-accuracy=0.000000
+2024-04-01 12:03:21,844 [INFO]  Epoch[4] Time cost=59.656
+2024-04-01 12:03:21,845 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0004.params"
+2024-04-01 12:03:23,696 [INFO]  Epoch[4] Validation-cross-entropy=0.000085
+2024-04-01 12:03:23,696 [INFO]  Epoch[4] Validation-GenHlth-accuracy=0.000000
+2024-04-01 12:03:23,696 [INFO]  
+========== done (274.1000716686249 s) fit model
+2024-04-01 13:45:31,761 [INFO]  
+========== start: fit model
+2024-04-01 13:45:31,766 [WARNING]  Already bound, ignoring bind()
+2024-04-01 13:45:50,231 [INFO]  Epoch[0] Batch [0-5708]	Speed: 4952.60 samples/sec	cross-entropy=0.086315	GenHlth-accuracy=3.204239
+2024-04-01 13:46:10,054 [INFO]  Epoch[0] Train-cross-entropy=0.048850
+2024-04-01 13:46:10,054 [INFO]  Epoch[0] Train-GenHlth-accuracy=3.193238
+2024-04-01 13:46:10,054 [INFO]  Epoch[0] Time cost=38.288
+2024-04-01 13:46:10,066 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0000.params"
+2024-04-01 13:46:11,222 [INFO]  Epoch[0] Validation-cross-entropy=0.005595
+2024-04-01 13:46:11,222 [INFO]  Epoch[0] Validation-GenHlth-accuracy=0.000000
+2024-04-01 13:46:36,630 [INFO]  Epoch[1] Batch [0-5708]	Speed: 3595.26 samples/sec	cross-entropy=0.005859	GenHlth-accuracy=3.204239
+2024-04-01 13:47:04,319 [INFO]  Epoch[1] Train-cross-entropy=0.005547
+2024-04-01 13:47:04,336 [INFO]  Epoch[1] Train-GenHlth-accuracy=3.193238
+2024-04-01 13:47:04,337 [INFO]  Epoch[1] Time cost=53.114
+2024-04-01 13:47:04,338 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0001.params"
+2024-04-01 13:47:06,369 [INFO]  Epoch[1] Validation-cross-entropy=0.001745
+2024-04-01 13:47:06,369 [INFO]  Epoch[1] Validation-GenHlth-accuracy=0.000000
+2024-04-01 13:47:34,940 [INFO]  Epoch[2] Batch [0-5708]	Speed: 3196.63 samples/sec	cross-entropy=0.003532	GenHlth-accuracy=3.204239
+2024-04-01 13:48:01,498 [INFO]  Epoch[2] Train-cross-entropy=0.003132
+2024-04-01 13:48:01,516 [INFO]  Epoch[2] Train-GenHlth-accuracy=3.193238
+2024-04-01 13:48:01,516 [INFO]  Epoch[2] Time cost=55.147
+2024-04-01 13:48:01,519 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0002.params"
+2024-04-01 13:48:03,272 [INFO]  Epoch[2] Validation-cross-entropy=0.000106
+2024-04-01 13:48:03,272 [INFO]  Epoch[2] Validation-GenHlth-accuracy=0.000000
+2024-04-01 13:48:25,161 [INFO]  Epoch[3] Batch [0-5708]	Speed: 4172.78 samples/sec	cross-entropy=0.002182	GenHlth-accuracy=3.204239
+2024-04-01 13:48:48,586 [INFO]  Epoch[3] Train-cross-entropy=0.001875
+2024-04-01 13:48:48,587 [INFO]  Epoch[3] Train-GenHlth-accuracy=3.193238
+2024-04-01 13:48:48,587 [INFO]  Epoch[3] Time cost=45.314
+2024-04-01 13:48:48,588 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0003.params"
+2024-04-01 13:48:49,965 [INFO]  Epoch[3] Validation-cross-entropy=0.000457
+2024-04-01 13:48:49,965 [INFO]  Epoch[3] Validation-GenHlth-accuracy=0.000000
+2024-04-01 13:49:18,514 [INFO]  Epoch[4] Batch [0-5708]	Speed: 3199.15 samples/sec	cross-entropy=0.001304	GenHlth-accuracy=3.204239
+2024-04-01 13:49:34,611 [INFO]  Epoch[4] Train-cross-entropy=0.001285
+2024-04-01 13:49:34,629 [INFO]  Epoch[4] Train-GenHlth-accuracy=3.193238
+2024-04-01 13:49:34,629 [INFO]  Epoch[4] Time cost=44.664
+2024-04-01 13:49:34,631 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0004.params"
+2024-04-01 13:49:36,584 [INFO]  Epoch[4] Validation-cross-entropy=0.000652
+2024-04-01 13:49:36,584 [INFO]  Epoch[4] Validation-GenHlth-accuracy=0.000000
+2024-04-01 13:49:36,584 [INFO]  
+========== done (244.8229682445526 s) fit model
+2024-04-01 15:30:03,594 [INFO]  
+========== start: fit model
+2024-04-01 15:30:03,605 [WARNING]  Already bound, ignoring bind()
+2024-04-01 15:30:27,557 [INFO]  Epoch[0] Batch [0-5708]	Speed: 3821.51 samples/sec	cross-entropy=0.093440	GenHlth-accuracy=3.185497
+2024-04-01 15:30:53,097 [INFO]  Epoch[0] Train-cross-entropy=0.052863
+2024-04-01 15:30:53,097 [INFO]  Epoch[0] Train-GenHlth-accuracy=3.204012
+2024-04-01 15:30:53,097 [INFO]  Epoch[0] Time cost=49.491
+2024-04-01 15:30:53,099 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0000.params"
+2024-04-01 15:30:56,018 [INFO]  Epoch[0] Validation-cross-entropy=0.003085
+2024-04-01 15:30:56,018 [INFO]  Epoch[0] Validation-GenHlth-accuracy=0.000000
+2024-04-01 15:31:21,132 [INFO]  Epoch[1] Batch [0-5708]	Speed: 3636.79 samples/sec	cross-entropy=0.006158	GenHlth-accuracy=3.185497
+2024-04-01 15:31:54,211 [INFO]  Epoch[1] Train-cross-entropy=0.004783
+2024-04-01 15:31:54,211 [INFO]  Epoch[1] Train-GenHlth-accuracy=3.204012
+2024-04-01 15:31:54,211 [INFO]  Epoch[1] Time cost=58.193
+2024-04-01 15:31:54,213 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0001.params"
+2024-04-01 15:31:54,872 [INFO]  Epoch[1] Validation-cross-entropy=0.001911
+2024-04-01 15:31:54,872 [INFO]  Epoch[1] Validation-GenHlth-accuracy=0.000000
+2024-04-01 15:32:17,428 [INFO]  Epoch[2] Batch [0-5708]	Speed: 4049.17 samples/sec	cross-entropy=0.002664	GenHlth-accuracy=3.185497
+2024-04-01 15:32:44,667 [INFO]  Epoch[2] Train-cross-entropy=0.002346
+2024-04-01 15:32:44,667 [INFO]  Epoch[2] Train-GenHlth-accuracy=3.204012
+2024-04-01 15:32:44,667 [INFO]  Epoch[2] Time cost=49.795
+2024-04-01 15:32:44,668 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0002.params"
+2024-04-01 15:32:47,383 [INFO]  Epoch[2] Validation-cross-entropy=0.005729
+2024-04-01 15:32:47,383 [INFO]  Epoch[2] Validation-GenHlth-accuracy=0.000000
+2024-04-01 15:33:10,921 [INFO]  Epoch[3] Batch [0-5708]	Speed: 3880.23 samples/sec	cross-entropy=0.001877	GenHlth-accuracy=3.185497
+2024-04-01 15:33:37,588 [INFO]  Epoch[3] Train-cross-entropy=0.001940
+2024-04-01 15:33:37,590 [INFO]  Epoch[3] Train-GenHlth-accuracy=3.204012
+2024-04-01 15:33:37,590 [INFO]  Epoch[3] Time cost=50.207
+2024-04-01 15:33:37,592 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0003.params"
+2024-04-01 15:33:39,893 [INFO]  Epoch[3] Validation-cross-entropy=0.001959
+2024-04-01 15:33:39,893 [INFO]  Epoch[3] Validation-GenHlth-accuracy=0.000000
+2024-04-01 15:34:02,821 [INFO]  Epoch[4] Batch [0-5708]	Speed: 3983.44 samples/sec	cross-entropy=0.001444	GenHlth-accuracy=3.185497
+2024-04-01 15:34:27,530 [INFO]  Epoch[4] Train-cross-entropy=0.001420
+2024-04-01 15:34:27,530 [INFO]  Epoch[4] Train-GenHlth-accuracy=3.204012
+2024-04-01 15:34:27,530 [INFO]  Epoch[4] Time cost=47.637
+2024-04-01 15:34:27,532 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0004.params"
+2024-04-01 15:34:28,198 [INFO]  Epoch[4] Validation-cross-entropy=0.000047
+2024-04-01 15:34:28,199 [INFO]  Epoch[4] Validation-GenHlth-accuracy=0.000000
+2024-04-01 15:34:28,199 [INFO]  
+========== done (264.60479378700256 s) fit model
+2024-04-01 17:14:50,041 [INFO]  
+========== start: fit model
+2024-04-01 17:14:50,052 [WARNING]  Already bound, ignoring bind()
+2024-04-01 17:15:14,887 [INFO]  Epoch[0] Batch [0-5708]	Speed: 3679.18 samples/sec	cross-entropy=0.115397	GenHlth-accuracy=3.212472
+2024-04-01 17:15:42,773 [INFO]  Epoch[0] Train-cross-entropy=0.063859
+2024-04-01 17:15:42,773 [INFO]  Epoch[0] Train-GenHlth-accuracy=3.202786
+2024-04-01 17:15:42,773 [INFO]  Epoch[0] Time cost=52.720
+2024-04-01 17:15:42,775 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0000.params"
+2024-04-01 17:15:43,131 [INFO]  Epoch[0] Validation-cross-entropy=0.045817
+2024-04-01 17:15:43,131 [INFO]  Epoch[0] Validation-GenHlth-accuracy=0.000000
+2024-04-01 17:16:05,311 [INFO]  Epoch[1] Batch [0-5708]	Speed: 4117.91 samples/sec	cross-entropy=0.005357	GenHlth-accuracy=3.212472
+2024-04-01 17:16:33,028 [INFO]  Epoch[1] Train-cross-entropy=0.004745
+2024-04-01 17:16:33,028 [INFO]  Epoch[1] Train-GenHlth-accuracy=3.202786
+2024-04-01 17:16:33,028 [INFO]  Epoch[1] Time cost=49.897
+2024-04-01 17:16:33,030 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0001.params"
+2024-04-01 17:16:35,470 [INFO]  Epoch[1] Validation-cross-entropy=0.000173
+2024-04-01 17:16:35,470 [INFO]  Epoch[1] Validation-GenHlth-accuracy=0.000000
+2024-04-01 17:17:05,626 [INFO]  Epoch[2] Batch [0-5708]	Speed: 3029.90 samples/sec	cross-entropy=0.002815	GenHlth-accuracy=3.212472
+2024-04-01 17:17:27,962 [INFO]  Epoch[2] Train-cross-entropy=0.002668
+2024-04-01 17:17:27,962 [INFO]  Epoch[2] Train-GenHlth-accuracy=3.202786
+2024-04-01 17:17:27,962 [INFO]  Epoch[2] Time cost=52.491
+2024-04-01 17:17:27,964 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0002.params"
+2024-04-01 17:17:28,633 [INFO]  Epoch[2] Validation-cross-entropy=0.000892
+2024-04-01 17:17:28,634 [INFO]  Epoch[2] Validation-GenHlth-accuracy=0.000000
+2024-04-01 17:18:01,451 [INFO]  Epoch[3] Batch [0-5708]	Speed: 2783.01 samples/sec	cross-entropy=0.002139	GenHlth-accuracy=3.212472
+2024-04-01 17:18:34,486 [INFO]  Epoch[3] Train-cross-entropy=0.001993
+2024-04-01 17:18:34,486 [INFO]  Epoch[3] Train-GenHlth-accuracy=3.202786
+2024-04-01 17:18:34,486 [INFO]  Epoch[3] Time cost=65.853
+2024-04-01 17:18:34,489 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0003.params"
+2024-04-01 17:18:38,235 [INFO]  Epoch[3] Validation-cross-entropy=0.000823
+2024-04-01 17:18:38,235 [INFO]  Epoch[3] Validation-GenHlth-accuracy=0.000000
+2024-04-01 17:19:28,615 [INFO]  Epoch[4] Batch [0-5708]	Speed: 1812.85 samples/sec	cross-entropy=0.001566	GenHlth-accuracy=3.212472
+2024-04-01 17:20:07,604 [INFO]  Epoch[4] Train-cross-entropy=0.001589
+2024-04-01 17:20:07,604 [INFO]  Epoch[4] Train-GenHlth-accuracy=3.202786
+2024-04-01 17:20:07,604 [INFO]  Epoch[4] Time cost=89.369
+2024-04-01 17:20:07,608 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0004.params"
+2024-04-01 17:20:11,498 [INFO]  Epoch[4] Validation-cross-entropy=0.002370
+2024-04-01 17:20:11,498 [INFO]  Epoch[4] Validation-GenHlth-accuracy=0.000000
+2024-04-01 17:20:11,498 [INFO]  
+========== done (321.45705366134644 s) fit model
+2024-04-01 20:34:05,543 [INFO]  
+========== start: fit model
+2024-04-01 20:34:05,558 [WARNING]  Already bound, ignoring bind()
+2024-04-01 20:34:22,526 [INFO]  Epoch[0] Batch [0-5708]	Speed: 5383.21 samples/sec	cross-entropy=0.083131	GenHlth-accuracy=3.183219
+2024-04-01 20:34:41,822 [INFO]  Epoch[0] Train-cross-entropy=0.046888
+2024-04-01 20:34:41,822 [INFO]  Epoch[0] Train-GenHlth-accuracy=3.199019
+2024-04-01 20:34:41,822 [INFO]  Epoch[0] Time cost=36.263
+2024-04-01 20:34:41,825 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0000.params"
+2024-04-01 20:34:45,876 [INFO]  Epoch[0] Validation-cross-entropy=0.002498
+2024-04-01 20:34:45,876 [INFO]  Epoch[0] Validation-GenHlth-accuracy=0.000000
+2024-04-01 20:34:53,887 [INFO]  Epoch[1] Batch [0-5708]	Speed: 11402.35 samples/sec	cross-entropy=0.006406	GenHlth-accuracy=3.183219
+2024-04-01 20:35:01,395 [INFO]  Epoch[1] Train-cross-entropy=0.004914
+2024-04-01 20:35:01,395 [INFO]  Epoch[1] Train-GenHlth-accuracy=3.199019
+2024-04-01 20:35:01,396 [INFO]  Epoch[1] Time cost=15.519
+2024-04-01 20:35:01,398 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0001.params"
+2024-04-01 20:35:01,804 [INFO]  Epoch[1] Validation-cross-entropy=0.001405
+2024-04-01 20:35:01,805 [INFO]  Epoch[1] Validation-GenHlth-accuracy=0.000000
+2024-04-01 20:35:08,399 [INFO]  Epoch[2] Batch [0-5708]	Speed: 13852.19 samples/sec	cross-entropy=0.002853	GenHlth-accuracy=3.183219
+2024-04-01 20:35:16,879 [INFO]  Epoch[2] Train-cross-entropy=0.002453
+2024-04-01 20:35:16,879 [INFO]  Epoch[2] Train-GenHlth-accuracy=3.199019
+2024-04-01 20:35:16,879 [INFO]  Epoch[2] Time cost=15.074
+2024-04-01 20:35:16,881 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0002.params"
+2024-04-01 20:35:17,301 [INFO]  Epoch[2] Validation-cross-entropy=0.000657
+2024-04-01 20:35:17,301 [INFO]  Epoch[2] Validation-GenHlth-accuracy=0.000000
+2024-04-01 20:35:23,459 [INFO]  Epoch[3] Batch [0-5708]	Speed: 14834.32 samples/sec	cross-entropy=0.002109	GenHlth-accuracy=3.183219
+2024-04-01 20:35:31,547 [INFO]  Epoch[3] Train-cross-entropy=0.001761
+2024-04-01 20:35:31,548 [INFO]  Epoch[3] Train-GenHlth-accuracy=3.199019
+2024-04-01 20:35:31,548 [INFO]  Epoch[3] Time cost=14.247
+2024-04-01 20:35:31,550 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0003.params"
+2024-04-01 20:35:31,898 [INFO]  Epoch[3] Validation-cross-entropy=0.000585
+2024-04-01 20:35:31,898 [INFO]  Epoch[3] Validation-GenHlth-accuracy=0.000000
+2024-04-01 20:35:38,223 [INFO]  Epoch[4] Batch [0-5708]	Speed: 14443.25 samples/sec	cross-entropy=0.001586	GenHlth-accuracy=3.183219
+2024-04-01 20:35:43,308 [INFO]  Epoch[4] Train-cross-entropy=0.001385
+2024-04-01 20:35:43,308 [INFO]  Epoch[4] Train-GenHlth-accuracy=3.199019
+2024-04-01 20:35:43,309 [INFO]  Epoch[4] Time cost=11.410
+2024-04-01 20:35:43,310 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0004.params"
+2024-04-01 20:35:43,548 [INFO]  Epoch[4] Validation-cross-entropy=0.001474
+2024-04-01 20:35:43,548 [INFO]  Epoch[4] Validation-GenHlth-accuracy=0.000000
+2024-04-01 20:35:43,548 [INFO]  
+========== done (98.0046706199646 s) fit model
+2024-04-01 21:03:40,759 [INFO]  
+========== start: fit model
+2024-04-01 21:03:40,760 [WARNING]  Already bound, ignoring bind()
+2024-04-01 21:03:44,309 [INFO]  Epoch[0] Batch [0-5708]	Speed: 25804.68 samples/sec	cross-entropy=0.100594	GenHlth-accuracy=0.000000
+2024-04-01 21:03:47,965 [INFO]  Epoch[0] Train-cross-entropy=0.055400
+2024-04-01 21:03:47,965 [INFO]  Epoch[0] Train-GenHlth-accuracy=0.000000
+2024-04-01 21:03:47,965 [INFO]  Epoch[0] Time cost=7.205
+2024-04-01 21:03:47,967 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0000.params"
+2024-04-01 21:03:48,199 [INFO]  Epoch[0] Validation-cross-entropy=0.004749
+2024-04-01 21:03:48,199 [INFO]  Epoch[0] Validation-GenHlth-accuracy=0.000000
+2024-04-01 21:03:52,723 [INFO]  Epoch[1] Batch [0-5708]	Speed: 20188.68 samples/sec	cross-entropy=0.004628	GenHlth-accuracy=0.000000
+2024-04-01 21:03:56,167 [INFO]  Epoch[1] Train-cross-entropy=0.004089
+2024-04-01 21:03:56,167 [INFO]  Epoch[1] Train-GenHlth-accuracy=0.000000
+2024-04-01 21:03:56,167 [INFO]  Epoch[1] Time cost=7.969
+2024-04-01 21:03:56,169 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0001.params"
+2024-04-01 21:03:56,476 [INFO]  Epoch[1] Validation-cross-entropy=0.003935
+2024-04-01 21:03:56,476 [INFO]  Epoch[1] Validation-GenHlth-accuracy=0.000000
+2024-04-01 21:04:00,925 [INFO]  Epoch[2] Batch [0-5708]	Speed: 20537.76 samples/sec	cross-entropy=0.002480	GenHlth-accuracy=0.000000
+2024-04-01 21:04:04,570 [INFO]  Epoch[2] Train-cross-entropy=0.002493
+2024-04-01 21:04:04,570 [INFO]  Epoch[2] Train-GenHlth-accuracy=0.000000
+2024-04-01 21:04:04,570 [INFO]  Epoch[2] Time cost=8.094
+2024-04-01 21:04:04,571 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0002.params"
+2024-04-01 21:04:04,807 [INFO]  Epoch[2] Validation-cross-entropy=0.003419
+2024-04-01 21:04:04,807 [INFO]  Epoch[2] Validation-GenHlth-accuracy=0.000000
+2024-04-01 21:04:09,610 [INFO]  Epoch[3] Batch [0-5708]	Speed: 19019.53 samples/sec	cross-entropy=0.001813	GenHlth-accuracy=0.000000
+2024-04-01 21:04:13,245 [INFO]  Epoch[3] Train-cross-entropy=0.001863
+2024-04-01 21:04:13,245 [INFO]  Epoch[3] Train-GenHlth-accuracy=0.000000
+2024-04-01 21:04:13,245 [INFO]  Epoch[3] Time cost=8.438
+2024-04-01 21:04:13,247 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0003.params"
+2024-04-01 21:04:13,493 [INFO]  Epoch[3] Validation-cross-entropy=0.002479
+2024-04-01 21:04:13,493 [INFO]  Epoch[3] Validation-GenHlth-accuracy=0.000000
+2024-04-01 21:04:18,567 [INFO]  Epoch[4] Batch [0-5708]	Speed: 18002.97 samples/sec	cross-entropy=0.001394	GenHlth-accuracy=0.000000
+2024-04-01 21:04:23,451 [INFO]  Epoch[4] Train-cross-entropy=0.001291
+2024-04-01 21:04:23,451 [INFO]  Epoch[4] Train-GenHlth-accuracy=0.000000
+2024-04-01 21:04:23,451 [INFO]  Epoch[4] Time cost=9.958
+2024-04-01 21:04:23,452 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0004.params"
+2024-04-01 21:04:23,685 [INFO]  Epoch[4] Validation-cross-entropy=0.000823
+2024-04-01 21:04:23,685 [INFO]  Epoch[4] Validation-GenHlth-accuracy=0.000000
+2024-04-01 21:04:23,685 [INFO]  
+========== done (42.925819635391235 s) fit model
+2024-04-01 21:32:11,334 [INFO]  
+========== start: fit model
+2024-04-01 21:32:11,334 [WARNING]  Already bound, ignoring bind()
+2024-04-01 21:32:15,015 [INFO]  Epoch[0] Batch [0-5708]	Speed: 24871.77 samples/sec	cross-entropy=0.089414	GenHlth-accuracy=0.000000
+2024-04-01 21:32:18,219 [INFO]  Epoch[0] Train-cross-entropy=0.050387
+2024-04-01 21:32:18,219 [INFO]  Epoch[0] Train-GenHlth-accuracy=0.000000
+2024-04-01 21:32:18,219 [INFO]  Epoch[0] Time cost=6.884
+2024-04-01 21:32:18,220 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0000.params"
+2024-04-01 21:32:18,442 [INFO]  Epoch[0] Validation-cross-entropy=0.010629
+2024-04-01 21:32:18,442 [INFO]  Epoch[0] Validation-GenHlth-accuracy=0.000000
+2024-04-01 21:32:22,049 [INFO]  Epoch[1] Batch [0-5708]	Speed: 25328.19 samples/sec	cross-entropy=0.005522	GenHlth-accuracy=0.000000
+2024-04-01 21:32:26,690 [INFO]  Epoch[1] Train-cross-entropy=0.004569
+2024-04-01 21:32:26,690 [INFO]  Epoch[1] Train-GenHlth-accuracy=0.000000
+2024-04-01 21:32:26,690 [INFO]  Epoch[1] Time cost=8.248
+2024-04-01 21:32:26,692 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0001.params"
+2024-04-01 21:32:26,933 [INFO]  Epoch[1] Validation-cross-entropy=0.000054
+2024-04-01 21:32:26,933 [INFO]  Epoch[1] Validation-GenHlth-accuracy=0.000000
+2024-04-01 21:32:30,477 [INFO]  Epoch[2] Batch [0-5708]	Speed: 25777.52 samples/sec	cross-entropy=0.002609	GenHlth-accuracy=0.000000
+2024-04-01 21:32:34,111 [INFO]  Epoch[2] Train-cross-entropy=0.002343
+2024-04-01 21:32:34,111 [INFO]  Epoch[2] Train-GenHlth-accuracy=0.000000
+2024-04-01 21:32:34,111 [INFO]  Epoch[2] Time cost=7.177
+2024-04-01 21:32:34,112 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0002.params"
+2024-04-01 21:32:34,369 [INFO]  Epoch[2] Validation-cross-entropy=0.001285
+2024-04-01 21:32:34,369 [INFO]  Epoch[2] Validation-GenHlth-accuracy=0.000000
+2024-04-01 21:32:38,559 [INFO]  Epoch[3] Batch [0-5708]	Speed: 21803.54 samples/sec	cross-entropy=0.001594	GenHlth-accuracy=0.000000
+2024-04-01 21:32:42,599 [INFO]  Epoch[3] Train-cross-entropy=0.001560
+2024-04-01 21:32:42,599 [INFO]  Epoch[3] Train-GenHlth-accuracy=0.000000
+2024-04-01 21:32:42,599 [INFO]  Epoch[3] Time cost=8.230
+2024-04-01 21:32:42,600 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0003.params"
+2024-04-01 21:32:42,831 [INFO]  Epoch[3] Validation-cross-entropy=0.000229
+2024-04-01 21:32:42,832 [INFO]  Epoch[3] Validation-GenHlth-accuracy=0.000000
+2024-04-01 21:32:46,439 [INFO]  Epoch[4] Batch [0-5708]	Speed: 25324.69 samples/sec	cross-entropy=0.001226	GenHlth-accuracy=0.000000
+2024-04-01 21:32:50,054 [INFO]  Epoch[4] Train-cross-entropy=0.001449
+2024-04-01 21:32:50,054 [INFO]  Epoch[4] Train-GenHlth-accuracy=0.000000
+2024-04-01 21:32:50,054 [INFO]  Epoch[4] Time cost=7.223
+2024-04-01 21:32:50,056 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0004.params"
+2024-04-01 21:32:51,070 [INFO]  Epoch[4] Validation-cross-entropy=0.000242
+2024-04-01 21:32:51,070 [INFO]  Epoch[4] Validation-GenHlth-accuracy=0.000000
+2024-04-01 21:32:51,070 [INFO]  
+========== done (39.73644733428955 s) fit model
+2024-04-01 22:29:54,889 [INFO]  
+========== start: fit model
+2024-04-01 22:29:54,889 [WARNING]  Already bound, ignoring bind()
+2024-04-01 22:30:05,364 [INFO]  Epoch[0] Batch [0-5708]	Speed: 8722.55 samples/sec	cross-entropy=0.093259	GenHlth-accuracy=3.206516
+2024-04-01 22:30:16,860 [INFO]  Epoch[0] Train-cross-entropy=0.052038
+2024-04-01 22:30:16,860 [INFO]  Epoch[0] Train-GenHlth-accuracy=3.203574
+2024-04-01 22:30:16,860 [INFO]  Epoch[0] Time cost=21.970
+2024-04-01 22:30:16,862 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0000.params"
+2024-04-01 22:30:17,327 [INFO]  Epoch[0] Validation-cross-entropy=0.006547
+2024-04-01 22:30:17,327 [INFO]  Epoch[0] Validation-GenHlth-accuracy=0.000000
+2024-04-01 22:30:28,400 [INFO]  Epoch[1] Batch [0-5708]	Speed: 8249.09 samples/sec	cross-entropy=0.005149	GenHlth-accuracy=3.206516
+2024-04-01 22:30:35,507 [INFO]  Epoch[1] Train-cross-entropy=0.004504
+2024-04-01 22:30:35,508 [INFO]  Epoch[1] Train-GenHlth-accuracy=3.203574
+2024-04-01 22:30:35,508 [INFO]  Epoch[1] Time cost=18.180
+2024-04-01 22:30:35,509 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0001.params"
+2024-04-01 22:30:35,837 [INFO]  Epoch[1] Validation-cross-entropy=0.003738
+2024-04-01 22:30:35,837 [INFO]  Epoch[1] Validation-GenHlth-accuracy=0.000000
+2024-04-01 22:30:43,920 [INFO]  Epoch[2] Batch [0-5708]	Speed: 11301.15 samples/sec	cross-entropy=0.002320	GenHlth-accuracy=3.206516
+2024-04-02 00:01:20,799 [INFO]  
+========== start: fit model
+2024-04-02 00:01:20,799 [WARNING]  Already bound, ignoring bind()
+2024-04-02 00:01:41,427 [INFO]  Epoch[0] Batch [0-5708]	Speed: 4516.06 samples/sec	cross-entropy=0.099531	GenHlth-accuracy=3.189175
+2024-04-02 00:02:04,922 [INFO]  Epoch[0] Train-cross-entropy=0.054901
+2024-04-02 00:02:04,922 [INFO]  Epoch[0] Train-GenHlth-accuracy=3.202786
+2024-04-02 00:02:04,922 [INFO]  Epoch[0] Time cost=44.122
+2024-04-02 00:02:04,924 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0000.params"
+2024-04-02 00:02:05,199 [INFO]  Epoch[0] Validation-cross-entropy=0.008811
+2024-04-02 00:02:05,199 [INFO]  Epoch[0] Validation-GenHlth-accuracy=0.000000
+2024-04-02 00:02:23,421 [INFO]  Epoch[1] Batch [0-5708]	Speed: 5012.33 samples/sec	cross-entropy=0.007115	GenHlth-accuracy=3.189175
+2024-04-02 00:02:41,965 [INFO]  Epoch[1] Train-cross-entropy=0.005586
+2024-04-02 00:02:41,965 [INFO]  Epoch[1] Train-GenHlth-accuracy=3.202786
+2024-04-02 00:02:41,966 [INFO]  Epoch[1] Time cost=36.766
+2024-04-02 00:02:41,968 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0001.params"
+2024-04-02 00:02:42,333 [INFO]  Epoch[1] Validation-cross-entropy=0.005507
+2024-04-02 00:02:42,334 [INFO]  Epoch[1] Validation-GenHlth-accuracy=0.000000
+2024-04-02 00:03:00,094 [INFO]  Epoch[2] Batch [0-5708]	Speed: 5142.59 samples/sec	cross-entropy=0.003812	GenHlth-accuracy=3.189175
+2024-04-02 00:03:26,367 [INFO]  Epoch[2] Train-cross-entropy=0.003147
+2024-04-02 00:03:26,367 [INFO]  Epoch[2] Train-GenHlth-accuracy=3.202786
+2024-04-02 00:03:26,367 [INFO]  Epoch[2] Time cost=44.033
+2024-04-02 00:03:26,368 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0002.params"
+2024-04-02 00:03:29,698 [INFO]  Epoch[2] Validation-cross-entropy=0.000270
+2024-04-02 00:03:29,698 [INFO]  Epoch[2] Validation-GenHlth-accuracy=0.000000
+2024-04-02 00:03:41,941 [INFO]  Epoch[3] Batch [0-5708]	Speed: 7460.22 samples/sec	cross-entropy=0.002627	GenHlth-accuracy=3.189175
+2024-04-02 00:04:08,024 [INFO]  Epoch[3] Train-cross-entropy=0.002505
+2024-04-02 00:04:08,024 [INFO]  Epoch[3] Train-GenHlth-accuracy=3.202786
+2024-04-02 00:04:08,024 [INFO]  Epoch[3] Time cost=38.326
+2024-04-02 00:04:08,027 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0003.params"
+2024-04-02 00:04:09,805 [INFO]  Epoch[3] Validation-cross-entropy=0.000613
+2024-04-02 00:04:09,806 [INFO]  Epoch[3] Validation-GenHlth-accuracy=0.000000
+2024-04-02 00:04:19,861 [INFO]  Epoch[4] Batch [0-5708]	Speed: 9083.85 samples/sec	cross-entropy=0.002235	GenHlth-accuracy=3.189175
+2024-04-02 00:04:34,307 [INFO]  Epoch[4] Train-cross-entropy=0.002240
+2024-04-02 00:04:34,307 [INFO]  Epoch[4] Train-GenHlth-accuracy=3.202786
+2024-04-02 00:04:34,307 [INFO]  Epoch[4] Time cost=24.501
+2024-04-02 00:04:34,309 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0004.params"
+2024-04-02 00:04:35,499 [INFO]  Epoch[4] Validation-cross-entropy=0.007876
+2024-04-02 00:04:35,499 [INFO]  Epoch[4] Validation-GenHlth-accuracy=0.000000
+2024-04-02 00:04:35,499 [INFO]  
+========== done (194.6999704837799 s) fit model
+2024-04-02 01:27:29,941 [INFO]  
+========== start: fit model
+2024-04-02 01:27:29,941 [WARNING]  Already bound, ignoring bind()
+2024-04-02 01:27:42,122 [INFO]  Epoch[0] Batch [0-5708]	Speed: 7521.43 samples/sec	cross-entropy=0.082857	GenHlth-accuracy=0.000000
+2024-04-02 01:28:02,856 [INFO]  Epoch[0] Train-cross-entropy=0.047981
+2024-04-02 01:28:02,857 [INFO]  Epoch[0] Train-GenHlth-accuracy=0.000000
+2024-04-02 01:28:02,857 [INFO]  Epoch[0] Time cost=32.915
+2024-04-02 01:28:02,858 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0000.params"
+2024-04-02 01:28:03,478 [INFO]  Epoch[0] Validation-cross-entropy=0.006053
+2024-04-02 01:28:03,478 [INFO]  Epoch[0] Validation-GenHlth-accuracy=0.000000
+2024-04-02 01:28:20,035 [INFO]  Epoch[1] Batch [0-5708]	Speed: 5516.41 samples/sec	cross-entropy=0.006454	GenHlth-accuracy=0.000000
+2024-04-02 01:28:36,114 [INFO]  Epoch[1] Train-cross-entropy=0.005165
+2024-04-02 01:28:36,115 [INFO]  Epoch[1] Train-GenHlth-accuracy=0.000000
+2024-04-02 01:28:36,115 [INFO]  Epoch[1] Time cost=32.636
+2024-04-02 01:28:36,117 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0001.params"
+2024-04-02 01:28:37,374 [INFO]  Epoch[1] Validation-cross-entropy=0.003943
+2024-04-02 01:28:37,374 [INFO]  Epoch[1] Validation-GenHlth-accuracy=0.000000
+2024-04-02 01:28:54,549 [INFO]  Epoch[2] Batch [0-5708]	Speed: 5317.87 samples/sec	cross-entropy=0.003109	GenHlth-accuracy=0.000000
+2024-04-02 01:29:15,578 [INFO]  Epoch[2] Train-cross-entropy=0.003210
+2024-04-02 01:29:15,579 [INFO]  Epoch[2] Train-GenHlth-accuracy=0.000000
+2024-04-02 01:29:15,579 [INFO]  Epoch[2] Time cost=38.205
+2024-04-02 01:29:15,581 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0002.params"
+2024-04-02 01:29:17,302 [INFO]  Epoch[2] Validation-cross-entropy=0.000013
+2024-04-02 01:29:17,302 [INFO]  Epoch[2] Validation-GenHlth-accuracy=0.000000
+2024-04-02 01:29:43,983 [INFO]  Epoch[3] Batch [0-5708]	Speed: 3423.14 samples/sec	cross-entropy=0.002602	GenHlth-accuracy=0.000000
+2024-04-02 01:29:56,623 [INFO]  Epoch[3] Train-cross-entropy=0.002502
+2024-04-02 01:29:56,624 [INFO]  Epoch[3] Train-GenHlth-accuracy=0.000000
+2024-04-02 01:29:56,624 [INFO]  Epoch[3] Time cost=39.322
+2024-04-02 01:29:56,626 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0003.params"
+2024-04-02 01:29:57,773 [INFO]  Epoch[3] Validation-cross-entropy=0.001014
+2024-04-02 01:29:57,773 [INFO]  Epoch[3] Validation-GenHlth-accuracy=0.000000
+2024-04-02 01:30:16,837 [INFO]  Epoch[4] Batch [0-5708]	Speed: 4791.11 samples/sec	cross-entropy=0.002145	GenHlth-accuracy=0.000000
+2024-04-02 01:30:41,699 [INFO]  Epoch[4] Train-cross-entropy=0.001941
+2024-04-02 01:30:41,700 [INFO]  Epoch[4] Train-GenHlth-accuracy=0.000000
+2024-04-02 01:30:41,700 [INFO]  Epoch[4] Time cost=43.926
+2024-04-02 01:30:41,702 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0004.params"
+2024-04-02 01:30:45,790 [INFO]  Epoch[4] Validation-cross-entropy=0.000085
+2024-04-02 01:30:45,791 [INFO]  Epoch[4] Validation-GenHlth-accuracy=0.000000
+2024-04-02 01:30:45,791 [INFO]  
+========== done (195.85014963150024 s) fit model
+2024-04-02 02:46:31,554 [INFO]  
+========== start: fit model
+2024-04-02 02:46:31,554 [WARNING]  Already bound, ignoring bind()
+2024-04-02 02:46:49,031 [INFO]  Epoch[0] Batch [0-5708]	Speed: 5231.65 samples/sec	cross-entropy=0.086315	GenHlth-accuracy=3.204239
+2024-04-02 02:47:05,468 [INFO]  Epoch[0] Train-cross-entropy=0.048850
+2024-04-02 02:47:05,468 [INFO]  Epoch[0] Train-GenHlth-accuracy=3.193238
+2024-04-02 02:47:05,469 [INFO]  Epoch[0] Time cost=33.913
+2024-04-02 02:47:05,471 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0000.params"
+2024-04-02 02:47:05,811 [INFO]  Epoch[0] Validation-cross-entropy=0.005595
+2024-04-02 02:47:05,811 [INFO]  Epoch[0] Validation-GenHlth-accuracy=0.000000
+2024-04-02 02:47:21,569 [INFO]  Epoch[1] Batch [0-5708]	Speed: 5796.46 samples/sec	cross-entropy=0.005859	GenHlth-accuracy=3.204239
+2024-04-02 02:47:40,122 [INFO]  Epoch[1] Train-cross-entropy=0.005547
+2024-04-02 02:47:40,122 [INFO]  Epoch[1] Train-GenHlth-accuracy=3.193238
+2024-04-02 02:47:40,122 [INFO]  Epoch[1] Time cost=34.310
+2024-04-02 02:47:40,124 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0001.params"
+2024-04-02 02:47:41,274 [INFO]  Epoch[1] Validation-cross-entropy=0.001745
+2024-04-02 02:47:41,274 [INFO]  Epoch[1] Validation-GenHlth-accuracy=0.000000
+2024-04-02 02:47:57,909 [INFO]  Epoch[2] Batch [0-5708]	Speed: 5493.41 samples/sec	cross-entropy=0.003532	GenHlth-accuracy=3.204239
+2024-04-02 02:48:22,656 [INFO]  Epoch[2] Train-cross-entropy=0.003132
+2024-04-02 02:48:22,657 [INFO]  Epoch[2] Train-GenHlth-accuracy=3.193238
+2024-04-02 02:48:22,657 [INFO]  Epoch[2] Time cost=41.382
+2024-04-02 02:48:22,658 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0002.params"
+2024-04-02 02:48:22,994 [INFO]  Epoch[2] Validation-cross-entropy=0.000106
+2024-04-02 02:48:22,994 [INFO]  Epoch[2] Validation-GenHlth-accuracy=0.000000
+2024-04-02 02:48:44,853 [INFO]  Epoch[3] Batch [0-5708]	Speed: 4178.25 samples/sec	cross-entropy=0.002182	GenHlth-accuracy=3.204239
+2024-04-02 02:49:02,447 [INFO]  Epoch[3] Train-cross-entropy=0.001875
+2024-04-02 02:49:02,447 [INFO]  Epoch[3] Train-GenHlth-accuracy=3.193238
+2024-04-02 02:49:02,447 [INFO]  Epoch[3] Time cost=39.453
+2024-04-02 02:49:02,448 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0003.params"
+2024-04-02 02:49:02,836 [INFO]  Epoch[3] Validation-cross-entropy=0.000457
+2024-04-02 02:49:02,836 [INFO]  Epoch[3] Validation-GenHlth-accuracy=0.000000
+2024-04-02 02:49:25,066 [INFO]  Epoch[4] Batch [0-5708]	Speed: 4108.57 samples/sec	cross-entropy=0.001304	GenHlth-accuracy=3.204239
+2024-04-02 02:49:46,177 [INFO]  Epoch[4] Train-cross-entropy=0.001285
+2024-04-02 02:49:46,177 [INFO]  Epoch[4] Train-GenHlth-accuracy=3.193238
+2024-04-02 02:49:46,177 [INFO]  Epoch[4] Time cost=43.341
+2024-04-02 02:49:46,180 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0004.params"
+2024-04-02 02:49:47,728 [INFO]  Epoch[4] Validation-cross-entropy=0.000652
+2024-04-02 02:49:47,728 [INFO]  Epoch[4] Validation-GenHlth-accuracy=0.000000
+2024-04-02 02:49:47,728 [INFO]  
+========== done (196.17424511909485 s) fit model
+2024-04-02 04:12:19,048 [INFO]  
+========== start: fit model
+2024-04-02 04:12:19,048 [WARNING]  Already bound, ignoring bind()
+2024-04-02 04:12:28,980 [INFO]  Epoch[0] Batch [0-5708]	Speed: 9262.18 samples/sec	cross-entropy=0.093440	GenHlth-accuracy=3.185497
+2024-04-02 04:12:42,750 [INFO]  Epoch[0] Train-cross-entropy=0.052863
+2024-04-02 04:12:42,750 [INFO]  Epoch[0] Train-GenHlth-accuracy=3.204012
+2024-04-02 04:12:42,750 [INFO]  Epoch[0] Time cost=23.701
+2024-04-02 04:12:42,753 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0000.params"
+2024-04-02 04:12:43,593 [INFO]  Epoch[0] Validation-cross-entropy=0.003085
+2024-04-02 04:12:43,593 [INFO]  Epoch[0] Validation-GenHlth-accuracy=0.000000
+2024-04-02 04:12:53,722 [INFO]  Epoch[1] Batch [0-5708]	Speed: 9018.33 samples/sec	cross-entropy=0.006158	GenHlth-accuracy=3.185497
+2024-04-02 04:13:05,789 [INFO]  Epoch[1] Train-cross-entropy=0.004783
+2024-04-02 04:13:05,789 [INFO]  Epoch[1] Train-GenHlth-accuracy=3.204012
+2024-04-02 04:13:05,789 [INFO]  Epoch[1] Time cost=22.196
+2024-04-02 04:13:05,791 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0001.params"
+2024-04-02 04:13:07,454 [INFO]  Epoch[1] Validation-cross-entropy=0.001911
+2024-04-02 04:13:07,454 [INFO]  Epoch[1] Validation-GenHlth-accuracy=0.000000
+2024-04-02 04:13:19,259 [INFO]  Epoch[2] Batch [0-5708]	Speed: 7737.46 samples/sec	cross-entropy=0.002664	GenHlth-accuracy=3.185497
+2024-04-02 04:13:30,159 [INFO]  Epoch[2] Train-cross-entropy=0.002346
+2024-04-02 04:13:30,160 [INFO]  Epoch[2] Train-GenHlth-accuracy=3.204012
+2024-04-02 04:13:30,160 [INFO]  Epoch[2] Time cost=22.705
+2024-04-02 04:13:30,162 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0002.params"
+2024-04-02 04:13:31,233 [INFO]  Epoch[2] Validation-cross-entropy=0.005729
+2024-04-02 04:13:31,234 [INFO]  Epoch[2] Validation-GenHlth-accuracy=0.000000
+2024-04-02 04:13:42,522 [INFO]  Epoch[3] Batch [0-5708]	Speed: 8091.72 samples/sec	cross-entropy=0.001877	GenHlth-accuracy=3.185497
+2024-04-02 04:13:53,982 [INFO]  Epoch[3] Train-cross-entropy=0.001940
+2024-04-02 04:13:53,982 [INFO]  Epoch[3] Train-GenHlth-accuracy=3.204012
+2024-04-02 04:13:53,982 [INFO]  Epoch[3] Time cost=22.748
+2024-04-02 04:13:53,983 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0003.params"
+2024-04-02 04:13:54,330 [INFO]  Epoch[3] Validation-cross-entropy=0.001959
+2024-04-02 04:13:54,330 [INFO]  Epoch[3] Validation-GenHlth-accuracy=0.000000
+2024-04-02 04:14:07,288 [INFO]  Epoch[4] Batch [0-5708]	Speed: 7048.85 samples/sec	cross-entropy=0.001444	GenHlth-accuracy=3.185497
+2024-04-02 04:14:20,435 [INFO]  Epoch[4] Train-cross-entropy=0.001420
+2024-04-02 04:14:20,435 [INFO]  Epoch[4] Train-GenHlth-accuracy=3.204012
+2024-04-02 04:14:20,435 [INFO]  Epoch[4] Time cost=26.105
+2024-04-02 04:14:20,436 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0004.params"
+2024-04-02 04:14:21,459 [INFO]  Epoch[4] Validation-cross-entropy=0.000047
+2024-04-02 04:14:21,459 [INFO]  Epoch[4] Validation-GenHlth-accuracy=0.000000
+2024-04-02 04:14:21,459 [INFO]  
+========== done (122.41147899627686 s) fit model
+2024-04-02 05:30:17,149 [INFO]  
+========== start: fit model
+2024-04-02 05:30:17,149 [WARNING]  Already bound, ignoring bind()
+2024-04-02 05:30:36,686 [INFO]  Epoch[0] Batch [0-5708]	Speed: 4681.36 samples/sec	cross-entropy=0.115397	GenHlth-accuracy=3.212472
+2024-04-02 05:30:53,664 [INFO]  Epoch[0] Train-cross-entropy=0.063859
+2024-04-02 05:30:53,665 [INFO]  Epoch[0] Train-GenHlth-accuracy=3.202786
+2024-04-02 05:30:53,665 [INFO]  Epoch[0] Time cost=36.515
+2024-04-02 05:30:53,667 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0000.params"
+2024-04-02 05:30:54,827 [INFO]  Epoch[0] Validation-cross-entropy=0.045817
+2024-04-02 05:30:54,827 [INFO]  Epoch[0] Validation-GenHlth-accuracy=0.000000
+2024-04-02 05:31:16,431 [INFO]  Epoch[1] Batch [0-5708]	Speed: 4227.67 samples/sec	cross-entropy=0.005357	GenHlth-accuracy=3.212472
+2024-04-02 05:31:29,283 [INFO]  Epoch[1] Train-cross-entropy=0.004745
+2024-04-02 05:31:29,283 [INFO]  Epoch[1] Train-GenHlth-accuracy=3.202786
+2024-04-02 05:31:29,283 [INFO]  Epoch[1] Time cost=34.456
+2024-04-02 05:31:29,285 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0001.params"
+2024-04-02 05:31:30,162 [INFO]  Epoch[1] Validation-cross-entropy=0.000173
+2024-04-02 05:31:30,163 [INFO]  Epoch[1] Validation-GenHlth-accuracy=0.000000
+2024-04-02 05:31:45,854 [INFO]  Epoch[2] Batch [0-5708]	Speed: 5934.31 samples/sec	cross-entropy=0.002815	GenHlth-accuracy=3.212472
+2024-04-02 05:32:02,972 [INFO]  Epoch[2] Train-cross-entropy=0.002668
+2024-04-02 05:32:02,972 [INFO]  Epoch[2] Train-GenHlth-accuracy=3.202786
+2024-04-02 05:32:02,972 [INFO]  Epoch[2] Time cost=32.810
+2024-04-02 05:32:02,975 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0002.params"
+2024-04-02 05:32:03,906 [INFO]  Epoch[2] Validation-cross-entropy=0.000892
+2024-04-02 05:32:03,906 [INFO]  Epoch[2] Validation-GenHlth-accuracy=0.000000
+2024-04-02 05:32:23,868 [INFO]  Epoch[3] Batch [0-5708]	Speed: 4575.23 samples/sec	cross-entropy=0.002139	GenHlth-accuracy=3.212472
+2024-04-02 05:32:41,809 [INFO]  Epoch[3] Train-cross-entropy=0.001993
+2024-04-02 05:32:41,809 [INFO]  Epoch[3] Train-GenHlth-accuracy=3.202786
+2024-04-02 05:32:41,809 [INFO]  Epoch[3] Time cost=37.903
+2024-04-02 05:32:41,812 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0003.params"
+2024-04-02 05:32:43,153 [INFO]  Epoch[3] Validation-cross-entropy=0.000823
+2024-04-02 05:32:43,153 [INFO]  Epoch[3] Validation-GenHlth-accuracy=0.000000
+2024-04-02 05:33:04,282 [INFO]  Epoch[4] Batch [0-5708]	Speed: 4322.83 samples/sec	cross-entropy=0.001566	GenHlth-accuracy=3.212472
+2024-04-02 05:33:25,047 [INFO]  Epoch[4] Train-cross-entropy=0.001589
+2024-04-02 05:33:25,047 [INFO]  Epoch[4] Train-GenHlth-accuracy=3.202786
+2024-04-02 05:33:25,047 [INFO]  Epoch[4] Time cost=41.893
+2024-04-02 05:33:25,049 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0004.params"
+2024-04-02 05:33:25,482 [INFO]  Epoch[4] Validation-cross-entropy=0.002370
+2024-04-02 05:33:25,482 [INFO]  Epoch[4] Validation-GenHlth-accuracy=0.000000
+2024-04-02 05:33:25,482 [INFO]  
+========== done (188.33358883857727 s) fit model
+2024-04-02 06:54:42,268 [INFO]  
+========== start: fit model
+2024-04-02 06:54:42,268 [WARNING]  Already bound, ignoring bind()
+2024-04-02 06:54:58,503 [INFO]  Epoch[0] Batch [0-5708]	Speed: 5626.96 samples/sec	cross-entropy=0.083131	GenHlth-accuracy=3.183219
+2024-04-02 06:55:22,557 [INFO]  Epoch[0] Train-cross-entropy=0.046888
+2024-04-02 06:55:22,557 [INFO]  Epoch[0] Train-GenHlth-accuracy=3.199019
+2024-04-02 06:55:22,557 [INFO]  Epoch[0] Time cost=40.288
+2024-04-02 06:55:22,559 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0000.params"
+2024-04-02 06:55:23,850 [INFO]  Epoch[0] Validation-cross-entropy=0.002498
+2024-04-02 06:55:23,850 [INFO]  Epoch[0] Validation-GenHlth-accuracy=0.000000
+2024-04-02 06:55:37,040 [INFO]  Epoch[1] Batch [0-5708]	Speed: 6924.81 samples/sec	cross-entropy=0.006406	GenHlth-accuracy=3.183219
+2024-04-02 06:56:04,130 [INFO]  Epoch[1] Train-cross-entropy=0.004914
+2024-04-02 06:56:04,130 [INFO]  Epoch[1] Train-GenHlth-accuracy=3.199019
+2024-04-02 06:56:04,130 [INFO]  Epoch[1] Time cost=40.280
+2024-04-02 06:56:04,132 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0001.params"
+2024-04-02 06:56:05,887 [INFO]  Epoch[1] Validation-cross-entropy=0.001405
+2024-04-02 06:56:05,888 [INFO]  Epoch[1] Validation-GenHlth-accuracy=0.000000
+2024-04-02 06:56:28,757 [INFO]  Epoch[2] Batch [0-5708]	Speed: 3993.77 samples/sec	cross-entropy=0.002853	GenHlth-accuracy=3.183219
+2024-04-02 06:56:44,148 [INFO]  Epoch[2] Train-cross-entropy=0.002453
+2024-04-02 06:56:44,148 [INFO]  Epoch[2] Train-GenHlth-accuracy=3.199019
+2024-04-02 06:56:44,148 [INFO]  Epoch[2] Time cost=38.260
+2024-04-02 06:56:44,150 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0002.params"
+2024-04-02 06:56:47,337 [INFO]  Epoch[2] Validation-cross-entropy=0.000657
+2024-04-02 06:56:47,337 [INFO]  Epoch[2] Validation-GenHlth-accuracy=0.000000
+2024-04-02 06:57:15,062 [INFO]  Epoch[3] Batch [0-5708]	Speed: 3294.29 samples/sec	cross-entropy=0.002109	GenHlth-accuracy=3.183219
+2024-04-02 06:57:37,563 [INFO]  Epoch[3] Train-cross-entropy=0.001761
+2024-04-02 06:57:37,564 [INFO]  Epoch[3] Train-GenHlth-accuracy=3.199019
+2024-04-02 06:57:37,564 [INFO]  Epoch[3] Time cost=50.226
+2024-04-02 06:57:37,567 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0003.params"
+2024-04-02 06:57:38,547 [INFO]  Epoch[3] Validation-cross-entropy=0.000585
+2024-04-02 06:57:38,547 [INFO]  Epoch[3] Validation-GenHlth-accuracy=0.000000
+2024-04-02 06:57:47,391 [INFO]  Epoch[4] Batch [0-5708]	Speed: 10328.28 samples/sec	cross-entropy=0.001586	GenHlth-accuracy=3.183219
+2024-04-02 06:58:09,378 [INFO]  Epoch[4] Train-cross-entropy=0.001385
+2024-04-02 06:58:09,378 [INFO]  Epoch[4] Train-GenHlth-accuracy=3.199019
+2024-04-02 06:58:09,378 [INFO]  Epoch[4] Time cost=30.831
+2024-04-02 06:58:09,379 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0004.params"
+2024-04-02 06:58:11,500 [INFO]  Epoch[4] Validation-cross-entropy=0.001474
+2024-04-02 06:58:11,501 [INFO]  Epoch[4] Validation-GenHlth-accuracy=0.000000
+2024-04-02 06:58:11,501 [INFO]  
+========== done (209.23290491104126 s) fit model
+2024-04-02 08:13:56,334 [INFO]  
+========== start: fit model
+2024-04-02 08:13:56,335 [WARNING]  Already bound, ignoring bind()
+2024-04-02 08:14:16,253 [INFO]  Epoch[0] Batch [0-5708]	Speed: 4648.14 samples/sec	cross-entropy=0.100594	GenHlth-accuracy=0.000000
+2024-04-02 08:14:35,127 [INFO]  Epoch[0] Train-cross-entropy=0.055400
+2024-04-02 08:14:35,128 [INFO]  Epoch[0] Train-GenHlth-accuracy=0.000000
+2024-04-02 08:14:35,128 [INFO]  Epoch[0] Time cost=38.792
+2024-04-02 08:14:35,130 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0000.params"
+2024-04-02 08:14:35,595 [INFO]  Epoch[0] Validation-cross-entropy=0.004749
+2024-04-02 08:14:35,595 [INFO]  Epoch[0] Validation-GenHlth-accuracy=0.000000
+2024-04-02 08:14:58,635 [INFO]  Epoch[1] Batch [0-5708]	Speed: 3964.13 samples/sec	cross-entropy=0.004628	GenHlth-accuracy=0.000000
+2024-04-02 08:15:27,454 [INFO]  Epoch[1] Train-cross-entropy=0.004089
+2024-04-02 08:15:27,454 [INFO]  Epoch[1] Train-GenHlth-accuracy=0.000000
+2024-04-02 08:15:27,454 [INFO]  Epoch[1] Time cost=51.859
+2024-04-02 08:15:27,455 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0001.params"
+2024-04-02 08:15:28,416 [INFO]  Epoch[1] Validation-cross-entropy=0.003935
+2024-04-02 08:15:28,416 [INFO]  Epoch[1] Validation-GenHlth-accuracy=0.000000
+2024-04-02 08:15:42,921 [INFO]  Epoch[2] Batch [0-5708]	Speed: 6296.97 samples/sec	cross-entropy=0.002480	GenHlth-accuracy=0.000000
+2024-04-02 08:15:57,364 [INFO]  Epoch[2] Train-cross-entropy=0.002493
+2024-04-02 08:15:57,364 [INFO]  Epoch[2] Train-GenHlth-accuracy=0.000000
+2024-04-02 08:15:57,364 [INFO]  Epoch[2] Time cost=28.948
+2024-04-02 08:15:57,366 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0002.params"
+2024-04-02 08:15:57,701 [INFO]  Epoch[2] Validation-cross-entropy=0.003419
+2024-04-02 08:15:57,701 [INFO]  Epoch[2] Validation-GenHlth-accuracy=0.000000
+2024-04-02 08:16:20,535 [INFO]  Epoch[3] Batch [0-5708]	Speed: 3999.96 samples/sec	cross-entropy=0.001813	GenHlth-accuracy=0.000000
+2024-04-02 08:16:41,846 [INFO]  Epoch[3] Train-cross-entropy=0.001863
+2024-04-02 08:16:41,846 [INFO]  Epoch[3] Train-GenHlth-accuracy=0.000000
+2024-04-02 08:16:41,846 [INFO]  Epoch[3] Time cost=44.145
+2024-04-02 08:16:41,848 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0003.params"
+2024-04-02 08:16:46,060 [INFO]  Epoch[3] Validation-cross-entropy=0.002479
+2024-04-02 08:16:46,060 [INFO]  Epoch[3] Validation-GenHlth-accuracy=0.000000
+2024-04-02 08:17:00,973 [INFO]  Epoch[4] Batch [0-5708]	Speed: 6124.82 samples/sec	cross-entropy=0.001394	GenHlth-accuracy=0.000000
+2024-04-02 08:17:14,742 [INFO]  Epoch[4] Train-cross-entropy=0.001291
+2024-04-02 08:17:14,742 [INFO]  Epoch[4] Train-GenHlth-accuracy=0.000000
+2024-04-02 08:17:14,743 [INFO]  Epoch[4] Time cost=28.682
+2024-04-02 08:17:14,745 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0004.params"
+2024-04-02 08:17:15,133 [INFO]  Epoch[4] Validation-cross-entropy=0.000823
+2024-04-02 08:17:15,133 [INFO]  Epoch[4] Validation-GenHlth-accuracy=0.000000
+2024-04-02 08:17:15,133 [INFO]  
+========== done (198.79905366897583 s) fit model
+2024-04-02 09:36:38,057 [INFO]  
+========== start: fit model
+2024-04-02 09:36:38,057 [WARNING]  Already bound, ignoring bind()
+2024-04-02 09:36:59,940 [INFO]  Epoch[0] Batch [0-5708]	Speed: 4213.48 samples/sec	cross-entropy=0.089414	GenHlth-accuracy=0.000000
+2024-04-02 09:37:19,542 [INFO]  Epoch[0] Train-cross-entropy=0.050387
+2024-04-02 09:37:19,542 [INFO]  Epoch[0] Train-GenHlth-accuracy=0.000000
+2024-04-02 09:37:19,542 [INFO]  Epoch[0] Time cost=41.484
+2024-04-02 09:37:19,544 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0000.params"
+2024-04-02 09:37:20,726 [INFO]  Epoch[0] Validation-cross-entropy=0.010629
+2024-04-02 09:37:20,726 [INFO]  Epoch[0] Validation-GenHlth-accuracy=0.000000
+2024-04-02 09:37:41,058 [INFO]  Epoch[1] Batch [0-5708]	Speed: 4492.10 samples/sec	cross-entropy=0.005522	GenHlth-accuracy=0.000000
+2024-04-02 09:37:58,217 [INFO]  Epoch[1] Train-cross-entropy=0.004569
+2024-04-02 09:37:58,217 [INFO]  Epoch[1] Train-GenHlth-accuracy=0.000000
+2024-04-02 09:37:58,217 [INFO]  Epoch[1] Time cost=37.491
+2024-04-02 09:37:58,219 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0001.params"
+2024-04-02 09:38:00,817 [INFO]  Epoch[1] Validation-cross-entropy=0.000054
+2024-04-02 09:38:00,817 [INFO]  Epoch[1] Validation-GenHlth-accuracy=0.000000
+2024-04-02 09:38:19,488 [INFO]  Epoch[2] Batch [0-5708]	Speed: 4904.98 samples/sec	cross-entropy=0.002609	GenHlth-accuracy=0.000000
+2024-04-02 09:38:36,576 [INFO]  Epoch[2] Train-cross-entropy=0.002343
+2024-04-02 09:38:36,576 [INFO]  Epoch[2] Train-GenHlth-accuracy=0.000000
+2024-04-02 09:38:36,576 [INFO]  Epoch[2] Time cost=35.759
+2024-04-02 09:38:36,579 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0002.params"
+2024-04-02 09:38:37,654 [INFO]  Epoch[2] Validation-cross-entropy=0.001285
+2024-04-02 09:38:37,654 [INFO]  Epoch[2] Validation-GenHlth-accuracy=0.000000
+2024-04-02 09:38:56,734 [INFO]  Epoch[3] Batch [0-5708]	Speed: 4787.06 samples/sec	cross-entropy=0.001594	GenHlth-accuracy=0.000000
+2024-04-02 09:39:14,529 [INFO]  Epoch[3] Train-cross-entropy=0.001560
+2024-04-02 09:39:14,529 [INFO]  Epoch[3] Train-GenHlth-accuracy=0.000000
+2024-04-02 09:39:14,529 [INFO]  Epoch[3] Time cost=36.875
+2024-04-02 09:39:14,531 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0003.params"
+2024-04-02 09:39:15,287 [INFO]  Epoch[3] Validation-cross-entropy=0.000229
+2024-04-02 09:39:15,287 [INFO]  Epoch[3] Validation-GenHlth-accuracy=0.000000
+2024-04-02 09:39:40,786 [INFO]  Epoch[4] Batch [0-5708]	Speed: 3581.85 samples/sec	cross-entropy=0.001226	GenHlth-accuracy=0.000000
+2024-04-02 09:40:04,494 [INFO]  Epoch[4] Train-cross-entropy=0.001449
+2024-04-02 09:40:04,494 [INFO]  Epoch[4] Train-GenHlth-accuracy=0.000000
+2024-04-02 09:40:04,494 [INFO]  Epoch[4] Time cost=49.207
+2024-04-02 09:40:04,497 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0004.params"
+2024-04-02 09:40:05,294 [INFO]  Epoch[4] Validation-cross-entropy=0.000242
+2024-04-02 09:40:05,294 [INFO]  Epoch[4] Validation-GenHlth-accuracy=0.000000
+2024-04-02 09:40:05,294 [INFO]  
+========== done (207.23755407333374 s) fit model
+2024-04-02 10:46:56,478 [INFO]  
+========== start: fit model
+2024-04-02 10:46:56,478 [WARNING]  Already bound, ignoring bind()
+2024-04-02 10:47:00,957 [INFO]  Epoch[0] Batch [0-5708]	Speed: 20444.41 samples/sec	cross-entropy=0.093259	GenHlth-accuracy=3.206516
+2024-04-02 10:47:04,631 [INFO]  Epoch[0] Train-cross-entropy=0.052038
+2024-04-02 10:47:04,631 [INFO]  Epoch[0] Train-GenHlth-accuracy=3.203574
+2024-04-02 10:47:04,631 [INFO]  Epoch[0] Time cost=8.152
+2024-04-02 10:47:04,633 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0000.params"
+2024-04-02 10:47:04,878 [INFO]  Epoch[0] Validation-cross-entropy=0.006547
+2024-04-02 10:47:04,878 [INFO]  Epoch[0] Validation-GenHlth-accuracy=0.000000
+2024-04-02 10:47:08,857 [INFO]  Epoch[1] Batch [0-5708]	Speed: 22959.15 samples/sec	cross-entropy=0.005149	GenHlth-accuracy=3.206516
+2024-04-02 10:47:12,259 [INFO]  Epoch[1] Train-cross-entropy=0.004504
+2024-04-02 10:47:12,259 [INFO]  Epoch[1] Train-GenHlth-accuracy=3.203574
+2024-04-02 10:47:12,259 [INFO]  Epoch[1] Time cost=7.381
+2024-04-02 10:47:12,260 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0001.params"
+2024-04-02 10:47:12,496 [INFO]  Epoch[1] Validation-cross-entropy=0.003738
+2024-04-02 10:47:12,496 [INFO]  Epoch[1] Validation-GenHlth-accuracy=0.000000
+2024-04-02 10:47:17,214 [INFO]  Epoch[2] Batch [0-5708]	Speed: 19361.68 samples/sec	cross-entropy=0.002320	GenHlth-accuracy=3.206516
+2024-04-02 10:47:20,728 [INFO]  Epoch[2] Train-cross-entropy=0.002324
+2024-04-02 10:47:20,728 [INFO]  Epoch[2] Train-GenHlth-accuracy=3.203574
+2024-04-02 10:47:20,728 [INFO]  Epoch[2] Time cost=8.232
+2024-04-02 10:47:20,729 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0002.params"
+2024-04-02 10:47:20,952 [INFO]  Epoch[2] Validation-cross-entropy=0.000243
+2024-04-02 10:47:20,953 [INFO]  Epoch[2] Validation-GenHlth-accuracy=0.000000
+2024-04-02 10:47:24,815 [INFO]  Epoch[3] Batch [0-5708]	Speed: 23653.08 samples/sec	cross-entropy=0.001275	GenHlth-accuracy=3.206516
+2024-04-02 10:47:29,132 [INFO]  Epoch[3] Train-cross-entropy=0.001397
+2024-04-02 10:47:29,132 [INFO]  Epoch[3] Train-GenHlth-accuracy=3.203574
+2024-04-02 10:47:29,133 [INFO]  Epoch[3] Time cost=8.180
+2024-04-02 10:47:29,134 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0003.params"
+2024-04-02 10:47:29,567 [INFO]  Epoch[3] Validation-cross-entropy=0.000463
+2024-04-02 10:47:29,567 [INFO]  Epoch[3] Validation-GenHlth-accuracy=0.000000
+2024-04-02 10:47:33,459 [INFO]  Epoch[4] Batch [0-5708]	Speed: 23473.55 samples/sec	cross-entropy=0.001396	GenHlth-accuracy=3.206516
+2024-04-02 10:47:37,097 [INFO]  Epoch[4] Train-cross-entropy=0.001415
+2024-04-02 10:47:37,097 [INFO]  Epoch[4] Train-GenHlth-accuracy=3.203574
+2024-04-02 10:47:37,098 [INFO]  Epoch[4] Time cost=7.530
+2024-04-02 10:47:37,099 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0004.params"
+2024-04-02 10:47:37,335 [INFO]  Epoch[4] Validation-cross-entropy=0.003643
+2024-04-02 10:47:37,335 [INFO]  Epoch[4] Validation-GenHlth-accuracy=0.000000
+2024-04-02 10:47:37,335 [INFO]  
+========== done (40.85735535621643 s) fit model
+2024-04-02 11:16:41,618 [INFO]  
+========== start: fit model
+2024-04-02 11:16:41,618 [WARNING]  Already bound, ignoring bind()
+2024-04-02 11:16:45,723 [INFO]  Epoch[0] Batch [0-5708]	Speed: 22305.85 samples/sec	cross-entropy=0.073978	GenHlth-accuracy=3.181993
+2024-04-02 11:16:49,750 [INFO]  Epoch[0] Train-cross-entropy=0.043840
+2024-04-02 11:16:49,750 [INFO]  Epoch[0] Train-GenHlth-accuracy=3.193413
+2024-04-02 11:16:49,750 [INFO]  Epoch[0] Time cost=8.131
+2024-04-02 11:16:49,752 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0000.params"
+2024-04-02 11:16:50,784 [INFO]  Epoch[0] Validation-cross-entropy=0.011307
+2024-04-02 11:16:50,784 [INFO]  Epoch[0] Validation-GenHlth-accuracy=0.000000
+2024-04-02 11:16:55,245 [INFO]  Epoch[1] Batch [0-5708]	Speed: 20477.28 samples/sec	cross-entropy=0.007936	GenHlth-accuracy=3.181993
+2024-04-02 11:16:59,499 [INFO]  Epoch[1] Train-cross-entropy=0.006342
+2024-04-02 11:16:59,499 [INFO]  Epoch[1] Train-GenHlth-accuracy=3.193413
+2024-04-02 11:16:59,499 [INFO]  Epoch[1] Time cost=8.715
+2024-04-02 11:16:59,501 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0001.params"
+2024-04-02 11:16:59,778 [INFO]  Epoch[1] Validation-cross-entropy=0.005011
+2024-04-02 11:16:59,778 [INFO]  Epoch[1] Validation-GenHlth-accuracy=0.000000
+2024-04-02 11:17:03,806 [INFO]  Epoch[2] Batch [0-5708]	Speed: 22779.15 samples/sec	cross-entropy=0.003969	GenHlth-accuracy=3.181993
+2024-04-02 11:17:08,988 [INFO]  Epoch[2] Train-cross-entropy=0.003528
+2024-04-02 11:17:08,988 [INFO]  Epoch[2] Train-GenHlth-accuracy=3.193413
+2024-04-02 11:17:08,989 [INFO]  Epoch[2] Time cost=9.210
+2024-04-02 11:17:08,990 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0002.params"
+2024-04-02 11:17:09,236 [INFO]  Epoch[2] Validation-cross-entropy=0.000889
+2024-04-02 11:17:09,236 [INFO]  Epoch[2] Validation-GenHlth-accuracy=0.000000
+2024-04-02 11:17:13,165 [INFO]  Epoch[3] Batch [0-5708]	Speed: 23251.15 samples/sec	cross-entropy=0.002752	GenHlth-accuracy=3.181993
+2024-04-02 11:17:17,290 [INFO]  Epoch[3] Train-cross-entropy=0.002519
+2024-04-02 11:17:17,290 [INFO]  Epoch[3] Train-GenHlth-accuracy=3.193413
+2024-04-02 11:17:17,290 [INFO]  Epoch[3] Time cost=8.054
+2024-04-02 11:17:17,292 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0003.params"
+2024-04-02 11:17:17,599 [INFO]  Epoch[3] Validation-cross-entropy=0.000298
+2024-04-02 11:17:17,600 [INFO]  Epoch[3] Validation-GenHlth-accuracy=0.000000
+2024-04-02 11:17:22,626 [INFO]  Epoch[4] Batch [0-5708]	Speed: 18174.15 samples/sec	cross-entropy=0.001894	GenHlth-accuracy=3.181993
+2024-04-02 11:17:26,588 [INFO]  Epoch[4] Train-cross-entropy=0.001869
+2024-04-02 11:17:26,588 [INFO]  Epoch[4] Train-GenHlth-accuracy=3.193413
+2024-04-02 11:17:26,588 [INFO]  Epoch[4] Time cost=8.989
+2024-04-02 11:17:26,590 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0004.params"
+2024-04-02 11:17:26,856 [INFO]  Epoch[4] Validation-cross-entropy=0.000092
+2024-04-02 11:17:26,856 [INFO]  Epoch[4] Validation-GenHlth-accuracy=0.000000
+2024-04-02 11:17:26,856 [INFO]  
+========== done (45.23809313774109 s) fit model
+2024-04-02 12:03:30,820 [INFO]  
+========== start: fit model
+2024-04-02 12:03:30,821 [WARNING]  Already bound, ignoring bind()
+2024-04-02 12:04:09,315 [INFO]  Epoch[0] Batch [0-5708]	Speed: 2381.42 samples/sec	cross-entropy=0.115356	GenHlth-accuracy=0.000000
+2024-04-02 12:04:49,402 [INFO]  Epoch[0] Train-cross-entropy=0.062878
+2024-04-02 12:04:49,402 [INFO]  Epoch[0] Train-GenHlth-accuracy=0.000000
+2024-04-02 12:04:49,402 [INFO]  Epoch[0] Time cost=78.580
+2024-04-02 12:04:49,403 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0000.params"
+2024-04-02 12:04:49,708 [INFO]  Epoch[0] Validation-cross-entropy=0.001251
+2024-04-02 12:04:49,708 [INFO]  Epoch[0] Validation-GenHlth-accuracy=0.000000
+2024-04-02 12:04:53,839 [INFO]  Epoch[1] Batch [0-5708]	Speed: 22114.88 samples/sec	cross-entropy=0.005423	GenHlth-accuracy=0.000000
+2024-04-02 12:04:57,783 [INFO]  Epoch[1] Train-cross-entropy=0.004581
+2024-04-02 12:04:57,783 [INFO]  Epoch[1] Train-GenHlth-accuracy=0.000000
+2024-04-02 12:04:57,783 [INFO]  Epoch[1] Time cost=8.075
+2024-04-02 12:04:57,785 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0001.params"
+2024-04-02 12:04:58,028 [INFO]  Epoch[1] Validation-cross-entropy=0.000281
+2024-04-02 12:04:58,028 [INFO]  Epoch[1] Validation-GenHlth-accuracy=0.000000
+2024-04-02 12:05:02,841 [INFO]  Epoch[2] Batch [0-5708]	Speed: 18980.49 samples/sec	cross-entropy=0.003131	GenHlth-accuracy=0.000000
+2024-04-02 12:05:07,261 [INFO]  Epoch[2] Train-cross-entropy=0.002700
+2024-04-02 12:05:07,262 [INFO]  Epoch[2] Train-GenHlth-accuracy=0.000000
+2024-04-02 12:05:07,262 [INFO]  Epoch[2] Time cost=9.233
+2024-04-02 12:05:07,263 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0002.params"
+2024-04-02 12:05:07,498 [INFO]  Epoch[2] Validation-cross-entropy=0.000127
+2024-04-02 12:05:07,498 [INFO]  Epoch[2] Validation-GenHlth-accuracy=0.000000
+2024-04-02 12:05:11,589 [INFO]  Epoch[3] Batch [0-5708]	Speed: 22331.89 samples/sec	cross-entropy=0.001553	GenHlth-accuracy=0.000000
+2024-04-02 12:05:15,794 [INFO]  Epoch[3] Train-cross-entropy=0.001437
+2024-04-02 12:05:15,794 [INFO]  Epoch[3] Train-GenHlth-accuracy=0.000000
+2024-04-02 12:05:15,794 [INFO]  Epoch[3] Time cost=8.296
+2024-04-02 12:05:15,796 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0003.params"
+2024-04-02 12:05:16,059 [INFO]  Epoch[3] Validation-cross-entropy=0.000603
+2024-04-02 12:05:16,059 [INFO]  Epoch[3] Validation-GenHlth-accuracy=0.000000
+2024-04-02 12:05:21,291 [INFO]  Epoch[4] Batch [0-5708]	Speed: 17459.31 samples/sec	cross-entropy=0.001527	GenHlth-accuracy=0.000000
+2024-04-02 12:05:25,812 [INFO]  Epoch[4] Train-cross-entropy=0.001342
+2024-04-02 12:05:25,813 [INFO]  Epoch[4] Train-GenHlth-accuracy=0.000000
+2024-04-02 12:05:25,813 [INFO]  Epoch[4] Time cost=9.754
+2024-04-02 12:05:25,814 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_GenHlth/model-0004.params"
+2024-04-02 12:05:26,068 [INFO]  Epoch[4] Validation-cross-entropy=0.000394
+2024-04-02 12:05:26,068 [INFO]  Epoch[4] Validation-GenHlth-accuracy=0.000000
+2024-04-02 12:05:26,068 [INFO]  
+========== done (115.24782705307007 s) fit model

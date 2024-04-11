@@ -1,0 +1,1240 @@
+2024-03-06 14:00:49,923 [INFO]  
+========== start: fit model
+2024-03-06 14:00:49,924 [WARNING]  Already bound, ignoring bind()
+2024-03-06 14:00:49,981 [INFO]  Epoch[0] Batch [0-86]	Speed: 26593.57 samples/sec	cross-entropy=0.936436	Convex_Area-accuracy=3.379310
+2024-03-06 14:00:50,766 [INFO]  Epoch[0] Train-cross-entropy=0.501133
+2024-03-06 14:00:50,766 [INFO]  Epoch[0] Train-Convex_Area-accuracy=3.372093
+2024-03-06 14:00:50,766 [INFO]  Epoch[0] Time cost=0.842
+2024-03-06 14:00:50,768 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0000.params"
+2024-03-06 14:00:50,772 [INFO]  Epoch[0] Validation-cross-entropy=0.038347
+2024-03-06 14:00:50,772 [INFO]  Epoch[0] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:00:50,827 [INFO]  Epoch[1] Batch [0-86]	Speed: 25300.90 samples/sec	cross-entropy=0.050666	Convex_Area-accuracy=3.379310
+2024-03-06 14:00:50,887 [INFO]  Epoch[1] Train-cross-entropy=0.039260
+2024-03-06 14:00:50,887 [INFO]  Epoch[1] Train-Convex_Area-accuracy=3.372093
+2024-03-06 14:00:50,887 [INFO]  Epoch[1] Time cost=0.115
+2024-03-06 14:00:50,889 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0001.params"
+2024-03-06 14:00:50,892 [INFO]  Epoch[1] Validation-cross-entropy=0.016356
+2024-03-06 14:00:50,892 [INFO]  Epoch[1] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:00:50,944 [INFO]  Epoch[2] Batch [0-86]	Speed: 27076.53 samples/sec	cross-entropy=0.024409	Convex_Area-accuracy=3.379310
+2024-03-06 14:00:50,997 [INFO]  Epoch[2] Train-cross-entropy=0.021266
+2024-03-06 14:00:50,997 [INFO]  Epoch[2] Train-Convex_Area-accuracy=3.372093
+2024-03-06 14:00:50,997 [INFO]  Epoch[2] Time cost=0.104
+2024-03-06 14:00:50,998 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0002.params"
+2024-03-06 14:00:51,729 [INFO]  Epoch[2] Validation-cross-entropy=0.010156
+2024-03-06 14:00:51,729 [INFO]  Epoch[2] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:00:51,937 [INFO]  Epoch[3] Batch [0-86]	Speed: 23867.94 samples/sec	cross-entropy=0.015157	Convex_Area-accuracy=3.379310
+2024-03-06 14:00:51,985 [INFO]  Epoch[3] Train-cross-entropy=0.014740
+2024-03-06 14:00:51,985 [INFO]  Epoch[3] Train-Convex_Area-accuracy=3.372093
+2024-03-06 14:00:51,985 [INFO]  Epoch[3] Time cost=0.256
+2024-03-06 14:00:51,986 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0003.params"
+2024-03-06 14:00:51,989 [INFO]  Epoch[3] Validation-cross-entropy=0.008229
+2024-03-06 14:00:51,990 [INFO]  Epoch[3] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:00:52,045 [INFO]  Epoch[4] Batch [0-86]	Speed: 24973.33 samples/sec	cross-entropy=0.013303	Convex_Area-accuracy=3.379310
+2024-03-06 14:00:53,115 [INFO]  Epoch[4] Train-cross-entropy=0.013376
+2024-03-06 14:00:53,115 [INFO]  Epoch[4] Train-Convex_Area-accuracy=3.372093
+2024-03-06 14:00:53,115 [INFO]  Epoch[4] Time cost=1.125
+2024-03-06 14:00:53,116 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0004.params"
+2024-03-06 14:00:53,120 [INFO]  Epoch[4] Validation-cross-entropy=0.010285
+2024-03-06 14:00:53,120 [INFO]  Epoch[4] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:00:53,120 [INFO]  
+========== done (3.196446657180786 s) fit model
+2024-03-06 14:01:23,390 [INFO]  
+========== start: fit model
+2024-03-06 14:01:23,390 [WARNING]  Already bound, ignoring bind()
+2024-03-06 14:01:23,468 [INFO]  Epoch[0] Batch [0-86]	Speed: 18293.21 samples/sec	cross-entropy=2.093287	Convex_Area-accuracy=0.000000
+2024-03-06 14:01:23,516 [INFO]  Epoch[0] Train-cross-entropy=1.103556
+2024-03-06 14:01:23,517 [INFO]  Epoch[0] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:01:23,517 [INFO]  Epoch[0] Time cost=0.126
+2024-03-06 14:01:23,518 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0000.params"
+2024-03-06 14:01:23,522 [INFO]  Epoch[0] Validation-cross-entropy=0.056716
+2024-03-06 14:01:23,522 [INFO]  Epoch[0] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:01:23,574 [INFO]  Epoch[1] Batch [0-86]	Speed: 27205.44 samples/sec	cross-entropy=0.053201	Convex_Area-accuracy=0.000000
+2024-03-06 14:01:23,622 [INFO]  Epoch[1] Train-cross-entropy=0.042912
+2024-03-06 14:01:23,622 [INFO]  Epoch[1] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:01:23,622 [INFO]  Epoch[1] Time cost=0.100
+2024-03-06 14:01:23,623 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0001.params"
+2024-03-06 14:01:23,627 [INFO]  Epoch[1] Validation-cross-entropy=0.028984
+2024-03-06 14:01:23,627 [INFO]  Epoch[1] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:01:23,676 [INFO]  Epoch[2] Batch [0-86]	Speed: 28636.31 samples/sec	cross-entropy=0.029239	Convex_Area-accuracy=0.000000
+2024-03-06 14:01:23,723 [INFO]  Epoch[2] Train-cross-entropy=0.025288
+2024-03-06 14:01:23,723 [INFO]  Epoch[2] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:01:23,723 [INFO]  Epoch[2] Time cost=0.096
+2024-03-06 14:01:23,724 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0002.params"
+2024-03-06 14:01:23,728 [INFO]  Epoch[2] Validation-cross-entropy=0.020812
+2024-03-06 14:01:23,728 [INFO]  Epoch[2] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:01:23,778 [INFO]  Epoch[3] Batch [0-86]	Speed: 28303.62 samples/sec	cross-entropy=0.018734	Convex_Area-accuracy=0.000000
+2024-03-06 14:01:23,826 [INFO]  Epoch[3] Train-cross-entropy=0.017130
+2024-03-06 14:01:23,826 [INFO]  Epoch[3] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:01:23,826 [INFO]  Epoch[3] Time cost=0.097
+2024-03-06 14:01:23,827 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0003.params"
+2024-03-06 14:01:23,831 [INFO]  Epoch[3] Validation-cross-entropy=0.020257
+2024-03-06 14:01:23,831 [INFO]  Epoch[3] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:01:23,881 [INFO]  Epoch[4] Batch [0-86]	Speed: 28123.08 samples/sec	cross-entropy=0.014032	Convex_Area-accuracy=0.000000
+2024-03-06 14:01:23,928 [INFO]  Epoch[4] Train-cross-entropy=0.013043
+2024-03-06 14:01:23,928 [INFO]  Epoch[4] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:01:23,928 [INFO]  Epoch[4] Time cost=0.097
+2024-03-06 14:01:23,930 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0004.params"
+2024-03-06 14:01:23,934 [INFO]  Epoch[4] Validation-cross-entropy=0.022480
+2024-03-06 14:01:23,934 [INFO]  Epoch[4] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:01:23,934 [INFO]  
+========== done (0.543734073638916 s) fit model
+2024-03-06 14:01:56,026 [INFO]  
+========== start: fit model
+2024-03-06 14:01:56,026 [WARNING]  Already bound, ignoring bind()
+2024-03-06 14:01:56,096 [INFO]  Epoch[0] Batch [0-86]	Speed: 20473.88 samples/sec	cross-entropy=3.974152	Convex_Area-accuracy=0.000000
+2024-03-06 14:01:56,152 [INFO]  Epoch[0] Train-cross-entropy=2.061152
+2024-03-06 14:01:56,152 [INFO]  Epoch[0] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:01:56,152 [INFO]  Epoch[0] Time cost=0.125
+2024-03-06 14:01:56,154 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0000.params"
+2024-03-06 14:01:56,158 [INFO]  Epoch[0] Validation-cross-entropy=0.074963
+2024-03-06 14:01:56,158 [INFO]  Epoch[0] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:01:56,218 [INFO]  Epoch[1] Batch [0-86]	Speed: 23314.02 samples/sec	cross-entropy=0.062552	Convex_Area-accuracy=0.000000
+2024-03-06 14:01:56,273 [INFO]  Epoch[1] Train-cross-entropy=0.061575
+2024-03-06 14:01:56,274 [INFO]  Epoch[1] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:01:56,274 [INFO]  Epoch[1] Time cost=0.115
+2024-03-06 14:01:56,275 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0001.params"
+2024-03-06 14:01:56,279 [INFO]  Epoch[1] Validation-cross-entropy=0.063265
+2024-03-06 14:01:56,279 [INFO]  Epoch[1] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:01:56,335 [INFO]  Epoch[2] Batch [0-86]	Speed: 25136.16 samples/sec	cross-entropy=0.038470	Convex_Area-accuracy=0.000000
+2024-03-06 14:01:56,390 [INFO]  Epoch[2] Train-cross-entropy=0.037991
+2024-03-06 14:01:56,390 [INFO]  Epoch[2] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:01:56,390 [INFO]  Epoch[2] Time cost=0.111
+2024-03-06 14:01:56,391 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0002.params"
+2024-03-06 14:01:56,396 [INFO]  Epoch[2] Validation-cross-entropy=0.020392
+2024-03-06 14:01:56,396 [INFO]  Epoch[2] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:01:56,454 [INFO]  Epoch[3] Batch [0-86]	Speed: 24026.62 samples/sec	cross-entropy=0.022769	Convex_Area-accuracy=0.000000
+2024-03-06 14:01:56,505 [INFO]  Epoch[3] Train-cross-entropy=0.023158
+2024-03-06 14:01:56,505 [INFO]  Epoch[3] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:01:56,505 [INFO]  Epoch[3] Time cost=0.109
+2024-03-06 14:01:56,507 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0003.params"
+2024-03-06 14:01:56,510 [INFO]  Epoch[3] Validation-cross-entropy=0.013034
+2024-03-06 14:01:56,510 [INFO]  Epoch[3] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:01:56,559 [INFO]  Epoch[4] Batch [0-86]	Speed: 28966.74 samples/sec	cross-entropy=0.016494	Convex_Area-accuracy=0.000000
+2024-03-06 14:01:56,606 [INFO]  Epoch[4] Train-cross-entropy=0.017749
+2024-03-06 14:01:56,606 [INFO]  Epoch[4] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:01:56,606 [INFO]  Epoch[4] Time cost=0.096
+2024-03-06 14:01:56,607 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0004.params"
+2024-03-06 14:01:56,611 [INFO]  Epoch[4] Validation-cross-entropy=0.011065
+2024-03-06 14:01:56,611 [INFO]  Epoch[4] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:01:56,611 [INFO]  
+========== done (0.5850427150726318 s) fit model
+2024-03-06 14:02:36,106 [INFO]  
+========== start: fit model
+2024-03-06 14:02:36,106 [WARNING]  Already bound, ignoring bind()
+2024-03-06 14:02:37,141 [INFO]  Epoch[0] Batch [0-86]	Speed: 24529.87 samples/sec	cross-entropy=1.959485	Convex_Area-accuracy=0.000000
+2024-03-06 14:02:37,197 [INFO]  Epoch[0] Train-cross-entropy=1.033970
+2024-03-06 14:02:37,198 [INFO]  Epoch[0] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:02:37,198 [INFO]  Epoch[0] Time cost=1.089
+2024-03-06 14:02:37,199 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0000.params"
+2024-03-06 14:02:37,203 [INFO]  Epoch[0] Validation-cross-entropy=0.045260
+2024-03-06 14:02:37,203 [INFO]  Epoch[0] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:02:37,258 [INFO]  Epoch[1] Batch [0-86]	Speed: 25532.48 samples/sec	cross-entropy=0.044384	Convex_Area-accuracy=0.000000
+2024-03-06 14:02:38,151 [INFO]  Epoch[1] Train-cross-entropy=0.039158
+2024-03-06 14:02:38,151 [INFO]  Epoch[1] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:02:38,151 [INFO]  Epoch[1] Time cost=0.948
+2024-03-06 14:02:38,153 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0001.params"
+2024-03-06 14:02:38,156 [INFO]  Epoch[1] Validation-cross-entropy=0.029124
+2024-03-06 14:02:38,157 [INFO]  Epoch[1] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:02:38,223 [INFO]  Epoch[2] Batch [0-86]	Speed: 21015.28 samples/sec	cross-entropy=0.024116	Convex_Area-accuracy=0.000000
+2024-03-06 14:02:38,295 [INFO]  Epoch[2] Train-cross-entropy=0.023282
+2024-03-06 14:02:38,295 [INFO]  Epoch[2] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:02:38,295 [INFO]  Epoch[2] Time cost=0.138
+2024-03-06 14:02:38,296 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0002.params"
+2024-03-06 14:02:38,302 [INFO]  Epoch[2] Validation-cross-entropy=0.025005
+2024-03-06 14:02:38,303 [INFO]  Epoch[2] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:02:38,366 [INFO]  Epoch[3] Batch [0-86]	Speed: 22429.69 samples/sec	cross-entropy=0.017757	Convex_Area-accuracy=0.000000
+2024-03-06 14:02:39,398 [INFO]  Epoch[3] Train-cross-entropy=0.017972
+2024-03-06 14:02:39,399 [INFO]  Epoch[3] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:02:39,399 [INFO]  Epoch[3] Time cost=1.096
+2024-03-06 14:02:39,400 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0003.params"
+2024-03-06 14:02:39,405 [INFO]  Epoch[3] Validation-cross-entropy=0.027695
+2024-03-06 14:02:39,405 [INFO]  Epoch[3] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:02:39,469 [INFO]  Epoch[4] Batch [0-86]	Speed: 21935.25 samples/sec	cross-entropy=0.014379	Convex_Area-accuracy=0.000000
+2024-03-06 14:02:39,528 [INFO]  Epoch[4] Train-cross-entropy=0.014302
+2024-03-06 14:02:39,528 [INFO]  Epoch[4] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:02:39,528 [INFO]  Epoch[4] Time cost=0.123
+2024-03-06 14:02:39,529 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0004.params"
+2024-03-06 14:02:39,534 [INFO]  Epoch[4] Validation-cross-entropy=0.023028
+2024-03-06 14:02:39,534 [INFO]  Epoch[4] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:02:39,534 [INFO]  
+========== done (3.4282281398773193 s) fit model
+2024-03-06 14:04:06,290 [INFO]  
+========== start: fit model
+2024-03-06 14:04:06,290 [WARNING]  Already bound, ignoring bind()
+2024-03-06 14:04:06,349 [INFO]  Epoch[0] Batch [0-86]	Speed: 24825.52 samples/sec	cross-entropy=2.256269	Convex_Area-accuracy=0.000000
+2024-03-06 14:04:06,402 [INFO]  Epoch[0] Train-cross-entropy=1.181266
+2024-03-06 14:04:06,402 [INFO]  Epoch[0] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:04:06,403 [INFO]  Epoch[0] Time cost=0.111
+2024-03-06 14:04:06,404 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0000.params"
+2024-03-06 14:04:06,408 [INFO]  Epoch[0] Validation-cross-entropy=0.056945
+2024-03-06 14:04:06,408 [INFO]  Epoch[0] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:04:06,459 [INFO]  Epoch[1] Batch [0-86]	Speed: 27178.66 samples/sec	cross-entropy=0.042996	Convex_Area-accuracy=0.000000
+2024-03-06 14:04:06,510 [INFO]  Epoch[1] Train-cross-entropy=0.037002
+2024-03-06 14:04:06,510 [INFO]  Epoch[1] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:04:06,510 [INFO]  Epoch[1] Time cost=0.102
+2024-03-06 14:04:06,512 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0001.params"
+2024-03-06 14:04:06,515 [INFO]  Epoch[1] Validation-cross-entropy=0.035844
+2024-03-06 14:04:06,515 [INFO]  Epoch[1] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:04:06,566 [INFO]  Epoch[2] Batch [0-86]	Speed: 27567.61 samples/sec	cross-entropy=0.027511	Convex_Area-accuracy=0.000000
+2024-03-06 14:04:06,810 [INFO]  Epoch[2] Train-cross-entropy=0.023759
+2024-03-06 14:04:06,811 [INFO]  Epoch[2] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:04:06,811 [INFO]  Epoch[2] Time cost=0.295
+2024-03-06 14:04:06,812 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0002.params"
+2024-03-06 14:04:06,816 [INFO]  Epoch[2] Validation-cross-entropy=0.028981
+2024-03-06 14:04:06,816 [INFO]  Epoch[2] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:04:06,872 [INFO]  Epoch[3] Batch [0-86]	Speed: 24882.57 samples/sec	cross-entropy=0.019323	Convex_Area-accuracy=0.000000
+2024-03-06 14:04:06,929 [INFO]  Epoch[3] Train-cross-entropy=0.017121
+2024-03-06 14:04:06,929 [INFO]  Epoch[3] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:04:06,929 [INFO]  Epoch[3] Time cost=0.113
+2024-03-06 14:04:06,930 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0003.params"
+2024-03-06 14:04:06,934 [INFO]  Epoch[3] Validation-cross-entropy=0.023340
+2024-03-06 14:04:06,934 [INFO]  Epoch[3] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:04:06,987 [INFO]  Epoch[4] Batch [0-86]	Speed: 26527.80 samples/sec	cross-entropy=0.014621	Convex_Area-accuracy=0.000000
+2024-03-06 14:04:07,040 [INFO]  Epoch[4] Train-cross-entropy=0.013471
+2024-03-06 14:04:07,040 [INFO]  Epoch[4] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:04:07,040 [INFO]  Epoch[4] Time cost=0.106
+2024-03-06 14:04:07,042 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0004.params"
+2024-03-06 14:04:07,045 [INFO]  Epoch[4] Validation-cross-entropy=0.019194
+2024-03-06 14:04:07,045 [INFO]  Epoch[4] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:04:07,046 [INFO]  
+========== done (0.7553937435150146 s) fit model
+2024-03-06 14:04:39,207 [INFO]  
+========== start: fit model
+2024-03-06 14:04:39,207 [WARNING]  Already bound, ignoring bind()
+2024-03-06 14:04:39,278 [INFO]  Epoch[0] Batch [0-86]	Speed: 19979.86 samples/sec	cross-entropy=1.252388	Convex_Area-accuracy=0.000000
+2024-03-06 14:04:39,325 [INFO]  Epoch[0] Train-cross-entropy=0.674354
+2024-03-06 14:04:39,325 [INFO]  Epoch[0] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:04:39,325 [INFO]  Epoch[0] Time cost=0.118
+2024-03-06 14:04:39,327 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0000.params"
+2024-03-06 14:04:39,331 [INFO]  Epoch[0] Validation-cross-entropy=0.046208
+2024-03-06 14:04:39,331 [INFO]  Epoch[0] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:04:39,385 [INFO]  Epoch[1] Batch [0-86]	Speed: 25910.53 samples/sec	cross-entropy=0.040749	Convex_Area-accuracy=0.000000
+2024-03-06 14:04:39,435 [INFO]  Epoch[1] Train-cross-entropy=0.035239
+2024-03-06 14:04:39,435 [INFO]  Epoch[1] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:04:39,436 [INFO]  Epoch[1] Time cost=0.104
+2024-03-06 14:04:39,437 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0001.params"
+2024-03-06 14:04:39,441 [INFO]  Epoch[1] Validation-cross-entropy=0.028122
+2024-03-06 14:04:39,442 [INFO]  Epoch[1] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:04:39,491 [INFO]  Epoch[2] Batch [0-86]	Speed: 28207.75 samples/sec	cross-entropy=0.021040	Convex_Area-accuracy=0.000000
+2024-03-06 14:04:39,549 [INFO]  Epoch[2] Train-cross-entropy=0.019435
+2024-03-06 14:04:39,549 [INFO]  Epoch[2] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:04:39,549 [INFO]  Epoch[2] Time cost=0.108
+2024-03-06 14:04:39,551 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0002.params"
+2024-03-06 14:04:39,555 [INFO]  Epoch[2] Validation-cross-entropy=0.017204
+2024-03-06 14:04:39,555 [INFO]  Epoch[2] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:04:39,614 [INFO]  Epoch[3] Batch [0-86]	Speed: 23709.09 samples/sec	cross-entropy=0.014884	Convex_Area-accuracy=0.000000
+2024-03-06 14:04:39,669 [INFO]  Epoch[3] Train-cross-entropy=0.014711
+2024-03-06 14:04:39,669 [INFO]  Epoch[3] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:04:39,669 [INFO]  Epoch[3] Time cost=0.113
+2024-03-06 14:04:39,670 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0003.params"
+2024-03-06 14:04:39,674 [INFO]  Epoch[3] Validation-cross-entropy=0.011484
+2024-03-06 14:04:39,674 [INFO]  Epoch[3] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:04:39,727 [INFO]  Epoch[4] Batch [0-86]	Speed: 26105.19 samples/sec	cross-entropy=0.011598	Convex_Area-accuracy=0.000000
+2024-03-06 14:04:39,780 [INFO]  Epoch[4] Train-cross-entropy=0.011414
+2024-03-06 14:04:39,780 [INFO]  Epoch[4] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:04:39,780 [INFO]  Epoch[4] Time cost=0.107
+2024-03-06 14:04:39,782 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0004.params"
+2024-03-06 14:04:39,786 [INFO]  Epoch[4] Validation-cross-entropy=0.008291
+2024-03-06 14:04:39,786 [INFO]  Epoch[4] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:04:39,786 [INFO]  
+========== done (0.5792319774627686 s) fit model
+2024-03-06 14:06:32,059 [INFO]  
+========== start: fit model
+2024-03-06 14:06:32,059 [WARNING]  Already bound, ignoring bind()
+2024-03-06 14:06:33,211 [INFO]  Epoch[0] Batch [0-86]	Speed: 27362.41 samples/sec	cross-entropy=2.123856	Convex_Area-accuracy=0.000000
+2024-03-06 14:06:33,262 [INFO]  Epoch[0] Train-cross-entropy=1.107641
+2024-03-06 14:06:33,263 [INFO]  Epoch[0] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:06:33,263 [INFO]  Epoch[0] Time cost=1.202
+2024-03-06 14:06:33,264 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0000.params"
+2024-03-06 14:06:33,268 [INFO]  Epoch[0] Validation-cross-entropy=0.032274
+2024-03-06 14:06:33,268 [INFO]  Epoch[0] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:06:33,333 [INFO]  Epoch[1] Batch [0-86]	Speed: 21347.27 samples/sec	cross-entropy=0.033866	Convex_Area-accuracy=0.000000
+2024-03-06 14:06:33,382 [INFO]  Epoch[1] Train-cross-entropy=0.030859
+2024-03-06 14:06:33,382 [INFO]  Epoch[1] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:06:33,382 [INFO]  Epoch[1] Time cost=0.114
+2024-03-06 14:06:33,383 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0001.params"
+2024-03-06 14:06:33,387 [INFO]  Epoch[1] Validation-cross-entropy=0.019928
+2024-03-06 14:06:33,387 [INFO]  Epoch[1] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:06:34,349 [INFO]  Epoch[2] Batch [0-86]	Speed: 1430.72 samples/sec	cross-entropy=0.023422	Convex_Area-accuracy=0.000000
+2024-03-06 14:06:34,410 [INFO]  Epoch[2] Train-cross-entropy=0.021908
+2024-03-06 14:06:34,410 [INFO]  Epoch[2] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:06:34,410 [INFO]  Epoch[2] Time cost=1.023
+2024-03-06 14:06:34,411 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0002.params"
+2024-03-06 14:06:34,415 [INFO]  Epoch[2] Validation-cross-entropy=0.016368
+2024-03-06 14:06:34,415 [INFO]  Epoch[2] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:06:34,464 [INFO]  Epoch[3] Batch [0-86]	Speed: 28494.36 samples/sec	cross-entropy=0.018072	Convex_Area-accuracy=0.000000
+2024-03-06 14:06:34,512 [INFO]  Epoch[3] Train-cross-entropy=0.017338
+2024-03-06 14:06:34,512 [INFO]  Epoch[3] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:06:34,512 [INFO]  Epoch[3] Time cost=0.097
+2024-03-06 14:06:34,514 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0003.params"
+2024-03-06 14:06:34,517 [INFO]  Epoch[3] Validation-cross-entropy=0.017761
+2024-03-06 14:06:34,517 [INFO]  Epoch[3] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:06:34,573 [INFO]  Epoch[4] Batch [0-86]	Speed: 25218.09 samples/sec	cross-entropy=0.016389	Convex_Area-accuracy=0.000000
+2024-03-06 14:06:36,997 [INFO]  Epoch[4] Train-cross-entropy=0.015329
+2024-03-06 14:06:36,997 [INFO]  Epoch[4] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:06:36,997 [INFO]  Epoch[4] Time cost=2.480
+2024-03-06 14:06:36,998 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0004.params"
+2024-03-06 14:06:37,003 [INFO]  Epoch[4] Validation-cross-entropy=0.019491
+2024-03-06 14:06:37,003 [INFO]  Epoch[4] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:06:37,003 [INFO]  
+========== done (4.943732976913452 s) fit model
+2024-03-06 14:07:10,726 [INFO]  
+========== start: fit model
+2024-03-06 14:07:10,726 [WARNING]  Already bound, ignoring bind()
+2024-03-06 14:07:10,800 [INFO]  Epoch[0] Batch [0-86]	Speed: 18997.37 samples/sec	cross-entropy=1.289895	Convex_Area-accuracy=0.000000
+2024-03-06 14:07:10,849 [INFO]  Epoch[0] Train-cross-entropy=0.696917
+2024-03-06 14:07:10,849 [INFO]  Epoch[0] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:07:10,849 [INFO]  Epoch[0] Time cost=0.122
+2024-03-06 14:07:10,850 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0000.params"
+2024-03-06 14:07:10,854 [INFO]  Epoch[0] Validation-cross-entropy=0.042922
+2024-03-06 14:07:10,855 [INFO]  Epoch[0] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:07:10,904 [INFO]  Epoch[1] Batch [0-86]	Speed: 28325.43 samples/sec	cross-entropy=0.043639	Convex_Area-accuracy=0.000000
+2024-03-06 14:07:10,951 [INFO]  Epoch[1] Train-cross-entropy=0.040683
+2024-03-06 14:07:10,951 [INFO]  Epoch[1] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:07:10,951 [INFO]  Epoch[1] Time cost=0.097
+2024-03-06 14:07:10,953 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0001.params"
+2024-03-06 14:07:10,957 [INFO]  Epoch[1] Validation-cross-entropy=0.025823
+2024-03-06 14:07:10,957 [INFO]  Epoch[1] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:07:11,005 [INFO]  Epoch[2] Batch [0-86]	Speed: 29046.78 samples/sec	cross-entropy=0.028327	Convex_Area-accuracy=0.000000
+2024-03-06 14:07:11,054 [INFO]  Epoch[2] Train-cross-entropy=0.026393
+2024-03-06 14:07:11,054 [INFO]  Epoch[2] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:07:11,054 [INFO]  Epoch[2] Time cost=0.097
+2024-03-06 14:07:11,056 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0002.params"
+2024-03-06 14:07:11,059 [INFO]  Epoch[2] Validation-cross-entropy=0.028417
+2024-03-06 14:07:11,060 [INFO]  Epoch[2] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:07:11,117 [INFO]  Epoch[3] Batch [0-86]	Speed: 24401.68 samples/sec	cross-entropy=0.022686	Convex_Area-accuracy=0.000000
+2024-03-06 14:07:11,170 [INFO]  Epoch[3] Train-cross-entropy=0.019699
+2024-03-06 14:07:11,171 [INFO]  Epoch[3] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:07:11,171 [INFO]  Epoch[3] Time cost=0.111
+2024-03-06 14:07:11,172 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0003.params"
+2024-03-06 14:07:11,176 [INFO]  Epoch[3] Validation-cross-entropy=0.025729
+2024-03-06 14:07:11,176 [INFO]  Epoch[3] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:07:11,231 [INFO]  Epoch[4] Batch [0-86]	Speed: 25511.49 samples/sec	cross-entropy=0.019986	Convex_Area-accuracy=0.000000
+2024-03-06 14:07:11,284 [INFO]  Epoch[4] Train-cross-entropy=0.017168
+2024-03-06 14:07:11,284 [INFO]  Epoch[4] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:07:11,284 [INFO]  Epoch[4] Time cost=0.108
+2024-03-06 14:07:11,286 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0004.params"
+2024-03-06 14:07:11,289 [INFO]  Epoch[4] Validation-cross-entropy=0.020770
+2024-03-06 14:07:11,290 [INFO]  Epoch[4] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:07:11,290 [INFO]  
+========== done (0.5638527870178223 s) fit model
+2024-03-06 14:09:14,206 [INFO]  
+========== start: fit model
+2024-03-06 14:09:14,206 [WARNING]  Already bound, ignoring bind()
+2024-03-06 14:09:14,257 [INFO]  Epoch[0] Batch [0-86]	Speed: 27903.22 samples/sec	cross-entropy=1.248970	Convex_Area-accuracy=3.540230
+2024-03-06 14:09:14,305 [INFO]  Epoch[0] Train-cross-entropy=0.664580
+2024-03-06 14:09:14,305 [INFO]  Epoch[0] Train-Convex_Area-accuracy=3.511628
+2024-03-06 14:09:14,306 [INFO]  Epoch[0] Time cost=0.099
+2024-03-06 14:09:14,307 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0000.params"
+2024-03-06 14:09:14,311 [INFO]  Epoch[0] Validation-cross-entropy=0.047746
+2024-03-06 14:09:14,311 [INFO]  Epoch[0] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:09:14,379 [INFO]  Epoch[1] Batch [0-86]	Speed: 20547.28 samples/sec	cross-entropy=0.043924	Convex_Area-accuracy=3.540230
+2024-03-06 14:09:14,445 [INFO]  Epoch[1] Train-cross-entropy=0.039868
+2024-03-06 14:09:14,445 [INFO]  Epoch[1] Train-Convex_Area-accuracy=3.511628
+2024-03-06 14:09:14,445 [INFO]  Epoch[1] Time cost=0.133
+2024-03-06 14:09:14,446 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0001.params"
+2024-03-06 14:09:14,450 [INFO]  Epoch[1] Validation-cross-entropy=0.024061
+2024-03-06 14:09:14,450 [INFO]  Epoch[1] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:09:14,505 [INFO]  Epoch[2] Batch [0-86]	Speed: 25384.47 samples/sec	cross-entropy=0.025805	Convex_Area-accuracy=3.540230
+2024-03-06 14:09:14,554 [INFO]  Epoch[2] Train-cross-entropy=0.024491
+2024-03-06 14:09:14,554 [INFO]  Epoch[2] Train-Convex_Area-accuracy=3.511628
+2024-03-06 14:09:14,554 [INFO]  Epoch[2] Time cost=0.104
+2024-03-06 14:09:14,556 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0002.params"
+2024-03-06 14:09:14,560 [INFO]  Epoch[2] Validation-cross-entropy=0.013130
+2024-03-06 14:09:14,560 [INFO]  Epoch[2] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:09:14,611 [INFO]  Epoch[3] Batch [0-86]	Speed: 26979.32 samples/sec	cross-entropy=0.020915	Convex_Area-accuracy=3.540230
+2024-03-06 14:09:14,660 [INFO]  Epoch[3] Train-cross-entropy=0.019159
+2024-03-06 14:09:14,660 [INFO]  Epoch[3] Train-Convex_Area-accuracy=3.511628
+2024-03-06 14:09:14,661 [INFO]  Epoch[3] Time cost=0.101
+2024-03-06 14:09:14,662 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0003.params"
+2024-03-06 14:09:14,666 [INFO]  Epoch[3] Validation-cross-entropy=0.018289
+2024-03-06 14:09:14,666 [INFO]  Epoch[3] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:09:14,717 [INFO]  Epoch[4] Batch [0-86]	Speed: 27462.02 samples/sec	cross-entropy=0.018872	Convex_Area-accuracy=3.540230
+2024-03-06 14:09:14,772 [INFO]  Epoch[4] Train-cross-entropy=0.016810
+2024-03-06 14:09:14,772 [INFO]  Epoch[4] Train-Convex_Area-accuracy=3.511628
+2024-03-06 14:09:14,772 [INFO]  Epoch[4] Time cost=0.106
+2024-03-06 14:09:14,774 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0004.params"
+2024-03-06 14:09:14,778 [INFO]  Epoch[4] Validation-cross-entropy=0.023416
+2024-03-06 14:09:14,778 [INFO]  Epoch[4] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:09:14,778 [INFO]  
+========== done (0.5721580982208252 s) fit model
+2024-03-06 14:09:49,485 [INFO]  
+========== start: fit model
+2024-03-06 14:09:49,485 [WARNING]  Already bound, ignoring bind()
+2024-03-06 14:09:49,541 [INFO]  Epoch[0] Batch [0-86]	Speed: 26711.73 samples/sec	cross-entropy=2.637338	Convex_Area-accuracy=0.000000
+2024-03-06 14:09:49,595 [INFO]  Epoch[0] Train-cross-entropy=1.384998
+2024-03-06 14:09:49,595 [INFO]  Epoch[0] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:09:49,595 [INFO]  Epoch[0] Time cost=0.109
+2024-03-06 14:09:49,597 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0000.params"
+2024-03-06 14:09:49,601 [INFO]  Epoch[0] Validation-cross-entropy=0.062396
+2024-03-06 14:09:49,601 [INFO]  Epoch[0] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:09:49,660 [INFO]  Epoch[1] Batch [0-86]	Speed: 23881.66 samples/sec	cross-entropy=0.053685	Convex_Area-accuracy=0.000000
+2024-03-06 14:09:49,725 [INFO]  Epoch[1] Train-cross-entropy=0.046314
+2024-03-06 14:09:49,725 [INFO]  Epoch[1] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:09:49,725 [INFO]  Epoch[1] Time cost=0.124
+2024-03-06 14:09:49,726 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0001.params"
+2024-03-06 14:09:49,730 [INFO]  Epoch[1] Validation-cross-entropy=0.036000
+2024-03-06 14:09:49,730 [INFO]  Epoch[1] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:09:49,804 [INFO]  Epoch[2] Batch [0-86]	Speed: 18904.52 samples/sec	cross-entropy=0.032182	Convex_Area-accuracy=0.000000
+2024-03-06 14:09:49,864 [INFO]  Epoch[2] Train-cross-entropy=0.028182
+2024-03-06 14:09:49,864 [INFO]  Epoch[2] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:09:49,864 [INFO]  Epoch[2] Time cost=0.134
+2024-03-06 14:09:49,866 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0002.params"
+2024-03-06 14:09:49,870 [INFO]  Epoch[2] Validation-cross-entropy=0.031186
+2024-03-06 14:09:49,871 [INFO]  Epoch[2] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:09:49,923 [INFO]  Epoch[3] Batch [0-86]	Speed: 26894.83 samples/sec	cross-entropy=0.022673	Convex_Area-accuracy=0.000000
+2024-03-06 14:09:49,971 [INFO]  Epoch[3] Train-cross-entropy=0.020047
+2024-03-06 14:09:49,971 [INFO]  Epoch[3] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:09:49,971 [INFO]  Epoch[3] Time cost=0.101
+2024-03-06 14:09:49,973 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0003.params"
+2024-03-06 14:09:49,976 [INFO]  Epoch[3] Validation-cross-entropy=0.023415
+2024-03-06 14:09:49,976 [INFO]  Epoch[3] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:09:50,026 [INFO]  Epoch[4] Batch [0-86]	Speed: 28366.08 samples/sec	cross-entropy=0.016296	Convex_Area-accuracy=0.000000
+2024-03-06 14:09:50,075 [INFO]  Epoch[4] Train-cross-entropy=0.014682
+2024-03-06 14:09:50,075 [INFO]  Epoch[4] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:09:50,075 [INFO]  Epoch[4] Time cost=0.098
+2024-03-06 14:09:50,076 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0004.params"
+2024-03-06 14:09:50,080 [INFO]  Epoch[4] Validation-cross-entropy=0.018064
+2024-03-06 14:09:50,080 [INFO]  Epoch[4] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:09:50,080 [INFO]  
+========== done (0.595118522644043 s) fit model
+2024-03-06 14:11:50,724 [INFO]  
+========== start: fit model
+2024-03-06 14:11:50,724 [WARNING]  Already bound, ignoring bind()
+2024-03-06 14:11:50,784 [INFO]  Epoch[0] Batch [0-86]	Speed: 23855.60 samples/sec	cross-entropy=1.674187	Convex_Area-accuracy=0.000000
+2024-03-06 14:11:50,844 [INFO]  Epoch[0] Train-cross-entropy=0.882810
+2024-03-06 14:11:50,845 [INFO]  Epoch[0] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:11:50,845 [INFO]  Epoch[0] Time cost=0.120
+2024-03-06 14:11:50,846 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0000.params"
+2024-03-06 14:11:50,851 [INFO]  Epoch[0] Validation-cross-entropy=0.079665
+2024-03-06 14:11:50,851 [INFO]  Epoch[0] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:11:50,908 [INFO]  Epoch[1] Batch [0-86]	Speed: 24434.84 samples/sec	cross-entropy=0.048625	Convex_Area-accuracy=0.000000
+2024-03-06 14:11:50,963 [INFO]  Epoch[1] Train-cross-entropy=0.040489
+2024-03-06 14:11:50,963 [INFO]  Epoch[1] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:11:50,963 [INFO]  Epoch[1] Time cost=0.112
+2024-03-06 14:11:50,965 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0001.params"
+2024-03-06 14:11:50,969 [INFO]  Epoch[1] Validation-cross-entropy=0.057410
+2024-03-06 14:11:50,969 [INFO]  Epoch[1] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:11:51,025 [INFO]  Epoch[2] Batch [0-86]	Speed: 24615.03 samples/sec	cross-entropy=0.024706	Convex_Area-accuracy=0.000000
+2024-03-06 14:11:51,082 [INFO]  Epoch[2] Train-cross-entropy=0.022598
+2024-03-06 14:11:51,082 [INFO]  Epoch[2] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:11:51,082 [INFO]  Epoch[2] Time cost=0.113
+2024-03-06 14:11:51,083 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0002.params"
+2024-03-06 14:11:51,087 [INFO]  Epoch[2] Validation-cross-entropy=0.022945
+2024-03-06 14:11:51,087 [INFO]  Epoch[2] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:11:51,145 [INFO]  Epoch[3] Batch [0-86]	Speed: 24252.58 samples/sec	cross-entropy=0.016651	Convex_Area-accuracy=0.000000
+2024-03-06 14:11:51,205 [INFO]  Epoch[3] Train-cross-entropy=0.016664
+2024-03-06 14:11:51,205 [INFO]  Epoch[3] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:11:51,205 [INFO]  Epoch[3] Time cost=0.118
+2024-03-06 14:11:51,207 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0003.params"
+2024-03-06 14:11:51,211 [INFO]  Epoch[3] Validation-cross-entropy=0.015174
+2024-03-06 14:11:51,211 [INFO]  Epoch[3] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:11:51,270 [INFO]  Epoch[4] Batch [0-86]	Speed: 23785.01 samples/sec	cross-entropy=0.014447	Convex_Area-accuracy=0.000000
+2024-03-06 14:11:51,325 [INFO]  Epoch[4] Train-cross-entropy=0.014464
+2024-03-06 14:11:51,326 [INFO]  Epoch[4] Train-Convex_Area-accuracy=0.000000
+2024-03-06 14:11:51,326 [INFO]  Epoch[4] Time cost=0.115
+2024-03-06 14:11:51,327 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0004.params"
+2024-03-06 14:11:51,332 [INFO]  Epoch[4] Validation-cross-entropy=0.016487
+2024-03-06 14:11:51,332 [INFO]  Epoch[4] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 14:11:51,332 [INFO]  
+========== done (0.6080400943756104 s) fit model
+2024-03-06 15:49:41,371 [INFO]  
+========== start: fit model
+2024-03-06 15:49:41,372 [WARNING]  Already bound, ignoring bind()
+2024-03-06 15:49:41,551 [INFO]  Epoch[0] Batch [0-86]	Speed: 16703.99 samples/sec	cross-entropy=1.389443	Convex_Area-accuracy=3.333333
+2024-03-06 15:49:41,626 [INFO]  Epoch[0] Train-cross-entropy=0.732158
+2024-03-06 15:49:41,626 [INFO]  Epoch[0] Train-Convex_Area-accuracy=3.308140
+2024-03-06 15:49:41,626 [INFO]  Epoch[0] Time cost=0.253
+2024-03-06 15:49:41,628 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0000.params"
+2024-03-06 15:49:41,633 [INFO]  Epoch[0] Validation-cross-entropy=0.030883
+2024-03-06 15:49:41,633 [INFO]  Epoch[0] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:49:41,715 [INFO]  Epoch[1] Batch [0-86]	Speed: 17226.97 samples/sec	cross-entropy=0.033973	Convex_Area-accuracy=3.333333
+2024-03-06 15:49:41,794 [INFO]  Epoch[1] Train-cross-entropy=0.033475
+2024-03-06 15:49:41,794 [INFO]  Epoch[1] Train-Convex_Area-accuracy=3.308140
+2024-03-06 15:49:41,794 [INFO]  Epoch[1] Time cost=0.160
+2024-03-06 15:49:41,796 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0001.params"
+2024-03-06 15:49:41,801 [INFO]  Epoch[1] Validation-cross-entropy=0.022083
+2024-03-06 15:49:41,801 [INFO]  Epoch[1] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:49:41,896 [INFO]  Epoch[2] Batch [0-86]	Speed: 14677.52 samples/sec	cross-entropy=0.021341	Convex_Area-accuracy=3.333333
+2024-03-06 15:49:41,976 [INFO]  Epoch[2] Train-cross-entropy=0.021051
+2024-03-06 15:49:41,976 [INFO]  Epoch[2] Train-Convex_Area-accuracy=3.308140
+2024-03-06 15:49:41,977 [INFO]  Epoch[2] Time cost=0.175
+2024-03-06 15:49:41,979 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0002.params"
+2024-03-06 15:49:41,984 [INFO]  Epoch[2] Validation-cross-entropy=0.024972
+2024-03-06 15:49:41,984 [INFO]  Epoch[2] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:49:42,065 [INFO]  Epoch[3] Batch [0-86]	Speed: 17299.52 samples/sec	cross-entropy=0.015768	Convex_Area-accuracy=3.333333
+2024-03-06 15:49:42,144 [INFO]  Epoch[3] Train-cross-entropy=0.015657
+2024-03-06 15:49:42,144 [INFO]  Epoch[3] Train-Convex_Area-accuracy=3.308140
+2024-03-06 15:49:42,144 [INFO]  Epoch[3] Time cost=0.160
+2024-03-06 15:49:42,146 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0003.params"
+2024-03-06 15:49:42,151 [INFO]  Epoch[3] Validation-cross-entropy=0.021757
+2024-03-06 15:49:42,151 [INFO]  Epoch[3] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:49:42,226 [INFO]  Epoch[4] Batch [0-86]	Speed: 18553.08 samples/sec	cross-entropy=0.012149	Convex_Area-accuracy=3.333333
+2024-03-06 15:49:42,288 [INFO]  Epoch[4] Train-cross-entropy=0.012249
+2024-03-06 15:49:42,288 [INFO]  Epoch[4] Train-Convex_Area-accuracy=3.308140
+2024-03-06 15:49:42,288 [INFO]  Epoch[4] Time cost=0.137
+2024-03-06 15:49:42,289 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0004.params"
+2024-03-06 15:49:42,293 [INFO]  Epoch[4] Validation-cross-entropy=0.017439
+2024-03-06 15:49:42,293 [INFO]  Epoch[4] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:49:42,293 [INFO]  
+========== done (0.9221124649047852 s) fit model
+2024-03-06 15:50:10,865 [INFO]  
+========== start: fit model
+2024-03-06 15:50:10,865 [WARNING]  Already bound, ignoring bind()
+2024-03-06 15:50:11,115 [INFO]  Epoch[0] Batch [0-86]	Speed: 5791.23 samples/sec	cross-entropy=1.500644	Convex_Area-accuracy=0.000000
+2024-03-06 15:50:11,355 [INFO]  Epoch[0] Train-cross-entropy=0.798929
+2024-03-06 15:50:11,355 [INFO]  Epoch[0] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:50:11,355 [INFO]  Epoch[0] Time cost=0.489
+2024-03-06 15:50:11,358 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0000.params"
+2024-03-06 15:50:11,363 [INFO]  Epoch[0] Validation-cross-entropy=0.042023
+2024-03-06 15:50:11,363 [INFO]  Epoch[0] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:50:11,443 [INFO]  Epoch[1] Batch [0-86]	Speed: 17375.82 samples/sec	cross-entropy=0.041149	Convex_Area-accuracy=0.000000
+2024-03-06 15:50:11,521 [INFO]  Epoch[1] Train-cross-entropy=0.037192
+2024-03-06 15:50:11,521 [INFO]  Epoch[1] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:50:11,521 [INFO]  Epoch[1] Time cost=0.158
+2024-03-06 15:50:11,524 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0001.params"
+2024-03-06 15:50:11,529 [INFO]  Epoch[1] Validation-cross-entropy=0.029659
+2024-03-06 15:50:11,529 [INFO]  Epoch[1] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:50:11,608 [INFO]  Epoch[2] Batch [0-86]	Speed: 17729.72 samples/sec	cross-entropy=0.029396	Convex_Area-accuracy=0.000000
+2024-03-06 15:50:11,706 [INFO]  Epoch[2] Train-cross-entropy=0.025968
+2024-03-06 15:50:11,706 [INFO]  Epoch[2] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:50:11,706 [INFO]  Epoch[2] Time cost=0.177
+2024-03-06 15:50:11,707 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0002.params"
+2024-03-06 15:50:11,712 [INFO]  Epoch[2] Validation-cross-entropy=0.027148
+2024-03-06 15:50:11,712 [INFO]  Epoch[2] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:50:11,871 [INFO]  Epoch[3] Batch [0-86]	Speed: 8716.95 samples/sec	cross-entropy=0.024825	Convex_Area-accuracy=0.000000
+2024-03-06 15:50:11,959 [INFO]  Epoch[3] Train-cross-entropy=0.021416
+2024-03-06 15:50:11,960 [INFO]  Epoch[3] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:50:11,960 [INFO]  Epoch[3] Time cost=0.247
+2024-03-06 15:50:11,961 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0003.params"
+2024-03-06 15:50:11,966 [INFO]  Epoch[3] Validation-cross-entropy=0.022859
+2024-03-06 15:50:11,966 [INFO]  Epoch[3] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:50:12,050 [INFO]  Epoch[4] Batch [0-86]	Speed: 16706.46 samples/sec	cross-entropy=0.021340	Convex_Area-accuracy=0.000000
+2024-03-06 15:50:12,128 [INFO]  Epoch[4] Train-cross-entropy=0.018446
+2024-03-06 15:50:12,129 [INFO]  Epoch[4] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:50:12,129 [INFO]  Epoch[4] Time cost=0.162
+2024-03-06 15:50:12,130 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0004.params"
+2024-03-06 15:50:12,135 [INFO]  Epoch[4] Validation-cross-entropy=0.020667
+2024-03-06 15:50:12,135 [INFO]  Epoch[4] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:50:12,135 [INFO]  
+========== done (1.2702007293701172 s) fit model
+2024-03-06 15:50:41,017 [INFO]  
+========== start: fit model
+2024-03-06 15:50:41,017 [WARNING]  Already bound, ignoring bind()
+2024-03-06 15:50:41,074 [INFO]  Epoch[0] Batch [0-86]	Speed: 24761.19 samples/sec	cross-entropy=1.580020	Convex_Area-accuracy=0.000000
+2024-03-06 15:50:41,147 [INFO]  Epoch[0] Train-cross-entropy=0.826802
+2024-03-06 15:50:41,147 [INFO]  Epoch[0] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:50:41,147 [INFO]  Epoch[0] Time cost=0.129
+2024-03-06 15:50:41,149 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0000.params"
+2024-03-06 15:50:41,156 [INFO]  Epoch[0] Validation-cross-entropy=0.032877
+2024-03-06 15:50:41,156 [INFO]  Epoch[0] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:50:41,214 [INFO]  Epoch[1] Batch [0-86]	Speed: 24227.54 samples/sec	cross-entropy=0.039189	Convex_Area-accuracy=0.000000
+2024-03-06 15:50:41,270 [INFO]  Epoch[1] Train-cross-entropy=0.032784
+2024-03-06 15:50:41,270 [INFO]  Epoch[1] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:50:41,270 [INFO]  Epoch[1] Time cost=0.114
+2024-03-06 15:50:41,271 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0001.params"
+2024-03-06 15:50:41,275 [INFO]  Epoch[1] Validation-cross-entropy=0.017406
+2024-03-06 15:50:41,275 [INFO]  Epoch[1] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:50:41,332 [INFO]  Epoch[2] Batch [0-86]	Speed: 24404.77 samples/sec	cross-entropy=0.023189	Convex_Area-accuracy=0.000000
+2024-03-06 15:50:41,388 [INFO]  Epoch[2] Train-cross-entropy=0.020748
+2024-03-06 15:50:41,388 [INFO]  Epoch[2] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:50:41,388 [INFO]  Epoch[2] Time cost=0.113
+2024-03-06 15:50:41,390 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0002.params"
+2024-03-06 15:50:41,393 [INFO]  Epoch[2] Validation-cross-entropy=0.018097
+2024-03-06 15:50:41,394 [INFO]  Epoch[2] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:50:41,446 [INFO]  Epoch[3] Batch [0-86]	Speed: 26784.99 samples/sec	cross-entropy=0.018228	Convex_Area-accuracy=0.000000
+2024-03-06 15:50:41,500 [INFO]  Epoch[3] Train-cross-entropy=0.016344
+2024-03-06 15:50:41,500 [INFO]  Epoch[3] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:50:41,500 [INFO]  Epoch[3] Time cost=0.106
+2024-03-06 15:50:41,501 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0003.params"
+2024-03-06 15:50:41,504 [INFO]  Epoch[3] Validation-cross-entropy=0.018149
+2024-03-06 15:50:41,505 [INFO]  Epoch[3] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:50:41,553 [INFO]  Epoch[4] Batch [0-86]	Speed: 28890.90 samples/sec	cross-entropy=0.014692	Convex_Area-accuracy=0.000000
+2024-03-06 15:50:41,601 [INFO]  Epoch[4] Train-cross-entropy=0.013130
+2024-03-06 15:50:41,601 [INFO]  Epoch[4] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:50:41,601 [INFO]  Epoch[4] Time cost=0.097
+2024-03-06 15:50:41,603 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0004.params"
+2024-03-06 15:50:41,606 [INFO]  Epoch[4] Validation-cross-entropy=0.012868
+2024-03-06 15:50:41,606 [INFO]  Epoch[4] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:50:41,606 [INFO]  
+========== done (0.5896856784820557 s) fit model
+2024-03-06 15:51:15,607 [INFO]  
+========== start: fit model
+2024-03-06 15:51:15,607 [WARNING]  Already bound, ignoring bind()
+2024-03-06 15:51:15,667 [INFO]  Epoch[0] Batch [0-86]	Speed: 24035.02 samples/sec	cross-entropy=1.721388	Convex_Area-accuracy=3.206897
+2024-03-06 15:51:15,719 [INFO]  Epoch[0] Train-cross-entropy=0.892972
+2024-03-06 15:51:15,720 [INFO]  Epoch[0] Train-Convex_Area-accuracy=3.343023
+2024-03-06 15:51:15,720 [INFO]  Epoch[0] Time cost=0.112
+2024-03-06 15:51:15,721 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0000.params"
+2024-03-06 15:51:15,725 [INFO]  Epoch[0] Validation-cross-entropy=0.031647
+2024-03-06 15:51:15,725 [INFO]  Epoch[0] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:51:15,780 [INFO]  Epoch[1] Batch [0-86]	Speed: 25623.05 samples/sec	cross-entropy=0.033599	Convex_Area-accuracy=3.206897
+2024-03-06 15:51:15,832 [INFO]  Epoch[1] Train-cross-entropy=0.028564
+2024-03-06 15:51:15,832 [INFO]  Epoch[1] Train-Convex_Area-accuracy=3.343023
+2024-03-06 15:51:15,832 [INFO]  Epoch[1] Time cost=0.106
+2024-03-06 15:51:15,833 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0001.params"
+2024-03-06 15:51:15,837 [INFO]  Epoch[1] Validation-cross-entropy=0.032511
+2024-03-06 15:51:15,837 [INFO]  Epoch[1] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:51:15,888 [INFO]  Epoch[2] Batch [0-86]	Speed: 27297.19 samples/sec	cross-entropy=0.022406	Convex_Area-accuracy=3.206897
+2024-03-06 15:51:15,938 [INFO]  Epoch[2] Train-cross-entropy=0.019318
+2024-03-06 15:51:15,938 [INFO]  Epoch[2] Train-Convex_Area-accuracy=3.343023
+2024-03-06 15:51:15,938 [INFO]  Epoch[2] Time cost=0.101
+2024-03-06 15:51:15,939 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0002.params"
+2024-03-06 15:51:15,943 [INFO]  Epoch[2] Validation-cross-entropy=0.017371
+2024-03-06 15:51:15,943 [INFO]  Epoch[2] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:51:16,001 [INFO]  Epoch[3] Batch [0-86]	Speed: 24279.21 samples/sec	cross-entropy=0.016951	Convex_Area-accuracy=3.206897
+2024-03-06 15:51:16,049 [INFO]  Epoch[3] Train-cross-entropy=0.014972
+2024-03-06 15:51:16,049 [INFO]  Epoch[3] Train-Convex_Area-accuracy=3.343023
+2024-03-06 15:51:16,049 [INFO]  Epoch[3] Time cost=0.105
+2024-03-06 15:51:16,050 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0003.params"
+2024-03-06 15:51:16,054 [INFO]  Epoch[3] Validation-cross-entropy=0.010899
+2024-03-06 15:51:16,054 [INFO]  Epoch[3] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:51:16,102 [INFO]  Epoch[4] Batch [0-86]	Speed: 28749.29 samples/sec	cross-entropy=0.014377	Convex_Area-accuracy=3.206897
+2024-03-06 15:51:16,150 [INFO]  Epoch[4] Train-cross-entropy=0.012871
+2024-03-06 15:51:16,150 [INFO]  Epoch[4] Train-Convex_Area-accuracy=3.343023
+2024-03-06 15:51:16,150 [INFO]  Epoch[4] Time cost=0.096
+2024-03-06 15:51:16,151 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0004.params"
+2024-03-06 15:51:16,155 [INFO]  Epoch[4] Validation-cross-entropy=0.009723
+2024-03-06 15:51:16,155 [INFO]  Epoch[4] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:51:16,155 [INFO]  
+========== done (0.5486710071563721 s) fit model
+2024-03-06 15:51:50,369 [INFO]  
+========== start: fit model
+2024-03-06 15:51:50,369 [WARNING]  Already bound, ignoring bind()
+2024-03-06 15:51:50,421 [INFO]  Epoch[0] Batch [0-86]	Speed: 27735.87 samples/sec	cross-entropy=2.719689	Convex_Area-accuracy=0.000000
+2024-03-06 15:51:50,468 [INFO]  Epoch[0] Train-cross-entropy=1.425803
+2024-03-06 15:51:50,468 [INFO]  Epoch[0] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:51:50,468 [INFO]  Epoch[0] Time cost=0.098
+2024-03-06 15:51:50,470 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0000.params"
+2024-03-06 15:51:50,473 [INFO]  Epoch[0] Validation-cross-entropy=0.065394
+2024-03-06 15:51:50,473 [INFO]  Epoch[0] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:51:50,524 [INFO]  Epoch[1] Batch [0-86]	Speed: 27241.14 samples/sec	cross-entropy=0.049023	Convex_Area-accuracy=0.000000
+2024-03-06 15:51:50,571 [INFO]  Epoch[1] Train-cross-entropy=0.043578
+2024-03-06 15:51:50,571 [INFO]  Epoch[1] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:51:50,571 [INFO]  Epoch[1] Time cost=0.098
+2024-03-06 15:51:50,573 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0001.params"
+2024-03-06 15:51:50,576 [INFO]  Epoch[1] Validation-cross-entropy=0.034879
+2024-03-06 15:51:50,576 [INFO]  Epoch[1] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:51:50,625 [INFO]  Epoch[2] Batch [0-86]	Speed: 28470.33 samples/sec	cross-entropy=0.025458	Convex_Area-accuracy=0.000000
+2024-03-06 15:51:50,672 [INFO]  Epoch[2] Train-cross-entropy=0.024427
+2024-03-06 15:51:50,672 [INFO]  Epoch[2] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:51:50,672 [INFO]  Epoch[2] Time cost=0.096
+2024-03-06 15:51:50,674 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0002.params"
+2024-03-06 15:51:50,677 [INFO]  Epoch[2] Validation-cross-entropy=0.025867
+2024-03-06 15:51:50,677 [INFO]  Epoch[2] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:51:50,726 [INFO]  Epoch[3] Batch [0-86]	Speed: 28780.83 samples/sec	cross-entropy=0.018135	Convex_Area-accuracy=0.000000
+2024-03-06 15:51:50,773 [INFO]  Epoch[3] Train-cross-entropy=0.017888
+2024-03-06 15:51:50,773 [INFO]  Epoch[3] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:51:50,773 [INFO]  Epoch[3] Time cost=0.096
+2024-03-06 15:51:50,774 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0003.params"
+2024-03-06 15:51:50,778 [INFO]  Epoch[3] Validation-cross-entropy=0.034203
+2024-03-06 15:51:50,778 [INFO]  Epoch[3] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:51:50,828 [INFO]  Epoch[4] Batch [0-86]	Speed: 27634.27 samples/sec	cross-entropy=0.015191	Convex_Area-accuracy=0.000000
+2024-03-06 15:51:50,880 [INFO]  Epoch[4] Train-cross-entropy=0.014414
+2024-03-06 15:51:50,880 [INFO]  Epoch[4] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:51:50,881 [INFO]  Epoch[4] Time cost=0.103
+2024-03-06 15:51:50,882 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0004.params"
+2024-03-06 15:51:50,885 [INFO]  Epoch[4] Validation-cross-entropy=0.016174
+2024-03-06 15:51:50,886 [INFO]  Epoch[4] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:51:50,886 [INFO]  
+========== done (0.5164651870727539 s) fit model
+2024-03-06 15:52:25,619 [INFO]  
+========== start: fit model
+2024-03-06 15:52:25,620 [WARNING]  Already bound, ignoring bind()
+2024-03-06 15:52:25,678 [INFO]  Epoch[0] Batch [0-86]	Speed: 24431.43 samples/sec	cross-entropy=1.042909	Convex_Area-accuracy=0.000000
+2024-03-06 15:52:25,734 [INFO]  Epoch[0] Train-cross-entropy=0.548884
+2024-03-06 15:52:25,734 [INFO]  Epoch[0] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:52:25,734 [INFO]  Epoch[0] Time cost=0.114
+2024-03-06 15:52:25,736 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0000.params"
+2024-03-06 15:52:25,740 [INFO]  Epoch[0] Validation-cross-entropy=0.033464
+2024-03-06 15:52:25,740 [INFO]  Epoch[0] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:52:25,797 [INFO]  Epoch[1] Batch [0-86]	Speed: 24349.79 samples/sec	cross-entropy=0.030790	Convex_Area-accuracy=0.000000
+2024-03-06 15:52:25,852 [INFO]  Epoch[1] Train-cross-entropy=0.029182
+2024-03-06 15:52:25,853 [INFO]  Epoch[1] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:52:25,853 [INFO]  Epoch[1] Time cost=0.113
+2024-03-06 15:52:25,854 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0001.params"
+2024-03-06 15:52:25,858 [INFO]  Epoch[1] Validation-cross-entropy=0.025872
+2024-03-06 15:52:25,858 [INFO]  Epoch[1] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:52:25,909 [INFO]  Epoch[2] Batch [0-86]	Speed: 27544.46 samples/sec	cross-entropy=0.021408	Convex_Area-accuracy=0.000000
+2024-03-06 15:52:25,957 [INFO]  Epoch[2] Train-cross-entropy=0.023131
+2024-03-06 15:52:25,958 [INFO]  Epoch[2] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:52:25,958 [INFO]  Epoch[2] Time cost=0.099
+2024-03-06 15:52:25,959 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0002.params"
+2024-03-06 15:52:25,963 [INFO]  Epoch[2] Validation-cross-entropy=0.018444
+2024-03-06 15:52:25,964 [INFO]  Epoch[2] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:52:26,015 [INFO]  Epoch[3] Batch [0-86]	Speed: 27191.47 samples/sec	cross-entropy=0.016456	Convex_Area-accuracy=0.000000
+2024-03-06 15:52:26,065 [INFO]  Epoch[3] Train-cross-entropy=0.019053
+2024-03-06 15:52:26,065 [INFO]  Epoch[3] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:52:26,065 [INFO]  Epoch[3] Time cost=0.101
+2024-03-06 15:52:26,066 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0003.params"
+2024-03-06 15:52:26,070 [INFO]  Epoch[3] Validation-cross-entropy=0.013265
+2024-03-06 15:52:26,070 [INFO]  Epoch[3] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:52:26,121 [INFO]  Epoch[4] Batch [0-86]	Speed: 27453.52 samples/sec	cross-entropy=0.014266	Convex_Area-accuracy=0.000000
+2024-03-06 15:52:26,172 [INFO]  Epoch[4] Train-cross-entropy=0.015162
+2024-03-06 15:52:26,172 [INFO]  Epoch[4] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:52:26,172 [INFO]  Epoch[4] Time cost=0.102
+2024-03-06 15:52:26,174 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0004.params"
+2024-03-06 15:52:26,178 [INFO]  Epoch[4] Validation-cross-entropy=0.015887
+2024-03-06 15:52:26,178 [INFO]  Epoch[4] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:52:26,178 [INFO]  
+========== done (0.5583646297454834 s) fit model
+2024-03-06 15:52:53,265 [INFO]  
+========== start: fit model
+2024-03-06 15:52:53,265 [WARNING]  Already bound, ignoring bind()
+2024-03-06 15:52:53,375 [INFO]  Epoch[0] Batch [0-86]	Speed: 12766.21 samples/sec	cross-entropy=3.004898	Convex_Area-accuracy=3.218391
+2024-03-06 15:52:53,468 [INFO]  Epoch[0] Train-cross-entropy=1.574105
+2024-03-06 15:52:53,468 [INFO]  Epoch[0] Train-Convex_Area-accuracy=3.406977
+2024-03-06 15:52:53,469 [INFO]  Epoch[0] Time cost=0.203
+2024-03-06 15:52:53,472 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0000.params"
+2024-03-06 15:52:53,486 [INFO]  Epoch[0] Validation-cross-entropy=0.069432
+2024-03-06 15:52:53,486 [INFO]  Epoch[0] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:52:53,606 [INFO]  Epoch[1] Batch [0-86]	Speed: 11691.13 samples/sec	cross-entropy=0.057423	Convex_Area-accuracy=3.218391
+2024-03-06 15:52:53,689 [INFO]  Epoch[1] Train-cross-entropy=0.047499
+2024-03-06 15:52:53,690 [INFO]  Epoch[1] Train-Convex_Area-accuracy=3.406977
+2024-03-06 15:52:53,690 [INFO]  Epoch[1] Time cost=0.203
+2024-03-06 15:52:53,692 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0001.params"
+2024-03-06 15:52:53,697 [INFO]  Epoch[1] Validation-cross-entropy=0.026601
+2024-03-06 15:52:53,697 [INFO]  Epoch[1] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:52:53,788 [INFO]  Epoch[2] Batch [0-86]	Speed: 15289.71 samples/sec	cross-entropy=0.027836	Convex_Area-accuracy=3.218391
+2024-03-06 15:52:53,867 [INFO]  Epoch[2] Train-cross-entropy=0.027193
+2024-03-06 15:52:53,867 [INFO]  Epoch[2] Train-Convex_Area-accuracy=3.406977
+2024-03-06 15:52:53,868 [INFO]  Epoch[2] Time cost=0.170
+2024-03-06 15:52:53,870 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0002.params"
+2024-03-06 15:52:53,875 [INFO]  Epoch[2] Validation-cross-entropy=0.020890
+2024-03-06 15:52:53,875 [INFO]  Epoch[2] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:52:53,955 [INFO]  Epoch[3] Batch [0-86]	Speed: 17415.20 samples/sec	cross-entropy=0.021983	Convex_Area-accuracy=3.218391
+2024-03-06 15:52:54,034 [INFO]  Epoch[3] Train-cross-entropy=0.021352
+2024-03-06 15:52:54,034 [INFO]  Epoch[3] Train-Convex_Area-accuracy=3.406977
+2024-03-06 15:52:54,035 [INFO]  Epoch[3] Time cost=0.159
+2024-03-06 15:52:54,037 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0003.params"
+2024-03-06 15:52:54,042 [INFO]  Epoch[3] Validation-cross-entropy=0.019879
+2024-03-06 15:52:54,042 [INFO]  Epoch[3] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:52:54,122 [INFO]  Epoch[4] Batch [0-86]	Speed: 17467.38 samples/sec	cross-entropy=0.017376	Convex_Area-accuracy=3.218391
+2024-03-06 15:52:54,200 [INFO]  Epoch[4] Train-cross-entropy=0.016889
+2024-03-06 15:52:54,200 [INFO]  Epoch[4] Train-Convex_Area-accuracy=3.406977
+2024-03-06 15:52:54,200 [INFO]  Epoch[4] Time cost=0.158
+2024-03-06 15:52:54,202 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0004.params"
+2024-03-06 15:52:54,207 [INFO]  Epoch[4] Validation-cross-entropy=0.018095
+2024-03-06 15:52:54,208 [INFO]  Epoch[4] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:52:54,208 [INFO]  
+========== done (0.9427998065948486 s) fit model
+2024-03-06 15:53:22,190 [INFO]  
+========== start: fit model
+2024-03-06 15:53:22,190 [WARNING]  Already bound, ignoring bind()
+2024-03-06 15:53:22,259 [INFO]  Epoch[0] Batch [0-86]	Speed: 20460.60 samples/sec	cross-entropy=1.478525	Convex_Area-accuracy=0.000000
+2024-03-06 15:53:22,312 [INFO]  Epoch[0] Train-cross-entropy=0.794020
+2024-03-06 15:53:22,312 [INFO]  Epoch[0] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:53:22,312 [INFO]  Epoch[0] Time cost=0.121
+2024-03-06 15:53:22,313 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0000.params"
+2024-03-06 15:53:22,317 [INFO]  Epoch[0] Validation-cross-entropy=0.057830
+2024-03-06 15:53:22,318 [INFO]  Epoch[0] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:53:22,373 [INFO]  Epoch[1] Batch [0-86]	Speed: 25316.32 samples/sec	cross-entropy=0.042819	Convex_Area-accuracy=0.000000
+2024-03-06 15:53:22,427 [INFO]  Epoch[1] Train-cross-entropy=0.038920
+2024-03-06 15:53:22,427 [INFO]  Epoch[1] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:53:22,427 [INFO]  Epoch[1] Time cost=0.109
+2024-03-06 15:53:22,428 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0001.params"
+2024-03-06 15:53:22,432 [INFO]  Epoch[1] Validation-cross-entropy=0.040074
+2024-03-06 15:53:22,432 [INFO]  Epoch[1] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:53:22,492 [INFO]  Epoch[2] Batch [0-86]	Speed: 23323.44 samples/sec	cross-entropy=0.023804	Convex_Area-accuracy=0.000000
+2024-03-06 15:53:22,546 [INFO]  Epoch[2] Train-cross-entropy=0.023296
+2024-03-06 15:53:22,546 [INFO]  Epoch[2] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:53:22,546 [INFO]  Epoch[2] Time cost=0.114
+2024-03-06 15:53:22,548 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0002.params"
+2024-03-06 15:53:22,552 [INFO]  Epoch[2] Validation-cross-entropy=0.019608
+2024-03-06 15:53:22,552 [INFO]  Epoch[2] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:53:22,607 [INFO]  Epoch[3] Batch [0-86]	Speed: 25129.15 samples/sec	cross-entropy=0.017860	Convex_Area-accuracy=0.000000
+2024-03-06 15:53:22,662 [INFO]  Epoch[3] Train-cross-entropy=0.018318
+2024-03-06 15:53:22,662 [INFO]  Epoch[3] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:53:22,662 [INFO]  Epoch[3] Time cost=0.110
+2024-03-06 15:53:22,664 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0003.params"
+2024-03-06 15:53:22,667 [INFO]  Epoch[3] Validation-cross-entropy=0.014826
+2024-03-06 15:53:22,668 [INFO]  Epoch[3] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:53:22,723 [INFO]  Epoch[4] Batch [0-86]	Speed: 25191.45 samples/sec	cross-entropy=0.013562	Convex_Area-accuracy=0.000000
+2024-03-06 15:53:22,777 [INFO]  Epoch[4] Train-cross-entropy=0.015004
+2024-03-06 15:53:22,777 [INFO]  Epoch[4] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:53:22,777 [INFO]  Epoch[4] Time cost=0.110
+2024-03-06 15:53:22,779 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0004.params"
+2024-03-06 15:53:22,783 [INFO]  Epoch[4] Validation-cross-entropy=0.013289
+2024-03-06 15:53:22,783 [INFO]  Epoch[4] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:53:22,783 [INFO]  
+========== done (0.592815637588501 s) fit model
+2024-03-06 15:53:59,851 [INFO]  
+========== start: fit model
+2024-03-06 15:53:59,851 [WARNING]  Already bound, ignoring bind()
+2024-03-06 15:53:59,913 [INFO]  Epoch[0] Batch [0-86]	Speed: 24414.06 samples/sec	cross-entropy=2.737287	Convex_Area-accuracy=0.000000
+2024-03-06 15:53:59,965 [INFO]  Epoch[0] Train-cross-entropy=1.448417
+2024-03-06 15:53:59,965 [INFO]  Epoch[0] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:53:59,965 [INFO]  Epoch[0] Time cost=0.112
+2024-03-06 15:53:59,967 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0000.params"
+2024-03-06 15:53:59,971 [INFO]  Epoch[0] Validation-cross-entropy=0.073471
+2024-03-06 15:53:59,971 [INFO]  Epoch[0] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:54:00,023 [INFO]  Epoch[1] Batch [0-86]	Speed: 26575.93 samples/sec	cross-entropy=0.051867	Convex_Area-accuracy=0.000000
+2024-03-06 15:54:00,092 [INFO]  Epoch[1] Train-cross-entropy=0.047187
+2024-03-06 15:54:00,092 [INFO]  Epoch[1] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:54:00,092 [INFO]  Epoch[1] Time cost=0.121
+2024-03-06 15:54:00,093 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0001.params"
+2024-03-06 15:54:00,097 [INFO]  Epoch[1] Validation-cross-entropy=0.034166
+2024-03-06 15:54:00,098 [INFO]  Epoch[1] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:54:00,146 [INFO]  Epoch[2] Batch [0-86]	Speed: 28863.74 samples/sec	cross-entropy=0.030612	Convex_Area-accuracy=0.000000
+2024-03-06 15:54:00,193 [INFO]  Epoch[2] Train-cross-entropy=0.029245
+2024-03-06 15:54:00,193 [INFO]  Epoch[2] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:54:00,193 [INFO]  Epoch[2] Time cost=0.096
+2024-03-06 15:54:00,195 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0002.params"
+2024-03-06 15:54:00,198 [INFO]  Epoch[2] Validation-cross-entropy=0.021031
+2024-03-06 15:54:00,198 [INFO]  Epoch[2] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:54:00,246 [INFO]  Epoch[3] Batch [0-86]	Speed: 28899.44 samples/sec	cross-entropy=0.021163	Convex_Area-accuracy=0.000000
+2024-03-06 15:54:00,294 [INFO]  Epoch[3] Train-cross-entropy=0.020453
+2024-03-06 15:54:00,294 [INFO]  Epoch[3] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:54:00,294 [INFO]  Epoch[3] Time cost=0.096
+2024-03-06 15:54:00,295 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0003.params"
+2024-03-06 15:54:00,299 [INFO]  Epoch[3] Validation-cross-entropy=0.015918
+2024-03-06 15:54:00,299 [INFO]  Epoch[3] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:54:00,348 [INFO]  Epoch[4] Batch [0-86]	Speed: 28431.20 samples/sec	cross-entropy=0.016260	Convex_Area-accuracy=0.000000
+2024-03-06 15:54:00,401 [INFO]  Epoch[4] Train-cross-entropy=0.016207
+2024-03-06 15:54:00,401 [INFO]  Epoch[4] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:54:00,401 [INFO]  Epoch[4] Time cost=0.102
+2024-03-06 15:54:00,402 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0004.params"
+2024-03-06 15:54:00,406 [INFO]  Epoch[4] Validation-cross-entropy=0.015424
+2024-03-06 15:54:00,406 [INFO]  Epoch[4] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:54:00,406 [INFO]  
+========== done (0.5553464889526367 s) fit model
+2024-03-06 15:54:45,691 [INFO]  
+========== start: fit model
+2024-03-06 15:54:45,691 [WARNING]  Already bound, ignoring bind()
+2024-03-06 15:54:46,013 [INFO]  Epoch[0] Batch [0-86]	Speed: 4455.86 samples/sec	cross-entropy=1.919470	Convex_Area-accuracy=3.252874
+2024-03-06 15:54:46,111 [INFO]  Epoch[0] Train-cross-entropy=1.020318
+2024-03-06 15:54:46,111 [INFO]  Epoch[0] Train-Convex_Area-accuracy=3.494186
+2024-03-06 15:54:46,111 [INFO]  Epoch[0] Time cost=0.419
+2024-03-06 15:54:46,113 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0000.params"
+2024-03-06 15:54:46,120 [INFO]  Epoch[0] Validation-cross-entropy=0.045107
+2024-03-06 15:54:46,121 [INFO]  Epoch[0] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:54:46,212 [INFO]  Epoch[1] Batch [0-86]	Speed: 15365.71 samples/sec	cross-entropy=0.040953	Convex_Area-accuracy=3.252874
+2024-03-06 15:54:46,289 [INFO]  Epoch[1] Train-cross-entropy=0.035773
+2024-03-06 15:54:46,290 [INFO]  Epoch[1] Train-Convex_Area-accuracy=3.494186
+2024-03-06 15:54:46,290 [INFO]  Epoch[1] Time cost=0.169
+2024-03-06 15:54:46,292 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0001.params"
+2024-03-06 15:54:46,297 [INFO]  Epoch[1] Validation-cross-entropy=0.030515
+2024-03-06 15:54:46,298 [INFO]  Epoch[1] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:54:46,403 [INFO]  Epoch[2] Batch [0-86]	Speed: 13163.22 samples/sec	cross-entropy=0.022074	Convex_Area-accuracy=3.252874
+2024-03-06 15:54:46,485 [INFO]  Epoch[2] Train-cross-entropy=0.021343
+2024-03-06 15:54:46,485 [INFO]  Epoch[2] Train-Convex_Area-accuracy=3.494186
+2024-03-06 15:54:46,485 [INFO]  Epoch[2] Time cost=0.187
+2024-03-06 15:54:46,487 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0002.params"
+2024-03-06 15:54:46,493 [INFO]  Epoch[2] Validation-cross-entropy=0.022929
+2024-03-06 15:54:46,493 [INFO]  Epoch[2] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:54:46,562 [INFO]  Epoch[3] Batch [0-86]	Speed: 20166.61 samples/sec	cross-entropy=0.017484	Convex_Area-accuracy=3.252874
+2024-03-06 15:54:46,621 [INFO]  Epoch[3] Train-cross-entropy=0.016438
+2024-03-06 15:54:46,621 [INFO]  Epoch[3] Train-Convex_Area-accuracy=3.494186
+2024-03-06 15:54:46,621 [INFO]  Epoch[3] Time cost=0.128
+2024-03-06 15:54:46,623 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0003.params"
+2024-03-06 15:54:46,629 [INFO]  Epoch[3] Validation-cross-entropy=0.015665
+2024-03-06 15:54:46,629 [INFO]  Epoch[3] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:54:46,706 [INFO]  Epoch[4] Batch [0-86]	Speed: 18053.67 samples/sec	cross-entropy=0.014619	Convex_Area-accuracy=3.252874
+2024-03-06 15:54:46,784 [INFO]  Epoch[4] Train-cross-entropy=0.013379
+2024-03-06 15:54:46,784 [INFO]  Epoch[4] Train-Convex_Area-accuracy=3.494186
+2024-03-06 15:54:46,785 [INFO]  Epoch[4] Time cost=0.156
+2024-03-06 15:54:46,787 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0004.params"
+2024-03-06 15:54:46,792 [INFO]  Epoch[4] Validation-cross-entropy=0.010920
+2024-03-06 15:54:46,793 [INFO]  Epoch[4] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:54:46,793 [INFO]  
+========== done (1.1018848419189453 s) fit model
+2024-03-06 15:56:29,065 [INFO]  
+========== start: fit model
+2024-03-06 15:56:29,066 [WARNING]  Already bound, ignoring bind()
+2024-03-06 15:56:30,959 [INFO]  Epoch[0] Batch [0-86]	Speed: 745.62 samples/sec	cross-entropy=1.712641	Convex_Area-accuracy=0.000000
+2024-03-06 15:56:32,701 [INFO]  Epoch[0] Train-cross-entropy=0.909500
+2024-03-06 15:56:32,702 [INFO]  Epoch[0] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:56:32,702 [INFO]  Epoch[0] Time cost=3.635
+2024-03-06 15:56:32,704 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0000.params"
+2024-03-06 15:56:32,728 [INFO]  Epoch[0] Validation-cross-entropy=0.067888
+2024-03-06 15:56:32,728 [INFO]  Epoch[0] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:56:34,769 [INFO]  Epoch[1] Batch [0-86]	Speed: 717.76 samples/sec	cross-entropy=0.047586	Convex_Area-accuracy=0.000000
+2024-03-06 15:56:36,682 [INFO]  Epoch[1] Train-cross-entropy=0.040259
+2024-03-06 15:56:36,682 [INFO]  Epoch[1] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:56:36,682 [INFO]  Epoch[1] Time cost=3.954
+2024-03-06 15:56:36,686 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0001.params"
+2024-03-06 15:56:36,909 [INFO]  Epoch[1] Validation-cross-entropy=0.019583
+2024-03-06 15:56:36,909 [INFO]  Epoch[1] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:56:38,047 [INFO]  Epoch[2] Batch [0-86]	Speed: 1209.72 samples/sec	cross-entropy=0.028017	Convex_Area-accuracy=0.000000
+2024-03-06 15:56:39,072 [INFO]  Epoch[2] Train-cross-entropy=0.025105
+2024-03-06 15:56:39,072 [INFO]  Epoch[2] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:56:39,072 [INFO]  Epoch[2] Time cost=2.163
+2024-03-06 15:56:39,074 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0002.params"
+2024-03-06 15:56:39,372 [INFO]  Epoch[2] Validation-cross-entropy=0.013764
+2024-03-06 15:56:39,373 [INFO]  Epoch[2] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:56:40,355 [INFO]  Epoch[3] Batch [0-86]	Speed: 1402.19 samples/sec	cross-entropy=0.021419	Convex_Area-accuracy=0.000000
+2024-03-06 15:56:41,682 [INFO]  Epoch[3] Train-cross-entropy=0.018680
+2024-03-06 15:56:41,682 [INFO]  Epoch[3] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:56:41,682 [INFO]  Epoch[3] Time cost=2.309
+2024-03-06 15:56:41,684 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0003.params"
+2024-03-06 15:56:41,965 [INFO]  Epoch[3] Validation-cross-entropy=0.010436
+2024-03-06 15:56:41,965 [INFO]  Epoch[3] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:56:43,170 [INFO]  Epoch[4] Batch [0-86]	Speed: 1142.85 samples/sec	cross-entropy=0.018422	Convex_Area-accuracy=0.000000
+2024-03-06 15:56:44,212 [INFO]  Epoch[4] Train-cross-entropy=0.016681
+2024-03-06 15:56:44,212 [INFO]  Epoch[4] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:56:44,212 [INFO]  Epoch[4] Time cost=2.247
+2024-03-06 15:56:44,213 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0004.params"
+2024-03-06 15:56:44,249 [INFO]  Epoch[4] Validation-cross-entropy=0.009890
+2024-03-06 15:56:44,250 [INFO]  Epoch[4] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:56:44,250 [INFO]  
+========== done (15.184550046920776 s) fit model
+2024-03-06 15:57:41,992 [INFO]  
+========== start: fit model
+2024-03-06 15:57:41,992 [WARNING]  Already bound, ignoring bind()
+2024-03-06 15:57:42,435 [INFO]  Epoch[0] Batch [0-86]	Speed: 3326.97 samples/sec	cross-entropy=2.305552	Convex_Area-accuracy=0.000000
+2024-03-06 15:57:42,490 [INFO]  Epoch[0] Train-cross-entropy=1.206216
+2024-03-06 15:57:42,490 [INFO]  Epoch[0] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:57:42,490 [INFO]  Epoch[0] Time cost=0.496
+2024-03-06 15:57:42,491 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0000.params"
+2024-03-06 15:57:42,496 [INFO]  Epoch[0] Validation-cross-entropy=0.030181
+2024-03-06 15:57:42,496 [INFO]  Epoch[0] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:57:42,552 [INFO]  Epoch[1] Batch [0-86]	Speed: 24638.15 samples/sec	cross-entropy=0.047770	Convex_Area-accuracy=0.000000
+2024-03-06 15:57:43,228 [INFO]  Epoch[1] Train-cross-entropy=0.041896
+2024-03-06 15:57:43,228 [INFO]  Epoch[1] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:57:43,229 [INFO]  Epoch[1] Time cost=0.733
+2024-03-06 15:57:43,231 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0001.params"
+2024-03-06 15:57:43,237 [INFO]  Epoch[1] Validation-cross-entropy=0.023526
+2024-03-06 15:57:43,237 [INFO]  Epoch[1] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:57:43,788 [INFO]  Epoch[2] Batch [0-86]	Speed: 2503.34 samples/sec	cross-entropy=0.030864	Convex_Area-accuracy=0.000000
+2024-03-06 15:57:43,965 [INFO]  Epoch[2] Train-cross-entropy=0.027642
+2024-03-06 15:57:43,966 [INFO]  Epoch[2] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:57:43,966 [INFO]  Epoch[2] Time cost=0.729
+2024-03-06 15:57:43,968 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0002.params"
+2024-03-06 15:57:44,036 [INFO]  Epoch[2] Validation-cross-entropy=0.016226
+2024-03-06 15:57:44,036 [INFO]  Epoch[2] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:57:44,150 [INFO]  Epoch[3] Batch [0-86]	Speed: 12373.06 samples/sec	cross-entropy=0.020631	Convex_Area-accuracy=0.000000
+2024-03-06 15:57:44,230 [INFO]  Epoch[3] Train-cross-entropy=0.019120
+2024-03-06 15:57:44,231 [INFO]  Epoch[3] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:57:44,231 [INFO]  Epoch[3] Time cost=0.195
+2024-03-06 15:57:44,233 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0003.params"
+2024-03-06 15:57:44,239 [INFO]  Epoch[3] Validation-cross-entropy=0.011496
+2024-03-06 15:57:44,239 [INFO]  Epoch[3] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:57:44,321 [INFO]  Epoch[4] Batch [0-86]	Speed: 17108.75 samples/sec	cross-entropy=0.015155	Convex_Area-accuracy=0.000000
+2024-03-06 15:57:44,383 [INFO]  Epoch[4] Train-cross-entropy=0.014094
+2024-03-06 15:57:44,384 [INFO]  Epoch[4] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:57:44,384 [INFO]  Epoch[4] Time cost=0.145
+2024-03-06 15:57:44,386 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0004.params"
+2024-03-06 15:57:44,390 [INFO]  Epoch[4] Validation-cross-entropy=0.009224
+2024-03-06 15:57:44,390 [INFO]  Epoch[4] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:57:44,390 [INFO]  
+========== done (2.398507595062256 s) fit model
+2024-03-06 15:58:18,967 [INFO]  
+========== start: fit model
+2024-03-06 15:58:18,967 [WARNING]  Already bound, ignoring bind()
+2024-03-06 15:58:19,030 [INFO]  Epoch[0] Batch [0-86]	Speed: 22655.72 samples/sec	cross-entropy=2.968505	Convex_Area-accuracy=3.356322
+2024-03-06 15:58:19,086 [INFO]  Epoch[0] Train-cross-entropy=1.559851
+2024-03-06 15:58:19,086 [INFO]  Epoch[0] Train-Convex_Area-accuracy=3.360465
+2024-03-06 15:58:19,086 [INFO]  Epoch[0] Time cost=0.118
+2024-03-06 15:58:19,087 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0000.params"
+2024-03-06 15:58:19,091 [INFO]  Epoch[0] Validation-cross-entropy=0.068390
+2024-03-06 15:58:19,091 [INFO]  Epoch[0] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:58:19,146 [INFO]  Epoch[1] Batch [0-86]	Speed: 25494.47 samples/sec	cross-entropy=0.063921	Convex_Area-accuracy=3.356322
+2024-03-06 15:58:19,199 [INFO]  Epoch[1] Train-cross-entropy=0.046034
+2024-03-06 15:58:19,199 [INFO]  Epoch[1] Train-Convex_Area-accuracy=3.360465
+2024-03-06 15:58:19,200 [INFO]  Epoch[1] Time cost=0.108
+2024-03-06 15:58:19,201 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0001.params"
+2024-03-06 15:58:19,205 [INFO]  Epoch[1] Validation-cross-entropy=0.030187
+2024-03-06 15:58:19,205 [INFO]  Epoch[1] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:58:19,260 [INFO]  Epoch[2] Batch [0-86]	Speed: 25490.19 samples/sec	cross-entropy=0.027831	Convex_Area-accuracy=3.356322
+2024-03-06 15:58:19,314 [INFO]  Epoch[2] Train-cross-entropy=0.022514
+2024-03-06 15:58:19,314 [INFO]  Epoch[2] Train-Convex_Area-accuracy=3.360465
+2024-03-06 15:58:19,314 [INFO]  Epoch[2] Time cost=0.109
+2024-03-06 15:58:19,316 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0002.params"
+2024-03-06 15:58:19,320 [INFO]  Epoch[2] Validation-cross-entropy=0.019869
+2024-03-06 15:58:19,320 [INFO]  Epoch[2] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:58:19,375 [INFO]  Epoch[3] Batch [0-86]	Speed: 25358.70 samples/sec	cross-entropy=0.020260	Convex_Area-accuracy=3.356322
+2024-03-06 15:58:19,431 [INFO]  Epoch[3] Train-cross-entropy=0.016385
+2024-03-06 15:58:19,431 [INFO]  Epoch[3] Train-Convex_Area-accuracy=3.360465
+2024-03-06 15:58:19,431 [INFO]  Epoch[3] Time cost=0.111
+2024-03-06 15:58:19,433 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0003.params"
+2024-03-06 15:58:19,437 [INFO]  Epoch[3] Validation-cross-entropy=0.018210
+2024-03-06 15:58:19,437 [INFO]  Epoch[3] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:58:19,492 [INFO]  Epoch[4] Batch [0-86]	Speed: 25217.10 samples/sec	cross-entropy=0.016422	Convex_Area-accuracy=3.356322
+2024-03-06 15:58:19,546 [INFO]  Epoch[4] Train-cross-entropy=0.013355
+2024-03-06 15:58:19,546 [INFO]  Epoch[4] Train-Convex_Area-accuracy=3.360465
+2024-03-06 15:58:19,546 [INFO]  Epoch[4] Time cost=0.109
+2024-03-06 15:58:19,547 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0004.params"
+2024-03-06 15:58:19,551 [INFO]  Epoch[4] Validation-cross-entropy=0.013534
+2024-03-06 15:58:19,551 [INFO]  Epoch[4] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:58:19,551 [INFO]  
+========== done (0.5849199295043945 s) fit model
+2024-03-06 15:58:58,270 [INFO]  
+========== start: fit model
+2024-03-06 15:58:58,270 [WARNING]  Already bound, ignoring bind()
+2024-03-06 15:58:58,329 [INFO]  Epoch[0] Batch [0-86]	Speed: 25709.34 samples/sec	cross-entropy=0.907720	Convex_Area-accuracy=0.000000
+2024-03-06 15:58:58,380 [INFO]  Epoch[0] Train-cross-entropy=0.494152
+2024-03-06 15:58:58,380 [INFO]  Epoch[0] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:58:58,380 [INFO]  Epoch[0] Time cost=0.110
+2024-03-06 15:58:58,382 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0000.params"
+2024-03-06 15:58:58,385 [INFO]  Epoch[0] Validation-cross-entropy=0.035237
+2024-03-06 15:58:58,385 [INFO]  Epoch[0] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:58:58,437 [INFO]  Epoch[1] Batch [0-86]	Speed: 26904.99 samples/sec	cross-entropy=0.041094	Convex_Area-accuracy=0.000000
+2024-03-06 15:58:58,492 [INFO]  Epoch[1] Train-cross-entropy=0.033718
+2024-03-06 15:58:58,492 [INFO]  Epoch[1] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:58:58,492 [INFO]  Epoch[1] Time cost=0.107
+2024-03-06 15:58:58,494 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0001.params"
+2024-03-06 15:58:58,498 [INFO]  Epoch[1] Validation-cross-entropy=0.024263
+2024-03-06 15:58:58,498 [INFO]  Epoch[1] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:58:58,555 [INFO]  Epoch[2] Batch [0-86]	Speed: 24630.47 samples/sec	cross-entropy=0.024026	Convex_Area-accuracy=0.000000
+2024-03-06 15:58:58,612 [INFO]  Epoch[2] Train-cross-entropy=0.020643
+2024-03-06 15:58:58,612 [INFO]  Epoch[2] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:58:58,612 [INFO]  Epoch[2] Time cost=0.114
+2024-03-06 15:58:58,613 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0002.params"
+2024-03-06 15:58:58,617 [INFO]  Epoch[2] Validation-cross-entropy=0.015705
+2024-03-06 15:58:58,617 [INFO]  Epoch[2] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:58:58,672 [INFO]  Epoch[3] Batch [0-86]	Speed: 25419.58 samples/sec	cross-entropy=0.017333	Convex_Area-accuracy=0.000000
+2024-03-06 15:58:58,726 [INFO]  Epoch[3] Train-cross-entropy=0.015756
+2024-03-06 15:58:58,726 [INFO]  Epoch[3] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:58:58,726 [INFO]  Epoch[3] Time cost=0.109
+2024-03-06 15:58:58,727 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0003.params"
+2024-03-06 15:58:58,731 [INFO]  Epoch[3] Validation-cross-entropy=0.013085
+2024-03-06 15:58:58,731 [INFO]  Epoch[3] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:58:58,786 [INFO]  Epoch[4] Batch [0-86]	Speed: 25547.74 samples/sec	cross-entropy=0.014623	Convex_Area-accuracy=0.000000
+2024-03-06 15:58:58,839 [INFO]  Epoch[4] Train-cross-entropy=0.013691
+2024-03-06 15:58:58,839 [INFO]  Epoch[4] Train-Convex_Area-accuracy=0.000000
+2024-03-06 15:58:58,839 [INFO]  Epoch[4] Time cost=0.108
+2024-03-06 15:58:58,841 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0004.params"
+2024-03-06 15:58:58,844 [INFO]  Epoch[4] Validation-cross-entropy=0.014644
+2024-03-06 15:58:58,844 [INFO]  Epoch[4] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:58:58,844 [INFO]  
+========== done (0.5743763446807861 s) fit model
+2024-03-06 15:59:43,328 [INFO]  
+========== start: fit model
+2024-03-06 15:59:43,328 [WARNING]  Already bound, ignoring bind()
+2024-03-06 15:59:43,767 [INFO]  Epoch[0] Batch [0-86]	Speed: 6407.52 samples/sec	cross-entropy=1.326992	Convex_Area-accuracy=3.356322
+2024-03-06 15:59:43,876 [INFO]  Epoch[0] Train-cross-entropy=0.700605
+2024-03-06 15:59:43,876 [INFO]  Epoch[0] Train-Convex_Area-accuracy=3.494186
+2024-03-06 15:59:43,876 [INFO]  Epoch[0] Time cost=0.548
+2024-03-06 15:59:43,878 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0000.params"
+2024-03-06 15:59:43,883 [INFO]  Epoch[0] Validation-cross-entropy=0.034433
+2024-03-06 15:59:43,883 [INFO]  Epoch[0] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:59:43,964 [INFO]  Epoch[1] Batch [0-86]	Speed: 17185.47 samples/sec	cross-entropy=0.030738	Convex_Area-accuracy=3.356322
+2024-03-06 15:59:44,074 [INFO]  Epoch[1] Train-cross-entropy=0.027260
+2024-03-06 15:59:44,074 [INFO]  Epoch[1] Train-Convex_Area-accuracy=3.494186
+2024-03-06 15:59:44,075 [INFO]  Epoch[1] Time cost=0.191
+2024-03-06 15:59:44,077 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0001.params"
+2024-03-06 15:59:44,082 [INFO]  Epoch[1] Validation-cross-entropy=0.024462
+2024-03-06 15:59:44,082 [INFO]  Epoch[1] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:59:44,167 [INFO]  Epoch[2] Batch [0-86]	Speed: 16508.05 samples/sec	cross-entropy=0.020199	Convex_Area-accuracy=3.356322
+2024-03-06 15:59:44,957 [INFO]  Epoch[2] Train-cross-entropy=0.019004
+2024-03-06 15:59:44,957 [INFO]  Epoch[2] Train-Convex_Area-accuracy=3.494186
+2024-03-06 15:59:44,957 [INFO]  Epoch[2] Time cost=0.875
+2024-03-06 15:59:44,959 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0002.params"
+2024-03-06 15:59:44,963 [INFO]  Epoch[2] Validation-cross-entropy=0.014289
+2024-03-06 15:59:44,964 [INFO]  Epoch[2] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:59:45,061 [INFO]  Epoch[3] Batch [0-86]	Speed: 14238.15 samples/sec	cross-entropy=0.018407	Convex_Area-accuracy=3.356322
+2024-03-06 15:59:45,355 [INFO]  Epoch[3] Train-cross-entropy=0.016476
+2024-03-06 15:59:45,355 [INFO]  Epoch[3] Train-Convex_Area-accuracy=3.494186
+2024-03-06 15:59:45,355 [INFO]  Epoch[3] Time cost=0.392
+2024-03-06 15:59:45,357 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0003.params"
+2024-03-06 15:59:45,362 [INFO]  Epoch[3] Validation-cross-entropy=0.011847
+2024-03-06 15:59:45,362 [INFO]  Epoch[3] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:59:45,464 [INFO]  Epoch[4] Batch [0-86]	Speed: 13552.57 samples/sec	cross-entropy=0.015165	Convex_Area-accuracy=3.356322
+2024-03-06 15:59:45,544 [INFO]  Epoch[4] Train-cross-entropy=0.013595
+2024-03-06 15:59:45,545 [INFO]  Epoch[4] Train-Convex_Area-accuracy=3.494186
+2024-03-06 15:59:45,545 [INFO]  Epoch[4] Time cost=0.183
+2024-03-06 15:59:45,547 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0004.params"
+2024-03-06 15:59:45,552 [INFO]  Epoch[4] Validation-cross-entropy=0.009744
+2024-03-06 15:59:45,552 [INFO]  Epoch[4] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 15:59:45,552 [INFO]  
+========== done (2.224334239959717 s) fit model
+2024-03-06 16:01:25,761 [INFO]  
+========== start: fit model
+2024-03-06 16:01:25,761 [WARNING]  Already bound, ignoring bind()
+2024-03-06 16:01:26,765 [INFO]  Epoch[0] Batch [0-86]	Speed: 1376.85 samples/sec	cross-entropy=1.225717	Convex_Area-accuracy=3.425287
+2024-03-06 16:01:28,776 [INFO]  Epoch[0] Train-cross-entropy=0.660248
+2024-03-06 16:01:28,776 [INFO]  Epoch[0] Train-Convex_Area-accuracy=3.511628
+2024-03-06 16:01:28,776 [INFO]  Epoch[0] Time cost=3.014
+2024-03-06 16:01:28,780 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0000.params"
+2024-03-06 16:01:28,981 [INFO]  Epoch[0] Validation-cross-entropy=0.040971
+2024-03-06 16:01:28,981 [INFO]  Epoch[0] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 16:01:30,641 [INFO]  Epoch[1] Batch [0-86]	Speed: 850.33 samples/sec	cross-entropy=0.038054	Convex_Area-accuracy=3.425287
+2024-03-06 16:01:32,189 [INFO]  Epoch[1] Train-cross-entropy=0.035592
+2024-03-06 16:01:32,190 [INFO]  Epoch[1] Train-Convex_Area-accuracy=3.511628
+2024-03-06 16:01:32,190 [INFO]  Epoch[1] Time cost=3.209
+2024-03-06 16:01:32,191 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0001.params"
+2024-03-06 16:01:32,204 [INFO]  Epoch[1] Validation-cross-entropy=0.016257
+2024-03-06 16:01:32,204 [INFO]  Epoch[1] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 16:01:33,309 [INFO]  Epoch[2] Batch [0-86]	Speed: 1246.33 samples/sec	cross-entropy=0.027110	Convex_Area-accuracy=3.425287
+2024-03-06 16:01:34,952 [INFO]  Epoch[2] Train-cross-entropy=0.025046
+2024-03-06 16:01:34,953 [INFO]  Epoch[2] Train-Convex_Area-accuracy=3.511628
+2024-03-06 16:01:34,953 [INFO]  Epoch[2] Time cost=2.748
+2024-03-06 16:01:34,955 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0002.params"
+2024-03-06 16:01:34,964 [INFO]  Epoch[2] Validation-cross-entropy=0.012917
+2024-03-06 16:01:34,964 [INFO]  Epoch[2] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 16:01:35,974 [INFO]  Epoch[3] Batch [0-86]	Speed: 1364.59 samples/sec	cross-entropy=0.021128	Convex_Area-accuracy=3.425287
+2024-03-06 16:01:38,152 [INFO]  Epoch[3] Train-cross-entropy=0.019085
+2024-03-06 16:01:38,152 [INFO]  Epoch[3] Train-Convex_Area-accuracy=3.511628
+2024-03-06 16:01:38,153 [INFO]  Epoch[3] Time cost=3.188
+2024-03-06 16:01:38,155 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0003.params"
+2024-03-06 16:01:38,441 [INFO]  Epoch[3] Validation-cross-entropy=0.015991
+2024-03-06 16:01:38,441 [INFO]  Epoch[3] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 16:01:39,321 [INFO]  Epoch[4] Batch [0-86]	Speed: 1577.79 samples/sec	cross-entropy=0.016756	Convex_Area-accuracy=3.425287
+2024-03-06 16:01:40,853 [INFO]  Epoch[4] Train-cross-entropy=0.016237
+2024-03-06 16:01:40,853 [INFO]  Epoch[4] Train-Convex_Area-accuracy=3.511628
+2024-03-06 16:01:40,853 [INFO]  Epoch[4] Time cost=2.412
+2024-03-06 16:01:40,855 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0004.params"
+2024-03-06 16:01:41,026 [INFO]  Epoch[4] Validation-cross-entropy=0.011675
+2024-03-06 16:01:41,026 [INFO]  Epoch[4] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 16:01:41,026 [INFO]  
+========== done (15.264792680740356 s) fit model
+2024-03-06 16:43:16,413 [INFO]  
+========== start: fit model
+2024-03-06 16:43:16,413 [WARNING]  Already bound, ignoring bind()
+2024-03-06 16:45:13,703 [INFO]  Epoch[0] Batch [0-86]	Speed: 11.91 samples/sec	cross-entropy=1.599256	Convex_Area-accuracy=0.000000
+2024-03-06 16:47:11,498 [INFO]  Epoch[0] Train-cross-entropy=0.846461
+2024-03-06 16:47:11,498 [INFO]  Epoch[0] Train-Convex_Area-accuracy=0.000000
+2024-03-06 16:47:11,498 [INFO]  Epoch[0] Time cost=235.084
+2024-03-06 16:47:11,501 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0000.params"
+2024-03-06 16:47:18,005 [INFO]  Epoch[0] Validation-cross-entropy=0.053093
+2024-03-06 16:47:18,006 [INFO]  Epoch[0] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 16:49:18,604 [INFO]  Epoch[1] Batch [0-86]	Speed: 11.55 samples/sec	cross-entropy=0.048212	Convex_Area-accuracy=0.000000
+2024-03-06 16:51:14,775 [INFO]  Epoch[1] Train-cross-entropy=0.037540
+2024-03-06 16:51:14,775 [INFO]  Epoch[1] Train-Convex_Area-accuracy=0.000000
+2024-03-06 16:51:14,775 [INFO]  Epoch[1] Time cost=236.770
+2024-03-06 16:51:14,779 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0001.params"
+2024-03-06 16:51:21,050 [INFO]  Epoch[1] Validation-cross-entropy=0.024211
+2024-03-06 16:51:21,050 [INFO]  Epoch[1] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 16:53:19,585 [INFO]  Epoch[2] Batch [0-86]	Speed: 11.75 samples/sec	cross-entropy=0.027810	Convex_Area-accuracy=0.000000
+2024-03-06 16:55:14,785 [INFO]  Epoch[2] Train-cross-entropy=0.022486
+2024-03-06 16:55:14,785 [INFO]  Epoch[2] Train-Convex_Area-accuracy=0.000000
+2024-03-06 16:55:14,785 [INFO]  Epoch[2] Time cost=233.734
+2024-03-06 16:55:14,789 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0002.params"
+2024-03-06 16:55:20,425 [INFO]  Epoch[2] Validation-cross-entropy=0.018468
+2024-03-06 16:55:20,426 [INFO]  Epoch[2] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 16:57:17,400 [INFO]  Epoch[3] Batch [0-86]	Speed: 11.88 samples/sec	cross-entropy=0.021386	Convex_Area-accuracy=0.000000
+2024-03-06 16:59:12,687 [INFO]  Epoch[3] Train-cross-entropy=0.017622
+2024-03-06 16:59:12,687 [INFO]  Epoch[3] Train-Convex_Area-accuracy=0.000000
+2024-03-06 16:59:12,688 [INFO]  Epoch[3] Time cost=232.262
+2024-03-06 16:59:12,690 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0003.params"
+2024-03-06 16:59:18,255 [INFO]  Epoch[3] Validation-cross-entropy=0.015429
+2024-03-06 16:59:18,255 [INFO]  Epoch[3] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 17:01:15,592 [INFO]  Epoch[4] Batch [0-86]	Speed: 11.86 samples/sec	cross-entropy=0.017720	Convex_Area-accuracy=0.000000
+2024-03-06 17:03:11,517 [INFO]  Epoch[4] Train-cross-entropy=0.014838
+2024-03-06 17:03:11,517 [INFO]  Epoch[4] Train-Convex_Area-accuracy=0.000000
+2024-03-06 17:03:11,517 [INFO]  Epoch[4] Time cost=233.262
+2024-03-06 17:03:11,519 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0004.params"
+2024-03-06 17:03:17,403 [INFO]  Epoch[4] Validation-cross-entropy=0.013939
+2024-03-06 17:03:17,403 [INFO]  Epoch[4] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 17:03:17,403 [INFO]  
+========== done (1200.990653514862 s) fit model
+2024-03-06 19:00:50,238 [INFO]  
+========== start: fit model
+2024-03-06 19:00:50,238 [WARNING]  Already bound, ignoring bind()
+2024-03-06 19:00:51,054 [INFO]  Epoch[0] Batch [0-86]	Speed: 2537.02 samples/sec	cross-entropy=2.057911	Convex_Area-accuracy=3.241379
+2024-03-06 19:00:52,626 [INFO]  Epoch[0] Train-cross-entropy=1.088420
+2024-03-06 19:00:52,626 [INFO]  Epoch[0] Train-Convex_Area-accuracy=3.313953
+2024-03-06 19:00:52,626 [INFO]  Epoch[0] Time cost=2.388
+2024-03-06 19:00:52,628 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0000.params"
+2024-03-06 19:00:52,774 [INFO]  Epoch[0] Validation-cross-entropy=0.049446
+2024-03-06 19:00:52,774 [INFO]  Epoch[0] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 19:00:53,816 [INFO]  Epoch[1] Batch [0-86]	Speed: 1322.27 samples/sec	cross-entropy=0.054544	Convex_Area-accuracy=3.241379
+2024-03-06 19:00:54,769 [INFO]  Epoch[1] Train-cross-entropy=0.047855
+2024-03-06 19:00:54,769 [INFO]  Epoch[1] Train-Convex_Area-accuracy=3.313953
+2024-03-06 19:00:54,769 [INFO]  Epoch[1] Time cost=1.995
+2024-03-06 19:00:54,771 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0001.params"
+2024-03-06 19:00:54,778 [INFO]  Epoch[1] Validation-cross-entropy=0.034272
+2024-03-06 19:00:54,778 [INFO]  Epoch[1] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 19:00:55,691 [INFO]  Epoch[2] Batch [0-86]	Speed: 1508.73 samples/sec	cross-entropy=0.028938	Convex_Area-accuracy=3.241379
+2024-03-06 19:00:56,553 [INFO]  Epoch[2] Train-cross-entropy=0.028126
+2024-03-06 19:00:56,553 [INFO]  Epoch[2] Train-Convex_Area-accuracy=3.313953
+2024-03-06 19:00:56,553 [INFO]  Epoch[2] Time cost=1.775
+2024-03-06 19:00:56,555 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0002.params"
+2024-03-06 19:00:56,561 [INFO]  Epoch[2] Validation-cross-entropy=0.023501
+2024-03-06 19:00:56,561 [INFO]  Epoch[2] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 19:00:57,068 [INFO]  Epoch[3] Batch [0-86]	Speed: 2723.10 samples/sec	cross-entropy=0.019666	Convex_Area-accuracy=3.241379
+2024-03-06 19:00:58,681 [INFO]  Epoch[3] Train-cross-entropy=0.020955
+2024-03-06 19:00:58,682 [INFO]  Epoch[3] Train-Convex_Area-accuracy=3.313953
+2024-03-06 19:00:58,682 [INFO]  Epoch[3] Time cost=2.121
+2024-03-06 19:00:58,684 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0003.params"
+2024-03-06 19:00:58,963 [INFO]  Epoch[3] Validation-cross-entropy=0.015317
+2024-03-06 19:00:58,963 [INFO]  Epoch[3] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 19:01:00,181 [INFO]  Epoch[4] Batch [0-86]	Speed: 1131.17 samples/sec	cross-entropy=0.014968	Convex_Area-accuracy=3.241379
+2024-03-06 19:01:02,067 [INFO]  Epoch[4] Train-cross-entropy=0.016765
+2024-03-06 19:01:02,067 [INFO]  Epoch[4] Train-Convex_Area-accuracy=3.313953
+2024-03-06 19:01:02,067 [INFO]  Epoch[4] Time cost=3.104
+2024-03-06 19:01:02,069 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0004.params"
+2024-03-06 19:01:02,110 [INFO]  Epoch[4] Validation-cross-entropy=0.011881
+2024-03-06 19:01:02,110 [INFO]  Epoch[4] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 19:01:02,110 [INFO]  
+========== done (11.872419595718384 s) fit model
+2024-03-06 19:02:02,128 [INFO]  
+========== start: fit model
+2024-03-06 19:02:02,128 [WARNING]  Already bound, ignoring bind()
+2024-03-06 19:02:02,247 [INFO]  Epoch[0] Batch [0-86]	Speed: 13832.04 samples/sec	cross-entropy=1.564514	Convex_Area-accuracy=3.310345
+2024-03-06 19:02:02,444 [INFO]  Epoch[0] Train-cross-entropy=0.846004
+2024-03-06 19:02:02,445 [INFO]  Epoch[0] Train-Convex_Area-accuracy=3.401163
+2024-03-06 19:02:02,445 [INFO]  Epoch[0] Time cost=0.316
+2024-03-06 19:02:02,446 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0000.params"
+2024-03-06 19:02:02,568 [INFO]  Epoch[0] Validation-cross-entropy=0.041510
+2024-03-06 19:02:02,568 [INFO]  Epoch[0] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 19:02:02,649 [INFO]  Epoch[1] Batch [0-86]	Speed: 17198.79 samples/sec	cross-entropy=0.057629	Convex_Area-accuracy=3.310345
+2024-03-06 19:02:04,354 [INFO]  Epoch[1] Train-cross-entropy=0.044249
+2024-03-06 19:02:04,354 [INFO]  Epoch[1] Train-Convex_Area-accuracy=3.401163
+2024-03-06 19:02:04,358 [INFO]  Epoch[1] Time cost=1.790
+2024-03-06 19:02:04,360 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0001.params"
+2024-03-06 19:02:04,378 [INFO]  Epoch[1] Validation-cross-entropy=0.021243
+2024-03-06 19:02:04,378 [INFO]  Epoch[1] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 19:02:04,567 [INFO]  Epoch[2] Batch [0-86]	Speed: 7313.48 samples/sec	cross-entropy=0.019019	Convex_Area-accuracy=3.310345
+2024-03-06 19:02:04,656 [INFO]  Epoch[2] Train-cross-entropy=0.018800
+2024-03-06 19:02:04,656 [INFO]  Epoch[2] Train-Convex_Area-accuracy=3.401163
+2024-03-06 19:02:04,656 [INFO]  Epoch[2] Time cost=0.278
+2024-03-06 19:02:04,658 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0002.params"
+2024-03-06 19:02:04,673 [INFO]  Epoch[2] Validation-cross-entropy=0.014618
+2024-03-06 19:02:04,674 [INFO]  Epoch[2] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 19:02:04,754 [INFO]  Epoch[3] Batch [0-86]	Speed: 17338.81 samples/sec	cross-entropy=0.015164	Convex_Area-accuracy=3.310345
+2024-03-06 19:02:04,859 [INFO]  Epoch[3] Train-cross-entropy=0.015090
+2024-03-06 19:02:04,859 [INFO]  Epoch[3] Train-Convex_Area-accuracy=3.401163
+2024-03-06 19:02:04,860 [INFO]  Epoch[3] Time cost=0.186
+2024-03-06 19:02:04,861 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0003.params"
+2024-03-06 19:02:04,865 [INFO]  Epoch[3] Validation-cross-entropy=0.012346
+2024-03-06 19:02:04,865 [INFO]  Epoch[3] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 19:02:04,953 [INFO]  Epoch[4] Batch [0-86]	Speed: 15868.51 samples/sec	cross-entropy=0.012655	Convex_Area-accuracy=3.310345
+2024-03-06 19:02:05,072 [INFO]  Epoch[4] Train-cross-entropy=0.012916
+2024-03-06 19:02:05,072 [INFO]  Epoch[4] Train-Convex_Area-accuracy=3.401163
+2024-03-06 19:02:05,072 [INFO]  Epoch[4] Time cost=0.207
+2024-03-06 19:02:05,075 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0004.params"
+2024-03-06 19:02:05,082 [INFO]  Epoch[4] Validation-cross-entropy=0.010661
+2024-03-06 19:02:05,082 [INFO]  Epoch[4] Validation-Convex_Area-accuracy=0.000000
+2024-03-06 19:02:05,083 [INFO]  
+========== done (2.9548492431640625 s) fit model
+2024-03-10 09:26:36,283 [INFO]  
+========== start: fit model
+2024-03-10 09:26:36,302 [WARNING]  Already bound, ignoring bind()
+2024-03-10 09:26:42,984 [INFO]  Epoch[0] Batch [0-86]	Speed: 211.15 samples/sec	cross-entropy=1.367003	Convex_Area-accuracy=0.000000
+2024-03-10 09:26:48,413 [INFO]  Epoch[0] Train-cross-entropy=0.725764
+2024-03-10 09:26:48,414 [INFO]  Epoch[0] Train-Convex_Area-accuracy=0.000000
+2024-03-10 09:26:48,414 [INFO]  Epoch[0] Time cost=12.110
+2024-03-10 09:26:48,417 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0000.params"
+2024-03-10 09:26:48,877 [INFO]  Epoch[0] Validation-cross-entropy=0.035627
+2024-03-10 09:26:48,877 [INFO]  Epoch[0] Validation-Convex_Area-accuracy=0.000000
+2024-03-10 09:26:51,130 [INFO]  Epoch[1] Batch [0-86]	Speed: 627.97 samples/sec	cross-entropy=0.044101	Convex_Area-accuracy=0.000000
+2024-03-10 09:26:54,525 [INFO]  Epoch[1] Train-cross-entropy=0.039106
+2024-03-10 09:26:54,525 [INFO]  Epoch[1] Train-Convex_Area-accuracy=0.000000
+2024-03-10 09:26:54,525 [INFO]  Epoch[1] Time cost=5.648
+2024-03-10 09:26:54,529 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0001.params"
+2024-03-10 09:26:55,202 [INFO]  Epoch[1] Validation-cross-entropy=0.028397
+2024-03-10 09:26:55,202 [INFO]  Epoch[1] Validation-Convex_Area-accuracy=0.000000
+2024-03-10 09:26:57,304 [INFO]  Epoch[2] Batch [0-86]	Speed: 711.76 samples/sec	cross-entropy=0.029366	Convex_Area-accuracy=0.000000
+2024-03-10 09:26:59,268 [INFO]  Epoch[2] Train-cross-entropy=0.025793
+2024-03-10 09:26:59,268 [INFO]  Epoch[2] Train-Convex_Area-accuracy=0.000000
+2024-03-10 09:26:59,268 [INFO]  Epoch[2] Time cost=4.065
+2024-03-10 09:26:59,269 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0002.params"
+2024-03-10 09:27:00,417 [INFO]  Epoch[2] Validation-cross-entropy=0.025416
+2024-03-10 09:27:00,418 [INFO]  Epoch[2] Validation-Convex_Area-accuracy=0.000000
+2024-03-10 09:27:18,081 [INFO]  Epoch[3] Batch [0-86]	Speed: 78.73 samples/sec	cross-entropy=0.022866	Convex_Area-accuracy=0.000000
+2024-03-10 09:27:30,836 [INFO]  Epoch[3] Train-cross-entropy=0.019388
+2024-03-10 09:27:30,836 [INFO]  Epoch[3] Train-Convex_Area-accuracy=0.000000
+2024-03-10 09:27:30,836 [INFO]  Epoch[3] Time cost=30.418
+2024-03-10 09:27:30,838 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0003.params"
+2024-03-10 09:27:31,415 [INFO]  Epoch[3] Validation-cross-entropy=0.024533
+2024-03-10 09:27:31,415 [INFO]  Epoch[3] Validation-Convex_Area-accuracy=0.000000
+2024-03-10 09:27:46,736 [INFO]  Epoch[4] Batch [0-86]	Speed: 89.81 samples/sec	cross-entropy=0.019006	Convex_Area-accuracy=0.000000
+2024-03-10 09:28:02,559 [INFO]  Epoch[4] Train-cross-entropy=0.015129
+2024-03-10 09:28:02,559 [INFO]  Epoch[4] Train-Convex_Area-accuracy=0.000000
+2024-03-10 09:28:02,559 [INFO]  Epoch[4] Time cost=31.144
+2024-03-10 09:28:02,561 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Convex_Area/model-0004.params"
+2024-03-10 09:28:02,571 [INFO]  Epoch[4] Validation-cross-entropy=0.019022
+2024-03-10 09:28:02,571 [INFO]  Epoch[4] Validation-Convex_Area-accuracy=0.000000
+2024-03-10 09:28:02,571 [INFO]  
+========== done (86.28839468955994 s) fit model

@@ -31,7 +31,7 @@ result_preprocessing_path = '/userHome/userhome2/hyejin/paper_implementation/00_
 result_csv_path = '/userHome/userhome2/hyejin/paper_implementation/00_dataset/missing/30_monk.csv'
 
 # 데이터 파일 경로 설정
-data_pth = '/userHome/userhome2/hyejin/paper_implementation/00_dataset/original/30_monk.data'
+data_pth = '/userHome/userhome2/hyejin/paper_implementation/00_dataset/original/33_forty.csv'
 
 # 데이터 불러오기
 df_data = pd.read_csv(data_pth)

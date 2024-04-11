@@ -1,0 +1,1240 @@
+2024-03-06 11:22:03,157 [INFO]  
+========== start: fit model
+2024-03-06 11:22:03,158 [WARNING]  Already bound, ignoring bind()
+2024-03-06 11:23:08,240 [INFO]  Epoch[0] Batch [0-52]	Speed: 13.08 samples/sec	cross-entropy=3.560563	RIDAGEYR-accuracy=0.000000
+2024-03-06 11:24:30,348 [INFO]  Epoch[0] Train-cross-entropy=2.005548
+2024-03-06 11:24:30,349 [INFO]  Epoch[0] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 11:24:30,349 [INFO]  Epoch[0] Time cost=147.190
+2024-03-06 11:24:30,351 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0000.params"
+2024-03-06 11:24:34,678 [INFO]  Epoch[0] Validation-cross-entropy=0.300764
+2024-03-06 11:24:34,678 [INFO]  Epoch[0] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 11:25:55,862 [INFO]  Epoch[1] Batch [0-52]	Speed: 10.45 samples/sec	cross-entropy=0.145957	RIDAGEYR-accuracy=0.000000
+2024-03-06 11:27:17,717 [INFO]  Epoch[1] Train-cross-entropy=0.185472
+2024-03-06 11:27:17,717 [INFO]  Epoch[1] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 11:27:17,718 [INFO]  Epoch[1] Time cost=163.040
+2024-03-06 11:27:17,721 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0001.params"
+2024-03-06 11:27:22,244 [INFO]  Epoch[1] Validation-cross-entropy=0.111913
+2024-03-06 11:27:22,245 [INFO]  Epoch[1] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 11:28:41,785 [INFO]  Epoch[2] Batch [0-52]	Speed: 10.67 samples/sec	cross-entropy=0.085246	RIDAGEYR-accuracy=0.000000
+2024-03-06 11:30:03,014 [INFO]  Epoch[2] Train-cross-entropy=0.116001
+2024-03-06 11:30:03,014 [INFO]  Epoch[2] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 11:30:03,014 [INFO]  Epoch[2] Time cost=160.769
+2024-03-06 11:30:03,017 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0002.params"
+2024-03-06 11:30:07,752 [INFO]  Epoch[2] Validation-cross-entropy=0.149985
+2024-03-06 11:30:07,753 [INFO]  Epoch[2] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 11:31:29,146 [INFO]  Epoch[3] Batch [0-52]	Speed: 10.43 samples/sec	cross-entropy=0.077284	RIDAGEYR-accuracy=0.000000
+2024-03-06 11:32:51,017 [INFO]  Epoch[3] Train-cross-entropy=0.109166
+2024-03-06 11:32:51,018 [INFO]  Epoch[3] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 11:32:51,018 [INFO]  Epoch[3] Time cost=163.265
+2024-03-06 11:32:51,020 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0003.params"
+2024-03-06 11:32:55,532 [INFO]  Epoch[3] Validation-cross-entropy=0.066455
+2024-03-06 11:32:55,533 [INFO]  Epoch[3] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 11:34:20,269 [INFO]  Epoch[4] Batch [0-52]	Speed: 9.98 samples/sec	cross-entropy=0.064931	RIDAGEYR-accuracy=0.000000
+2024-03-06 11:35:42,482 [INFO]  Epoch[4] Train-cross-entropy=0.124357
+2024-03-06 11:35:42,483 [INFO]  Epoch[4] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 11:35:42,483 [INFO]  Epoch[4] Time cost=166.950
+2024-03-06 11:35:42,485 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0004.params"
+2024-03-06 11:35:47,412 [INFO]  Epoch[4] Validation-cross-entropy=0.150244
+2024-03-06 11:35:47,412 [INFO]  Epoch[4] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 11:35:47,412 [INFO]  
+========== done (824.254816532135 s) fit model
+2024-03-06 12:42:29,568 [INFO]  
+========== start: fit model
+2024-03-06 12:42:29,569 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:42:29,601 [INFO]  Epoch[0] Batch [0-52]	Speed: 27046.18 samples/sec	cross-entropy=3.248903	RIDAGEYR-accuracy=3.169811
+2024-03-06 12:42:29,629 [INFO]  Epoch[0] Train-cross-entropy=1.783112
+2024-03-06 12:42:29,629 [INFO]  Epoch[0] Train-RIDAGEYR-accuracy=3.291262
+2024-03-06 12:42:29,629 [INFO]  Epoch[0] Time cost=0.059
+2024-03-06 12:42:29,631 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0000.params"
+2024-03-06 12:42:29,633 [INFO]  Epoch[0] Validation-cross-entropy=0.146910
+2024-03-06 12:42:29,633 [INFO]  Epoch[0] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:42:29,663 [INFO]  Epoch[1] Batch [0-52]	Speed: 28671.93 samples/sec	cross-entropy=0.125995	RIDAGEYR-accuracy=3.169811
+2024-03-06 12:42:29,691 [INFO]  Epoch[1] Train-cross-entropy=0.107950
+2024-03-06 12:42:29,691 [INFO]  Epoch[1] Train-RIDAGEYR-accuracy=3.291262
+2024-03-06 12:42:29,691 [INFO]  Epoch[1] Time cost=0.058
+2024-03-06 12:42:29,692 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0001.params"
+2024-03-06 12:42:29,695 [INFO]  Epoch[1] Validation-cross-entropy=0.070794
+2024-03-06 12:42:29,695 [INFO]  Epoch[1] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:42:29,727 [INFO]  Epoch[2] Batch [0-52]	Speed: 26581.82 samples/sec	cross-entropy=0.059196	RIDAGEYR-accuracy=3.169811
+2024-03-06 12:42:29,757 [INFO]  Epoch[2] Train-cross-entropy=0.086484
+2024-03-06 12:42:29,757 [INFO]  Epoch[2] Train-RIDAGEYR-accuracy=3.291262
+2024-03-06 12:42:29,757 [INFO]  Epoch[2] Time cost=0.062
+2024-03-06 12:42:29,758 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0002.params"
+2024-03-06 12:42:29,760 [INFO]  Epoch[2] Validation-cross-entropy=0.118726
+2024-03-06 12:42:29,760 [INFO]  Epoch[2] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:42:29,811 [INFO]  Epoch[3] Batch [0-52]	Speed: 16771.25 samples/sec	cross-entropy=0.054943	RIDAGEYR-accuracy=3.169811
+2024-03-06 12:42:29,856 [INFO]  Epoch[3] Train-cross-entropy=0.115982
+2024-03-06 12:42:29,856 [INFO]  Epoch[3] Train-RIDAGEYR-accuracy=3.291262
+2024-03-06 12:42:29,856 [INFO]  Epoch[3] Time cost=0.096
+2024-03-06 12:42:29,858 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0003.params"
+2024-03-06 12:42:29,861 [INFO]  Epoch[3] Validation-cross-entropy=0.081715
+2024-03-06 12:42:29,861 [INFO]  Epoch[3] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:42:29,905 [INFO]  Epoch[4] Batch [0-52]	Speed: 19561.32 samples/sec	cross-entropy=0.089287	RIDAGEYR-accuracy=3.169811
+2024-03-06 12:42:29,946 [INFO]  Epoch[4] Train-cross-entropy=0.193522
+2024-03-06 12:42:29,946 [INFO]  Epoch[4] Train-RIDAGEYR-accuracy=3.291262
+2024-03-06 12:42:29,946 [INFO]  Epoch[4] Time cost=0.085
+2024-03-06 12:42:29,948 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0004.params"
+2024-03-06 12:42:29,951 [INFO]  Epoch[4] Validation-cross-entropy=0.132306
+2024-03-06 12:42:29,952 [INFO]  Epoch[4] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:42:29,952 [INFO]  
+========== done (0.3830990791320801 s) fit model
+2024-03-06 12:43:37,720 [INFO]  
+========== start: fit model
+2024-03-06 12:43:37,720 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:43:37,756 [INFO]  Epoch[0] Batch [0-52]	Speed: 24349.25 samples/sec	cross-entropy=1.601455	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:43:37,789 [INFO]  Epoch[0] Train-cross-entropy=1.147319
+2024-03-06 12:43:37,789 [INFO]  Epoch[0] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:43:37,789 [INFO]  Epoch[0] Time cost=0.068
+2024-03-06 12:43:37,791 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0000.params"
+2024-03-06 12:43:37,793 [INFO]  Epoch[0] Validation-cross-entropy=0.151279
+2024-03-06 12:43:37,793 [INFO]  Epoch[0] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:43:37,829 [INFO]  Epoch[1] Batch [0-52]	Speed: 24229.89 samples/sec	cross-entropy=0.090061	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:43:37,861 [INFO]  Epoch[1] Train-cross-entropy=0.106702
+2024-03-06 12:43:37,861 [INFO]  Epoch[1] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:43:37,862 [INFO]  Epoch[1] Time cost=0.068
+2024-03-06 12:43:37,863 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0001.params"
+2024-03-06 12:43:37,866 [INFO]  Epoch[1] Validation-cross-entropy=0.076689
+2024-03-06 12:43:37,866 [INFO]  Epoch[1] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:43:37,901 [INFO]  Epoch[2] Batch [0-52]	Speed: 24099.20 samples/sec	cross-entropy=0.073733	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:43:37,932 [INFO]  Epoch[2] Train-cross-entropy=0.096662
+2024-03-06 12:43:37,933 [INFO]  Epoch[2] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:43:37,933 [INFO]  Epoch[2] Time cost=0.067
+2024-03-06 12:43:37,934 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0002.params"
+2024-03-06 12:43:37,937 [INFO]  Epoch[2] Validation-cross-entropy=0.060792
+2024-03-06 12:43:37,937 [INFO]  Epoch[2] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:43:37,970 [INFO]  Epoch[3] Batch [0-52]	Speed: 25633.26 samples/sec	cross-entropy=0.048586	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:43:38,002 [INFO]  Epoch[3] Train-cross-entropy=0.120171
+2024-03-06 12:43:38,002 [INFO]  Epoch[3] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:43:38,002 [INFO]  Epoch[3] Time cost=0.065
+2024-03-06 12:43:38,003 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0003.params"
+2024-03-06 12:43:38,006 [INFO]  Epoch[3] Validation-cross-entropy=0.113688
+2024-03-06 12:43:38,006 [INFO]  Epoch[3] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:43:38,039 [INFO]  Epoch[4] Batch [0-52]	Speed: 25535.91 samples/sec	cross-entropy=0.072799	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:43:38,070 [INFO]  Epoch[4] Train-cross-entropy=0.174857
+2024-03-06 12:43:38,071 [INFO]  Epoch[4] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:43:38,071 [INFO]  Epoch[4] Time cost=0.065
+2024-03-06 12:43:38,072 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0004.params"
+2024-03-06 12:43:38,075 [INFO]  Epoch[4] Validation-cross-entropy=0.143832
+2024-03-06 12:43:38,075 [INFO]  Epoch[4] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:43:38,075 [INFO]  
+========== done (0.3548240661621094 s) fit model
+2024-03-06 12:44:37,452 [INFO]  
+========== start: fit model
+2024-03-06 12:44:37,453 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:44:37,488 [INFO]  Epoch[0] Batch [0-52]	Speed: 25356.85 samples/sec	cross-entropy=4.225435	RIDAGEYR-accuracy=3.037736
+2024-03-06 12:44:37,519 [INFO]  Epoch[0] Train-cross-entropy=2.343143
+2024-03-06 12:44:37,519 [INFO]  Epoch[0] Train-RIDAGEYR-accuracy=3.300971
+2024-03-06 12:44:37,519 [INFO]  Epoch[0] Time cost=0.066
+2024-03-06 12:44:37,521 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0000.params"
+2024-03-06 12:44:37,523 [INFO]  Epoch[0] Validation-cross-entropy=0.187922
+2024-03-06 12:44:37,523 [INFO]  Epoch[0] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:44:37,555 [INFO]  Epoch[1] Batch [0-52]	Speed: 26849.12 samples/sec	cross-entropy=0.144860	RIDAGEYR-accuracy=3.037736
+2024-03-06 12:44:37,583 [INFO]  Epoch[1] Train-cross-entropy=0.115366
+2024-03-06 12:44:37,583 [INFO]  Epoch[1] Train-RIDAGEYR-accuracy=3.300971
+2024-03-06 12:44:37,583 [INFO]  Epoch[1] Time cost=0.060
+2024-03-06 12:44:37,584 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0001.params"
+2024-03-06 12:44:37,586 [INFO]  Epoch[1] Validation-cross-entropy=0.087586
+2024-03-06 12:44:37,586 [INFO]  Epoch[1] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:44:37,616 [INFO]  Epoch[2] Batch [0-52]	Speed: 28858.54 samples/sec	cross-entropy=0.079525	RIDAGEYR-accuracy=3.037736
+2024-03-06 12:44:37,644 [INFO]  Epoch[2] Train-cross-entropy=0.069032
+2024-03-06 12:44:37,644 [INFO]  Epoch[2] Train-RIDAGEYR-accuracy=3.300971
+2024-03-06 12:44:37,644 [INFO]  Epoch[2] Time cost=0.058
+2024-03-06 12:44:37,646 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0002.params"
+2024-03-06 12:44:37,648 [INFO]  Epoch[2] Validation-cross-entropy=0.058990
+2024-03-06 12:44:37,648 [INFO]  Epoch[2] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:44:37,678 [INFO]  Epoch[3] Batch [0-52]	Speed: 28375.61 samples/sec	cross-entropy=0.058617	RIDAGEYR-accuracy=3.037736
+2024-03-06 12:44:37,706 [INFO]  Epoch[3] Train-cross-entropy=0.075463
+2024-03-06 12:44:37,706 [INFO]  Epoch[3] Train-RIDAGEYR-accuracy=3.300971
+2024-03-06 12:44:37,706 [INFO]  Epoch[3] Time cost=0.058
+2024-03-06 12:44:37,707 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0003.params"
+2024-03-06 12:44:37,710 [INFO]  Epoch[3] Validation-cross-entropy=0.074973
+2024-03-06 12:44:37,710 [INFO]  Epoch[3] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:44:37,740 [INFO]  Epoch[4] Batch [0-52]	Speed: 28467.97 samples/sec	cross-entropy=0.072736	RIDAGEYR-accuracy=3.037736
+2024-03-06 12:44:37,767 [INFO]  Epoch[4] Train-cross-entropy=0.126414
+2024-03-06 12:44:37,768 [INFO]  Epoch[4] Train-RIDAGEYR-accuracy=3.300971
+2024-03-06 12:44:37,768 [INFO]  Epoch[4] Time cost=0.058
+2024-03-06 12:44:37,769 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0004.params"
+2024-03-06 12:44:37,771 [INFO]  Epoch[4] Validation-cross-entropy=0.114257
+2024-03-06 12:44:37,771 [INFO]  Epoch[4] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:44:37,771 [INFO]  
+========== done (0.3187248706817627 s) fit model
+2024-03-06 12:44:57,449 [INFO]  
+========== start: fit model
+2024-03-06 12:44:57,449 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:44:57,501 [INFO]  Epoch[0] Batch [0-52]	Speed: 16673.01 samples/sec	cross-entropy=4.912654	RIDAGEYR-accuracy=3.377358
+2024-03-06 12:44:57,537 [INFO]  Epoch[0] Train-cross-entropy=2.811726
+2024-03-06 12:44:57,537 [INFO]  Epoch[0] Train-RIDAGEYR-accuracy=3.368932
+2024-03-06 12:44:57,537 [INFO]  Epoch[0] Time cost=0.087
+2024-03-06 12:44:57,539 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0000.params"
+2024-03-06 12:44:57,541 [INFO]  Epoch[0] Validation-cross-entropy=0.560873
+2024-03-06 12:44:57,541 [INFO]  Epoch[0] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:44:57,579 [INFO]  Epoch[1] Batch [0-52]	Speed: 22561.10 samples/sec	cross-entropy=0.176834	RIDAGEYR-accuracy=3.377358
+2024-03-06 12:44:57,616 [INFO]  Epoch[1] Train-cross-entropy=0.171511
+2024-03-06 12:44:57,616 [INFO]  Epoch[1] Train-RIDAGEYR-accuracy=3.368932
+2024-03-06 12:44:57,616 [INFO]  Epoch[1] Time cost=0.075
+2024-03-06 12:44:57,618 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0001.params"
+2024-03-06 12:44:57,621 [INFO]  Epoch[1] Validation-cross-entropy=0.350387
+2024-03-06 12:44:57,621 [INFO]  Epoch[1] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:44:57,659 [INFO]  Epoch[2] Batch [0-52]	Speed: 22293.59 samples/sec	cross-entropy=0.082179	RIDAGEYR-accuracy=3.377358
+2024-03-06 12:44:57,695 [INFO]  Epoch[2] Train-cross-entropy=0.086668
+2024-03-06 12:44:57,695 [INFO]  Epoch[2] Train-RIDAGEYR-accuracy=3.368932
+2024-03-06 12:44:57,695 [INFO]  Epoch[2] Time cost=0.074
+2024-03-06 12:44:57,696 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0002.params"
+2024-03-06 12:44:57,699 [INFO]  Epoch[2] Validation-cross-entropy=0.363685
+2024-03-06 12:44:57,699 [INFO]  Epoch[2] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:44:57,736 [INFO]  Epoch[3] Batch [0-52]	Speed: 22712.20 samples/sec	cross-entropy=0.045889	RIDAGEYR-accuracy=3.377358
+2024-03-06 12:44:57,772 [INFO]  Epoch[3] Train-cross-entropy=0.069449
+2024-03-06 12:44:57,772 [INFO]  Epoch[3] Train-RIDAGEYR-accuracy=3.368932
+2024-03-06 12:44:57,772 [INFO]  Epoch[3] Time cost=0.073
+2024-03-06 12:44:57,774 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0003.params"
+2024-03-06 12:44:57,777 [INFO]  Epoch[3] Validation-cross-entropy=0.264572
+2024-03-06 12:44:57,777 [INFO]  Epoch[3] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:44:57,815 [INFO]  Epoch[4] Batch [0-52]	Speed: 22306.56 samples/sec	cross-entropy=0.040285	RIDAGEYR-accuracy=3.377358
+2024-03-06 12:44:57,851 [INFO]  Epoch[4] Train-cross-entropy=0.072055
+2024-03-06 12:44:57,851 [INFO]  Epoch[4] Train-RIDAGEYR-accuracy=3.368932
+2024-03-06 12:44:57,852 [INFO]  Epoch[4] Time cost=0.075
+2024-03-06 12:44:57,853 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0004.params"
+2024-03-06 12:44:57,856 [INFO]  Epoch[4] Validation-cross-entropy=0.218062
+2024-03-06 12:44:57,856 [INFO]  Epoch[4] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:44:57,856 [INFO]  
+========== done (0.40709352493286133 s) fit model
+2024-03-06 12:45:15,550 [INFO]  
+========== start: fit model
+2024-03-06 12:45:15,550 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:45:15,594 [INFO]  Epoch[0] Batch [0-52]	Speed: 19700.80 samples/sec	cross-entropy=3.032659	RIDAGEYR-accuracy=3.471698
+2024-03-06 12:45:15,626 [INFO]  Epoch[0] Train-cross-entropy=1.715832
+2024-03-06 12:45:15,626 [INFO]  Epoch[0] Train-RIDAGEYR-accuracy=3.466019
+2024-03-06 12:45:15,626 [INFO]  Epoch[0] Time cost=0.076
+2024-03-06 12:45:15,628 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0000.params"
+2024-03-06 12:45:15,630 [INFO]  Epoch[0] Validation-cross-entropy=0.715938
+2024-03-06 12:45:15,630 [INFO]  Epoch[0] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:45:15,663 [INFO]  Epoch[1] Batch [0-52]	Speed: 25710.88 samples/sec	cross-entropy=0.294006	RIDAGEYR-accuracy=3.471698
+2024-03-06 12:45:15,695 [INFO]  Epoch[1] Train-cross-entropy=0.205198
+2024-03-06 12:45:15,695 [INFO]  Epoch[1] Train-RIDAGEYR-accuracy=3.466019
+2024-03-06 12:45:15,695 [INFO]  Epoch[1] Time cost=0.065
+2024-03-06 12:45:15,697 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0001.params"
+2024-03-06 12:45:15,699 [INFO]  Epoch[1] Validation-cross-entropy=0.164545
+2024-03-06 12:45:15,699 [INFO]  Epoch[1] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:45:15,733 [INFO]  Epoch[2] Batch [0-52]	Speed: 25471.61 samples/sec	cross-entropy=0.252706	RIDAGEYR-accuracy=3.471698
+2024-03-06 12:45:15,764 [INFO]  Epoch[2] Train-cross-entropy=0.178760
+2024-03-06 12:45:15,764 [INFO]  Epoch[2] Train-RIDAGEYR-accuracy=3.466019
+2024-03-06 12:45:15,764 [INFO]  Epoch[2] Time cost=0.065
+2024-03-06 12:45:15,766 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0002.params"
+2024-03-06 12:45:15,768 [INFO]  Epoch[2] Validation-cross-entropy=0.205695
+2024-03-06 12:45:15,768 [INFO]  Epoch[2] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:45:15,815 [INFO]  Epoch[3] Batch [0-52]	Speed: 18173.33 samples/sec	cross-entropy=0.305165	RIDAGEYR-accuracy=3.471698
+2024-03-06 12:45:15,843 [INFO]  Epoch[3] Train-cross-entropy=0.192161
+2024-03-06 12:45:15,843 [INFO]  Epoch[3] Train-RIDAGEYR-accuracy=3.466019
+2024-03-06 12:45:15,843 [INFO]  Epoch[3] Time cost=0.075
+2024-03-06 12:45:15,845 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0003.params"
+2024-03-06 12:45:15,847 [INFO]  Epoch[3] Validation-cross-entropy=0.071175
+2024-03-06 12:45:15,847 [INFO]  Epoch[3] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:45:15,877 [INFO]  Epoch[4] Batch [0-52]	Speed: 28160.59 samples/sec	cross-entropy=0.306342	RIDAGEYR-accuracy=3.471698
+2024-03-06 12:45:15,906 [INFO]  Epoch[4] Train-cross-entropy=0.209724
+2024-03-06 12:45:15,906 [INFO]  Epoch[4] Train-RIDAGEYR-accuracy=3.466019
+2024-03-06 12:45:15,906 [INFO]  Epoch[4] Time cost=0.059
+2024-03-06 12:45:15,907 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0004.params"
+2024-03-06 12:45:15,909 [INFO]  Epoch[4] Validation-cross-entropy=0.221126
+2024-03-06 12:45:15,909 [INFO]  Epoch[4] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:45:15,909 [INFO]  
+========== done (0.35971570014953613 s) fit model
+2024-03-06 12:45:35,694 [INFO]  
+========== start: fit model
+2024-03-06 12:45:35,695 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:45:35,727 [INFO]  Epoch[0] Batch [0-52]	Speed: 26941.16 samples/sec	cross-entropy=3.567407	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:45:35,756 [INFO]  Epoch[0] Train-cross-entropy=1.949328
+2024-03-06 12:45:35,756 [INFO]  Epoch[0] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:45:35,756 [INFO]  Epoch[0] Time cost=0.061
+2024-03-06 12:45:35,758 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0000.params"
+2024-03-06 12:45:35,760 [INFO]  Epoch[0] Validation-cross-entropy=0.130894
+2024-03-06 12:45:35,760 [INFO]  Epoch[0] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:45:35,791 [INFO]  Epoch[1] Batch [0-52]	Speed: 27289.63 samples/sec	cross-entropy=0.099182	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:45:35,820 [INFO]  Epoch[1] Train-cross-entropy=0.122051
+2024-03-06 12:45:35,821 [INFO]  Epoch[1] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:45:35,821 [INFO]  Epoch[1] Time cost=0.061
+2024-03-06 12:45:35,822 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0001.params"
+2024-03-06 12:45:35,824 [INFO]  Epoch[1] Validation-cross-entropy=0.117387
+2024-03-06 12:45:35,824 [INFO]  Epoch[1] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:45:35,856 [INFO]  Epoch[2] Batch [0-52]	Speed: 27213.01 samples/sec	cross-entropy=0.080044	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:45:35,885 [INFO]  Epoch[2] Train-cross-entropy=0.098731
+2024-03-06 12:45:35,885 [INFO]  Epoch[2] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:45:35,885 [INFO]  Epoch[2] Time cost=0.061
+2024-03-06 12:45:35,886 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0002.params"
+2024-03-06 12:45:35,889 [INFO]  Epoch[2] Validation-cross-entropy=0.083819
+2024-03-06 12:45:35,889 [INFO]  Epoch[2] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:45:35,920 [INFO]  Epoch[3] Batch [0-52]	Speed: 27194.35 samples/sec	cross-entropy=0.377526	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:45:35,949 [INFO]  Epoch[3] Train-cross-entropy=0.637355
+2024-03-06 12:45:35,949 [INFO]  Epoch[3] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:45:35,949 [INFO]  Epoch[3] Time cost=0.061
+2024-03-06 12:45:35,951 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0003.params"
+2024-03-06 12:45:35,953 [INFO]  Epoch[3] Validation-cross-entropy=0.451555
+2024-03-06 12:45:35,953 [INFO]  Epoch[3] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:45:35,984 [INFO]  Epoch[4] Batch [0-52]	Speed: 27328.74 samples/sec	cross-entropy=0.301279	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:45:36,014 [INFO]  Epoch[4] Train-cross-entropy=0.246279
+2024-03-06 12:45:36,014 [INFO]  Epoch[4] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:45:36,014 [INFO]  Epoch[4] Time cost=0.061
+2024-03-06 12:45:36,016 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0004.params"
+2024-03-06 12:45:36,018 [INFO]  Epoch[4] Validation-cross-entropy=0.120056
+2024-03-06 12:45:36,018 [INFO]  Epoch[4] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:45:36,018 [INFO]  
+========== done (0.3234691619873047 s) fit model
+2024-03-06 12:45:57,512 [INFO]  
+========== start: fit model
+2024-03-06 12:45:57,513 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:45:57,562 [INFO]  Epoch[0] Batch [0-52]	Speed: 17599.84 samples/sec	cross-entropy=5.949509	RIDAGEYR-accuracy=3.226415
+2024-03-06 12:45:57,594 [INFO]  Epoch[0] Train-cross-entropy=3.171224
+2024-03-06 12:45:57,594 [INFO]  Epoch[0] Train-RIDAGEYR-accuracy=3.165049
+2024-03-06 12:45:57,594 [INFO]  Epoch[0] Time cost=0.081
+2024-03-06 12:45:57,596 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0000.params"
+2024-03-06 12:45:57,598 [INFO]  Epoch[0] Validation-cross-entropy=0.227606
+2024-03-06 12:45:57,598 [INFO]  Epoch[0] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:45:57,633 [INFO]  Epoch[1] Batch [0-52]	Speed: 24467.21 samples/sec	cross-entropy=0.118663	RIDAGEYR-accuracy=3.226415
+2024-03-06 12:45:57,666 [INFO]  Epoch[1] Train-cross-entropy=0.098920
+2024-03-06 12:45:57,666 [INFO]  Epoch[1] Train-RIDAGEYR-accuracy=3.165049
+2024-03-06 12:45:57,666 [INFO]  Epoch[1] Time cost=0.068
+2024-03-06 12:45:57,667 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0001.params"
+2024-03-06 12:45:57,669 [INFO]  Epoch[1] Validation-cross-entropy=0.182260
+2024-03-06 12:45:57,669 [INFO]  Epoch[1] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:45:57,704 [INFO]  Epoch[2] Batch [0-52]	Speed: 24672.90 samples/sec	cross-entropy=0.083768	RIDAGEYR-accuracy=3.226415
+2024-03-06 12:45:57,736 [INFO]  Epoch[2] Train-cross-entropy=0.108586
+2024-03-06 12:45:57,736 [INFO]  Epoch[2] Train-RIDAGEYR-accuracy=3.165049
+2024-03-06 12:45:57,736 [INFO]  Epoch[2] Time cost=0.067
+2024-03-06 12:45:57,738 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0002.params"
+2024-03-06 12:45:57,740 [INFO]  Epoch[2] Validation-cross-entropy=0.189056
+2024-03-06 12:45:57,740 [INFO]  Epoch[2] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:45:57,774 [INFO]  Epoch[3] Batch [0-52]	Speed: 24697.52 samples/sec	cross-entropy=0.076467	RIDAGEYR-accuracy=3.226415
+2024-03-06 12:45:57,807 [INFO]  Epoch[3] Train-cross-entropy=0.099736
+2024-03-06 12:45:57,807 [INFO]  Epoch[3] Train-RIDAGEYR-accuracy=3.165049
+2024-03-06 12:45:57,807 [INFO]  Epoch[3] Time cost=0.067
+2024-03-06 12:45:57,808 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0003.params"
+2024-03-06 12:45:57,811 [INFO]  Epoch[3] Validation-cross-entropy=0.095272
+2024-03-06 12:45:57,811 [INFO]  Epoch[3] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:45:57,845 [INFO]  Epoch[4] Batch [0-52]	Speed: 25011.19 samples/sec	cross-entropy=0.096322	RIDAGEYR-accuracy=3.226415
+2024-03-06 12:45:57,877 [INFO]  Epoch[4] Train-cross-entropy=0.150073
+2024-03-06 12:45:57,877 [INFO]  Epoch[4] Train-RIDAGEYR-accuracy=3.165049
+2024-03-06 12:45:57,877 [INFO]  Epoch[4] Time cost=0.066
+2024-03-06 12:45:57,878 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0004.params"
+2024-03-06 12:45:57,881 [INFO]  Epoch[4] Validation-cross-entropy=0.109552
+2024-03-06 12:45:57,881 [INFO]  Epoch[4] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:45:57,881 [INFO]  
+========== done (0.3683459758758545 s) fit model
+2024-03-06 12:46:18,455 [INFO]  
+========== start: fit model
+2024-03-06 12:46:18,455 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:46:18,487 [INFO]  Epoch[0] Batch [0-52]	Speed: 27576.22 samples/sec	cross-entropy=3.106897	RIDAGEYR-accuracy=2.962264
+2024-03-06 12:46:18,515 [INFO]  Epoch[0] Train-cross-entropy=1.704361
+2024-03-06 12:46:18,515 [INFO]  Epoch[0] Train-RIDAGEYR-accuracy=3.330097
+2024-03-06 12:46:18,515 [INFO]  Epoch[0] Time cost=0.059
+2024-03-06 12:46:18,517 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0000.params"
+2024-03-06 12:46:18,519 [INFO]  Epoch[0] Validation-cross-entropy=0.827678
+2024-03-06 12:46:18,519 [INFO]  Epoch[0] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:46:18,549 [INFO]  Epoch[1] Batch [0-52]	Speed: 28692.21 samples/sec	cross-entropy=0.149753	RIDAGEYR-accuracy=2.962264
+2024-03-06 12:46:18,637 [INFO]  Epoch[1] Train-cross-entropy=0.153253
+2024-03-06 12:46:18,637 [INFO]  Epoch[1] Train-RIDAGEYR-accuracy=3.330097
+2024-03-06 12:46:18,637 [INFO]  Epoch[1] Time cost=0.118
+2024-03-06 12:46:18,638 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0001.params"
+2024-03-06 12:46:18,645 [INFO]  Epoch[1] Validation-cross-entropy=0.505459
+2024-03-06 12:46:18,645 [INFO]  Epoch[1] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:46:18,698 [INFO]  Epoch[2] Batch [0-52]	Speed: 15952.37 samples/sec	cross-entropy=0.116350	RIDAGEYR-accuracy=2.962264
+2024-03-06 12:46:18,760 [INFO]  Epoch[2] Train-cross-entropy=0.097901
+2024-03-06 12:46:18,760 [INFO]  Epoch[2] Train-RIDAGEYR-accuracy=3.330097
+2024-03-06 12:46:18,760 [INFO]  Epoch[2] Time cost=0.116
+2024-03-06 12:46:18,762 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0002.params"
+2024-03-06 12:46:18,765 [INFO]  Epoch[2] Validation-cross-entropy=0.483740
+2024-03-06 12:46:18,765 [INFO]  Epoch[2] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:46:18,817 [INFO]  Epoch[3] Batch [0-52]	Speed: 16231.66 samples/sec	cross-entropy=0.082985	RIDAGEYR-accuracy=2.962264
+2024-03-06 12:46:18,867 [INFO]  Epoch[3] Train-cross-entropy=0.119164
+2024-03-06 12:46:18,867 [INFO]  Epoch[3] Train-RIDAGEYR-accuracy=3.330097
+2024-03-06 12:46:18,868 [INFO]  Epoch[3] Time cost=0.102
+2024-03-06 12:46:18,869 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0003.params"
+2024-03-06 12:46:18,873 [INFO]  Epoch[3] Validation-cross-entropy=0.844314
+2024-03-06 12:46:18,873 [INFO]  Epoch[3] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:46:18,932 [INFO]  Epoch[4] Batch [0-52]	Speed: 14376.84 samples/sec	cross-entropy=0.160488	RIDAGEYR-accuracy=2.962264
+2024-03-06 12:46:18,970 [INFO]  Epoch[4] Train-cross-entropy=0.149659
+2024-03-06 12:46:18,970 [INFO]  Epoch[4] Train-RIDAGEYR-accuracy=3.330097
+2024-03-06 12:46:18,971 [INFO]  Epoch[4] Time cost=0.098
+2024-03-06 12:46:18,973 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0004.params"
+2024-03-06 12:46:18,976 [INFO]  Epoch[4] Validation-cross-entropy=0.973474
+2024-03-06 12:46:18,976 [INFO]  Epoch[4] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:46:18,976 [INFO]  
+========== done (0.5208418369293213 s) fit model
+2024-03-06 12:46:46,912 [INFO]  
+========== start: fit model
+2024-03-06 12:46:46,912 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:46:46,947 [INFO]  Epoch[0] Batch [0-52]	Speed: 24561.59 samples/sec	cross-entropy=5.477766	RIDAGEYR-accuracy=3.018868
+2024-03-06 12:46:46,982 [INFO]  Epoch[0] Train-cross-entropy=2.925735
+2024-03-06 12:46:46,982 [INFO]  Epoch[0] Train-RIDAGEYR-accuracy=3.077670
+2024-03-06 12:46:46,982 [INFO]  Epoch[0] Time cost=0.069
+2024-03-06 12:46:46,983 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0000.params"
+2024-03-06 12:46:46,985 [INFO]  Epoch[0] Validation-cross-entropy=0.067303
+2024-03-06 12:46:46,985 [INFO]  Epoch[0] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:46:47,020 [INFO]  Epoch[1] Batch [0-52]	Speed: 24819.60 samples/sec	cross-entropy=0.109376	RIDAGEYR-accuracy=3.018868
+2024-03-06 12:46:47,053 [INFO]  Epoch[1] Train-cross-entropy=0.164476
+2024-03-06 12:46:47,053 [INFO]  Epoch[1] Train-RIDAGEYR-accuracy=3.077670
+2024-03-06 12:46:47,053 [INFO]  Epoch[1] Time cost=0.067
+2024-03-06 12:46:47,054 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0001.params"
+2024-03-06 12:46:47,057 [INFO]  Epoch[1] Validation-cross-entropy=0.221420
+2024-03-06 12:46:47,057 [INFO]  Epoch[1] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:46:47,091 [INFO]  Epoch[2] Batch [0-52]	Speed: 24601.58 samples/sec	cross-entropy=0.182258	RIDAGEYR-accuracy=3.018868
+2024-03-06 12:46:47,124 [INFO]  Epoch[2] Train-cross-entropy=0.182716
+2024-03-06 12:46:47,124 [INFO]  Epoch[2] Train-RIDAGEYR-accuracy=3.077670
+2024-03-06 12:46:47,124 [INFO]  Epoch[2] Time cost=0.067
+2024-03-06 12:46:47,125 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0002.params"
+2024-03-06 12:46:47,128 [INFO]  Epoch[2] Validation-cross-entropy=0.267202
+2024-03-06 12:46:47,128 [INFO]  Epoch[2] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:46:47,162 [INFO]  Epoch[3] Batch [0-52]	Speed: 24801.61 samples/sec	cross-entropy=0.206808	RIDAGEYR-accuracy=3.018868
+2024-03-06 12:46:47,195 [INFO]  Epoch[3] Train-cross-entropy=0.128436
+2024-03-06 12:46:47,195 [INFO]  Epoch[3] Train-RIDAGEYR-accuracy=3.077670
+2024-03-06 12:46:47,195 [INFO]  Epoch[3] Time cost=0.067
+2024-03-06 12:46:47,196 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0003.params"
+2024-03-06 12:46:47,198 [INFO]  Epoch[3] Validation-cross-entropy=0.026039
+2024-03-06 12:46:47,198 [INFO]  Epoch[3] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:46:47,233 [INFO]  Epoch[4] Batch [0-52]	Speed: 24665.40 samples/sec	cross-entropy=0.046234	RIDAGEYR-accuracy=3.018868
+2024-03-06 12:46:47,265 [INFO]  Epoch[4] Train-cross-entropy=0.039153
+2024-03-06 12:46:47,265 [INFO]  Epoch[4] Train-RIDAGEYR-accuracy=3.077670
+2024-03-06 12:46:47,265 [INFO]  Epoch[4] Time cost=0.067
+2024-03-06 12:46:47,267 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0004.params"
+2024-03-06 12:46:47,269 [INFO]  Epoch[4] Validation-cross-entropy=0.027515
+2024-03-06 12:46:47,269 [INFO]  Epoch[4] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:46:47,269 [INFO]  
+========== done (0.35770535469055176 s) fit model
+2024-03-06 12:47:07,702 [INFO]  
+========== start: fit model
+2024-03-06 12:47:07,702 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:47:07,819 [INFO]  Epoch[0] Batch [0-52]	Speed: 8478.61 samples/sec	cross-entropy=9.866381	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:47:07,865 [INFO]  Epoch[0] Train-cross-entropy=5.392429
+2024-03-06 12:47:07,866 [INFO]  Epoch[0] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:47:07,866 [INFO]  Epoch[0] Time cost=0.163
+2024-03-06 12:47:07,867 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0000.params"
+2024-03-06 12:47:07,871 [INFO]  Epoch[0] Validation-cross-entropy=0.439094
+2024-03-06 12:47:07,871 [INFO]  Epoch[0] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:47:07,927 [INFO]  Epoch[1] Batch [0-52]	Speed: 15932.20 samples/sec	cross-entropy=0.288861	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:47:07,986 [INFO]  Epoch[1] Train-cross-entropy=0.220374
+2024-03-06 12:47:07,986 [INFO]  Epoch[1] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:47:07,986 [INFO]  Epoch[1] Time cost=0.115
+2024-03-06 12:47:07,988 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0001.params"
+2024-03-06 12:47:07,991 [INFO]  Epoch[1] Validation-cross-entropy=0.178574
+2024-03-06 12:47:07,991 [INFO]  Epoch[1] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:47:08,108 [INFO]  Epoch[2] Batch [0-52]	Speed: 7210.12 samples/sec	cross-entropy=0.131136	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:47:08,400 [INFO]  Epoch[2] Train-cross-entropy=0.103183
+2024-03-06 12:47:08,400 [INFO]  Epoch[2] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:47:08,400 [INFO]  Epoch[2] Time cost=0.409
+2024-03-06 12:47:08,401 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0002.params"
+2024-03-06 12:47:08,404 [INFO]  Epoch[2] Validation-cross-entropy=0.106244
+2024-03-06 12:47:08,404 [INFO]  Epoch[2] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:47:08,433 [INFO]  Epoch[3] Batch [0-52]	Speed: 28929.59 samples/sec	cross-entropy=0.076526	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:47:08,476 [INFO]  Epoch[3] Train-cross-entropy=0.062765
+2024-03-06 12:47:08,476 [INFO]  Epoch[3] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:47:08,476 [INFO]  Epoch[3] Time cost=0.072
+2024-03-06 12:47:08,477 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0003.params"
+2024-03-06 12:47:08,481 [INFO]  Epoch[3] Validation-cross-entropy=0.079345
+2024-03-06 12:47:08,481 [INFO]  Epoch[3] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:47:08,543 [INFO]  Epoch[4] Batch [0-52]	Speed: 13681.89 samples/sec	cross-entropy=0.059560	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:47:08,589 [INFO]  Epoch[4] Train-cross-entropy=0.050578
+2024-03-06 12:47:08,589 [INFO]  Epoch[4] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:47:08,589 [INFO]  Epoch[4] Time cost=0.109
+2024-03-06 12:47:08,592 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0004.params"
+2024-03-06 12:47:08,595 [INFO]  Epoch[4] Validation-cross-entropy=0.063040
+2024-03-06 12:47:08,595 [INFO]  Epoch[4] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:47:08,596 [INFO]  
+========== done (0.8941473960876465 s) fit model
+2024-03-06 12:47:37,700 [INFO]  
+========== start: fit model
+2024-03-06 12:47:37,701 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:47:37,752 [INFO]  Epoch[0] Batch [0-52]	Speed: 18727.79 samples/sec	cross-entropy=1.890200	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:47:37,784 [INFO]  Epoch[0] Train-cross-entropy=1.065238
+2024-03-06 12:47:37,784 [INFO]  Epoch[0] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:47:37,784 [INFO]  Epoch[0] Time cost=0.082
+2024-03-06 12:47:37,785 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0000.params"
+2024-03-06 12:47:37,787 [INFO]  Epoch[0] Validation-cross-entropy=0.437502
+2024-03-06 12:47:37,788 [INFO]  Epoch[0] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:47:37,821 [INFO]  Epoch[1] Batch [0-52]	Speed: 25596.22 samples/sec	cross-entropy=0.186410	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:47:37,852 [INFO]  Epoch[1] Train-cross-entropy=0.136916
+2024-03-06 12:47:37,852 [INFO]  Epoch[1] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:47:37,852 [INFO]  Epoch[1] Time cost=0.065
+2024-03-06 12:47:37,854 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0001.params"
+2024-03-06 12:47:37,856 [INFO]  Epoch[1] Validation-cross-entropy=0.184092
+2024-03-06 12:47:37,856 [INFO]  Epoch[1] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:47:37,890 [INFO]  Epoch[2] Batch [0-52]	Speed: 25250.62 samples/sec	cross-entropy=0.089415	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:47:37,921 [INFO]  Epoch[2] Train-cross-entropy=0.085257
+2024-03-06 12:47:37,921 [INFO]  Epoch[2] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:47:37,921 [INFO]  Epoch[2] Time cost=0.065
+2024-03-06 12:47:37,923 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0002.params"
+2024-03-06 12:47:37,925 [INFO]  Epoch[2] Validation-cross-entropy=0.126213
+2024-03-06 12:47:37,925 [INFO]  Epoch[2] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:47:37,959 [INFO]  Epoch[3] Batch [0-52]	Speed: 25519.10 samples/sec	cross-entropy=0.062448	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:47:37,990 [INFO]  Epoch[3] Train-cross-entropy=0.060407
+2024-03-06 12:47:37,990 [INFO]  Epoch[3] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:47:37,990 [INFO]  Epoch[3] Time cost=0.065
+2024-03-06 12:47:37,992 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0003.params"
+2024-03-06 12:47:37,994 [INFO]  Epoch[3] Validation-cross-entropy=0.091127
+2024-03-06 12:47:37,994 [INFO]  Epoch[3] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:47:38,028 [INFO]  Epoch[4] Batch [0-52]	Speed: 25504.00 samples/sec	cross-entropy=0.086019	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:47:38,059 [INFO]  Epoch[4] Train-cross-entropy=0.083558
+2024-03-06 12:47:38,059 [INFO]  Epoch[4] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:47:38,059 [INFO]  Epoch[4] Time cost=0.065
+2024-03-06 12:47:38,061 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0004.params"
+2024-03-06 12:47:38,063 [INFO]  Epoch[4] Validation-cross-entropy=0.130567
+2024-03-06 12:47:38,063 [INFO]  Epoch[4] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:47:38,063 [INFO]  
+========== done (0.36257219314575195 s) fit model
+2024-03-06 12:47:57,051 [INFO]  
+========== start: fit model
+2024-03-06 12:47:57,051 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:47:57,090 [INFO]  Epoch[0] Batch [0-52]	Speed: 23961.53 samples/sec	cross-entropy=2.494044	RIDAGEYR-accuracy=3.509434
+2024-03-06 12:47:57,126 [INFO]  Epoch[0] Train-cross-entropy=1.415680
+2024-03-06 12:47:57,126 [INFO]  Epoch[0] Train-RIDAGEYR-accuracy=3.407767
+2024-03-06 12:47:57,126 [INFO]  Epoch[0] Time cost=0.074
+2024-03-06 12:47:57,128 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0000.params"
+2024-03-06 12:47:57,131 [INFO]  Epoch[0] Validation-cross-entropy=0.224306
+2024-03-06 12:47:57,131 [INFO]  Epoch[0] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:47:57,386 [INFO]  Epoch[1] Batch [0-52]	Speed: 3272.06 samples/sec	cross-entropy=0.121426	RIDAGEYR-accuracy=3.509434
+2024-03-06 12:47:57,554 [INFO]  Epoch[1] Train-cross-entropy=0.143042
+2024-03-06 12:47:57,554 [INFO]  Epoch[1] Train-RIDAGEYR-accuracy=3.407767
+2024-03-06 12:47:57,554 [INFO]  Epoch[1] Time cost=0.423
+2024-03-06 12:47:57,556 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0001.params"
+2024-03-06 12:47:57,559 [INFO]  Epoch[1] Validation-cross-entropy=0.408331
+2024-03-06 12:47:57,559 [INFO]  Epoch[1] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:47:57,601 [INFO]  Epoch[2] Batch [0-52]	Speed: 20323.23 samples/sec	cross-entropy=0.114185	RIDAGEYR-accuracy=3.509434
+2024-03-06 12:47:57,660 [INFO]  Epoch[2] Train-cross-entropy=0.160697
+2024-03-06 12:47:57,660 [INFO]  Epoch[2] Train-RIDAGEYR-accuracy=3.407767
+2024-03-06 12:47:57,661 [INFO]  Epoch[2] Time cost=0.101
+2024-03-06 12:47:57,663 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0002.params"
+2024-03-06 12:47:57,667 [INFO]  Epoch[2] Validation-cross-entropy=0.124107
+2024-03-06 12:47:57,667 [INFO]  Epoch[2] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:47:57,719 [INFO]  Epoch[3] Batch [0-52]	Speed: 16421.62 samples/sec	cross-entropy=0.098545	RIDAGEYR-accuracy=3.509434
+2024-03-06 12:47:57,766 [INFO]  Epoch[3] Train-cross-entropy=0.192590
+2024-03-06 12:47:57,766 [INFO]  Epoch[3] Train-RIDAGEYR-accuracy=3.407767
+2024-03-06 12:47:57,766 [INFO]  Epoch[3] Time cost=0.099
+2024-03-06 12:47:57,769 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0003.params"
+2024-03-06 12:47:57,772 [INFO]  Epoch[3] Validation-cross-entropy=0.223950
+2024-03-06 12:47:57,772 [INFO]  Epoch[3] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:47:57,821 [INFO]  Epoch[4] Batch [0-52]	Speed: 17468.83 samples/sec	cross-entropy=0.131488	RIDAGEYR-accuracy=3.509434
+2024-03-06 12:47:57,870 [INFO]  Epoch[4] Train-cross-entropy=0.203849
+2024-03-06 12:47:57,871 [INFO]  Epoch[4] Train-RIDAGEYR-accuracy=3.407767
+2024-03-06 12:47:57,871 [INFO]  Epoch[4] Time cost=0.098
+2024-03-06 12:47:57,873 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0004.params"
+2024-03-06 12:47:57,877 [INFO]  Epoch[4] Validation-cross-entropy=0.130073
+2024-03-06 12:47:57,877 [INFO]  Epoch[4] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:47:57,877 [INFO]  
+========== done (0.8259828090667725 s) fit model
+2024-03-06 12:48:26,273 [INFO]  
+========== start: fit model
+2024-03-06 12:48:26,273 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:48:26,313 [INFO]  Epoch[0] Batch [0-52]	Speed: 22020.96 samples/sec	cross-entropy=2.745965	RIDAGEYR-accuracy=3.415094
+2024-03-06 12:48:26,356 [INFO]  Epoch[0] Train-cross-entropy=1.517654
+2024-03-06 12:48:26,356 [INFO]  Epoch[0] Train-RIDAGEYR-accuracy=3.242718
+2024-03-06 12:48:26,356 [INFO]  Epoch[0] Time cost=0.082
+2024-03-06 12:48:26,357 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0000.params"
+2024-03-06 12:48:26,360 [INFO]  Epoch[0] Validation-cross-entropy=0.112423
+2024-03-06 12:48:26,360 [INFO]  Epoch[0] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:48:26,389 [INFO]  Epoch[1] Batch [0-52]	Speed: 28751.54 samples/sec	cross-entropy=0.081280	RIDAGEYR-accuracy=3.415094
+2024-03-06 12:48:26,418 [INFO]  Epoch[1] Train-cross-entropy=0.081214
+2024-03-06 12:48:26,418 [INFO]  Epoch[1] Train-RIDAGEYR-accuracy=3.242718
+2024-03-06 12:48:26,418 [INFO]  Epoch[1] Time cost=0.058
+2024-03-06 12:48:26,419 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0001.params"
+2024-03-06 12:48:26,422 [INFO]  Epoch[1] Validation-cross-entropy=0.125235
+2024-03-06 12:48:26,422 [INFO]  Epoch[1] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:48:26,451 [INFO]  Epoch[2] Batch [0-52]	Speed: 28708.97 samples/sec	cross-entropy=0.084450	RIDAGEYR-accuracy=3.415094
+2024-03-06 12:48:26,479 [INFO]  Epoch[2] Train-cross-entropy=0.078963
+2024-03-06 12:48:26,479 [INFO]  Epoch[2] Train-RIDAGEYR-accuracy=3.242718
+2024-03-06 12:48:26,479 [INFO]  Epoch[2] Time cost=0.057
+2024-03-06 12:48:26,481 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0002.params"
+2024-03-06 12:48:26,483 [INFO]  Epoch[2] Validation-cross-entropy=0.083323
+2024-03-06 12:48:26,483 [INFO]  Epoch[2] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:48:26,512 [INFO]  Epoch[3] Batch [0-52]	Speed: 29251.63 samples/sec	cross-entropy=0.101019	RIDAGEYR-accuracy=3.415094
+2024-03-06 12:48:26,540 [INFO]  Epoch[3] Train-cross-entropy=0.149257
+2024-03-06 12:48:26,540 [INFO]  Epoch[3] Train-RIDAGEYR-accuracy=3.242718
+2024-03-06 12:48:26,540 [INFO]  Epoch[3] Time cost=0.057
+2024-03-06 12:48:26,541 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0003.params"
+2024-03-06 12:48:26,544 [INFO]  Epoch[3] Validation-cross-entropy=0.316579
+2024-03-06 12:48:26,544 [INFO]  Epoch[3] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:48:26,573 [INFO]  Epoch[4] Batch [0-52]	Speed: 29004.61 samples/sec	cross-entropy=0.310186	RIDAGEYR-accuracy=3.415094
+2024-03-06 12:48:26,601 [INFO]  Epoch[4] Train-cross-entropy=0.354750
+2024-03-06 12:48:26,601 [INFO]  Epoch[4] Train-RIDAGEYR-accuracy=3.242718
+2024-03-06 12:48:26,601 [INFO]  Epoch[4] Time cost=0.057
+2024-03-06 12:48:26,602 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0004.params"
+2024-03-06 12:48:26,605 [INFO]  Epoch[4] Validation-cross-entropy=0.378728
+2024-03-06 12:48:26,605 [INFO]  Epoch[4] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:48:26,605 [INFO]  
+========== done (0.3319125175476074 s) fit model
+2024-03-06 12:48:45,634 [INFO]  
+========== start: fit model
+2024-03-06 12:48:45,634 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:48:45,827 [INFO]  Epoch[0] Batch [0-52]	Speed: 4809.09 samples/sec	cross-entropy=4.341883	RIDAGEYR-accuracy=3.018868
+2024-03-06 12:48:45,897 [INFO]  Epoch[0] Train-cross-entropy=2.409927
+2024-03-06 12:48:45,897 [INFO]  Epoch[0] Train-RIDAGEYR-accuracy=3.281553
+2024-03-06 12:48:45,897 [INFO]  Epoch[0] Time cost=0.262
+2024-03-06 12:48:45,899 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0000.params"
+2024-03-06 12:48:45,905 [INFO]  Epoch[0] Validation-cross-entropy=0.198832
+2024-03-06 12:48:45,905 [INFO]  Epoch[0] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:48:45,984 [INFO]  Epoch[1] Batch [0-52]	Speed: 10807.82 samples/sec	cross-entropy=0.197231	RIDAGEYR-accuracy=3.018868
+2024-03-06 12:48:46,053 [INFO]  Epoch[1] Train-cross-entropy=0.436126
+2024-03-06 12:48:46,053 [INFO]  Epoch[1] Train-RIDAGEYR-accuracy=3.281553
+2024-03-06 12:48:46,053 [INFO]  Epoch[1] Time cost=0.148
+2024-03-06 12:48:46,054 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0001.params"
+2024-03-06 12:48:46,136 [INFO]  Epoch[1] Validation-cross-entropy=0.220772
+2024-03-06 12:48:46,136 [INFO]  Epoch[1] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:48:46,489 [INFO]  Epoch[2] Batch [0-52]	Speed: 8551.79 samples/sec	cross-entropy=0.122655	RIDAGEYR-accuracy=3.018868
+2024-03-06 12:48:46,649 [INFO]  Epoch[2] Train-cross-entropy=0.097354
+2024-03-06 12:48:46,649 [INFO]  Epoch[2] Train-RIDAGEYR-accuracy=3.281553
+2024-03-06 12:48:46,649 [INFO]  Epoch[2] Time cost=0.513
+2024-03-06 12:48:46,650 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0002.params"
+2024-03-06 12:48:46,655 [INFO]  Epoch[2] Validation-cross-entropy=0.147033
+2024-03-06 12:48:46,655 [INFO]  Epoch[2] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:48:46,717 [INFO]  Epoch[3] Batch [0-52]	Speed: 13699.29 samples/sec	cross-entropy=0.076695	RIDAGEYR-accuracy=3.018868
+2024-03-06 12:48:46,763 [INFO]  Epoch[3] Train-cross-entropy=0.138431
+2024-03-06 12:48:46,763 [INFO]  Epoch[3] Train-RIDAGEYR-accuracy=3.281553
+2024-03-06 12:48:46,763 [INFO]  Epoch[3] Time cost=0.108
+2024-03-06 12:48:46,766 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0003.params"
+2024-03-06 12:48:46,769 [INFO]  Epoch[3] Validation-cross-entropy=0.100160
+2024-03-06 12:48:46,770 [INFO]  Epoch[3] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:48:46,819 [INFO]  Epoch[4] Batch [0-52]	Speed: 17286.42 samples/sec	cross-entropy=0.101735	RIDAGEYR-accuracy=3.018868
+2024-03-06 12:48:46,865 [INFO]  Epoch[4] Train-cross-entropy=0.127921
+2024-03-06 12:48:46,865 [INFO]  Epoch[4] Train-RIDAGEYR-accuracy=3.281553
+2024-03-06 12:48:46,866 [INFO]  Epoch[4] Time cost=0.096
+2024-03-06 12:48:46,868 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0004.params"
+2024-03-06 12:48:46,871 [INFO]  Epoch[4] Validation-cross-entropy=0.060643
+2024-03-06 12:48:46,872 [INFO]  Epoch[4] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:48:46,872 [INFO]  
+========== done (1.2379157543182373 s) fit model
+2024-03-06 12:49:15,086 [INFO]  
+========== start: fit model
+2024-03-06 12:49:15,087 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:49:15,135 [INFO]  Epoch[0] Batch [0-52]	Speed: 17986.83 samples/sec	cross-entropy=3.990216	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:49:15,167 [INFO]  Epoch[0] Train-cross-entropy=2.226716
+2024-03-06 12:49:15,167 [INFO]  Epoch[0] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:49:15,167 [INFO]  Epoch[0] Time cost=0.079
+2024-03-06 12:49:15,168 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0000.params"
+2024-03-06 12:49:15,171 [INFO]  Epoch[0] Validation-cross-entropy=0.696634
+2024-03-06 12:49:15,171 [INFO]  Epoch[0] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:49:15,204 [INFO]  Epoch[1] Batch [0-52]	Speed: 25482.21 samples/sec	cross-entropy=0.232886	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:49:15,236 [INFO]  Epoch[1] Train-cross-entropy=0.230076
+2024-03-06 12:49:15,236 [INFO]  Epoch[1] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:49:15,237 [INFO]  Epoch[1] Time cost=0.066
+2024-03-06 12:49:15,238 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0001.params"
+2024-03-06 12:49:15,240 [INFO]  Epoch[1] Validation-cross-entropy=0.148756
+2024-03-06 12:49:15,240 [INFO]  Epoch[1] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:49:15,274 [INFO]  Epoch[2] Batch [0-52]	Speed: 25402.82 samples/sec	cross-entropy=0.073229	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:49:15,306 [INFO]  Epoch[2] Train-cross-entropy=0.073944
+2024-03-06 12:49:15,306 [INFO]  Epoch[2] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:49:15,306 [INFO]  Epoch[2] Time cost=0.065
+2024-03-06 12:49:15,307 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0002.params"
+2024-03-06 12:49:15,310 [INFO]  Epoch[2] Validation-cross-entropy=0.100549
+2024-03-06 12:49:15,310 [INFO]  Epoch[2] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:49:15,343 [INFO]  Epoch[3] Batch [0-52]	Speed: 25478.11 samples/sec	cross-entropy=0.048538	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:49:15,375 [INFO]  Epoch[3] Train-cross-entropy=0.058703
+2024-03-06 12:49:15,375 [INFO]  Epoch[3] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:49:15,375 [INFO]  Epoch[3] Time cost=0.065
+2024-03-06 12:49:15,376 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0003.params"
+2024-03-06 12:49:15,379 [INFO]  Epoch[3] Validation-cross-entropy=0.077754
+2024-03-06 12:49:15,379 [INFO]  Epoch[3] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:49:15,412 [INFO]  Epoch[4] Batch [0-52]	Speed: 25528.81 samples/sec	cross-entropy=0.037345	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:49:15,444 [INFO]  Epoch[4] Train-cross-entropy=0.043761
+2024-03-06 12:49:15,444 [INFO]  Epoch[4] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:49:15,444 [INFO]  Epoch[4] Time cost=0.065
+2024-03-06 12:49:15,445 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0004.params"
+2024-03-06 12:49:15,447 [INFO]  Epoch[4] Validation-cross-entropy=0.080651
+2024-03-06 12:49:15,448 [INFO]  Epoch[4] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:49:15,448 [INFO]  
+========== done (0.361133337020874 s) fit model
+2024-03-06 12:49:35,214 [INFO]  
+========== start: fit model
+2024-03-06 12:49:35,214 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:49:35,249 [INFO]  Epoch[0] Batch [0-52]	Speed: 25122.10 samples/sec	cross-entropy=3.458874	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:49:35,283 [INFO]  Epoch[0] Train-cross-entropy=1.946339
+2024-03-06 12:49:35,283 [INFO]  Epoch[0] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:49:35,283 [INFO]  Epoch[0] Time cost=0.068
+2024-03-06 12:49:35,284 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0000.params"
+2024-03-06 12:49:35,287 [INFO]  Epoch[0] Validation-cross-entropy=0.144112
+2024-03-06 12:49:35,287 [INFO]  Epoch[0] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:49:35,340 [INFO]  Epoch[1] Batch [0-52]	Speed: 16008.21 samples/sec	cross-entropy=0.112766	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:49:35,430 [INFO]  Epoch[1] Train-cross-entropy=0.130821
+2024-03-06 12:49:35,430 [INFO]  Epoch[1] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:49:35,430 [INFO]  Epoch[1] Time cost=0.143
+2024-03-06 12:49:35,431 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0001.params"
+2024-03-06 12:49:35,434 [INFO]  Epoch[1] Validation-cross-entropy=0.104102
+2024-03-06 12:49:35,434 [INFO]  Epoch[1] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:49:35,653 [INFO]  Epoch[2] Batch [0-52]	Speed: 3822.10 samples/sec	cross-entropy=0.050444	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:49:35,698 [INFO]  Epoch[2] Train-cross-entropy=0.059781
+2024-03-06 12:49:35,699 [INFO]  Epoch[2] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:49:35,699 [INFO]  Epoch[2] Time cost=0.264
+2024-03-06 12:49:35,700 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0002.params"
+2024-03-06 12:49:35,703 [INFO]  Epoch[2] Validation-cross-entropy=0.067497
+2024-03-06 12:49:35,703 [INFO]  Epoch[2] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:49:35,809 [INFO]  Epoch[3] Batch [0-52]	Speed: 7948.93 samples/sec	cross-entropy=0.034379	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:49:35,900 [INFO]  Epoch[3] Train-cross-entropy=0.039584
+2024-03-06 12:49:35,900 [INFO]  Epoch[3] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:49:35,900 [INFO]  Epoch[3] Time cost=0.196
+2024-03-06 12:49:35,901 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0003.params"
+2024-03-06 12:49:35,904 [INFO]  Epoch[3] Validation-cross-entropy=0.049422
+2024-03-06 12:49:35,904 [INFO]  Epoch[3] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:49:35,953 [INFO]  Epoch[4] Batch [0-52]	Speed: 17594.25 samples/sec	cross-entropy=0.039725	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:49:35,987 [INFO]  Epoch[4] Train-cross-entropy=0.057675
+2024-03-06 12:49:35,987 [INFO]  Epoch[4] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:49:35,987 [INFO]  Epoch[4] Time cost=0.082
+2024-03-06 12:49:35,988 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0004.params"
+2024-03-06 12:49:36,006 [INFO]  Epoch[4] Validation-cross-entropy=0.053145
+2024-03-06 12:49:36,012 [INFO]  Epoch[4] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:49:36,012 [INFO]  
+========== done (0.7977104187011719 s) fit model
+2024-03-06 12:50:00,543 [INFO]  
+========== start: fit model
+2024-03-06 12:50:00,543 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:50:00,578 [INFO]  Epoch[0] Batch [0-52]	Speed: 25261.95 samples/sec	cross-entropy=3.712518	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:00,606 [INFO]  Epoch[0] Train-cross-entropy=2.165584
+2024-03-06 12:50:00,606 [INFO]  Epoch[0] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:00,606 [INFO]  Epoch[0] Time cost=0.062
+2024-03-06 12:50:00,608 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0000.params"
+2024-03-06 12:50:00,610 [INFO]  Epoch[0] Validation-cross-entropy=0.340448
+2024-03-06 12:50:00,610 [INFO]  Epoch[0] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:00,641 [INFO]  Epoch[1] Batch [0-52]	Speed: 27747.69 samples/sec	cross-entropy=0.472931	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:00,669 [INFO]  Epoch[1] Train-cross-entropy=0.336943
+2024-03-06 12:50:00,669 [INFO]  Epoch[1] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:00,669 [INFO]  Epoch[1] Time cost=0.060
+2024-03-06 12:50:00,671 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0001.params"
+2024-03-06 12:50:00,673 [INFO]  Epoch[1] Validation-cross-entropy=0.270417
+2024-03-06 12:50:00,673 [INFO]  Epoch[1] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:00,704 [INFO]  Epoch[2] Batch [0-52]	Speed: 28148.10 samples/sec	cross-entropy=0.079115	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:00,732 [INFO]  Epoch[2] Train-cross-entropy=0.076077
+2024-03-06 12:50:00,732 [INFO]  Epoch[2] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:00,732 [INFO]  Epoch[2] Time cost=0.058
+2024-03-06 12:50:00,733 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0002.params"
+2024-03-06 12:50:00,736 [INFO]  Epoch[2] Validation-cross-entropy=0.159908
+2024-03-06 12:50:00,736 [INFO]  Epoch[2] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:00,767 [INFO]  Epoch[3] Batch [0-52]	Speed: 27902.55 samples/sec	cross-entropy=0.053160	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:00,796 [INFO]  Epoch[3] Train-cross-entropy=0.053340
+2024-03-06 12:50:00,796 [INFO]  Epoch[3] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:00,796 [INFO]  Epoch[3] Time cost=0.060
+2024-03-06 12:50:00,798 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0003.params"
+2024-03-06 12:50:00,800 [INFO]  Epoch[3] Validation-cross-entropy=0.124894
+2024-03-06 12:50:00,800 [INFO]  Epoch[3] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:00,831 [INFO]  Epoch[4] Batch [0-52]	Speed: 27832.45 samples/sec	cross-entropy=0.044148	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:00,861 [INFO]  Epoch[4] Train-cross-entropy=0.044490
+2024-03-06 12:50:00,861 [INFO]  Epoch[4] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:00,861 [INFO]  Epoch[4] Time cost=0.061
+2024-03-06 12:50:00,863 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0004.params"
+2024-03-06 12:50:00,866 [INFO]  Epoch[4] Validation-cross-entropy=0.126757
+2024-03-06 12:50:00,866 [INFO]  Epoch[4] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:00,866 [INFO]  
+========== done (0.3227972984313965 s) fit model
+2024-03-06 12:50:21,523 [INFO]  
+========== start: fit model
+2024-03-06 12:50:21,524 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:50:21,556 [INFO]  Epoch[0] Batch [0-52]	Speed: 27240.42 samples/sec	cross-entropy=4.669611	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:21,584 [INFO]  Epoch[0] Train-cross-entropy=2.698127
+2024-03-06 12:50:21,584 [INFO]  Epoch[0] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:21,584 [INFO]  Epoch[0] Time cost=0.060
+2024-03-06 12:50:21,586 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0000.params"
+2024-03-06 12:50:21,588 [INFO]  Epoch[0] Validation-cross-entropy=0.366469
+2024-03-06 12:50:21,588 [INFO]  Epoch[0] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:21,618 [INFO]  Epoch[1] Batch [0-52]	Speed: 28200.42 samples/sec	cross-entropy=0.199544	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:21,650 [INFO]  Epoch[1] Train-cross-entropy=0.204764
+2024-03-06 12:50:21,650 [INFO]  Epoch[1] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:21,650 [INFO]  Epoch[1] Time cost=0.062
+2024-03-06 12:50:21,652 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0001.params"
+2024-03-06 12:50:21,654 [INFO]  Epoch[1] Validation-cross-entropy=0.206567
+2024-03-06 12:50:21,654 [INFO]  Epoch[1] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:21,686 [INFO]  Epoch[2] Batch [0-52]	Speed: 26385.85 samples/sec	cross-entropy=0.090206	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:21,715 [INFO]  Epoch[2] Train-cross-entropy=0.085165
+2024-03-06 12:50:21,715 [INFO]  Epoch[2] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:21,715 [INFO]  Epoch[2] Time cost=0.061
+2024-03-06 12:50:21,716 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0002.params"
+2024-03-06 12:50:21,718 [INFO]  Epoch[2] Validation-cross-entropy=0.160683
+2024-03-06 12:50:21,718 [INFO]  Epoch[2] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:21,750 [INFO]  Epoch[3] Batch [0-52]	Speed: 27316.54 samples/sec	cross-entropy=0.074322	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:21,780 [INFO]  Epoch[3] Train-cross-entropy=0.067668
+2024-03-06 12:50:21,780 [INFO]  Epoch[3] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:21,780 [INFO]  Epoch[3] Time cost=0.062
+2024-03-06 12:50:21,781 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0003.params"
+2024-03-06 12:50:21,784 [INFO]  Epoch[3] Validation-cross-entropy=0.109385
+2024-03-06 12:50:21,784 [INFO]  Epoch[3] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:21,816 [INFO]  Epoch[4] Batch [0-52]	Speed: 26748.69 samples/sec	cross-entropy=0.051181	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:21,844 [INFO]  Epoch[4] Train-cross-entropy=0.045783
+2024-03-06 12:50:21,844 [INFO]  Epoch[4] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:21,844 [INFO]  Epoch[4] Time cost=0.060
+2024-03-06 12:50:21,845 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0004.params"
+2024-03-06 12:50:21,847 [INFO]  Epoch[4] Validation-cross-entropy=0.057336
+2024-03-06 12:50:21,847 [INFO]  Epoch[4] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:21,847 [INFO]  
+========== done (0.32401418685913086 s) fit model
+2024-03-06 12:50:46,344 [INFO]  
+========== start: fit model
+2024-03-06 12:50:46,345 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:50:46,397 [INFO]  Epoch[0] Batch [0-52]	Speed: 19293.54 samples/sec	cross-entropy=2.833347	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:46,430 [INFO]  Epoch[0] Train-cross-entropy=1.635759
+2024-03-06 12:50:46,430 [INFO]  Epoch[0] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:46,430 [INFO]  Epoch[0] Time cost=0.084
+2024-03-06 12:50:46,431 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0000.params"
+2024-03-06 12:50:46,434 [INFO]  Epoch[0] Validation-cross-entropy=0.272556
+2024-03-06 12:50:46,434 [INFO]  Epoch[0] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:46,469 [INFO]  Epoch[1] Batch [0-52]	Speed: 24572.31 samples/sec	cross-entropy=0.176160	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:46,505 [INFO]  Epoch[1] Train-cross-entropy=0.146018
+2024-03-06 12:50:46,505 [INFO]  Epoch[1] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:46,505 [INFO]  Epoch[1] Time cost=0.071
+2024-03-06 12:50:46,507 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0001.params"
+2024-03-06 12:50:46,509 [INFO]  Epoch[1] Validation-cross-entropy=0.076921
+2024-03-06 12:50:46,509 [INFO]  Epoch[1] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:46,543 [INFO]  Epoch[2] Batch [0-52]	Speed: 25150.35 samples/sec	cross-entropy=0.071420	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:46,575 [INFO]  Epoch[2] Train-cross-entropy=0.068113
+2024-03-06 12:50:46,575 [INFO]  Epoch[2] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:46,575 [INFO]  Epoch[2] Time cost=0.066
+2024-03-06 12:50:46,576 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0002.params"
+2024-03-06 12:50:46,579 [INFO]  Epoch[2] Validation-cross-entropy=0.062365
+2024-03-06 12:50:46,580 [INFO]  Epoch[2] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:46,613 [INFO]  Epoch[3] Batch [0-52]	Speed: 25363.30 samples/sec	cross-entropy=0.050217	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:46,645 [INFO]  Epoch[3] Train-cross-entropy=0.047151
+2024-03-06 12:50:46,645 [INFO]  Epoch[3] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:46,645 [INFO]  Epoch[3] Time cost=0.065
+2024-03-06 12:50:46,646 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0003.params"
+2024-03-06 12:50:46,649 [INFO]  Epoch[3] Validation-cross-entropy=0.055748
+2024-03-06 12:50:46,649 [INFO]  Epoch[3] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:46,682 [INFO]  Epoch[4] Batch [0-52]	Speed: 25506.42 samples/sec	cross-entropy=0.039643	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:46,714 [INFO]  Epoch[4] Train-cross-entropy=0.041224
+2024-03-06 12:50:46,715 [INFO]  Epoch[4] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:46,715 [INFO]  Epoch[4] Time cost=0.066
+2024-03-06 12:50:46,716 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0004.params"
+2024-03-06 12:50:46,719 [INFO]  Epoch[4] Validation-cross-entropy=0.056697
+2024-03-06 12:50:46,719 [INFO]  Epoch[4] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:50:46,719 [INFO]  
+========== done (0.37442946434020996 s) fit model
+2024-03-06 12:51:09,354 [INFO]  
+========== start: fit model
+2024-03-06 12:51:09,354 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:51:09,400 [INFO]  Epoch[0] Batch [0-52]	Speed: 18982.36 samples/sec	cross-entropy=3.128773	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:51:09,432 [INFO]  Epoch[0] Train-cross-entropy=1.717992
+2024-03-06 12:51:09,432 [INFO]  Epoch[0] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:51:09,432 [INFO]  Epoch[0] Time cost=0.077
+2024-03-06 12:51:09,434 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0000.params"
+2024-03-06 12:51:09,436 [INFO]  Epoch[0] Validation-cross-entropy=0.222244
+2024-03-06 12:51:09,436 [INFO]  Epoch[0] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:51:09,470 [INFO]  Epoch[1] Batch [0-52]	Speed: 25289.05 samples/sec	cross-entropy=0.205895	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:51:09,498 [INFO]  Epoch[1] Train-cross-entropy=0.180626
+2024-03-06 12:51:09,498 [INFO]  Epoch[1] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:51:09,498 [INFO]  Epoch[1] Time cost=0.062
+2024-03-06 12:51:09,500 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0001.params"
+2024-03-06 12:51:09,502 [INFO]  Epoch[1] Validation-cross-entropy=0.202539
+2024-03-06 12:51:09,502 [INFO]  Epoch[1] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:51:09,532 [INFO]  Epoch[2] Batch [0-52]	Speed: 28776.91 samples/sec	cross-entropy=0.139894	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:51:09,563 [INFO]  Epoch[2] Train-cross-entropy=0.128576
+2024-03-06 12:51:09,563 [INFO]  Epoch[2] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:51:09,563 [INFO]  Epoch[2] Time cost=0.062
+2024-03-06 12:51:09,565 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0002.params"
+2024-03-06 12:51:09,567 [INFO]  Epoch[2] Validation-cross-entropy=0.323566
+2024-03-06 12:51:09,567 [INFO]  Epoch[2] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:51:09,601 [INFO]  Epoch[3] Batch [0-52]	Speed: 25320.24 samples/sec	cross-entropy=0.258803	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:51:09,633 [INFO]  Epoch[3] Train-cross-entropy=0.244998
+2024-03-06 12:51:09,633 [INFO]  Epoch[3] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:51:09,633 [INFO]  Epoch[3] Time cost=0.066
+2024-03-06 12:51:09,635 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0003.params"
+2024-03-06 12:51:09,637 [INFO]  Epoch[3] Validation-cross-entropy=0.385570
+2024-03-06 12:51:09,637 [INFO]  Epoch[3] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:51:09,671 [INFO]  Epoch[4] Batch [0-52]	Speed: 25281.72 samples/sec	cross-entropy=0.304625	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:51:09,703 [INFO]  Epoch[4] Train-cross-entropy=0.272587
+2024-03-06 12:51:09,703 [INFO]  Epoch[4] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:51:09,703 [INFO]  Epoch[4] Time cost=0.066
+2024-03-06 12:51:09,704 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0004.params"
+2024-03-06 12:51:09,706 [INFO]  Epoch[4] Validation-cross-entropy=0.440745
+2024-03-06 12:51:09,707 [INFO]  Epoch[4] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:51:09,707 [INFO]  
+========== done (0.35239648818969727 s) fit model
+2024-03-06 12:51:35,885 [INFO]  
+========== start: fit model
+2024-03-06 12:51:35,886 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:51:35,933 [INFO]  Epoch[0] Batch [0-52]	Speed: 21131.27 samples/sec	cross-entropy=3.415487	RIDAGEYR-accuracy=2.981132
+2024-03-06 12:51:35,981 [INFO]  Epoch[0] Train-cross-entropy=2.001640
+2024-03-06 12:51:35,985 [INFO]  Epoch[0] Train-RIDAGEYR-accuracy=3.330097
+2024-03-06 12:51:35,985 [INFO]  Epoch[0] Time cost=0.098
+2024-03-06 12:51:36,202 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0000.params"
+2024-03-06 12:51:36,724 [INFO]  Epoch[0] Validation-cross-entropy=0.636601
+2024-03-06 12:51:36,724 [INFO]  Epoch[0] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:51:36,818 [INFO]  Epoch[1] Batch [0-52]	Speed: 8902.70 samples/sec	cross-entropy=0.121053	RIDAGEYR-accuracy=2.981132
+2024-03-06 12:51:36,870 [INFO]  Epoch[1] Train-cross-entropy=0.139163
+2024-03-06 12:51:36,870 [INFO]  Epoch[1] Train-RIDAGEYR-accuracy=3.330097
+2024-03-06 12:51:36,870 [INFO]  Epoch[1] Time cost=0.146
+2024-03-06 12:51:36,872 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0001.params"
+2024-03-06 12:51:36,876 [INFO]  Epoch[1] Validation-cross-entropy=0.274050
+2024-03-06 12:51:36,876 [INFO]  Epoch[1] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:51:36,935 [INFO]  Epoch[2] Batch [0-52]	Speed: 14259.81 samples/sec	cross-entropy=0.071841	RIDAGEYR-accuracy=2.981132
+2024-03-06 12:51:36,983 [INFO]  Epoch[2] Train-cross-entropy=0.076579
+2024-03-06 12:51:36,983 [INFO]  Epoch[2] Train-RIDAGEYR-accuracy=3.330097
+2024-03-06 12:51:36,983 [INFO]  Epoch[2] Time cost=0.107
+2024-03-06 12:51:36,985 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0002.params"
+2024-03-06 12:51:36,989 [INFO]  Epoch[2] Validation-cross-entropy=0.147650
+2024-03-06 12:51:36,989 [INFO]  Epoch[2] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:51:37,038 [INFO]  Epoch[3] Batch [0-52]	Speed: 17233.15 samples/sec	cross-entropy=0.069146	RIDAGEYR-accuracy=2.981132
+2024-03-06 12:51:37,086 [INFO]  Epoch[3] Train-cross-entropy=0.065442
+2024-03-06 12:51:37,086 [INFO]  Epoch[3] Train-RIDAGEYR-accuracy=3.330097
+2024-03-06 12:51:37,086 [INFO]  Epoch[3] Time cost=0.098
+2024-03-06 12:51:37,088 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0003.params"
+2024-03-06 12:51:37,092 [INFO]  Epoch[3] Validation-cross-entropy=0.127832
+2024-03-06 12:51:37,093 [INFO]  Epoch[3] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:51:37,148 [INFO]  Epoch[4] Batch [0-52]	Speed: 15508.23 samples/sec	cross-entropy=0.079458	RIDAGEYR-accuracy=2.981132
+2024-03-06 12:51:37,434 [INFO]  Epoch[4] Train-cross-entropy=0.067667
+2024-03-06 12:51:37,434 [INFO]  Epoch[4] Train-RIDAGEYR-accuracy=3.330097
+2024-03-06 12:51:37,434 [INFO]  Epoch[4] Time cost=0.342
+2024-03-06 12:51:37,436 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0004.params"
+2024-03-06 12:51:37,457 [INFO]  Epoch[4] Validation-cross-entropy=0.224660
+2024-03-06 12:51:37,458 [INFO]  Epoch[4] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:51:37,458 [INFO]  
+========== done (1.5723145008087158 s) fit model
+2024-03-06 12:52:13,304 [INFO]  
+========== start: fit model
+2024-03-06 12:52:13,304 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:52:13,342 [INFO]  Epoch[0] Batch [0-52]	Speed: 23320.84 samples/sec	cross-entropy=3.636290	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:52:13,371 [INFO]  Epoch[0] Train-cross-entropy=2.013814
+2024-03-06 12:52:13,371 [INFO]  Epoch[0] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:52:13,371 [INFO]  Epoch[0] Time cost=0.066
+2024-03-06 12:52:13,373 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0000.params"
+2024-03-06 12:52:13,375 [INFO]  Epoch[0] Validation-cross-entropy=0.104159
+2024-03-06 12:52:13,375 [INFO]  Epoch[0] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:52:13,422 [INFO]  Epoch[1] Batch [0-52]	Speed: 18290.30 samples/sec	cross-entropy=0.173272	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:52:13,465 [INFO]  Epoch[1] Train-cross-entropy=0.151872
+2024-03-06 12:52:13,465 [INFO]  Epoch[1] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:52:13,465 [INFO]  Epoch[1] Time cost=0.090
+2024-03-06 12:52:13,467 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0001.params"
+2024-03-06 12:52:13,471 [INFO]  Epoch[1] Validation-cross-entropy=0.075611
+2024-03-06 12:52:13,471 [INFO]  Epoch[1] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:52:13,696 [INFO]  Epoch[2] Batch [0-52]	Speed: 3705.44 samples/sec	cross-entropy=0.089990	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:52:13,743 [INFO]  Epoch[2] Train-cross-entropy=0.077031
+2024-03-06 12:52:13,744 [INFO]  Epoch[2] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:52:13,745 [INFO]  Epoch[2] Time cost=0.274
+2024-03-06 12:52:13,749 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0002.params"
+2024-03-06 12:52:13,752 [INFO]  Epoch[2] Validation-cross-entropy=0.044866
+2024-03-06 12:52:13,752 [INFO]  Epoch[2] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:52:13,783 [INFO]  Epoch[3] Batch [0-52]	Speed: 27157.53 samples/sec	cross-entropy=0.055159	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:52:13,812 [INFO]  Epoch[3] Train-cross-entropy=0.048939
+2024-03-06 12:52:13,813 [INFO]  Epoch[3] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:52:13,813 [INFO]  Epoch[3] Time cost=0.061
+2024-03-06 12:52:13,824 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0003.params"
+2024-03-06 12:52:13,827 [INFO]  Epoch[3] Validation-cross-entropy=0.033049
+2024-03-06 12:52:13,827 [INFO]  Epoch[3] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:52:13,861 [INFO]  Epoch[4] Batch [0-52]	Speed: 25042.60 samples/sec	cross-entropy=0.040114	RIDAGEYR-accuracy=0.000000
+2024-03-06 12:52:13,891 [INFO]  Epoch[4] Train-cross-entropy=0.036518
+2024-03-06 12:52:13,892 [INFO]  Epoch[4] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:52:13,892 [INFO]  Epoch[4] Time cost=0.065
+2024-03-06 12:52:13,893 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0004.params"
+2024-03-06 12:52:13,896 [INFO]  Epoch[4] Validation-cross-entropy=0.027529
+2024-03-06 12:52:13,896 [INFO]  Epoch[4] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:52:13,896 [INFO]  
+========== done (0.5923037528991699 s) fit model
+2024-03-06 12:52:41,062 [INFO]  
+========== start: fit model
+2024-03-06 12:52:41,062 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:52:44,285 [INFO]  Epoch[0] Batch [0-52]	Speed: 537.39 samples/sec	cross-entropy=2.434563	RIDAGEYR-accuracy=3.169811
+2024-03-06 12:52:44,460 [INFO]  Epoch[0] Train-cross-entropy=1.388831
+2024-03-06 12:52:44,460 [INFO]  Epoch[0] Train-RIDAGEYR-accuracy=3.242718
+2024-03-06 12:52:44,460 [INFO]  Epoch[0] Time cost=3.397
+2024-03-06 12:52:44,461 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0000.params"
+2024-03-06 12:52:46,269 [INFO]  Epoch[0] Validation-cross-entropy=0.238135
+2024-03-06 12:52:46,269 [INFO]  Epoch[0] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:52:46,308 [INFO]  Epoch[1] Batch [0-52]	Speed: 25150.35 samples/sec	cross-entropy=0.228740	RIDAGEYR-accuracy=3.169811
+2024-03-06 12:52:46,340 [INFO]  Epoch[1] Train-cross-entropy=0.152998
+2024-03-06 12:52:46,340 [INFO]  Epoch[1] Train-RIDAGEYR-accuracy=3.242718
+2024-03-06 12:52:46,340 [INFO]  Epoch[1] Time cost=0.070
+2024-03-06 12:52:46,432 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0001.params"
+2024-03-06 12:52:46,443 [INFO]  Epoch[1] Validation-cross-entropy=0.084209
+2024-03-06 12:52:46,443 [INFO]  Epoch[1] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:52:48,248 [INFO]  Epoch[2] Batch [0-52]	Speed: 461.58 samples/sec	cross-entropy=0.100005	RIDAGEYR-accuracy=3.169811
+2024-03-06 12:52:48,397 [INFO]  Epoch[2] Train-cross-entropy=0.075190
+2024-03-06 12:52:48,397 [INFO]  Epoch[2] Train-RIDAGEYR-accuracy=3.242718
+2024-03-06 12:52:48,397 [INFO]  Epoch[2] Time cost=1.954
+2024-03-06 12:52:48,399 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0002.params"
+2024-03-06 12:52:50,341 [INFO]  Epoch[2] Validation-cross-entropy=0.045858
+2024-03-06 12:52:50,341 [INFO]  Epoch[2] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:52:50,410 [INFO]  Epoch[3] Batch [0-52]	Speed: 12362.15 samples/sec	cross-entropy=0.093683	RIDAGEYR-accuracy=3.169811
+2024-03-06 12:52:50,478 [INFO]  Epoch[3] Train-cross-entropy=0.075621
+2024-03-06 12:52:50,478 [INFO]  Epoch[3] Train-RIDAGEYR-accuracy=3.242718
+2024-03-06 12:52:50,478 [INFO]  Epoch[3] Time cost=0.137
+2024-03-06 12:52:50,480 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0003.params"
+2024-03-06 12:52:50,484 [INFO]  Epoch[3] Validation-cross-entropy=0.046852
+2024-03-06 12:52:50,484 [INFO]  Epoch[3] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:52:50,540 [INFO]  Epoch[4] Batch [0-52]	Speed: 15216.63 samples/sec	cross-entropy=0.105226	RIDAGEYR-accuracy=3.169811
+2024-03-06 12:52:50,591 [INFO]  Epoch[4] Train-cross-entropy=0.089941
+2024-03-06 12:52:50,591 [INFO]  Epoch[4] Train-RIDAGEYR-accuracy=3.242718
+2024-03-06 12:52:50,591 [INFO]  Epoch[4] Time cost=0.108
+2024-03-06 12:52:50,593 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0004.params"
+2024-03-06 12:52:50,596 [INFO]  Epoch[4] Validation-cross-entropy=0.057702
+2024-03-06 12:52:50,597 [INFO]  Epoch[4] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:52:50,597 [INFO]  
+========== done (9.535041093826294 s) fit model
+2024-03-06 12:54:08,578 [INFO]  
+========== start: fit model
+2024-03-06 12:54:08,578 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:54:08,617 [INFO]  Epoch[0] Batch [0-52]	Speed: 22791.41 samples/sec	cross-entropy=3.081143	RIDAGEYR-accuracy=3.490566
+2024-03-06 12:54:08,646 [INFO]  Epoch[0] Train-cross-entropy=1.996116
+2024-03-06 12:54:08,646 [INFO]  Epoch[0] Train-RIDAGEYR-accuracy=3.368932
+2024-03-06 12:54:08,646 [INFO]  Epoch[0] Time cost=0.067
+2024-03-06 12:54:08,647 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0000.params"
+2024-03-06 12:54:08,650 [INFO]  Epoch[0] Validation-cross-entropy=0.131235
+2024-03-06 12:54:08,650 [INFO]  Epoch[0] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:54:08,681 [INFO]  Epoch[1] Batch [0-52]	Speed: 27664.76 samples/sec	cross-entropy=0.260701	RIDAGEYR-accuracy=3.490566
+2024-03-06 12:54:08,725 [INFO]  Epoch[1] Train-cross-entropy=0.242238
+2024-03-06 12:54:08,725 [INFO]  Epoch[1] Train-RIDAGEYR-accuracy=3.368932
+2024-03-06 12:54:08,725 [INFO]  Epoch[1] Time cost=0.075
+2024-03-06 12:54:08,727 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0001.params"
+2024-03-06 12:54:08,730 [INFO]  Epoch[1] Validation-cross-entropy=0.074455
+2024-03-06 12:54:08,730 [INFO]  Epoch[1] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:54:08,774 [INFO]  Epoch[2] Batch [0-52]	Speed: 19559.34 samples/sec	cross-entropy=0.122751	RIDAGEYR-accuracy=3.490566
+2024-03-06 12:54:08,821 [INFO]  Epoch[2] Train-cross-entropy=0.141818
+2024-03-06 12:54:08,821 [INFO]  Epoch[2] Train-RIDAGEYR-accuracy=3.368932
+2024-03-06 12:54:08,821 [INFO]  Epoch[2] Time cost=0.091
+2024-03-06 12:54:08,823 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0002.params"
+2024-03-06 12:54:08,827 [INFO]  Epoch[2] Validation-cross-entropy=0.169213
+2024-03-06 12:54:08,828 [INFO]  Epoch[2] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:54:08,876 [INFO]  Epoch[3] Batch [0-52]	Speed: 17686.09 samples/sec	cross-entropy=0.063603	RIDAGEYR-accuracy=3.490566
+2024-03-06 12:54:08,923 [INFO]  Epoch[3] Train-cross-entropy=0.109595
+2024-03-06 12:54:08,923 [INFO]  Epoch[3] Train-RIDAGEYR-accuracy=3.368932
+2024-03-06 12:54:08,923 [INFO]  Epoch[3] Time cost=0.095
+2024-03-06 12:54:08,925 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0003.params"
+2024-03-06 12:54:08,929 [INFO]  Epoch[3] Validation-cross-entropy=0.081591
+2024-03-06 12:54:08,929 [INFO]  Epoch[3] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:54:08,980 [INFO]  Epoch[4] Batch [0-52]	Speed: 16796.19 samples/sec	cross-entropy=0.062694	RIDAGEYR-accuracy=3.490566
+2024-03-06 12:54:09,028 [INFO]  Epoch[4] Train-cross-entropy=0.128423
+2024-03-06 12:54:09,028 [INFO]  Epoch[4] Train-RIDAGEYR-accuracy=3.368932
+2024-03-06 12:54:09,028 [INFO]  Epoch[4] Time cost=0.099
+2024-03-06 12:54:09,030 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0004.params"
+2024-03-06 12:54:09,034 [INFO]  Epoch[4] Validation-cross-entropy=0.254279
+2024-03-06 12:54:09,034 [INFO]  Epoch[4] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:54:09,035 [INFO]  
+========== done (0.4562103748321533 s) fit model
+2024-03-06 12:54:38,927 [INFO]  
+========== start: fit model
+2024-03-06 12:54:38,928 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:54:38,963 [INFO]  Epoch[0] Batch [0-52]	Speed: 24863.28 samples/sec	cross-entropy=4.029722	RIDAGEYR-accuracy=3.320755
+2024-03-06 12:54:39,015 [INFO]  Epoch[0] Train-cross-entropy=2.262872
+2024-03-06 12:54:39,015 [INFO]  Epoch[0] Train-RIDAGEYR-accuracy=3.233010
+2024-03-06 12:54:39,016 [INFO]  Epoch[0] Time cost=0.087
+2024-03-06 12:54:39,018 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0000.params"
+2024-03-06 12:54:39,021 [INFO]  Epoch[0] Validation-cross-entropy=0.193749
+2024-03-06 12:54:39,021 [INFO]  Epoch[0] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:54:39,060 [INFO]  Epoch[1] Batch [0-52]	Speed: 22057.42 samples/sec	cross-entropy=0.304382	RIDAGEYR-accuracy=3.320755
+2024-03-06 12:54:39,107 [INFO]  Epoch[1] Train-cross-entropy=0.199781
+2024-03-06 12:54:39,107 [INFO]  Epoch[1] Train-RIDAGEYR-accuracy=3.233010
+2024-03-06 12:54:39,108 [INFO]  Epoch[1] Time cost=0.086
+2024-03-06 12:54:39,109 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0001.params"
+2024-03-06 12:54:39,111 [INFO]  Epoch[1] Validation-cross-entropy=0.064084
+2024-03-06 12:54:39,111 [INFO]  Epoch[1] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:54:39,147 [INFO]  Epoch[2] Batch [0-52]	Speed: 23985.57 samples/sec	cross-entropy=0.096518	RIDAGEYR-accuracy=3.320755
+2024-03-06 12:54:39,179 [INFO]  Epoch[2] Train-cross-entropy=0.091745
+2024-03-06 12:54:39,179 [INFO]  Epoch[2] Train-RIDAGEYR-accuracy=3.233010
+2024-03-06 12:54:39,179 [INFO]  Epoch[2] Time cost=0.068
+2024-03-06 12:54:39,181 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0002.params"
+2024-03-06 12:54:39,183 [INFO]  Epoch[2] Validation-cross-entropy=0.084066
+2024-03-06 12:54:39,184 [INFO]  Epoch[2] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:54:39,223 [INFO]  Epoch[3] Batch [0-52]	Speed: 21549.76 samples/sec	cross-entropy=0.127793	RIDAGEYR-accuracy=3.320755
+2024-03-06 12:54:39,269 [INFO]  Epoch[3] Train-cross-entropy=0.103934
+2024-03-06 12:54:39,269 [INFO]  Epoch[3] Train-RIDAGEYR-accuracy=3.233010
+2024-03-06 12:54:39,269 [INFO]  Epoch[3] Time cost=0.085
+2024-03-06 12:54:39,271 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0003.params"
+2024-03-06 12:54:39,274 [INFO]  Epoch[3] Validation-cross-entropy=0.093039
+2024-03-06 12:54:39,274 [INFO]  Epoch[3] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:54:39,315 [INFO]  Epoch[4] Batch [0-52]	Speed: 20868.56 samples/sec	cross-entropy=0.222699	RIDAGEYR-accuracy=3.320755
+2024-03-06 12:54:39,344 [INFO]  Epoch[4] Train-cross-entropy=0.242035
+2024-03-06 12:54:39,344 [INFO]  Epoch[4] Train-RIDAGEYR-accuracy=3.233010
+2024-03-06 12:54:39,344 [INFO]  Epoch[4] Time cost=0.070
+2024-03-06 12:54:39,345 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0004.params"
+2024-03-06 12:54:39,348 [INFO]  Epoch[4] Validation-cross-entropy=0.272261
+2024-03-06 12:54:39,348 [INFO]  Epoch[4] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:54:39,348 [INFO]  
+========== done (0.4205160140991211 s) fit model
+2024-03-06 12:55:08,213 [INFO]  
+========== start: fit model
+2024-03-06 12:55:08,213 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:55:08,250 [INFO]  Epoch[0] Batch [0-52]	Speed: 23846.25 samples/sec	cross-entropy=4.595917	RIDAGEYR-accuracy=3.433962
+2024-03-06 12:55:08,296 [INFO]  Epoch[0] Train-cross-entropy=2.559055
+2024-03-06 12:55:08,296 [INFO]  Epoch[0] Train-RIDAGEYR-accuracy=3.339806
+2024-03-06 12:55:08,296 [INFO]  Epoch[0] Time cost=0.083
+2024-03-06 12:55:08,298 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0000.params"
+2024-03-06 12:55:08,302 [INFO]  Epoch[0] Validation-cross-entropy=0.271576
+2024-03-06 12:55:08,302 [INFO]  Epoch[0] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:55:08,353 [INFO]  Epoch[1] Batch [0-52]	Speed: 16674.92 samples/sec	cross-entropy=0.164185	RIDAGEYR-accuracy=3.433962
+2024-03-06 12:55:08,400 [INFO]  Epoch[1] Train-cross-entropy=0.129132
+2024-03-06 12:55:08,400 [INFO]  Epoch[1] Train-RIDAGEYR-accuracy=3.339806
+2024-03-06 12:55:08,400 [INFO]  Epoch[1] Time cost=0.098
+2024-03-06 12:55:08,403 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0001.params"
+2024-03-06 12:55:08,407 [INFO]  Epoch[1] Validation-cross-entropy=0.123889
+2024-03-06 12:55:08,407 [INFO]  Epoch[1] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:55:08,458 [INFO]  Epoch[2] Batch [0-52]	Speed: 16566.63 samples/sec	cross-entropy=0.065091	RIDAGEYR-accuracy=3.433962
+2024-03-06 12:55:08,506 [INFO]  Epoch[2] Train-cross-entropy=0.080518
+2024-03-06 12:55:08,506 [INFO]  Epoch[2] Train-RIDAGEYR-accuracy=3.339806
+2024-03-06 12:55:08,506 [INFO]  Epoch[2] Time cost=0.100
+2024-03-06 12:55:08,509 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0002.params"
+2024-03-06 12:55:08,513 [INFO]  Epoch[2] Validation-cross-entropy=0.051824
+2024-03-06 12:55:08,513 [INFO]  Epoch[2] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:55:08,564 [INFO]  Epoch[3] Batch [0-52]	Speed: 16632.64 samples/sec	cross-entropy=0.064540	RIDAGEYR-accuracy=3.433962
+2024-03-06 12:55:08,612 [INFO]  Epoch[3] Train-cross-entropy=0.098976
+2024-03-06 12:55:08,612 [INFO]  Epoch[3] Train-RIDAGEYR-accuracy=3.339806
+2024-03-06 12:55:08,612 [INFO]  Epoch[3] Time cost=0.099
+2024-03-06 12:55:08,614 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0003.params"
+2024-03-06 12:55:08,618 [INFO]  Epoch[3] Validation-cross-entropy=0.155394
+2024-03-06 12:55:08,618 [INFO]  Epoch[3] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:55:08,669 [INFO]  Epoch[4] Batch [0-52]	Speed: 16743.49 samples/sec	cross-entropy=0.077650	RIDAGEYR-accuracy=3.433962
+2024-03-06 12:55:08,713 [INFO]  Epoch[4] Train-cross-entropy=0.151456
+2024-03-06 12:55:08,714 [INFO]  Epoch[4] Train-RIDAGEYR-accuracy=3.339806
+2024-03-06 12:55:08,714 [INFO]  Epoch[4] Time cost=0.095
+2024-03-06 12:55:08,716 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0004.params"
+2024-03-06 12:55:08,719 [INFO]  Epoch[4] Validation-cross-entropy=0.083466
+2024-03-06 12:55:08,719 [INFO]  Epoch[4] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:55:08,720 [INFO]  
+========== done (0.5069429874420166 s) fit model
+2024-03-06 12:56:00,447 [INFO]  
+========== start: fit model
+2024-03-06 12:56:00,447 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:56:00,797 [INFO]  Epoch[0] Batch [0-52]	Speed: 20740.80 samples/sec	cross-entropy=2.951021	RIDAGEYR-accuracy=3.264151
+2024-03-06 12:56:00,840 [INFO]  Epoch[0] Train-cross-entropy=1.727779
+2024-03-06 12:56:00,840 [INFO]  Epoch[0] Train-RIDAGEYR-accuracy=3.320388
+2024-03-06 12:56:00,840 [INFO]  Epoch[0] Time cost=0.392
+2024-03-06 12:56:00,842 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0000.params"
+2024-03-06 12:56:00,844 [INFO]  Epoch[0] Validation-cross-entropy=0.262850
+2024-03-06 12:56:00,845 [INFO]  Epoch[0] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:56:00,878 [INFO]  Epoch[1] Batch [0-52]	Speed: 25688.93 samples/sec	cross-entropy=0.137158	RIDAGEYR-accuracy=3.264151
+2024-03-06 12:56:00,907 [INFO]  Epoch[1] Train-cross-entropy=0.142818
+2024-03-06 12:56:00,907 [INFO]  Epoch[1] Train-RIDAGEYR-accuracy=3.320388
+2024-03-06 12:56:00,907 [INFO]  Epoch[1] Time cost=0.063
+2024-03-06 12:56:00,909 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0001.params"
+2024-03-06 12:56:00,911 [INFO]  Epoch[1] Validation-cross-entropy=0.264119
+2024-03-06 12:56:00,911 [INFO]  Epoch[1] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:56:00,953 [INFO]  Epoch[2] Batch [0-52]	Speed: 20334.95 samples/sec	cross-entropy=0.122578	RIDAGEYR-accuracy=3.264151
+2024-03-06 12:56:00,999 [INFO]  Epoch[2] Train-cross-entropy=0.119753
+2024-03-06 12:56:00,999 [INFO]  Epoch[2] Train-RIDAGEYR-accuracy=3.320388
+2024-03-06 12:56:00,999 [INFO]  Epoch[2] Time cost=0.088
+2024-03-06 12:56:01,000 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0002.params"
+2024-03-06 12:56:01,004 [INFO]  Epoch[2] Validation-cross-entropy=0.231736
+2024-03-06 12:56:01,004 [INFO]  Epoch[2] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:56:01,976 [INFO]  Epoch[3] Batch [0-52]	Speed: 857.06 samples/sec	cross-entropy=0.098893	RIDAGEYR-accuracy=3.264151
+2024-03-06 12:56:02,024 [INFO]  Epoch[3] Train-cross-entropy=0.087876
+2024-03-06 12:56:02,024 [INFO]  Epoch[3] Train-RIDAGEYR-accuracy=3.320388
+2024-03-06 12:56:02,024 [INFO]  Epoch[3] Time cost=1.021
+2024-03-06 12:56:02,027 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0003.params"
+2024-03-06 12:56:02,031 [INFO]  Epoch[3] Validation-cross-entropy=0.144329
+2024-03-06 12:56:02,031 [INFO]  Epoch[3] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:56:02,092 [INFO]  Epoch[4] Batch [0-52]	Speed: 13920.67 samples/sec	cross-entropy=0.047165	RIDAGEYR-accuracy=3.264151
+2024-03-06 12:56:02,129 [INFO]  Epoch[4] Train-cross-entropy=0.060327
+2024-03-06 12:56:02,129 [INFO]  Epoch[4] Train-RIDAGEYR-accuracy=3.320388
+2024-03-06 12:56:02,129 [INFO]  Epoch[4] Time cost=0.098
+2024-03-06 12:56:02,131 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0004.params"
+2024-03-06 12:56:02,135 [INFO]  Epoch[4] Validation-cross-entropy=0.086164
+2024-03-06 12:56:02,135 [INFO]  Epoch[4] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 12:56:02,135 [INFO]  
+========== done (1.6885182857513428 s) fit model
+2024-03-06 13:34:59,171 [INFO]  
+========== start: fit model
+2024-03-06 13:34:59,171 [WARNING]  Already bound, ignoring bind()
+2024-03-06 13:35:59,495 [INFO]  Epoch[0] Batch [0-52]	Speed: 14.27 samples/sec	cross-entropy=4.388993	RIDAGEYR-accuracy=0.000000
+2024-03-06 13:36:44,362 [INFO]  Epoch[0] Train-cross-entropy=2.354918
+2024-03-06 13:36:44,363 [INFO]  Epoch[0] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 13:36:44,363 [INFO]  Epoch[0] Time cost=105.190
+2024-03-06 13:36:44,364 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0000.params"
+2024-03-06 13:36:46,137 [INFO]  Epoch[0] Validation-cross-entropy=0.121187
+2024-03-06 13:36:46,137 [INFO]  Epoch[0] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 13:37:57,928 [INFO]  Epoch[1] Batch [0-52]	Speed: 11.77 samples/sec	cross-entropy=0.102840	RIDAGEYR-accuracy=0.000000
+2024-03-06 13:38:55,480 [INFO]  Epoch[1] Train-cross-entropy=0.113877
+2024-03-06 13:38:55,480 [INFO]  Epoch[1] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 13:38:55,480 [INFO]  Epoch[1] Time cost=129.343
+2024-03-06 13:38:55,483 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0001.params"
+2024-03-06 13:38:59,001 [INFO]  Epoch[1] Validation-cross-entropy=0.072376
+2024-03-06 13:38:59,001 [INFO]  Epoch[1] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 13:39:43,260 [INFO]  Epoch[2] Batch [0-52]	Speed: 19.31 samples/sec	cross-entropy=0.407951	RIDAGEYR-accuracy=0.000000
+2024-03-06 13:40:55,701 [INFO]  Epoch[2] Train-cross-entropy=0.364248
+2024-03-06 13:40:55,701 [INFO]  Epoch[2] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 13:40:55,701 [INFO]  Epoch[2] Time cost=116.700
+2024-03-06 13:40:55,704 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0002.params"
+2024-03-06 13:40:59,750 [INFO]  Epoch[2] Validation-cross-entropy=0.111767
+2024-03-06 13:40:59,750 [INFO]  Epoch[2] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 13:41:52,825 [INFO]  Epoch[3] Batch [0-52]	Speed: 16.03 samples/sec	cross-entropy=0.093086	RIDAGEYR-accuracy=0.000000
+2024-03-06 13:42:45,229 [INFO]  Epoch[3] Train-cross-entropy=0.192158
+2024-03-06 13:42:45,229 [INFO]  Epoch[3] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 13:42:45,229 [INFO]  Epoch[3] Time cost=105.479
+2024-03-06 13:42:45,231 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0003.params"
+2024-03-06 13:42:49,268 [INFO]  Epoch[3] Validation-cross-entropy=0.083702
+2024-03-06 13:42:49,268 [INFO]  Epoch[3] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 13:44:02,563 [INFO]  Epoch[4] Batch [0-52]	Speed: 11.60 samples/sec	cross-entropy=0.201225	RIDAGEYR-accuracy=0.000000
+2024-03-06 13:44:47,469 [INFO]  Epoch[4] Train-cross-entropy=0.311227
+2024-03-06 13:44:47,470 [INFO]  Epoch[4] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 13:44:47,470 [INFO]  Epoch[4] Time cost=118.202
+2024-03-06 13:44:47,473 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0004.params"
+2024-03-06 13:44:49,959 [INFO]  Epoch[4] Validation-cross-entropy=0.088058
+2024-03-06 13:44:49,959 [INFO]  Epoch[4] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 13:44:49,959 [INFO]  
+========== done (590.7882351875305 s) fit model
+2024-03-06 13:55:32,515 [INFO]  
+========== start: fit model
+2024-03-06 13:55:32,515 [WARNING]  Already bound, ignoring bind()
+2024-03-06 13:55:32,569 [INFO]  Epoch[0] Batch [0-52]	Speed: 15944.21 samples/sec	cross-entropy=3.400915	RIDAGEYR-accuracy=0.000000
+2024-03-06 13:55:32,607 [INFO]  Epoch[0] Train-cross-entropy=2.007541
+2024-03-06 13:55:32,607 [INFO]  Epoch[0] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 13:55:32,607 [INFO]  Epoch[0] Time cost=0.091
+2024-03-06 13:55:32,608 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0000.params"
+2024-03-06 13:55:32,611 [INFO]  Epoch[0] Validation-cross-entropy=0.305307
+2024-03-06 13:55:32,611 [INFO]  Epoch[0] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 13:55:32,644 [INFO]  Epoch[1] Batch [0-52]	Speed: 25620.65 samples/sec	cross-entropy=0.597121	RIDAGEYR-accuracy=0.000000
+2024-03-06 13:55:32,675 [INFO]  Epoch[1] Train-cross-entropy=0.411656
+2024-03-06 13:55:32,675 [INFO]  Epoch[1] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 13:55:32,675 [INFO]  Epoch[1] Time cost=0.064
+2024-03-06 13:55:32,676 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0001.params"
+2024-03-06 13:55:32,678 [INFO]  Epoch[1] Validation-cross-entropy=0.086989
+2024-03-06 13:55:32,678 [INFO]  Epoch[1] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 13:55:32,712 [INFO]  Epoch[2] Batch [0-52]	Speed: 25743.51 samples/sec	cross-entropy=0.160159	RIDAGEYR-accuracy=0.000000
+2024-03-06 13:55:32,743 [INFO]  Epoch[2] Train-cross-entropy=0.131828
+2024-03-06 13:55:32,744 [INFO]  Epoch[2] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 13:55:32,744 [INFO]  Epoch[2] Time cost=0.065
+2024-03-06 13:55:32,745 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0002.params"
+2024-03-06 13:55:32,748 [INFO]  Epoch[2] Validation-cross-entropy=0.067225
+2024-03-06 13:55:32,748 [INFO]  Epoch[2] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 13:55:32,782 [INFO]  Epoch[3] Batch [0-52]	Speed: 24553.98 samples/sec	cross-entropy=0.138696	RIDAGEYR-accuracy=0.000000
+2024-03-06 13:55:32,828 [INFO]  Epoch[3] Train-cross-entropy=0.108200
+2024-03-06 13:55:32,828 [INFO]  Epoch[3] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 13:55:32,828 [INFO]  Epoch[3] Time cost=0.080
+2024-03-06 13:55:32,829 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0003.params"
+2024-03-06 13:55:32,832 [INFO]  Epoch[3] Validation-cross-entropy=0.033870
+2024-03-06 13:55:32,832 [INFO]  Epoch[3] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 13:55:32,866 [INFO]  Epoch[4] Batch [0-52]	Speed: 25054.28 samples/sec	cross-entropy=0.112411	RIDAGEYR-accuracy=0.000000
+2024-03-06 13:55:32,902 [INFO]  Epoch[4] Train-cross-entropy=0.099312
+2024-03-06 13:55:32,903 [INFO]  Epoch[4] Train-RIDAGEYR-accuracy=0.000000
+2024-03-06 13:55:32,903 [INFO]  Epoch[4] Time cost=0.071
+2024-03-06 13:55:32,904 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0004.params"
+2024-03-06 13:55:32,907 [INFO]  Epoch[4] Validation-cross-entropy=0.058939
+2024-03-06 13:55:32,907 [INFO]  Epoch[4] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-06 13:55:32,907 [INFO]  
+========== done (0.39208483695983887 s) fit model
+2024-03-10 08:52:00,054 [INFO]  
+========== start: fit model
+2024-03-10 08:52:00,088 [WARNING]  Already bound, ignoring bind()
+2024-03-10 08:53:05,447 [INFO]  Epoch[0] Batch [0-52]	Speed: 12.95 samples/sec	cross-entropy=3.433566	RIDAGEYR-accuracy=0.000000
+2024-03-10 08:54:31,505 [INFO]  Epoch[0] Train-cross-entropy=1.905934
+2024-03-10 08:54:31,506 [INFO]  Epoch[0] Train-RIDAGEYR-accuracy=0.000000
+2024-03-10 08:54:31,506 [INFO]  Epoch[0] Time cost=151.416
+2024-03-10 08:54:31,509 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0000.params"
+2024-03-10 08:54:34,653 [INFO]  Epoch[0] Validation-cross-entropy=0.134010
+2024-03-10 08:54:34,653 [INFO]  Epoch[0] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-10 08:56:10,157 [INFO]  Epoch[1] Batch [0-52]	Speed: 8.84 samples/sec	cross-entropy=0.158399	RIDAGEYR-accuracy=0.000000
+2024-03-10 08:57:39,440 [INFO]  Epoch[1] Train-cross-entropy=0.235479
+2024-03-10 08:57:39,441 [INFO]  Epoch[1] Train-RIDAGEYR-accuracy=0.000000
+2024-03-10 08:57:39,441 [INFO]  Epoch[1] Time cost=184.788
+2024-03-10 08:57:39,448 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0001.params"
+2024-03-10 08:57:43,188 [INFO]  Epoch[1] Validation-cross-entropy=0.096445
+2024-03-10 08:57:43,188 [INFO]  Epoch[1] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-10 08:59:18,000 [INFO]  Epoch[2] Batch [0-52]	Speed: 8.91 samples/sec	cross-entropy=0.117464	RIDAGEYR-accuracy=0.000000
+2024-03-10 09:00:45,238 [INFO]  Epoch[2] Train-cross-entropy=0.153615
+2024-03-10 09:00:45,240 [INFO]  Epoch[2] Train-RIDAGEYR-accuracy=0.000000
+2024-03-10 09:00:45,241 [INFO]  Epoch[2] Time cost=182.052
+2024-03-10 09:00:45,243 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0002.params"
+2024-03-10 09:00:48,116 [INFO]  Epoch[2] Validation-cross-entropy=0.065361
+2024-03-10 09:00:48,118 [INFO]  Epoch[2] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-10 09:02:21,969 [INFO]  Epoch[3] Batch [0-52]	Speed: 9.07 samples/sec	cross-entropy=0.098631	RIDAGEYR-accuracy=0.000000
+2024-03-10 09:03:49,321 [INFO]  Epoch[3] Train-cross-entropy=0.206946
+2024-03-10 09:03:49,322 [INFO]  Epoch[3] Train-RIDAGEYR-accuracy=0.000000
+2024-03-10 09:03:49,322 [INFO]  Epoch[3] Time cost=181.203
+2024-03-10 09:03:49,323 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0003.params"
+2024-03-10 09:03:52,589 [INFO]  Epoch[3] Validation-cross-entropy=0.106269
+2024-03-10 09:03:52,590 [INFO]  Epoch[3] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-10 09:05:29,862 [INFO]  Epoch[4] Batch [0-52]	Speed: 8.73 samples/sec	cross-entropy=0.181638	RIDAGEYR-accuracy=0.000000
+2024-03-10 09:06:58,403 [INFO]  Epoch[4] Train-cross-entropy=0.292094
+2024-03-10 09:06:58,404 [INFO]  Epoch[4] Train-RIDAGEYR-accuracy=0.000000
+2024-03-10 09:06:58,404 [INFO]  Epoch[4] Time cost=185.813
+2024-03-10 09:06:58,406 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_RIDAGEYR/model-0004.params"
+2024-03-10 09:07:01,191 [INFO]  Epoch[4] Validation-cross-entropy=0.112776
+2024-03-10 09:07:01,192 [INFO]  Epoch[4] Validation-RIDAGEYR-accuracy=0.000000
+2024-03-10 09:07:01,193 [INFO]  
+========== done (901.1388545036316 s) fit model

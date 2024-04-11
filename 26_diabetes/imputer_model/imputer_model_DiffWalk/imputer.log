@@ -1,0 +1,760 @@
+2024-04-01 10:19:03,587 [INFO]  
+========== start: fit model
+2024-04-01 10:19:03,588 [WARNING]  Already bound, ignoring bind()
+2024-04-01 10:19:28,306 [INFO]  Epoch[0] Batch [0-5708]	Speed: 3697.17 samples/sec	cross-entropy=0.076119	DiffWalk-accuracy=3.199685
+2024-04-01 10:19:57,262 [INFO]  Epoch[0] Train-cross-entropy=0.042458
+2024-04-01 10:19:57,262 [INFO]  Epoch[0] Train-DiffWalk-accuracy=3.196128
+2024-04-01 10:19:57,262 [INFO]  Epoch[0] Time cost=53.673
+2024-04-01 10:19:57,264 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0000.params"
+2024-04-01 10:19:57,692 [INFO]  Epoch[0] Validation-cross-entropy=0.015532
+2024-04-01 10:19:57,692 [INFO]  Epoch[0] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 10:20:26,396 [INFO]  Epoch[1] Batch [0-5708]	Speed: 3181.95 samples/sec	cross-entropy=0.005656	DiffWalk-accuracy=3.199685
+2024-04-01 10:20:47,106 [INFO]  Epoch[1] Train-cross-entropy=0.004751
+2024-04-01 10:20:47,106 [INFO]  Epoch[1] Train-DiffWalk-accuracy=3.196128
+2024-04-01 10:20:47,106 [INFO]  Epoch[1] Time cost=49.414
+2024-04-01 10:20:47,108 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0001.params"
+2024-04-01 10:20:49,270 [INFO]  Epoch[1] Validation-cross-entropy=0.000600
+2024-04-01 10:20:49,270 [INFO]  Epoch[1] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 10:21:15,006 [INFO]  Epoch[2] Batch [0-5708]	Speed: 3548.79 samples/sec	cross-entropy=0.003816	DiffWalk-accuracy=3.199685
+2024-04-01 10:21:52,349 [INFO]  Epoch[2] Train-cross-entropy=0.003315
+2024-04-01 10:21:52,349 [INFO]  Epoch[2] Train-DiffWalk-accuracy=3.196128
+2024-04-01 10:21:52,349 [INFO]  Epoch[2] Time cost=63.079
+2024-04-01 10:21:52,351 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0002.params"
+2024-04-01 10:21:53,673 [INFO]  Epoch[2] Validation-cross-entropy=0.000105
+2024-04-01 10:21:53,673 [INFO]  Epoch[2] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 10:22:16,130 [INFO]  Epoch[3] Batch [0-5708]	Speed: 4067.11 samples/sec	cross-entropy=0.002336	DiffWalk-accuracy=3.199685
+2024-04-01 10:22:44,860 [INFO]  Epoch[3] Train-cross-entropy=0.001997
+2024-04-01 10:22:44,861 [INFO]  Epoch[3] Train-DiffWalk-accuracy=3.196128
+2024-04-01 10:22:44,861 [INFO]  Epoch[3] Time cost=51.187
+2024-04-01 10:22:44,862 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0003.params"
+2024-04-01 10:22:46,294 [INFO]  Epoch[3] Validation-cross-entropy=0.001774
+2024-04-01 10:22:46,294 [INFO]  Epoch[3] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 10:23:17,129 [INFO]  Epoch[4] Batch [0-5708]	Speed: 2961.94 samples/sec	cross-entropy=0.001509	DiffWalk-accuracy=3.199685
+2024-04-01 10:23:44,597 [INFO]  Epoch[4] Train-cross-entropy=0.001489
+2024-04-01 10:23:44,598 [INFO]  Epoch[4] Train-DiffWalk-accuracy=3.196128
+2024-04-01 10:23:44,598 [INFO]  Epoch[4] Time cost=58.304
+2024-04-01 10:23:44,599 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0004.params"
+2024-04-01 10:23:45,180 [INFO]  Epoch[4] Validation-cross-entropy=0.000000
+2024-04-01 10:23:45,181 [INFO]  Epoch[4] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 10:23:45,181 [INFO]  
+========== done (281.59341073036194 s) fit model
+2024-04-01 12:12:29,266 [INFO]  
+========== start: fit model
+2024-04-01 12:12:29,266 [WARNING]  Already bound, ignoring bind()
+2024-04-01 12:12:58,932 [INFO]  Epoch[0] Batch [0-5708]	Speed: 3087.93 samples/sec	cross-entropy=0.096424	DiffWalk-accuracy=3.193554
+2024-04-01 12:13:22,586 [INFO]  Epoch[0] Train-cross-entropy=0.051900
+2024-04-01 12:13:22,586 [INFO]  Epoch[0] Train-DiffWalk-accuracy=3.200070
+2024-04-01 12:13:22,586 [INFO]  Epoch[0] Time cost=53.319
+2024-04-01 12:13:22,587 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0000.params"
+2024-04-01 12:13:25,638 [INFO]  Epoch[0] Validation-cross-entropy=0.000719
+2024-04-01 12:13:25,638 [INFO]  Epoch[0] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 12:13:50,973 [INFO]  Epoch[1] Batch [0-5708]	Speed: 3605.75 samples/sec	cross-entropy=0.004614	DiffWalk-accuracy=3.193554
+2024-04-01 12:14:11,290 [INFO]  Epoch[1] Train-cross-entropy=0.003442
+2024-04-01 12:14:11,291 [INFO]  Epoch[1] Train-DiffWalk-accuracy=3.200070
+2024-04-01 12:14:11,291 [INFO]  Epoch[1] Time cost=45.653
+2024-04-01 12:14:11,293 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0001.params"
+2024-04-01 12:14:15,878 [INFO]  Epoch[1] Validation-cross-entropy=0.001851
+2024-04-01 12:14:15,883 [INFO]  Epoch[1] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 12:14:41,557 [INFO]  Epoch[2] Batch [0-5708]	Speed: 3562.66 samples/sec	cross-entropy=0.002507	DiffWalk-accuracy=3.193554
+2024-04-01 12:15:11,975 [INFO]  Epoch[2] Train-cross-entropy=0.001912
+2024-04-01 12:15:11,975 [INFO]  Epoch[2] Train-DiffWalk-accuracy=3.200070
+2024-04-01 12:15:11,975 [INFO]  Epoch[2] Time cost=56.092
+2024-04-01 12:15:11,977 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0002.params"
+2024-04-01 12:15:13,415 [INFO]  Epoch[2] Validation-cross-entropy=0.000653
+2024-04-01 12:15:13,415 [INFO]  Epoch[2] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 12:15:38,848 [INFO]  Epoch[3] Batch [0-5708]	Speed: 3636.09 samples/sec	cross-entropy=0.001311	DiffWalk-accuracy=3.193554
+2024-04-01 12:16:10,239 [INFO]  Epoch[3] Train-cross-entropy=0.001119
+2024-04-01 12:16:10,239 [INFO]  Epoch[3] Train-DiffWalk-accuracy=3.200070
+2024-04-01 12:16:10,239 [INFO]  Epoch[3] Time cost=56.824
+2024-04-01 12:16:10,241 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0003.params"
+2024-04-01 12:16:12,158 [INFO]  Epoch[3] Validation-cross-entropy=0.000043
+2024-04-01 12:16:12,158 [INFO]  Epoch[3] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 12:16:40,455 [INFO]  Epoch[4] Batch [0-5708]	Speed: 3227.69 samples/sec	cross-entropy=0.000860	DiffWalk-accuracy=3.193554
+2024-04-01 12:17:07,289 [INFO]  Epoch[4] Train-cross-entropy=0.000874
+2024-04-01 12:17:07,289 [INFO]  Epoch[4] Train-DiffWalk-accuracy=3.200070
+2024-04-01 12:17:07,289 [INFO]  Epoch[4] Time cost=55.131
+2024-04-01 12:17:07,293 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0004.params"
+2024-04-01 12:17:09,402 [INFO]  Epoch[4] Validation-cross-entropy=0.000166
+2024-04-01 12:17:09,402 [INFO]  Epoch[4] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 12:17:09,402 [INFO]  
+========== done (280.13625717163086 s) fit model
+2024-04-01 13:58:07,142 [INFO]  
+========== start: fit model
+2024-04-01 13:58:07,154 [WARNING]  Already bound, ignoring bind()
+2024-04-01 13:58:27,688 [INFO]  Epoch[0] Batch [0-5708]	Speed: 4461.16 samples/sec	cross-entropy=0.089638	DiffWalk-accuracy=0.000000
+2024-04-01 13:58:39,218 [INFO]  Epoch[0] Train-cross-entropy=0.049921
+2024-04-01 13:58:39,229 [INFO]  Epoch[0] Train-DiffWalk-accuracy=0.000000
+2024-04-01 13:58:39,229 [INFO]  Epoch[0] Time cost=32.074
+2024-04-01 13:58:39,261 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0000.params"
+2024-04-01 13:58:40,647 [INFO]  Epoch[0] Validation-cross-entropy=0.000275
+2024-04-01 13:58:40,647 [INFO]  Epoch[0] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 13:59:02,818 [INFO]  Epoch[1] Batch [0-5708]	Speed: 4119.63 samples/sec	cross-entropy=0.004491	DiffWalk-accuracy=0.000000
+2024-04-01 13:59:24,438 [INFO]  Epoch[1] Train-cross-entropy=0.004296
+2024-04-01 13:59:24,438 [INFO]  Epoch[1] Train-DiffWalk-accuracy=0.000000
+2024-04-01 13:59:24,438 [INFO]  Epoch[1] Time cost=43.791
+2024-04-01 13:59:24,440 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0001.params"
+2024-04-01 13:59:25,953 [INFO]  Epoch[1] Validation-cross-entropy=0.000278
+2024-04-01 13:59:25,953 [INFO]  Epoch[1] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 13:59:47,414 [INFO]  Epoch[2] Batch [0-5708]	Speed: 4256.47 samples/sec	cross-entropy=0.002328	DiffWalk-accuracy=0.000000
+2024-04-01 14:00:13,883 [INFO]  Epoch[2] Train-cross-entropy=0.002260
+2024-04-01 14:00:13,883 [INFO]  Epoch[2] Train-DiffWalk-accuracy=0.000000
+2024-04-01 14:00:13,883 [INFO]  Epoch[2] Time cost=47.930
+2024-04-01 14:00:13,885 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0002.params"
+2024-04-01 14:00:15,100 [INFO]  Epoch[2] Validation-cross-entropy=0.000285
+2024-04-01 14:00:15,101 [INFO]  Epoch[2] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 14:00:41,129 [INFO]  Epoch[3] Batch [0-5708]	Speed: 3508.99 samples/sec	cross-entropy=0.001716	DiffWalk-accuracy=0.000000
+2024-04-01 14:01:09,832 [INFO]  Epoch[3] Train-cross-entropy=0.002096
+2024-04-01 14:01:09,832 [INFO]  Epoch[3] Train-DiffWalk-accuracy=0.000000
+2024-04-01 14:01:09,832 [INFO]  Epoch[3] Time cost=54.732
+2024-04-01 14:01:09,834 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0003.params"
+2024-04-01 14:01:12,754 [INFO]  Epoch[3] Validation-cross-entropy=0.000046
+2024-04-01 14:01:12,754 [INFO]  Epoch[3] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 14:01:40,983 [INFO]  Epoch[4] Batch [0-5708]	Speed: 3235.46 samples/sec	cross-entropy=0.001173	DiffWalk-accuracy=0.000000
+2024-04-01 14:01:58,719 [INFO]  Epoch[4] Train-cross-entropy=0.001127
+2024-04-01 14:01:58,719 [INFO]  Epoch[4] Train-DiffWalk-accuracy=0.000000
+2024-04-01 14:01:58,719 [INFO]  Epoch[4] Time cost=45.965
+2024-04-01 14:01:58,721 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0004.params"
+2024-04-01 14:02:00,552 [INFO]  Epoch[4] Validation-cross-entropy=0.000329
+2024-04-01 14:02:00,552 [INFO]  Epoch[4] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 14:02:00,552 [INFO]  
+========== done (233.4102463722229 s) fit model
+2024-04-01 15:42:52,209 [INFO]  
+========== start: fit model
+2024-04-01 15:42:52,225 [WARNING]  Already bound, ignoring bind()
+2024-04-01 15:43:14,031 [INFO]  Epoch[0] Batch [0-5708]	Speed: 4190.03 samples/sec	cross-entropy=0.101092	DiffWalk-accuracy=0.000000
+2024-04-01 15:43:33,027 [INFO]  Epoch[0] Train-cross-entropy=0.055132
+2024-04-01 15:43:33,027 [INFO]  Epoch[0] Train-DiffWalk-accuracy=0.000000
+2024-04-01 15:43:33,027 [INFO]  Epoch[0] Time cost=40.801
+2024-04-01 15:43:33,028 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0000.params"
+2024-04-01 15:43:34,360 [INFO]  Epoch[0] Validation-cross-entropy=0.000506
+2024-04-01 15:43:34,360 [INFO]  Epoch[0] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 15:44:04,456 [INFO]  Epoch[1] Batch [0-5708]	Speed: 3034.65 samples/sec	cross-entropy=0.006582	DiffWalk-accuracy=0.000000
+2024-04-01 15:44:34,054 [INFO]  Epoch[1] Train-cross-entropy=0.004981
+2024-04-01 15:44:34,054 [INFO]  Epoch[1] Train-DiffWalk-accuracy=0.000000
+2024-04-01 15:44:34,055 [INFO]  Epoch[1] Time cost=59.694
+2024-04-01 15:44:34,056 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0001.params"
+2024-04-01 15:44:37,896 [INFO]  Epoch[1] Validation-cross-entropy=0.002738
+2024-04-01 15:44:37,896 [INFO]  Epoch[1] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 15:45:02,222 [INFO]  Epoch[2] Batch [0-5708]	Speed: 3755.32 samples/sec	cross-entropy=0.003496	DiffWalk-accuracy=0.000000
+2024-04-01 15:45:24,177 [INFO]  Epoch[2] Train-cross-entropy=0.002996
+2024-04-01 15:45:24,178 [INFO]  Epoch[2] Train-DiffWalk-accuracy=0.000000
+2024-04-01 15:45:24,178 [INFO]  Epoch[2] Time cost=46.282
+2024-04-01 15:45:24,183 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0002.params"
+2024-04-01 15:45:25,238 [INFO]  Epoch[2] Validation-cross-entropy=0.000182
+2024-04-01 15:45:25,238 [INFO]  Epoch[2] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 15:45:52,815 [INFO]  Epoch[3] Batch [0-5708]	Speed: 3351.14 samples/sec	cross-entropy=0.002614	DiffWalk-accuracy=0.000000
+2024-04-01 15:46:26,221 [INFO]  Epoch[3] Train-cross-entropy=0.002389
+2024-04-01 15:46:26,221 [INFO]  Epoch[3] Train-DiffWalk-accuracy=0.000000
+2024-04-01 15:46:26,221 [INFO]  Epoch[3] Time cost=60.984
+2024-04-01 15:46:26,223 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0003.params"
+2024-04-01 15:46:27,753 [INFO]  Epoch[3] Validation-cross-entropy=0.000572
+2024-04-01 15:46:27,753 [INFO]  Epoch[3] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 15:46:53,935 [INFO]  Epoch[4] Batch [0-5708]	Speed: 3488.88 samples/sec	cross-entropy=0.002349	DiffWalk-accuracy=0.000000
+2024-04-01 15:47:23,193 [INFO]  Epoch[4] Train-cross-entropy=0.001865
+2024-04-01 15:47:23,193 [INFO]  Epoch[4] Train-DiffWalk-accuracy=0.000000
+2024-04-01 15:47:23,193 [INFO]  Epoch[4] Time cost=55.440
+2024-04-01 15:47:23,195 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0004.params"
+2024-04-01 15:47:24,404 [INFO]  Epoch[4] Validation-cross-entropy=0.000028
+2024-04-01 15:47:24,404 [INFO]  Epoch[4] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 15:47:24,404 [INFO]  
+========== done (272.19574332237244 s) fit model
+2024-04-01 17:31:11,826 [INFO]  
+========== start: fit model
+2024-04-01 17:31:11,826 [WARNING]  Already bound, ignoring bind()
+2024-04-01 17:31:34,887 [INFO]  Epoch[0] Batch [0-5708]	Speed: 3963.21 samples/sec	cross-entropy=0.098320	DiffWalk-accuracy=3.190051
+2024-04-01 17:31:56,069 [INFO]  Epoch[0] Train-cross-entropy=0.054268
+2024-04-01 17:31:56,069 [INFO]  Epoch[0] Train-DiffWalk-accuracy=3.188507
+2024-04-01 17:31:56,069 [INFO]  Epoch[0] Time cost=44.242
+2024-04-01 17:31:56,071 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0000.params"
+2024-04-01 17:31:57,422 [INFO]  Epoch[0] Validation-cross-entropy=0.055777
+2024-04-01 17:31:57,422 [INFO]  Epoch[0] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 17:32:19,959 [INFO]  Epoch[1] Batch [0-5708]	Speed: 4052.64 samples/sec	cross-entropy=0.004942	DiffWalk-accuracy=3.190051
+2024-04-01 17:32:48,924 [INFO]  Epoch[1] Train-cross-entropy=0.004905
+2024-04-01 17:32:48,924 [INFO]  Epoch[1] Train-DiffWalk-accuracy=3.188507
+2024-04-01 17:32:48,925 [INFO]  Epoch[1] Time cost=51.503
+2024-04-01 17:32:48,927 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0001.params"
+2024-04-01 17:32:50,972 [INFO]  Epoch[1] Validation-cross-entropy=0.001609
+2024-04-01 17:32:50,972 [INFO]  Epoch[1] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 17:33:17,459 [INFO]  Epoch[2] Batch [0-5708]	Speed: 3448.19 samples/sec	cross-entropy=0.003593	DiffWalk-accuracy=3.190051
+2024-04-01 17:33:46,035 [INFO]  Epoch[2] Train-cross-entropy=0.003236
+2024-04-01 17:33:46,035 [INFO]  Epoch[2] Train-DiffWalk-accuracy=3.188507
+2024-04-01 17:33:46,035 [INFO]  Epoch[2] Time cost=55.063
+2024-04-01 17:33:46,037 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0002.params"
+2024-04-01 17:33:47,205 [INFO]  Epoch[2] Validation-cross-entropy=0.000007
+2024-04-01 17:33:47,206 [INFO]  Epoch[2] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 17:34:04,679 [INFO]  Epoch[3] Batch [0-5708]	Speed: 5242.58 samples/sec	cross-entropy=0.002408	DiffWalk-accuracy=3.190051
+2024-04-01 17:34:29,150 [INFO]  Epoch[3] Train-cross-entropy=0.002203
+2024-04-01 17:34:29,151 [INFO]  Epoch[3] Train-DiffWalk-accuracy=3.188507
+2024-04-01 17:34:29,151 [INFO]  Epoch[3] Time cost=41.945
+2024-04-01 17:34:29,153 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0003.params"
+2024-04-01 17:34:29,799 [INFO]  Epoch[3] Validation-cross-entropy=0.000029
+2024-04-01 17:34:29,799 [INFO]  Epoch[3] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 17:34:55,559 [INFO]  Epoch[4] Batch [0-5708]	Speed: 3545.51 samples/sec	cross-entropy=0.001746	DiffWalk-accuracy=3.190051
+2024-04-01 17:35:25,811 [INFO]  Epoch[4] Train-cross-entropy=0.001558
+2024-04-01 17:35:25,828 [INFO]  Epoch[4] Train-DiffWalk-accuracy=3.188507
+2024-04-01 17:35:25,828 [INFO]  Epoch[4] Time cost=56.029
+2024-04-01 17:35:25,830 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0004.params"
+2024-04-01 17:35:26,467 [INFO]  Epoch[4] Validation-cross-entropy=0.000283
+2024-04-01 17:35:26,467 [INFO]  Epoch[4] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 17:35:26,467 [INFO]  
+========== done (254.64086937904358 s) fit model
+2024-04-01 20:37:11,255 [INFO]  
+========== start: fit model
+2024-04-01 20:37:11,263 [WARNING]  Already bound, ignoring bind()
+2024-04-01 20:37:14,567 [INFO]  Epoch[0] Batch [0-5708]	Speed: 27673.81 samples/sec	cross-entropy=0.093113	DiffWalk-accuracy=0.000000
+2024-04-01 20:37:19,161 [INFO]  Epoch[0] Train-cross-entropy=0.051307
+2024-04-01 20:37:19,161 [INFO]  Epoch[0] Train-DiffWalk-accuracy=0.000000
+2024-04-01 20:37:19,161 [INFO]  Epoch[0] Time cost=7.896
+2024-04-01 20:37:19,162 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0000.params"
+2024-04-01 20:37:19,399 [INFO]  Epoch[0] Validation-cross-entropy=0.000533
+2024-04-01 20:37:19,399 [INFO]  Epoch[0] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 20:37:22,763 [INFO]  Epoch[1] Batch [0-5708]	Speed: 27156.04 samples/sec	cross-entropy=0.003807	DiffWalk-accuracy=0.000000
+2024-04-01 20:37:26,337 [INFO]  Epoch[1] Train-cross-entropy=0.003589
+2024-04-01 20:37:26,337 [INFO]  Epoch[1] Train-DiffWalk-accuracy=0.000000
+2024-04-01 20:37:26,337 [INFO]  Epoch[1] Time cost=6.938
+2024-04-01 20:37:26,339 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0001.params"
+2024-04-01 20:37:26,558 [INFO]  Epoch[1] Validation-cross-entropy=0.000184
+2024-04-01 20:37:26,559 [INFO]  Epoch[1] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 20:37:30,977 [INFO]  Epoch[2] Batch [0-5708]	Speed: 20675.08 samples/sec	cross-entropy=0.003462	DiffWalk-accuracy=0.000000
+2024-04-01 20:37:34,852 [INFO]  Epoch[2] Train-cross-entropy=0.002964
+2024-04-01 20:37:34,852 [INFO]  Epoch[2] Train-DiffWalk-accuracy=0.000000
+2024-04-01 20:37:34,852 [INFO]  Epoch[2] Time cost=8.294
+2024-04-01 20:37:34,854 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0002.params"
+2024-04-01 20:37:35,097 [INFO]  Epoch[2] Validation-cross-entropy=0.000461
+2024-04-01 20:37:35,097 [INFO]  Epoch[2] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 20:37:38,731 [INFO]  Epoch[3] Batch [0-5708]	Speed: 25138.77 samples/sec	cross-entropy=0.002299	DiffWalk-accuracy=0.000000
+2024-04-01 20:37:42,386 [INFO]  Epoch[3] Train-cross-entropy=0.002067
+2024-04-01 20:37:42,386 [INFO]  Epoch[3] Train-DiffWalk-accuracy=0.000000
+2024-04-01 20:37:42,386 [INFO]  Epoch[3] Time cost=7.289
+2024-04-01 20:37:42,388 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0003.params"
+2024-04-01 20:37:42,647 [INFO]  Epoch[3] Validation-cross-entropy=0.000196
+2024-04-01 20:37:42,647 [INFO]  Epoch[3] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 20:37:47,336 [INFO]  Epoch[4] Batch [0-5708]	Speed: 19484.79 samples/sec	cross-entropy=0.001538	DiffWalk-accuracy=0.000000
+2024-04-01 20:37:50,965 [INFO]  Epoch[4] Train-cross-entropy=0.001473
+2024-04-01 20:37:50,965 [INFO]  Epoch[4] Train-DiffWalk-accuracy=0.000000
+2024-04-01 20:37:50,965 [INFO]  Epoch[4] Time cost=8.317
+2024-04-01 20:37:50,966 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0004.params"
+2024-04-01 20:37:51,203 [INFO]  Epoch[4] Validation-cross-entropy=0.005834
+2024-04-01 20:37:51,203 [INFO]  Epoch[4] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 20:37:51,203 [INFO]  
+========== done (39.94859957695007 s) fit model
+2024-04-01 21:05:49,906 [INFO]  
+========== start: fit model
+2024-04-01 21:05:49,906 [WARNING]  Already bound, ignoring bind()
+2024-04-01 21:05:53,567 [INFO]  Epoch[0] Batch [0-5708]	Speed: 25013.10 samples/sec	cross-entropy=0.117130	DiffWalk-accuracy=3.201787
+2024-04-01 21:05:57,216 [INFO]  Epoch[0] Train-cross-entropy=0.063327
+2024-04-01 21:05:57,216 [INFO]  Epoch[0] Train-DiffWalk-accuracy=3.195252
+2024-04-01 21:05:57,216 [INFO]  Epoch[0] Time cost=7.309
+2024-04-01 21:05:57,218 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0000.params"
+2024-04-01 21:05:58,157 [INFO]  Epoch[0] Validation-cross-entropy=0.001328
+2024-04-01 21:05:58,158 [INFO]  Epoch[0] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 21:06:01,892 [INFO]  Epoch[1] Batch [0-5708]	Speed: 24460.90 samples/sec	cross-entropy=0.004374	DiffWalk-accuracy=3.201787
+2024-04-01 21:06:05,242 [INFO]  Epoch[1] Train-cross-entropy=0.003983
+2024-04-01 21:06:05,242 [INFO]  Epoch[1] Train-DiffWalk-accuracy=3.195252
+2024-04-01 21:06:05,242 [INFO]  Epoch[1] Time cost=7.085
+2024-04-01 21:06:05,244 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0001.params"
+2024-04-01 21:06:05,460 [INFO]  Epoch[1] Validation-cross-entropy=0.000064
+2024-04-01 21:06:05,460 [INFO]  Epoch[1] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 21:06:08,665 [INFO]  Epoch[2] Batch [0-5708]	Speed: 28503.89 samples/sec	cross-entropy=0.002054	DiffWalk-accuracy=3.201787
+2024-04-01 21:06:13,449 [INFO]  Epoch[2] Train-cross-entropy=0.001980
+2024-04-01 21:06:13,450 [INFO]  Epoch[2] Train-DiffWalk-accuracy=3.195252
+2024-04-01 21:06:13,450 [INFO]  Epoch[2] Time cost=7.989
+2024-04-01 21:06:13,451 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0002.params"
+2024-04-01 21:06:13,729 [INFO]  Epoch[2] Validation-cross-entropy=0.000055
+2024-04-01 21:06:13,729 [INFO]  Epoch[2] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 21:06:18,147 [INFO]  Epoch[3] Batch [0-5708]	Speed: 20678.45 samples/sec	cross-entropy=0.001870	DiffWalk-accuracy=3.201787
+2024-04-01 21:06:21,963 [INFO]  Epoch[3] Train-cross-entropy=0.001507
+2024-04-01 21:06:21,963 [INFO]  Epoch[3] Train-DiffWalk-accuracy=3.195252
+2024-04-01 21:06:21,963 [INFO]  Epoch[3] Time cost=8.234
+2024-04-01 21:06:21,965 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0003.params"
+2024-04-01 21:06:22,184 [INFO]  Epoch[3] Validation-cross-entropy=0.000021
+2024-04-01 21:06:22,184 [INFO]  Epoch[3] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 21:06:25,816 [INFO]  Epoch[4] Batch [0-5708]	Speed: 25150.93 samples/sec	cross-entropy=0.001616	DiffWalk-accuracy=3.201787
+2024-04-01 21:06:30,576 [INFO]  Epoch[4] Train-cross-entropy=0.001480
+2024-04-01 21:06:30,576 [INFO]  Epoch[4] Train-DiffWalk-accuracy=3.195252
+2024-04-01 21:06:30,576 [INFO]  Epoch[4] Time cost=8.392
+2024-04-01 21:06:30,577 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0004.params"
+2024-04-01 21:06:30,814 [INFO]  Epoch[4] Validation-cross-entropy=0.000001
+2024-04-01 21:06:30,814 [INFO]  Epoch[4] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 21:06:30,814 [INFO]  
+========== done (40.908103466033936 s) fit model
+2024-04-01 21:34:20,265 [INFO]  
+========== start: fit model
+2024-04-01 21:34:20,265 [WARNING]  Already bound, ignoring bind()
+2024-04-01 21:34:23,702 [INFO]  Epoch[0] Batch [0-5708]	Speed: 26637.69 samples/sec	cross-entropy=0.092410	DiffWalk-accuracy=0.000000
+2024-04-01 21:34:28,335 [INFO]  Epoch[0] Train-cross-entropy=0.052116
+2024-04-01 21:34:28,335 [INFO]  Epoch[0] Train-DiffWalk-accuracy=0.000000
+2024-04-01 21:34:28,335 [INFO]  Epoch[0] Time cost=8.069
+2024-04-01 21:34:28,337 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0000.params"
+2024-04-01 21:34:28,554 [INFO]  Epoch[0] Validation-cross-entropy=0.000606
+2024-04-01 21:34:28,554 [INFO]  Epoch[0] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 21:34:31,784 [INFO]  Epoch[1] Batch [0-5708]	Speed: 28288.09 samples/sec	cross-entropy=0.005508	DiffWalk-accuracy=0.000000
+2024-04-01 21:34:35,016 [INFO]  Epoch[1] Train-cross-entropy=0.004381
+2024-04-01 21:34:35,016 [INFO]  Epoch[1] Train-DiffWalk-accuracy=0.000000
+2024-04-01 21:34:35,016 [INFO]  Epoch[1] Time cost=6.462
+2024-04-01 21:34:35,018 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0001.params"
+2024-04-01 21:34:35,236 [INFO]  Epoch[1] Validation-cross-entropy=0.000543
+2024-04-01 21:34:35,236 [INFO]  Epoch[1] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 21:34:39,569 [INFO]  Epoch[2] Batch [0-5708]	Speed: 21080.35 samples/sec	cross-entropy=0.002190	DiffWalk-accuracy=0.000000
+2024-04-01 21:34:43,176 [INFO]  Epoch[2] Train-cross-entropy=0.001960
+2024-04-01 21:34:43,176 [INFO]  Epoch[2] Train-DiffWalk-accuracy=0.000000
+2024-04-01 21:34:43,176 [INFO]  Epoch[2] Time cost=7.940
+2024-04-01 21:34:43,178 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0002.params"
+2024-04-01 21:34:43,413 [INFO]  Epoch[2] Validation-cross-entropy=0.000374
+2024-04-01 21:34:43,413 [INFO]  Epoch[2] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 21:34:47,348 [INFO]  Epoch[3] Batch [0-5708]	Speed: 23212.45 samples/sec	cross-entropy=0.001524	DiffWalk-accuracy=0.000000
+2024-04-01 21:34:51,771 [INFO]  Epoch[3] Train-cross-entropy=0.001310
+2024-04-01 21:34:51,771 [INFO]  Epoch[3] Train-DiffWalk-accuracy=0.000000
+2024-04-01 21:34:51,771 [INFO]  Epoch[3] Time cost=8.358
+2024-04-01 21:34:51,774 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0003.params"
+2024-04-01 21:34:52,231 [INFO]  Epoch[3] Validation-cross-entropy=0.000226
+2024-04-01 21:34:52,231 [INFO]  Epoch[3] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 21:34:56,150 [INFO]  Epoch[4] Batch [0-5708]	Speed: 23308.79 samples/sec	cross-entropy=0.001089	DiffWalk-accuracy=0.000000
+2024-04-01 21:34:59,882 [INFO]  Epoch[4] Train-cross-entropy=0.001005
+2024-04-01 21:34:59,882 [INFO]  Epoch[4] Train-DiffWalk-accuracy=0.000000
+2024-04-01 21:34:59,882 [INFO]  Epoch[4] Time cost=7.651
+2024-04-01 21:34:59,884 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0004.params"
+2024-04-01 21:35:00,119 [INFO]  Epoch[4] Validation-cross-entropy=0.000137
+2024-04-01 21:35:00,119 [INFO]  Epoch[4] Validation-DiffWalk-accuracy=0.000000
+2024-04-01 21:35:00,119 [INFO]  
+========== done (39.854557514190674 s) fit model
+2024-04-02 00:11:07,340 [INFO]  
+========== start: fit model
+2024-04-02 00:11:07,340 [WARNING]  Already bound, ignoring bind()
+2024-04-02 00:11:24,477 [INFO]  Epoch[0] Batch [0-5708]	Speed: 5333.34 samples/sec	cross-entropy=0.076119	DiffWalk-accuracy=3.199685
+2024-04-02 00:11:46,151 [INFO]  Epoch[0] Train-cross-entropy=0.042458
+2024-04-02 00:11:46,151 [INFO]  Epoch[0] Train-DiffWalk-accuracy=3.196128
+2024-04-02 00:11:46,151 [INFO]  Epoch[0] Time cost=38.811
+2024-04-02 00:11:46,153 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0000.params"
+2024-04-02 00:11:46,484 [INFO]  Epoch[0] Validation-cross-entropy=0.015532
+2024-04-02 00:11:46,485 [INFO]  Epoch[0] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 00:12:01,686 [INFO]  Epoch[1] Batch [0-5708]	Speed: 6008.41 samples/sec	cross-entropy=0.005656	DiffWalk-accuracy=3.199685
+2024-04-02 00:12:19,936 [INFO]  Epoch[1] Train-cross-entropy=0.004751
+2024-04-02 00:12:19,937 [INFO]  Epoch[1] Train-DiffWalk-accuracy=3.196128
+2024-04-02 00:12:19,937 [INFO]  Epoch[1] Time cost=33.452
+2024-04-02 00:12:19,939 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0001.params"
+2024-04-02 00:12:20,386 [INFO]  Epoch[1] Validation-cross-entropy=0.000600
+2024-04-02 00:12:20,386 [INFO]  Epoch[1] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 00:12:38,774 [INFO]  Epoch[2] Batch [0-5708]	Speed: 4967.09 samples/sec	cross-entropy=0.003816	DiffWalk-accuracy=3.199685
+2024-04-02 00:12:53,475 [INFO]  Epoch[2] Train-cross-entropy=0.003315
+2024-04-02 00:12:53,476 [INFO]  Epoch[2] Train-DiffWalk-accuracy=3.196128
+2024-04-02 00:12:53,476 [INFO]  Epoch[2] Time cost=33.089
+2024-04-02 00:12:53,477 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0002.params"
+2024-04-02 00:12:54,033 [INFO]  Epoch[2] Validation-cross-entropy=0.000105
+2024-04-02 00:12:54,033 [INFO]  Epoch[2] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 00:13:15,215 [INFO]  Epoch[3] Batch [0-5708]	Speed: 4311.85 samples/sec	cross-entropy=0.002336	DiffWalk-accuracy=3.199685
+2024-04-02 00:13:32,975 [INFO]  Epoch[3] Train-cross-entropy=0.001997
+2024-04-02 00:13:32,975 [INFO]  Epoch[3] Train-DiffWalk-accuracy=3.196128
+2024-04-02 00:13:32,975 [INFO]  Epoch[3] Time cost=38.942
+2024-04-02 00:13:32,977 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0003.params"
+2024-04-02 00:13:35,569 [INFO]  Epoch[3] Validation-cross-entropy=0.001774
+2024-04-02 00:13:35,570 [INFO]  Epoch[3] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 00:14:00,220 [INFO]  Epoch[4] Batch [0-5708]	Speed: 3705.10 samples/sec	cross-entropy=0.001509	DiffWalk-accuracy=3.199685
+2024-04-02 00:14:17,262 [INFO]  Epoch[4] Train-cross-entropy=0.001489
+2024-04-02 00:14:17,262 [INFO]  Epoch[4] Train-DiffWalk-accuracy=3.196128
+2024-04-02 00:14:17,262 [INFO]  Epoch[4] Time cost=41.692
+2024-04-02 00:14:17,264 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0004.params"
+2024-04-02 00:14:18,614 [INFO]  Epoch[4] Validation-cross-entropy=0.000000
+2024-04-02 00:14:18,615 [INFO]  Epoch[4] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 00:14:18,615 [INFO]  
+========== done (191.27513575553894 s) fit model
+2024-04-02 01:37:24,547 [INFO]  
+========== start: fit model
+2024-04-02 01:37:24,547 [WARNING]  Already bound, ignoring bind()
+2024-04-02 01:37:46,419 [INFO]  Epoch[0] Batch [0-5708]	Speed: 4255.11 samples/sec	cross-entropy=0.096424	DiffWalk-accuracy=3.193554
+2024-04-02 01:38:08,201 [INFO]  Epoch[0] Train-cross-entropy=0.051900
+2024-04-02 01:38:08,201 [INFO]  Epoch[0] Train-DiffWalk-accuracy=3.200070
+2024-04-02 01:38:08,201 [INFO]  Epoch[0] Time cost=43.653
+2024-04-02 01:38:08,203 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0000.params"
+2024-04-02 01:38:10,006 [INFO]  Epoch[0] Validation-cross-entropy=0.000719
+2024-04-02 01:38:10,006 [INFO]  Epoch[0] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 01:38:28,304 [INFO]  Epoch[1] Batch [0-5708]	Speed: 4991.59 samples/sec	cross-entropy=0.004614	DiffWalk-accuracy=3.193554
+2024-04-02 01:38:45,202 [INFO]  Epoch[1] Train-cross-entropy=0.003442
+2024-04-02 01:38:45,203 [INFO]  Epoch[1] Train-DiffWalk-accuracy=3.200070
+2024-04-02 01:38:45,203 [INFO]  Epoch[1] Time cost=35.196
+2024-04-02 01:38:45,205 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0001.params"
+2024-04-02 01:38:45,583 [INFO]  Epoch[1] Validation-cross-entropy=0.001851
+2024-04-02 01:38:45,583 [INFO]  Epoch[1] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 01:39:06,368 [INFO]  Epoch[2] Batch [0-5708]	Speed: 4394.32 samples/sec	cross-entropy=0.002507	DiffWalk-accuracy=3.193554
+2024-04-02 01:39:32,589 [INFO]  Epoch[2] Train-cross-entropy=0.001912
+2024-04-02 01:39:32,589 [INFO]  Epoch[2] Train-DiffWalk-accuracy=3.200070
+2024-04-02 01:39:32,590 [INFO]  Epoch[2] Time cost=47.006
+2024-04-02 01:39:32,592 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0002.params"
+2024-04-02 01:39:33,294 [INFO]  Epoch[2] Validation-cross-entropy=0.000653
+2024-04-02 01:39:33,294 [INFO]  Epoch[2] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 01:39:56,363 [INFO]  Epoch[3] Batch [0-5708]	Speed: 3959.16 samples/sec	cross-entropy=0.001311	DiffWalk-accuracy=3.193554
+2024-04-02 01:40:19,367 [INFO]  Epoch[3] Train-cross-entropy=0.001119
+2024-04-02 01:40:19,368 [INFO]  Epoch[3] Train-DiffWalk-accuracy=3.200070
+2024-04-02 01:40:19,368 [INFO]  Epoch[3] Time cost=46.074
+2024-04-02 01:40:19,370 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0003.params"
+2024-04-02 01:40:20,942 [INFO]  Epoch[3] Validation-cross-entropy=0.000043
+2024-04-02 01:40:20,942 [INFO]  Epoch[3] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 01:40:36,763 [INFO]  Epoch[4] Batch [0-5708]	Speed: 5772.80 samples/sec	cross-entropy=0.000860	DiffWalk-accuracy=3.193554
+2024-04-02 01:40:58,846 [INFO]  Epoch[4] Train-cross-entropy=0.000874
+2024-04-02 01:40:58,847 [INFO]  Epoch[4] Train-DiffWalk-accuracy=3.200070
+2024-04-02 01:40:58,847 [INFO]  Epoch[4] Time cost=37.905
+2024-04-02 01:40:58,849 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0004.params"
+2024-04-02 01:40:59,614 [INFO]  Epoch[4] Validation-cross-entropy=0.000166
+2024-04-02 01:40:59,614 [INFO]  Epoch[4] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 01:40:59,614 [INFO]  
+========== done (215.0672962665558 s) fit model
+2024-04-02 02:56:28,244 [INFO]  
+========== start: fit model
+2024-04-02 02:56:28,244 [WARNING]  Already bound, ignoring bind()
+2024-04-02 02:56:46,289 [INFO]  Epoch[0] Batch [0-5708]	Speed: 5064.54 samples/sec	cross-entropy=0.089638	DiffWalk-accuracy=0.000000
+2024-04-02 02:57:02,203 [INFO]  Epoch[0] Train-cross-entropy=0.049921
+2024-04-02 02:57:02,203 [INFO]  Epoch[0] Train-DiffWalk-accuracy=0.000000
+2024-04-02 02:57:02,203 [INFO]  Epoch[0] Time cost=33.958
+2024-04-02 02:57:02,205 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0000.params"
+2024-04-02 02:57:02,569 [INFO]  Epoch[0] Validation-cross-entropy=0.000275
+2024-04-02 02:57:02,570 [INFO]  Epoch[0] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 02:57:24,184 [INFO]  Epoch[1] Batch [0-5708]	Speed: 4225.60 samples/sec	cross-entropy=0.004491	DiffWalk-accuracy=0.000000
+2024-04-02 02:57:41,872 [INFO]  Epoch[1] Train-cross-entropy=0.004296
+2024-04-02 02:57:41,873 [INFO]  Epoch[1] Train-DiffWalk-accuracy=0.000000
+2024-04-02 02:57:41,873 [INFO]  Epoch[1] Time cost=39.303
+2024-04-02 02:57:41,876 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0001.params"
+2024-04-02 02:57:43,207 [INFO]  Epoch[1] Validation-cross-entropy=0.000278
+2024-04-02 02:57:43,207 [INFO]  Epoch[1] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 02:58:01,319 [INFO]  Epoch[2] Batch [0-5708]	Speed: 5042.86 samples/sec	cross-entropy=0.002328	DiffWalk-accuracy=0.000000
+2024-04-02 02:58:22,532 [INFO]  Epoch[2] Train-cross-entropy=0.002260
+2024-04-02 02:58:22,532 [INFO]  Epoch[2] Train-DiffWalk-accuracy=0.000000
+2024-04-02 02:58:22,532 [INFO]  Epoch[2] Time cost=39.325
+2024-04-02 02:58:22,534 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0002.params"
+2024-04-02 02:58:22,909 [INFO]  Epoch[2] Validation-cross-entropy=0.000285
+2024-04-02 02:58:22,909 [INFO]  Epoch[2] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 02:58:37,174 [INFO]  Epoch[3] Batch [0-5708]	Speed: 6403.24 samples/sec	cross-entropy=0.001716	DiffWalk-accuracy=0.000000
+2024-04-02 02:58:55,868 [INFO]  Epoch[3] Train-cross-entropy=0.002096
+2024-04-02 02:58:55,869 [INFO]  Epoch[3] Train-DiffWalk-accuracy=0.000000
+2024-04-02 02:58:55,869 [INFO]  Epoch[3] Time cost=32.959
+2024-04-02 02:58:55,871 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0003.params"
+2024-04-02 02:58:58,706 [INFO]  Epoch[3] Validation-cross-entropy=0.000046
+2024-04-02 02:58:58,707 [INFO]  Epoch[3] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 02:59:13,571 [INFO]  Epoch[4] Batch [0-5708]	Speed: 6144.55 samples/sec	cross-entropy=0.001173	DiffWalk-accuracy=0.000000
+2024-04-02 02:59:39,167 [INFO]  Epoch[4] Train-cross-entropy=0.001127
+2024-04-02 02:59:39,168 [INFO]  Epoch[4] Train-DiffWalk-accuracy=0.000000
+2024-04-02 02:59:39,168 [INFO]  Epoch[4] Time cost=40.461
+2024-04-02 02:59:39,171 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0004.params"
+2024-04-02 02:59:39,716 [INFO]  Epoch[4] Validation-cross-entropy=0.000329
+2024-04-02 02:59:39,716 [INFO]  Epoch[4] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 02:59:39,716 [INFO]  
+========== done (191.47246146202087 s) fit model
+2024-04-02 04:21:13,683 [INFO]  
+========== start: fit model
+2024-04-02 04:21:13,684 [WARNING]  Already bound, ignoring bind()
+2024-04-02 04:21:44,633 [INFO]  Epoch[0] Batch [0-5708]	Speed: 2965.99 samples/sec	cross-entropy=0.101092	DiffWalk-accuracy=0.000000
+2024-04-02 04:22:12,189 [INFO]  Epoch[0] Train-cross-entropy=0.055132
+2024-04-02 04:22:12,189 [INFO]  Epoch[0] Train-DiffWalk-accuracy=0.000000
+2024-04-02 04:22:12,189 [INFO]  Epoch[0] Time cost=58.504
+2024-04-02 04:22:12,191 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0000.params"
+2024-04-02 04:22:15,326 [INFO]  Epoch[0] Validation-cross-entropy=0.000506
+2024-04-02 04:22:15,327 [INFO]  Epoch[0] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 04:22:47,175 [INFO]  Epoch[1] Batch [0-5708]	Speed: 2867.76 samples/sec	cross-entropy=0.006582	DiffWalk-accuracy=0.000000
+2024-04-02 04:23:08,106 [INFO]  Epoch[1] Train-cross-entropy=0.004981
+2024-04-02 04:23:08,107 [INFO]  Epoch[1] Train-DiffWalk-accuracy=0.000000
+2024-04-02 04:23:08,107 [INFO]  Epoch[1] Time cost=52.780
+2024-04-02 04:23:08,108 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0001.params"
+2024-04-02 04:23:09,348 [INFO]  Epoch[1] Validation-cross-entropy=0.002738
+2024-04-02 04:23:09,348 [INFO]  Epoch[1] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 04:23:43,821 [INFO]  Epoch[2] Batch [0-5708]	Speed: 2649.34 samples/sec	cross-entropy=0.003496	DiffWalk-accuracy=0.000000
+2024-04-02 04:24:12,646 [INFO]  Epoch[2] Train-cross-entropy=0.002996
+2024-04-02 04:24:12,646 [INFO]  Epoch[2] Train-DiffWalk-accuracy=0.000000
+2024-04-02 04:24:12,646 [INFO]  Epoch[2] Time cost=63.298
+2024-04-02 04:24:12,648 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0002.params"
+2024-04-02 04:24:14,602 [INFO]  Epoch[2] Validation-cross-entropy=0.000182
+2024-04-02 04:24:14,602 [INFO]  Epoch[2] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 04:24:45,745 [INFO]  Epoch[3] Batch [0-5708]	Speed: 2932.67 samples/sec	cross-entropy=0.002614	DiffWalk-accuracy=0.000000
+2024-04-02 04:25:06,129 [INFO]  Epoch[3] Train-cross-entropy=0.002389
+2024-04-02 04:25:06,130 [INFO]  Epoch[3] Train-DiffWalk-accuracy=0.000000
+2024-04-02 04:25:06,130 [INFO]  Epoch[3] Time cost=51.527
+2024-04-02 04:25:06,135 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0003.params"
+2024-04-02 04:25:06,737 [INFO]  Epoch[3] Validation-cross-entropy=0.000572
+2024-04-02 04:25:06,738 [INFO]  Epoch[3] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 04:25:33,497 [INFO]  Epoch[4] Batch [0-5708]	Speed: 3413.10 samples/sec	cross-entropy=0.002349	DiffWalk-accuracy=0.000000
+2024-04-02 04:25:59,765 [INFO]  Epoch[4] Train-cross-entropy=0.001865
+2024-04-02 04:25:59,765 [INFO]  Epoch[4] Train-DiffWalk-accuracy=0.000000
+2024-04-02 04:25:59,765 [INFO]  Epoch[4] Time cost=53.028
+2024-04-02 04:25:59,768 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0004.params"
+2024-04-02 04:26:00,668 [INFO]  Epoch[4] Validation-cross-entropy=0.000028
+2024-04-02 04:26:00,668 [INFO]  Epoch[4] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 04:26:00,669 [INFO]  
+========== done (286.98512601852417 s) fit model
+2024-04-02 05:39:20,018 [INFO]  
+========== start: fit model
+2024-04-02 05:39:20,018 [WARNING]  Already bound, ignoring bind()
+2024-04-02 05:39:31,949 [INFO]  Epoch[0] Batch [0-5708]	Speed: 7666.49 samples/sec	cross-entropy=0.098320	DiffWalk-accuracy=3.190051
+2024-04-02 05:39:41,798 [INFO]  Epoch[0] Train-cross-entropy=0.054268
+2024-04-02 05:39:41,798 [INFO]  Epoch[0] Train-DiffWalk-accuracy=3.188507
+2024-04-02 05:39:41,798 [INFO]  Epoch[0] Time cost=21.779
+2024-04-02 05:39:41,800 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0000.params"
+2024-04-02 05:39:42,153 [INFO]  Epoch[0] Validation-cross-entropy=0.055777
+2024-04-02 05:39:42,153 [INFO]  Epoch[0] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 05:39:56,463 [INFO]  Epoch[1] Batch [0-5708]	Speed: 6382.92 samples/sec	cross-entropy=0.004942	DiffWalk-accuracy=3.190051
+2024-04-02 05:40:08,934 [INFO]  Epoch[1] Train-cross-entropy=0.004905
+2024-04-02 05:40:08,934 [INFO]  Epoch[1] Train-DiffWalk-accuracy=3.188507
+2024-04-02 05:40:08,934 [INFO]  Epoch[1] Time cost=26.781
+2024-04-02 05:40:08,936 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0001.params"
+2024-04-02 05:40:09,174 [INFO]  Epoch[1] Validation-cross-entropy=0.001609
+2024-04-02 05:40:09,174 [INFO]  Epoch[1] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 05:40:21,203 [INFO]  Epoch[2] Batch [0-5708]	Speed: 7592.82 samples/sec	cross-entropy=0.003593	DiffWalk-accuracy=3.190051
+2024-04-02 05:40:34,543 [INFO]  Epoch[2] Train-cross-entropy=0.003236
+2024-04-02 05:40:34,543 [INFO]  Epoch[2] Train-DiffWalk-accuracy=3.188507
+2024-04-02 05:40:34,543 [INFO]  Epoch[2] Time cost=25.370
+2024-04-02 05:40:34,545 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0002.params"
+2024-04-02 05:40:35,873 [INFO]  Epoch[2] Validation-cross-entropy=0.000007
+2024-04-02 05:40:35,873 [INFO]  Epoch[2] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 05:40:48,312 [INFO]  Epoch[3] Batch [0-5708]	Speed: 7343.83 samples/sec	cross-entropy=0.002408	DiffWalk-accuracy=3.190051
+2024-04-02 05:41:01,256 [INFO]  Epoch[3] Train-cross-entropy=0.002203
+2024-04-02 05:41:01,257 [INFO]  Epoch[3] Train-DiffWalk-accuracy=3.188507
+2024-04-02 05:41:01,257 [INFO]  Epoch[3] Time cost=25.383
+2024-04-02 05:41:01,259 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0003.params"
+2024-04-02 05:41:02,629 [INFO]  Epoch[3] Validation-cross-entropy=0.000029
+2024-04-02 05:41:02,629 [INFO]  Epoch[3] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 05:41:15,622 [INFO]  Epoch[4] Batch [0-5708]	Speed: 7030.05 samples/sec	cross-entropy=0.001746	DiffWalk-accuracy=3.190051
+2024-04-02 05:41:24,659 [INFO]  Epoch[4] Train-cross-entropy=0.001558
+2024-04-02 05:41:24,659 [INFO]  Epoch[4] Train-DiffWalk-accuracy=3.188507
+2024-04-02 05:41:24,660 [INFO]  Epoch[4] Time cost=22.030
+2024-04-02 05:41:24,661 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0004.params"
+2024-04-02 05:41:25,831 [INFO]  Epoch[4] Validation-cross-entropy=0.000283
+2024-04-02 05:41:25,832 [INFO]  Epoch[4] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 05:41:25,832 [INFO]  
+========== done (125.81385040283203 s) fit model
+2024-04-02 07:05:06,737 [INFO]  
+========== start: fit model
+2024-04-02 07:05:06,737 [WARNING]  Already bound, ignoring bind()
+2024-04-02 07:05:29,534 [INFO]  Epoch[0] Batch [0-5708]	Speed: 4027.21 samples/sec	cross-entropy=0.093113	DiffWalk-accuracy=0.000000
+2024-04-02 07:05:52,998 [INFO]  Epoch[0] Train-cross-entropy=0.051307
+2024-04-02 07:05:52,998 [INFO]  Epoch[0] Train-DiffWalk-accuracy=0.000000
+2024-04-02 07:05:52,998 [INFO]  Epoch[0] Time cost=46.260
+2024-04-02 07:05:53,001 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0000.params"
+2024-04-02 07:05:53,935 [INFO]  Epoch[0] Validation-cross-entropy=0.000533
+2024-04-02 07:05:53,935 [INFO]  Epoch[0] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 07:06:14,714 [INFO]  Epoch[1] Batch [0-5708]	Speed: 4395.64 samples/sec	cross-entropy=0.003807	DiffWalk-accuracy=0.000000
+2024-04-02 07:06:24,533 [INFO]  Epoch[1] Train-cross-entropy=0.003589
+2024-04-02 07:06:24,533 [INFO]  Epoch[1] Train-DiffWalk-accuracy=0.000000
+2024-04-02 07:06:24,533 [INFO]  Epoch[1] Time cost=30.598
+2024-04-02 07:06:24,535 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0001.params"
+2024-04-02 07:06:24,779 [INFO]  Epoch[1] Validation-cross-entropy=0.000184
+2024-04-02 07:06:24,779 [INFO]  Epoch[1] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 07:06:50,574 [INFO]  Epoch[2] Batch [0-5708]	Speed: 3540.67 samples/sec	cross-entropy=0.003462	DiffWalk-accuracy=0.000000
+2024-04-02 07:07:09,548 [INFO]  Epoch[2] Train-cross-entropy=0.002964
+2024-04-02 07:07:09,548 [INFO]  Epoch[2] Train-DiffWalk-accuracy=0.000000
+2024-04-02 07:07:09,549 [INFO]  Epoch[2] Time cost=44.770
+2024-04-02 07:07:09,551 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0002.params"
+2024-04-02 07:07:11,903 [INFO]  Epoch[2] Validation-cross-entropy=0.000461
+2024-04-02 07:07:11,903 [INFO]  Epoch[2] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 07:07:30,318 [INFO]  Epoch[3] Batch [0-5708]	Speed: 4959.90 samples/sec	cross-entropy=0.002299	DiffWalk-accuracy=0.000000
+2024-04-02 07:07:46,278 [INFO]  Epoch[3] Train-cross-entropy=0.002067
+2024-04-02 07:07:46,279 [INFO]  Epoch[3] Train-DiffWalk-accuracy=0.000000
+2024-04-02 07:07:46,279 [INFO]  Epoch[3] Time cost=34.375
+2024-04-02 07:07:46,281 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0003.params"
+2024-04-02 07:07:47,009 [INFO]  Epoch[3] Validation-cross-entropy=0.000196
+2024-04-02 07:07:47,010 [INFO]  Epoch[3] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 07:08:07,708 [INFO]  Epoch[4] Batch [0-5708]	Speed: 4412.59 samples/sec	cross-entropy=0.001538	DiffWalk-accuracy=0.000000
+2024-04-02 07:08:23,764 [INFO]  Epoch[4] Train-cross-entropy=0.001473
+2024-04-02 07:08:23,764 [INFO]  Epoch[4] Train-DiffWalk-accuracy=0.000000
+2024-04-02 07:08:23,764 [INFO]  Epoch[4] Time cost=36.754
+2024-04-02 07:08:23,766 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0004.params"
+2024-04-02 07:08:24,682 [INFO]  Epoch[4] Validation-cross-entropy=0.005834
+2024-04-02 07:08:24,682 [INFO]  Epoch[4] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 07:08:24,682 [INFO]  
+========== done (197.94515872001648 s) fit model
+2024-04-02 08:29:39,296 [INFO]  
+========== start: fit model
+2024-04-02 08:29:39,296 [WARNING]  Already bound, ignoring bind()
+2024-04-02 08:30:04,824 [INFO]  Epoch[0] Batch [0-5708]	Speed: 3586.11 samples/sec	cross-entropy=0.117130	DiffWalk-accuracy=3.201787
+2024-04-02 08:30:44,025 [INFO]  Epoch[0] Train-cross-entropy=0.063327
+2024-04-02 08:30:44,025 [INFO]  Epoch[0] Train-DiffWalk-accuracy=3.195252
+2024-04-02 08:30:44,026 [INFO]  Epoch[0] Time cost=64.728
+2024-04-02 08:30:44,028 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0000.params"
+2024-04-02 08:30:45,214 [INFO]  Epoch[0] Validation-cross-entropy=0.001328
+2024-04-02 08:30:45,215 [INFO]  Epoch[0] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 08:31:17,321 [INFO]  Epoch[1] Batch [0-5708]	Speed: 2844.70 samples/sec	cross-entropy=0.004374	DiffWalk-accuracy=3.201787
+2024-04-02 08:31:47,471 [INFO]  Epoch[1] Train-cross-entropy=0.003983
+2024-04-02 08:31:47,471 [INFO]  Epoch[1] Train-DiffWalk-accuracy=3.195252
+2024-04-02 08:31:47,471 [INFO]  Epoch[1] Time cost=62.257
+2024-04-02 08:31:47,474 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0001.params"
+2024-04-02 08:31:49,101 [INFO]  Epoch[1] Validation-cross-entropy=0.000064
+2024-04-02 08:31:49,101 [INFO]  Epoch[1] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 08:32:08,567 [INFO]  Epoch[2] Batch [0-5708]	Speed: 4692.01 samples/sec	cross-entropy=0.002054	DiffWalk-accuracy=3.201787
+2024-04-02 08:32:43,624 [INFO]  Epoch[2] Train-cross-entropy=0.001980
+2024-04-02 08:32:43,625 [INFO]  Epoch[2] Train-DiffWalk-accuracy=3.195252
+2024-04-02 08:32:43,625 [INFO]  Epoch[2] Time cost=54.524
+2024-04-02 08:32:43,627 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0002.params"
+2024-04-02 08:32:47,010 [INFO]  Epoch[2] Validation-cross-entropy=0.000055
+2024-04-02 08:32:47,011 [INFO]  Epoch[2] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 08:33:22,801 [INFO]  Epoch[3] Batch [0-5708]	Speed: 2551.81 samples/sec	cross-entropy=0.001870	DiffWalk-accuracy=3.201787
+2024-04-02 08:33:53,851 [INFO]  Epoch[3] Train-cross-entropy=0.001507
+2024-04-02 08:33:53,851 [INFO]  Epoch[3] Train-DiffWalk-accuracy=3.195252
+2024-04-02 08:33:53,851 [INFO]  Epoch[3] Time cost=66.841
+2024-04-02 08:33:53,854 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0003.params"
+2024-04-02 08:33:55,766 [INFO]  Epoch[3] Validation-cross-entropy=0.000021
+2024-04-02 08:33:55,767 [INFO]  Epoch[3] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 08:34:12,183 [INFO]  Epoch[4] Batch [0-5708]	Speed: 5564.12 samples/sec	cross-entropy=0.001616	DiffWalk-accuracy=3.201787
+2024-04-02 08:34:42,233 [INFO]  Epoch[4] Train-cross-entropy=0.001480
+2024-04-02 08:34:42,233 [INFO]  Epoch[4] Train-DiffWalk-accuracy=3.195252
+2024-04-02 08:34:42,233 [INFO]  Epoch[4] Time cost=46.466
+2024-04-02 08:34:42,236 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0004.params"
+2024-04-02 08:34:43,681 [INFO]  Epoch[4] Validation-cross-entropy=0.000001
+2024-04-02 08:34:43,682 [INFO]  Epoch[4] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 08:34:43,682 [INFO]  
+========== done (304.38614988327026 s) fit model
+2024-04-02 09:46:57,090 [INFO]  
+========== start: fit model
+2024-04-02 09:46:57,091 [WARNING]  Already bound, ignoring bind()
+2024-04-02 09:47:16,965 [INFO]  Epoch[0] Batch [0-5708]	Speed: 4613.95 samples/sec	cross-entropy=0.092410	DiffWalk-accuracy=0.000000
+2024-04-02 09:47:34,573 [INFO]  Epoch[0] Train-cross-entropy=0.052116
+2024-04-02 09:47:34,574 [INFO]  Epoch[0] Train-DiffWalk-accuracy=0.000000
+2024-04-02 09:47:34,574 [INFO]  Epoch[0] Time cost=37.482
+2024-04-02 09:47:34,575 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0000.params"
+2024-04-02 09:47:35,959 [INFO]  Epoch[0] Validation-cross-entropy=0.000606
+2024-04-02 09:47:35,960 [INFO]  Epoch[0] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 09:47:53,649 [INFO]  Epoch[1] Batch [0-5708]	Speed: 5188.10 samples/sec	cross-entropy=0.005508	DiffWalk-accuracy=0.000000
+2024-04-02 09:48:14,566 [INFO]  Epoch[1] Train-cross-entropy=0.004381
+2024-04-02 09:48:14,566 [INFO]  Epoch[1] Train-DiffWalk-accuracy=0.000000
+2024-04-02 09:48:14,566 [INFO]  Epoch[1] Time cost=38.607
+2024-04-02 09:48:14,568 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0001.params"
+2024-04-02 09:48:16,114 [INFO]  Epoch[1] Validation-cross-entropy=0.000543
+2024-04-02 09:48:16,115 [INFO]  Epoch[1] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 09:48:46,345 [INFO]  Epoch[2] Batch [0-5708]	Speed: 3021.22 samples/sec	cross-entropy=0.002190	DiffWalk-accuracy=0.000000
+2024-04-02 09:49:06,958 [INFO]  Epoch[2] Train-cross-entropy=0.001960
+2024-04-02 09:49:06,958 [INFO]  Epoch[2] Train-DiffWalk-accuracy=0.000000
+2024-04-02 09:49:06,958 [INFO]  Epoch[2] Time cost=50.843
+2024-04-02 09:49:06,959 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0002.params"
+2024-04-02 09:49:07,178 [INFO]  Epoch[2] Validation-cross-entropy=0.000374
+2024-04-02 09:49:07,179 [INFO]  Epoch[2] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 09:49:15,332 [INFO]  Epoch[3] Batch [0-5708]	Speed: 11203.04 samples/sec	cross-entropy=0.001524	DiffWalk-accuracy=0.000000
+2024-04-02 09:49:29,437 [INFO]  Epoch[3] Train-cross-entropy=0.001310
+2024-04-02 09:49:29,437 [INFO]  Epoch[3] Train-DiffWalk-accuracy=0.000000
+2024-04-02 09:49:29,437 [INFO]  Epoch[3] Time cost=22.258
+2024-04-02 09:49:29,439 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0003.params"
+2024-04-02 09:49:30,808 [INFO]  Epoch[3] Validation-cross-entropy=0.000226
+2024-04-02 09:49:30,808 [INFO]  Epoch[3] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 09:49:51,894 [INFO]  Epoch[4] Batch [0-5708]	Speed: 4331.50 samples/sec	cross-entropy=0.001089	DiffWalk-accuracy=0.000000
+2024-04-02 09:50:10,929 [INFO]  Epoch[4] Train-cross-entropy=0.001005
+2024-04-02 09:50:10,930 [INFO]  Epoch[4] Train-DiffWalk-accuracy=0.000000
+2024-04-02 09:50:10,930 [INFO]  Epoch[4] Time cost=40.122
+2024-04-02 09:50:10,933 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0004.params"
+2024-04-02 09:50:11,337 [INFO]  Epoch[4] Validation-cross-entropy=0.000137
+2024-04-02 09:50:11,337 [INFO]  Epoch[4] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 09:50:11,338 [INFO]  
+========== done (194.2470362186432 s) fit model
+2024-04-02 10:49:09,577 [INFO]  
+========== start: fit model
+2024-04-02 10:49:09,577 [WARNING]  Already bound, ignoring bind()
+2024-04-02 10:49:14,123 [INFO]  Epoch[0] Batch [0-5708]	Speed: 20141.99 samples/sec	cross-entropy=0.111111	DiffWalk-accuracy=0.000000
+2024-04-02 10:49:17,571 [INFO]  Epoch[0] Train-cross-entropy=0.060283
+2024-04-02 10:49:17,571 [INFO]  Epoch[0] Train-DiffWalk-accuracy=0.000000
+2024-04-02 10:49:17,571 [INFO]  Epoch[0] Time cost=7.992
+2024-04-02 10:49:17,572 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0000.params"
+2024-04-02 10:49:17,794 [INFO]  Epoch[0] Validation-cross-entropy=0.001548
+2024-04-02 10:49:17,794 [INFO]  Epoch[0] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 10:49:21,534 [INFO]  Epoch[1] Batch [0-5708]	Speed: 24422.58 samples/sec	cross-entropy=0.003939	DiffWalk-accuracy=0.000000
+2024-04-02 10:49:25,949 [INFO]  Epoch[1] Train-cross-entropy=0.003762
+2024-04-02 10:49:25,949 [INFO]  Epoch[1] Train-DiffWalk-accuracy=0.000000
+2024-04-02 10:49:25,949 [INFO]  Epoch[1] Time cost=8.155
+2024-04-02 10:49:25,951 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0001.params"
+2024-04-02 10:49:26,189 [INFO]  Epoch[1] Validation-cross-entropy=0.000007
+2024-04-02 10:49:26,189 [INFO]  Epoch[1] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 10:49:30,121 [INFO]  Epoch[2] Batch [0-5708]	Speed: 23229.47 samples/sec	cross-entropy=0.002000	DiffWalk-accuracy=0.000000
+2024-04-02 10:49:34,046 [INFO]  Epoch[2] Train-cross-entropy=0.001903
+2024-04-02 10:49:34,047 [INFO]  Epoch[2] Train-DiffWalk-accuracy=0.000000
+2024-04-02 10:49:34,047 [INFO]  Epoch[2] Time cost=7.858
+2024-04-02 10:49:34,048 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0002.params"
+2024-04-02 10:49:34,296 [INFO]  Epoch[2] Validation-cross-entropy=0.000040
+2024-04-02 10:49:34,296 [INFO]  Epoch[2] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 10:49:38,271 [INFO]  Epoch[3] Batch [0-5708]	Speed: 22980.98 samples/sec	cross-entropy=0.001525	DiffWalk-accuracy=0.000000
+2024-04-02 10:49:43,428 [INFO]  Epoch[3] Train-cross-entropy=0.001471
+2024-04-02 10:49:43,428 [INFO]  Epoch[3] Train-DiffWalk-accuracy=0.000000
+2024-04-02 10:49:43,428 [INFO]  Epoch[3] Time cost=9.132
+2024-04-02 10:49:43,430 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0003.params"
+2024-04-02 10:49:43,662 [INFO]  Epoch[3] Validation-cross-entropy=0.000016
+2024-04-02 10:49:43,662 [INFO]  Epoch[3] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 10:49:47,267 [INFO]  Epoch[4] Batch [0-5708]	Speed: 25341.19 samples/sec	cross-entropy=0.001260	DiffWalk-accuracy=0.000000
+2024-04-02 10:49:50,786 [INFO]  Epoch[4] Train-cross-entropy=0.001289
+2024-04-02 10:49:50,786 [INFO]  Epoch[4] Train-DiffWalk-accuracy=0.000000
+2024-04-02 10:49:50,787 [INFO]  Epoch[4] Time cost=7.125
+2024-04-02 10:49:50,788 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0004.params"
+2024-04-02 10:49:51,053 [INFO]  Epoch[4] Validation-cross-entropy=0.000901
+2024-04-02 10:49:51,054 [INFO]  Epoch[4] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 10:49:51,054 [INFO]  
+========== done (41.47654128074646 s) fit model
+2024-04-02 11:19:05,780 [INFO]  
+========== start: fit model
+2024-04-02 11:19:05,781 [WARNING]  Already bound, ignoring bind()
+2024-04-02 11:19:09,908 [INFO]  Epoch[0] Batch [0-5708]	Speed: 22196.38 samples/sec	cross-entropy=0.105162	DiffWalk-accuracy=3.201261
+2024-04-02 11:19:15,119 [INFO]  Epoch[0] Train-cross-entropy=0.057957
+2024-04-02 11:19:15,119 [INFO]  Epoch[0] Train-DiffWalk-accuracy=3.203311
+2024-04-02 11:19:15,119 [INFO]  Epoch[0] Time cost=9.337
+2024-04-02 11:19:15,121 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0000.params"
+2024-04-02 11:19:15,436 [INFO]  Epoch[0] Validation-cross-entropy=0.001004
+2024-04-02 11:19:15,436 [INFO]  Epoch[0] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 11:19:19,136 [INFO]  Epoch[1] Batch [0-5708]	Speed: 24690.28 samples/sec	cross-entropy=0.005636	DiffWalk-accuracy=3.201261
+2024-04-02 11:19:23,130 [INFO]  Epoch[1] Train-cross-entropy=0.004782
+2024-04-02 11:19:23,131 [INFO]  Epoch[1] Train-DiffWalk-accuracy=3.203311
+2024-04-02 11:19:23,131 [INFO]  Epoch[1] Time cost=7.695
+2024-04-02 11:19:23,132 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0001.params"
+2024-04-02 11:19:23,471 [INFO]  Epoch[1] Validation-cross-entropy=0.000160
+2024-04-02 11:19:23,471 [INFO]  Epoch[1] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 11:19:28,368 [INFO]  Epoch[2] Batch [0-5708]	Speed: 18651.87 samples/sec	cross-entropy=0.003458	DiffWalk-accuracy=3.201261
+2024-04-02 11:19:32,709 [INFO]  Epoch[2] Train-cross-entropy=0.002769
+2024-04-02 11:19:32,710 [INFO]  Epoch[2] Train-DiffWalk-accuracy=3.203311
+2024-04-02 11:19:32,710 [INFO]  Epoch[2] Time cost=9.239
+2024-04-02 11:19:32,711 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0002.params"
+2024-04-02 11:19:33,023 [INFO]  Epoch[2] Validation-cross-entropy=0.000116
+2024-04-02 11:19:33,023 [INFO]  Epoch[2] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 11:19:37,232 [INFO]  Epoch[3] Batch [0-5708]	Speed: 21711.48 samples/sec	cross-entropy=0.001932	DiffWalk-accuracy=3.201261
+2024-04-02 11:19:41,362 [INFO]  Epoch[3] Train-cross-entropy=0.002040
+2024-04-02 11:19:41,362 [INFO]  Epoch[3] Train-DiffWalk-accuracy=3.203311
+2024-04-02 11:19:41,362 [INFO]  Epoch[3] Time cost=8.339
+2024-04-02 11:19:41,363 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0003.params"
+2024-04-02 11:19:41,628 [INFO]  Epoch[3] Validation-cross-entropy=0.000018
+2024-04-02 11:19:41,628 [INFO]  Epoch[3] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 11:19:46,518 [INFO]  Epoch[4] Batch [0-5708]	Speed: 18679.62 samples/sec	cross-entropy=0.001377	DiffWalk-accuracy=3.201261
+2024-04-02 11:19:50,929 [INFO]  Epoch[4] Train-cross-entropy=0.001405
+2024-04-02 11:19:50,929 [INFO]  Epoch[4] Train-DiffWalk-accuracy=3.203311
+2024-04-02 11:19:50,929 [INFO]  Epoch[4] Time cost=9.302
+2024-04-02 11:19:50,931 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0004.params"
+2024-04-02 11:19:51,286 [INFO]  Epoch[4] Validation-cross-entropy=0.000116
+2024-04-02 11:19:51,286 [INFO]  Epoch[4] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 11:19:51,287 [INFO]  
+========== done (45.50609111785889 s) fit model
+2024-04-02 12:07:04,756 [INFO]  
+========== start: fit model
+2024-04-02 12:07:04,756 [WARNING]  Already bound, ignoring bind()
+2024-04-02 12:07:09,797 [INFO]  Epoch[0] Batch [0-5708]	Speed: 18149.76 samples/sec	cross-entropy=0.090797	DiffWalk-accuracy=0.000000
+2024-04-02 12:07:13,904 [INFO]  Epoch[0] Train-cross-entropy=0.050507
+2024-04-02 12:07:13,904 [INFO]  Epoch[0] Train-DiffWalk-accuracy=0.000000
+2024-04-02 12:07:13,904 [INFO]  Epoch[0] Time cost=9.147
+2024-04-02 12:07:13,907 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0000.params"
+2024-04-02 12:07:14,146 [INFO]  Epoch[0] Validation-cross-entropy=0.010602
+2024-04-02 12:07:14,146 [INFO]  Epoch[0] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 12:07:17,879 [INFO]  Epoch[1] Batch [0-5708]	Speed: 24474.95 samples/sec	cross-entropy=0.006241	DiffWalk-accuracy=0.000000
+2024-04-02 12:07:21,943 [INFO]  Epoch[1] Train-cross-entropy=0.005476
+2024-04-02 12:07:21,943 [INFO]  Epoch[1] Train-DiffWalk-accuracy=0.000000
+2024-04-02 12:07:21,944 [INFO]  Epoch[1] Time cost=7.797
+2024-04-02 12:07:21,945 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0001.params"
+2024-04-02 12:07:22,166 [INFO]  Epoch[1] Validation-cross-entropy=0.000237
+2024-04-02 12:07:22,166 [INFO]  Epoch[1] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 12:07:27,493 [INFO]  Epoch[2] Batch [0-5708]	Speed: 17147.44 samples/sec	cross-entropy=0.003953	DiffWalk-accuracy=0.000000
+2024-04-02 12:07:31,529 [INFO]  Epoch[2] Train-cross-entropy=0.003341
+2024-04-02 12:07:31,529 [INFO]  Epoch[2] Train-DiffWalk-accuracy=0.000000
+2024-04-02 12:07:31,529 [INFO]  Epoch[2] Time cost=9.363
+2024-04-02 12:07:31,531 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0002.params"
+2024-04-02 12:07:31,779 [INFO]  Epoch[2] Validation-cross-entropy=0.000012
+2024-04-02 12:07:31,780 [INFO]  Epoch[2] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 12:07:36,153 [INFO]  Epoch[3] Batch [0-5708]	Speed: 20888.35 samples/sec	cross-entropy=0.002104	DiffWalk-accuracy=0.000000
+2024-04-02 12:07:40,693 [INFO]  Epoch[3] Train-cross-entropy=0.002088
+2024-04-02 12:07:40,693 [INFO]  Epoch[3] Train-DiffWalk-accuracy=0.000000
+2024-04-02 12:07:40,693 [INFO]  Epoch[3] Time cost=8.913
+2024-04-02 12:07:40,695 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0003.params"
+2024-04-02 12:07:41,502 [INFO]  Epoch[3] Validation-cross-entropy=0.000069
+2024-04-02 12:07:41,502 [INFO]  Epoch[3] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 12:07:45,516 [INFO]  Epoch[4] Batch [0-5708]	Speed: 22757.04 samples/sec	cross-entropy=0.002355	DiffWalk-accuracy=0.000000
+2024-04-02 12:07:49,705 [INFO]  Epoch[4] Train-cross-entropy=0.002045
+2024-04-02 12:07:49,705 [INFO]  Epoch[4] Train-DiffWalk-accuracy=0.000000
+2024-04-02 12:07:49,705 [INFO]  Epoch[4] Time cost=8.203
+2024-04-02 12:07:49,708 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DiffWalk/model-0004.params"
+2024-04-02 12:07:50,104 [INFO]  Epoch[4] Validation-cross-entropy=0.000443
+2024-04-02 12:07:50,104 [INFO]  Epoch[4] Validation-DiffWalk-accuracy=0.000000
+2024-04-02 12:07:50,104 [INFO]  
+========== done (45.34835338592529 s) fit model

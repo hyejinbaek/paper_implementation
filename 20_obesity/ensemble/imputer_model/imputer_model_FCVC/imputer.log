@@ -1,0 +1,40 @@
+2024-03-11 12:36:27,245 [INFO]  
+========== start: fit model
+2024-03-11 12:36:27,245 [WARNING]  Already bound, ignoring bind()
+2024-03-11 12:37:56,586 [INFO]  Epoch[0] Batch [0-48]	Speed: 8.81 samples/sec	cross-entropy=4.410648	FCVC-accuracy=0.000000
+2024-03-11 12:39:12,199 [INFO]  Epoch[0] Train-cross-entropy=2.634994
+2024-03-11 12:39:12,209 [INFO]  Epoch[0] Train-FCVC-accuracy=0.000000
+2024-03-11 12:39:12,210 [INFO]  Epoch[0] Time cost=164.944
+2024-03-11 12:39:12,213 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_FCVC/model-0000.params"
+2024-03-11 12:39:16,302 [INFO]  Epoch[0] Validation-cross-entropy=0.522742
+2024-03-11 12:39:16,302 [INFO]  Epoch[0] Validation-FCVC-accuracy=0.000000
+2024-03-11 12:41:08,779 [INFO]  Epoch[1] Batch [0-48]	Speed: 7.00 samples/sec	cross-entropy=0.312599	FCVC-accuracy=0.000000
+2024-03-11 12:42:34,488 [INFO]  Epoch[1] Train-cross-entropy=0.252183
+2024-03-11 12:42:34,488 [INFO]  Epoch[1] Train-FCVC-accuracy=0.000000
+2024-03-11 12:42:34,488 [INFO]  Epoch[1] Time cost=198.186
+2024-03-11 12:42:34,491 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_FCVC/model-0001.params"
+2024-03-11 12:42:37,840 [INFO]  Epoch[1] Validation-cross-entropy=0.182311
+2024-03-11 12:42:37,840 [INFO]  Epoch[1] Validation-FCVC-accuracy=0.000000
+2024-03-11 12:42:45,608 [INFO]  Epoch[2] Batch [0-48]	Speed: 125.35 samples/sec	cross-entropy=0.126255	FCVC-accuracy=0.000000
+2024-03-11 12:42:48,220 [INFO]  Epoch[2] Train-cross-entropy=0.113985
+2024-03-11 12:42:48,221 [INFO]  Epoch[2] Train-FCVC-accuracy=0.000000
+2024-03-11 12:42:48,221 [INFO]  Epoch[2] Time cost=10.381
+2024-03-11 12:42:48,228 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_FCVC/model-0002.params"
+2024-03-11 12:42:48,800 [INFO]  Epoch[2] Validation-cross-entropy=0.134926
+2024-03-11 12:42:48,800 [INFO]  Epoch[2] Validation-FCVC-accuracy=0.000000
+2024-03-11 12:42:49,984 [INFO]  Epoch[3] Batch [0-48]	Speed: 1215.05 samples/sec	cross-entropy=0.089811	FCVC-accuracy=0.000000
+2024-03-11 12:42:50,069 [INFO]  Epoch[3] Train-cross-entropy=0.082546
+2024-03-11 12:42:50,069 [INFO]  Epoch[3] Train-FCVC-accuracy=0.000000
+2024-03-11 12:42:50,069 [INFO]  Epoch[3] Time cost=1.269
+2024-03-11 12:42:50,071 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_FCVC/model-0003.params"
+2024-03-11 12:42:50,079 [INFO]  Epoch[3] Validation-cross-entropy=0.123759
+2024-03-11 12:42:50,079 [INFO]  Epoch[3] Validation-FCVC-accuracy=0.000000
+2024-03-11 12:42:50,128 [INFO]  Epoch[4] Batch [0-48]	Speed: 16082.49 samples/sec	cross-entropy=0.071378	FCVC-accuracy=0.000000
+2024-03-11 12:42:50,219 [INFO]  Epoch[4] Train-cross-entropy=0.065735
+2024-03-11 12:42:50,220 [INFO]  Epoch[4] Train-FCVC-accuracy=0.000000
+2024-03-11 12:42:50,220 [INFO]  Epoch[4] Time cost=0.141
+2024-03-11 12:42:50,221 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_FCVC/model-0004.params"
+2024-03-11 12:42:50,223 [INFO]  Epoch[4] Validation-cross-entropy=0.111031
+2024-03-11 12:42:50,223 [INFO]  Epoch[4] Validation-FCVC-accuracy=0.000000
+2024-03-11 12:42:50,223 [INFO]  
+========== done (382.97820377349854 s) fit model

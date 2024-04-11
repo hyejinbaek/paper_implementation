@@ -1,0 +1,1240 @@
+2024-03-05 17:40:57,569 [INFO]  
+========== start: fit model
+2024-03-05 17:40:57,570 [WARNING]  Already bound, ignoring bind()
+2024-03-05 17:41:01,886 [INFO]  Epoch[0] Batch [0-2]	Speed: 11.65 samples/sec	cross-entropy=15.196970	L-CORE-accuracy=3.666667
+2024-03-05 17:41:03,421 [INFO]  Epoch[0] Train-cross-entropy=15.496572
+2024-03-05 17:41:03,422 [INFO]  Epoch[0] Train-L-CORE-accuracy=3.500000
+2024-03-05 17:41:03,422 [INFO]  Epoch[0] Time cost=5.850
+2024-03-05 17:41:03,424 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0000.params"
+2024-03-05 17:41:03,742 [INFO]  Epoch[0] Validation-cross-entropy=7.214661
+2024-03-05 17:41:03,743 [INFO]  Epoch[0] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:41:07,637 [INFO]  Epoch[1] Batch [0-2]	Speed: 11.19 samples/sec	cross-entropy=8.490718	L-CORE-accuracy=3.666667
+2024-03-05 17:41:08,982 [INFO]  Epoch[1] Train-cross-entropy=8.517993
+2024-03-05 17:41:08,982 [INFO]  Epoch[1] Train-L-CORE-accuracy=3.500000
+2024-03-05 17:41:08,982 [INFO]  Epoch[1] Time cost=5.239
+2024-03-05 17:41:08,986 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0001.params"
+2024-03-05 17:41:09,449 [INFO]  Epoch[1] Validation-cross-entropy=3.238457
+2024-03-05 17:41:09,450 [INFO]  Epoch[1] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:41:13,145 [INFO]  Epoch[2] Batch [0-2]	Speed: 12.92 samples/sec	cross-entropy=4.947424	L-CORE-accuracy=3.666667
+2024-03-05 17:41:14,374 [INFO]  Epoch[2] Train-cross-entropy=4.661967
+2024-03-05 17:41:14,375 [INFO]  Epoch[2] Train-L-CORE-accuracy=3.500000
+2024-03-05 17:41:14,376 [INFO]  Epoch[2] Time cost=4.925
+2024-03-05 17:41:14,381 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0002.params"
+2024-03-05 17:41:14,696 [INFO]  Epoch[2] Validation-cross-entropy=1.328224
+2024-03-05 17:41:14,697 [INFO]  Epoch[2] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:41:18,534 [INFO]  Epoch[3] Batch [0-2]	Speed: 11.51 samples/sec	cross-entropy=2.807951	L-CORE-accuracy=3.666667
+2024-03-05 17:41:18,985 [INFO]  Epoch[3] Train-cross-entropy=2.499085
+2024-03-05 17:41:18,985 [INFO]  Epoch[3] Train-L-CORE-accuracy=3.500000
+2024-03-05 17:41:18,986 [INFO]  Epoch[3] Time cost=4.289
+2024-03-05 17:41:18,987 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0003.params"
+2024-03-05 17:41:18,990 [INFO]  Epoch[3] Validation-cross-entropy=0.744992
+2024-03-05 17:41:18,990 [INFO]  Epoch[3] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:41:18,994 [INFO]  Epoch[4] Batch [0-2]	Speed: 13788.55 samples/sec	cross-entropy=1.573580	L-CORE-accuracy=3.666667
+2024-03-05 17:41:19,021 [INFO]  Epoch[4] Train-cross-entropy=1.367791
+2024-03-05 17:41:19,021 [INFO]  Epoch[4] Train-L-CORE-accuracy=3.500000
+2024-03-05 17:41:19,022 [INFO]  Epoch[4] Time cost=0.032
+2024-03-05 17:41:19,029 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0004.params"
+2024-03-05 17:41:19,245 [INFO]  Epoch[4] Validation-cross-entropy=0.720758
+2024-03-05 17:41:19,246 [INFO]  Epoch[4] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:41:19,246 [INFO]  
+========== done (21.676778078079224 s) fit model
+2024-03-05 17:44:16,263 [INFO]  
+========== start: fit model
+2024-03-05 17:44:16,264 [WARNING]  Already bound, ignoring bind()
+2024-03-05 17:44:16,268 [INFO]  Epoch[0] Batch [0-2]	Speed: 23069.39 samples/sec	cross-entropy=14.576226	L-CORE-accuracy=4.000000
+2024-03-05 17:44:16,273 [INFO]  Epoch[0] Train-cross-entropy=15.500467
+2024-03-05 17:44:16,273 [INFO]  Epoch[0] Train-L-CORE-accuracy=3.500000
+2024-03-05 17:44:16,273 [INFO]  Epoch[0] Time cost=0.009
+2024-03-05 17:44:16,275 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0000.params"
+2024-03-05 17:44:16,281 [INFO]  Epoch[0] Validation-cross-entropy=86.029060
+2024-03-05 17:44:16,281 [INFO]  Epoch[0] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:44:16,291 [INFO]  Epoch[1] Batch [0-2]	Speed: 21392.69 samples/sec	cross-entropy=5.928126	L-CORE-accuracy=4.000000
+2024-03-05 17:44:16,292 [INFO]  Epoch[1] Train-cross-entropy=6.988780
+2024-03-05 17:44:16,292 [INFO]  Epoch[1] Train-L-CORE-accuracy=3.500000
+2024-03-05 17:44:16,292 [INFO]  Epoch[1] Time cost=0.011
+2024-03-05 17:44:16,293 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0001.params"
+2024-03-05 17:44:16,294 [INFO]  Epoch[1] Validation-cross-entropy=42.562775
+2024-03-05 17:44:16,294 [INFO]  Epoch[1] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:44:16,296 [INFO]  Epoch[2] Batch [0-2]	Speed: 23988.87 samples/sec	cross-entropy=3.916111	L-CORE-accuracy=4.000000
+2024-03-05 17:44:16,297 [INFO]  Epoch[2] Train-cross-entropy=4.237099
+2024-03-05 17:44:16,297 [INFO]  Epoch[2] Train-L-CORE-accuracy=3.500000
+2024-03-05 17:44:16,297 [INFO]  Epoch[2] Time cost=0.003
+2024-03-05 17:44:16,298 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0002.params"
+2024-03-05 17:44:16,299 [INFO]  Epoch[2] Validation-cross-entropy=21.068964
+2024-03-05 17:44:16,299 [INFO]  Epoch[2] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:44:16,301 [INFO]  Epoch[3] Batch [0-2]	Speed: 24947.53 samples/sec	cross-entropy=2.197068	L-CORE-accuracy=4.000000
+2024-03-05 17:44:16,302 [INFO]  Epoch[3] Train-cross-entropy=2.070423
+2024-03-05 17:44:16,302 [INFO]  Epoch[3] Train-L-CORE-accuracy=3.500000
+2024-03-05 17:44:16,302 [INFO]  Epoch[3] Time cost=0.003
+2024-03-05 17:44:16,303 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0003.params"
+2024-03-05 17:44:16,303 [INFO]  Epoch[3] Validation-cross-entropy=11.275414
+2024-03-05 17:44:16,304 [INFO]  Epoch[3] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:44:16,306 [INFO]  Epoch[4] Batch [0-2]	Speed: 23253.24 samples/sec	cross-entropy=0.755843	L-CORE-accuracy=4.000000
+2024-03-05 17:44:16,306 [INFO]  Epoch[4] Train-cross-entropy=0.634591
+2024-03-05 17:44:16,307 [INFO]  Epoch[4] Train-L-CORE-accuracy=3.500000
+2024-03-05 17:44:16,307 [INFO]  Epoch[4] Time cost=0.003
+2024-03-05 17:44:16,308 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0004.params"
+2024-03-05 17:44:16,308 [INFO]  Epoch[4] Validation-cross-entropy=6.434029
+2024-03-05 17:44:16,308 [INFO]  Epoch[4] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:44:16,308 [INFO]  
+========== done (0.045183420181274414 s) fit model
+2024-03-05 17:44:20,132 [INFO]  
+========== start: fit model
+2024-03-05 17:44:20,132 [WARNING]  Already bound, ignoring bind()
+2024-03-05 17:44:20,202 [INFO]  Epoch[0] Batch [0-2]	Speed: 17311.72 samples/sec	cross-entropy=10.213400	L-CORE-accuracy=3.666667
+2024-03-05 17:44:20,209 [INFO]  Epoch[0] Train-cross-entropy=10.262616
+2024-03-05 17:44:20,209 [INFO]  Epoch[0] Train-L-CORE-accuracy=3.000000
+2024-03-05 17:44:20,209 [INFO]  Epoch[0] Time cost=0.076
+2024-03-05 17:44:20,211 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0000.params"
+2024-03-05 17:44:20,211 [INFO]  Epoch[0] Validation-cross-entropy=6.467139
+2024-03-05 17:44:20,211 [INFO]  Epoch[0] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:44:20,214 [INFO]  Epoch[1] Batch [0-2]	Speed: 19217.89 samples/sec	cross-entropy=4.876946	L-CORE-accuracy=3.666667
+2024-03-05 17:44:20,216 [INFO]  Epoch[1] Train-cross-entropy=4.956114
+2024-03-05 17:44:20,217 [INFO]  Epoch[1] Train-L-CORE-accuracy=3.000000
+2024-03-05 17:44:20,217 [INFO]  Epoch[1] Time cost=0.006
+2024-03-05 17:44:20,220 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0001.params"
+2024-03-05 17:44:20,310 [INFO]  Epoch[1] Validation-cross-entropy=3.773211
+2024-03-05 17:44:20,310 [INFO]  Epoch[1] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:44:20,315 [INFO]  Epoch[2] Batch [0-2]	Speed: 12132.13 samples/sec	cross-entropy=2.327539	L-CORE-accuracy=3.666667
+2024-03-05 17:44:20,316 [INFO]  Epoch[2] Train-cross-entropy=2.332772
+2024-03-05 17:44:20,316 [INFO]  Epoch[2] Train-L-CORE-accuracy=3.000000
+2024-03-05 17:44:20,316 [INFO]  Epoch[2] Time cost=0.006
+2024-03-05 17:44:20,319 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0002.params"
+2024-03-05 17:44:20,322 [INFO]  Epoch[2] Validation-cross-entropy=1.786577
+2024-03-05 17:44:20,322 [INFO]  Epoch[2] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:44:20,325 [INFO]  Epoch[3] Batch [0-2]	Speed: 23954.62 samples/sec	cross-entropy=1.250973	L-CORE-accuracy=3.666667
+2024-03-05 17:44:20,325 [INFO]  Epoch[3] Train-cross-entropy=1.199546
+2024-03-05 17:44:20,325 [INFO]  Epoch[3] Train-L-CORE-accuracy=3.000000
+2024-03-05 17:44:20,325 [INFO]  Epoch[3] Time cost=0.003
+2024-03-05 17:44:20,327 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0003.params"
+2024-03-05 17:44:20,329 [INFO]  Epoch[3] Validation-cross-entropy=0.505042
+2024-03-05 17:44:20,330 [INFO]  Epoch[3] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:44:20,332 [INFO]  Epoch[4] Batch [0-2]	Speed: 24501.23 samples/sec	cross-entropy=0.884034	L-CORE-accuracy=3.666667
+2024-03-05 17:44:20,333 [INFO]  Epoch[4] Train-cross-entropy=0.778595
+2024-03-05 17:44:20,333 [INFO]  Epoch[4] Train-L-CORE-accuracy=3.000000
+2024-03-05 17:44:20,333 [INFO]  Epoch[4] Time cost=0.004
+2024-03-05 17:44:20,336 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0004.params"
+2024-03-05 17:44:20,336 [INFO]  Epoch[4] Validation-cross-entropy=0.218078
+2024-03-05 17:44:20,336 [INFO]  Epoch[4] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:44:20,336 [INFO]  
+========== done (0.20461583137512207 s) fit model
+2024-03-05 17:44:23,992 [INFO]  
+========== start: fit model
+2024-03-05 17:44:23,992 [WARNING]  Already bound, ignoring bind()
+2024-03-05 17:44:24,019 [INFO]  Epoch[0] Batch [0-2]	Speed: 10059.04 samples/sec	cross-entropy=15.961559	L-CORE-accuracy=3.000000
+2024-03-05 17:44:24,034 [INFO]  Epoch[0] Train-cross-entropy=14.917405
+2024-03-05 17:44:24,034 [INFO]  Epoch[0] Train-L-CORE-accuracy=2.750000
+2024-03-05 17:44:24,034 [INFO]  Epoch[0] Time cost=0.040
+2024-03-05 17:44:24,035 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0000.params"
+2024-03-05 17:44:24,045 [INFO]  Epoch[0] Validation-cross-entropy=7.582289
+2024-03-05 17:44:24,045 [INFO]  Epoch[0] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:44:24,056 [INFO]  Epoch[1] Batch [0-2]	Speed: 23180.95 samples/sec	cross-entropy=8.335764	L-CORE-accuracy=3.000000
+2024-03-05 17:44:24,057 [INFO]  Epoch[1] Train-cross-entropy=7.436939
+2024-03-05 17:44:24,057 [INFO]  Epoch[1] Train-L-CORE-accuracy=2.750000
+2024-03-05 17:44:24,057 [INFO]  Epoch[1] Time cost=0.012
+2024-03-05 17:44:24,061 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0001.params"
+2024-03-05 17:44:24,147 [INFO]  Epoch[1] Validation-cross-entropy=4.541278
+2024-03-05 17:44:24,147 [INFO]  Epoch[1] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:44:24,149 [INFO]  Epoch[2] Batch [0-2]	Speed: 24266.45 samples/sec	cross-entropy=4.686947	L-CORE-accuracy=3.000000
+2024-03-05 17:44:24,150 [INFO]  Epoch[2] Train-cross-entropy=4.046712
+2024-03-05 17:44:24,150 [INFO]  Epoch[2] Train-L-CORE-accuracy=2.750000
+2024-03-05 17:44:24,150 [INFO]  Epoch[2] Time cost=0.003
+2024-03-05 17:44:24,152 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0002.params"
+2024-03-05 17:44:24,152 [INFO]  Epoch[2] Validation-cross-entropy=2.535434
+2024-03-05 17:44:24,152 [INFO]  Epoch[2] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:44:24,154 [INFO]  Epoch[3] Batch [0-2]	Speed: 24873.56 samples/sec	cross-entropy=2.208835	L-CORE-accuracy=3.000000
+2024-03-05 17:44:24,155 [INFO]  Epoch[3] Train-cross-entropy=1.852214
+2024-03-05 17:44:24,155 [INFO]  Epoch[3] Train-L-CORE-accuracy=2.750000
+2024-03-05 17:44:24,155 [INFO]  Epoch[3] Time cost=0.003
+2024-03-05 17:44:24,156 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0003.params"
+2024-03-05 17:44:24,157 [INFO]  Epoch[3] Validation-cross-entropy=1.312751
+2024-03-05 17:44:24,157 [INFO]  Epoch[3] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:44:24,167 [INFO]  Epoch[4] Batch [0-2]	Speed: 13506.87 samples/sec	cross-entropy=1.052194	L-CORE-accuracy=3.000000
+2024-03-05 17:44:24,169 [INFO]  Epoch[4] Train-cross-entropy=0.877365
+2024-03-05 17:44:24,169 [INFO]  Epoch[4] Train-L-CORE-accuracy=2.750000
+2024-03-05 17:44:24,169 [INFO]  Epoch[4] Time cost=0.012
+2024-03-05 17:44:24,173 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0004.params"
+2024-03-05 17:44:24,237 [INFO]  Epoch[4] Validation-cross-entropy=0.994998
+2024-03-05 17:44:24,237 [INFO]  Epoch[4] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:44:24,237 [INFO]  
+========== done (0.24561476707458496 s) fit model
+2024-03-05 17:45:58,828 [INFO]  
+========== start: fit model
+2024-03-05 17:45:58,844 [WARNING]  Already bound, ignoring bind()
+2024-03-05 17:46:04,123 [INFO]  Epoch[0] Batch [0-2]	Speed: 8.38 samples/sec	cross-entropy=19.613416	L-CORE-accuracy=3.666667
+2024-03-05 17:46:05,628 [INFO]  Epoch[0] Train-cross-entropy=18.578783
+2024-03-05 17:46:05,628 [INFO]  Epoch[0] Train-L-CORE-accuracy=3.500000
+2024-03-05 17:46:05,628 [INFO]  Epoch[0] Time cost=6.783
+2024-03-05 17:46:05,631 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0000.params"
+2024-03-05 17:46:05,969 [INFO]  Epoch[0] Validation-cross-entropy=8.031950
+2024-03-05 17:46:05,970 [INFO]  Epoch[0] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:46:09,942 [INFO]  Epoch[1] Batch [0-2]	Speed: 11.92 samples/sec	cross-entropy=10.454667	L-CORE-accuracy=3.666667
+2024-03-05 17:46:11,575 [INFO]  Epoch[1] Train-cross-entropy=10.132031
+2024-03-05 17:46:11,575 [INFO]  Epoch[1] Train-L-CORE-accuracy=3.500000
+2024-03-05 17:46:11,575 [INFO]  Epoch[1] Time cost=5.606
+2024-03-05 17:46:11,580 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0001.params"
+2024-03-05 17:46:12,037 [INFO]  Epoch[1] Validation-cross-entropy=5.908880
+2024-03-05 17:46:12,038 [INFO]  Epoch[1] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:46:16,120 [INFO]  Epoch[2] Batch [0-2]	Speed: 9.39 samples/sec	cross-entropy=5.242650	L-CORE-accuracy=3.666667
+2024-03-05 17:46:17,569 [INFO]  Epoch[2] Train-cross-entropy=5.136126
+2024-03-05 17:46:17,570 [INFO]  Epoch[2] Train-L-CORE-accuracy=3.500000
+2024-03-05 17:46:17,570 [INFO]  Epoch[2] Time cost=5.532
+2024-03-05 17:46:17,573 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0002.params"
+2024-03-05 17:46:17,922 [INFO]  Epoch[2] Validation-cross-entropy=4.207271
+2024-03-05 17:46:17,922 [INFO]  Epoch[2] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:46:21,743 [INFO]  Epoch[3] Batch [0-2]	Speed: 12.49 samples/sec	cross-entropy=2.418480	L-CORE-accuracy=3.666667
+2024-03-05 17:46:23,205 [INFO]  Epoch[3] Train-cross-entropy=2.337431
+2024-03-05 17:46:23,206 [INFO]  Epoch[3] Train-L-CORE-accuracy=3.500000
+2024-03-05 17:46:23,206 [INFO]  Epoch[3] Time cost=5.283
+2024-03-05 17:46:23,208 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0003.params"
+2024-03-05 17:46:23,447 [INFO]  Epoch[3] Validation-cross-entropy=2.697080
+2024-03-05 17:46:23,448 [INFO]  Epoch[3] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:46:27,603 [INFO]  Epoch[4] Batch [0-2]	Speed: 10.93 samples/sec	cross-entropy=1.227612	L-CORE-accuracy=3.666667
+2024-03-05 17:46:28,766 [INFO]  Epoch[4] Train-cross-entropy=1.125595
+2024-03-05 17:46:28,767 [INFO]  Epoch[4] Train-L-CORE-accuracy=3.500000
+2024-03-05 17:46:28,767 [INFO]  Epoch[4] Time cost=5.319
+2024-03-05 17:46:28,772 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0004.params"
+2024-03-05 17:46:29,154 [INFO]  Epoch[4] Validation-cross-entropy=1.598358
+2024-03-05 17:46:29,155 [INFO]  Epoch[4] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:46:29,155 [INFO]  
+========== done (30.32720112800598 s) fit model
+2024-03-05 17:49:53,550 [INFO]  
+========== start: fit model
+2024-03-05 17:49:53,565 [WARNING]  Already bound, ignoring bind()
+2024-03-05 17:49:59,021 [INFO]  Epoch[0] Batch [0-2]	Speed: 9.01 samples/sec	cross-entropy=20.161889	L-CORE-accuracy=0.000000
+2024-03-05 17:50:00,574 [INFO]  Epoch[0] Train-cross-entropy=18.115321
+2024-03-05 17:50:00,574 [INFO]  Epoch[0] Train-L-CORE-accuracy=0.000000
+2024-03-05 17:50:00,575 [INFO]  Epoch[0] Time cost=6.995
+2024-03-05 17:50:00,579 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0000.params"
+2024-03-05 17:50:00,988 [INFO]  Epoch[0] Validation-cross-entropy=93.396568
+2024-03-05 17:50:00,988 [INFO]  Epoch[0] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:50:05,213 [INFO]  Epoch[1] Batch [0-2]	Speed: 12.52 samples/sec	cross-entropy=10.553913	L-CORE-accuracy=0.000000
+2024-03-05 17:50:05,418 [INFO]  Epoch[1] Train-cross-entropy=9.722093
+2024-03-05 17:50:05,419 [INFO]  Epoch[1] Train-L-CORE-accuracy=0.000000
+2024-03-05 17:50:05,419 [INFO]  Epoch[1] Time cost=4.430
+2024-03-05 17:50:05,420 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0001.params"
+2024-03-05 17:50:05,421 [INFO]  Epoch[1] Validation-cross-entropy=63.845730
+2024-03-05 17:50:05,421 [INFO]  Epoch[1] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:50:05,423 [INFO]  Epoch[2] Batch [0-2]	Speed: 21220.19 samples/sec	cross-entropy=5.522133	L-CORE-accuracy=0.000000
+2024-03-05 17:50:05,424 [INFO]  Epoch[2] Train-cross-entropy=5.224473
+2024-03-05 17:50:05,424 [INFO]  Epoch[2] Train-L-CORE-accuracy=0.000000
+2024-03-05 17:50:05,424 [INFO]  Epoch[2] Time cost=0.003
+2024-03-05 17:50:05,426 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0002.params"
+2024-03-05 17:50:05,426 [INFO]  Epoch[2] Validation-cross-entropy=44.869545
+2024-03-05 17:50:05,426 [INFO]  Epoch[2] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:50:05,429 [INFO]  Epoch[3] Batch [0-2]	Speed: 24855.13 samples/sec	cross-entropy=2.586937	L-CORE-accuracy=0.000000
+2024-03-05 17:50:05,444 [INFO]  Epoch[3] Train-cross-entropy=2.464326
+2024-03-05 17:50:05,444 [INFO]  Epoch[3] Train-L-CORE-accuracy=0.000000
+2024-03-05 17:50:05,444 [INFO]  Epoch[3] Time cost=0.017
+2024-03-05 17:50:05,445 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0003.params"
+2024-03-05 17:50:05,690 [INFO]  Epoch[3] Validation-cross-entropy=31.520489
+2024-03-05 17:50:05,690 [INFO]  Epoch[3] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:50:10,300 [INFO]  Epoch[4] Batch [0-2]	Speed: 10.64 samples/sec	cross-entropy=1.136129	L-CORE-accuracy=0.000000
+2024-03-05 17:50:11,799 [INFO]  Epoch[4] Train-cross-entropy=1.047451
+2024-03-05 17:50:11,799 [INFO]  Epoch[4] Train-L-CORE-accuracy=0.000000
+2024-03-05 17:50:11,799 [INFO]  Epoch[4] Time cost=6.109
+2024-03-05 17:50:11,801 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0004.params"
+2024-03-05 17:50:12,169 [INFO]  Epoch[4] Validation-cross-entropy=20.590792
+2024-03-05 17:50:12,169 [INFO]  Epoch[4] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:50:12,169 [INFO]  
+========== done (18.619054317474365 s) fit model
+2024-03-05 17:53:33,438 [INFO]  
+========== start: fit model
+2024-03-05 17:53:33,438 [WARNING]  Already bound, ignoring bind()
+2024-03-05 17:53:33,970 [INFO]  Epoch[0] Batch [0-2]	Speed: 15360.23 samples/sec	cross-entropy=17.849785	L-CORE-accuracy=0.000000
+2024-03-05 17:53:33,971 [INFO]  Epoch[0] Train-cross-entropy=18.152990
+2024-03-05 17:53:33,971 [INFO]  Epoch[0] Train-L-CORE-accuracy=0.000000
+2024-03-05 17:53:33,971 [INFO]  Epoch[0] Time cost=0.532
+2024-03-05 17:53:33,973 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0000.params"
+2024-03-05 17:53:33,973 [INFO]  Epoch[0] Validation-cross-entropy=21.816631
+2024-03-05 17:53:33,973 [INFO]  Epoch[0] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:53:34,002 [INFO]  Epoch[1] Batch [0-2]	Speed: 2581.16 samples/sec	cross-entropy=9.121755	L-CORE-accuracy=0.000000
+2024-03-05 17:53:34,003 [INFO]  Epoch[1] Train-cross-entropy=9.491261
+2024-03-05 17:53:34,003 [INFO]  Epoch[1] Train-L-CORE-accuracy=0.000000
+2024-03-05 17:53:34,004 [INFO]  Epoch[1] Time cost=0.030
+2024-03-05 17:53:34,005 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0001.params"
+2024-03-05 17:53:34,006 [INFO]  Epoch[1] Validation-cross-entropy=9.399079
+2024-03-05 17:53:34,006 [INFO]  Epoch[1] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:53:34,008 [INFO]  Epoch[2] Batch [0-2]	Speed: 24582.00 samples/sec	cross-entropy=4.449867	L-CORE-accuracy=0.000000
+2024-03-05 17:53:34,009 [INFO]  Epoch[2] Train-cross-entropy=4.671234
+2024-03-05 17:53:34,009 [INFO]  Epoch[2] Train-L-CORE-accuracy=0.000000
+2024-03-05 17:53:34,009 [INFO]  Epoch[2] Time cost=0.003
+2024-03-05 17:53:34,010 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0002.params"
+2024-03-05 17:53:34,013 [INFO]  Epoch[2] Validation-cross-entropy=3.744865
+2024-03-05 17:53:34,013 [INFO]  Epoch[2] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:53:34,015 [INFO]  Epoch[3] Batch [0-2]	Speed: 25059.32 samples/sec	cross-entropy=2.088961	L-CORE-accuracy=0.000000
+2024-03-05 17:53:34,016 [INFO]  Epoch[3] Train-cross-entropy=2.129309
+2024-03-05 17:53:34,016 [INFO]  Epoch[3] Train-L-CORE-accuracy=0.000000
+2024-03-05 17:53:34,016 [INFO]  Epoch[3] Time cost=0.003
+2024-03-05 17:53:34,018 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0003.params"
+2024-03-05 17:53:34,019 [INFO]  Epoch[3] Validation-cross-entropy=1.421931
+2024-03-05 17:53:34,019 [INFO]  Epoch[3] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:53:38,051 [INFO]  Epoch[4] Batch [0-2]	Speed: 10.76 samples/sec	cross-entropy=1.189763	L-CORE-accuracy=0.000000
+2024-03-05 17:53:39,349 [INFO]  Epoch[4] Train-cross-entropy=1.145999
+2024-03-05 17:53:39,350 [INFO]  Epoch[4] Train-L-CORE-accuracy=0.000000
+2024-03-05 17:53:39,350 [INFO]  Epoch[4] Time cost=5.331
+2024-03-05 17:53:39,354 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0004.params"
+2024-03-05 17:53:39,688 [INFO]  Epoch[4] Validation-cross-entropy=0.462370
+2024-03-05 17:53:39,688 [INFO]  Epoch[4] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:53:39,689 [INFO]  
+========== done (6.2511584758758545 s) fit model
+2024-03-05 17:57:14,319 [INFO]  
+========== start: fit model
+2024-03-05 17:57:14,319 [WARNING]  Already bound, ignoring bind()
+2024-03-05 17:57:19,797 [INFO]  Epoch[0] Batch [0-2]	Speed: 9.19 samples/sec	cross-entropy=20.288035	L-CORE-accuracy=0.000000
+2024-03-05 17:57:21,429 [INFO]  Epoch[0] Train-cross-entropy=20.186213
+2024-03-05 17:57:21,430 [INFO]  Epoch[0] Train-L-CORE-accuracy=0.000000
+2024-03-05 17:57:21,430 [INFO]  Epoch[0] Time cost=7.109
+2024-03-05 17:57:21,433 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0000.params"
+2024-03-05 17:57:21,813 [INFO]  Epoch[0] Validation-cross-entropy=10.335574
+2024-03-05 17:57:21,814 [INFO]  Epoch[0] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:57:25,821 [INFO]  Epoch[1] Batch [0-2]	Speed: 11.47 samples/sec	cross-entropy=11.381235	L-CORE-accuracy=0.000000
+2024-03-05 17:57:26,198 [INFO]  Epoch[1] Train-cross-entropy=11.470255
+2024-03-05 17:57:26,198 [INFO]  Epoch[1] Train-L-CORE-accuracy=0.000000
+2024-03-05 17:57:26,198 [INFO]  Epoch[1] Time cost=4.384
+2024-03-05 17:57:26,199 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0001.params"
+2024-03-05 17:57:26,464 [INFO]  Epoch[1] Validation-cross-entropy=7.067389
+2024-03-05 17:57:26,464 [INFO]  Epoch[1] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:57:31,133 [INFO]  Epoch[2] Batch [0-2]	Speed: 10.69 samples/sec	cross-entropy=6.080531	L-CORE-accuracy=0.000000
+2024-03-05 17:57:32,313 [INFO]  Epoch[2] Train-cross-entropy=6.124920
+2024-03-05 17:57:32,314 [INFO]  Epoch[2] Train-L-CORE-accuracy=0.000000
+2024-03-05 17:57:32,314 [INFO]  Epoch[2] Time cost=5.850
+2024-03-05 17:57:32,319 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0002.params"
+2024-03-05 17:57:32,730 [INFO]  Epoch[2] Validation-cross-entropy=4.377415
+2024-03-05 17:57:32,731 [INFO]  Epoch[2] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:57:36,672 [INFO]  Epoch[3] Batch [0-2]	Speed: 11.37 samples/sec	cross-entropy=2.887624	L-CORE-accuracy=0.000000
+2024-03-05 17:57:38,034 [INFO]  Epoch[3] Train-cross-entropy=2.931176
+2024-03-05 17:57:38,034 [INFO]  Epoch[3] Train-L-CORE-accuracy=0.000000
+2024-03-05 17:57:38,034 [INFO]  Epoch[3] Time cost=5.303
+2024-03-05 17:57:38,036 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0003.params"
+2024-03-05 17:57:38,448 [INFO]  Epoch[3] Validation-cross-entropy=2.439512
+2024-03-05 17:57:38,448 [INFO]  Epoch[3] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:57:39,386 [INFO]  Epoch[4] Batch [0-2]	Speed: 5733.35 samples/sec	cross-entropy=1.332498	L-CORE-accuracy=0.000000
+2024-03-05 17:57:39,387 [INFO]  Epoch[4] Train-cross-entropy=1.381147
+2024-03-05 17:57:39,387 [INFO]  Epoch[4] Train-L-CORE-accuracy=0.000000
+2024-03-05 17:57:39,387 [INFO]  Epoch[4] Time cost=0.939
+2024-03-05 17:57:39,389 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0004.params"
+2024-03-05 17:57:39,389 [INFO]  Epoch[4] Validation-cross-entropy=1.240603
+2024-03-05 17:57:39,389 [INFO]  Epoch[4] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:57:39,389 [INFO]  
+========== done (25.070510625839233 s) fit model
+2024-03-05 17:58:30,481 [INFO]  
+========== start: fit model
+2024-03-05 17:58:30,481 [WARNING]  Already bound, ignoring bind()
+2024-03-05 17:58:30,536 [INFO]  Epoch[0] Batch [0-2]	Speed: 3602.39 samples/sec	cross-entropy=15.357010	L-CORE-accuracy=0.000000
+2024-03-05 17:58:30,538 [INFO]  Epoch[0] Train-cross-entropy=15.129594
+2024-03-05 17:58:30,538 [INFO]  Epoch[0] Train-L-CORE-accuracy=0.000000
+2024-03-05 17:58:30,539 [INFO]  Epoch[0] Time cost=0.056
+2024-03-05 17:58:30,542 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0000.params"
+2024-03-05 17:58:30,573 [INFO]  Epoch[0] Validation-cross-entropy=3.013684
+2024-03-05 17:58:30,573 [INFO]  Epoch[0] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:58:30,576 [INFO]  Epoch[1] Batch [0-2]	Speed: 18459.32 samples/sec	cross-entropy=7.304566	L-CORE-accuracy=0.000000
+2024-03-05 17:58:30,578 [INFO]  Epoch[1] Train-cross-entropy=7.212615
+2024-03-05 17:58:30,578 [INFO]  Epoch[1] Train-L-CORE-accuracy=0.000000
+2024-03-05 17:58:30,579 [INFO]  Epoch[1] Time cost=0.005
+2024-03-05 17:58:30,580 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0001.params"
+2024-03-05 17:58:30,583 [INFO]  Epoch[1] Validation-cross-entropy=1.534558
+2024-03-05 17:58:30,583 [INFO]  Epoch[1] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:58:30,677 [INFO]  Epoch[2] Batch [0-2]	Speed: 8498.56 samples/sec	cross-entropy=2.931845	L-CORE-accuracy=0.000000
+2024-03-05 17:58:30,679 [INFO]  Epoch[2] Train-cross-entropy=2.838963
+2024-03-05 17:58:30,679 [INFO]  Epoch[2] Train-L-CORE-accuracy=0.000000
+2024-03-05 17:58:30,680 [INFO]  Epoch[2] Time cost=0.096
+2024-03-05 17:58:30,683 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0002.params"
+2024-03-05 17:58:30,684 [INFO]  Epoch[2] Validation-cross-entropy=0.661580
+2024-03-05 17:58:30,684 [INFO]  Epoch[2] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:58:30,694 [INFO]  Epoch[3] Batch [0-2]	Speed: 13740.55 samples/sec	cross-entropy=1.075884	L-CORE-accuracy=0.000000
+2024-03-05 17:58:30,699 [INFO]  Epoch[3] Train-cross-entropy=1.027044
+2024-03-05 17:58:30,699 [INFO]  Epoch[3] Train-L-CORE-accuracy=0.000000
+2024-03-05 17:58:30,699 [INFO]  Epoch[3] Time cost=0.015
+2024-03-05 17:58:30,701 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0003.params"
+2024-03-05 17:58:30,770 [INFO]  Epoch[3] Validation-cross-entropy=0.385695
+2024-03-05 17:58:30,770 [INFO]  Epoch[3] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:58:30,772 [INFO]  Epoch[4] Batch [0-2]	Speed: 24915.12 samples/sec	cross-entropy=0.783625	L-CORE-accuracy=0.000000
+2024-03-05 17:58:30,773 [INFO]  Epoch[4] Train-cross-entropy=0.757972
+2024-03-05 17:58:30,773 [INFO]  Epoch[4] Train-L-CORE-accuracy=0.000000
+2024-03-05 17:58:30,774 [INFO]  Epoch[4] Time cost=0.004
+2024-03-05 17:58:30,775 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0004.params"
+2024-03-05 17:58:30,777 [INFO]  Epoch[4] Validation-cross-entropy=0.520731
+2024-03-05 17:58:30,777 [INFO]  Epoch[4] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:58:30,777 [INFO]  
+========== done (0.295917272567749 s) fit model
+2024-03-05 17:58:37,739 [INFO]  
+========== start: fit model
+2024-03-05 17:58:37,740 [WARNING]  Already bound, ignoring bind()
+2024-03-05 17:58:37,748 [INFO]  Epoch[0] Batch [0-2]	Speed: 23984.58 samples/sec	cross-entropy=31.831166	L-CORE-accuracy=3.666667
+2024-03-05 17:58:37,749 [INFO]  Epoch[0] Train-cross-entropy=25.341702
+2024-03-05 17:58:37,749 [INFO]  Epoch[0] Train-L-CORE-accuracy=3.750000
+2024-03-05 17:58:37,749 [INFO]  Epoch[0] Time cost=0.009
+2024-03-05 17:58:37,751 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0000.params"
+2024-03-05 17:58:37,752 [INFO]  Epoch[0] Validation-cross-entropy=23.226933
+2024-03-05 17:58:37,752 [INFO]  Epoch[0] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:58:37,757 [INFO]  Epoch[1] Batch [0-2]	Speed: 7905.39 samples/sec	cross-entropy=20.969440	L-CORE-accuracy=3.666667
+2024-03-05 17:58:37,761 [INFO]  Epoch[1] Train-cross-entropy=16.863127
+2024-03-05 17:58:37,761 [INFO]  Epoch[1] Train-L-CORE-accuracy=3.750000
+2024-03-05 17:58:37,761 [INFO]  Epoch[1] Time cost=0.009
+2024-03-05 17:58:37,763 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0001.params"
+2024-03-05 17:58:37,763 [INFO]  Epoch[1] Validation-cross-entropy=14.794948
+2024-03-05 17:58:37,764 [INFO]  Epoch[1] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:58:37,766 [INFO]  Epoch[2] Batch [0-2]	Speed: 22365.89 samples/sec	cross-entropy=14.090159	L-CORE-accuracy=3.666667
+2024-03-05 17:58:37,767 [INFO]  Epoch[2] Train-cross-entropy=11.274718
+2024-03-05 17:58:37,767 [INFO]  Epoch[2] Train-L-CORE-accuracy=3.750000
+2024-03-05 17:58:37,768 [INFO]  Epoch[2] Time cost=0.004
+2024-03-05 17:58:37,769 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0002.params"
+2024-03-05 17:58:37,770 [INFO]  Epoch[2] Validation-cross-entropy=9.529171
+2024-03-05 17:58:37,770 [INFO]  Epoch[2] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:58:37,772 [INFO]  Epoch[3] Batch [0-2]	Speed: 24859.74 samples/sec	cross-entropy=9.042712	L-CORE-accuracy=3.666667
+2024-03-05 17:58:37,773 [INFO]  Epoch[3] Train-cross-entropy=7.130083
+2024-03-05 17:58:37,773 [INFO]  Epoch[3] Train-L-CORE-accuracy=3.750000
+2024-03-05 17:58:37,773 [INFO]  Epoch[3] Time cost=0.003
+2024-03-05 17:58:37,793 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0003.params"
+2024-03-05 17:58:37,797 [INFO]  Epoch[3] Validation-cross-entropy=6.099367
+2024-03-05 17:58:37,797 [INFO]  Epoch[3] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:58:37,800 [INFO]  Epoch[4] Batch [0-2]	Speed: 24314.81 samples/sec	cross-entropy=5.433038	L-CORE-accuracy=3.666667
+2024-03-05 17:58:37,800 [INFO]  Epoch[4] Train-cross-entropy=4.219385
+2024-03-05 17:58:37,800 [INFO]  Epoch[4] Train-L-CORE-accuracy=3.750000
+2024-03-05 17:58:37,800 [INFO]  Epoch[4] Time cost=0.003
+2024-03-05 17:58:37,804 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0004.params"
+2024-03-05 17:58:37,821 [INFO]  Epoch[4] Validation-cross-entropy=3.814063
+2024-03-05 17:58:37,821 [INFO]  Epoch[4] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:58:37,821 [INFO]  
+========== done (0.08162784576416016 s) fit model
+2024-03-05 17:58:46,209 [INFO]  
+========== start: fit model
+2024-03-05 17:58:46,210 [WARNING]  Already bound, ignoring bind()
+2024-03-05 17:58:52,104 [INFO]  Epoch[0] Batch [0-2]	Speed: 9.07 samples/sec	cross-entropy=28.924482	L-CORE-accuracy=3.666667
+2024-03-05 17:58:53,646 [INFO]  Epoch[0] Train-cross-entropy=28.905890
+2024-03-05 17:58:53,651 [INFO]  Epoch[0] Train-L-CORE-accuracy=3.500000
+2024-03-05 17:58:53,651 [INFO]  Epoch[0] Time cost=7.441
+2024-03-05 17:58:53,669 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0000.params"
+2024-03-05 17:58:53,960 [INFO]  Epoch[0] Validation-cross-entropy=9.817117
+2024-03-05 17:58:53,961 [INFO]  Epoch[0] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:58:58,341 [INFO]  Epoch[1] Batch [0-2]	Speed: 11.81 samples/sec	cross-entropy=18.234463	L-CORE-accuracy=3.666667
+2024-03-05 17:59:00,413 [INFO]  Epoch[1] Train-cross-entropy=18.739233
+2024-03-05 17:59:00,414 [INFO]  Epoch[1] Train-L-CORE-accuracy=3.500000
+2024-03-05 17:59:00,414 [INFO]  Epoch[1] Time cost=6.453
+2024-03-05 17:59:00,417 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0001.params"
+2024-03-05 17:59:00,605 [INFO]  Epoch[1] Validation-cross-entropy=9.543008
+2024-03-05 17:59:00,606 [INFO]  Epoch[1] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:59:01,815 [INFO]  Epoch[2] Batch [0-2]	Speed: 26.55 samples/sec	cross-entropy=11.376419	L-CORE-accuracy=3.666667
+2024-03-05 17:59:03,602 [INFO]  Epoch[2] Train-cross-entropy=11.935398
+2024-03-05 17:59:03,602 [INFO]  Epoch[2] Train-L-CORE-accuracy=3.500000
+2024-03-05 17:59:03,602 [INFO]  Epoch[2] Time cost=2.996
+2024-03-05 17:59:03,607 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0002.params"
+2024-03-05 17:59:04,053 [INFO]  Epoch[2] Validation-cross-entropy=8.840423
+2024-03-05 17:59:04,053 [INFO]  Epoch[2] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:59:08,033 [INFO]  Epoch[3] Batch [0-2]	Speed: 11.66 samples/sec	cross-entropy=6.795414	L-CORE-accuracy=3.666667
+2024-03-05 17:59:08,793 [INFO]  Epoch[3] Train-cross-entropy=7.282988
+2024-03-05 17:59:08,793 [INFO]  Epoch[3] Train-L-CORE-accuracy=3.500000
+2024-03-05 17:59:08,794 [INFO]  Epoch[3] Time cost=4.741
+2024-03-05 17:59:08,796 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0003.params"
+2024-03-05 17:59:09,004 [INFO]  Epoch[3] Validation-cross-entropy=7.514982
+2024-03-05 17:59:09,004 [INFO]  Epoch[3] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:59:12,489 [INFO]  Epoch[4] Batch [0-2]	Speed: 13.36 samples/sec	cross-entropy=3.883266	L-CORE-accuracy=3.666667
+2024-03-05 17:59:13,798 [INFO]  Epoch[4] Train-cross-entropy=4.242227
+2024-03-05 17:59:13,799 [INFO]  Epoch[4] Train-L-CORE-accuracy=3.500000
+2024-03-05 17:59:13,799 [INFO]  Epoch[4] Time cost=4.795
+2024-03-05 17:59:13,803 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0004.params"
+2024-03-05 17:59:14,234 [INFO]  Epoch[4] Validation-cross-entropy=5.667799
+2024-03-05 17:59:14,235 [INFO]  Epoch[4] Validation-L-CORE-accuracy=0.000000
+2024-03-05 17:59:14,235 [INFO]  
+========== done (28.02604913711548 s) fit model
+2024-03-05 18:03:04,468 [INFO]  
+========== start: fit model
+2024-03-05 18:03:04,468 [WARNING]  Already bound, ignoring bind()
+2024-03-05 18:03:09,457 [INFO]  Epoch[0] Batch [0-2]	Speed: 10.52 samples/sec	cross-entropy=16.674789	L-CORE-accuracy=0.000000
+2024-03-05 18:03:10,809 [INFO]  Epoch[0] Train-cross-entropy=15.636475
+2024-03-05 18:03:10,810 [INFO]  Epoch[0] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:03:10,810 [INFO]  Epoch[0] Time cost=6.341
+2024-03-05 18:03:10,812 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0000.params"
+2024-03-05 18:03:11,272 [INFO]  Epoch[0] Validation-cross-entropy=4.467538
+2024-03-05 18:03:11,272 [INFO]  Epoch[0] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:03:15,497 [INFO]  Epoch[1] Batch [0-2]	Speed: 12.05 samples/sec	cross-entropy=8.986682	L-CORE-accuracy=0.000000
+2024-03-05 18:03:17,017 [INFO]  Epoch[1] Train-cross-entropy=8.384135
+2024-03-05 18:03:17,017 [INFO]  Epoch[1] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:03:17,017 [INFO]  Epoch[1] Time cost=5.745
+2024-03-05 18:03:17,019 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0001.params"
+2024-03-05 18:03:17,118 [INFO]  Epoch[1] Validation-cross-entropy=2.421395
+2024-03-05 18:03:17,119 [INFO]  Epoch[1] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:03:18,341 [INFO]  Epoch[2] Batch [0-2]	Speed: 26.22 samples/sec	cross-entropy=4.409812	L-CORE-accuracy=0.000000
+2024-03-05 18:03:19,552 [INFO]  Epoch[2] Train-cross-entropy=4.018456
+2024-03-05 18:03:19,553 [INFO]  Epoch[2] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:03:19,553 [INFO]  Epoch[2] Time cost=2.434
+2024-03-05 18:03:19,555 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0002.params"
+2024-03-05 18:03:20,003 [INFO]  Epoch[2] Validation-cross-entropy=1.426342
+2024-03-05 18:03:20,004 [INFO]  Epoch[2] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:03:24,167 [INFO]  Epoch[3] Batch [0-2]	Speed: 12.06 samples/sec	cross-entropy=1.856583	L-CORE-accuracy=0.000000
+2024-03-05 18:03:25,543 [INFO]  Epoch[3] Train-cross-entropy=1.647019
+2024-03-05 18:03:25,544 [INFO]  Epoch[3] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:03:25,544 [INFO]  Epoch[3] Time cost=5.540
+2024-03-05 18:03:25,546 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0003.params"
+2024-03-05 18:03:25,841 [INFO]  Epoch[3] Validation-cross-entropy=0.908378
+2024-03-05 18:03:25,842 [INFO]  Epoch[3] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:03:28,397 [INFO]  Epoch[4] Batch [0-2]	Speed: 31.02 samples/sec	cross-entropy=0.798024	L-CORE-accuracy=0.000000
+2024-03-05 18:03:28,399 [INFO]  Epoch[4] Train-cross-entropy=0.728807
+2024-03-05 18:03:28,399 [INFO]  Epoch[4] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:03:28,400 [INFO]  Epoch[4] Time cost=2.558
+2024-03-05 18:03:28,402 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0004.params"
+2024-03-05 18:03:28,402 [INFO]  Epoch[4] Validation-cross-entropy=0.684435
+2024-03-05 18:03:28,402 [INFO]  Epoch[4] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:03:28,402 [INFO]  
+========== done (23.934574604034424 s) fit model
+2024-03-05 18:06:55,888 [INFO]  
+========== start: fit model
+2024-03-05 18:06:55,888 [WARNING]  Already bound, ignoring bind()
+2024-03-05 18:06:57,816 [INFO]  Epoch[0] Batch [0-2]	Speed: 16062.44 samples/sec	cross-entropy=18.637186	L-CORE-accuracy=3.333333
+2024-03-05 18:06:57,818 [INFO]  Epoch[0] Train-cross-entropy=17.399266
+2024-03-05 18:06:57,818 [INFO]  Epoch[0] Train-L-CORE-accuracy=3.250000
+2024-03-05 18:06:57,818 [INFO]  Epoch[0] Time cost=1.927
+2024-03-05 18:06:57,822 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0000.params"
+2024-03-05 18:06:57,827 [INFO]  Epoch[0] Validation-cross-entropy=9.763433
+2024-03-05 18:06:57,827 [INFO]  Epoch[0] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:06:57,830 [INFO]  Epoch[1] Batch [0-2]	Speed: 16408.04 samples/sec	cross-entropy=9.599754	L-CORE-accuracy=3.333333
+2024-03-05 18:06:57,831 [INFO]  Epoch[1] Train-cross-entropy=9.267939
+2024-03-05 18:06:57,831 [INFO]  Epoch[1] Train-L-CORE-accuracy=3.250000
+2024-03-05 18:06:57,832 [INFO]  Epoch[1] Time cost=0.005
+2024-03-05 18:06:57,833 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0001.params"
+2024-03-05 18:06:57,834 [INFO]  Epoch[1] Validation-cross-entropy=5.652630
+2024-03-05 18:06:57,835 [INFO]  Epoch[1] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:06:57,837 [INFO]  Epoch[2] Batch [0-2]	Speed: 21047.16 samples/sec	cross-entropy=4.911198	L-CORE-accuracy=3.333333
+2024-03-05 18:06:58,914 [INFO]  Epoch[2] Train-cross-entropy=4.653046
+2024-03-05 18:06:58,914 [INFO]  Epoch[2] Train-L-CORE-accuracy=3.250000
+2024-03-05 18:06:58,915 [INFO]  Epoch[2] Time cost=1.080
+2024-03-05 18:06:58,917 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0002.params"
+2024-03-05 18:06:59,383 [INFO]  Epoch[2] Validation-cross-entropy=1.861392
+2024-03-05 18:06:59,383 [INFO]  Epoch[2] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:07:04,170 [INFO]  Epoch[3] Batch [0-2]	Speed: 10.62 samples/sec	cross-entropy=2.191943	L-CORE-accuracy=3.333333
+2024-03-05 18:07:05,729 [INFO]  Epoch[3] Train-cross-entropy=2.023354
+2024-03-05 18:07:05,729 [INFO]  Epoch[3] Train-L-CORE-accuracy=3.250000
+2024-03-05 18:07:05,729 [INFO]  Epoch[3] Time cost=6.346
+2024-03-05 18:07:05,733 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0003.params"
+2024-03-05 18:07:06,045 [INFO]  Epoch[3] Validation-cross-entropy=0.212146
+2024-03-05 18:07:06,045 [INFO]  Epoch[3] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:07:10,171 [INFO]  Epoch[4] Batch [0-2]	Speed: 11.67 samples/sec	cross-entropy=0.970903	L-CORE-accuracy=3.333333
+2024-03-05 18:07:10,172 [INFO]  Epoch[4] Train-cross-entropy=0.983635
+2024-03-05 18:07:10,173 [INFO]  Epoch[4] Train-L-CORE-accuracy=3.250000
+2024-03-05 18:07:10,173 [INFO]  Epoch[4] Time cost=4.128
+2024-03-05 18:07:10,176 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0004.params"
+2024-03-05 18:07:10,177 [INFO]  Epoch[4] Validation-cross-entropy=0.417685
+2024-03-05 18:07:10,177 [INFO]  Epoch[4] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:07:10,177 [INFO]  
+========== done (14.289016246795654 s) fit model
+2024-03-05 18:10:18,290 [INFO]  
+========== start: fit model
+2024-03-05 18:10:18,290 [WARNING]  Already bound, ignoring bind()
+2024-03-05 18:10:22,996 [INFO]  Epoch[0] Batch [0-2]	Speed: 11.10 samples/sec	cross-entropy=25.595869	L-CORE-accuracy=0.000000
+2024-03-05 18:10:24,667 [INFO]  Epoch[0] Train-cross-entropy=20.305692
+2024-03-05 18:10:24,667 [INFO]  Epoch[0] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:10:24,667 [INFO]  Epoch[0] Time cost=6.376
+2024-03-05 18:10:24,668 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0000.params"
+2024-03-05 18:10:25,078 [INFO]  Epoch[0] Validation-cross-entropy=20.501831
+2024-03-05 18:10:25,078 [INFO]  Epoch[0] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:10:29,490 [INFO]  Epoch[1] Batch [0-2]	Speed: 10.81 samples/sec	cross-entropy=15.578940	L-CORE-accuracy=0.000000
+2024-03-05 18:10:29,916 [INFO]  Epoch[1] Train-cross-entropy=12.203599
+2024-03-05 18:10:29,916 [INFO]  Epoch[1] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:10:29,916 [INFO]  Epoch[1] Time cost=4.838
+2024-03-05 18:10:29,917 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0001.params"
+2024-03-05 18:10:30,206 [INFO]  Epoch[1] Validation-cross-entropy=11.547827
+2024-03-05 18:10:30,206 [INFO]  Epoch[1] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:10:34,627 [INFO]  Epoch[2] Batch [0-2]	Speed: 10.93 samples/sec	cross-entropy=9.547662	L-CORE-accuracy=0.000000
+2024-03-05 18:10:36,207 [INFO]  Epoch[2] Train-cross-entropy=7.409434
+2024-03-05 18:10:36,208 [INFO]  Epoch[2] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:10:36,208 [INFO]  Epoch[2] Time cost=6.002
+2024-03-05 18:10:36,214 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0002.params"
+2024-03-05 18:10:36,610 [INFO]  Epoch[2] Validation-cross-entropy=5.595890
+2024-03-05 18:10:36,611 [INFO]  Epoch[2] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:10:40,472 [INFO]  Epoch[3] Batch [0-2]	Speed: 11.94 samples/sec	cross-entropy=5.491834	L-CORE-accuracy=0.000000
+2024-03-05 18:10:41,965 [INFO]  Epoch[3] Train-cross-entropy=4.276180
+2024-03-05 18:10:41,966 [INFO]  Epoch[3] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:10:41,966 [INFO]  Epoch[3] Time cost=5.355
+2024-03-05 18:10:41,970 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0003.params"
+2024-03-05 18:10:42,348 [INFO]  Epoch[3] Validation-cross-entropy=2.147089
+2024-03-05 18:10:42,348 [INFO]  Epoch[3] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:10:43,383 [INFO]  Epoch[4] Batch [0-2]	Speed: 23334.10 samples/sec	cross-entropy=2.782229	L-CORE-accuracy=0.000000
+2024-03-05 18:10:43,384 [INFO]  Epoch[4] Train-cross-entropy=2.212580
+2024-03-05 18:10:43,384 [INFO]  Epoch[4] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:10:43,384 [INFO]  Epoch[4] Time cost=1.036
+2024-03-05 18:10:43,385 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0004.params"
+2024-03-05 18:10:43,582 [INFO]  Epoch[4] Validation-cross-entropy=0.718787
+2024-03-05 18:10:43,582 [INFO]  Epoch[4] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:10:43,582 [INFO]  
+========== done (25.29212713241577 s) fit model
+2024-03-05 18:12:45,958 [INFO]  
+========== start: fit model
+2024-03-05 18:12:45,959 [WARNING]  Already bound, ignoring bind()
+2024-03-05 18:12:46,338 [INFO]  Epoch[0] Batch [0-2]	Speed: 106.19 samples/sec	cross-entropy=20.354512	L-CORE-accuracy=4.333333
+2024-03-05 18:12:46,339 [INFO]  Epoch[0] Train-cross-entropy=21.122218
+2024-03-05 18:12:46,339 [INFO]  Epoch[0] Train-L-CORE-accuracy=3.500000
+2024-03-05 18:12:46,339 [INFO]  Epoch[0] Time cost=0.380
+2024-03-05 18:12:46,341 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0000.params"
+2024-03-05 18:12:46,341 [INFO]  Epoch[0] Validation-cross-entropy=16.807806
+2024-03-05 18:12:46,341 [INFO]  Epoch[0] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:12:46,343 [INFO]  Epoch[1] Batch [0-2]	Speed: 25078.05 samples/sec	cross-entropy=10.049441	L-CORE-accuracy=4.333333
+2024-03-05 18:12:46,344 [INFO]  Epoch[1] Train-cross-entropy=10.706945
+2024-03-05 18:12:46,344 [INFO]  Epoch[1] Train-L-CORE-accuracy=3.500000
+2024-03-05 18:12:46,344 [INFO]  Epoch[1] Time cost=0.003
+2024-03-05 18:12:46,346 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0001.params"
+2024-03-05 18:12:46,346 [INFO]  Epoch[1] Validation-cross-entropy=11.887437
+2024-03-05 18:12:46,346 [INFO]  Epoch[1] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:12:46,404 [INFO]  Epoch[2] Batch [0-2]	Speed: 16800.32 samples/sec	cross-entropy=4.806762	L-CORE-accuracy=4.333333
+2024-03-05 18:12:46,405 [INFO]  Epoch[2] Train-cross-entropy=5.052343
+2024-03-05 18:12:46,405 [INFO]  Epoch[2] Train-L-CORE-accuracy=3.500000
+2024-03-05 18:12:46,405 [INFO]  Epoch[2] Time cost=0.059
+2024-03-05 18:12:46,407 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0002.params"
+2024-03-05 18:12:46,408 [INFO]  Epoch[2] Validation-cross-entropy=6.714882
+2024-03-05 18:12:46,408 [INFO]  Epoch[2] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:12:46,412 [INFO]  Epoch[3] Batch [0-2]	Speed: 12725.68 samples/sec	cross-entropy=2.045202	L-CORE-accuracy=4.333333
+2024-03-05 18:12:46,413 [INFO]  Epoch[3] Train-cross-entropy=1.999473
+2024-03-05 18:12:46,414 [INFO]  Epoch[3] Train-L-CORE-accuracy=3.500000
+2024-03-05 18:12:46,414 [INFO]  Epoch[3] Time cost=0.005
+2024-03-05 18:12:46,416 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0003.params"
+2024-03-05 18:12:46,416 [INFO]  Epoch[3] Validation-cross-entropy=2.728709
+2024-03-05 18:12:46,416 [INFO]  Epoch[3] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:12:46,427 [INFO]  Epoch[4] Batch [0-2]	Speed: 3285.95 samples/sec	cross-entropy=0.966803	L-CORE-accuracy=4.333333
+2024-03-05 18:12:46,429 [INFO]  Epoch[4] Train-cross-entropy=0.867706
+2024-03-05 18:12:46,430 [INFO]  Epoch[4] Train-L-CORE-accuracy=3.500000
+2024-03-05 18:12:46,431 [INFO]  Epoch[4] Time cost=0.014
+2024-03-05 18:12:46,433 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0004.params"
+2024-03-05 18:12:46,442 [INFO]  Epoch[4] Validation-cross-entropy=0.843138
+2024-03-05 18:12:46,442 [INFO]  Epoch[4] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:12:46,442 [INFO]  
+========== done (0.4833407402038574 s) fit model
+2024-03-05 18:12:55,331 [INFO]  
+========== start: fit model
+2024-03-05 18:12:55,335 [WARNING]  Already bound, ignoring bind()
+2024-03-05 18:13:00,121 [INFO]  Epoch[0] Batch [0-2]	Speed: 10.62 samples/sec	cross-entropy=19.056712	L-CORE-accuracy=3.666667
+2024-03-05 18:13:01,561 [INFO]  Epoch[0] Train-cross-entropy=22.013021
+2024-03-05 18:13:01,562 [INFO]  Epoch[0] Train-L-CORE-accuracy=3.500000
+2024-03-05 18:13:01,562 [INFO]  Epoch[0] Time cost=6.226
+2024-03-05 18:13:01,565 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0000.params"
+2024-03-05 18:13:02,006 [INFO]  Epoch[0] Validation-cross-entropy=17.502422
+2024-03-05 18:13:02,006 [INFO]  Epoch[0] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:13:06,532 [INFO]  Epoch[1] Batch [0-2]	Speed: 10.19 samples/sec	cross-entropy=11.003028	L-CORE-accuracy=3.666667
+2024-03-05 18:13:08,040 [INFO]  Epoch[1] Train-cross-entropy=13.347307
+2024-03-05 18:13:08,040 [INFO]  Epoch[1] Train-L-CORE-accuracy=3.500000
+2024-03-05 18:13:08,040 [INFO]  Epoch[1] Time cost=6.034
+2024-03-05 18:13:08,044 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0001.params"
+2024-03-05 18:13:08,348 [INFO]  Epoch[1] Validation-cross-entropy=15.560701
+2024-03-05 18:13:08,349 [INFO]  Epoch[1] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:13:11,220 [INFO]  Epoch[2] Batch [0-2]	Speed: 18.97 samples/sec	cross-entropy=6.985402	L-CORE-accuracy=3.666667
+2024-03-05 18:13:12,713 [INFO]  Epoch[2] Train-cross-entropy=8.505884
+2024-03-05 18:13:12,713 [INFO]  Epoch[2] Train-L-CORE-accuracy=3.500000
+2024-03-05 18:13:12,713 [INFO]  Epoch[2] Time cost=4.364
+2024-03-05 18:13:12,717 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0002.params"
+2024-03-05 18:13:13,069 [INFO]  Epoch[2] Validation-cross-entropy=12.164657
+2024-03-05 18:13:13,069 [INFO]  Epoch[2] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:13:18,163 [INFO]  Epoch[3] Batch [0-2]	Speed: 9.18 samples/sec	cross-entropy=4.049931	L-CORE-accuracy=3.666667
+2024-03-05 18:13:19,356 [INFO]  Epoch[3] Train-cross-entropy=5.036354
+2024-03-05 18:13:19,357 [INFO]  Epoch[3] Train-L-CORE-accuracy=3.500000
+2024-03-05 18:13:19,357 [INFO]  Epoch[3] Time cost=6.288
+2024-03-05 18:13:19,360 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0003.params"
+2024-03-05 18:13:19,721 [INFO]  Epoch[3] Validation-cross-entropy=8.331675
+2024-03-05 18:13:19,721 [INFO]  Epoch[3] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:13:24,021 [INFO]  Epoch[4] Batch [0-2]	Speed: 12.85 samples/sec	cross-entropy=2.006925	L-CORE-accuracy=3.666667
+2024-03-05 18:13:25,740 [INFO]  Epoch[4] Train-cross-entropy=2.701017
+2024-03-05 18:13:25,740 [INFO]  Epoch[4] Train-L-CORE-accuracy=3.500000
+2024-03-05 18:13:25,740 [INFO]  Epoch[4] Time cost=6.019
+2024-03-05 18:13:25,742 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0004.params"
+2024-03-05 18:13:26,149 [INFO]  Epoch[4] Validation-cross-entropy=5.235571
+2024-03-05 18:13:26,149 [INFO]  Epoch[4] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:13:26,149 [INFO]  
+========== done (30.818228721618652 s) fit model
+2024-03-05 18:17:10,354 [INFO]  
+========== start: fit model
+2024-03-05 18:17:10,354 [WARNING]  Already bound, ignoring bind()
+2024-03-05 18:17:11,194 [INFO]  Epoch[0] Batch [0-2]	Speed: 1012.74 samples/sec	cross-entropy=14.966355	L-CORE-accuracy=0.000000
+2024-03-05 18:17:11,195 [INFO]  Epoch[0] Train-cross-entropy=16.846707
+2024-03-05 18:17:11,195 [INFO]  Epoch[0] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:17:11,195 [INFO]  Epoch[0] Time cost=0.778
+2024-03-05 18:17:11,197 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0000.params"
+2024-03-05 18:17:11,198 [INFO]  Epoch[0] Validation-cross-entropy=14.669453
+2024-03-05 18:17:11,198 [INFO]  Epoch[0] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:17:13,853 [INFO]  Epoch[1] Batch [0-2]	Speed: 12.13 samples/sec	cross-entropy=7.447749	L-CORE-accuracy=0.000000
+2024-03-05 18:17:15,247 [INFO]  Epoch[1] Train-cross-entropy=8.963828
+2024-03-05 18:17:15,247 [INFO]  Epoch[1] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:17:15,248 [INFO]  Epoch[1] Time cost=4.050
+2024-03-05 18:17:15,252 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0001.params"
+2024-03-05 18:17:15,738 [INFO]  Epoch[1] Validation-cross-entropy=6.616961
+2024-03-05 18:17:15,738 [INFO]  Epoch[1] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:17:20,045 [INFO]  Epoch[2] Batch [0-2]	Speed: 12.20 samples/sec	cross-entropy=3.515089	L-CORE-accuracy=0.000000
+2024-03-05 18:17:21,451 [INFO]  Epoch[2] Train-cross-entropy=4.244214
+2024-03-05 18:17:21,452 [INFO]  Epoch[2] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:17:21,452 [INFO]  Epoch[2] Time cost=5.713
+2024-03-05 18:17:21,455 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0002.params"
+2024-03-05 18:17:21,766 [INFO]  Epoch[2] Validation-cross-entropy=3.097867
+2024-03-05 18:17:21,766 [INFO]  Epoch[2] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:17:23,428 [INFO]  Epoch[3] Batch [0-2]	Speed: 96.02 samples/sec	cross-entropy=1.369588	L-CORE-accuracy=0.000000
+2024-03-05 18:17:23,429 [INFO]  Epoch[3] Train-cross-entropy=1.569914
+2024-03-05 18:17:23,429 [INFO]  Epoch[3] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:17:23,429 [INFO]  Epoch[3] Time cost=1.663
+2024-03-05 18:17:23,431 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0003.params"
+2024-03-05 18:17:23,699 [INFO]  Epoch[3] Validation-cross-entropy=1.729159
+2024-03-05 18:17:23,700 [INFO]  Epoch[3] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:17:27,349 [INFO]  Epoch[4] Batch [0-2]	Speed: 14.47 samples/sec	cross-entropy=0.581784	L-CORE-accuracy=0.000000
+2024-03-05 18:17:28,301 [INFO]  Epoch[4] Train-cross-entropy=0.584457
+2024-03-05 18:17:28,301 [INFO]  Epoch[4] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:17:28,301 [INFO]  Epoch[4] Time cost=4.601
+2024-03-05 18:17:28,303 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0004.params"
+2024-03-05 18:17:28,557 [INFO]  Epoch[4] Validation-cross-entropy=1.305781
+2024-03-05 18:17:28,558 [INFO]  Epoch[4] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:17:28,559 [INFO]  
+========== done (18.205036878585815 s) fit model
+2024-03-05 18:20:41,012 [INFO]  
+========== start: fit model
+2024-03-05 18:20:41,012 [WARNING]  Already bound, ignoring bind()
+2024-03-05 18:20:45,990 [INFO]  Epoch[0] Batch [0-2]	Speed: 11.79 samples/sec	cross-entropy=18.453838	L-CORE-accuracy=0.000000
+2024-03-05 18:20:46,227 [INFO]  Epoch[0] Train-cross-entropy=17.082361
+2024-03-05 18:20:46,227 [INFO]  Epoch[0] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:20:46,227 [INFO]  Epoch[0] Time cost=5.209
+2024-03-05 18:20:46,229 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0000.params"
+2024-03-05 18:20:46,231 [INFO]  Epoch[0] Validation-cross-entropy=17.802919
+2024-03-05 18:20:46,231 [INFO]  Epoch[0] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:20:47,503 [INFO]  Epoch[1] Batch [0-2]	Speed: 25.18 samples/sec	cross-entropy=10.613881	L-CORE-accuracy=0.000000
+2024-03-05 18:20:49,335 [INFO]  Epoch[1] Train-cross-entropy=9.573008
+2024-03-05 18:20:49,336 [INFO]  Epoch[1] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:20:49,336 [INFO]  Epoch[1] Time cost=3.104
+2024-03-05 18:20:49,339 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0001.params"
+2024-03-05 18:20:49,713 [INFO]  Epoch[1] Validation-cross-entropy=12.210833
+2024-03-05 18:20:49,714 [INFO]  Epoch[1] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:20:55,037 [INFO]  Epoch[2] Batch [0-2]	Speed: 7.69 samples/sec	cross-entropy=5.761676	L-CORE-accuracy=0.000000
+2024-03-05 18:20:56,894 [INFO]  Epoch[2] Train-cross-entropy=4.937286
+2024-03-05 18:20:56,894 [INFO]  Epoch[2] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:20:56,894 [INFO]  Epoch[2] Time cost=7.180
+2024-03-05 18:20:56,897 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0002.params"
+2024-03-05 18:20:57,330 [INFO]  Epoch[2] Validation-cross-entropy=8.111643
+2024-03-05 18:20:57,330 [INFO]  Epoch[2] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:21:03,241 [INFO]  Epoch[3] Batch [0-2]	Speed: 8.29 samples/sec	cross-entropy=2.845611	L-CORE-accuracy=0.000000
+2024-03-05 18:21:04,951 [INFO]  Epoch[3] Train-cross-entropy=2.299537
+2024-03-05 18:21:04,952 [INFO]  Epoch[3] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:21:04,952 [INFO]  Epoch[3] Time cost=7.622
+2024-03-05 18:21:04,957 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0003.params"
+2024-03-05 18:21:05,063 [INFO]  Epoch[3] Validation-cross-entropy=5.283292
+2024-03-05 18:21:05,063 [INFO]  Epoch[3] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:21:10,249 [INFO]  Epoch[4] Batch [0-2]	Speed: 9.00 samples/sec	cross-entropy=1.355938	L-CORE-accuracy=0.000000
+2024-03-05 18:21:11,945 [INFO]  Epoch[4] Train-cross-entropy=1.089317
+2024-03-05 18:21:11,945 [INFO]  Epoch[4] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:21:11,946 [INFO]  Epoch[4] Time cost=6.883
+2024-03-05 18:21:11,948 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0004.params"
+2024-03-05 18:21:12,380 [INFO]  Epoch[4] Validation-cross-entropy=3.537277
+2024-03-05 18:21:12,381 [INFO]  Epoch[4] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:21:12,381 [INFO]  
+========== done (31.368595361709595 s) fit model
+2024-03-05 18:24:33,185 [INFO]  
+========== start: fit model
+2024-03-05 18:24:33,203 [WARNING]  Already bound, ignoring bind()
+2024-03-05 18:24:37,998 [INFO]  Epoch[0] Batch [0-2]	Speed: 10.88 samples/sec	cross-entropy=35.249547	L-CORE-accuracy=0.000000
+2024-03-05 18:24:39,283 [INFO]  Epoch[0] Train-cross-entropy=28.514473
+2024-03-05 18:24:39,283 [INFO]  Epoch[0] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:24:39,284 [INFO]  Epoch[0] Time cost=6.080
+2024-03-05 18:24:39,287 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0000.params"
+2024-03-05 18:24:39,591 [INFO]  Epoch[0] Validation-cross-entropy=140.819931
+2024-03-05 18:24:39,591 [INFO]  Epoch[0] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:24:43,397 [INFO]  Epoch[1] Batch [0-2]	Speed: 13.16 samples/sec	cross-entropy=22.207117	L-CORE-accuracy=0.000000
+2024-03-05 18:24:44,703 [INFO]  Epoch[1] Train-cross-entropy=18.060711
+2024-03-05 18:24:44,703 [INFO]  Epoch[1] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:24:44,703 [INFO]  Epoch[1] Time cost=5.112
+2024-03-05 18:24:44,706 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0001.params"
+2024-03-05 18:24:45,056 [INFO]  Epoch[1] Validation-cross-entropy=98.661011
+2024-03-05 18:24:45,056 [INFO]  Epoch[1] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:24:50,369 [INFO]  Epoch[2] Batch [0-2]	Speed: 9.08 samples/sec	cross-entropy=14.012077	L-CORE-accuracy=0.000000
+2024-03-05 18:24:52,523 [INFO]  Epoch[2] Train-cross-entropy=11.373321
+2024-03-05 18:24:52,523 [INFO]  Epoch[2] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:24:52,523 [INFO]  Epoch[2] Time cost=7.467
+2024-03-05 18:24:52,529 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0002.params"
+2024-03-05 18:24:52,917 [INFO]  Epoch[2] Validation-cross-entropy=68.689728
+2024-03-05 18:24:52,917 [INFO]  Epoch[2] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:24:57,057 [INFO]  Epoch[3] Batch [0-2]	Speed: 11.76 samples/sec	cross-entropy=8.384793	L-CORE-accuracy=0.000000
+2024-03-05 18:24:58,539 [INFO]  Epoch[3] Train-cross-entropy=6.766604
+2024-03-05 18:24:58,539 [INFO]  Epoch[3] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:24:58,539 [INFO]  Epoch[3] Time cost=5.622
+2024-03-05 18:24:58,541 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0003.params"
+2024-03-05 18:24:58,937 [INFO]  Epoch[3] Validation-cross-entropy=46.579704
+2024-03-05 18:24:58,937 [INFO]  Epoch[3] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:25:00,615 [INFO]  Epoch[4] Batch [0-2]	Speed: 73.18 samples/sec	cross-entropy=4.655970	L-CORE-accuracy=0.000000
+2024-03-05 18:25:00,616 [INFO]  Epoch[4] Train-cross-entropy=3.754370
+2024-03-05 18:25:00,617 [INFO]  Epoch[4] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:25:00,617 [INFO]  Epoch[4] Time cost=1.679
+2024-03-05 18:25:00,618 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0004.params"
+2024-03-05 18:25:00,619 [INFO]  Epoch[4] Validation-cross-entropy=29.649349
+2024-03-05 18:25:00,619 [INFO]  Epoch[4] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:25:00,619 [INFO]  
+========== done (27.43409013748169 s) fit model
+2024-03-05 18:27:50,384 [INFO]  
+========== start: fit model
+2024-03-05 18:27:50,384 [WARNING]  Already bound, ignoring bind()
+2024-03-05 18:27:50,393 [INFO]  Epoch[0] Batch [0-2]	Speed: 22888.43 samples/sec	cross-entropy=16.581968	L-CORE-accuracy=2.000000
+2024-03-05 18:27:50,394 [INFO]  Epoch[0] Train-cross-entropy=14.246952
+2024-03-05 18:27:50,394 [INFO]  Epoch[0] Train-L-CORE-accuracy=1.750000
+2024-03-05 18:27:50,395 [INFO]  Epoch[0] Time cost=0.010
+2024-03-05 18:27:50,397 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0000.params"
+2024-03-05 18:27:50,418 [INFO]  Epoch[0] Validation-cross-entropy=10.225153
+2024-03-05 18:27:50,419 [INFO]  Epoch[0] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:27:50,423 [INFO]  Epoch[1] Batch [0-2]	Speed: 24253.29 samples/sec	cross-entropy=8.294628	L-CORE-accuracy=2.000000
+2024-03-05 18:27:50,424 [INFO]  Epoch[1] Train-cross-entropy=7.006470
+2024-03-05 18:27:50,424 [INFO]  Epoch[1] Train-L-CORE-accuracy=1.750000
+2024-03-05 18:27:50,424 [INFO]  Epoch[1] Time cost=0.005
+2024-03-05 18:27:50,847 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0001.params"
+2024-03-05 18:27:50,850 [INFO]  Epoch[1] Validation-cross-entropy=6.819625
+2024-03-05 18:27:50,850 [INFO]  Epoch[1] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:27:50,857 [INFO]  Epoch[2] Batch [0-2]	Speed: 7315.91 samples/sec	cross-entropy=3.671412	L-CORE-accuracy=2.000000
+2024-03-05 18:27:50,859 [INFO]  Epoch[2] Train-cross-entropy=3.028405
+2024-03-05 18:27:50,859 [INFO]  Epoch[2] Train-L-CORE-accuracy=1.750000
+2024-03-05 18:27:50,859 [INFO]  Epoch[2] Time cost=0.010
+2024-03-05 18:27:50,862 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0002.params"
+2024-03-05 18:27:50,863 [INFO]  Epoch[2] Validation-cross-entropy=5.132049
+2024-03-05 18:27:50,863 [INFO]  Epoch[2] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:27:50,868 [INFO]  Epoch[3] Batch [0-2]	Speed: 12038.54 samples/sec	cross-entropy=1.387116	L-CORE-accuracy=2.000000
+2024-03-05 18:27:50,869 [INFO]  Epoch[3] Train-cross-entropy=1.174061
+2024-03-05 18:27:50,869 [INFO]  Epoch[3] Train-L-CORE-accuracy=1.750000
+2024-03-05 18:27:50,869 [INFO]  Epoch[3] Time cost=0.006
+2024-03-05 18:27:50,871 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0003.params"
+2024-03-05 18:27:50,872 [INFO]  Epoch[3] Validation-cross-entropy=4.057859
+2024-03-05 18:27:50,872 [INFO]  Epoch[3] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:27:50,888 [INFO]  Epoch[4] Batch [0-2]	Speed: 17408.27 samples/sec	cross-entropy=0.718077	L-CORE-accuracy=2.000000
+2024-03-05 18:27:50,916 [INFO]  Epoch[4] Train-cross-entropy=0.713579
+2024-03-05 18:27:50,916 [INFO]  Epoch[4] Train-L-CORE-accuracy=1.750000
+2024-03-05 18:27:50,916 [INFO]  Epoch[4] Time cost=0.044
+2024-03-05 18:27:50,919 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0004.params"
+2024-03-05 18:27:50,919 [INFO]  Epoch[4] Validation-cross-entropy=2.897457
+2024-03-05 18:27:50,919 [INFO]  Epoch[4] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:27:50,919 [INFO]  
+========== done (0.5355246067047119 s) fit model
+2024-03-05 18:28:05,972 [INFO]  
+========== start: fit model
+2024-03-05 18:28:05,973 [WARNING]  Already bound, ignoring bind()
+2024-03-05 18:28:11,613 [INFO]  Epoch[0] Batch [0-2]	Speed: 9.75 samples/sec	cross-entropy=19.859817	L-CORE-accuracy=0.000000
+2024-03-05 18:28:13,284 [INFO]  Epoch[0] Train-cross-entropy=16.403659
+2024-03-05 18:28:13,285 [INFO]  Epoch[0] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:28:13,286 [INFO]  Epoch[0] Time cost=7.312
+2024-03-05 18:28:13,290 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0000.params"
+2024-03-05 18:28:13,602 [INFO]  Epoch[0] Validation-cross-entropy=10.969697
+2024-03-05 18:28:13,603 [INFO]  Epoch[0] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:28:19,158 [INFO]  Epoch[1] Batch [0-2]	Speed: 8.47 samples/sec	cross-entropy=11.134258	L-CORE-accuracy=0.000000
+2024-03-05 18:28:20,577 [INFO]  Epoch[1] Train-cross-entropy=9.306739
+2024-03-05 18:28:20,577 [INFO]  Epoch[1] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:28:20,577 [INFO]  Epoch[1] Time cost=6.974
+2024-03-05 18:28:20,580 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0001.params"
+2024-03-05 18:28:21,153 [INFO]  Epoch[1] Validation-cross-entropy=10.266886
+2024-03-05 18:28:21,153 [INFO]  Epoch[1] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:28:25,413 [INFO]  Epoch[2] Batch [0-2]	Speed: 10.90 samples/sec	cross-entropy=6.058281	L-CORE-accuracy=0.000000
+2024-03-05 18:28:26,737 [INFO]  Epoch[2] Train-cross-entropy=5.183329
+2024-03-05 18:28:26,738 [INFO]  Epoch[2] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:28:26,738 [INFO]  Epoch[2] Time cost=5.584
+2024-03-05 18:28:26,741 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0002.params"
+2024-03-05 18:28:27,282 [INFO]  Epoch[2] Validation-cross-entropy=9.601146
+2024-03-05 18:28:27,283 [INFO]  Epoch[2] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:28:32,154 [INFO]  Epoch[3] Batch [0-2]	Speed: 10.60 samples/sec	cross-entropy=3.039526	L-CORE-accuracy=0.000000
+2024-03-05 18:28:33,885 [INFO]  Epoch[3] Train-cross-entropy=2.713603
+2024-03-05 18:28:33,886 [INFO]  Epoch[3] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:28:33,886 [INFO]  Epoch[3] Time cost=6.603
+2024-03-05 18:28:33,890 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0003.params"
+2024-03-05 18:28:34,252 [INFO]  Epoch[3] Validation-cross-entropy=8.230115
+2024-03-05 18:28:34,252 [INFO]  Epoch[3] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:28:39,318 [INFO]  Epoch[4] Batch [0-2]	Speed: 9.27 samples/sec	cross-entropy=1.423703	L-CORE-accuracy=0.000000
+2024-03-05 18:28:40,487 [INFO]  Epoch[4] Train-cross-entropy=1.357033
+2024-03-05 18:28:40,487 [INFO]  Epoch[4] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:28:40,487 [INFO]  Epoch[4] Time cost=6.234
+2024-03-05 18:28:40,489 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0004.params"
+2024-03-05 18:28:40,879 [INFO]  Epoch[4] Validation-cross-entropy=6.408509
+2024-03-05 18:28:40,879 [INFO]  Epoch[4] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:28:40,879 [INFO]  
+========== done (34.906822204589844 s) fit model
+2024-03-05 18:32:53,450 [INFO]  
+========== start: fit model
+2024-03-05 18:32:53,450 [WARNING]  Already bound, ignoring bind()
+2024-03-05 18:32:59,970 [INFO]  Epoch[0] Batch [0-2]	Speed: 7.94 samples/sec	cross-entropy=18.944384	L-CORE-accuracy=3.000000
+2024-03-05 18:33:01,507 [INFO]  Epoch[0] Train-cross-entropy=18.888059
+2024-03-05 18:33:01,507 [INFO]  Epoch[0] Train-L-CORE-accuracy=3.750000
+2024-03-05 18:33:01,507 [INFO]  Epoch[0] Time cost=8.056
+2024-03-05 18:33:01,510 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0000.params"
+2024-03-05 18:33:02,073 [INFO]  Epoch[0] Validation-cross-entropy=16.902313
+2024-03-05 18:33:02,078 [INFO]  Epoch[0] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:33:07,299 [INFO]  Epoch[1] Batch [0-2]	Speed: 9.28 samples/sec	cross-entropy=9.593825	L-CORE-accuracy=3.000000
+2024-03-05 18:33:08,967 [INFO]  Epoch[1] Train-cross-entropy=9.514933
+2024-03-05 18:33:08,967 [INFO]  Epoch[1] Train-L-CORE-accuracy=3.750000
+2024-03-05 18:33:08,967 [INFO]  Epoch[1] Time cost=6.888
+2024-03-05 18:33:08,969 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0001.params"
+2024-03-05 18:33:09,273 [INFO]  Epoch[1] Validation-cross-entropy=10.370505
+2024-03-05 18:33:09,274 [INFO]  Epoch[1] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:33:09,277 [INFO]  Epoch[2] Batch [0-2]	Speed: 17032.71 samples/sec	cross-entropy=4.987683	L-CORE-accuracy=3.000000
+2024-03-05 18:33:10,642 [INFO]  Epoch[2] Train-cross-entropy=4.869983
+2024-03-05 18:33:10,642 [INFO]  Epoch[2] Train-L-CORE-accuracy=3.750000
+2024-03-05 18:33:10,642 [INFO]  Epoch[2] Time cost=1.369
+2024-03-05 18:33:10,644 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0002.params"
+2024-03-05 18:33:10,942 [INFO]  Epoch[2] Validation-cross-entropy=6.720720
+2024-03-05 18:33:10,942 [INFO]  Epoch[2] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:33:15,469 [INFO]  Epoch[3] Batch [0-2]	Speed: 9.52 samples/sec	cross-entropy=2.867042	L-CORE-accuracy=3.000000
+2024-03-05 18:33:16,756 [INFO]  Epoch[3] Train-cross-entropy=2.790544
+2024-03-05 18:33:16,757 [INFO]  Epoch[3] Train-L-CORE-accuracy=3.750000
+2024-03-05 18:33:16,758 [INFO]  Epoch[3] Time cost=5.815
+2024-03-05 18:33:16,762 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0003.params"
+2024-03-05 18:33:17,103 [INFO]  Epoch[3] Validation-cross-entropy=4.504667
+2024-03-05 18:33:17,103 [INFO]  Epoch[3] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:33:21,745 [INFO]  Epoch[4] Batch [0-2]	Speed: 11.10 samples/sec	cross-entropy=1.950752	L-CORE-accuracy=3.000000
+2024-03-05 18:33:22,190 [INFO]  Epoch[4] Train-cross-entropy=1.908526
+2024-03-05 18:33:22,190 [INFO]  Epoch[4] Train-L-CORE-accuracy=3.750000
+2024-03-05 18:33:22,190 [INFO]  Epoch[4] Time cost=5.086
+2024-03-05 18:33:22,191 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0004.params"
+2024-03-05 18:33:22,192 [INFO]  Epoch[4] Validation-cross-entropy=2.874722
+2024-03-05 18:33:22,192 [INFO]  Epoch[4] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:33:22,192 [INFO]  
+========== done (28.74248456954956 s) fit model
+2024-03-05 18:36:43,440 [INFO]  
+========== start: fit model
+2024-03-05 18:36:43,445 [WARNING]  Already bound, ignoring bind()
+2024-03-05 18:36:48,041 [INFO]  Epoch[0] Batch [0-2]	Speed: 12.70 samples/sec	cross-entropy=17.219349	L-CORE-accuracy=0.000000
+2024-03-05 18:36:49,456 [INFO]  Epoch[0] Train-cross-entropy=17.646729
+2024-03-05 18:36:49,459 [INFO]  Epoch[0] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:36:49,463 [INFO]  Epoch[0] Time cost=6.017
+2024-03-05 18:36:49,481 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0000.params"
+2024-03-05 18:36:49,762 [INFO]  Epoch[0] Validation-cross-entropy=56.226860
+2024-03-05 18:36:49,763 [INFO]  Epoch[0] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:36:53,372 [INFO]  Epoch[1] Batch [0-2]	Speed: 13.90 samples/sec	cross-entropy=9.738351	L-CORE-accuracy=0.000000
+2024-03-05 18:36:54,576 [INFO]  Epoch[1] Train-cross-entropy=10.199414
+2024-03-05 18:36:54,577 [INFO]  Epoch[1] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:36:54,577 [INFO]  Epoch[1] Time cost=4.814
+2024-03-05 18:36:54,579 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0001.params"
+2024-03-05 18:36:54,979 [INFO]  Epoch[1] Validation-cross-entropy=47.164639
+2024-03-05 18:36:54,979 [INFO]  Epoch[1] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:36:58,786 [INFO]  Epoch[2] Batch [0-2]	Speed: 12.77 samples/sec	cross-entropy=5.456958	L-CORE-accuracy=0.000000
+2024-03-05 18:37:00,340 [INFO]  Epoch[2] Train-cross-entropy=5.604807
+2024-03-05 18:37:00,340 [INFO]  Epoch[2] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:37:00,341 [INFO]  Epoch[2] Time cost=5.362
+2024-03-05 18:37:00,345 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0002.params"
+2024-03-05 18:37:00,774 [INFO]  Epoch[2] Validation-cross-entropy=34.687752
+2024-03-05 18:37:00,775 [INFO]  Epoch[2] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:37:04,373 [INFO]  Epoch[3] Batch [0-2]	Speed: 13.10 samples/sec	cross-entropy=2.882048	L-CORE-accuracy=0.000000
+2024-03-05 18:37:05,660 [INFO]  Epoch[3] Train-cross-entropy=2.821350
+2024-03-05 18:37:05,660 [INFO]  Epoch[3] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:37:05,660 [INFO]  Epoch[3] Time cost=4.885
+2024-03-05 18:37:05,662 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0003.params"
+2024-03-05 18:37:06,007 [INFO]  Epoch[3] Validation-cross-entropy=23.158278
+2024-03-05 18:37:06,007 [INFO]  Epoch[3] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:37:06,567 [INFO]  Epoch[4] Batch [0-2]	Speed: 1367.99 samples/sec	cross-entropy=1.505941	L-CORE-accuracy=0.000000
+2024-03-05 18:37:06,569 [INFO]  Epoch[4] Train-cross-entropy=1.369952
+2024-03-05 18:37:06,569 [INFO]  Epoch[4] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:37:06,569 [INFO]  Epoch[4] Time cost=0.562
+2024-03-05 18:37:06,570 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0004.params"
+2024-03-05 18:37:06,897 [INFO]  Epoch[4] Validation-cross-entropy=14.368833
+2024-03-05 18:37:06,897 [INFO]  Epoch[4] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:37:06,897 [INFO]  
+========== done (23.457290172576904 s) fit model
+2024-03-05 18:40:35,845 [INFO]  
+========== start: fit model
+2024-03-05 18:40:35,846 [WARNING]  Already bound, ignoring bind()
+2024-03-05 18:40:40,374 [INFO]  Epoch[0] Batch [0-2]	Speed: 12.10 samples/sec	cross-entropy=11.390333	L-CORE-accuracy=1.666667
+2024-03-05 18:40:41,889 [INFO]  Epoch[0] Train-cross-entropy=10.363094
+2024-03-05 18:40:41,889 [INFO]  Epoch[0] Train-L-CORE-accuracy=2.250000
+2024-03-05 18:40:41,890 [INFO]  Epoch[0] Time cost=6.042
+2024-03-05 18:40:41,894 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0000.params"
+2024-03-05 18:40:42,309 [INFO]  Epoch[0] Validation-cross-entropy=6.836820
+2024-03-05 18:40:42,309 [INFO]  Epoch[0] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:40:46,390 [INFO]  Epoch[1] Batch [0-2]	Speed: 11.38 samples/sec	cross-entropy=5.656242	L-CORE-accuracy=1.666667
+2024-03-05 18:40:47,768 [INFO]  Epoch[1] Train-cross-entropy=5.048013
+2024-03-05 18:40:47,768 [INFO]  Epoch[1] Train-L-CORE-accuracy=2.250000
+2024-03-05 18:40:47,768 [INFO]  Epoch[1] Time cost=5.459
+2024-03-05 18:40:47,770 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0001.params"
+2024-03-05 18:40:48,158 [INFO]  Epoch[1] Validation-cross-entropy=4.373674
+2024-03-05 18:40:48,158 [INFO]  Epoch[1] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:40:52,092 [INFO]  Epoch[2] Batch [0-2]	Speed: 11.94 samples/sec	cross-entropy=2.617531	L-CORE-accuracy=1.666667
+2024-03-05 18:40:52,996 [INFO]  Epoch[2] Train-cross-entropy=2.262940
+2024-03-05 18:40:52,996 [INFO]  Epoch[2] Train-L-CORE-accuracy=2.250000
+2024-03-05 18:40:52,996 [INFO]  Epoch[2] Time cost=4.838
+2024-03-05 18:40:52,999 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0002.params"
+2024-03-05 18:40:53,314 [INFO]  Epoch[2] Validation-cross-entropy=2.392798
+2024-03-05 18:40:53,314 [INFO]  Epoch[2] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:40:57,841 [INFO]  Epoch[3] Batch [0-2]	Speed: 11.55 samples/sec	cross-entropy=1.213618	L-CORE-accuracy=1.666667
+2024-03-05 18:40:59,627 [INFO]  Epoch[3] Train-cross-entropy=1.044986
+2024-03-05 18:40:59,627 [INFO]  Epoch[3] Train-L-CORE-accuracy=2.250000
+2024-03-05 18:40:59,627 [INFO]  Epoch[3] Time cost=6.313
+2024-03-05 18:40:59,629 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0003.params"
+2024-03-05 18:41:00,077 [INFO]  Epoch[3] Validation-cross-entropy=1.330218
+2024-03-05 18:41:00,077 [INFO]  Epoch[3] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:41:04,744 [INFO]  Epoch[4] Batch [0-2]	Speed: 10.75 samples/sec	cross-entropy=0.757956	L-CORE-accuracy=1.666667
+2024-03-05 18:41:06,210 [INFO]  Epoch[4] Train-cross-entropy=0.677498
+2024-03-05 18:41:06,210 [INFO]  Epoch[4] Train-L-CORE-accuracy=2.250000
+2024-03-05 18:41:06,210 [INFO]  Epoch[4] Time cost=6.133
+2024-03-05 18:41:06,213 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0004.params"
+2024-03-05 18:41:06,687 [INFO]  Epoch[4] Validation-cross-entropy=1.299712
+2024-03-05 18:41:06,688 [INFO]  Epoch[4] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:41:06,688 [INFO]  
+========== done (30.84273409843445 s) fit model
+2024-03-05 18:41:30,225 [INFO]  
+========== start: fit model
+2024-03-05 18:41:30,225 [WARNING]  Already bound, ignoring bind()
+2024-03-05 18:41:30,229 [INFO]  Epoch[0] Batch [0-2]	Speed: 21076.90 samples/sec	cross-entropy=16.100165	L-CORE-accuracy=0.000000
+2024-03-05 18:41:30,230 [INFO]  Epoch[0] Train-cross-entropy=15.466957
+2024-03-05 18:41:30,230 [INFO]  Epoch[0] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:41:30,230 [INFO]  Epoch[0] Time cost=0.004
+2024-03-05 18:41:30,231 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0000.params"
+2024-03-05 18:41:30,232 [INFO]  Epoch[0] Validation-cross-entropy=4.362247
+2024-03-05 18:41:30,232 [INFO]  Epoch[0] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:41:30,234 [INFO]  Epoch[1] Batch [0-2]	Speed: 19654.08 samples/sec	cross-entropy=7.794349	L-CORE-accuracy=0.000000
+2024-03-05 18:41:30,235 [INFO]  Epoch[1] Train-cross-entropy=8.041299
+2024-03-05 18:41:30,235 [INFO]  Epoch[1] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:41:30,235 [INFO]  Epoch[1] Time cost=0.003
+2024-03-05 18:41:30,236 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0001.params"
+2024-03-05 18:41:30,237 [INFO]  Epoch[1] Validation-cross-entropy=2.886658
+2024-03-05 18:41:30,237 [INFO]  Epoch[1] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:41:30,239 [INFO]  Epoch[2] Batch [0-2]	Speed: 21206.78 samples/sec	cross-entropy=3.836243	L-CORE-accuracy=0.000000
+2024-03-05 18:41:30,240 [INFO]  Epoch[2] Train-cross-entropy=4.173536
+2024-03-05 18:41:30,240 [INFO]  Epoch[2] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:41:30,240 [INFO]  Epoch[2] Time cost=0.003
+2024-03-05 18:41:30,242 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0002.params"
+2024-03-05 18:41:30,242 [INFO]  Epoch[2] Validation-cross-entropy=1.903520
+2024-03-05 18:41:30,242 [INFO]  Epoch[2] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:41:30,244 [INFO]  Epoch[3] Batch [0-2]	Speed: 25007.96 samples/sec	cross-entropy=2.004814	L-CORE-accuracy=0.000000
+2024-03-05 18:41:30,245 [INFO]  Epoch[3] Train-cross-entropy=2.157337
+2024-03-05 18:41:30,245 [INFO]  Epoch[3] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:41:30,245 [INFO]  Epoch[3] Time cost=0.003
+2024-03-05 18:41:30,246 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0003.params"
+2024-03-05 18:41:30,247 [INFO]  Epoch[3] Validation-cross-entropy=1.287230
+2024-03-05 18:41:30,247 [INFO]  Epoch[3] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:41:30,249 [INFO]  Epoch[4] Batch [0-2]	Speed: 24640.67 samples/sec	cross-entropy=1.205838	L-CORE-accuracy=0.000000
+2024-03-05 18:41:30,250 [INFO]  Epoch[4] Train-cross-entropy=1.190772
+2024-03-05 18:41:30,250 [INFO]  Epoch[4] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:41:30,250 [INFO]  Epoch[4] Time cost=0.003
+2024-03-05 18:41:30,251 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0004.params"
+2024-03-05 18:41:30,253 [INFO]  Epoch[4] Validation-cross-entropy=0.833902
+2024-03-05 18:41:30,253 [INFO]  Epoch[4] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:41:30,253 [INFO]  
+========== done (0.028096914291381836 s) fit model
+2024-03-05 18:42:18,437 [INFO]  
+========== start: fit model
+2024-03-05 18:42:18,437 [WARNING]  Already bound, ignoring bind()
+2024-03-05 18:42:23,259 [INFO]  Epoch[0] Batch [0-2]	Speed: 10.27 samples/sec	cross-entropy=22.372030	L-CORE-accuracy=3.000000
+2024-03-05 18:42:24,805 [INFO]  Epoch[0] Train-cross-entropy=22.010141
+2024-03-05 18:42:24,805 [INFO]  Epoch[0] Train-L-CORE-accuracy=3.500000
+2024-03-05 18:42:24,805 [INFO]  Epoch[0] Time cost=6.367
+2024-03-05 18:42:24,808 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0000.params"
+2024-03-05 18:42:25,106 [INFO]  Epoch[0] Validation-cross-entropy=2.796304
+2024-03-05 18:42:25,107 [INFO]  Epoch[0] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:42:30,470 [INFO]  Epoch[1] Batch [0-2]	Speed: 8.35 samples/sec	cross-entropy=13.535145	L-CORE-accuracy=3.000000
+2024-03-05 18:42:31,643 [INFO]  Epoch[1] Train-cross-entropy=13.185008
+2024-03-05 18:42:31,643 [INFO]  Epoch[1] Train-L-CORE-accuracy=3.500000
+2024-03-05 18:42:31,644 [INFO]  Epoch[1] Time cost=6.537
+2024-03-05 18:42:31,648 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0001.params"
+2024-03-05 18:42:32,101 [INFO]  Epoch[1] Validation-cross-entropy=2.190479
+2024-03-05 18:42:32,103 [INFO]  Epoch[1] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:42:37,809 [INFO]  Epoch[2] Batch [0-2]	Speed: 8.74 samples/sec	cross-entropy=8.076724	L-CORE-accuracy=3.000000
+2024-03-05 18:42:39,546 [INFO]  Epoch[2] Train-cross-entropy=7.687592
+2024-03-05 18:42:39,546 [INFO]  Epoch[2] Train-L-CORE-accuracy=3.500000
+2024-03-05 18:42:39,546 [INFO]  Epoch[2] Time cost=7.444
+2024-03-05 18:42:39,549 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0002.params"
+2024-03-05 18:42:39,992 [INFO]  Epoch[2] Validation-cross-entropy=1.671507
+2024-03-05 18:42:39,992 [INFO]  Epoch[2] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:42:45,170 [INFO]  Epoch[3] Batch [0-2]	Speed: 9.23 samples/sec	cross-entropy=4.733089	L-CORE-accuracy=3.000000
+2024-03-05 18:42:46,566 [INFO]  Epoch[3] Train-cross-entropy=4.391023
+2024-03-05 18:42:46,566 [INFO]  Epoch[3] Train-L-CORE-accuracy=3.500000
+2024-03-05 18:42:46,567 [INFO]  Epoch[3] Time cost=6.574
+2024-03-05 18:42:46,569 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0003.params"
+2024-03-05 18:42:46,970 [INFO]  Epoch[3] Validation-cross-entropy=1.209080
+2024-03-05 18:42:46,970 [INFO]  Epoch[3] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:42:51,732 [INFO]  Epoch[4] Batch [0-2]	Speed: 10.10 samples/sec	cross-entropy=2.805128	L-CORE-accuracy=3.000000
+2024-03-05 18:42:54,338 [INFO]  Epoch[4] Train-cross-entropy=2.523489
+2024-03-05 18:42:54,339 [INFO]  Epoch[4] Train-L-CORE-accuracy=3.500000
+2024-03-05 18:42:54,339 [INFO]  Epoch[4] Time cost=7.368
+2024-03-05 18:42:54,343 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0004.params"
+2024-03-05 18:42:54,729 [INFO]  Epoch[4] Validation-cross-entropy=0.834649
+2024-03-05 18:42:54,730 [INFO]  Epoch[4] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:42:54,730 [INFO]  
+========== done (36.292922019958496 s) fit model
+2024-03-05 18:46:13,891 [INFO]  
+========== start: fit model
+2024-03-05 18:46:13,891 [WARNING]  Already bound, ignoring bind()
+2024-03-05 18:46:19,368 [INFO]  Epoch[0] Batch [0-2]	Speed: 9.56 samples/sec	cross-entropy=32.060003	L-CORE-accuracy=0.000000
+2024-03-05 18:46:20,711 [INFO]  Epoch[0] Train-cross-entropy=29.825821
+2024-03-05 18:46:20,712 [INFO]  Epoch[0] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:46:20,713 [INFO]  Epoch[0] Time cost=6.821
+2024-03-05 18:46:20,718 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0000.params"
+2024-03-05 18:46:21,079 [INFO]  Epoch[0] Validation-cross-entropy=16.255651
+2024-03-05 18:46:21,079 [INFO]  Epoch[0] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:46:22,925 [INFO]  Epoch[1] Batch [0-2]	Speed: 42.11 samples/sec	cross-entropy=17.967525	L-CORE-accuracy=0.000000
+2024-03-05 18:46:22,926 [INFO]  Epoch[1] Train-cross-entropy=16.602887
+2024-03-05 18:46:22,926 [INFO]  Epoch[1] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:46:22,926 [INFO]  Epoch[1] Time cost=1.847
+2024-03-05 18:46:22,928 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0001.params"
+2024-03-05 18:46:22,928 [INFO]  Epoch[1] Validation-cross-entropy=19.960508
+2024-03-05 18:46:22,928 [INFO]  Epoch[1] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:46:22,930 [INFO]  Epoch[2] Batch [0-2]	Speed: 24555.02 samples/sec	cross-entropy=10.924991	L-CORE-accuracy=0.000000
+2024-03-05 18:46:22,932 [INFO]  Epoch[2] Train-cross-entropy=9.956876
+2024-03-05 18:46:22,932 [INFO]  Epoch[2] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:46:22,932 [INFO]  Epoch[2] Time cost=0.004
+2024-03-05 18:46:22,934 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0002.params"
+2024-03-05 18:46:22,934 [INFO]  Epoch[2] Validation-cross-entropy=23.025568
+2024-03-05 18:46:22,934 [INFO]  Epoch[2] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:46:22,941 [INFO]  Epoch[3] Batch [0-2]	Speed: 6060.04 samples/sec	cross-entropy=6.370967	L-CORE-accuracy=0.000000
+2024-03-05 18:46:22,942 [INFO]  Epoch[3] Train-cross-entropy=5.718375
+2024-03-05 18:46:22,942 [INFO]  Epoch[3] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:46:22,942 [INFO]  Epoch[3] Time cost=0.008
+2024-03-05 18:46:22,943 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0003.params"
+2024-03-05 18:46:22,944 [INFO]  Epoch[3] Validation-cross-entropy=21.737387
+2024-03-05 18:46:22,944 [INFO]  Epoch[3] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:46:22,947 [INFO]  Epoch[4] Batch [0-2]	Speed: 12685.99 samples/sec	cross-entropy=3.113577	L-CORE-accuracy=0.000000
+2024-03-05 18:46:22,948 [INFO]  Epoch[4] Train-cross-entropy=2.790215
+2024-03-05 18:46:22,948 [INFO]  Epoch[4] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:46:22,948 [INFO]  Epoch[4] Time cost=0.005
+2024-03-05 18:46:22,950 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0004.params"
+2024-03-05 18:46:22,952 [INFO]  Epoch[4] Validation-cross-entropy=17.399357
+2024-03-05 18:46:22,953 [INFO]  Epoch[4] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:46:22,953 [INFO]  
+========== done (9.061953783035278 s) fit model
+2024-03-05 18:50:27,122 [INFO]  
+========== start: fit model
+2024-03-05 18:50:27,122 [WARNING]  Already bound, ignoring bind()
+2024-03-05 18:50:31,841 [INFO]  Epoch[0] Batch [0-2]	Speed: 10.18 samples/sec	cross-entropy=19.485519	L-CORE-accuracy=0.000000
+2024-03-05 18:50:33,218 [INFO]  Epoch[0] Train-cross-entropy=18.823087
+2024-03-05 18:50:33,219 [INFO]  Epoch[0] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:50:33,220 [INFO]  Epoch[0] Time cost=6.096
+2024-03-05 18:50:33,224 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0000.params"
+2024-03-05 18:50:33,656 [INFO]  Epoch[0] Validation-cross-entropy=6.674072
+2024-03-05 18:50:33,657 [INFO]  Epoch[0] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:50:38,135 [INFO]  Epoch[1] Batch [0-2]	Speed: 10.22 samples/sec	cross-entropy=10.671904	L-CORE-accuracy=0.000000
+2024-03-05 18:50:39,250 [INFO]  Epoch[1] Train-cross-entropy=10.398571
+2024-03-05 18:50:39,250 [INFO]  Epoch[1] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:50:39,251 [INFO]  Epoch[1] Time cost=5.593
+2024-03-05 18:50:39,254 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0001.params"
+2024-03-05 18:50:39,569 [INFO]  Epoch[1] Validation-cross-entropy=3.545637
+2024-03-05 18:50:39,570 [INFO]  Epoch[1] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:50:43,086 [INFO]  Epoch[2] Batch [0-2]	Speed: 12.53 samples/sec	cross-entropy=5.373209	L-CORE-accuracy=0.000000
+2024-03-05 18:50:43,087 [INFO]  Epoch[2] Train-cross-entropy=5.190254
+2024-03-05 18:50:43,087 [INFO]  Epoch[2] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:50:43,087 [INFO]  Epoch[2] Time cost=3.517
+2024-03-05 18:50:43,089 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0002.params"
+2024-03-05 18:50:43,089 [INFO]  Epoch[2] Validation-cross-entropy=1.510011
+2024-03-05 18:50:43,089 [INFO]  Epoch[2] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:50:43,092 [INFO]  Epoch[3] Batch [0-2]	Speed: 25395.98 samples/sec	cross-entropy=2.330326	L-CORE-accuracy=0.000000
+2024-03-05 18:50:43,092 [INFO]  Epoch[3] Train-cross-entropy=2.242966
+2024-03-05 18:50:43,092 [INFO]  Epoch[3] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:50:43,092 [INFO]  Epoch[3] Time cost=0.003
+2024-03-05 18:50:43,094 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0003.params"
+2024-03-05 18:50:43,094 [INFO]  Epoch[3] Validation-cross-entropy=0.433719
+2024-03-05 18:50:43,094 [INFO]  Epoch[3] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:50:47,832 [INFO]  Epoch[4] Batch [0-2]	Speed: 8.59 samples/sec	cross-entropy=0.884820	L-CORE-accuracy=0.000000
+2024-03-05 18:50:48,933 [INFO]  Epoch[4] Train-cross-entropy=0.891404
+2024-03-05 18:50:48,934 [INFO]  Epoch[4] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:50:48,934 [INFO]  Epoch[4] Time cost=5.840
+2024-03-05 18:50:48,965 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0004.params"
+2024-03-05 18:50:49,240 [INFO]  Epoch[4] Validation-cross-entropy=0.262677
+2024-03-05 18:50:49,240 [INFO]  Epoch[4] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:50:49,240 [INFO]  
+========== done (22.11891007423401 s) fit model
+2024-03-05 18:53:57,518 [INFO]  
+========== start: fit model
+2024-03-05 18:53:57,520 [WARNING]  Already bound, ignoring bind()
+2024-03-05 18:54:01,399 [INFO]  Epoch[0] Batch [0-2]	Speed: 15.40 samples/sec	cross-entropy=20.544790	L-CORE-accuracy=0.000000
+2024-03-05 18:54:02,652 [INFO]  Epoch[0] Train-cross-entropy=23.076819
+2024-03-05 18:54:02,653 [INFO]  Epoch[0] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:54:02,653 [INFO]  Epoch[0] Time cost=5.131
+2024-03-05 18:54:02,655 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0000.params"
+2024-03-05 18:54:02,965 [INFO]  Epoch[0] Validation-cross-entropy=7.301934
+2024-03-05 18:54:02,966 [INFO]  Epoch[0] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:54:05,211 [INFO]  Epoch[1] Batch [0-2]	Speed: 26.79 samples/sec	cross-entropy=11.671770	L-CORE-accuracy=0.000000
+2024-03-05 18:54:05,213 [INFO]  Epoch[1] Train-cross-entropy=12.713820
+2024-03-05 18:54:05,213 [INFO]  Epoch[1] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:54:05,213 [INFO]  Epoch[1] Time cost=2.247
+2024-03-05 18:54:05,217 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0001.params"
+2024-03-05 18:54:05,458 [INFO]  Epoch[1] Validation-cross-entropy=8.192585
+2024-03-05 18:54:05,459 [INFO]  Epoch[1] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:54:05,586 [INFO]  Epoch[2] Batch [0-2]	Speed: 18308.24 samples/sec	cross-entropy=7.538770	L-CORE-accuracy=0.000000
+2024-03-05 18:54:05,587 [INFO]  Epoch[2] Train-cross-entropy=7.756728
+2024-03-05 18:54:05,587 [INFO]  Epoch[2] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:54:05,587 [INFO]  Epoch[2] Time cost=0.129
+2024-03-05 18:54:05,589 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0002.params"
+2024-03-05 18:54:05,590 [INFO]  Epoch[2] Validation-cross-entropy=5.862612
+2024-03-05 18:54:05,590 [INFO]  Epoch[2] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:54:05,592 [INFO]  Epoch[3] Batch [0-2]	Speed: 24363.36 samples/sec	cross-entropy=4.646563	L-CORE-accuracy=0.000000
+2024-03-05 18:54:05,593 [INFO]  Epoch[3] Train-cross-entropy=4.461477
+2024-03-05 18:54:05,593 [INFO]  Epoch[3] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:54:05,593 [INFO]  Epoch[3] Time cost=0.003
+2024-03-05 18:54:05,594 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0003.params"
+2024-03-05 18:54:05,595 [INFO]  Epoch[3] Validation-cross-entropy=2.786390
+2024-03-05 18:54:05,595 [INFO]  Epoch[3] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:54:05,597 [INFO]  Epoch[4] Batch [0-2]	Speed: 24235.78 samples/sec	cross-entropy=2.482673	L-CORE-accuracy=0.000000
+2024-03-05 18:54:05,598 [INFO]  Epoch[4] Train-cross-entropy=2.234935
+2024-03-05 18:54:05,598 [INFO]  Epoch[4] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:54:05,598 [INFO]  Epoch[4] Time cost=0.003
+2024-03-05 18:54:05,599 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0004.params"
+2024-03-05 18:54:05,602 [INFO]  Epoch[4] Validation-cross-entropy=1.290197
+2024-03-05 18:54:05,602 [INFO]  Epoch[4] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:54:05,602 [INFO]  
+========== done (8.084147214889526 s) fit model
+2024-03-05 18:54:25,988 [INFO]  
+========== start: fit model
+2024-03-05 18:54:25,991 [WARNING]  Already bound, ignoring bind()
+2024-03-05 18:54:31,069 [INFO]  Epoch[0] Batch [0-2]	Speed: 10.65 samples/sec	cross-entropy=18.382619	L-CORE-accuracy=0.000000
+2024-03-05 18:54:32,822 [INFO]  Epoch[0] Train-cross-entropy=17.295263
+2024-03-05 18:54:32,823 [INFO]  Epoch[0] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:54:32,824 [INFO]  Epoch[0] Time cost=6.832
+2024-03-05 18:54:32,837 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0000.params"
+2024-03-05 18:54:33,270 [INFO]  Epoch[0] Validation-cross-entropy=11.094011
+2024-03-05 18:54:33,270 [INFO]  Epoch[0] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:54:38,829 [INFO]  Epoch[1] Batch [0-2]	Speed: 8.05 samples/sec	cross-entropy=10.968044	L-CORE-accuracy=0.000000
+2024-03-05 18:54:40,305 [INFO]  Epoch[1] Train-cross-entropy=10.274147
+2024-03-05 18:54:40,306 [INFO]  Epoch[1] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:54:40,306 [INFO]  Epoch[1] Time cost=7.035
+2024-03-05 18:54:40,309 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0001.params"
+2024-03-05 18:54:40,761 [INFO]  Epoch[1] Validation-cross-entropy=6.365078
+2024-03-05 18:54:40,762 [INFO]  Epoch[1] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:54:45,203 [INFO]  Epoch[2] Batch [0-2]	Speed: 12.81 samples/sec	cross-entropy=6.276287	L-CORE-accuracy=0.000000
+2024-03-05 18:54:46,506 [INFO]  Epoch[2] Train-cross-entropy=5.796630
+2024-03-05 18:54:46,506 [INFO]  Epoch[2] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:54:46,506 [INFO]  Epoch[2] Time cost=5.744
+2024-03-05 18:54:46,508 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0002.params"
+2024-03-05 18:54:46,804 [INFO]  Epoch[2] Validation-cross-entropy=3.672482
+2024-03-05 18:54:46,804 [INFO]  Epoch[2] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:54:51,529 [INFO]  Epoch[3] Batch [0-2]	Speed: 9.06 samples/sec	cross-entropy=3.278474	L-CORE-accuracy=0.000000
+2024-03-05 18:54:53,896 [INFO]  Epoch[3] Train-cross-entropy=2.960765
+2024-03-05 18:54:53,897 [INFO]  Epoch[3] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:54:53,897 [INFO]  Epoch[3] Time cost=7.093
+2024-03-05 18:54:53,901 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0003.params"
+2024-03-05 18:54:54,192 [INFO]  Epoch[3] Validation-cross-entropy=2.330720
+2024-03-05 18:54:54,193 [INFO]  Epoch[3] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:54:58,423 [INFO]  Epoch[4] Batch [0-2]	Speed: 11.14 samples/sec	cross-entropy=1.553824	L-CORE-accuracy=0.000000
+2024-03-05 18:54:59,627 [INFO]  Epoch[4] Train-cross-entropy=1.366793
+2024-03-05 18:54:59,627 [INFO]  Epoch[4] Train-L-CORE-accuracy=0.000000
+2024-03-05 18:54:59,627 [INFO]  Epoch[4] Time cost=5.434
+2024-03-05 18:54:59,630 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0004.params"
+2024-03-05 18:55:00,031 [INFO]  Epoch[4] Validation-cross-entropy=1.748434
+2024-03-05 18:55:00,032 [INFO]  Epoch[4] Validation-L-CORE-accuracy=0.000000
+2024-03-05 18:55:00,032 [INFO]  
+========== done (34.044315338134766 s) fit model
+2024-03-09 16:25:49,410 [INFO]  
+========== start: fit model
+2024-03-09 16:25:49,451 [WARNING]  Already bound, ignoring bind()
+2024-03-09 16:25:49,718 [INFO]  Epoch[0] Batch [0-2]	Speed: 7241.31 samples/sec	cross-entropy=16.554116	L-CORE-accuracy=0.000000
+2024-03-09 16:25:49,745 [INFO]  Epoch[0] Train-cross-entropy=15.781819
+2024-03-09 16:25:49,746 [INFO]  Epoch[0] Train-L-CORE-accuracy=0.000000
+2024-03-09 16:25:49,746 [INFO]  Epoch[0] Time cost=0.293
+2024-03-09 16:25:49,749 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0000.params"
+2024-03-09 16:25:49,884 [INFO]  Epoch[0] Validation-cross-entropy=6.728226
+2024-03-09 16:25:49,885 [INFO]  Epoch[0] Validation-L-CORE-accuracy=0.000000
+2024-03-09 16:25:50,425 [INFO]  Epoch[1] Batch [0-2]	Speed: 258.62 samples/sec	cross-entropy=9.654179	L-CORE-accuracy=0.000000
+2024-03-09 16:25:50,822 [INFO]  Epoch[1] Train-cross-entropy=8.859104
+2024-03-09 16:25:50,822 [INFO]  Epoch[1] Train-L-CORE-accuracy=0.000000
+2024-03-09 16:25:50,822 [INFO]  Epoch[1] Time cost=0.937
+2024-03-09 16:25:50,824 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0001.params"
+2024-03-09 16:25:50,825 [INFO]  Epoch[1] Validation-cross-entropy=2.848455
+2024-03-09 16:25:50,826 [INFO]  Epoch[1] Validation-L-CORE-accuracy=0.000000
+2024-03-09 16:25:50,829 [INFO]  Epoch[2] Batch [0-2]	Speed: 14794.72 samples/sec	cross-entropy=5.477520	L-CORE-accuracy=0.000000
+2024-03-09 16:25:50,989 [INFO]  Epoch[2] Train-cross-entropy=4.829667
+2024-03-09 16:25:50,990 [INFO]  Epoch[2] Train-L-CORE-accuracy=0.000000
+2024-03-09 16:25:50,990 [INFO]  Epoch[2] Time cost=0.165
+2024-03-09 16:25:50,993 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0002.params"
+2024-03-09 16:25:51,022 [INFO]  Epoch[2] Validation-cross-entropy=1.176527
+2024-03-09 16:25:51,023 [INFO]  Epoch[2] Validation-L-CORE-accuracy=0.000000
+2024-03-09 16:25:51,034 [INFO]  Epoch[3] Batch [0-2]	Speed: 15738.48 samples/sec	cross-entropy=2.884510	L-CORE-accuracy=0.000000
+2024-03-09 16:25:51,562 [INFO]  Epoch[3] Train-cross-entropy=2.485174
+2024-03-09 16:25:51,566 [INFO]  Epoch[3] Train-L-CORE-accuracy=0.000000
+2024-03-09 16:25:51,566 [INFO]  Epoch[3] Time cost=0.543
+2024-03-09 16:25:51,568 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0003.params"
+2024-03-09 16:25:51,650 [INFO]  Epoch[3] Validation-cross-entropy=0.683365
+2024-03-09 16:25:51,650 [INFO]  Epoch[3] Validation-L-CORE-accuracy=0.000000
+2024-03-09 16:25:51,938 [INFO]  Epoch[4] Batch [0-2]	Speed: 367.24 samples/sec	cross-entropy=1.481824	L-CORE-accuracy=0.000000
+2024-03-09 16:25:51,939 [INFO]  Epoch[4] Train-cross-entropy=1.253474
+2024-03-09 16:25:51,940 [INFO]  Epoch[4] Train-L-CORE-accuracy=0.000000
+2024-03-09 16:25:51,940 [INFO]  Epoch[4] Time cost=0.290
+2024-03-09 16:25:51,942 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_L-CORE/model-0004.params"
+2024-03-09 16:25:51,943 [INFO]  Epoch[4] Validation-cross-entropy=0.744469
+2024-03-09 16:25:51,944 [INFO]  Epoch[4] Validation-L-CORE-accuracy=0.000000
+2024-03-09 16:25:51,944 [INFO]  
+========== done (2.5339372158050537 s) fit model

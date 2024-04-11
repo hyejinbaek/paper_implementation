@@ -1,0 +1,1200 @@
+2024-04-01 19:32:28,915 [INFO]  
+========== start: fit model
+2024-04-01 19:32:28,915 [WARNING]  Already bound, ignoring bind()
+2024-04-01 19:32:40,453 [INFO]  Epoch[0] Batch [0-10]	Speed: 15.78 samples/sec	cross-entropy=3.300417	Grocery-accuracy=3.545455
+2024-04-01 19:32:50,182 [INFO]  Epoch[0] Train-cross-entropy=3.229575
+2024-04-01 19:32:50,183 [INFO]  Epoch[0] Train-Grocery-accuracy=3.300000
+2024-04-01 19:32:50,183 [INFO]  Epoch[0] Time cost=21.267
+2024-04-01 19:32:50,185 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0000.params"
+2024-04-01 19:32:50,691 [INFO]  Epoch[0] Validation-cross-entropy=0.586822
+2024-04-01 19:32:50,691 [INFO]  Epoch[0] Validation-Grocery-accuracy=0.000000
+2024-04-01 19:33:00,951 [INFO]  Epoch[1] Batch [0-10]	Speed: 17.29 samples/sec	cross-entropy=0.573812	Grocery-accuracy=3.545455
+2024-04-01 19:33:09,766 [INFO]  Epoch[1] Train-cross-entropy=0.544802
+2024-04-01 19:33:09,767 [INFO]  Epoch[1] Train-Grocery-accuracy=3.300000
+2024-04-01 19:33:09,767 [INFO]  Epoch[1] Time cost=19.076
+2024-04-01 19:33:09,777 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0001.params"
+2024-04-01 19:33:10,319 [INFO]  Epoch[1] Validation-cross-entropy=0.160725
+2024-04-01 19:33:10,319 [INFO]  Epoch[1] Validation-Grocery-accuracy=0.000000
+2024-04-01 19:33:21,304 [INFO]  Epoch[2] Batch [0-10]	Speed: 16.06 samples/sec	cross-entropy=0.259257	Grocery-accuracy=3.545455
+2024-04-01 19:33:30,835 [INFO]  Epoch[2] Train-cross-entropy=0.193999
+2024-04-01 19:33:30,835 [INFO]  Epoch[2] Train-Grocery-accuracy=3.300000
+2024-04-01 19:33:30,835 [INFO]  Epoch[2] Time cost=20.516
+2024-04-01 19:33:30,839 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0002.params"
+2024-04-01 19:33:31,379 [INFO]  Epoch[2] Validation-cross-entropy=0.122639
+2024-04-01 19:33:31,379 [INFO]  Epoch[2] Validation-Grocery-accuracy=0.000000
+2024-04-01 19:33:42,368 [INFO]  Epoch[3] Batch [0-10]	Speed: 15.99 samples/sec	cross-entropy=0.156070	Grocery-accuracy=3.545455
+2024-04-01 19:33:46,243 [INFO]  Epoch[3] Train-cross-entropy=0.120971
+2024-04-01 19:33:46,243 [INFO]  Epoch[3] Train-Grocery-accuracy=3.300000
+2024-04-01 19:33:46,243 [INFO]  Epoch[3] Time cost=14.864
+2024-04-01 19:33:46,245 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0003.params"
+2024-04-01 19:33:46,779 [INFO]  Epoch[3] Validation-cross-entropy=0.069586
+2024-04-01 19:33:46,779 [INFO]  Epoch[3] Validation-Grocery-accuracy=0.000000
+2024-04-01 19:33:51,978 [INFO]  Epoch[4] Batch [0-10]	Speed: 33.47 samples/sec	cross-entropy=0.076443	Grocery-accuracy=3.545455
+2024-04-01 19:33:55,042 [INFO]  Epoch[4] Train-cross-entropy=0.066997
+2024-04-01 19:33:55,043 [INFO]  Epoch[4] Train-Grocery-accuracy=3.300000
+2024-04-01 19:33:55,043 [INFO]  Epoch[4] Time cost=8.264
+2024-04-01 19:33:55,045 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0004.params"
+2024-04-01 19:33:55,391 [INFO]  Epoch[4] Validation-cross-entropy=0.048499
+2024-04-01 19:33:55,398 [INFO]  Epoch[4] Validation-Grocery-accuracy=0.000000
+2024-04-01 19:33:55,398 [INFO]  
+========== done (86.48373508453369 s) fit model
+2024-04-01 19:38:14,943 [INFO]  
+========== start: fit model
+2024-04-01 19:38:14,944 [WARNING]  Already bound, ignoring bind()
+2024-04-01 19:38:21,664 [INFO]  Epoch[0] Batch [0-10]	Speed: 26.09 samples/sec	cross-entropy=19.456330	Grocery-accuracy=3.545455
+2024-04-01 19:38:26,174 [INFO]  Epoch[0] Train-cross-entropy=11.636745
+2024-04-01 19:38:26,175 [INFO]  Epoch[0] Train-Grocery-accuracy=3.350000
+2024-04-01 19:38:26,175 [INFO]  Epoch[0] Time cost=11.230
+2024-04-01 19:38:26,177 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0000.params"
+2024-04-01 19:38:26,668 [INFO]  Epoch[0] Validation-cross-entropy=3.049599
+2024-04-01 19:38:26,668 [INFO]  Epoch[0] Validation-Grocery-accuracy=0.000000
+2024-04-01 19:38:32,175 [INFO]  Epoch[1] Batch [0-10]	Speed: 32.87 samples/sec	cross-entropy=1.576548	Grocery-accuracy=3.545455
+2024-04-01 19:38:36,967 [INFO]  Epoch[1] Train-cross-entropy=1.196311
+2024-04-01 19:38:36,967 [INFO]  Epoch[1] Train-Grocery-accuracy=3.350000
+2024-04-01 19:38:36,967 [INFO]  Epoch[1] Time cost=10.299
+2024-04-01 19:38:36,969 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0001.params"
+2024-04-01 19:38:37,426 [INFO]  Epoch[1] Validation-cross-entropy=0.765083
+2024-04-01 19:38:37,427 [INFO]  Epoch[1] Validation-Grocery-accuracy=0.000000
+2024-04-01 19:38:43,415 [INFO]  Epoch[2] Batch [0-10]	Speed: 29.49 samples/sec	cross-entropy=0.600920	Grocery-accuracy=3.545455
+2024-04-01 19:38:47,150 [INFO]  Epoch[2] Train-cross-entropy=0.471177
+2024-04-01 19:38:47,151 [INFO]  Epoch[2] Train-Grocery-accuracy=3.350000
+2024-04-01 19:38:47,151 [INFO]  Epoch[2] Time cost=9.720
+2024-04-01 19:38:47,152 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0002.params"
+2024-04-01 19:38:47,559 [INFO]  Epoch[2] Validation-cross-entropy=0.363219
+2024-04-01 19:38:47,559 [INFO]  Epoch[2] Validation-Grocery-accuracy=0.000000
+2024-04-01 19:38:53,903 [INFO]  Epoch[3] Batch [0-10]	Speed: 27.89 samples/sec	cross-entropy=0.403938	Grocery-accuracy=3.545455
+2024-04-01 19:38:58,565 [INFO]  Epoch[3] Train-cross-entropy=0.312944
+2024-04-01 19:38:58,565 [INFO]  Epoch[3] Train-Grocery-accuracy=3.350000
+2024-04-01 19:38:58,565 [INFO]  Epoch[3] Time cost=11.006
+2024-04-01 19:38:58,571 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0003.params"
+2024-04-01 19:38:59,054 [INFO]  Epoch[3] Validation-cross-entropy=0.294144
+2024-04-01 19:38:59,055 [INFO]  Epoch[3] Validation-Grocery-accuracy=0.000000
+2024-04-01 19:39:04,190 [INFO]  Epoch[4] Batch [0-10]	Speed: 33.52 samples/sec	cross-entropy=0.252907	Grocery-accuracy=3.545455
+2024-04-01 19:39:08,066 [INFO]  Epoch[4] Train-cross-entropy=0.191467
+2024-04-01 19:39:08,066 [INFO]  Epoch[4] Train-Grocery-accuracy=3.350000
+2024-04-01 19:39:08,066 [INFO]  Epoch[4] Time cost=9.012
+2024-04-01 19:39:08,068 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0004.params"
+2024-04-01 19:39:08,571 [INFO]  Epoch[4] Validation-cross-entropy=0.256765
+2024-04-01 19:39:08,571 [INFO]  Epoch[4] Validation-Grocery-accuracy=0.000000
+2024-04-01 19:39:08,571 [INFO]  
+========== done (53.62785363197327 s) fit model
+2024-04-01 19:44:37,205 [INFO]  
+========== start: fit model
+2024-04-01 19:44:37,205 [WARNING]  Already bound, ignoring bind()
+2024-04-01 19:44:44,374 [INFO]  Epoch[0] Batch [0-10]	Speed: 25.38 samples/sec	cross-entropy=7.772508	Grocery-accuracy=3.363636
+2024-04-01 19:44:50,059 [INFO]  Epoch[0] Train-cross-entropy=5.660461
+2024-04-01 19:44:50,059 [INFO]  Epoch[0] Train-Grocery-accuracy=3.300000
+2024-04-01 19:44:50,059 [INFO]  Epoch[0] Time cost=12.854
+2024-04-01 19:44:50,061 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0000.params"
+2024-04-01 19:44:50,355 [INFO]  Epoch[0] Validation-cross-entropy=1.538336
+2024-04-01 19:44:50,355 [INFO]  Epoch[0] Validation-Grocery-accuracy=0.000000
+2024-04-01 19:44:56,309 [INFO]  Epoch[1] Batch [0-10]	Speed: 30.11 samples/sec	cross-entropy=1.888111	Grocery-accuracy=3.363636
+2024-04-01 19:45:02,694 [INFO]  Epoch[1] Train-cross-entropy=2.034551
+2024-04-01 19:45:02,695 [INFO]  Epoch[1] Train-Grocery-accuracy=3.300000
+2024-04-01 19:45:02,695 [INFO]  Epoch[1] Time cost=12.340
+2024-04-01 19:45:02,697 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0001.params"
+2024-04-01 19:45:03,173 [INFO]  Epoch[1] Validation-cross-entropy=0.361654
+2024-04-01 19:45:03,173 [INFO]  Epoch[1] Validation-Grocery-accuracy=0.000000
+2024-04-01 19:45:08,933 [INFO]  Epoch[2] Batch [0-10]	Speed: 31.03 samples/sec	cross-entropy=0.849940	Grocery-accuracy=3.363636
+2024-04-01 19:45:14,744 [INFO]  Epoch[2] Train-cross-entropy=1.212898
+2024-04-01 19:45:14,744 [INFO]  Epoch[2] Train-Grocery-accuracy=3.300000
+2024-04-01 19:45:14,744 [INFO]  Epoch[2] Time cost=11.571
+2024-04-01 19:45:14,746 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0002.params"
+2024-04-01 19:45:15,111 [INFO]  Epoch[2] Validation-cross-entropy=0.297218
+2024-04-01 19:45:15,111 [INFO]  Epoch[2] Validation-Grocery-accuracy=0.000000
+2024-04-01 19:45:22,535 [INFO]  Epoch[3] Batch [0-10]	Speed: 23.84 samples/sec	cross-entropy=0.540965	Grocery-accuracy=3.363636
+2024-04-01 19:45:28,085 [INFO]  Epoch[3] Train-cross-entropy=0.626102
+2024-04-01 19:45:28,085 [INFO]  Epoch[3] Train-Grocery-accuracy=3.300000
+2024-04-01 19:45:28,085 [INFO]  Epoch[3] Time cost=12.975
+2024-04-01 19:45:28,087 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0003.params"
+2024-04-01 19:45:28,431 [INFO]  Epoch[3] Validation-cross-entropy=0.340546
+2024-04-01 19:45:28,431 [INFO]  Epoch[3] Validation-Grocery-accuracy=0.000000
+2024-04-01 19:45:32,103 [INFO]  Epoch[4] Batch [0-10]	Speed: 49.20 samples/sec	cross-entropy=0.504338	Grocery-accuracy=3.363636
+2024-04-01 19:45:37,775 [INFO]  Epoch[4] Train-cross-entropy=0.432018
+2024-04-01 19:45:37,775 [INFO]  Epoch[4] Train-Grocery-accuracy=3.300000
+2024-04-01 19:45:37,775 [INFO]  Epoch[4] Time cost=9.343
+2024-04-01 19:45:37,776 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0004.params"
+2024-04-01 19:45:38,455 [INFO]  Epoch[4] Validation-cross-entropy=0.207336
+2024-04-01 19:45:38,455 [INFO]  Epoch[4] Validation-Grocery-accuracy=0.000000
+2024-04-01 19:45:38,455 [INFO]  
+========== done (61.250370502471924 s) fit model
+2024-04-01 19:50:56,855 [INFO]  
+========== start: fit model
+2024-04-01 19:50:56,856 [WARNING]  Already bound, ignoring bind()
+2024-04-01 19:51:00,584 [INFO]  Epoch[0] Batch [0-10]	Speed: 50.86 samples/sec	cross-entropy=6.143648	Grocery-accuracy=0.000000
+2024-04-01 19:51:04,622 [INFO]  Epoch[0] Train-cross-entropy=5.160892
+2024-04-01 19:51:04,623 [INFO]  Epoch[0] Train-Grocery-accuracy=0.000000
+2024-04-01 19:51:04,623 [INFO]  Epoch[0] Time cost=7.766
+2024-04-01 19:51:04,627 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0000.params"
+2024-04-01 19:51:04,691 [INFO]  Epoch[0] Validation-cross-entropy=7.269976
+2024-04-01 19:51:04,692 [INFO]  Epoch[0] Validation-Grocery-accuracy=0.000000
+2024-04-01 19:51:10,539 [INFO]  Epoch[1] Batch [0-10]	Speed: 27.37 samples/sec	cross-entropy=4.232000	Grocery-accuracy=0.000000
+2024-04-01 19:51:15,480 [INFO]  Epoch[1] Train-cross-entropy=3.388205
+2024-04-01 19:51:15,480 [INFO]  Epoch[1] Train-Grocery-accuracy=0.000000
+2024-04-01 19:51:15,480 [INFO]  Epoch[1] Time cost=10.789
+2024-04-01 19:51:15,482 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0001.params"
+2024-04-01 19:51:15,791 [INFO]  Epoch[1] Validation-cross-entropy=0.716773
+2024-04-01 19:51:15,791 [INFO]  Epoch[1] Validation-Grocery-accuracy=0.000000
+2024-04-01 19:51:21,015 [INFO]  Epoch[2] Batch [0-10]	Speed: 34.50 samples/sec	cross-entropy=1.185809	Grocery-accuracy=0.000000
+2024-04-01 19:51:25,174 [INFO]  Epoch[2] Train-cross-entropy=1.022637
+2024-04-01 19:51:25,175 [INFO]  Epoch[2] Train-Grocery-accuracy=0.000000
+2024-04-01 19:51:25,175 [INFO]  Epoch[2] Time cost=9.384
+2024-04-01 19:51:25,177 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0002.params"
+2024-04-01 19:51:25,487 [INFO]  Epoch[2] Validation-cross-entropy=0.793553
+2024-04-01 19:51:25,487 [INFO]  Epoch[2] Validation-Grocery-accuracy=0.000000
+2024-04-01 19:51:30,716 [INFO]  Epoch[3] Batch [0-10]	Speed: 34.62 samples/sec	cross-entropy=0.576328	Grocery-accuracy=0.000000
+2024-04-01 19:51:33,433 [INFO]  Epoch[3] Train-cross-entropy=0.548248
+2024-04-01 19:51:33,433 [INFO]  Epoch[3] Train-Grocery-accuracy=0.000000
+2024-04-01 19:51:33,433 [INFO]  Epoch[3] Time cost=7.946
+2024-04-01 19:51:33,435 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0003.params"
+2024-04-01 19:51:33,771 [INFO]  Epoch[3] Validation-cross-entropy=0.199410
+2024-04-01 19:51:33,771 [INFO]  Epoch[3] Validation-Grocery-accuracy=0.000000
+2024-04-01 19:51:37,975 [INFO]  Epoch[4] Batch [0-10]	Speed: 44.38 samples/sec	cross-entropy=0.232425	Grocery-accuracy=0.000000
+2024-04-01 19:51:43,630 [INFO]  Epoch[4] Train-cross-entropy=0.198923
+2024-04-01 19:51:43,631 [INFO]  Epoch[4] Train-Grocery-accuracy=0.000000
+2024-04-01 19:51:43,631 [INFO]  Epoch[4] Time cost=9.860
+2024-04-01 19:51:43,633 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0004.params"
+2024-04-01 19:51:43,634 [INFO]  Epoch[4] Validation-cross-entropy=0.192872
+2024-04-01 19:51:43,634 [INFO]  Epoch[4] Validation-Grocery-accuracy=0.000000
+2024-04-01 19:51:43,634 [INFO]  
+========== done (46.77902340888977 s) fit model
+2024-04-01 19:57:47,378 [INFO]  
+========== start: fit model
+2024-04-01 19:57:47,390 [WARNING]  Already bound, ignoring bind()
+2024-04-01 19:57:53,004 [INFO]  Epoch[0] Batch [0-10]	Speed: 34.99 samples/sec	cross-entropy=7.309661	Grocery-accuracy=0.000000
+2024-04-01 19:57:58,436 [INFO]  Epoch[0] Train-cross-entropy=5.427681
+2024-04-01 19:57:58,436 [INFO]  Epoch[0] Train-Grocery-accuracy=0.000000
+2024-04-01 19:57:58,436 [INFO]  Epoch[0] Time cost=11.044
+2024-04-01 19:57:58,438 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0000.params"
+2024-04-01 19:57:59,035 [INFO]  Epoch[0] Validation-cross-entropy=0.988497
+2024-04-01 19:57:59,035 [INFO]  Epoch[0] Validation-Grocery-accuracy=0.000000
+2024-04-01 19:58:06,448 [INFO]  Epoch[1] Batch [0-10]	Speed: 23.68 samples/sec	cross-entropy=1.480096	Grocery-accuracy=0.000000
+2024-04-01 19:58:12,323 [INFO]  Epoch[1] Train-cross-entropy=1.438336
+2024-04-01 19:58:12,323 [INFO]  Epoch[1] Train-Grocery-accuracy=0.000000
+2024-04-01 19:58:12,323 [INFO]  Epoch[1] Time cost=13.288
+2024-04-01 19:58:12,325 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0001.params"
+2024-04-01 19:58:12,659 [INFO]  Epoch[1] Validation-cross-entropy=0.439420
+2024-04-01 19:58:12,659 [INFO]  Epoch[1] Validation-Grocery-accuracy=0.000000
+2024-04-01 19:58:19,505 [INFO]  Epoch[2] Batch [0-10]	Speed: 25.87 samples/sec	cross-entropy=0.731435	Grocery-accuracy=0.000000
+2024-04-01 19:58:25,623 [INFO]  Epoch[2] Train-cross-entropy=0.545650
+2024-04-01 19:58:25,623 [INFO]  Epoch[2] Train-Grocery-accuracy=0.000000
+2024-04-01 19:58:25,623 [INFO]  Epoch[2] Time cost=12.964
+2024-04-01 19:58:25,625 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0002.params"
+2024-04-01 19:58:25,929 [INFO]  Epoch[2] Validation-cross-entropy=0.118275
+2024-04-01 19:58:25,929 [INFO]  Epoch[2] Validation-Grocery-accuracy=0.000000
+2024-04-01 19:58:32,947 [INFO]  Epoch[3] Batch [0-10]	Speed: 25.14 samples/sec	cross-entropy=0.164871	Grocery-accuracy=0.000000
+2024-04-01 19:58:37,287 [INFO]  Epoch[3] Train-cross-entropy=0.167498
+2024-04-01 19:58:37,287 [INFO]  Epoch[3] Train-Grocery-accuracy=0.000000
+2024-04-01 19:58:37,287 [INFO]  Epoch[3] Time cost=11.358
+2024-04-01 19:58:37,290 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0003.params"
+2024-04-01 19:58:37,626 [INFO]  Epoch[3] Validation-cross-entropy=0.078384
+2024-04-01 19:58:37,627 [INFO]  Epoch[3] Validation-Grocery-accuracy=0.000000
+2024-04-01 19:58:43,483 [INFO]  Epoch[4] Batch [0-10]	Speed: 30.55 samples/sec	cross-entropy=0.130299	Grocery-accuracy=0.000000
+2024-04-01 19:58:49,335 [INFO]  Epoch[4] Train-cross-entropy=0.120997
+2024-04-01 19:58:49,335 [INFO]  Epoch[4] Train-Grocery-accuracy=0.000000
+2024-04-01 19:58:49,335 [INFO]  Epoch[4] Time cost=11.708
+2024-04-01 19:58:49,337 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0004.params"
+2024-04-01 19:58:49,534 [INFO]  Epoch[4] Validation-cross-entropy=0.051841
+2024-04-01 19:58:49,538 [INFO]  Epoch[4] Validation-Grocery-accuracy=0.000000
+2024-04-01 19:58:49,538 [INFO]  
+========== done (62.16014289855957 s) fit model
+2024-04-01 20:04:40,461 [INFO]  
+========== start: fit model
+2024-04-01 20:04:40,461 [WARNING]  Already bound, ignoring bind()
+2024-04-01 20:04:46,202 [INFO]  Epoch[0] Batch [0-10]	Speed: 32.68 samples/sec	cross-entropy=5.862296	Grocery-accuracy=0.000000
+2024-04-01 20:04:51,842 [INFO]  Epoch[0] Train-cross-entropy=4.996084
+2024-04-01 20:04:51,846 [INFO]  Epoch[0] Train-Grocery-accuracy=0.000000
+2024-04-01 20:04:51,847 [INFO]  Epoch[0] Time cost=11.384
+2024-04-01 20:04:51,849 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0000.params"
+2024-04-01 20:04:52,347 [INFO]  Epoch[0] Validation-cross-entropy=0.476549
+2024-04-01 20:04:52,347 [INFO]  Epoch[0] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:04:59,839 [INFO]  Epoch[1] Batch [0-10]	Speed: 23.37 samples/sec	cross-entropy=0.934343	Grocery-accuracy=0.000000
+2024-04-01 20:05:04,914 [INFO]  Epoch[1] Train-cross-entropy=1.069733
+2024-04-01 20:05:04,915 [INFO]  Epoch[1] Train-Grocery-accuracy=0.000000
+2024-04-01 20:05:04,915 [INFO]  Epoch[1] Time cost=12.568
+2024-04-01 20:05:04,917 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0001.params"
+2024-04-01 20:05:05,231 [INFO]  Epoch[1] Validation-cross-entropy=0.397711
+2024-04-01 20:05:05,232 [INFO]  Epoch[1] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:05:10,230 [INFO]  Epoch[2] Batch [0-10]	Speed: 36.30 samples/sec	cross-entropy=0.651337	Grocery-accuracy=0.000000
+2024-04-01 20:05:15,478 [INFO]  Epoch[2] Train-cross-entropy=0.863590
+2024-04-01 20:05:15,479 [INFO]  Epoch[2] Train-Grocery-accuracy=0.000000
+2024-04-01 20:05:15,479 [INFO]  Epoch[2] Time cost=10.247
+2024-04-01 20:05:15,483 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0002.params"
+2024-04-01 20:05:15,775 [INFO]  Epoch[2] Validation-cross-entropy=0.351223
+2024-04-01 20:05:15,775 [INFO]  Epoch[2] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:05:19,700 [INFO]  Epoch[3] Batch [0-10]	Speed: 41.20 samples/sec	cross-entropy=0.283636	Grocery-accuracy=0.000000
+2024-04-01 20:05:25,471 [INFO]  Epoch[3] Train-cross-entropy=0.336802
+2024-04-01 20:05:25,471 [INFO]  Epoch[3] Train-Grocery-accuracy=0.000000
+2024-04-01 20:05:25,471 [INFO]  Epoch[3] Time cost=9.696
+2024-04-01 20:05:25,473 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0003.params"
+2024-04-01 20:05:25,787 [INFO]  Epoch[3] Validation-cross-entropy=0.158628
+2024-04-01 20:05:25,787 [INFO]  Epoch[3] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:05:33,047 [INFO]  Epoch[4] Batch [0-10]	Speed: 23.98 samples/sec	cross-entropy=0.141749	Grocery-accuracy=0.000000
+2024-04-01 20:05:38,370 [INFO]  Epoch[4] Train-cross-entropy=0.159344
+2024-04-01 20:05:38,370 [INFO]  Epoch[4] Train-Grocery-accuracy=0.000000
+2024-04-01 20:05:38,370 [INFO]  Epoch[4] Time cost=12.583
+2024-04-01 20:05:38,371 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0004.params"
+2024-04-01 20:05:38,707 [INFO]  Epoch[4] Validation-cross-entropy=0.210240
+2024-04-01 20:05:38,707 [INFO]  Epoch[4] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:05:38,707 [INFO]  
+========== done (58.245956897735596 s) fit model
+2024-04-01 20:10:49,395 [INFO]  
+========== start: fit model
+2024-04-01 20:10:49,396 [WARNING]  Already bound, ignoring bind()
+2024-04-01 20:10:55,265 [INFO]  Epoch[0] Batch [0-10]	Speed: 31.38 samples/sec	cross-entropy=17.282386	Grocery-accuracy=0.000000
+2024-04-01 20:11:00,273 [INFO]  Epoch[0] Train-cross-entropy=11.137886
+2024-04-01 20:11:00,273 [INFO]  Epoch[0] Train-Grocery-accuracy=0.000000
+2024-04-01 20:11:00,273 [INFO]  Epoch[0] Time cost=10.877
+2024-04-01 20:11:00,275 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0000.params"
+2024-04-01 20:11:00,566 [INFO]  Epoch[0] Validation-cross-entropy=4.475631
+2024-04-01 20:11:00,566 [INFO]  Epoch[0] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:11:07,577 [INFO]  Epoch[1] Batch [0-10]	Speed: 25.71 samples/sec	cross-entropy=5.423337	Grocery-accuracy=0.000000
+2024-04-01 20:11:10,190 [INFO]  Epoch[1] Train-cross-entropy=3.351676
+2024-04-01 20:11:10,190 [INFO]  Epoch[1] Train-Grocery-accuracy=0.000000
+2024-04-01 20:11:10,190 [INFO]  Epoch[1] Time cost=9.624
+2024-04-01 20:11:10,192 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0001.params"
+2024-04-01 20:11:10,503 [INFO]  Epoch[1] Validation-cross-entropy=0.590562
+2024-04-01 20:11:10,503 [INFO]  Epoch[1] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:11:17,431 [INFO]  Epoch[2] Batch [0-10]	Speed: 25.20 samples/sec	cross-entropy=1.521934	Grocery-accuracy=0.000000
+2024-04-01 20:11:23,410 [INFO]  Epoch[2] Train-cross-entropy=0.980336
+2024-04-01 20:11:23,411 [INFO]  Epoch[2] Train-Grocery-accuracy=0.000000
+2024-04-01 20:11:23,411 [INFO]  Epoch[2] Time cost=12.908
+2024-04-01 20:11:23,412 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0002.params"
+2024-04-01 20:11:23,712 [INFO]  Epoch[2] Validation-cross-entropy=0.177163
+2024-04-01 20:11:23,717 [INFO]  Epoch[2] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:11:30,671 [INFO]  Epoch[3] Batch [0-10]	Speed: 25.87 samples/sec	cross-entropy=0.431847	Grocery-accuracy=0.000000
+2024-04-01 20:11:34,045 [INFO]  Epoch[3] Train-cross-entropy=0.288273
+2024-04-01 20:11:34,046 [INFO]  Epoch[3] Train-Grocery-accuracy=0.000000
+2024-04-01 20:11:34,046 [INFO]  Epoch[3] Time cost=10.329
+2024-04-01 20:11:34,047 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0003.params"
+2024-04-01 20:11:34,359 [INFO]  Epoch[3] Validation-cross-entropy=0.108578
+2024-04-01 20:11:34,359 [INFO]  Epoch[3] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:11:41,579 [INFO]  Epoch[4] Batch [0-10]	Speed: 24.13 samples/sec	cross-entropy=0.162220	Grocery-accuracy=0.000000
+2024-04-01 20:11:45,446 [INFO]  Epoch[4] Train-cross-entropy=0.114921
+2024-04-01 20:11:45,446 [INFO]  Epoch[4] Train-Grocery-accuracy=0.000000
+2024-04-01 20:11:45,446 [INFO]  Epoch[4] Time cost=11.088
+2024-04-01 20:11:45,448 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0004.params"
+2024-04-01 20:11:45,788 [INFO]  Epoch[4] Validation-cross-entropy=0.067646
+2024-04-01 20:11:45,788 [INFO]  Epoch[4] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:11:45,788 [INFO]  
+========== done (56.39298105239868 s) fit model
+2024-04-01 20:17:02,537 [INFO]  
+========== start: fit model
+2024-04-01 20:17:02,537 [WARNING]  Already bound, ignoring bind()
+2024-04-01 20:17:09,491 [INFO]  Epoch[0] Batch [0-10]	Speed: 25.95 samples/sec	cross-entropy=3.726363	Grocery-accuracy=0.000000
+2024-04-01 20:17:13,824 [INFO]  Epoch[0] Train-cross-entropy=2.573066
+2024-04-01 20:17:13,824 [INFO]  Epoch[0] Train-Grocery-accuracy=0.000000
+2024-04-01 20:17:13,824 [INFO]  Epoch[0] Time cost=11.286
+2024-04-01 20:17:13,826 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0000.params"
+2024-04-01 20:17:14,131 [INFO]  Epoch[0] Validation-cross-entropy=0.459015
+2024-04-01 20:17:14,131 [INFO]  Epoch[0] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:17:20,793 [INFO]  Epoch[1] Batch [0-10]	Speed: 26.25 samples/sec	cross-entropy=0.658890	Grocery-accuracy=0.000000
+2024-04-01 20:17:26,305 [INFO]  Epoch[1] Train-cross-entropy=0.476950
+2024-04-01 20:17:26,306 [INFO]  Epoch[1] Train-Grocery-accuracy=0.000000
+2024-04-01 20:17:26,306 [INFO]  Epoch[1] Time cost=12.174
+2024-04-01 20:17:26,307 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0001.params"
+2024-04-01 20:17:26,758 [INFO]  Epoch[1] Validation-cross-entropy=0.244584
+2024-04-01 20:17:26,759 [INFO]  Epoch[1] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:17:31,782 [INFO]  Epoch[2] Batch [0-10]	Speed: 37.26 samples/sec	cross-entropy=0.242396	Grocery-accuracy=0.000000
+2024-04-01 20:17:37,227 [INFO]  Epoch[2] Train-cross-entropy=0.219703
+2024-04-01 20:17:37,232 [INFO]  Epoch[2] Train-Grocery-accuracy=0.000000
+2024-04-01 20:17:37,232 [INFO]  Epoch[2] Time cost=10.473
+2024-04-01 20:17:37,234 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0002.params"
+2024-04-01 20:17:37,518 [INFO]  Epoch[2] Validation-cross-entropy=0.096643
+2024-04-01 20:17:37,518 [INFO]  Epoch[2] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:17:39,798 [INFO]  Epoch[3] Batch [0-10]	Speed: 93.69 samples/sec	cross-entropy=0.194797	Grocery-accuracy=0.000000
+2024-04-01 20:17:45,490 [INFO]  Epoch[3] Train-cross-entropy=0.204992
+2024-04-01 20:17:45,490 [INFO]  Epoch[3] Train-Grocery-accuracy=0.000000
+2024-04-01 20:17:45,490 [INFO]  Epoch[3] Time cost=7.972
+2024-04-01 20:17:45,495 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0003.params"
+2024-04-01 20:17:45,959 [INFO]  Epoch[3] Validation-cross-entropy=0.171175
+2024-04-01 20:17:45,959 [INFO]  Epoch[3] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:17:52,316 [INFO]  Epoch[4] Batch [0-10]	Speed: 27.69 samples/sec	cross-entropy=0.218605	Grocery-accuracy=0.000000
+2024-04-01 20:17:55,830 [INFO]  Epoch[4] Train-cross-entropy=0.168960
+2024-04-01 20:17:55,831 [INFO]  Epoch[4] Train-Grocery-accuracy=0.000000
+2024-04-01 20:17:55,831 [INFO]  Epoch[4] Time cost=9.870
+2024-04-01 20:17:55,832 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0004.params"
+2024-04-01 20:17:56,155 [INFO]  Epoch[4] Validation-cross-entropy=0.059858
+2024-04-01 20:17:56,155 [INFO]  Epoch[4] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:17:56,155 [INFO]  
+========== done (53.61820673942566 s) fit model
+2024-04-01 20:22:52,451 [INFO]  
+========== start: fit model
+2024-04-01 20:22:52,451 [WARNING]  Already bound, ignoring bind()
+2024-04-01 20:22:55,532 [INFO]  Epoch[0] Batch [0-10]	Speed: 57.63 samples/sec	cross-entropy=16.627536	Grocery-accuracy=3.363636
+2024-04-01 20:22:56,097 [INFO]  Epoch[0] Train-cross-entropy=9.995092
+2024-04-01 20:22:56,097 [INFO]  Epoch[0] Train-Grocery-accuracy=3.250000
+2024-04-01 20:22:56,097 [INFO]  Epoch[0] Time cost=3.638
+2024-04-01 20:22:56,098 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0000.params"
+2024-04-01 20:22:56,100 [INFO]  Epoch[0] Validation-cross-entropy=0.921550
+2024-04-01 20:22:56,100 [INFO]  Epoch[0] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:22:56,123 [INFO]  Epoch[1] Batch [0-10]	Speed: 9858.80 samples/sec	cross-entropy=3.351391	Grocery-accuracy=3.363636
+2024-04-01 20:22:56,166 [INFO]  Epoch[1] Train-cross-entropy=2.158491
+2024-04-01 20:22:56,166 [INFO]  Epoch[1] Train-Grocery-accuracy=3.250000
+2024-04-01 20:22:56,166 [INFO]  Epoch[1] Time cost=0.065
+2024-04-01 20:22:56,168 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0001.params"
+2024-04-01 20:22:56,204 [INFO]  Epoch[1] Validation-cross-entropy=0.580226
+2024-04-01 20:22:56,204 [INFO]  Epoch[1] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:22:56,262 [INFO]  Epoch[2] Batch [0-10]	Speed: 2844.17 samples/sec	cross-entropy=0.841755	Grocery-accuracy=3.363636
+2024-04-01 20:22:56,332 [INFO]  Epoch[2] Train-cross-entropy=0.584701
+2024-04-01 20:22:56,332 [INFO]  Epoch[2] Train-Grocery-accuracy=3.250000
+2024-04-01 20:22:56,332 [INFO]  Epoch[2] Time cost=0.128
+2024-04-01 20:22:56,334 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0002.params"
+2024-04-01 20:22:56,335 [INFO]  Epoch[2] Validation-cross-entropy=0.201477
+2024-04-01 20:22:56,335 [INFO]  Epoch[2] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:22:56,474 [INFO]  Epoch[3] Batch [0-10]	Speed: 1163.13 samples/sec	cross-entropy=0.350387	Grocery-accuracy=3.363636
+2024-04-01 20:22:56,518 [INFO]  Epoch[3] Train-cross-entropy=0.242452
+2024-04-01 20:22:56,519 [INFO]  Epoch[3] Train-Grocery-accuracy=3.250000
+2024-04-01 20:22:56,519 [INFO]  Epoch[3] Time cost=0.183
+2024-04-01 20:22:56,520 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0003.params"
+2024-04-01 20:22:56,543 [INFO]  Epoch[3] Validation-cross-entropy=0.189590
+2024-04-01 20:22:56,543 [INFO]  Epoch[3] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:22:56,570 [INFO]  Epoch[4] Batch [0-10]	Speed: 6310.78 samples/sec	cross-entropy=0.176777	Grocery-accuracy=3.363636
+2024-04-01 20:22:56,594 [INFO]  Epoch[4] Train-cross-entropy=0.155399
+2024-04-01 20:22:56,594 [INFO]  Epoch[4] Train-Grocery-accuracy=3.250000
+2024-04-01 20:22:56,595 [INFO]  Epoch[4] Time cost=0.051
+2024-04-01 20:22:56,596 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0004.params"
+2024-04-01 20:22:56,607 [INFO]  Epoch[4] Validation-cross-entropy=0.139992
+2024-04-01 20:22:56,607 [INFO]  Epoch[4] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:22:56,607 [INFO]  
+========== done (4.156452894210815 s) fit model
+2024-04-01 20:24:29,238 [INFO]  
+========== start: fit model
+2024-04-01 20:24:29,240 [WARNING]  Already bound, ignoring bind()
+2024-04-01 20:24:31,696 [INFO]  Epoch[0] Batch [0-10]	Speed: 90.45 samples/sec	cross-entropy=17.509105	Grocery-accuracy=3.909091
+2024-04-01 20:24:33,454 [INFO]  Epoch[0] Train-cross-entropy=13.972655
+2024-04-01 20:24:33,455 [INFO]  Epoch[0] Train-Grocery-accuracy=3.550000
+2024-04-01 20:24:33,455 [INFO]  Epoch[0] Time cost=4.214
+2024-04-01 20:24:33,461 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0000.params"
+2024-04-01 20:24:33,603 [INFO]  Epoch[0] Validation-cross-entropy=0.929157
+2024-04-01 20:24:33,604 [INFO]  Epoch[0] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:24:36,998 [INFO]  Epoch[1] Batch [0-10]	Speed: 48.95 samples/sec	cross-entropy=5.828971	Grocery-accuracy=3.909091
+2024-04-01 20:24:40,446 [INFO]  Epoch[1] Train-cross-entropy=3.461404
+2024-04-01 20:24:40,447 [INFO]  Epoch[1] Train-Grocery-accuracy=3.550000
+2024-04-01 20:24:40,447 [INFO]  Epoch[1] Time cost=6.843
+2024-04-01 20:24:40,449 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0001.params"
+2024-04-01 20:24:40,699 [INFO]  Epoch[1] Validation-cross-entropy=0.259847
+2024-04-01 20:24:40,702 [INFO]  Epoch[1] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:24:43,351 [INFO]  Epoch[2] Batch [0-10]	Speed: 86.46 samples/sec	cross-entropy=1.968540	Grocery-accuracy=3.909091
+2024-04-01 20:24:45,516 [INFO]  Epoch[2] Train-cross-entropy=1.211901
+2024-04-01 20:24:45,516 [INFO]  Epoch[2] Train-Grocery-accuracy=3.550000
+2024-04-01 20:24:45,516 [INFO]  Epoch[2] Time cost=4.814
+2024-04-01 20:24:45,518 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0002.params"
+2024-04-01 20:24:45,521 [INFO]  Epoch[2] Validation-cross-entropy=0.182940
+2024-04-01 20:24:45,521 [INFO]  Epoch[2] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:24:46,963 [INFO]  Epoch[3] Batch [0-10]	Speed: 111.05 samples/sec	cross-entropy=0.765239	Grocery-accuracy=3.909091
+2024-04-01 20:24:48,345 [INFO]  Epoch[3] Train-cross-entropy=0.483121
+2024-04-01 20:24:48,345 [INFO]  Epoch[3] Train-Grocery-accuracy=3.550000
+2024-04-01 20:24:48,345 [INFO]  Epoch[3] Time cost=2.824
+2024-04-01 20:24:48,351 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0003.params"
+2024-04-01 20:24:48,503 [INFO]  Epoch[3] Validation-cross-entropy=0.126624
+2024-04-01 20:24:48,503 [INFO]  Epoch[3] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:24:50,726 [INFO]  Epoch[4] Batch [0-10]	Speed: 72.52 samples/sec	cross-entropy=0.339882	Grocery-accuracy=3.909091
+2024-04-01 20:24:52,847 [INFO]  Epoch[4] Train-cross-entropy=0.232881
+2024-04-01 20:24:52,847 [INFO]  Epoch[4] Train-Grocery-accuracy=3.550000
+2024-04-01 20:24:52,847 [INFO]  Epoch[4] Time cost=4.345
+2024-04-01 20:24:52,849 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0004.params"
+2024-04-01 20:24:53,146 [INFO]  Epoch[4] Validation-cross-entropy=0.091711
+2024-04-01 20:24:53,147 [INFO]  Epoch[4] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:24:53,147 [INFO]  
+========== done (23.90874934196472 s) fit model
+2024-04-01 20:27:26,252 [INFO]  
+========== start: fit model
+2024-04-01 20:27:26,253 [WARNING]  Already bound, ignoring bind()
+2024-04-01 20:27:30,951 [INFO]  Epoch[0] Batch [0-10]	Speed: 39.48 samples/sec	cross-entropy=4.857565	Grocery-accuracy=3.090909
+2024-04-01 20:27:31,732 [INFO]  Epoch[0] Train-cross-entropy=4.570677
+2024-04-01 20:27:31,733 [INFO]  Epoch[0] Train-Grocery-accuracy=3.450000
+2024-04-01 20:27:31,733 [INFO]  Epoch[0] Time cost=5.479
+2024-04-01 20:27:31,734 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0000.params"
+2024-04-01 20:27:31,735 [INFO]  Epoch[0] Validation-cross-entropy=0.394471
+2024-04-01 20:27:31,735 [INFO]  Epoch[0] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:27:33,286 [INFO]  Epoch[1] Batch [0-10]	Speed: 103.21 samples/sec	cross-entropy=1.498383	Grocery-accuracy=3.090909
+2024-04-01 20:27:36,354 [INFO]  Epoch[1] Train-cross-entropy=1.684962
+2024-04-01 20:27:36,355 [INFO]  Epoch[1] Train-Grocery-accuracy=3.450000
+2024-04-01 20:27:36,355 [INFO]  Epoch[1] Time cost=4.620
+2024-04-01 20:27:36,356 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0001.params"
+2024-04-01 20:27:36,658 [INFO]  Epoch[1] Validation-cross-entropy=0.287165
+2024-04-01 20:27:36,659 [INFO]  Epoch[1] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:27:39,786 [INFO]  Epoch[2] Batch [0-10]	Speed: 61.80 samples/sec	cross-entropy=0.515319	Grocery-accuracy=3.090909
+2024-04-01 20:27:42,987 [INFO]  Epoch[2] Train-cross-entropy=0.436233
+2024-04-01 20:27:42,987 [INFO]  Epoch[2] Train-Grocery-accuracy=3.450000
+2024-04-01 20:27:42,987 [INFO]  Epoch[2] Time cost=6.329
+2024-04-01 20:27:42,990 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0002.params"
+2024-04-01 20:27:43,119 [INFO]  Epoch[2] Validation-cross-entropy=0.448281
+2024-04-01 20:27:43,119 [INFO]  Epoch[2] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:27:46,620 [INFO]  Epoch[3] Batch [0-10]	Speed: 47.50 samples/sec	cross-entropy=0.430894	Grocery-accuracy=3.090909
+2024-04-01 20:27:51,540 [INFO]  Epoch[3] Train-cross-entropy=0.344808
+2024-04-01 20:27:51,540 [INFO]  Epoch[3] Train-Grocery-accuracy=3.450000
+2024-04-01 20:27:51,540 [INFO]  Epoch[3] Time cost=8.421
+2024-04-01 20:27:51,543 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0003.params"
+2024-04-01 20:27:51,823 [INFO]  Epoch[3] Validation-cross-entropy=0.231076
+2024-04-01 20:27:51,823 [INFO]  Epoch[3] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:27:55,713 [INFO]  Epoch[4] Batch [0-10]	Speed: 49.82 samples/sec	cross-entropy=0.320177	Grocery-accuracy=3.090909
+2024-04-01 20:27:57,982 [INFO]  Epoch[4] Train-cross-entropy=0.368874
+2024-04-01 20:27:57,982 [INFO]  Epoch[4] Train-Grocery-accuracy=3.450000
+2024-04-01 20:27:57,983 [INFO]  Epoch[4] Time cost=6.159
+2024-04-01 20:27:57,984 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0004.params"
+2024-04-01 20:27:58,019 [INFO]  Epoch[4] Validation-cross-entropy=0.141049
+2024-04-01 20:27:58,019 [INFO]  Epoch[4] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:27:58,019 [INFO]  
+========== done (31.766788244247437 s) fit model
+2024-04-01 20:30:22,627 [INFO]  
+========== start: fit model
+2024-04-01 20:30:22,630 [WARNING]  Already bound, ignoring bind()
+2024-04-01 20:30:23,113 [INFO]  Epoch[0] Batch [0-10]	Speed: 786.70 samples/sec	cross-entropy=4.357393	Grocery-accuracy=0.000000
+2024-04-01 20:30:23,186 [INFO]  Epoch[0] Train-cross-entropy=3.136879
+2024-04-01 20:30:23,187 [INFO]  Epoch[0] Train-Grocery-accuracy=0.000000
+2024-04-01 20:30:23,187 [INFO]  Epoch[0] Time cost=0.556
+2024-04-01 20:30:23,189 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0000.params"
+2024-04-01 20:30:23,190 [INFO]  Epoch[0] Validation-cross-entropy=0.363630
+2024-04-01 20:30:23,191 [INFO]  Epoch[0] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:30:23,201 [INFO]  Epoch[1] Batch [0-10]	Speed: 17487.20 samples/sec	cross-entropy=1.043681	Grocery-accuracy=0.000000
+2024-04-01 20:30:23,214 [INFO]  Epoch[1] Train-cross-entropy=1.159199
+2024-04-01 20:30:23,214 [INFO]  Epoch[1] Train-Grocery-accuracy=0.000000
+2024-04-01 20:30:23,214 [INFO]  Epoch[1] Time cost=0.024
+2024-04-01 20:30:23,216 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0001.params"
+2024-04-01 20:30:23,392 [INFO]  Epoch[1] Validation-cross-entropy=0.623990
+2024-04-01 20:30:23,392 [INFO]  Epoch[1] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:30:23,516 [INFO]  Epoch[2] Batch [0-10]	Speed: 1301.23 samples/sec	cross-entropy=0.705036	Grocery-accuracy=0.000000
+2024-04-01 20:30:23,523 [INFO]  Epoch[2] Train-cross-entropy=1.121572
+2024-04-01 20:30:23,524 [INFO]  Epoch[2] Train-Grocery-accuracy=0.000000
+2024-04-01 20:30:23,524 [INFO]  Epoch[2] Time cost=0.132
+2024-04-01 20:30:23,527 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0002.params"
+2024-04-01 20:30:23,529 [INFO]  Epoch[2] Validation-cross-entropy=0.375002
+2024-04-01 20:30:23,529 [INFO]  Epoch[2] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:30:23,536 [INFO]  Epoch[3] Batch [0-10]	Speed: 23904.28 samples/sec	cross-entropy=0.522675	Grocery-accuracy=0.000000
+2024-04-01 20:30:23,542 [INFO]  Epoch[3] Train-cross-entropy=0.718464
+2024-04-01 20:30:23,543 [INFO]  Epoch[3] Train-Grocery-accuracy=0.000000
+2024-04-01 20:30:23,543 [INFO]  Epoch[3] Time cost=0.014
+2024-04-01 20:30:23,545 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0003.params"
+2024-04-01 20:30:23,553 [INFO]  Epoch[3] Validation-cross-entropy=0.542631
+2024-04-01 20:30:23,553 [INFO]  Epoch[3] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:30:23,860 [INFO]  Epoch[4] Batch [0-10]	Speed: 866.53 samples/sec	cross-entropy=0.444393	Grocery-accuracy=0.000000
+2024-04-01 20:30:24,082 [INFO]  Epoch[4] Train-cross-entropy=0.491210
+2024-04-01 20:30:24,083 [INFO]  Epoch[4] Train-Grocery-accuracy=0.000000
+2024-04-01 20:30:24,083 [INFO]  Epoch[4] Time cost=0.529
+2024-04-01 20:30:24,086 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0004.params"
+2024-04-01 20:30:24,332 [INFO]  Epoch[4] Validation-cross-entropy=0.250372
+2024-04-01 20:30:24,332 [INFO]  Epoch[4] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:30:24,333 [INFO]  
+========== done (1.7057411670684814 s) fit model
+2024-04-01 20:30:37,119 [INFO]  
+========== start: fit model
+2024-04-01 20:30:37,120 [WARNING]  Already bound, ignoring bind()
+2024-04-01 20:30:37,317 [INFO]  Epoch[0] Batch [0-10]	Speed: 1008.90 samples/sec	cross-entropy=5.425003	Grocery-accuracy=3.272727
+2024-04-01 20:30:37,610 [INFO]  Epoch[0] Train-cross-entropy=7.931299
+2024-04-01 20:30:37,610 [INFO]  Epoch[0] Train-Grocery-accuracy=3.350000
+2024-04-01 20:30:37,610 [INFO]  Epoch[0] Time cost=0.490
+2024-04-01 20:30:37,612 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0000.params"
+2024-04-01 20:30:37,613 [INFO]  Epoch[0] Validation-cross-entropy=0.524230
+2024-04-01 20:30:37,613 [INFO]  Epoch[0] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:30:37,625 [INFO]  Epoch[1] Batch [0-10]	Speed: 15400.77 samples/sec	cross-entropy=1.198612	Grocery-accuracy=3.272727
+2024-04-01 20:30:37,634 [INFO]  Epoch[1] Train-cross-entropy=2.013718
+2024-04-01 20:30:37,634 [INFO]  Epoch[1] Train-Grocery-accuracy=3.350000
+2024-04-01 20:30:37,634 [INFO]  Epoch[1] Time cost=0.021
+2024-04-01 20:30:37,636 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0001.params"
+2024-04-01 20:30:37,637 [INFO]  Epoch[1] Validation-cross-entropy=0.763089
+2024-04-01 20:30:37,637 [INFO]  Epoch[1] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:30:37,648 [INFO]  Epoch[2] Batch [0-10]	Speed: 17598.63 samples/sec	cross-entropy=0.883147	Grocery-accuracy=3.272727
+2024-04-01 20:30:37,658 [INFO]  Epoch[2] Train-cross-entropy=0.703375
+2024-04-01 20:30:37,658 [INFO]  Epoch[2] Train-Grocery-accuracy=3.350000
+2024-04-01 20:30:37,658 [INFO]  Epoch[2] Time cost=0.020
+2024-04-01 20:30:37,660 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0002.params"
+2024-04-01 20:30:37,661 [INFO]  Epoch[2] Validation-cross-entropy=0.181811
+2024-04-01 20:30:37,661 [INFO]  Epoch[2] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:30:37,858 [INFO]  Epoch[3] Batch [0-10]	Speed: 851.94 samples/sec	cross-entropy=0.246503	Grocery-accuracy=3.272727
+2024-04-01 20:30:37,879 [INFO]  Epoch[3] Train-cross-entropy=0.247305
+2024-04-01 20:30:37,879 [INFO]  Epoch[3] Train-Grocery-accuracy=3.350000
+2024-04-01 20:30:37,879 [INFO]  Epoch[3] Time cost=0.218
+2024-04-01 20:30:37,881 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0003.params"
+2024-04-01 20:30:37,882 [INFO]  Epoch[3] Validation-cross-entropy=0.067405
+2024-04-01 20:30:37,883 [INFO]  Epoch[3] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:30:37,893 [INFO]  Epoch[4] Batch [0-10]	Speed: 17110.88 samples/sec	cross-entropy=0.132787	Grocery-accuracy=3.272727
+2024-04-01 20:30:38,248 [INFO]  Epoch[4] Train-cross-entropy=0.118255
+2024-04-01 20:30:38,248 [INFO]  Epoch[4] Train-Grocery-accuracy=3.350000
+2024-04-01 20:30:38,248 [INFO]  Epoch[4] Time cost=0.366
+2024-04-01 20:30:38,250 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0004.params"
+2024-04-01 20:30:38,250 [INFO]  Epoch[4] Validation-cross-entropy=0.061496
+2024-04-01 20:30:38,251 [INFO]  Epoch[4] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:30:38,251 [INFO]  
+========== done (1.1313807964324951 s) fit model
+2024-04-01 20:30:52,069 [INFO]  
+========== start: fit model
+2024-04-01 20:30:52,069 [WARNING]  Already bound, ignoring bind()
+2024-04-01 20:30:52,527 [INFO]  Epoch[0] Batch [0-10]	Speed: 561.39 samples/sec	cross-entropy=6.592059	Grocery-accuracy=3.545455
+2024-04-01 20:30:52,554 [INFO]  Epoch[0] Train-cross-entropy=5.538868
+2024-04-01 20:30:52,555 [INFO]  Epoch[0] Train-Grocery-accuracy=3.750000
+2024-04-01 20:30:52,555 [INFO]  Epoch[0] Time cost=0.485
+2024-04-01 20:30:52,557 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0000.params"
+2024-04-01 20:30:52,558 [INFO]  Epoch[0] Validation-cross-entropy=1.664683
+2024-04-01 20:30:52,558 [INFO]  Epoch[0] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:30:52,732 [INFO]  Epoch[1] Batch [0-10]	Speed: 927.18 samples/sec	cross-entropy=1.324681	Grocery-accuracy=3.545455
+2024-04-01 20:30:52,740 [INFO]  Epoch[1] Train-cross-entropy=1.034793
+2024-04-01 20:30:52,741 [INFO]  Epoch[1] Train-Grocery-accuracy=3.750000
+2024-04-01 20:30:52,741 [INFO]  Epoch[1] Time cost=0.183
+2024-04-01 20:30:52,743 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0001.params"
+2024-04-01 20:30:52,744 [INFO]  Epoch[1] Validation-cross-entropy=0.486595
+2024-04-01 20:30:52,744 [INFO]  Epoch[1] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:30:52,754 [INFO]  Epoch[2] Batch [0-10]	Speed: 17533.34 samples/sec	cross-entropy=0.314634	Grocery-accuracy=3.545455
+2024-04-01 20:30:52,782 [INFO]  Epoch[2] Train-cross-entropy=0.271506
+2024-04-01 20:30:52,782 [INFO]  Epoch[2] Train-Grocery-accuracy=3.750000
+2024-04-01 20:30:52,782 [INFO]  Epoch[2] Time cost=0.038
+2024-04-01 20:30:52,783 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0002.params"
+2024-04-01 20:30:52,784 [INFO]  Epoch[2] Validation-cross-entropy=0.204879
+2024-04-01 20:30:52,784 [INFO]  Epoch[2] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:30:52,975 [INFO]  Epoch[3] Batch [0-10]	Speed: 841.82 samples/sec	cross-entropy=0.130645	Grocery-accuracy=3.545455
+2024-04-01 20:30:52,984 [INFO]  Epoch[3] Train-cross-entropy=0.141073
+2024-04-01 20:30:52,984 [INFO]  Epoch[3] Train-Grocery-accuracy=3.750000
+2024-04-01 20:30:52,984 [INFO]  Epoch[3] Time cost=0.200
+2024-04-01 20:30:52,985 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0003.params"
+2024-04-01 20:30:52,986 [INFO]  Epoch[3] Validation-cross-entropy=0.160935
+2024-04-01 20:30:52,986 [INFO]  Epoch[3] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:30:53,113 [INFO]  Epoch[4] Batch [0-10]	Speed: 1275.43 samples/sec	cross-entropy=0.089013	Grocery-accuracy=3.545455
+2024-04-01 20:30:53,146 [INFO]  Epoch[4] Train-cross-entropy=0.090343
+2024-04-01 20:30:53,147 [INFO]  Epoch[4] Train-Grocery-accuracy=3.750000
+2024-04-01 20:30:53,147 [INFO]  Epoch[4] Time cost=0.160
+2024-04-01 20:30:53,149 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0004.params"
+2024-04-01 20:30:53,157 [INFO]  Epoch[4] Validation-cross-entropy=0.094928
+2024-04-01 20:30:53,157 [INFO]  Epoch[4] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:30:53,157 [INFO]  
+========== done (1.088688850402832 s) fit model
+2024-04-01 20:31:06,506 [INFO]  
+========== start: fit model
+2024-04-01 20:31:06,506 [WARNING]  Already bound, ignoring bind()
+2024-04-01 20:31:06,572 [INFO]  Epoch[0] Batch [0-10]	Speed: 18437.01 samples/sec	cross-entropy=3.380009	Grocery-accuracy=3.545455
+2024-04-01 20:31:06,580 [INFO]  Epoch[0] Train-cross-entropy=2.927367
+2024-04-01 20:31:06,580 [INFO]  Epoch[0] Train-Grocery-accuracy=3.650000
+2024-04-01 20:31:06,581 [INFO]  Epoch[0] Time cost=0.074
+2024-04-01 20:31:06,583 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0000.params"
+2024-04-01 20:31:06,584 [INFO]  Epoch[0] Validation-cross-entropy=1.534529
+2024-04-01 20:31:06,584 [INFO]  Epoch[0] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:31:07,207 [INFO]  Epoch[1] Batch [0-10]	Speed: 257.40 samples/sec	cross-entropy=0.989899	Grocery-accuracy=3.545455
+2024-04-01 20:31:07,214 [INFO]  Epoch[1] Train-cross-entropy=1.068630
+2024-04-01 20:31:07,214 [INFO]  Epoch[1] Train-Grocery-accuracy=3.650000
+2024-04-01 20:31:07,214 [INFO]  Epoch[1] Time cost=0.630
+2024-04-01 20:31:07,216 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0001.params"
+2024-04-01 20:31:07,217 [INFO]  Epoch[1] Validation-cross-entropy=0.455848
+2024-04-01 20:31:07,217 [INFO]  Epoch[1] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:31:07,634 [INFO]  Epoch[2] Batch [0-10]	Speed: 385.03 samples/sec	cross-entropy=0.539439	Grocery-accuracy=3.545455
+2024-04-01 20:31:07,936 [INFO]  Epoch[2] Train-cross-entropy=0.510548
+2024-04-01 20:31:07,936 [INFO]  Epoch[2] Train-Grocery-accuracy=3.650000
+2024-04-01 20:31:07,936 [INFO]  Epoch[2] Time cost=0.719
+2024-04-01 20:31:07,938 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0002.params"
+2024-04-01 20:31:07,939 [INFO]  Epoch[2] Validation-cross-entropy=0.304679
+2024-04-01 20:31:07,939 [INFO]  Epoch[2] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:31:07,960 [INFO]  Epoch[3] Batch [0-10]	Speed: 8005.73 samples/sec	cross-entropy=0.277794	Grocery-accuracy=3.545455
+2024-04-01 20:31:07,972 [INFO]  Epoch[3] Train-cross-entropy=0.244802
+2024-04-01 20:31:07,972 [INFO]  Epoch[3] Train-Grocery-accuracy=3.650000
+2024-04-01 20:31:07,973 [INFO]  Epoch[3] Time cost=0.034
+2024-04-01 20:31:07,975 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0003.params"
+2024-04-01 20:31:08,224 [INFO]  Epoch[3] Validation-cross-entropy=0.217264
+2024-04-01 20:31:08,224 [INFO]  Epoch[3] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:31:08,764 [INFO]  Epoch[4] Batch [0-10]	Speed: 498.44 samples/sec	cross-entropy=0.138885	Grocery-accuracy=3.545455
+2024-04-01 20:31:08,772 [INFO]  Epoch[4] Train-cross-entropy=0.117014
+2024-04-01 20:31:08,772 [INFO]  Epoch[4] Train-Grocery-accuracy=3.650000
+2024-04-01 20:31:08,772 [INFO]  Epoch[4] Time cost=0.548
+2024-04-01 20:31:08,774 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0004.params"
+2024-04-01 20:31:08,775 [INFO]  Epoch[4] Validation-cross-entropy=0.166719
+2024-04-01 20:31:08,775 [INFO]  Epoch[4] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:31:08,775 [INFO]  
+========== done (2.269230604171753 s) fit model
+2024-04-01 20:31:22,956 [INFO]  
+========== start: fit model
+2024-04-01 20:31:22,957 [WARNING]  Already bound, ignoring bind()
+2024-04-01 20:31:22,985 [INFO]  Epoch[0] Batch [0-10]	Speed: 17725.06 samples/sec	cross-entropy=19.094800	Grocery-accuracy=0.000000
+2024-04-01 20:31:23,245 [INFO]  Epoch[0] Train-cross-entropy=12.396347
+2024-04-01 20:31:23,245 [INFO]  Epoch[0] Train-Grocery-accuracy=0.000000
+2024-04-01 20:31:23,245 [INFO]  Epoch[0] Time cost=0.288
+2024-04-01 20:31:23,248 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0000.params"
+2024-04-01 20:31:23,249 [INFO]  Epoch[0] Validation-cross-entropy=1.358970
+2024-04-01 20:31:23,249 [INFO]  Epoch[0] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:31:23,503 [INFO]  Epoch[1] Batch [0-10]	Speed: 633.42 samples/sec	cross-entropy=5.179017	Grocery-accuracy=0.000000
+2024-04-01 20:31:23,512 [INFO]  Epoch[1] Train-cross-entropy=3.363072
+2024-04-01 20:31:23,512 [INFO]  Epoch[1] Train-Grocery-accuracy=0.000000
+2024-04-01 20:31:23,512 [INFO]  Epoch[1] Time cost=0.263
+2024-04-01 20:31:23,514 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0001.params"
+2024-04-01 20:31:23,515 [INFO]  Epoch[1] Validation-cross-entropy=0.607857
+2024-04-01 20:31:23,515 [INFO]  Epoch[1] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:31:23,525 [INFO]  Epoch[2] Batch [0-10]	Speed: 17942.59 samples/sec	cross-entropy=2.074904	Grocery-accuracy=0.000000
+2024-04-01 20:31:23,534 [INFO]  Epoch[2] Train-cross-entropy=1.438327
+2024-04-01 20:31:23,534 [INFO]  Epoch[2] Train-Grocery-accuracy=0.000000
+2024-04-01 20:31:23,534 [INFO]  Epoch[2] Time cost=0.019
+2024-04-01 20:31:23,536 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0002.params"
+2024-04-01 20:31:23,537 [INFO]  Epoch[2] Validation-cross-entropy=0.452512
+2024-04-01 20:31:23,538 [INFO]  Epoch[2] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:31:23,900 [INFO]  Epoch[3] Batch [0-10]	Speed: 442.40 samples/sec	cross-entropy=0.790374	Grocery-accuracy=0.000000
+2024-04-01 20:31:23,911 [INFO]  Epoch[3] Train-cross-entropy=0.527307
+2024-04-01 20:31:23,911 [INFO]  Epoch[3] Train-Grocery-accuracy=0.000000
+2024-04-01 20:31:23,911 [INFO]  Epoch[3] Time cost=0.374
+2024-04-01 20:31:23,914 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0003.params"
+2024-04-01 20:31:23,915 [INFO]  Epoch[3] Validation-cross-entropy=0.258204
+2024-04-01 20:31:23,915 [INFO]  Epoch[3] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:31:23,933 [INFO]  Epoch[4] Batch [0-10]	Speed: 9915.32 samples/sec	cross-entropy=0.518180	Grocery-accuracy=0.000000
+2024-04-01 20:31:23,941 [INFO]  Epoch[4] Train-cross-entropy=0.425539
+2024-04-01 20:31:23,941 [INFO]  Epoch[4] Train-Grocery-accuracy=0.000000
+2024-04-01 20:31:23,941 [INFO]  Epoch[4] Time cost=0.026
+2024-04-01 20:31:23,942 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0004.params"
+2024-04-01 20:31:23,943 [INFO]  Epoch[4] Validation-cross-entropy=0.255408
+2024-04-01 20:31:23,943 [INFO]  Epoch[4] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:31:23,943 [INFO]  
+========== done (0.986940860748291 s) fit model
+2024-04-01 20:31:38,010 [INFO]  
+========== start: fit model
+2024-04-01 20:31:38,010 [WARNING]  Already bound, ignoring bind()
+2024-04-01 20:31:38,077 [INFO]  Epoch[0] Batch [0-10]	Speed: 24322.74 samples/sec	cross-entropy=16.022173	Grocery-accuracy=0.000000
+2024-04-01 20:31:38,461 [INFO]  Epoch[0] Train-cross-entropy=9.461210
+2024-04-01 20:31:38,461 [INFO]  Epoch[0] Train-Grocery-accuracy=0.000000
+2024-04-01 20:31:38,462 [INFO]  Epoch[0] Time cost=0.450
+2024-04-01 20:31:38,468 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0000.params"
+2024-04-01 20:31:38,638 [INFO]  Epoch[0] Validation-cross-entropy=1.290603
+2024-04-01 20:31:38,638 [INFO]  Epoch[0] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:31:38,655 [INFO]  Epoch[1] Batch [0-10]	Speed: 11009.76 samples/sec	cross-entropy=1.562609	Grocery-accuracy=0.000000
+2024-04-01 20:31:38,665 [INFO]  Epoch[1] Train-cross-entropy=1.613504
+2024-04-01 20:31:38,665 [INFO]  Epoch[1] Train-Grocery-accuracy=0.000000
+2024-04-01 20:31:38,666 [INFO]  Epoch[1] Time cost=0.027
+2024-04-01 20:31:38,668 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0001.params"
+2024-04-01 20:31:38,669 [INFO]  Epoch[1] Validation-cross-entropy=0.724647
+2024-04-01 20:31:38,669 [INFO]  Epoch[1] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:31:38,682 [INFO]  Epoch[2] Batch [0-10]	Speed: 14897.19 samples/sec	cross-entropy=0.597926	Grocery-accuracy=0.000000
+2024-04-01 20:31:38,951 [INFO]  Epoch[2] Train-cross-entropy=0.571182
+2024-04-01 20:31:38,951 [INFO]  Epoch[2] Train-Grocery-accuracy=0.000000
+2024-04-01 20:31:38,951 [INFO]  Epoch[2] Time cost=0.282
+2024-04-01 20:31:38,954 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0002.params"
+2024-04-01 20:31:38,995 [INFO]  Epoch[2] Validation-cross-entropy=0.240560
+2024-04-01 20:31:38,996 [INFO]  Epoch[2] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:31:39,004 [INFO]  Epoch[3] Batch [0-10]	Speed: 22317.55 samples/sec	cross-entropy=0.300559	Grocery-accuracy=0.000000
+2024-04-01 20:31:39,029 [INFO]  Epoch[3] Train-cross-entropy=0.264626
+2024-04-01 20:31:39,029 [INFO]  Epoch[3] Train-Grocery-accuracy=0.000000
+2024-04-01 20:31:39,029 [INFO]  Epoch[3] Time cost=0.033
+2024-04-01 20:31:39,032 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0003.params"
+2024-04-01 20:31:39,072 [INFO]  Epoch[3] Validation-cross-entropy=0.396277
+2024-04-01 20:31:39,072 [INFO]  Epoch[3] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:31:39,120 [INFO]  Epoch[4] Batch [0-10]	Speed: 3816.80 samples/sec	cross-entropy=0.218014	Grocery-accuracy=0.000000
+2024-04-01 20:31:39,190 [INFO]  Epoch[4] Train-cross-entropy=0.199216
+2024-04-01 20:31:39,190 [INFO]  Epoch[4] Train-Grocery-accuracy=0.000000
+2024-04-01 20:31:39,190 [INFO]  Epoch[4] Time cost=0.118
+2024-04-01 20:31:39,192 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0004.params"
+2024-04-01 20:31:39,193 [INFO]  Epoch[4] Validation-cross-entropy=0.141144
+2024-04-01 20:31:39,193 [INFO]  Epoch[4] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:31:39,193 [INFO]  
+========== done (1.1829404830932617 s) fit model
+2024-04-01 20:31:49,053 [INFO]  
+========== start: fit model
+2024-04-01 20:31:49,053 [WARNING]  Already bound, ignoring bind()
+2024-04-01 20:31:49,626 [INFO]  Epoch[0] Batch [0-10]	Speed: 8048.36 samples/sec	cross-entropy=6.081438	Grocery-accuracy=0.000000
+2024-04-01 20:31:49,686 [INFO]  Epoch[0] Train-cross-entropy=5.718290
+2024-04-01 20:31:49,686 [INFO]  Epoch[0] Train-Grocery-accuracy=0.000000
+2024-04-01 20:31:49,686 [INFO]  Epoch[0] Time cost=0.624
+2024-04-01 20:31:49,687 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0000.params"
+2024-04-01 20:31:49,688 [INFO]  Epoch[0] Validation-cross-entropy=2.339133
+2024-04-01 20:31:49,688 [INFO]  Epoch[0] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:31:49,706 [INFO]  Epoch[1] Batch [0-10]	Speed: 9522.09 samples/sec	cross-entropy=3.572930	Grocery-accuracy=0.000000
+2024-04-01 20:31:49,735 [INFO]  Epoch[1] Train-cross-entropy=2.445559
+2024-04-01 20:31:49,736 [INFO]  Epoch[1] Train-Grocery-accuracy=0.000000
+2024-04-01 20:31:49,736 [INFO]  Epoch[1] Time cost=0.047
+2024-04-01 20:31:49,737 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0001.params"
+2024-04-01 20:31:49,738 [INFO]  Epoch[1] Validation-cross-entropy=0.597965
+2024-04-01 20:31:49,738 [INFO]  Epoch[1] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:31:49,762 [INFO]  Epoch[2] Batch [0-10]	Speed: 6941.41 samples/sec	cross-entropy=0.730230	Grocery-accuracy=0.000000
+2024-04-01 20:31:49,771 [INFO]  Epoch[2] Train-cross-entropy=0.619190
+2024-04-01 20:31:49,771 [INFO]  Epoch[2] Train-Grocery-accuracy=0.000000
+2024-04-01 20:31:49,771 [INFO]  Epoch[2] Time cost=0.033
+2024-04-01 20:31:49,772 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0002.params"
+2024-04-01 20:31:49,773 [INFO]  Epoch[2] Validation-cross-entropy=0.411196
+2024-04-01 20:31:49,773 [INFO]  Epoch[2] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:31:49,784 [INFO]  Epoch[3] Batch [0-10]	Speed: 16529.28 samples/sec	cross-entropy=0.246739	Grocery-accuracy=0.000000
+2024-04-01 20:31:49,813 [INFO]  Epoch[3] Train-cross-entropy=0.227908
+2024-04-01 20:31:49,813 [INFO]  Epoch[3] Train-Grocery-accuracy=0.000000
+2024-04-01 20:31:49,813 [INFO]  Epoch[3] Time cost=0.039
+2024-04-01 20:31:49,814 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0003.params"
+2024-04-01 20:31:49,816 [INFO]  Epoch[3] Validation-cross-entropy=0.157516
+2024-04-01 20:31:49,816 [INFO]  Epoch[3] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:31:49,826 [INFO]  Epoch[4] Batch [0-10]	Speed: 17704.02 samples/sec	cross-entropy=0.179577	Grocery-accuracy=0.000000
+2024-04-01 20:31:50,116 [INFO]  Epoch[4] Train-cross-entropy=0.155547
+2024-04-01 20:31:50,116 [INFO]  Epoch[4] Train-Grocery-accuracy=0.000000
+2024-04-01 20:31:50,117 [INFO]  Epoch[4] Time cost=0.301
+2024-04-01 20:31:50,119 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0004.params"
+2024-04-01 20:31:50,120 [INFO]  Epoch[4] Validation-cross-entropy=0.135025
+2024-04-01 20:31:50,120 [INFO]  Epoch[4] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:31:50,120 [INFO]  
+========== done (1.0666182041168213 s) fit model
+2024-04-01 20:32:01,307 [INFO]  
+========== start: fit model
+2024-04-01 20:32:01,308 [WARNING]  Already bound, ignoring bind()
+2024-04-01 20:32:01,401 [INFO]  Epoch[0] Batch [0-10]	Speed: 6742.10 samples/sec	cross-entropy=10.465134	Grocery-accuracy=3.454545
+2024-04-01 20:32:01,411 [INFO]  Epoch[0] Train-cross-entropy=6.316562
+2024-04-01 20:32:01,412 [INFO]  Epoch[0] Train-Grocery-accuracy=3.650000
+2024-04-01 20:32:01,412 [INFO]  Epoch[0] Time cost=0.103
+2024-04-01 20:32:01,414 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0000.params"
+2024-04-01 20:32:01,415 [INFO]  Epoch[0] Validation-cross-entropy=0.442461
+2024-04-01 20:32:01,415 [INFO]  Epoch[0] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:32:01,446 [INFO]  Epoch[1] Batch [0-10]	Speed: 5391.61 samples/sec	cross-entropy=1.895419	Grocery-accuracy=3.454545
+2024-04-01 20:32:01,475 [INFO]  Epoch[1] Train-cross-entropy=1.212944
+2024-04-01 20:32:01,475 [INFO]  Epoch[1] Train-Grocery-accuracy=3.650000
+2024-04-01 20:32:01,475 [INFO]  Epoch[1] Time cost=0.059
+2024-04-01 20:32:01,476 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0001.params"
+2024-04-01 20:32:01,477 [INFO]  Epoch[1] Validation-cross-entropy=0.344320
+2024-04-01 20:32:01,477 [INFO]  Epoch[1] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:32:01,521 [INFO]  Epoch[2] Batch [0-10]	Speed: 3717.63 samples/sec	cross-entropy=0.260556	Grocery-accuracy=3.454545
+2024-04-01 20:32:01,530 [INFO]  Epoch[2] Train-cross-entropy=0.245031
+2024-04-01 20:32:01,530 [INFO]  Epoch[2] Train-Grocery-accuracy=3.650000
+2024-04-01 20:32:01,530 [INFO]  Epoch[2] Time cost=0.053
+2024-04-01 20:32:01,532 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0002.params"
+2024-04-01 20:32:01,585 [INFO]  Epoch[2] Validation-cross-entropy=0.117597
+2024-04-01 20:32:01,585 [INFO]  Epoch[2] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:32:01,601 [INFO]  Epoch[3] Batch [0-10]	Speed: 11003.80 samples/sec	cross-entropy=0.144055	Grocery-accuracy=3.454545
+2024-04-01 20:32:01,630 [INFO]  Epoch[3] Train-cross-entropy=0.117260
+2024-04-01 20:32:01,630 [INFO]  Epoch[3] Train-Grocery-accuracy=3.650000
+2024-04-01 20:32:01,630 [INFO]  Epoch[3] Time cost=0.045
+2024-04-01 20:32:01,634 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0003.params"
+2024-04-01 20:32:01,796 [INFO]  Epoch[3] Validation-cross-entropy=0.087159
+2024-04-01 20:32:01,796 [INFO]  Epoch[3] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:32:02,024 [INFO]  Epoch[4] Batch [0-10]	Speed: 706.43 samples/sec	cross-entropy=0.080053	Grocery-accuracy=3.454545
+2024-04-01 20:32:02,035 [INFO]  Epoch[4] Train-cross-entropy=0.082104
+2024-04-01 20:32:02,035 [INFO]  Epoch[4] Train-Grocery-accuracy=3.650000
+2024-04-01 20:32:02,036 [INFO]  Epoch[4] Time cost=0.239
+2024-04-01 20:32:02,038 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0004.params"
+2024-04-01 20:32:02,039 [INFO]  Epoch[4] Validation-cross-entropy=0.096862
+2024-04-01 20:32:02,039 [INFO]  Epoch[4] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:32:02,039 [INFO]  
+========== done (0.732391357421875 s) fit model
+2024-04-01 20:32:15,247 [INFO]  
+========== start: fit model
+2024-04-01 20:32:15,248 [WARNING]  Already bound, ignoring bind()
+2024-04-01 20:32:15,288 [INFO]  Epoch[0] Batch [0-10]	Speed: 23527.16 samples/sec	cross-entropy=5.849498	Grocery-accuracy=3.818182
+2024-04-01 20:32:15,296 [INFO]  Epoch[0] Train-cross-entropy=3.932676
+2024-04-01 20:32:15,296 [INFO]  Epoch[0] Train-Grocery-accuracy=3.650000
+2024-04-01 20:32:15,296 [INFO]  Epoch[0] Time cost=0.048
+2024-04-01 20:32:15,298 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0000.params"
+2024-04-01 20:32:15,299 [INFO]  Epoch[0] Validation-cross-entropy=2.436515
+2024-04-01 20:32:15,299 [INFO]  Epoch[0] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:32:15,331 [INFO]  Epoch[1] Batch [0-10]	Speed: 5098.33 samples/sec	cross-entropy=2.314757	Grocery-accuracy=3.818182
+2024-04-01 20:32:15,342 [INFO]  Epoch[1] Train-cross-entropy=1.591556
+2024-04-01 20:32:15,342 [INFO]  Epoch[1] Train-Grocery-accuracy=3.650000
+2024-04-01 20:32:15,343 [INFO]  Epoch[1] Time cost=0.044
+2024-04-01 20:32:15,344 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0001.params"
+2024-04-01 20:32:15,345 [INFO]  Epoch[1] Validation-cross-entropy=0.293668
+2024-04-01 20:32:15,345 [INFO]  Epoch[1] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:32:15,389 [INFO]  Epoch[2] Batch [0-10]	Speed: 3743.20 samples/sec	cross-entropy=0.637335	Grocery-accuracy=3.818182
+2024-04-01 20:32:15,397 [INFO]  Epoch[2] Train-cross-entropy=0.532037
+2024-04-01 20:32:15,398 [INFO]  Epoch[2] Train-Grocery-accuracy=3.650000
+2024-04-01 20:32:15,398 [INFO]  Epoch[2] Time cost=0.053
+2024-04-01 20:32:15,400 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0002.params"
+2024-04-01 20:32:15,403 [INFO]  Epoch[2] Validation-cross-entropy=0.097643
+2024-04-01 20:32:15,403 [INFO]  Epoch[2] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:32:15,427 [INFO]  Epoch[3] Batch [0-10]	Speed: 6939.47 samples/sec	cross-entropy=0.311345	Grocery-accuracy=3.818182
+2024-04-01 20:32:15,467 [INFO]  Epoch[3] Train-cross-entropy=0.278997
+2024-04-01 20:32:15,467 [INFO]  Epoch[3] Train-Grocery-accuracy=3.650000
+2024-04-01 20:32:15,467 [INFO]  Epoch[3] Time cost=0.064
+2024-04-01 20:32:15,470 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0003.params"
+2024-04-01 20:32:15,471 [INFO]  Epoch[3] Validation-cross-entropy=0.247047
+2024-04-01 20:32:15,471 [INFO]  Epoch[3] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:32:15,486 [INFO]  Epoch[4] Batch [0-10]	Speed: 12138.27 samples/sec	cross-entropy=0.341112	Grocery-accuracy=3.818182
+2024-04-01 20:32:15,681 [INFO]  Epoch[4] Train-cross-entropy=0.242148
+2024-04-01 20:32:15,681 [INFO]  Epoch[4] Train-Grocery-accuracy=3.650000
+2024-04-01 20:32:15,681 [INFO]  Epoch[4] Time cost=0.210
+2024-04-01 20:32:15,684 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0004.params"
+2024-04-01 20:32:15,691 [INFO]  Epoch[4] Validation-cross-entropy=0.318224
+2024-04-01 20:32:15,691 [INFO]  Epoch[4] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:32:15,691 [INFO]  
+========== done (0.4437737464904785 s) fit model
+2024-04-01 20:32:32,554 [INFO]  
+========== start: fit model
+2024-04-01 20:32:32,554 [WARNING]  Already bound, ignoring bind()
+2024-04-01 20:32:32,828 [INFO]  Epoch[0] Batch [0-10]	Speed: 594.05 samples/sec	cross-entropy=2.536576	Grocery-accuracy=3.545455
+2024-04-01 20:32:32,836 [INFO]  Epoch[0] Train-cross-entropy=3.096514
+2024-04-01 20:32:32,836 [INFO]  Epoch[0] Train-Grocery-accuracy=3.850000
+2024-04-01 20:32:32,837 [INFO]  Epoch[0] Time cost=0.281
+2024-04-01 20:32:32,839 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0000.params"
+2024-04-01 20:32:32,840 [INFO]  Epoch[0] Validation-cross-entropy=0.830882
+2024-04-01 20:32:32,840 [INFO]  Epoch[0] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:32:32,929 [INFO]  Epoch[1] Batch [0-10]	Speed: 1813.75 samples/sec	cross-entropy=1.491731	Grocery-accuracy=3.545455
+2024-04-01 20:32:33,315 [INFO]  Epoch[1] Train-cross-entropy=1.338838
+2024-04-01 20:32:33,315 [INFO]  Epoch[1] Train-Grocery-accuracy=3.850000
+2024-04-01 20:32:33,315 [INFO]  Epoch[1] Time cost=0.475
+2024-04-01 20:32:33,317 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0001.params"
+2024-04-01 20:32:33,318 [INFO]  Epoch[1] Validation-cross-entropy=0.709500
+2024-04-01 20:32:33,318 [INFO]  Epoch[1] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:32:33,326 [INFO]  Epoch[2] Batch [0-10]	Speed: 20730.53 samples/sec	cross-entropy=0.425316	Grocery-accuracy=3.545455
+2024-04-01 20:32:33,601 [INFO]  Epoch[2] Train-cross-entropy=0.516518
+2024-04-01 20:32:33,601 [INFO]  Epoch[2] Train-Grocery-accuracy=3.850000
+2024-04-01 20:32:33,601 [INFO]  Epoch[2] Time cost=0.284
+2024-04-01 20:32:33,603 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0002.params"
+2024-04-01 20:32:33,604 [INFO]  Epoch[2] Validation-cross-entropy=0.486054
+2024-04-01 20:32:33,604 [INFO]  Epoch[2] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:32:33,615 [INFO]  Epoch[3] Batch [0-10]	Speed: 17283.63 samples/sec	cross-entropy=0.332845	Grocery-accuracy=3.545455
+2024-04-01 20:32:33,623 [INFO]  Epoch[3] Train-cross-entropy=0.400997
+2024-04-01 20:32:33,623 [INFO]  Epoch[3] Train-Grocery-accuracy=3.850000
+2024-04-01 20:32:33,624 [INFO]  Epoch[3] Time cost=0.019
+2024-04-01 20:32:33,626 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0003.params"
+2024-04-01 20:32:33,627 [INFO]  Epoch[3] Validation-cross-entropy=0.480387
+2024-04-01 20:32:33,627 [INFO]  Epoch[3] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:32:33,638 [INFO]  Epoch[4] Batch [0-10]	Speed: 16558.64 samples/sec	cross-entropy=0.239673	Grocery-accuracy=3.545455
+2024-04-01 20:32:33,647 [INFO]  Epoch[4] Train-cross-entropy=0.272390
+2024-04-01 20:32:33,647 [INFO]  Epoch[4] Train-Grocery-accuracy=3.850000
+2024-04-01 20:32:33,647 [INFO]  Epoch[4] Time cost=0.020
+2024-04-01 20:32:33,649 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0004.params"
+2024-04-01 20:32:33,650 [INFO]  Epoch[4] Validation-cross-entropy=0.287246
+2024-04-01 20:32:33,651 [INFO]  Epoch[4] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:32:33,651 [INFO]  
+========== done (1.096724510192871 s) fit model
+2024-04-01 20:32:46,203 [INFO]  
+========== start: fit model
+2024-04-01 20:32:46,204 [WARNING]  Already bound, ignoring bind()
+2024-04-01 20:32:46,461 [INFO]  Epoch[0] Batch [0-10]	Speed: 824.91 samples/sec	cross-entropy=11.208825	Grocery-accuracy=3.818182
+2024-04-01 20:32:46,543 [INFO]  Epoch[0] Train-cross-entropy=7.996716
+2024-04-01 20:32:46,543 [INFO]  Epoch[0] Train-Grocery-accuracy=3.700000
+2024-04-01 20:32:46,543 [INFO]  Epoch[0] Time cost=0.338
+2024-04-01 20:32:46,544 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0000.params"
+2024-04-01 20:32:46,545 [INFO]  Epoch[0] Validation-cross-entropy=6.899117
+2024-04-01 20:32:46,545 [INFO]  Epoch[0] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:32:47,679 [INFO]  Epoch[1] Batch [0-10]	Speed: 141.17 samples/sec	cross-entropy=2.771271	Grocery-accuracy=3.818182
+2024-04-01 20:32:47,692 [INFO]  Epoch[1] Train-cross-entropy=1.857322
+2024-04-01 20:32:47,692 [INFO]  Epoch[1] Train-Grocery-accuracy=3.700000
+2024-04-01 20:32:47,692 [INFO]  Epoch[1] Time cost=1.147
+2024-04-01 20:32:47,694 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0001.params"
+2024-04-01 20:32:47,695 [INFO]  Epoch[1] Validation-cross-entropy=4.245778
+2024-04-01 20:32:47,695 [INFO]  Epoch[1] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:32:47,704 [INFO]  Epoch[2] Batch [0-10]	Speed: 23670.72 samples/sec	cross-entropy=0.834701	Grocery-accuracy=3.818182
+2024-04-01 20:32:47,710 [INFO]  Epoch[2] Train-cross-entropy=0.570476
+2024-04-01 20:32:47,710 [INFO]  Epoch[2] Train-Grocery-accuracy=3.700000
+2024-04-01 20:32:47,710 [INFO]  Epoch[2] Time cost=0.015
+2024-04-01 20:32:47,712 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0002.params"
+2024-04-01 20:32:47,713 [INFO]  Epoch[2] Validation-cross-entropy=1.470640
+2024-04-01 20:32:47,713 [INFO]  Epoch[2] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:32:47,720 [INFO]  Epoch[3] Batch [0-10]	Speed: 23174.55 samples/sec	cross-entropy=0.231638	Grocery-accuracy=3.818182
+2024-04-01 20:32:48,160 [INFO]  Epoch[3] Train-cross-entropy=0.201620
+2024-04-01 20:32:48,160 [INFO]  Epoch[3] Train-Grocery-accuracy=3.700000
+2024-04-01 20:32:48,160 [INFO]  Epoch[3] Time cost=0.448
+2024-04-01 20:32:48,162 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0003.params"
+2024-04-01 20:32:48,167 [INFO]  Epoch[3] Validation-cross-entropy=1.100010
+2024-04-01 20:32:48,167 [INFO]  Epoch[3] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:32:48,177 [INFO]  Epoch[4] Batch [0-10]	Speed: 17313.50 samples/sec	cross-entropy=0.122902	Grocery-accuracy=3.818182
+2024-04-01 20:32:48,186 [INFO]  Epoch[4] Train-cross-entropy=0.119707
+2024-04-01 20:32:48,186 [INFO]  Epoch[4] Train-Grocery-accuracy=3.700000
+2024-04-01 20:32:48,187 [INFO]  Epoch[4] Time cost=0.020
+2024-04-01 20:32:48,189 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0004.params"
+2024-04-01 20:32:48,190 [INFO]  Epoch[4] Validation-cross-entropy=0.816133
+2024-04-01 20:32:48,190 [INFO]  Epoch[4] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:32:48,190 [INFO]  
+========== done (1.986461877822876 s) fit model
+2024-04-01 20:33:00,773 [INFO]  
+========== start: fit model
+2024-04-01 20:33:00,773 [WARNING]  Already bound, ignoring bind()
+2024-04-01 20:33:01,198 [INFO]  Epoch[0] Batch [0-10]	Speed: 22719.50 samples/sec	cross-entropy=3.985083	Grocery-accuracy=0.000000
+2024-04-01 20:33:01,631 [INFO]  Epoch[0] Train-cross-entropy=2.993271
+2024-04-01 20:33:01,631 [INFO]  Epoch[0] Train-Grocery-accuracy=0.000000
+2024-04-01 20:33:01,631 [INFO]  Epoch[0] Time cost=0.857
+2024-04-01 20:33:01,634 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0000.params"
+2024-04-01 20:33:01,635 [INFO]  Epoch[0] Validation-cross-entropy=0.363092
+2024-04-01 20:33:01,635 [INFO]  Epoch[0] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:33:01,693 [INFO]  Epoch[1] Batch [0-10]	Speed: 2791.72 samples/sec	cross-entropy=0.655393	Grocery-accuracy=0.000000
+2024-04-01 20:33:01,851 [INFO]  Epoch[1] Train-cross-entropy=0.855104
+2024-04-01 20:33:01,852 [INFO]  Epoch[1] Train-Grocery-accuracy=0.000000
+2024-04-01 20:33:01,852 [INFO]  Epoch[1] Time cost=0.217
+2024-04-01 20:33:01,853 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0001.params"
+2024-04-01 20:33:01,891 [INFO]  Epoch[1] Validation-cross-entropy=0.230499
+2024-04-01 20:33:01,891 [INFO]  Epoch[1] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:33:02,146 [INFO]  Epoch[2] Batch [0-10]	Speed: 953.33 samples/sec	cross-entropy=0.937176	Grocery-accuracy=0.000000
+2024-04-01 20:33:02,153 [INFO]  Epoch[2] Train-cross-entropy=0.774254
+2024-04-01 20:33:02,153 [INFO]  Epoch[2] Train-Grocery-accuracy=0.000000
+2024-04-01 20:33:02,153 [INFO]  Epoch[2] Time cost=0.263
+2024-04-01 20:33:02,155 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0002.params"
+2024-04-01 20:33:02,156 [INFO]  Epoch[2] Validation-cross-entropy=0.133920
+2024-04-01 20:33:02,156 [INFO]  Epoch[2] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:33:02,167 [INFO]  Epoch[3] Batch [0-10]	Speed: 16898.89 samples/sec	cross-entropy=0.236822	Grocery-accuracy=0.000000
+2024-04-01 20:33:02,175 [INFO]  Epoch[3] Train-cross-entropy=0.191770
+2024-04-01 20:33:02,176 [INFO]  Epoch[3] Train-Grocery-accuracy=0.000000
+2024-04-01 20:33:02,176 [INFO]  Epoch[3] Time cost=0.020
+2024-04-01 20:33:02,178 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0003.params"
+2024-04-01 20:33:02,179 [INFO]  Epoch[3] Validation-cross-entropy=0.094972
+2024-04-01 20:33:02,179 [INFO]  Epoch[3] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:33:02,419 [INFO]  Epoch[4] Batch [0-10]	Speed: 672.08 samples/sec	cross-entropy=0.124064	Grocery-accuracy=0.000000
+2024-04-01 20:33:02,623 [INFO]  Epoch[4] Train-cross-entropy=0.089445
+2024-04-01 20:33:02,623 [INFO]  Epoch[4] Train-Grocery-accuracy=0.000000
+2024-04-01 20:33:02,623 [INFO]  Epoch[4] Time cost=0.444
+2024-04-01 20:33:02,626 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0004.params"
+2024-04-01 20:33:02,786 [INFO]  Epoch[4] Validation-cross-entropy=0.024549
+2024-04-01 20:33:02,787 [INFO]  Epoch[4] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:33:02,787 [INFO]  
+========== done (2.014281749725342 s) fit model
+2024-04-01 20:33:15,108 [INFO]  
+========== start: fit model
+2024-04-01 20:33:15,109 [WARNING]  Already bound, ignoring bind()
+2024-04-01 20:33:15,268 [INFO]  Epoch[0] Batch [0-10]	Speed: 5528.96 samples/sec	cross-entropy=20.399609	Grocery-accuracy=3.636364
+2024-04-01 20:33:15,274 [INFO]  Epoch[0] Train-cross-entropy=12.611421
+2024-04-01 20:33:15,274 [INFO]  Epoch[0] Train-Grocery-accuracy=3.500000
+2024-04-01 20:33:15,274 [INFO]  Epoch[0] Time cost=0.164
+2024-04-01 20:33:15,278 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0000.params"
+2024-04-01 20:33:15,429 [INFO]  Epoch[0] Validation-cross-entropy=3.084036
+2024-04-01 20:33:15,429 [INFO]  Epoch[0] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:33:15,439 [INFO]  Epoch[1] Batch [0-10]	Speed: 17566.85 samples/sec	cross-entropy=4.327167	Grocery-accuracy=3.636364
+2024-04-01 20:33:15,448 [INFO]  Epoch[1] Train-cross-entropy=3.429466
+2024-04-01 20:33:15,448 [INFO]  Epoch[1] Train-Grocery-accuracy=3.500000
+2024-04-01 20:33:15,448 [INFO]  Epoch[1] Time cost=0.020
+2024-04-01 20:33:15,450 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0001.params"
+2024-04-01 20:33:15,451 [INFO]  Epoch[1] Validation-cross-entropy=1.324899
+2024-04-01 20:33:15,451 [INFO]  Epoch[1] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:33:15,462 [INFO]  Epoch[2] Batch [0-10]	Speed: 16877.64 samples/sec	cross-entropy=1.667266	Grocery-accuracy=3.636364
+2024-04-01 20:33:15,570 [INFO]  Epoch[2] Train-cross-entropy=1.254310
+2024-04-01 20:33:15,570 [INFO]  Epoch[2] Train-Grocery-accuracy=3.500000
+2024-04-01 20:33:15,570 [INFO]  Epoch[2] Time cost=0.119
+2024-04-01 20:33:15,572 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0002.params"
+2024-04-01 20:33:15,573 [INFO]  Epoch[2] Validation-cross-entropy=0.559819
+2024-04-01 20:33:15,573 [INFO]  Epoch[2] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:33:15,586 [INFO]  Epoch[3] Batch [0-10]	Speed: 12800.68 samples/sec	cross-entropy=0.716801	Grocery-accuracy=3.636364
+2024-04-01 20:33:15,692 [INFO]  Epoch[3] Train-cross-entropy=0.554333
+2024-04-01 20:33:15,692 [INFO]  Epoch[3] Train-Grocery-accuracy=3.500000
+2024-04-01 20:33:15,692 [INFO]  Epoch[3] Time cost=0.120
+2024-04-01 20:33:15,696 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0003.params"
+2024-04-01 20:33:15,776 [INFO]  Epoch[3] Validation-cross-entropy=0.556114
+2024-04-01 20:33:15,776 [INFO]  Epoch[3] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:33:15,837 [INFO]  Epoch[4] Batch [0-10]	Speed: 3409.50 samples/sec	cross-entropy=0.356397	Grocery-accuracy=3.636364
+2024-04-01 20:33:15,846 [INFO]  Epoch[4] Train-cross-entropy=0.290560
+2024-04-01 20:33:15,846 [INFO]  Epoch[4] Train-Grocery-accuracy=3.500000
+2024-04-01 20:33:15,846 [INFO]  Epoch[4] Time cost=0.070
+2024-04-01 20:33:15,848 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0004.params"
+2024-04-01 20:33:15,849 [INFO]  Epoch[4] Validation-cross-entropy=0.287329
+2024-04-01 20:33:15,850 [INFO]  Epoch[4] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:33:15,850 [INFO]  
+========== done (0.7412731647491455 s) fit model
+2024-04-01 20:33:26,663 [INFO]  
+========== start: fit model
+2024-04-01 20:33:26,663 [WARNING]  Already bound, ignoring bind()
+2024-04-01 20:33:26,864 [INFO]  Epoch[0] Batch [0-10]	Speed: 1073.62 samples/sec	cross-entropy=7.804743	Grocery-accuracy=0.000000
+2024-04-01 20:33:26,904 [INFO]  Epoch[0] Train-cross-entropy=5.474895
+2024-04-01 20:33:26,904 [INFO]  Epoch[0] Train-Grocery-accuracy=0.000000
+2024-04-01 20:33:26,904 [INFO]  Epoch[0] Time cost=0.237
+2024-04-01 20:33:26,906 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0000.params"
+2024-04-01 20:33:26,909 [INFO]  Epoch[0] Validation-cross-entropy=0.844004
+2024-04-01 20:33:26,909 [INFO]  Epoch[0] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:33:27,005 [INFO]  Epoch[1] Batch [0-10]	Speed: 1691.85 samples/sec	cross-entropy=1.618613	Grocery-accuracy=0.000000
+2024-04-01 20:33:27,015 [INFO]  Epoch[1] Train-cross-entropy=1.752540
+2024-04-01 20:33:27,015 [INFO]  Epoch[1] Train-Grocery-accuracy=0.000000
+2024-04-01 20:33:27,015 [INFO]  Epoch[1] Time cost=0.106
+2024-04-01 20:33:27,017 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0001.params"
+2024-04-01 20:33:27,018 [INFO]  Epoch[1] Validation-cross-entropy=0.491333
+2024-04-01 20:33:27,018 [INFO]  Epoch[1] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:33:27,059 [INFO]  Epoch[2] Batch [0-10]	Speed: 4046.33 samples/sec	cross-entropy=0.567307	Grocery-accuracy=0.000000
+2024-04-01 20:33:27,068 [INFO]  Epoch[2] Train-cross-entropy=0.504154
+2024-04-01 20:33:27,068 [INFO]  Epoch[2] Train-Grocery-accuracy=0.000000
+2024-04-01 20:33:27,068 [INFO]  Epoch[2] Time cost=0.050
+2024-04-01 20:33:27,070 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0002.params"
+2024-04-01 20:33:27,085 [INFO]  Epoch[2] Validation-cross-entropy=0.101752
+2024-04-01 20:33:27,085 [INFO]  Epoch[2] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:33:27,094 [INFO]  Epoch[3] Batch [0-10]	Speed: 20819.28 samples/sec	cross-entropy=0.207388	Grocery-accuracy=0.000000
+2024-04-01 20:33:27,102 [INFO]  Epoch[3] Train-cross-entropy=0.184309
+2024-04-01 20:33:27,103 [INFO]  Epoch[3] Train-Grocery-accuracy=0.000000
+2024-04-01 20:33:27,103 [INFO]  Epoch[3] Time cost=0.017
+2024-04-01 20:33:27,105 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0003.params"
+2024-04-01 20:33:27,106 [INFO]  Epoch[3] Validation-cross-entropy=0.097485
+2024-04-01 20:33:27,106 [INFO]  Epoch[3] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:33:27,244 [INFO]  Epoch[4] Batch [0-10]	Speed: 1166.21 samples/sec	cross-entropy=0.142727	Grocery-accuracy=0.000000
+2024-04-01 20:33:27,358 [INFO]  Epoch[4] Train-cross-entropy=0.116882
+2024-04-01 20:33:27,358 [INFO]  Epoch[4] Train-Grocery-accuracy=0.000000
+2024-04-01 20:33:27,358 [INFO]  Epoch[4] Time cost=0.252
+2024-04-01 20:33:27,360 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0004.params"
+2024-04-01 20:33:27,361 [INFO]  Epoch[4] Validation-cross-entropy=0.061946
+2024-04-01 20:33:27,361 [INFO]  Epoch[4] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:33:27,361 [INFO]  
+========== done (0.6981966495513916 s) fit model
+2024-04-01 20:33:40,107 [INFO]  
+========== start: fit model
+2024-04-01 20:33:40,107 [WARNING]  Already bound, ignoring bind()
+2024-04-01 20:33:40,138 [INFO]  Epoch[0] Batch [0-10]	Speed: 22587.21 samples/sec	cross-entropy=5.225465	Grocery-accuracy=3.545455
+2024-04-01 20:33:40,144 [INFO]  Epoch[0] Train-cross-entropy=3.764877
+2024-04-01 20:33:40,145 [INFO]  Epoch[0] Train-Grocery-accuracy=3.450000
+2024-04-01 20:33:40,145 [INFO]  Epoch[0] Time cost=0.037
+2024-04-01 20:33:40,146 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0000.params"
+2024-04-01 20:33:40,147 [INFO]  Epoch[0] Validation-cross-entropy=7.508509
+2024-04-01 20:33:40,147 [INFO]  Epoch[0] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:33:40,156 [INFO]  Epoch[1] Batch [0-10]	Speed: 21229.59 samples/sec	cross-entropy=2.285864	Grocery-accuracy=3.545455
+2024-04-01 20:33:40,242 [INFO]  Epoch[1] Train-cross-entropy=1.644978
+2024-04-01 20:33:40,242 [INFO]  Epoch[1] Train-Grocery-accuracy=3.450000
+2024-04-01 20:33:40,242 [INFO]  Epoch[1] Time cost=0.095
+2024-04-01 20:33:40,244 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0001.params"
+2024-04-01 20:33:40,245 [INFO]  Epoch[1] Validation-cross-entropy=2.825244
+2024-04-01 20:33:40,246 [INFO]  Epoch[1] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:33:40,256 [INFO]  Epoch[2] Batch [0-10]	Speed: 17593.56 samples/sec	cross-entropy=0.464201	Grocery-accuracy=3.545455
+2024-04-01 20:33:40,277 [INFO]  Epoch[2] Train-cross-entropy=0.495229
+2024-04-01 20:33:40,278 [INFO]  Epoch[2] Train-Grocery-accuracy=3.450000
+2024-04-01 20:33:40,278 [INFO]  Epoch[2] Time cost=0.032
+2024-04-01 20:33:40,280 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0002.params"
+2024-04-01 20:33:40,281 [INFO]  Epoch[2] Validation-cross-entropy=1.300771
+2024-04-01 20:33:40,281 [INFO]  Epoch[2] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:33:40,394 [INFO]  Epoch[3] Batch [0-10]	Speed: 1428.67 samples/sec	cross-entropy=0.185534	Grocery-accuracy=3.545455
+2024-04-01 20:33:40,403 [INFO]  Epoch[3] Train-cross-entropy=0.193560
+2024-04-01 20:33:40,403 [INFO]  Epoch[3] Train-Grocery-accuracy=3.450000
+2024-04-01 20:33:40,403 [INFO]  Epoch[3] Time cost=0.122
+2024-04-01 20:33:40,404 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0003.params"
+2024-04-01 20:33:40,405 [INFO]  Epoch[3] Validation-cross-entropy=0.300259
+2024-04-01 20:33:40,405 [INFO]  Epoch[3] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:33:40,416 [INFO]  Epoch[4] Batch [0-10]	Speed: 17355.59 samples/sec	cross-entropy=0.119310	Grocery-accuracy=3.545455
+2024-04-01 20:33:40,454 [INFO]  Epoch[4] Train-cross-entropy=0.151677
+2024-04-01 20:33:40,455 [INFO]  Epoch[4] Train-Grocery-accuracy=3.450000
+2024-04-01 20:33:40,455 [INFO]  Epoch[4] Time cost=0.050
+2024-04-01 20:33:40,459 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0004.params"
+2024-04-01 20:33:40,639 [INFO]  Epoch[4] Validation-cross-entropy=0.526071
+2024-04-01 20:33:40,639 [INFO]  Epoch[4] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:33:40,639 [INFO]  
+========== done (0.5325925350189209 s) fit model
+2024-04-01 20:33:57,313 [INFO]  
+========== start: fit model
+2024-04-01 20:33:57,317 [WARNING]  Already bound, ignoring bind()
+2024-04-01 20:33:58,074 [INFO]  Epoch[0] Batch [0-10]	Speed: 284.51 samples/sec	cross-entropy=9.414308	Grocery-accuracy=0.000000
+2024-04-01 20:33:58,082 [INFO]  Epoch[0] Train-cross-entropy=6.689482
+2024-04-01 20:33:58,083 [INFO]  Epoch[0] Train-Grocery-accuracy=0.000000
+2024-04-01 20:33:58,083 [INFO]  Epoch[0] Time cost=0.764
+2024-04-01 20:33:58,084 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0000.params"
+2024-04-01 20:33:58,085 [INFO]  Epoch[0] Validation-cross-entropy=0.577649
+2024-04-01 20:33:58,085 [INFO]  Epoch[0] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:33:58,434 [INFO]  Epoch[1] Batch [0-10]	Speed: 460.42 samples/sec	cross-entropy=1.284326	Grocery-accuracy=0.000000
+2024-04-01 20:33:58,605 [INFO]  Epoch[1] Train-cross-entropy=1.172451
+2024-04-01 20:33:58,605 [INFO]  Epoch[1] Train-Grocery-accuracy=0.000000
+2024-04-01 20:33:58,605 [INFO]  Epoch[1] Time cost=0.520
+2024-04-01 20:33:58,607 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0001.params"
+2024-04-01 20:33:58,608 [INFO]  Epoch[1] Validation-cross-entropy=0.249810
+2024-04-01 20:33:58,608 [INFO]  Epoch[1] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:33:58,720 [INFO]  Epoch[2] Batch [0-10]	Speed: 1453.73 samples/sec	cross-entropy=0.903508	Grocery-accuracy=0.000000
+2024-04-01 20:33:58,748 [INFO]  Epoch[2] Train-cross-entropy=0.960216
+2024-04-01 20:33:58,749 [INFO]  Epoch[2] Train-Grocery-accuracy=0.000000
+2024-04-01 20:33:58,749 [INFO]  Epoch[2] Time cost=0.140
+2024-04-01 20:33:58,751 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0002.params"
+2024-04-01 20:33:59,003 [INFO]  Epoch[2] Validation-cross-entropy=0.181054
+2024-04-01 20:33:59,004 [INFO]  Epoch[2] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:33:59,050 [INFO]  Epoch[3] Batch [0-10]	Speed: 16878.49 samples/sec	cross-entropy=0.499115	Grocery-accuracy=0.000000
+2024-04-01 20:33:59,071 [INFO]  Epoch[3] Train-cross-entropy=0.594448
+2024-04-01 20:33:59,071 [INFO]  Epoch[3] Train-Grocery-accuracy=0.000000
+2024-04-01 20:33:59,071 [INFO]  Epoch[3] Time cost=0.067
+2024-04-01 20:33:59,073 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0003.params"
+2024-04-01 20:33:59,074 [INFO]  Epoch[3] Validation-cross-entropy=0.349606
+2024-04-01 20:33:59,074 [INFO]  Epoch[3] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:33:59,085 [INFO]  Epoch[4] Batch [0-10]	Speed: 16929.58 samples/sec	cross-entropy=0.250648	Grocery-accuracy=0.000000
+2024-04-01 20:33:59,490 [INFO]  Epoch[4] Train-cross-entropy=0.226533
+2024-04-01 20:33:59,490 [INFO]  Epoch[4] Train-Grocery-accuracy=0.000000
+2024-04-01 20:33:59,490 [INFO]  Epoch[4] Time cost=0.416
+2024-04-01 20:33:59,492 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0004.params"
+2024-04-01 20:33:59,493 [INFO]  Epoch[4] Validation-cross-entropy=0.049590
+2024-04-01 20:33:59,493 [INFO]  Epoch[4] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:33:59,494 [INFO]  
+========== done (2.180783271789551 s) fit model
+2024-04-01 20:34:10,252 [INFO]  
+========== start: fit model
+2024-04-01 20:34:10,253 [WARNING]  Already bound, ignoring bind()
+2024-04-01 20:34:10,433 [INFO]  Epoch[0] Batch [0-10]	Speed: 937.36 samples/sec	cross-entropy=18.871887	Grocery-accuracy=0.000000
+2024-04-01 20:34:10,463 [INFO]  Epoch[0] Train-cross-entropy=13.094700
+2024-04-01 20:34:10,463 [INFO]  Epoch[0] Train-Grocery-accuracy=0.000000
+2024-04-01 20:34:10,463 [INFO]  Epoch[0] Time cost=0.209
+2024-04-01 20:34:10,464 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0000.params"
+2024-04-01 20:34:10,465 [INFO]  Epoch[0] Validation-cross-entropy=0.725174
+2024-04-01 20:34:10,465 [INFO]  Epoch[0] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:34:10,472 [INFO]  Epoch[1] Batch [0-10]	Speed: 26246.18 samples/sec	cross-entropy=3.924716	Grocery-accuracy=0.000000
+2024-04-01 20:34:10,530 [INFO]  Epoch[1] Train-cross-entropy=3.487167
+2024-04-01 20:34:10,530 [INFO]  Epoch[1] Train-Grocery-accuracy=0.000000
+2024-04-01 20:34:10,530 [INFO]  Epoch[1] Time cost=0.065
+2024-04-01 20:34:10,534 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0001.params"
+2024-04-01 20:34:10,539 [INFO]  Epoch[1] Validation-cross-entropy=3.351497
+2024-04-01 20:34:10,539 [INFO]  Epoch[1] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:34:10,551 [INFO]  Epoch[2] Batch [0-10]	Speed: 15122.44 samples/sec	cross-entropy=1.938751	Grocery-accuracy=0.000000
+2024-04-01 20:34:10,577 [INFO]  Epoch[2] Train-cross-entropy=1.608692
+2024-04-01 20:34:10,577 [INFO]  Epoch[2] Train-Grocery-accuracy=0.000000
+2024-04-01 20:34:10,577 [INFO]  Epoch[2] Time cost=0.038
+2024-04-01 20:34:10,578 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0002.params"
+2024-04-01 20:34:10,579 [INFO]  Epoch[2] Validation-cross-entropy=0.574549
+2024-04-01 20:34:10,579 [INFO]  Epoch[2] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:34:10,587 [INFO]  Epoch[3] Batch [0-10]	Speed: 23146.57 samples/sec	cross-entropy=0.788627	Grocery-accuracy=0.000000
+2024-04-01 20:34:10,593 [INFO]  Epoch[3] Train-cross-entropy=0.640106
+2024-04-01 20:34:10,593 [INFO]  Epoch[3] Train-Grocery-accuracy=0.000000
+2024-04-01 20:34:10,593 [INFO]  Epoch[3] Time cost=0.014
+2024-04-01 20:34:10,595 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0003.params"
+2024-04-01 20:34:10,608 [INFO]  Epoch[3] Validation-cross-entropy=0.504404
+2024-04-01 20:34:10,608 [INFO]  Epoch[3] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:34:10,616 [INFO]  Epoch[4] Batch [0-10]	Speed: 23568.47 samples/sec	cross-entropy=0.353623	Grocery-accuracy=0.000000
+2024-04-01 20:34:10,622 [INFO]  Epoch[4] Train-cross-entropy=0.286794
+2024-04-01 20:34:10,622 [INFO]  Epoch[4] Train-Grocery-accuracy=0.000000
+2024-04-01 20:34:10,622 [INFO]  Epoch[4] Time cost=0.014
+2024-04-01 20:34:10,624 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0004.params"
+2024-04-01 20:34:10,626 [INFO]  Epoch[4] Validation-cross-entropy=0.101888
+2024-04-01 20:34:10,627 [INFO]  Epoch[4] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:34:10,627 [INFO]  
+========== done (0.3745543956756592 s) fit model
+2024-04-01 20:34:24,302 [INFO]  
+========== start: fit model
+2024-04-01 20:34:24,302 [WARNING]  Already bound, ignoring bind()
+2024-04-01 20:34:24,326 [INFO]  Epoch[0] Batch [0-10]	Speed: 24412.10 samples/sec	cross-entropy=2.060747	Grocery-accuracy=4.000000
+2024-04-01 20:34:24,665 [INFO]  Epoch[0] Train-cross-entropy=1.681035
+2024-04-01 20:34:24,666 [INFO]  Epoch[0] Train-Grocery-accuracy=3.600000
+2024-04-01 20:34:24,666 [INFO]  Epoch[0] Time cost=0.363
+2024-04-01 20:34:24,668 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0000.params"
+2024-04-01 20:34:24,669 [INFO]  Epoch[0] Validation-cross-entropy=0.371168
+2024-04-01 20:34:24,669 [INFO]  Epoch[0] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:34:25,182 [INFO]  Epoch[1] Batch [0-10]	Speed: 317.80 samples/sec	cross-entropy=0.472021	Grocery-accuracy=4.000000
+2024-04-01 20:34:25,194 [INFO]  Epoch[1] Train-cross-entropy=0.595103
+2024-04-01 20:34:25,194 [INFO]  Epoch[1] Train-Grocery-accuracy=3.600000
+2024-04-01 20:34:25,194 [INFO]  Epoch[1] Time cost=0.525
+2024-04-01 20:34:25,196 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0001.params"
+2024-04-01 20:34:25,197 [INFO]  Epoch[1] Validation-cross-entropy=0.582018
+2024-04-01 20:34:25,197 [INFO]  Epoch[1] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:34:25,208 [INFO]  Epoch[2] Batch [0-10]	Speed: 17614.34 samples/sec	cross-entropy=0.324538	Grocery-accuracy=4.000000
+2024-04-01 20:34:25,216 [INFO]  Epoch[2] Train-cross-entropy=0.912760
+2024-04-01 20:34:25,216 [INFO]  Epoch[2] Train-Grocery-accuracy=3.600000
+2024-04-01 20:34:25,216 [INFO]  Epoch[2] Time cost=0.019
+2024-04-01 20:34:25,218 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0002.params"
+2024-04-01 20:34:25,218 [INFO]  Epoch[2] Validation-cross-entropy=0.336921
+2024-04-01 20:34:25,219 [INFO]  Epoch[2] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:34:25,313 [INFO]  Epoch[3] Batch [0-10]	Speed: 1717.61 samples/sec	cross-entropy=0.310839	Grocery-accuracy=4.000000
+2024-04-01 20:34:25,810 [INFO]  Epoch[3] Train-cross-entropy=0.810947
+2024-04-01 20:34:25,810 [INFO]  Epoch[3] Train-Grocery-accuracy=3.600000
+2024-04-01 20:34:25,810 [INFO]  Epoch[3] Time cost=0.591
+2024-04-01 20:34:25,811 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0003.params"
+2024-04-01 20:34:25,812 [INFO]  Epoch[3] Validation-cross-entropy=0.444205
+2024-04-01 20:34:25,812 [INFO]  Epoch[3] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:34:25,822 [INFO]  Epoch[4] Batch [0-10]	Speed: 17774.36 samples/sec	cross-entropy=0.396971	Grocery-accuracy=4.000000
+2024-04-01 20:34:25,830 [INFO]  Epoch[4] Train-cross-entropy=0.810727
+2024-04-01 20:34:25,830 [INFO]  Epoch[4] Train-Grocery-accuracy=3.600000
+2024-04-01 20:34:25,830 [INFO]  Epoch[4] Time cost=0.018
+2024-04-01 20:34:25,832 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0004.params"
+2024-04-01 20:34:26,087 [INFO]  Epoch[4] Validation-cross-entropy=0.412671
+2024-04-01 20:34:26,087 [INFO]  Epoch[4] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:34:26,087 [INFO]  
+========== done (1.7858366966247559 s) fit model
+2024-04-01 20:34:41,379 [INFO]  
+========== start: fit model
+2024-04-01 20:34:41,380 [WARNING]  Already bound, ignoring bind()
+2024-04-01 20:34:41,586 [INFO]  Epoch[0] Batch [0-10]	Speed: 1513.26 samples/sec	cross-entropy=7.407145	Grocery-accuracy=0.000000
+2024-04-01 20:34:41,593 [INFO]  Epoch[0] Train-cross-entropy=5.452667
+2024-04-01 20:34:41,593 [INFO]  Epoch[0] Train-Grocery-accuracy=0.000000
+2024-04-01 20:34:41,593 [INFO]  Epoch[0] Time cost=0.213
+2024-04-01 20:34:41,595 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0000.params"
+2024-04-01 20:34:41,600 [INFO]  Epoch[0] Validation-cross-entropy=0.787330
+2024-04-01 20:34:41,600 [INFO]  Epoch[0] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:34:41,623 [INFO]  Epoch[1] Batch [0-10]	Speed: 7255.09 samples/sec	cross-entropy=1.460775	Grocery-accuracy=0.000000
+2024-04-01 20:34:42,299 [INFO]  Epoch[1] Train-cross-entropy=1.065232
+2024-04-01 20:34:42,299 [INFO]  Epoch[1] Train-Grocery-accuracy=0.000000
+2024-04-01 20:34:42,299 [INFO]  Epoch[1] Time cost=0.700
+2024-04-01 20:34:42,301 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0001.params"
+2024-04-01 20:34:42,302 [INFO]  Epoch[1] Validation-cross-entropy=0.224875
+2024-04-01 20:34:42,303 [INFO]  Epoch[1] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:34:42,317 [INFO]  Epoch[2] Batch [0-10]	Speed: 12057.36 samples/sec	cross-entropy=0.241107	Grocery-accuracy=0.000000
+2024-04-01 20:34:42,327 [INFO]  Epoch[2] Train-cross-entropy=0.202663
+2024-04-01 20:34:42,327 [INFO]  Epoch[2] Train-Grocery-accuracy=0.000000
+2024-04-01 20:34:42,328 [INFO]  Epoch[2] Time cost=0.025
+2024-04-01 20:34:42,331 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0002.params"
+2024-04-01 20:34:42,453 [INFO]  Epoch[2] Validation-cross-entropy=0.196127
+2024-04-01 20:34:42,453 [INFO]  Epoch[2] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:34:42,593 [INFO]  Epoch[3] Batch [0-10]	Speed: 15853.74 samples/sec	cross-entropy=0.128171	Grocery-accuracy=0.000000
+2024-04-01 20:34:42,602 [INFO]  Epoch[3] Train-cross-entropy=0.111252
+2024-04-01 20:34:42,602 [INFO]  Epoch[3] Train-Grocery-accuracy=0.000000
+2024-04-01 20:34:42,603 [INFO]  Epoch[3] Time cost=0.149
+2024-04-01 20:34:42,605 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0003.params"
+2024-04-01 20:34:42,606 [INFO]  Epoch[3] Validation-cross-entropy=0.097756
+2024-04-01 20:34:42,606 [INFO]  Epoch[3] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:34:42,620 [INFO]  Epoch[4] Batch [0-10]	Speed: 12130.15 samples/sec	cross-entropy=0.070411	Grocery-accuracy=0.000000
+2024-04-01 20:34:42,627 [INFO]  Epoch[4] Train-cross-entropy=0.064840
+2024-04-01 20:34:42,628 [INFO]  Epoch[4] Train-Grocery-accuracy=0.000000
+2024-04-01 20:34:42,628 [INFO]  Epoch[4] Time cost=0.022
+2024-04-01 20:34:42,629 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Grocery/model-0004.params"
+2024-04-01 20:34:42,630 [INFO]  Epoch[4] Validation-cross-entropy=0.050931
+2024-04-01 20:34:42,630 [INFO]  Epoch[4] Validation-Grocery-accuracy=0.000000
+2024-04-01 20:34:42,630 [INFO]  
+========== done (1.2508785724639893 s) fit model

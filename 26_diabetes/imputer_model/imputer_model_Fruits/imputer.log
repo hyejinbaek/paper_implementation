@@ -1,0 +1,800 @@
+2024-04-01 09:43:07,353 [INFO]  
+========== start: fit model
+2024-04-01 09:43:07,353 [WARNING]  Already bound, ignoring bind()
+2024-04-01 09:43:32,158 [INFO]  Epoch[0] Batch [0-5708]	Speed: 3709.04 samples/sec	cross-entropy=0.100513	Fruits-accuracy=3.205115
+2024-04-01 09:44:00,104 [INFO]  Epoch[0] Train-cross-entropy=0.054223
+2024-04-01 09:44:00,104 [INFO]  Epoch[0] Train-Fruits-accuracy=3.213385
+2024-04-01 09:44:00,104 [INFO]  Epoch[0] Time cost=52.750
+2024-04-01 09:44:00,106 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0000.params"
+2024-04-01 09:44:01,624 [INFO]  Epoch[0] Validation-cross-entropy=0.016753
+2024-04-01 09:44:01,624 [INFO]  Epoch[0] Validation-Fruits-accuracy=0.000000
+2024-04-01 09:44:24,883 [INFO]  Epoch[1] Batch [0-5708]	Speed: 3938.41 samples/sec	cross-entropy=0.004209	Fruits-accuracy=3.205115
+2024-04-01 09:44:44,449 [INFO]  Epoch[1] Train-cross-entropy=0.003574
+2024-04-01 09:44:44,449 [INFO]  Epoch[1] Train-Fruits-accuracy=3.213385
+2024-04-01 09:44:44,449 [INFO]  Epoch[1] Time cost=42.825
+2024-04-01 09:44:44,450 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0001.params"
+2024-04-01 09:44:44,689 [INFO]  Epoch[1] Validation-cross-entropy=0.001355
+2024-04-01 09:44:44,689 [INFO]  Epoch[1] Validation-Fruits-accuracy=0.000000
+2024-04-01 09:45:08,446 [INFO]  Epoch[2] Batch [0-5708]	Speed: 3844.41 samples/sec	cross-entropy=0.002144	Fruits-accuracy=3.205115
+2024-04-01 09:45:37,377 [INFO]  Epoch[2] Train-cross-entropy=0.002035
+2024-04-01 09:45:37,377 [INFO]  Epoch[2] Train-Fruits-accuracy=3.213385
+2024-04-01 09:45:37,377 [INFO]  Epoch[2] Time cost=52.688
+2024-04-01 09:45:37,378 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0002.params"
+2024-04-01 09:45:39,435 [INFO]  Epoch[2] Validation-cross-entropy=0.000306
+2024-04-01 09:45:39,435 [INFO]  Epoch[2] Validation-Fruits-accuracy=0.000000
+2024-04-01 09:46:02,155 [INFO]  Epoch[3] Batch [0-5708]	Speed: 4020.06 samples/sec	cross-entropy=0.001691	Fruits-accuracy=3.205115
+2024-04-01 09:46:24,388 [INFO]  Epoch[3] Train-cross-entropy=0.001652
+2024-04-01 09:46:24,389 [INFO]  Epoch[3] Train-Fruits-accuracy=3.213385
+2024-04-01 09:46:24,389 [INFO]  Epoch[3] Time cost=44.953
+2024-04-01 09:46:24,390 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0003.params"
+2024-04-01 09:46:25,088 [INFO]  Epoch[3] Validation-cross-entropy=0.004021
+2024-04-01 09:46:25,088 [INFO]  Epoch[3] Validation-Fruits-accuracy=0.000000
+2024-04-01 09:46:53,079 [INFO]  Epoch[4] Batch [0-5708]	Speed: 3262.90 samples/sec	cross-entropy=0.001066	Fruits-accuracy=3.205115
+2024-04-01 09:47:26,334 [INFO]  Epoch[4] Train-cross-entropy=0.001070
+2024-04-01 09:47:26,334 [INFO]  Epoch[4] Train-Fruits-accuracy=3.213385
+2024-04-01 09:47:26,334 [INFO]  Epoch[4] Time cost=61.246
+2024-04-01 09:47:26,338 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0004.params"
+2024-04-01 09:47:27,151 [INFO]  Epoch[4] Validation-cross-entropy=0.007287
+2024-04-01 09:47:27,151 [INFO]  Epoch[4] Validation-Fruits-accuracy=0.000000
+2024-04-01 09:47:27,152 [INFO]  
+========== done (259.79856872558594 s) fit model
+2024-04-01 11:27:38,574 [INFO]  
+========== start: fit model
+2024-04-01 11:27:38,574 [WARNING]  Already bound, ignoring bind()
+2024-04-01 11:27:57,338 [INFO]  Epoch[0] Batch [0-5708]	Speed: 4867.78 samples/sec	cross-entropy=0.103129	Fruits-accuracy=0.000000
+2024-04-01 11:28:17,230 [INFO]  Epoch[0] Train-cross-entropy=0.055824
+2024-04-01 11:28:17,230 [INFO]  Epoch[0] Train-Fruits-accuracy=0.000000
+2024-04-01 11:28:17,231 [INFO]  Epoch[0] Time cost=38.656
+2024-04-01 11:28:17,233 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0000.params"
+2024-04-01 11:28:19,424 [INFO]  Epoch[0] Validation-cross-entropy=0.010962
+2024-04-01 11:28:19,424 [INFO]  Epoch[0] Validation-Fruits-accuracy=0.000000
+2024-04-01 11:28:38,932 [INFO]  Epoch[1] Batch [0-5708]	Speed: 4681.96 samples/sec	cross-entropy=0.003684	Fruits-accuracy=0.000000
+2024-04-01 11:28:58,305 [INFO]  Epoch[1] Train-cross-entropy=0.002888
+2024-04-01 11:28:58,305 [INFO]  Epoch[1] Train-Fruits-accuracy=0.000000
+2024-04-01 11:28:58,306 [INFO]  Epoch[1] Time cost=38.881
+2024-04-01 11:28:58,307 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0001.params"
+2024-04-01 11:28:59,539 [INFO]  Epoch[1] Validation-cross-entropy=0.000417
+2024-04-01 11:28:59,540 [INFO]  Epoch[1] Validation-Fruits-accuracy=0.000000
+2024-04-01 11:29:22,826 [INFO]  Epoch[2] Batch [0-5708]	Speed: 3922.25 samples/sec	cross-entropy=0.001848	Fruits-accuracy=0.000000
+2024-04-01 11:29:45,949 [INFO]  Epoch[2] Train-cross-entropy=0.001742
+2024-04-01 11:29:45,949 [INFO]  Epoch[2] Train-Fruits-accuracy=0.000000
+2024-04-01 11:29:45,950 [INFO]  Epoch[2] Time cost=46.410
+2024-04-01 11:29:45,952 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0002.params"
+2024-04-01 11:29:48,256 [INFO]  Epoch[2] Validation-cross-entropy=0.008887
+2024-04-01 11:29:48,256 [INFO]  Epoch[2] Validation-Fruits-accuracy=0.000000
+2024-04-01 11:30:14,154 [INFO]  Epoch[3] Batch [0-5708]	Speed: 3526.63 samples/sec	cross-entropy=0.001281	Fruits-accuracy=0.000000
+2024-04-01 11:30:39,975 [INFO]  Epoch[3] Train-cross-entropy=0.001165
+2024-04-01 11:30:39,975 [INFO]  Epoch[3] Train-Fruits-accuracy=0.000000
+2024-04-01 11:30:39,975 [INFO]  Epoch[3] Time cost=51.719
+2024-04-01 11:30:39,976 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0003.params"
+2024-04-01 11:30:41,598 [INFO]  Epoch[3] Validation-cross-entropy=0.000001
+2024-04-01 11:30:41,598 [INFO]  Epoch[3] Validation-Fruits-accuracy=0.000000
+2024-04-01 11:31:07,758 [INFO]  Epoch[4] Batch [0-5708]	Speed: 3491.34 samples/sec	cross-entropy=0.001053	Fruits-accuracy=0.000000
+2024-04-01 11:31:23,834 [INFO]  Epoch[4] Train-cross-entropy=0.001090
+2024-04-01 11:31:23,834 [INFO]  Epoch[4] Train-Fruits-accuracy=0.000000
+2024-04-01 11:31:23,834 [INFO]  Epoch[4] Time cost=42.236
+2024-04-01 11:31:23,836 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0004.params"
+2024-04-01 11:31:25,204 [INFO]  Epoch[4] Validation-cross-entropy=0.001653
+2024-04-01 11:31:25,204 [INFO]  Epoch[4] Validation-Fruits-accuracy=0.000000
+2024-04-01 11:31:25,204 [INFO]  
+========== done (226.63056230545044 s) fit model
+2024-04-01 13:24:57,236 [INFO]  
+========== start: fit model
+2024-04-01 13:24:57,254 [WARNING]  Already bound, ignoring bind()
+2024-04-01 13:25:25,739 [INFO]  Epoch[0] Batch [0-5708]	Speed: 3211.87 samples/sec	cross-entropy=0.100329	Fruits-accuracy=0.000000
+2024-04-01 13:25:47,558 [INFO]  Epoch[0] Train-cross-entropy=0.053622
+2024-04-01 13:25:47,559 [INFO]  Epoch[0] Train-Fruits-accuracy=0.000000
+2024-04-01 13:25:47,559 [INFO]  Epoch[0] Time cost=50.303
+2024-04-01 13:25:47,560 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0000.params"
+2024-04-01 13:25:47,802 [INFO]  Epoch[0] Validation-cross-entropy=0.006088
+2024-04-01 13:25:47,802 [INFO]  Epoch[0] Validation-Fruits-accuracy=0.000000
+2024-04-01 13:26:11,241 [INFO]  Epoch[1] Batch [0-5708]	Speed: 3896.57 samples/sec	cross-entropy=0.003412	Fruits-accuracy=0.000000
+2024-04-01 13:26:35,173 [INFO]  Epoch[1] Train-cross-entropy=0.002705
+2024-04-01 13:26:35,173 [INFO]  Epoch[1] Train-Fruits-accuracy=0.000000
+2024-04-01 13:26:35,173 [INFO]  Epoch[1] Time cost=47.371
+2024-04-01 13:26:35,175 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0001.params"
+2024-04-01 13:26:35,752 [INFO]  Epoch[1] Validation-cross-entropy=0.000191
+2024-04-01 13:26:35,752 [INFO]  Epoch[1] Validation-Fruits-accuracy=0.000000
+2024-04-01 13:27:00,167 [INFO]  Epoch[2] Batch [0-5708]	Speed: 3740.85 samples/sec	cross-entropy=0.001513	Fruits-accuracy=0.000000
+2024-04-01 13:27:24,344 [INFO]  Epoch[2] Train-cross-entropy=0.001239
+2024-04-01 13:27:24,344 [INFO]  Epoch[2] Train-Fruits-accuracy=0.000000
+2024-04-01 13:27:24,344 [INFO]  Epoch[2] Time cost=48.592
+2024-04-01 13:27:24,346 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0002.params"
+2024-04-01 13:27:26,912 [INFO]  Epoch[2] Validation-cross-entropy=0.006454
+2024-04-01 13:27:26,913 [INFO]  Epoch[2] Validation-Fruits-accuracy=0.000000
+2024-04-01 13:27:51,898 [INFO]  Epoch[3] Batch [0-5708]	Speed: 3655.45 samples/sec	cross-entropy=0.000825	Fruits-accuracy=0.000000
+2024-04-01 13:28:25,110 [INFO]  Epoch[3] Train-cross-entropy=0.000824
+2024-04-01 13:28:25,110 [INFO]  Epoch[3] Train-Fruits-accuracy=0.000000
+2024-04-01 13:28:25,110 [INFO]  Epoch[3] Time cost=58.197
+2024-04-01 13:28:25,111 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0003.params"
+2024-04-01 13:28:27,329 [INFO]  Epoch[3] Validation-cross-entropy=0.001852
+2024-04-01 13:28:27,329 [INFO]  Epoch[3] Validation-Fruits-accuracy=0.000000
+2024-04-01 13:28:50,262 [INFO]  Epoch[4] Batch [0-5708]	Speed: 3982.66 samples/sec	cross-entropy=0.000663	Fruits-accuracy=0.000000
+2024-04-01 13:29:10,553 [INFO]  Epoch[4] Train-cross-entropy=0.000640
+2024-04-01 13:29:10,553 [INFO]  Epoch[4] Train-Fruits-accuracy=0.000000
+2024-04-01 13:29:10,553 [INFO]  Epoch[4] Time cost=43.224
+2024-04-01 13:29:10,555 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0004.params"
+2024-04-01 13:29:11,847 [INFO]  Epoch[4] Validation-cross-entropy=0.000287
+2024-04-01 13:29:11,847 [INFO]  Epoch[4] Validation-Fruits-accuracy=0.000000
+2024-04-01 13:29:11,847 [INFO]  
+========== done (254.61067914962769 s) fit model
+2024-04-01 15:04:39,428 [INFO]  
+========== start: fit model
+2024-04-01 15:04:39,433 [WARNING]  Already bound, ignoring bind()
+2024-04-01 15:05:05,590 [INFO]  Epoch[0] Batch [0-5708]	Speed: 3503.96 samples/sec	cross-entropy=0.080311	Fruits-accuracy=3.223857
+2024-04-01 15:05:26,820 [INFO]  Epoch[0] Train-cross-entropy=0.043736
+2024-04-01 15:05:26,820 [INFO]  Epoch[0] Train-Fruits-accuracy=3.216976
+2024-04-01 15:05:26,820 [INFO]  Epoch[0] Time cost=47.381
+2024-04-01 15:05:26,822 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0000.params"
+2024-04-01 15:05:27,969 [INFO]  Epoch[0] Validation-cross-entropy=0.008853
+2024-04-01 15:05:27,970 [INFO]  Epoch[0] Validation-Fruits-accuracy=0.000000
+2024-04-01 15:05:52,871 [INFO]  Epoch[1] Batch [0-5708]	Speed: 3667.88 samples/sec	cross-entropy=0.003973	Fruits-accuracy=3.223857
+2024-04-01 15:06:18,841 [INFO]  Epoch[1] Train-cross-entropy=0.003157
+2024-04-01 15:06:18,841 [INFO]  Epoch[1] Train-Fruits-accuracy=3.216976
+2024-04-01 15:06:18,841 [INFO]  Epoch[1] Time cost=50.871
+2024-04-01 15:06:18,842 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0001.params"
+2024-04-01 15:06:19,500 [INFO]  Epoch[1] Validation-cross-entropy=0.000334
+2024-04-01 15:06:19,500 [INFO]  Epoch[1] Validation-Fruits-accuracy=0.000000
+2024-04-01 15:06:44,681 [INFO]  Epoch[2] Batch [0-5708]	Speed: 3627.09 samples/sec	cross-entropy=0.001723	Fruits-accuracy=3.223857
+2024-04-01 15:07:08,988 [INFO]  Epoch[2] Train-cross-entropy=0.001654
+2024-04-01 15:07:08,988 [INFO]  Epoch[2] Train-Fruits-accuracy=3.216976
+2024-04-01 15:07:08,988 [INFO]  Epoch[2] Time cost=49.488
+2024-04-01 15:07:08,990 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0002.params"
+2024-04-01 15:07:09,222 [INFO]  Epoch[2] Validation-cross-entropy=0.000001
+2024-04-01 15:07:09,222 [INFO]  Epoch[2] Validation-Fruits-accuracy=0.000000
+2024-04-01 15:07:31,863 [INFO]  Epoch[3] Batch [0-5708]	Speed: 4033.92 samples/sec	cross-entropy=0.001236	Fruits-accuracy=3.223857
+2024-04-01 15:07:55,368 [INFO]  Epoch[3] Train-cross-entropy=0.001205
+2024-04-01 15:07:55,368 [INFO]  Epoch[3] Train-Fruits-accuracy=3.216976
+2024-04-01 15:07:55,368 [INFO]  Epoch[3] Time cost=46.146
+2024-04-01 15:07:55,369 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0003.params"
+2024-04-01 15:07:55,814 [INFO]  Epoch[3] Validation-cross-entropy=0.000023
+2024-04-01 15:07:55,814 [INFO]  Epoch[3] Validation-Fruits-accuracy=0.000000
+2024-04-01 15:08:26,099 [INFO]  Epoch[4] Batch [0-5708]	Speed: 3015.78 samples/sec	cross-entropy=0.001002	Fruits-accuracy=3.223857
+2024-04-01 15:08:52,078 [INFO]  Epoch[4] Train-cross-entropy=0.000980
+2024-04-01 15:08:52,078 [INFO]  Epoch[4] Train-Fruits-accuracy=3.216976
+2024-04-01 15:08:52,078 [INFO]  Epoch[4] Time cost=56.264
+2024-04-01 15:08:52,080 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0004.params"
+2024-04-01 15:08:56,205 [INFO]  Epoch[4] Validation-cross-entropy=0.000005
+2024-04-01 15:08:56,206 [INFO]  Epoch[4] Validation-Fruits-accuracy=0.000000
+2024-04-01 15:08:56,206 [INFO]  
+========== done (256.77751564979553 s) fit model
+2024-04-01 16:44:22,221 [INFO]  
+========== start: fit model
+2024-04-01 16:44:22,236 [WARNING]  Already bound, ignoring bind()
+2024-04-01 16:44:43,208 [INFO]  Epoch[0] Batch [0-5708]	Speed: 4362.59 samples/sec	cross-entropy=0.109040	Fruits-accuracy=0.000000
+2024-04-01 16:45:06,349 [INFO]  Epoch[0] Train-cross-entropy=0.058717
+2024-04-01 16:45:06,349 [INFO]  Epoch[0] Train-Fruits-accuracy=0.000000
+2024-04-01 16:45:06,349 [INFO]  Epoch[0] Time cost=44.111
+2024-04-01 16:45:06,352 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0000.params"
+2024-04-01 16:45:08,948 [INFO]  Epoch[0] Validation-cross-entropy=0.039308
+2024-04-01 16:45:08,948 [INFO]  Epoch[0] Validation-Fruits-accuracy=0.000000
+2024-04-01 16:45:26,515 [INFO]  Epoch[1] Batch [0-5708]	Speed: 5199.31 samples/sec	cross-entropy=0.003254	Fruits-accuracy=0.000000
+2024-04-01 16:45:46,715 [INFO]  Epoch[1] Train-cross-entropy=0.002759
+2024-04-01 16:45:46,715 [INFO]  Epoch[1] Train-Fruits-accuracy=0.000000
+2024-04-01 16:45:46,715 [INFO]  Epoch[1] Time cost=37.768
+2024-04-01 16:45:46,718 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0001.params"
+2024-04-01 16:45:48,933 [INFO]  Epoch[1] Validation-cross-entropy=0.000324
+2024-04-01 16:45:48,933 [INFO]  Epoch[1] Validation-Fruits-accuracy=0.000000
+2024-04-01 16:46:03,662 [INFO]  Epoch[2] Batch [0-5708]	Speed: 6201.06 samples/sec	cross-entropy=0.001341	Fruits-accuracy=0.000000
+2024-04-01 16:46:25,201 [INFO]  Epoch[2] Train-cross-entropy=0.001217
+2024-04-01 16:46:25,202 [INFO]  Epoch[2] Train-Fruits-accuracy=0.000000
+2024-04-01 16:46:25,202 [INFO]  Epoch[2] Time cost=36.268
+2024-04-01 16:46:25,203 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0002.params"
+2024-04-01 16:46:27,517 [INFO]  Epoch[2] Validation-cross-entropy=0.000154
+2024-04-01 16:46:27,517 [INFO]  Epoch[2] Validation-Fruits-accuracy=0.000000
+2024-04-01 16:46:51,106 [INFO]  Epoch[3] Batch [0-5708]	Speed: 3871.76 samples/sec	cross-entropy=0.000989	Fruits-accuracy=0.000000
+2024-04-01 16:47:11,198 [INFO]  Epoch[3] Train-cross-entropy=0.001006
+2024-04-01 16:47:11,198 [INFO]  Epoch[3] Train-Fruits-accuracy=0.000000
+2024-04-01 16:47:11,198 [INFO]  Epoch[3] Time cost=43.681
+2024-04-01 16:47:11,200 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0003.params"
+2024-04-01 16:47:12,332 [INFO]  Epoch[3] Validation-cross-entropy=0.000008
+2024-04-01 16:47:12,333 [INFO]  Epoch[3] Validation-Fruits-accuracy=0.000000
+2024-04-01 16:47:33,125 [INFO]  Epoch[4] Batch [0-5708]	Speed: 4392.49 samples/sec	cross-entropy=0.000890	Fruits-accuracy=0.000000
+2024-04-01 16:47:54,116 [INFO]  Epoch[4] Train-cross-entropy=0.000973
+2024-04-01 16:47:54,116 [INFO]  Epoch[4] Train-Fruits-accuracy=0.000000
+2024-04-01 16:47:54,116 [INFO]  Epoch[4] Time cost=41.784
+2024-04-01 16:47:54,119 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0004.params"
+2024-04-01 16:47:55,263 [INFO]  Epoch[4] Validation-cross-entropy=0.002507
+2024-04-01 16:47:55,263 [INFO]  Epoch[4] Validation-Fruits-accuracy=0.000000
+2024-04-01 16:47:55,263 [INFO]  
+========== done (213.04224300384521 s) fit model
+2024-04-01 18:30:32,300 [INFO]  
+========== start: fit model
+2024-04-01 18:30:32,318 [WARNING]  Already bound, ignoring bind()
+2024-04-01 18:30:56,276 [INFO]  Epoch[0] Batch [0-5708]	Speed: 3818.79 samples/sec	cross-entropy=0.102436	Fruits-accuracy=0.000000
+2024-04-01 18:31:22,077 [INFO]  Epoch[0] Train-cross-entropy=0.055703
+2024-04-01 18:31:22,077 [INFO]  Epoch[0] Train-Fruits-accuracy=0.000000
+2024-04-01 18:31:22,077 [INFO]  Epoch[0] Time cost=49.757
+2024-04-01 18:31:22,079 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0000.params"
+2024-04-01 18:31:24,587 [INFO]  Epoch[0] Validation-cross-entropy=0.000599
+2024-04-01 18:31:24,588 [INFO]  Epoch[0] Validation-Fruits-accuracy=0.000000
+2024-04-01 18:31:42,775 [INFO]  Epoch[1] Batch [0-5708]	Speed: 5021.92 samples/sec	cross-entropy=0.004612	Fruits-accuracy=0.000000
+2024-04-01 18:32:09,068 [INFO]  Epoch[1] Train-cross-entropy=0.003813
+2024-04-01 18:32:09,068 [INFO]  Epoch[1] Train-Fruits-accuracy=0.000000
+2024-04-01 18:32:09,068 [INFO]  Epoch[1] Time cost=44.481
+2024-04-01 18:32:09,070 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0001.params"
+2024-04-01 18:32:10,495 [INFO]  Epoch[1] Validation-cross-entropy=0.002379
+2024-04-01 18:32:10,495 [INFO]  Epoch[1] Validation-Fruits-accuracy=0.000000
+2024-04-01 18:32:32,767 [INFO]  Epoch[2] Batch [0-5708]	Speed: 4100.90 samples/sec	cross-entropy=0.002016	Fruits-accuracy=0.000000
+2024-04-01 18:32:50,294 [INFO]  Epoch[2] Train-cross-entropy=0.001787
+2024-04-01 18:32:50,294 [INFO]  Epoch[2] Train-Fruits-accuracy=0.000000
+2024-04-01 18:32:50,294 [INFO]  Epoch[2] Time cost=39.798
+2024-04-01 18:32:50,295 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0002.params"
+2024-04-01 18:32:51,265 [INFO]  Epoch[2] Validation-cross-entropy=0.000740
+2024-04-01 18:32:51,265 [INFO]  Epoch[2] Validation-Fruits-accuracy=0.000000
+2024-04-01 18:33:09,731 [INFO]  Epoch[3] Batch [0-5708]	Speed: 4946.14 samples/sec	cross-entropy=0.001476	Fruits-accuracy=0.000000
+2024-04-01 18:33:34,016 [INFO]  Epoch[3] Train-cross-entropy=0.001346
+2024-04-01 18:33:34,017 [INFO]  Epoch[3] Train-Fruits-accuracy=0.000000
+2024-04-01 18:33:34,017 [INFO]  Epoch[3] Time cost=42.752
+2024-04-01 18:33:34,018 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0003.params"
+2024-04-01 18:33:34,704 [INFO]  Epoch[3] Validation-cross-entropy=0.000775
+2024-04-01 18:33:34,704 [INFO]  Epoch[3] Validation-Fruits-accuracy=0.000000
+2024-04-01 18:34:01,191 [INFO]  Epoch[4] Batch [0-5708]	Speed: 3448.20 samples/sec	cross-entropy=0.001049	Fruits-accuracy=0.000000
+2024-04-01 18:34:24,815 [INFO]  Epoch[4] Train-cross-entropy=0.001000
+2024-04-01 18:34:24,815 [INFO]  Epoch[4] Train-Fruits-accuracy=0.000000
+2024-04-01 18:34:24,815 [INFO]  Epoch[4] Time cost=50.111
+2024-04-01 18:34:24,817 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0004.params"
+2024-04-01 18:34:25,695 [INFO]  Epoch[4] Validation-cross-entropy=0.003586
+2024-04-01 18:34:25,695 [INFO]  Epoch[4] Validation-Fruits-accuracy=0.000000
+2024-04-01 18:34:25,695 [INFO]  
+========== done (233.3957040309906 s) fit model
+2024-04-01 21:00:06,965 [INFO]  
+========== start: fit model
+2024-04-01 21:00:06,977 [WARNING]  Already bound, ignoring bind()
+2024-04-01 21:00:10,323 [INFO]  Epoch[0] Batch [0-5708]	Speed: 27309.92 samples/sec	cross-entropy=0.094038	Fruits-accuracy=0.000000
+2024-04-01 21:00:14,599 [INFO]  Epoch[0] Train-cross-entropy=0.050887
+2024-04-01 21:00:14,600 [INFO]  Epoch[0] Train-Fruits-accuracy=0.000000
+2024-04-01 21:00:14,600 [INFO]  Epoch[0] Time cost=7.621
+2024-04-01 21:00:14,601 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0000.params"
+2024-04-01 21:00:14,828 [INFO]  Epoch[0] Validation-cross-entropy=0.004933
+2024-04-01 21:00:14,828 [INFO]  Epoch[0] Validation-Fruits-accuracy=0.000000
+2024-04-01 21:00:18,852 [INFO]  Epoch[1] Batch [0-5708]	Speed: 22704.49 samples/sec	cross-entropy=0.004486	Fruits-accuracy=0.000000
+2024-04-01 21:00:22,085 [INFO]  Epoch[1] Train-cross-entropy=0.003503
+2024-04-01 21:00:22,085 [INFO]  Epoch[1] Train-Fruits-accuracy=0.000000
+2024-04-01 21:00:22,085 [INFO]  Epoch[1] Time cost=7.257
+2024-04-01 21:00:22,086 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0001.params"
+2024-04-01 21:00:22,319 [INFO]  Epoch[1] Validation-cross-entropy=0.000320
+2024-04-01 21:00:22,319 [INFO]  Epoch[1] Validation-Fruits-accuracy=0.000000
+2024-04-01 21:00:25,982 [INFO]  Epoch[2] Batch [0-5708]	Speed: 24942.04 samples/sec	cross-entropy=0.001961	Fruits-accuracy=0.000000
+2024-04-01 21:00:30,566 [INFO]  Epoch[2] Train-cross-entropy=0.001670
+2024-04-01 21:00:30,566 [INFO]  Epoch[2] Train-Fruits-accuracy=0.000000
+2024-04-01 21:00:30,566 [INFO]  Epoch[2] Time cost=8.247
+2024-04-01 21:00:30,568 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0002.params"
+2024-04-01 21:00:30,827 [INFO]  Epoch[2] Validation-cross-entropy=0.002554
+2024-04-01 21:00:30,827 [INFO]  Epoch[2] Validation-Fruits-accuracy=0.000000
+2024-04-01 21:00:34,300 [INFO]  Epoch[3] Batch [0-5708]	Speed: 26304.32 samples/sec	cross-entropy=0.001391	Fruits-accuracy=0.000000
+2024-04-01 21:00:37,492 [INFO]  Epoch[3] Train-cross-entropy=0.001319
+2024-04-01 21:00:37,492 [INFO]  Epoch[3] Train-Fruits-accuracy=0.000000
+2024-04-01 21:00:37,492 [INFO]  Epoch[3] Time cost=6.665
+2024-04-01 21:00:37,493 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0003.params"
+2024-04-01 21:00:37,757 [INFO]  Epoch[3] Validation-cross-entropy=0.000342
+2024-04-01 21:00:37,757 [INFO]  Epoch[3] Validation-Fruits-accuracy=0.000000
+2024-04-01 21:00:43,252 [INFO]  Epoch[4] Batch [0-5708]	Speed: 16623.62 samples/sec	cross-entropy=0.000857	Fruits-accuracy=0.000000
+2024-04-01 21:00:47,000 [INFO]  Epoch[4] Train-cross-entropy=0.000825
+2024-04-01 21:00:47,000 [INFO]  Epoch[4] Train-Fruits-accuracy=0.000000
+2024-04-01 21:00:47,000 [INFO]  Epoch[4] Time cost=9.243
+2024-04-01 21:00:47,002 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0004.params"
+2024-04-01 21:00:47,216 [INFO]  Epoch[4] Validation-cross-entropy=0.003010
+2024-04-01 21:00:47,216 [INFO]  Epoch[4] Validation-Fruits-accuracy=0.000000
+2024-04-01 21:00:47,216 [INFO]  
+========== done (40.25134325027466 s) fit model
+2024-04-01 21:28:41,236 [INFO]  
+========== start: fit model
+2024-04-01 21:28:41,236 [WARNING]  Already bound, ignoring bind()
+2024-04-01 21:28:45,317 [INFO]  Epoch[0] Batch [0-5708]	Speed: 22430.31 samples/sec	cross-entropy=0.095434	Fruits-accuracy=0.000000
+2024-04-01 21:28:49,334 [INFO]  Epoch[0] Train-cross-entropy=0.051634
+2024-04-01 21:28:49,334 [INFO]  Epoch[0] Train-Fruits-accuracy=0.000000
+2024-04-01 21:28:49,334 [INFO]  Epoch[0] Time cost=8.097
+2024-04-01 21:28:49,336 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0000.params"
+2024-04-01 21:28:49,569 [INFO]  Epoch[0] Validation-cross-entropy=0.002051
+2024-04-01 21:28:49,569 [INFO]  Epoch[0] Validation-Fruits-accuracy=0.000000
+2024-04-01 21:28:53,217 [INFO]  Epoch[1] Batch [0-5708]	Speed: 25046.05 samples/sec	cross-entropy=0.003706	Fruits-accuracy=0.000000
+2024-04-01 21:28:56,885 [INFO]  Epoch[1] Train-cross-entropy=0.002889
+2024-04-01 21:28:56,885 [INFO]  Epoch[1] Train-Fruits-accuracy=0.000000
+2024-04-01 21:28:56,885 [INFO]  Epoch[1] Time cost=7.316
+2024-04-01 21:28:56,887 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0001.params"
+2024-04-01 21:28:57,120 [INFO]  Epoch[1] Validation-cross-entropy=0.000391
+2024-04-01 21:28:57,121 [INFO]  Epoch[1] Validation-Fruits-accuracy=0.000000
+2024-04-01 21:29:01,579 [INFO]  Epoch[2] Batch [0-5708]	Speed: 20487.06 samples/sec	cross-entropy=0.001810	Fruits-accuracy=0.000000
+2024-04-01 21:29:05,793 [INFO]  Epoch[2] Train-cross-entropy=0.001658
+2024-04-01 21:29:05,794 [INFO]  Epoch[2] Train-Fruits-accuracy=0.000000
+2024-04-01 21:29:05,794 [INFO]  Epoch[2] Time cost=8.673
+2024-04-01 21:29:05,796 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0002.params"
+2024-04-01 21:29:06,073 [INFO]  Epoch[2] Validation-cross-entropy=0.004574
+2024-04-01 21:29:06,073 [INFO]  Epoch[2] Validation-Fruits-accuracy=0.000000
+2024-04-01 21:29:09,572 [INFO]  Epoch[3] Batch [0-5708]	Speed: 26114.10 samples/sec	cross-entropy=0.001180	Fruits-accuracy=0.000000
+2024-04-01 21:29:14,497 [INFO]  Epoch[3] Train-cross-entropy=0.001094
+2024-04-01 21:29:14,497 [INFO]  Epoch[3] Train-Fruits-accuracy=0.000000
+2024-04-01 21:29:14,497 [INFO]  Epoch[3] Time cost=8.424
+2024-04-01 21:29:14,499 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0003.params"
+2024-04-01 21:29:14,719 [INFO]  Epoch[3] Validation-cross-entropy=0.000057
+2024-04-01 21:29:14,719 [INFO]  Epoch[3] Validation-Fruits-accuracy=0.000000
+2024-04-01 21:29:18,016 [INFO]  Epoch[4] Batch [0-5708]	Speed: 27702.90 samples/sec	cross-entropy=0.000967	Fruits-accuracy=0.000000
+2024-04-01 21:29:21,357 [INFO]  Epoch[4] Train-cross-entropy=0.000889
+2024-04-01 21:29:21,357 [INFO]  Epoch[4] Train-Fruits-accuracy=0.000000
+2024-04-01 21:29:21,357 [INFO]  Epoch[4] Time cost=6.638
+2024-04-01 21:29:21,358 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0004.params"
+2024-04-01 21:29:21,594 [INFO]  Epoch[4] Validation-cross-entropy=0.000000
+2024-04-01 21:29:21,594 [INFO]  Epoch[4] Validation-Fruits-accuracy=0.000000
+2024-04-01 21:29:21,594 [INFO]  
+========== done (40.3575336933136 s) fit model
+2024-04-01 22:17:23,218 [INFO]  
+========== start: fit model
+2024-04-01 22:17:23,218 [WARNING]  Already bound, ignoring bind()
+2024-04-01 22:17:45,775 [INFO]  Epoch[0] Batch [0-5708]	Speed: 4049.20 samples/sec	cross-entropy=0.097983	Fruits-accuracy=3.166404
+2024-04-01 22:17:57,887 [INFO]  Epoch[0] Train-cross-entropy=0.052564
+2024-04-01 22:17:57,888 [INFO]  Epoch[0] Train-Fruits-accuracy=3.202172
+2024-04-01 22:17:57,888 [INFO]  Epoch[0] Time cost=34.669
+2024-04-01 22:17:57,889 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0000.params"
+2024-04-01 22:17:58,835 [INFO]  Epoch[0] Validation-cross-entropy=0.001182
+2024-04-01 22:17:58,835 [INFO]  Epoch[0] Validation-Fruits-accuracy=0.000000
+2024-04-01 22:18:16,810 [INFO]  Epoch[1] Batch [0-5708]	Speed: 5081.39 samples/sec	cross-entropy=0.003444	Fruits-accuracy=3.166404
+2024-04-01 22:18:25,132 [INFO]  Epoch[1] Train-cross-entropy=0.003120
+2024-04-01 22:18:25,132 [INFO]  Epoch[1] Train-Fruits-accuracy=3.202172
+2024-04-01 22:18:25,132 [INFO]  Epoch[1] Time cost=26.296
+2024-04-01 22:18:25,133 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0001.params"
+2024-04-01 22:18:26,947 [INFO]  Epoch[1] Validation-cross-entropy=0.002012
+2024-04-01 22:18:26,947 [INFO]  Epoch[1] Validation-Fruits-accuracy=0.000000
+2024-04-01 22:18:42,990 [INFO]  Epoch[2] Batch [0-5708]	Speed: 5693.37 samples/sec	cross-entropy=0.001930	Fruits-accuracy=3.166404
+2024-04-01 22:19:06,415 [INFO]  Epoch[2] Train-cross-entropy=0.001813
+2024-04-01 22:19:06,415 [INFO]  Epoch[2] Train-Fruits-accuracy=3.202172
+2024-04-01 22:19:06,415 [INFO]  Epoch[2] Time cost=39.468
+2024-04-01 22:19:06,417 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0002.params"
+2024-04-01 22:19:09,842 [INFO]  Epoch[2] Validation-cross-entropy=0.001168
+2024-04-01 22:19:09,842 [INFO]  Epoch[2] Validation-Fruits-accuracy=0.000000
+2024-04-01 22:19:25,169 [INFO]  Epoch[3] Batch [0-5708]	Speed: 5958.93 samples/sec	cross-entropy=0.001286	Fruits-accuracy=3.166404
+2024-04-01 22:19:39,880 [INFO]  Epoch[3] Train-cross-entropy=0.001293
+2024-04-01 22:19:39,880 [INFO]  Epoch[3] Train-Fruits-accuracy=3.202172
+2024-04-01 22:19:39,880 [INFO]  Epoch[3] Time cost=30.038
+2024-04-01 22:19:39,882 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0003.params"
+2024-04-01 22:19:40,579 [INFO]  Epoch[3] Validation-cross-entropy=0.000952
+2024-04-01 22:19:40,579 [INFO]  Epoch[3] Validation-Fruits-accuracy=0.000000
+2024-04-01 22:19:54,797 [INFO]  Epoch[4] Batch [0-5708]	Speed: 6423.82 samples/sec	cross-entropy=0.001381	Fruits-accuracy=3.166404
+2024-04-01 22:20:11,359 [INFO]  Epoch[4] Train-cross-entropy=0.001324
+2024-04-01 22:20:11,360 [INFO]  Epoch[4] Train-Fruits-accuracy=3.202172
+2024-04-01 22:20:11,360 [INFO]  Epoch[4] Time cost=30.781
+2024-04-01 22:20:11,361 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0004.params"
+2024-04-01 22:20:13,773 [INFO]  Epoch[4] Validation-cross-entropy=0.004989
+2024-04-01 22:20:13,774 [INFO]  Epoch[4] Validation-Fruits-accuracy=0.000000
+2024-04-01 22:20:13,774 [INFO]  
+========== done (170.5558021068573 s) fit model
+2024-04-01 23:44:34,629 [INFO]  
+========== start: fit model
+2024-04-01 23:44:34,629 [WARNING]  Already bound, ignoring bind()
+2024-04-01 23:44:53,568 [INFO]  Epoch[0] Batch [0-5708]	Speed: 4844.56 samples/sec	cross-entropy=0.100513	Fruits-accuracy=3.205115
+2024-04-01 23:45:05,126 [INFO]  Epoch[0] Train-cross-entropy=0.054223
+2024-04-01 23:45:05,127 [INFO]  Epoch[0] Train-Fruits-accuracy=3.213385
+2024-04-01 23:45:05,127 [INFO]  Epoch[0] Time cost=30.497
+2024-04-01 23:45:05,128 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0000.params"
+2024-04-01 23:45:06,466 [INFO]  Epoch[0] Validation-cross-entropy=0.016753
+2024-04-01 23:45:06,466 [INFO]  Epoch[0] Validation-Fruits-accuracy=0.000000
+2024-04-01 23:45:29,638 [INFO]  Epoch[1] Batch [0-5708]	Speed: 3941.68 samples/sec	cross-entropy=0.004209	Fruits-accuracy=3.205115
+2024-04-01 23:45:49,141 [INFO]  Epoch[1] Train-cross-entropy=0.003574
+2024-04-01 23:45:49,142 [INFO]  Epoch[1] Train-Fruits-accuracy=3.213385
+2024-04-01 23:45:49,142 [INFO]  Epoch[1] Time cost=42.675
+2024-04-01 23:45:49,144 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0001.params"
+2024-04-01 23:45:49,469 [INFO]  Epoch[1] Validation-cross-entropy=0.001355
+2024-04-01 23:45:49,470 [INFO]  Epoch[1] Validation-Fruits-accuracy=0.000000
+2024-04-01 23:46:07,488 [INFO]  Epoch[2] Batch [0-5708]	Speed: 5068.99 samples/sec	cross-entropy=0.002144	Fruits-accuracy=3.205115
+2024-04-01 23:46:25,982 [INFO]  Epoch[2] Train-cross-entropy=0.002035
+2024-04-01 23:46:25,983 [INFO]  Epoch[2] Train-Fruits-accuracy=3.213385
+2024-04-01 23:46:25,983 [INFO]  Epoch[2] Time cost=36.513
+2024-04-01 23:46:25,985 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0002.params"
+2024-04-01 23:46:27,273 [INFO]  Epoch[2] Validation-cross-entropy=0.000306
+2024-04-01 23:46:27,273 [INFO]  Epoch[2] Validation-Fruits-accuracy=0.000000
+2024-04-01 23:46:42,291 [INFO]  Epoch[3] Batch [0-5708]	Speed: 6086.80 samples/sec	cross-entropy=0.001691	Fruits-accuracy=3.205115
+2024-04-01 23:47:07,811 [INFO]  Epoch[3] Train-cross-entropy=0.001652
+2024-04-01 23:47:07,811 [INFO]  Epoch[3] Train-Fruits-accuracy=3.213385
+2024-04-01 23:47:07,811 [INFO]  Epoch[3] Time cost=40.538
+2024-04-01 23:47:07,814 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0003.params"
+2024-04-01 23:47:08,658 [INFO]  Epoch[3] Validation-cross-entropy=0.004021
+2024-04-01 23:47:08,658 [INFO]  Epoch[3] Validation-Fruits-accuracy=0.000000
+2024-04-01 23:47:22,792 [INFO]  Epoch[4] Batch [0-5708]	Speed: 6462.62 samples/sec	cross-entropy=0.001066	Fruits-accuracy=3.205115
+2024-04-01 23:47:54,806 [INFO]  Epoch[4] Train-cross-entropy=0.001070
+2024-04-01 23:47:54,807 [INFO]  Epoch[4] Train-Fruits-accuracy=3.213385
+2024-04-01 23:47:54,807 [INFO]  Epoch[4] Time cost=46.148
+2024-04-01 23:47:54,808 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0004.params"
+2024-04-01 23:47:55,175 [INFO]  Epoch[4] Validation-cross-entropy=0.007287
+2024-04-01 23:47:55,175 [INFO]  Epoch[4] Validation-Fruits-accuracy=0.000000
+2024-04-01 23:47:55,175 [INFO]  
+========== done (200.54641914367676 s) fit model
+2024-04-02 01:08:49,076 [INFO]  
+========== start: fit model
+2024-04-02 01:08:49,077 [WARNING]  Already bound, ignoring bind()
+2024-04-02 01:09:03,318 [INFO]  Epoch[0] Batch [0-5708]	Speed: 6442.01 samples/sec	cross-entropy=0.103129	Fruits-accuracy=0.000000
+2024-04-02 01:09:21,211 [INFO]  Epoch[0] Train-cross-entropy=0.055824
+2024-04-02 01:09:21,211 [INFO]  Epoch[0] Train-Fruits-accuracy=0.000000
+2024-04-02 01:09:21,211 [INFO]  Epoch[0] Time cost=32.134
+2024-04-02 01:09:21,213 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0000.params"
+2024-04-02 01:09:23,231 [INFO]  Epoch[0] Validation-cross-entropy=0.010962
+2024-04-02 01:09:23,231 [INFO]  Epoch[0] Validation-Fruits-accuracy=0.000000
+2024-04-02 01:09:38,966 [INFO]  Epoch[1] Batch [0-5708]	Speed: 5805.42 samples/sec	cross-entropy=0.003684	Fruits-accuracy=0.000000
+2024-04-02 01:09:56,226 [INFO]  Epoch[1] Train-cross-entropy=0.002888
+2024-04-02 01:09:56,226 [INFO]  Epoch[1] Train-Fruits-accuracy=0.000000
+2024-04-02 01:09:56,227 [INFO]  Epoch[1] Time cost=32.996
+2024-04-02 01:09:56,229 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0001.params"
+2024-04-02 01:09:57,228 [INFO]  Epoch[1] Validation-cross-entropy=0.000417
+2024-04-02 01:09:57,228 [INFO]  Epoch[1] Validation-Fruits-accuracy=0.000000
+2024-04-02 01:10:15,164 [INFO]  Epoch[2] Batch [0-5708]	Speed: 5092.81 samples/sec	cross-entropy=0.001848	Fruits-accuracy=0.000000
+2024-04-02 01:10:31,486 [INFO]  Epoch[2] Train-cross-entropy=0.001742
+2024-04-02 01:10:31,486 [INFO]  Epoch[2] Train-Fruits-accuracy=0.000000
+2024-04-02 01:10:31,486 [INFO]  Epoch[2] Time cost=34.258
+2024-04-02 01:10:31,489 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0002.params"
+2024-04-02 01:10:32,960 [INFO]  Epoch[2] Validation-cross-entropy=0.008887
+2024-04-02 01:10:32,960 [INFO]  Epoch[2] Validation-Fruits-accuracy=0.000000
+2024-04-02 01:10:49,446 [INFO]  Epoch[3] Batch [0-5708]	Speed: 5540.68 samples/sec	cross-entropy=0.001281	Fruits-accuracy=0.000000
+2024-04-02 01:11:09,899 [INFO]  Epoch[3] Train-cross-entropy=0.001165
+2024-04-02 01:11:09,899 [INFO]  Epoch[3] Train-Fruits-accuracy=0.000000
+2024-04-02 01:11:09,899 [INFO]  Epoch[3] Time cost=36.939
+2024-04-02 01:11:09,902 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0003.params"
+2024-04-02 01:11:10,996 [INFO]  Epoch[3] Validation-cross-entropy=0.000001
+2024-04-02 01:11:10,997 [INFO]  Epoch[3] Validation-Fruits-accuracy=0.000000
+2024-04-02 01:11:43,658 [INFO]  Epoch[4] Batch [0-5708]	Speed: 2796.40 samples/sec	cross-entropy=0.001053	Fruits-accuracy=0.000000
+2024-04-02 01:12:11,837 [INFO]  Epoch[4] Train-cross-entropy=0.001090
+2024-04-02 01:12:11,837 [INFO]  Epoch[4] Train-Fruits-accuracy=0.000000
+2024-04-02 01:12:11,837 [INFO]  Epoch[4] Time cost=60.841
+2024-04-02 01:12:11,839 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0004.params"
+2024-04-02 01:12:12,319 [INFO]  Epoch[4] Validation-cross-entropy=0.001653
+2024-04-02 01:12:12,319 [INFO]  Epoch[4] Validation-Fruits-accuracy=0.000000
+2024-04-02 01:12:12,319 [INFO]  
+========== done (203.24268412590027 s) fit model
+2024-04-02 02:31:42,272 [INFO]  
+========== start: fit model
+2024-04-02 02:31:42,272 [WARNING]  Already bound, ignoring bind()
+2024-04-02 02:32:16,441 [INFO]  Epoch[0] Batch [0-5708]	Speed: 2673.14 samples/sec	cross-entropy=0.100329	Fruits-accuracy=0.000000
+2024-04-02 02:32:31,194 [INFO]  Epoch[0] Train-cross-entropy=0.053622
+2024-04-02 02:32:31,194 [INFO]  Epoch[0] Train-Fruits-accuracy=0.000000
+2024-04-02 02:32:31,194 [INFO]  Epoch[0] Time cost=48.921
+2024-04-02 02:32:31,196 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0000.params"
+2024-04-02 02:32:32,813 [INFO]  Epoch[0] Validation-cross-entropy=0.006088
+2024-04-02 02:32:32,814 [INFO]  Epoch[0] Validation-Fruits-accuracy=0.000000
+2024-04-02 02:33:11,592 [INFO]  Epoch[1] Batch [0-5708]	Speed: 2355.18 samples/sec	cross-entropy=0.003412	Fruits-accuracy=0.000000
+2024-04-02 02:33:40,795 [INFO]  Epoch[1] Train-cross-entropy=0.002705
+2024-04-02 02:33:40,795 [INFO]  Epoch[1] Train-Fruits-accuracy=0.000000
+2024-04-02 02:33:40,795 [INFO]  Epoch[1] Time cost=67.981
+2024-04-02 02:33:40,797 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0001.params"
+2024-04-02 02:33:42,700 [INFO]  Epoch[1] Validation-cross-entropy=0.000191
+2024-04-02 02:33:42,700 [INFO]  Epoch[1] Validation-Fruits-accuracy=0.000000
+2024-04-02 02:34:04,564 [INFO]  Epoch[2] Batch [0-5708]	Speed: 4177.40 samples/sec	cross-entropy=0.001513	Fruits-accuracy=0.000000
+2024-04-02 02:34:18,956 [INFO]  Epoch[2] Train-cross-entropy=0.001239
+2024-04-02 02:34:18,956 [INFO]  Epoch[2] Train-Fruits-accuracy=0.000000
+2024-04-02 02:34:18,956 [INFO]  Epoch[2] Time cost=36.256
+2024-04-02 02:34:18,957 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0002.params"
+2024-04-02 02:34:19,212 [INFO]  Epoch[2] Validation-cross-entropy=0.006454
+2024-04-02 02:34:19,212 [INFO]  Epoch[2] Validation-Fruits-accuracy=0.000000
+2024-04-02 02:34:40,181 [INFO]  Epoch[3] Batch [0-5708]	Speed: 4355.60 samples/sec	cross-entropy=0.000825	Fruits-accuracy=0.000000
+2024-04-02 02:35:00,317 [INFO]  Epoch[3] Train-cross-entropy=0.000824
+2024-04-02 02:35:00,317 [INFO]  Epoch[3] Train-Fruits-accuracy=0.000000
+2024-04-02 02:35:00,318 [INFO]  Epoch[3] Time cost=41.106
+2024-04-02 02:35:00,320 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0003.params"
+2024-04-02 02:35:00,821 [INFO]  Epoch[3] Validation-cross-entropy=0.001852
+2024-04-02 02:35:00,822 [INFO]  Epoch[3] Validation-Fruits-accuracy=0.000000
+2024-04-02 02:35:20,292 [INFO]  Epoch[4] Batch [0-5708]	Speed: 4691.01 samples/sec	cross-entropy=0.000663	Fruits-accuracy=0.000000
+2024-04-02 02:35:38,512 [INFO]  Epoch[4] Train-cross-entropy=0.000640
+2024-04-02 02:35:38,512 [INFO]  Epoch[4] Train-Fruits-accuracy=0.000000
+2024-04-02 02:35:38,512 [INFO]  Epoch[4] Time cost=37.690
+2024-04-02 02:35:38,515 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0004.params"
+2024-04-02 02:35:38,851 [INFO]  Epoch[4] Validation-cross-entropy=0.000287
+2024-04-02 02:35:38,852 [INFO]  Epoch[4] Validation-Fruits-accuracy=0.000000
+2024-04-02 02:35:38,852 [INFO]  
+========== done (236.5796582698822 s) fit model
+2024-04-02 03:56:03,354 [INFO]  
+========== start: fit model
+2024-04-02 03:56:03,354 [WARNING]  Already bound, ignoring bind()
+2024-04-02 03:56:34,458 [INFO]  Epoch[0] Batch [0-5708]	Speed: 2936.42 samples/sec	cross-entropy=0.080311	Fruits-accuracy=3.223857
+2024-04-02 03:56:50,263 [INFO]  Epoch[0] Train-cross-entropy=0.043736
+2024-04-02 03:56:50,263 [INFO]  Epoch[0] Train-Fruits-accuracy=3.216976
+2024-04-02 03:56:50,263 [INFO]  Epoch[0] Time cost=46.908
+2024-04-02 03:56:50,265 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0000.params"
+2024-04-02 03:56:50,611 [INFO]  Epoch[0] Validation-cross-entropy=0.008853
+2024-04-02 03:56:50,611 [INFO]  Epoch[0] Validation-Fruits-accuracy=0.000000
+2024-04-02 03:57:10,764 [INFO]  Epoch[1] Batch [0-5708]	Speed: 4532.11 samples/sec	cross-entropy=0.003973	Fruits-accuracy=3.223857
+2024-04-02 03:57:31,598 [INFO]  Epoch[1] Train-cross-entropy=0.003157
+2024-04-02 03:57:31,598 [INFO]  Epoch[1] Train-Fruits-accuracy=3.216976
+2024-04-02 03:57:31,598 [INFO]  Epoch[1] Time cost=40.987
+2024-04-02 03:57:31,599 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0001.params"
+2024-04-02 03:57:31,938 [INFO]  Epoch[1] Validation-cross-entropy=0.000334
+2024-04-02 03:57:31,938 [INFO]  Epoch[1] Validation-Fruits-accuracy=0.000000
+2024-04-02 03:57:48,643 [INFO]  Epoch[2] Batch [0-5708]	Speed: 5467.83 samples/sec	cross-entropy=0.001723	Fruits-accuracy=3.223857
+2024-04-02 03:58:04,691 [INFO]  Epoch[2] Train-cross-entropy=0.001654
+2024-04-02 03:58:04,691 [INFO]  Epoch[2] Train-Fruits-accuracy=3.216976
+2024-04-02 03:58:04,691 [INFO]  Epoch[2] Time cost=32.753
+2024-04-02 03:58:04,693 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0002.params"
+2024-04-02 03:58:04,941 [INFO]  Epoch[2] Validation-cross-entropy=0.000001
+2024-04-02 03:58:04,941 [INFO]  Epoch[2] Validation-Fruits-accuracy=0.000000
+2024-04-02 03:58:19,920 [INFO]  Epoch[3] Batch [0-5708]	Speed: 6097.62 samples/sec	cross-entropy=0.001236	Fruits-accuracy=3.223857
+2024-04-02 03:58:46,009 [INFO]  Epoch[3] Train-cross-entropy=0.001205
+2024-04-02 03:58:46,010 [INFO]  Epoch[3] Train-Fruits-accuracy=3.216976
+2024-04-02 03:58:46,010 [INFO]  Epoch[3] Time cost=41.069
+2024-04-02 03:58:46,012 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0003.params"
+2024-04-02 03:58:48,344 [INFO]  Epoch[3] Validation-cross-entropy=0.000023
+2024-04-02 03:58:48,345 [INFO]  Epoch[3] Validation-Fruits-accuracy=0.000000
+2024-04-02 03:59:04,771 [INFO]  Epoch[4] Batch [0-5708]	Speed: 5560.27 samples/sec	cross-entropy=0.001002	Fruits-accuracy=3.223857
+2024-04-02 03:59:29,142 [INFO]  Epoch[4] Train-cross-entropy=0.000980
+2024-04-02 03:59:29,143 [INFO]  Epoch[4] Train-Fruits-accuracy=3.216976
+2024-04-02 03:59:29,143 [INFO]  Epoch[4] Time cost=40.798
+2024-04-02 03:59:29,145 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0004.params"
+2024-04-02 03:59:30,140 [INFO]  Epoch[4] Validation-cross-entropy=0.000005
+2024-04-02 03:59:30,140 [INFO]  Epoch[4] Validation-Fruits-accuracy=0.000000
+2024-04-02 03:59:30,140 [INFO]  
+========== done (206.7867558002472 s) fit model
+2024-04-02 05:12:55,314 [INFO]  
+========== start: fit model
+2024-04-02 05:12:55,315 [WARNING]  Already bound, ignoring bind()
+2024-04-02 05:13:21,775 [INFO]  Epoch[0] Batch [0-5708]	Speed: 3452.05 samples/sec	cross-entropy=0.109040	Fruits-accuracy=0.000000
+2024-04-02 05:13:46,234 [INFO]  Epoch[0] Train-cross-entropy=0.058717
+2024-04-02 05:13:46,234 [INFO]  Epoch[0] Train-Fruits-accuracy=0.000000
+2024-04-02 05:13:46,234 [INFO]  Epoch[0] Time cost=50.918
+2024-04-02 05:13:46,237 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0000.params"
+2024-04-02 05:13:47,256 [INFO]  Epoch[0] Validation-cross-entropy=0.039308
+2024-04-02 05:13:47,257 [INFO]  Epoch[0] Validation-Fruits-accuracy=0.000000
+2024-04-02 05:14:07,470 [INFO]  Epoch[1] Batch [0-5708]	Speed: 4518.49 samples/sec	cross-entropy=0.003254	Fruits-accuracy=0.000000
+2024-04-02 05:14:16,972 [INFO]  Epoch[1] Train-cross-entropy=0.002759
+2024-04-02 05:14:16,972 [INFO]  Epoch[1] Train-Fruits-accuracy=0.000000
+2024-04-02 05:14:16,972 [INFO]  Epoch[1] Time cost=29.716
+2024-04-02 05:14:16,975 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0001.params"
+2024-04-02 05:14:17,985 [INFO]  Epoch[1] Validation-cross-entropy=0.000324
+2024-04-02 05:14:17,985 [INFO]  Epoch[1] Validation-Fruits-accuracy=0.000000
+2024-04-02 05:14:39,598 [INFO]  Epoch[2] Batch [0-5708]	Speed: 4225.94 samples/sec	cross-entropy=0.001341	Fruits-accuracy=0.000000
+2024-04-02 05:14:56,609 [INFO]  Epoch[2] Train-cross-entropy=0.001217
+2024-04-02 05:14:56,610 [INFO]  Epoch[2] Train-Fruits-accuracy=0.000000
+2024-04-02 05:14:56,610 [INFO]  Epoch[2] Time cost=38.624
+2024-04-02 05:14:56,612 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0002.params"
+2024-04-02 05:14:57,509 [INFO]  Epoch[2] Validation-cross-entropy=0.000154
+2024-04-02 05:14:57,509 [INFO]  Epoch[2] Validation-Fruits-accuracy=0.000000
+2024-04-02 05:15:22,418 [INFO]  Epoch[3] Batch [0-5708]	Speed: 3666.66 samples/sec	cross-entropy=0.000989	Fruits-accuracy=0.000000
+2024-04-02 05:15:42,548 [INFO]  Epoch[3] Train-cross-entropy=0.001006
+2024-04-02 05:15:42,548 [INFO]  Epoch[3] Train-Fruits-accuracy=0.000000
+2024-04-02 05:15:42,548 [INFO]  Epoch[3] Time cost=45.039
+2024-04-02 05:15:42,551 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0003.params"
+2024-04-02 05:15:42,998 [INFO]  Epoch[3] Validation-cross-entropy=0.000008
+2024-04-02 05:15:42,998 [INFO]  Epoch[3] Validation-Fruits-accuracy=0.000000
+2024-04-02 05:16:04,882 [INFO]  Epoch[4] Batch [0-5708]	Speed: 4173.58 samples/sec	cross-entropy=0.000890	Fruits-accuracy=0.000000
+2024-04-02 05:16:22,689 [INFO]  Epoch[4] Train-cross-entropy=0.000973
+2024-04-02 05:16:22,689 [INFO]  Epoch[4] Train-Fruits-accuracy=0.000000
+2024-04-02 05:16:22,689 [INFO]  Epoch[4] Time cost=39.691
+2024-04-02 05:16:22,691 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0004.params"
+2024-04-02 05:16:23,064 [INFO]  Epoch[4] Validation-cross-entropy=0.002507
+2024-04-02 05:16:23,065 [INFO]  Epoch[4] Validation-Fruits-accuracy=0.000000
+2024-04-02 05:16:23,065 [INFO]  
+========== done (207.75019073486328 s) fit model
+2024-04-02 06:37:48,252 [INFO]  
+========== start: fit model
+2024-04-02 06:37:48,252 [WARNING]  Already bound, ignoring bind()
+2024-04-02 06:38:05,745 [INFO]  Epoch[0] Batch [0-5708]	Speed: 5344.96 samples/sec	cross-entropy=0.102436	Fruits-accuracy=0.000000
+2024-04-02 06:38:28,326 [INFO]  Epoch[0] Train-cross-entropy=0.055703
+2024-04-02 06:38:28,326 [INFO]  Epoch[0] Train-Fruits-accuracy=0.000000
+2024-04-02 06:38:28,326 [INFO]  Epoch[0] Time cost=40.073
+2024-04-02 06:38:28,328 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0000.params"
+2024-04-02 06:38:28,669 [INFO]  Epoch[0] Validation-cross-entropy=0.000599
+2024-04-02 06:38:28,669 [INFO]  Epoch[0] Validation-Fruits-accuracy=0.000000
+2024-04-02 06:38:46,597 [INFO]  Epoch[1] Batch [0-5708]	Speed: 5094.70 samples/sec	cross-entropy=0.004612	Fruits-accuracy=0.000000
+2024-04-02 06:39:06,136 [INFO]  Epoch[1] Train-cross-entropy=0.003813
+2024-04-02 06:39:06,136 [INFO]  Epoch[1] Train-Fruits-accuracy=0.000000
+2024-04-02 06:39:06,136 [INFO]  Epoch[1] Time cost=37.467
+2024-04-02 06:39:06,138 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0001.params"
+2024-04-02 06:39:07,924 [INFO]  Epoch[1] Validation-cross-entropy=0.002379
+2024-04-02 06:39:07,924 [INFO]  Epoch[1] Validation-Fruits-accuracy=0.000000
+2024-04-02 06:39:23,858 [INFO]  Epoch[2] Batch [0-5708]	Speed: 5732.17 samples/sec	cross-entropy=0.002016	Fruits-accuracy=0.000000
+2024-04-02 06:39:42,594 [INFO]  Epoch[2] Train-cross-entropy=0.001787
+2024-04-02 06:39:42,594 [INFO]  Epoch[2] Train-Fruits-accuracy=0.000000
+2024-04-02 06:39:42,594 [INFO]  Epoch[2] Time cost=34.670
+2024-04-02 06:39:42,596 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0002.params"
+2024-04-02 06:39:44,107 [INFO]  Epoch[2] Validation-cross-entropy=0.000740
+2024-04-02 06:39:44,108 [INFO]  Epoch[2] Validation-Fruits-accuracy=0.000000
+2024-04-02 06:40:02,770 [INFO]  Epoch[3] Batch [0-5708]	Speed: 4894.27 samples/sec	cross-entropy=0.001476	Fruits-accuracy=0.000000
+2024-04-02 06:40:16,591 [INFO]  Epoch[3] Train-cross-entropy=0.001346
+2024-04-02 06:40:16,591 [INFO]  Epoch[3] Train-Fruits-accuracy=0.000000
+2024-04-02 06:40:16,591 [INFO]  Epoch[3] Time cost=32.483
+2024-04-02 06:40:16,593 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0003.params"
+2024-04-02 06:40:16,834 [INFO]  Epoch[3] Validation-cross-entropy=0.000775
+2024-04-02 06:40:16,835 [INFO]  Epoch[3] Validation-Fruits-accuracy=0.000000
+2024-04-02 06:40:30,343 [INFO]  Epoch[4] Batch [0-5708]	Speed: 6761.12 samples/sec	cross-entropy=0.001049	Fruits-accuracy=0.000000
+2024-04-02 06:40:45,719 [INFO]  Epoch[4] Train-cross-entropy=0.001000
+2024-04-02 06:40:45,719 [INFO]  Epoch[4] Train-Fruits-accuracy=0.000000
+2024-04-02 06:40:45,719 [INFO]  Epoch[4] Time cost=28.884
+2024-04-02 06:40:45,721 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0004.params"
+2024-04-02 06:40:46,103 [INFO]  Epoch[4] Validation-cross-entropy=0.003586
+2024-04-02 06:40:46,103 [INFO]  Epoch[4] Validation-Fruits-accuracy=0.000000
+2024-04-02 06:40:46,103 [INFO]  
+========== done (177.85137939453125 s) fit model
+2024-04-02 07:54:34,951 [INFO]  
+========== start: fit model
+2024-04-02 07:54:34,951 [WARNING]  Already bound, ignoring bind()
+2024-04-02 07:54:52,092 [INFO]  Epoch[0] Batch [0-5708]	Speed: 5336.95 samples/sec	cross-entropy=0.094038	Fruits-accuracy=0.000000
+2024-04-02 07:55:07,757 [INFO]  Epoch[0] Train-cross-entropy=0.050887
+2024-04-02 07:55:07,757 [INFO]  Epoch[0] Train-Fruits-accuracy=0.000000
+2024-04-02 07:55:07,757 [INFO]  Epoch[0] Time cost=32.805
+2024-04-02 07:55:07,759 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0000.params"
+2024-04-02 07:55:08,170 [INFO]  Epoch[0] Validation-cross-entropy=0.004933
+2024-04-02 07:55:08,171 [INFO]  Epoch[0] Validation-Fruits-accuracy=0.000000
+2024-04-02 07:55:31,713 [INFO]  Epoch[1] Batch [0-5708]	Speed: 3879.51 samples/sec	cross-entropy=0.004486	Fruits-accuracy=0.000000
+2024-04-02 07:55:57,559 [INFO]  Epoch[1] Train-cross-entropy=0.003503
+2024-04-02 07:55:57,559 [INFO]  Epoch[1] Train-Fruits-accuracy=0.000000
+2024-04-02 07:55:57,559 [INFO]  Epoch[1] Time cost=49.388
+2024-04-02 07:55:57,561 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0001.params"
+2024-04-02 07:55:59,040 [INFO]  Epoch[1] Validation-cross-entropy=0.000320
+2024-04-02 07:55:59,040 [INFO]  Epoch[1] Validation-Fruits-accuracy=0.000000
+2024-04-02 07:56:20,322 [INFO]  Epoch[2] Batch [0-5708]	Speed: 4291.65 samples/sec	cross-entropy=0.001961	Fruits-accuracy=0.000000
+2024-04-02 07:56:39,939 [INFO]  Epoch[2] Train-cross-entropy=0.001670
+2024-04-02 07:56:39,940 [INFO]  Epoch[2] Train-Fruits-accuracy=0.000000
+2024-04-02 07:56:39,940 [INFO]  Epoch[2] Time cost=40.900
+2024-04-02 07:56:39,941 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0002.params"
+2024-04-02 07:56:40,696 [INFO]  Epoch[2] Validation-cross-entropy=0.002554
+2024-04-02 07:56:40,697 [INFO]  Epoch[2] Validation-Fruits-accuracy=0.000000
+2024-04-02 07:56:58,591 [INFO]  Epoch[3] Batch [0-5708]	Speed: 5104.05 samples/sec	cross-entropy=0.001391	Fruits-accuracy=0.000000
+2024-04-02 07:57:11,326 [INFO]  Epoch[3] Train-cross-entropy=0.001319
+2024-04-02 07:57:11,327 [INFO]  Epoch[3] Train-Fruits-accuracy=0.000000
+2024-04-02 07:57:11,327 [INFO]  Epoch[3] Time cost=30.630
+2024-04-02 07:57:11,329 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0003.params"
+2024-04-02 07:57:12,336 [INFO]  Epoch[3] Validation-cross-entropy=0.000342
+2024-04-02 07:57:12,336 [INFO]  Epoch[3] Validation-Fruits-accuracy=0.000000
+2024-04-02 07:57:33,232 [INFO]  Epoch[4] Batch [0-5708]	Speed: 4370.90 samples/sec	cross-entropy=0.000857	Fruits-accuracy=0.000000
+2024-04-02 07:57:51,276 [INFO]  Epoch[4] Train-cross-entropy=0.000825
+2024-04-02 07:57:51,276 [INFO]  Epoch[4] Train-Fruits-accuracy=0.000000
+2024-04-02 07:57:51,277 [INFO]  Epoch[4] Time cost=38.940
+2024-04-02 07:57:51,279 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0004.params"
+2024-04-02 07:57:51,615 [INFO]  Epoch[4] Validation-cross-entropy=0.003010
+2024-04-02 07:57:51,615 [INFO]  Epoch[4] Validation-Fruits-accuracy=0.000000
+2024-04-02 07:57:51,615 [INFO]  
+========== done (196.66419792175293 s) fit model
+2024-04-02 09:20:09,735 [INFO]  
+========== start: fit model
+2024-04-02 09:20:09,735 [WARNING]  Already bound, ignoring bind()
+2024-04-02 09:20:23,310 [INFO]  Epoch[0] Batch [0-5708]	Speed: 6787.30 samples/sec	cross-entropy=0.095434	Fruits-accuracy=0.000000
+2024-04-02 09:20:34,446 [INFO]  Epoch[0] Train-cross-entropy=0.051634
+2024-04-02 09:20:34,446 [INFO]  Epoch[0] Train-Fruits-accuracy=0.000000
+2024-04-02 09:20:34,446 [INFO]  Epoch[0] Time cost=24.710
+2024-04-02 09:20:34,448 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0000.params"
+2024-04-02 09:20:34,785 [INFO]  Epoch[0] Validation-cross-entropy=0.002051
+2024-04-02 09:20:34,785 [INFO]  Epoch[0] Validation-Fruits-accuracy=0.000000
+2024-04-02 09:20:42,963 [INFO]  Epoch[1] Batch [0-5708]	Speed: 11168.99 samples/sec	cross-entropy=0.003706	Fruits-accuracy=0.000000
+2024-04-02 09:20:57,307 [INFO]  Epoch[1] Train-cross-entropy=0.002889
+2024-04-02 09:20:57,307 [INFO]  Epoch[1] Train-Fruits-accuracy=0.000000
+2024-04-02 09:20:57,307 [INFO]  Epoch[1] Time cost=22.522
+2024-04-02 09:20:57,309 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0001.params"
+2024-04-02 09:20:57,642 [INFO]  Epoch[1] Validation-cross-entropy=0.000391
+2024-04-02 09:20:57,642 [INFO]  Epoch[1] Validation-Fruits-accuracy=0.000000
+2024-04-02 09:21:13,256 [INFO]  Epoch[2] Batch [0-5708]	Speed: 5849.58 samples/sec	cross-entropy=0.001810	Fruits-accuracy=0.000000
+2024-04-02 09:21:39,934 [INFO]  Epoch[2] Train-cross-entropy=0.001658
+2024-04-02 09:21:39,935 [INFO]  Epoch[2] Train-Fruits-accuracy=0.000000
+2024-04-02 09:21:39,935 [INFO]  Epoch[2] Time cost=42.292
+2024-04-02 09:21:39,937 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0002.params"
+2024-04-02 09:21:40,341 [INFO]  Epoch[2] Validation-cross-entropy=0.004574
+2024-04-02 09:21:40,341 [INFO]  Epoch[2] Validation-Fruits-accuracy=0.000000
+2024-04-02 09:21:59,313 [INFO]  Epoch[3] Batch [0-5708]	Speed: 4814.20 samples/sec	cross-entropy=0.001180	Fruits-accuracy=0.000000
+2024-04-02 09:22:13,525 [INFO]  Epoch[3] Train-cross-entropy=0.001094
+2024-04-02 09:22:13,525 [INFO]  Epoch[3] Train-Fruits-accuracy=0.000000
+2024-04-02 09:22:13,525 [INFO]  Epoch[3] Time cost=33.184
+2024-04-02 09:22:13,527 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0003.params"
+2024-04-02 09:22:17,820 [INFO]  Epoch[3] Validation-cross-entropy=0.000057
+2024-04-02 09:22:17,821 [INFO]  Epoch[3] Validation-Fruits-accuracy=0.000000
+2024-04-02 09:22:43,818 [INFO]  Epoch[4] Batch [0-5708]	Speed: 3513.28 samples/sec	cross-entropy=0.000967	Fruits-accuracy=0.000000
+2024-04-02 09:23:04,539 [INFO]  Epoch[4] Train-cross-entropy=0.000889
+2024-04-02 09:23:04,539 [INFO]  Epoch[4] Train-Fruits-accuracy=0.000000
+2024-04-02 09:23:04,539 [INFO]  Epoch[4] Time cost=46.718
+2024-04-02 09:23:04,541 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0004.params"
+2024-04-02 09:23:04,905 [INFO]  Epoch[4] Validation-cross-entropy=0.000000
+2024-04-02 09:23:04,906 [INFO]  Epoch[4] Validation-Fruits-accuracy=0.000000
+2024-04-02 09:23:04,906 [INFO]  
+========== done (175.17105340957642 s) fit model
+2024-04-02 10:42:48,475 [INFO]  
+========== start: fit model
+2024-04-02 10:42:48,475 [WARNING]  Already bound, ignoring bind()
+2024-04-02 10:42:52,069 [INFO]  Epoch[0] Batch [0-5708]	Speed: 25480.20 samples/sec	cross-entropy=0.097983	Fruits-accuracy=3.166404
+2024-04-02 10:42:55,764 [INFO]  Epoch[0] Train-cross-entropy=0.052564
+2024-04-02 10:42:55,764 [INFO]  Epoch[0] Train-Fruits-accuracy=3.202172
+2024-04-02 10:42:55,764 [INFO]  Epoch[0] Time cost=7.288
+2024-04-02 10:42:55,766 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0000.params"
+2024-04-02 10:42:56,001 [INFO]  Epoch[0] Validation-cross-entropy=0.001182
+2024-04-02 10:42:56,001 [INFO]  Epoch[0] Validation-Fruits-accuracy=0.000000
+2024-04-02 10:43:01,079 [INFO]  Epoch[1] Batch [0-5708]	Speed: 17989.45 samples/sec	cross-entropy=0.003444	Fruits-accuracy=3.166404
+2024-04-02 10:43:06,357 [INFO]  Epoch[1] Train-cross-entropy=0.003120
+2024-04-02 10:43:06,357 [INFO]  Epoch[1] Train-Fruits-accuracy=3.202172
+2024-04-02 10:43:06,357 [INFO]  Epoch[1] Time cost=10.356
+2024-04-02 10:43:06,358 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0001.params"
+2024-04-02 10:43:06,629 [INFO]  Epoch[1] Validation-cross-entropy=0.002012
+2024-04-02 10:43:06,630 [INFO]  Epoch[1] Validation-Fruits-accuracy=0.000000
+2024-04-02 10:43:10,853 [INFO]  Epoch[2] Batch [0-5708]	Speed: 21628.41 samples/sec	cross-entropy=0.001930	Fruits-accuracy=3.166404
+2024-04-02 10:43:14,582 [INFO]  Epoch[2] Train-cross-entropy=0.001813
+2024-04-02 10:43:14,582 [INFO]  Epoch[2] Train-Fruits-accuracy=3.202172
+2024-04-02 10:43:14,582 [INFO]  Epoch[2] Time cost=7.952
+2024-04-02 10:43:14,584 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0002.params"
+2024-04-02 10:43:14,805 [INFO]  Epoch[2] Validation-cross-entropy=0.001168
+2024-04-02 10:43:14,805 [INFO]  Epoch[2] Validation-Fruits-accuracy=0.000000
+2024-04-02 10:43:19,749 [INFO]  Epoch[3] Batch [0-5708]	Speed: 18475.21 samples/sec	cross-entropy=0.001286	Fruits-accuracy=3.166404
+2024-04-02 10:43:24,281 [INFO]  Epoch[3] Train-cross-entropy=0.001293
+2024-04-02 10:43:24,282 [INFO]  Epoch[3] Train-Fruits-accuracy=3.202172
+2024-04-02 10:43:24,282 [INFO]  Epoch[3] Time cost=9.476
+2024-04-02 10:43:24,283 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0003.params"
+2024-04-02 10:43:24,724 [INFO]  Epoch[3] Validation-cross-entropy=0.000952
+2024-04-02 10:43:24,725 [INFO]  Epoch[3] Validation-Fruits-accuracy=0.000000
+2024-04-02 10:43:28,067 [INFO]  Epoch[4] Batch [0-5708]	Speed: 27329.87 samples/sec	cross-entropy=0.001381	Fruits-accuracy=3.166404
+2024-04-02 10:43:32,278 [INFO]  Epoch[4] Train-cross-entropy=0.001324
+2024-04-02 10:43:32,278 [INFO]  Epoch[4] Train-Fruits-accuracy=3.202172
+2024-04-02 10:43:32,278 [INFO]  Epoch[4] Time cost=7.554
+2024-04-02 10:43:32,280 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0004.params"
+2024-04-02 10:43:32,524 [INFO]  Epoch[4] Validation-cross-entropy=0.004989
+2024-04-02 10:43:32,524 [INFO]  Epoch[4] Validation-Fruits-accuracy=0.000000
+2024-04-02 10:43:32,524 [INFO]  
+========== done (44.04877281188965 s) fit model
+2024-04-02 11:12:43,935 [INFO]  
+========== start: fit model
+2024-04-02 11:12:43,936 [WARNING]  Already bound, ignoring bind()
+2024-04-02 11:12:48,918 [INFO]  Epoch[0] Batch [0-5708]	Speed: 18359.51 samples/sec	cross-entropy=0.103503	Fruits-accuracy=3.221405
+2024-04-02 11:12:52,881 [INFO]  Epoch[0] Train-cross-entropy=0.055655
+2024-04-02 11:12:52,881 [INFO]  Epoch[0] Train-Fruits-accuracy=3.215137
+2024-04-02 11:12:52,881 [INFO]  Epoch[0] Time cost=8.945
+2024-04-02 11:12:52,883 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0000.params"
+2024-04-02 11:12:53,176 [INFO]  Epoch[0] Validation-cross-entropy=0.003884
+2024-04-02 11:12:53,176 [INFO]  Epoch[0] Validation-Fruits-accuracy=0.000000
+2024-04-02 11:12:57,150 [INFO]  Epoch[1] Batch [0-5708]	Speed: 22990.19 samples/sec	cross-entropy=0.004964	Fruits-accuracy=3.221405
+2024-04-02 11:13:02,328 [INFO]  Epoch[1] Train-cross-entropy=0.004077
+2024-04-02 11:13:02,328 [INFO]  Epoch[1] Train-Fruits-accuracy=3.215137
+2024-04-02 11:13:02,328 [INFO]  Epoch[1] Time cost=9.152
+2024-04-02 11:13:02,330 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0001.params"
+2024-04-02 11:13:02,665 [INFO]  Epoch[1] Validation-cross-entropy=0.006400
+2024-04-02 11:13:02,665 [INFO]  Epoch[1] Validation-Fruits-accuracy=0.000000
+2024-04-02 11:13:06,640 [INFO]  Epoch[2] Batch [0-5708]	Speed: 22980.52 samples/sec	cross-entropy=0.002446	Fruits-accuracy=3.221405
+2024-04-02 11:13:10,738 [INFO]  Epoch[2] Train-cross-entropy=0.001976
+2024-04-02 11:13:10,739 [INFO]  Epoch[2] Train-Fruits-accuracy=3.215137
+2024-04-02 11:13:10,739 [INFO]  Epoch[2] Time cost=8.074
+2024-04-02 11:13:10,740 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0002.params"
+2024-04-02 11:13:10,991 [INFO]  Epoch[2] Validation-cross-entropy=0.000058
+2024-04-02 11:13:10,991 [INFO]  Epoch[2] Validation-Fruits-accuracy=0.000000
+2024-04-02 11:13:15,754 [INFO]  Epoch[3] Batch [0-5708]	Speed: 19178.93 samples/sec	cross-entropy=0.001011	Fruits-accuracy=3.221405
+2024-04-02 11:13:20,327 [INFO]  Epoch[3] Train-cross-entropy=0.000989
+2024-04-02 11:13:20,327 [INFO]  Epoch[3] Train-Fruits-accuracy=3.215137
+2024-04-02 11:13:20,327 [INFO]  Epoch[3] Time cost=9.336
+2024-04-02 11:13:20,328 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0003.params"
+2024-04-02 11:13:20,597 [INFO]  Epoch[3] Validation-cross-entropy=0.000003
+2024-04-02 11:13:20,597 [INFO]  Epoch[3] Validation-Fruits-accuracy=0.000000
+2024-04-02 11:13:24,470 [INFO]  Epoch[4] Batch [0-5708]	Speed: 23588.72 samples/sec	cross-entropy=0.000825	Fruits-accuracy=3.221405
+2024-04-02 11:13:28,670 [INFO]  Epoch[4] Train-cross-entropy=0.000729
+2024-04-02 11:13:28,670 [INFO]  Epoch[4] Train-Fruits-accuracy=3.215137
+2024-04-02 11:13:28,670 [INFO]  Epoch[4] Time cost=8.073
+2024-04-02 11:13:28,671 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0004.params"
+2024-04-02 11:13:28,955 [INFO]  Epoch[4] Validation-cross-entropy=0.003009
+2024-04-02 11:13:28,955 [INFO]  Epoch[4] Validation-Fruits-accuracy=0.000000
+2024-04-02 11:13:28,955 [INFO]  
+========== done (45.01977205276489 s) fit model
+2024-04-02 11:42:57,373 [INFO]  
+========== start: fit model
+2024-04-02 11:42:57,373 [WARNING]  Already bound, ignoring bind()
+2024-04-02 11:43:01,240 [INFO]  Epoch[0] Batch [0-5708]	Speed: 23671.51 samples/sec	cross-entropy=0.111954	Fruits-accuracy=3.216851
+2024-04-02 11:43:06,388 [INFO]  Epoch[0] Train-cross-entropy=0.060350
+2024-04-02 11:43:06,388 [INFO]  Epoch[0] Train-Fruits-accuracy=3.219429
+2024-04-02 11:43:06,388 [INFO]  Epoch[0] Time cost=9.014
+2024-04-02 11:43:06,389 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0000.params"
+2024-04-02 11:43:06,634 [INFO]  Epoch[0] Validation-cross-entropy=0.000976
+2024-04-02 11:43:06,634 [INFO]  Epoch[0] Validation-Fruits-accuracy=0.000000
+2024-04-02 11:43:10,843 [INFO]  Epoch[1] Batch [0-5708]	Speed: 21703.58 samples/sec	cross-entropy=0.003672	Fruits-accuracy=3.216851
+2024-04-02 11:43:14,845 [INFO]  Epoch[1] Train-cross-entropy=0.003112
+2024-04-02 11:43:14,845 [INFO]  Epoch[1] Train-Fruits-accuracy=3.219429
+2024-04-02 11:43:14,845 [INFO]  Epoch[1] Time cost=8.211
+2024-04-02 11:43:14,846 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0001.params"
+2024-04-02 11:43:15,085 [INFO]  Epoch[1] Validation-cross-entropy=0.000113
+2024-04-02 11:43:15,085 [INFO]  Epoch[1] Validation-Fruits-accuracy=0.000000
+2024-04-02 11:43:20,213 [INFO]  Epoch[2] Batch [0-5708]	Speed: 17812.18 samples/sec	cross-entropy=0.001722	Fruits-accuracy=3.216851
+2024-04-02 11:43:24,101 [INFO]  Epoch[2] Train-cross-entropy=0.001599
+2024-04-02 11:43:24,101 [INFO]  Epoch[2] Train-Fruits-accuracy=3.219429
+2024-04-02 11:43:24,101 [INFO]  Epoch[2] Time cost=9.016
+2024-04-02 11:43:24,102 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0002.params"
+2024-04-02 11:43:24,378 [INFO]  Epoch[2] Validation-cross-entropy=0.000125
+2024-04-02 11:43:24,378 [INFO]  Epoch[2] Validation-Fruits-accuracy=0.000000
+2024-04-02 11:43:28,931 [INFO]  Epoch[3] Batch [0-5708]	Speed: 20065.95 samples/sec	cross-entropy=0.001171	Fruits-accuracy=3.216851
+2024-04-02 11:43:33,057 [INFO]  Epoch[3] Train-cross-entropy=0.001042
+2024-04-02 11:43:33,057 [INFO]  Epoch[3] Train-Fruits-accuracy=3.219429
+2024-04-02 11:43:33,057 [INFO]  Epoch[3] Time cost=8.678
+2024-04-02 11:43:33,058 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0003.params"
+2024-04-02 11:43:33,382 [INFO]  Epoch[3] Validation-cross-entropy=0.000385
+2024-04-02 11:43:33,382 [INFO]  Epoch[3] Validation-Fruits-accuracy=0.000000
+2024-04-02 11:43:39,142 [INFO]  Epoch[4] Batch [0-5708]	Speed: 15859.12 samples/sec	cross-entropy=0.000843	Fruits-accuracy=3.216851
+2024-04-02 11:43:43,580 [INFO]  Epoch[4] Train-cross-entropy=0.000915
+2024-04-02 11:43:43,580 [INFO]  Epoch[4] Train-Fruits-accuracy=3.219429
+2024-04-02 11:43:43,580 [INFO]  Epoch[4] Time cost=10.198
+2024-04-02 11:43:43,581 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_Fruits/model-0004.params"
+2024-04-02 11:43:43,830 [INFO]  Epoch[4] Validation-cross-entropy=0.000644
+2024-04-02 11:43:43,830 [INFO]  Epoch[4] Validation-Fruits-accuracy=0.000000
+2024-04-02 11:43:43,830 [INFO]  
+========== done (46.45724153518677 s) fit model

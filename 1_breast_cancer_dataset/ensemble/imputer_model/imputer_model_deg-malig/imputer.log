@@ -1,0 +1,1440 @@
+2024-03-05 06:28:22,192 [INFO]  
+========== start: fit model
+2024-03-05 06:28:22,193 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:28:22,205 [INFO]  Epoch[0] Batch [0-7]	Speed: 13033.38 samples/sec	cross-entropy=12.009587	deg-malig-accuracy=4.000000
+2024-03-05 06:28:22,211 [INFO]  Epoch[0] Train-cross-entropy=9.534098
+2024-03-05 06:28:22,211 [INFO]  Epoch[0] Train-deg-malig-accuracy=3.384615
+2024-03-05 06:28:22,211 [INFO]  Epoch[0] Time cost=0.017
+2024-03-05 06:28:22,213 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0000.params"
+2024-03-05 06:28:22,214 [INFO]  Epoch[0] Validation-cross-entropy=6.496123
+2024-03-05 06:28:22,214 [INFO]  Epoch[0] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:28:22,219 [INFO]  Epoch[1] Batch [0-7]	Speed: 27912.18 samples/sec	cross-entropy=2.542334	deg-malig-accuracy=4.000000
+2024-03-05 06:28:22,222 [INFO]  Epoch[1] Train-cross-entropy=2.023231
+2024-03-05 06:28:22,222 [INFO]  Epoch[1] Train-deg-malig-accuracy=3.384615
+2024-03-05 06:28:22,222 [INFO]  Epoch[1] Time cost=0.008
+2024-03-05 06:28:22,223 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0001.params"
+2024-03-05 06:28:22,224 [INFO]  Epoch[1] Validation-cross-entropy=1.408927
+2024-03-05 06:28:22,224 [INFO]  Epoch[1] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:28:22,229 [INFO]  Epoch[2] Batch [0-7]	Speed: 28470.43 samples/sec	cross-entropy=0.803213	deg-malig-accuracy=4.000000
+2024-03-05 06:28:22,232 [INFO]  Epoch[2] Train-cross-entropy=0.732332
+2024-03-05 06:28:22,232 [INFO]  Epoch[2] Train-deg-malig-accuracy=3.384615
+2024-03-05 06:28:22,232 [INFO]  Epoch[2] Time cost=0.008
+2024-03-05 06:28:22,233 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0002.params"
+2024-03-05 06:28:22,234 [INFO]  Epoch[2] Validation-cross-entropy=0.510770
+2024-03-05 06:28:22,234 [INFO]  Epoch[2] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:28:22,238 [INFO]  Epoch[3] Batch [0-7]	Speed: 29073.03 samples/sec	cross-entropy=0.329895	deg-malig-accuracy=4.000000
+2024-03-05 06:28:22,241 [INFO]  Epoch[3] Train-cross-entropy=0.301703
+2024-03-05 06:28:22,242 [INFO]  Epoch[3] Train-deg-malig-accuracy=3.384615
+2024-03-05 06:28:22,242 [INFO]  Epoch[3] Time cost=0.008
+2024-03-05 06:28:22,243 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0003.params"
+2024-03-05 06:28:22,243 [INFO]  Epoch[3] Validation-cross-entropy=0.247974
+2024-03-05 06:28:22,244 [INFO]  Epoch[3] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:28:22,248 [INFO]  Epoch[4] Batch [0-7]	Speed: 28691.26 samples/sec	cross-entropy=0.229397	deg-malig-accuracy=4.000000
+2024-03-05 06:28:22,251 [INFO]  Epoch[4] Train-cross-entropy=0.202097
+2024-03-05 06:28:22,251 [INFO]  Epoch[4] Train-deg-malig-accuracy=3.384615
+2024-03-05 06:28:22,251 [INFO]  Epoch[4] Time cost=0.008
+2024-03-05 06:28:22,253 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0004.params"
+2024-03-05 06:28:22,253 [INFO]  Epoch[4] Validation-cross-entropy=0.209773
+2024-03-05 06:28:22,253 [INFO]  Epoch[4] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:28:22,253 [INFO]  
+========== done (0.06095767021179199 s) fit model
+2024-03-05 06:28:28,094 [INFO]  
+========== start: fit model
+2024-03-05 06:28:28,094 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:28:28,101 [INFO]  Epoch[0] Batch [0-7]	Speed: 21998.78 samples/sec	cross-entropy=8.710737	deg-malig-accuracy=4.250000
+2024-03-05 06:28:28,105 [INFO]  Epoch[0] Train-cross-entropy=6.893289
+2024-03-05 06:28:28,105 [INFO]  Epoch[0] Train-deg-malig-accuracy=3.538462
+2024-03-05 06:28:28,105 [INFO]  Epoch[0] Time cost=0.010
+2024-03-05 06:28:28,106 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0000.params"
+2024-03-05 06:28:28,107 [INFO]  Epoch[0] Validation-cross-entropy=1.569350
+2024-03-05 06:28:28,107 [INFO]  Epoch[0] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:28:28,112 [INFO]  Epoch[1] Batch [0-7]	Speed: 24011.55 samples/sec	cross-entropy=1.286638	deg-malig-accuracy=4.250000
+2024-03-05 06:28:28,116 [INFO]  Epoch[1] Train-cross-entropy=1.124087
+2024-03-05 06:28:28,116 [INFO]  Epoch[1] Train-deg-malig-accuracy=3.538462
+2024-03-05 06:28:28,116 [INFO]  Epoch[1] Time cost=0.009
+2024-03-05 06:28:28,117 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0001.params"
+2024-03-05 06:28:28,117 [INFO]  Epoch[1] Validation-cross-entropy=0.931688
+2024-03-05 06:28:28,118 [INFO]  Epoch[1] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:28:28,123 [INFO]  Epoch[2] Batch [0-7]	Speed: 24099.01 samples/sec	cross-entropy=0.729562	deg-malig-accuracy=4.250000
+2024-03-05 06:28:28,126 [INFO]  Epoch[2] Train-cross-entropy=0.673915
+2024-03-05 06:28:28,126 [INFO]  Epoch[2] Train-deg-malig-accuracy=3.538462
+2024-03-05 06:28:28,126 [INFO]  Epoch[2] Time cost=0.009
+2024-03-05 06:28:28,128 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0002.params"
+2024-03-05 06:28:28,128 [INFO]  Epoch[2] Validation-cross-entropy=0.615284
+2024-03-05 06:28:28,128 [INFO]  Epoch[2] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:28:28,134 [INFO]  Epoch[3] Batch [0-7]	Speed: 22410.17 samples/sec	cross-entropy=0.346555	deg-malig-accuracy=4.250000
+2024-03-05 06:28:28,137 [INFO]  Epoch[3] Train-cross-entropy=0.274408
+2024-03-05 06:28:28,137 [INFO]  Epoch[3] Train-deg-malig-accuracy=3.538462
+2024-03-05 06:28:28,137 [INFO]  Epoch[3] Time cost=0.009
+2024-03-05 06:28:28,138 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0003.params"
+2024-03-05 06:28:28,139 [INFO]  Epoch[3] Validation-cross-entropy=0.279373
+2024-03-05 06:28:28,139 [INFO]  Epoch[3] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:28:28,146 [INFO]  Epoch[4] Batch [0-7]	Speed: 17798.06 samples/sec	cross-entropy=0.186781	deg-malig-accuracy=4.250000
+2024-03-05 06:28:28,149 [INFO]  Epoch[4] Train-cross-entropy=0.178626
+2024-03-05 06:28:28,149 [INFO]  Epoch[4] Train-deg-malig-accuracy=3.538462
+2024-03-05 06:28:28,149 [INFO]  Epoch[4] Time cost=0.010
+2024-03-05 06:28:28,150 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0004.params"
+2024-03-05 06:28:28,151 [INFO]  Epoch[4] Validation-cross-entropy=0.234023
+2024-03-05 06:28:28,151 [INFO]  Epoch[4] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:28:28,151 [INFO]  
+========== done (0.05749654769897461 s) fit model
+2024-03-05 06:28:32,717 [INFO]  
+========== start: fit model
+2024-03-05 06:28:32,717 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:28:32,725 [INFO]  Epoch[0] Batch [0-7]	Speed: 19103.01 samples/sec	cross-entropy=16.724485	deg-malig-accuracy=3.125000
+2024-03-05 06:28:32,729 [INFO]  Epoch[0] Train-cross-entropy=13.435185
+2024-03-05 06:28:32,729 [INFO]  Epoch[0] Train-deg-malig-accuracy=3.461538
+2024-03-05 06:28:32,729 [INFO]  Epoch[0] Time cost=0.011
+2024-03-05 06:28:32,731 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0000.params"
+2024-03-05 06:28:32,731 [INFO]  Epoch[0] Validation-cross-entropy=6.929561
+2024-03-05 06:28:32,732 [INFO]  Epoch[0] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:28:32,738 [INFO]  Epoch[1] Batch [0-7]	Speed: 20740.05 samples/sec	cross-entropy=3.587259	deg-malig-accuracy=3.125000
+2024-03-05 06:28:32,741 [INFO]  Epoch[1] Train-cross-entropy=2.707891
+2024-03-05 06:28:32,741 [INFO]  Epoch[1] Train-deg-malig-accuracy=3.461538
+2024-03-05 06:28:32,741 [INFO]  Epoch[1] Time cost=0.010
+2024-03-05 06:28:32,743 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0001.params"
+2024-03-05 06:28:32,743 [INFO]  Epoch[1] Validation-cross-entropy=1.153387
+2024-03-05 06:28:32,743 [INFO]  Epoch[1] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:28:32,748 [INFO]  Epoch[2] Batch [0-7]	Speed: 27253.12 samples/sec	cross-entropy=0.710474	deg-malig-accuracy=3.125000
+2024-03-05 06:28:32,751 [INFO]  Epoch[2] Train-cross-entropy=0.679450
+2024-03-05 06:28:32,751 [INFO]  Epoch[2] Train-deg-malig-accuracy=3.461538
+2024-03-05 06:28:32,751 [INFO]  Epoch[2] Time cost=0.008
+2024-03-05 06:28:32,752 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0002.params"
+2024-03-05 06:28:32,753 [INFO]  Epoch[2] Validation-cross-entropy=0.407375
+2024-03-05 06:28:32,753 [INFO]  Epoch[2] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:28:32,760 [INFO]  Epoch[3] Batch [0-7]	Speed: 18487.29 samples/sec	cross-entropy=0.545301	deg-malig-accuracy=3.125000
+2024-03-05 06:28:32,765 [INFO]  Epoch[3] Train-cross-entropy=0.448848
+2024-03-05 06:28:32,765 [INFO]  Epoch[3] Train-deg-malig-accuracy=3.461538
+2024-03-05 06:28:32,765 [INFO]  Epoch[3] Time cost=0.012
+2024-03-05 06:28:32,767 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0003.params"
+2024-03-05 06:28:32,767 [INFO]  Epoch[3] Validation-cross-entropy=0.254442
+2024-03-05 06:28:32,767 [INFO]  Epoch[3] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:28:32,773 [INFO]  Epoch[4] Batch [0-7]	Speed: 25933.65 samples/sec	cross-entropy=0.273993	deg-malig-accuracy=3.125000
+2024-03-05 06:28:32,775 [INFO]  Epoch[4] Train-cross-entropy=0.226300
+2024-03-05 06:28:32,776 [INFO]  Epoch[4] Train-deg-malig-accuracy=3.461538
+2024-03-05 06:28:32,776 [INFO]  Epoch[4] Time cost=0.008
+2024-03-05 06:28:32,777 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0004.params"
+2024-03-05 06:28:32,777 [INFO]  Epoch[4] Validation-cross-entropy=0.260779
+2024-03-05 06:28:32,777 [INFO]  Epoch[4] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:28:32,777 [INFO]  
+========== done (0.06064295768737793 s) fit model
+2024-03-05 06:28:37,224 [INFO]  
+========== start: fit model
+2024-03-05 06:28:37,224 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:28:37,232 [INFO]  Epoch[0] Batch [0-7]	Speed: 22238.31 samples/sec	cross-entropy=20.303950	deg-malig-accuracy=3.750000
+2024-03-05 06:28:37,235 [INFO]  Epoch[0] Train-cross-entropy=17.173380
+2024-03-05 06:28:37,235 [INFO]  Epoch[0] Train-deg-malig-accuracy=3.461538
+2024-03-05 06:28:37,235 [INFO]  Epoch[0] Time cost=0.010
+2024-03-05 06:28:37,236 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0000.params"
+2024-03-05 06:28:37,237 [INFO]  Epoch[0] Validation-cross-entropy=10.245323
+2024-03-05 06:28:37,237 [INFO]  Epoch[0] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:28:37,243 [INFO]  Epoch[1] Batch [0-7]	Speed: 22126.23 samples/sec	cross-entropy=3.853894	deg-malig-accuracy=3.750000
+2024-03-05 06:28:37,247 [INFO]  Epoch[1] Train-cross-entropy=3.015048
+2024-03-05 06:28:37,247 [INFO]  Epoch[1] Train-deg-malig-accuracy=3.461538
+2024-03-05 06:28:37,247 [INFO]  Epoch[1] Time cost=0.010
+2024-03-05 06:28:37,249 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0001.params"
+2024-03-05 06:28:37,250 [INFO]  Epoch[1] Validation-cross-entropy=0.897017
+2024-03-05 06:28:37,250 [INFO]  Epoch[1] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:28:37,256 [INFO]  Epoch[2] Batch [0-7]	Speed: 19366.04 samples/sec	cross-entropy=1.288004	deg-malig-accuracy=3.750000
+2024-03-05 06:28:37,260 [INFO]  Epoch[2] Train-cross-entropy=1.160475
+2024-03-05 06:28:37,260 [INFO]  Epoch[2] Train-deg-malig-accuracy=3.461538
+2024-03-05 06:28:37,260 [INFO]  Epoch[2] Time cost=0.011
+2024-03-05 06:28:37,262 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0002.params"
+2024-03-05 06:28:37,263 [INFO]  Epoch[2] Validation-cross-entropy=0.750198
+2024-03-05 06:28:37,263 [INFO]  Epoch[2] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:28:37,270 [INFO]  Epoch[3] Batch [0-7]	Speed: 19836.25 samples/sec	cross-entropy=0.706551	deg-malig-accuracy=3.750000
+2024-03-05 06:28:37,274 [INFO]  Epoch[3] Train-cross-entropy=0.637478
+2024-03-05 06:28:37,274 [INFO]  Epoch[3] Train-deg-malig-accuracy=3.461538
+2024-03-05 06:28:37,274 [INFO]  Epoch[3] Time cost=0.011
+2024-03-05 06:28:37,275 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0003.params"
+2024-03-05 06:28:37,276 [INFO]  Epoch[3] Validation-cross-entropy=0.799592
+2024-03-05 06:28:37,276 [INFO]  Epoch[3] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:28:37,283 [INFO]  Epoch[4] Batch [0-7]	Speed: 20328.98 samples/sec	cross-entropy=0.348604	deg-malig-accuracy=3.750000
+2024-03-05 06:28:37,287 [INFO]  Epoch[4] Train-cross-entropy=0.345706
+2024-03-05 06:28:37,287 [INFO]  Epoch[4] Train-deg-malig-accuracy=3.461538
+2024-03-05 06:28:37,287 [INFO]  Epoch[4] Time cost=0.010
+2024-03-05 06:28:37,288 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0004.params"
+2024-03-05 06:28:37,289 [INFO]  Epoch[4] Validation-cross-entropy=0.414501
+2024-03-05 06:28:37,289 [INFO]  Epoch[4] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:28:37,289 [INFO]  
+========== done (0.06473922729492188 s) fit model
+2024-03-05 06:28:42,082 [INFO]  
+========== start: fit model
+2024-03-05 06:28:42,082 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:28:42,090 [INFO]  Epoch[0] Batch [0-7]	Speed: 22139.79 samples/sec	cross-entropy=11.447872	deg-malig-accuracy=0.000000
+2024-03-05 06:28:42,094 [INFO]  Epoch[0] Train-cross-entropy=9.021721
+2024-03-05 06:28:42,094 [INFO]  Epoch[0] Train-deg-malig-accuracy=0.000000
+2024-03-05 06:28:42,094 [INFO]  Epoch[0] Time cost=0.011
+2024-03-05 06:28:42,095 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0000.params"
+2024-03-05 06:28:42,096 [INFO]  Epoch[0] Validation-cross-entropy=4.103903
+2024-03-05 06:28:42,097 [INFO]  Epoch[0] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:28:42,105 [INFO]  Epoch[1] Batch [0-7]	Speed: 17482.77 samples/sec	cross-entropy=1.707993	deg-malig-accuracy=0.000000
+2024-03-05 06:28:42,109 [INFO]  Epoch[1] Train-cross-entropy=1.426274
+2024-03-05 06:28:42,109 [INFO]  Epoch[1] Train-deg-malig-accuracy=0.000000
+2024-03-05 06:28:42,109 [INFO]  Epoch[1] Time cost=0.012
+2024-03-05 06:28:42,111 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0001.params"
+2024-03-05 06:28:42,111 [INFO]  Epoch[1] Validation-cross-entropy=0.663573
+2024-03-05 06:28:42,111 [INFO]  Epoch[1] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:28:42,118 [INFO]  Epoch[2] Batch [0-7]	Speed: 20796.05 samples/sec	cross-entropy=0.925844	deg-malig-accuracy=0.000000
+2024-03-05 06:28:42,122 [INFO]  Epoch[2] Train-cross-entropy=0.779196
+2024-03-05 06:28:42,122 [INFO]  Epoch[2] Train-deg-malig-accuracy=0.000000
+2024-03-05 06:28:42,122 [INFO]  Epoch[2] Time cost=0.011
+2024-03-05 06:28:42,123 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0002.params"
+2024-03-05 06:28:42,124 [INFO]  Epoch[2] Validation-cross-entropy=0.554886
+2024-03-05 06:28:42,124 [INFO]  Epoch[2] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:28:42,129 [INFO]  Epoch[3] Batch [0-7]	Speed: 24767.34 samples/sec	cross-entropy=0.358833	deg-malig-accuracy=0.000000
+2024-03-05 06:28:42,133 [INFO]  Epoch[3] Train-cross-entropy=0.316582
+2024-03-05 06:28:42,133 [INFO]  Epoch[3] Train-deg-malig-accuracy=0.000000
+2024-03-05 06:28:42,133 [INFO]  Epoch[3] Time cost=0.009
+2024-03-05 06:28:42,134 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0003.params"
+2024-03-05 06:28:42,135 [INFO]  Epoch[3] Validation-cross-entropy=0.540972
+2024-03-05 06:28:42,135 [INFO]  Epoch[3] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:28:42,146 [INFO]  Epoch[4] Batch [0-7]	Speed: 10876.39 samples/sec	cross-entropy=0.185189	deg-malig-accuracy=0.000000
+2024-03-05 06:28:42,150 [INFO]  Epoch[4] Train-cross-entropy=0.167696
+2024-03-05 06:28:42,150 [INFO]  Epoch[4] Train-deg-malig-accuracy=0.000000
+2024-03-05 06:28:42,150 [INFO]  Epoch[4] Time cost=0.015
+2024-03-05 06:28:42,151 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0004.params"
+2024-03-05 06:28:42,152 [INFO]  Epoch[4] Validation-cross-entropy=0.964854
+2024-03-05 06:28:42,152 [INFO]  Epoch[4] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:28:42,152 [INFO]  
+========== done (0.06982707977294922 s) fit model
+2024-03-05 06:28:47,495 [INFO]  
+========== start: fit model
+2024-03-05 06:28:47,496 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:28:47,502 [INFO]  Epoch[0] Batch [0-7]	Speed: 23603.76 samples/sec	cross-entropy=14.875176	deg-malig-accuracy=3.375000
+2024-03-05 06:28:47,506 [INFO]  Epoch[0] Train-cross-entropy=11.546068
+2024-03-05 06:28:47,506 [INFO]  Epoch[0] Train-deg-malig-accuracy=3.384615
+2024-03-05 06:28:47,506 [INFO]  Epoch[0] Time cost=0.010
+2024-03-05 06:28:47,507 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0000.params"
+2024-03-05 06:28:47,508 [INFO]  Epoch[0] Validation-cross-entropy=2.285985
+2024-03-05 06:28:47,508 [INFO]  Epoch[0] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:28:47,513 [INFO]  Epoch[1] Batch [0-7]	Speed: 24465.50 samples/sec	cross-entropy=2.208643	deg-malig-accuracy=3.375000
+2024-03-05 06:28:47,517 [INFO]  Epoch[1] Train-cross-entropy=2.071210
+2024-03-05 06:28:47,517 [INFO]  Epoch[1] Train-deg-malig-accuracy=3.384615
+2024-03-05 06:28:47,517 [INFO]  Epoch[1] Time cost=0.008
+2024-03-05 06:28:47,518 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0001.params"
+2024-03-05 06:28:47,518 [INFO]  Epoch[1] Validation-cross-entropy=1.591390
+2024-03-05 06:28:47,518 [INFO]  Epoch[1] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:28:47,524 [INFO]  Epoch[2] Batch [0-7]	Speed: 21756.30 samples/sec	cross-entropy=0.850451	deg-malig-accuracy=3.375000
+2024-03-05 06:28:47,529 [INFO]  Epoch[2] Train-cross-entropy=0.782451
+2024-03-05 06:28:47,530 [INFO]  Epoch[2] Train-deg-malig-accuracy=3.384615
+2024-03-05 06:28:47,530 [INFO]  Epoch[2] Time cost=0.011
+2024-03-05 06:28:47,531 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0002.params"
+2024-03-05 06:28:47,532 [INFO]  Epoch[2] Validation-cross-entropy=1.268190
+2024-03-05 06:28:47,532 [INFO]  Epoch[2] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:28:47,537 [INFO]  Epoch[3] Batch [0-7]	Speed: 22986.99 samples/sec	cross-entropy=0.524432	deg-malig-accuracy=3.375000
+2024-03-05 06:28:47,541 [INFO]  Epoch[3] Train-cross-entropy=0.450458
+2024-03-05 06:28:47,541 [INFO]  Epoch[3] Train-deg-malig-accuracy=3.384615
+2024-03-05 06:28:47,541 [INFO]  Epoch[3] Time cost=0.009
+2024-03-05 06:28:47,542 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0003.params"
+2024-03-05 06:28:47,543 [INFO]  Epoch[3] Validation-cross-entropy=0.559623
+2024-03-05 06:28:47,543 [INFO]  Epoch[3] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:28:47,549 [INFO]  Epoch[4] Batch [0-7]	Speed: 21730.13 samples/sec	cross-entropy=0.226087	deg-malig-accuracy=3.375000
+2024-03-05 06:28:47,552 [INFO]  Epoch[4] Train-cross-entropy=0.223835
+2024-03-05 06:28:47,552 [INFO]  Epoch[4] Train-deg-malig-accuracy=3.384615
+2024-03-05 06:28:47,552 [INFO]  Epoch[4] Time cost=0.009
+2024-03-05 06:28:47,554 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0004.params"
+2024-03-05 06:28:47,554 [INFO]  Epoch[4] Validation-cross-entropy=0.435905
+2024-03-05 06:28:47,555 [INFO]  Epoch[4] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:28:47,555 [INFO]  
+========== done (0.05918478965759277 s) fit model
+2024-03-05 06:28:52,763 [INFO]  
+========== start: fit model
+2024-03-05 06:28:52,763 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:28:52,774 [INFO]  Epoch[0] Batch [0-7]	Speed: 14451.10 samples/sec	cross-entropy=16.565856	deg-malig-accuracy=9.250000
+2024-03-05 06:28:52,780 [INFO]  Epoch[0] Train-cross-entropy=13.344932
+2024-03-05 06:28:52,780 [INFO]  Epoch[0] Train-deg-malig-accuracy=9.615385
+2024-03-05 06:28:52,780 [INFO]  Epoch[0] Time cost=0.016
+2024-03-05 06:28:52,790 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0000.params"
+2024-03-05 06:28:52,791 [INFO]  Epoch[0] Validation-cross-entropy=3.388885
+2024-03-05 06:28:52,791 [INFO]  Epoch[0] Validation-deg-malig-accuracy=11.000000
+2024-03-05 06:28:52,798 [INFO]  Epoch[1] Batch [0-7]	Speed: 20089.90 samples/sec	cross-entropy=3.580595	deg-malig-accuracy=9.250000
+2024-03-05 06:28:52,802 [INFO]  Epoch[1] Train-cross-entropy=2.724916
+2024-03-05 06:28:52,802 [INFO]  Epoch[1] Train-deg-malig-accuracy=9.615385
+2024-03-05 06:28:52,802 [INFO]  Epoch[1] Time cost=0.011
+2024-03-05 06:28:52,803 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0001.params"
+2024-03-05 06:28:52,804 [INFO]  Epoch[1] Validation-cross-entropy=0.765718
+2024-03-05 06:28:52,804 [INFO]  Epoch[1] Validation-deg-malig-accuracy=11.000000
+2024-03-05 06:28:52,809 [INFO]  Epoch[2] Batch [0-7]	Speed: 23378.22 samples/sec	cross-entropy=0.765547	deg-malig-accuracy=9.250000
+2024-03-05 06:28:52,813 [INFO]  Epoch[2] Train-cross-entropy=0.672192
+2024-03-05 06:28:52,813 [INFO]  Epoch[2] Train-deg-malig-accuracy=9.615385
+2024-03-05 06:28:52,813 [INFO]  Epoch[2] Time cost=0.009
+2024-03-05 06:28:52,814 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0002.params"
+2024-03-05 06:28:52,816 [INFO]  Epoch[2] Validation-cross-entropy=0.867065
+2024-03-05 06:28:52,816 [INFO]  Epoch[2] Validation-deg-malig-accuracy=11.000000
+2024-03-05 06:28:52,821 [INFO]  Epoch[3] Batch [0-7]	Speed: 25079.39 samples/sec	cross-entropy=0.529911	deg-malig-accuracy=9.250000
+2024-03-05 06:28:52,824 [INFO]  Epoch[3] Train-cross-entropy=0.434818
+2024-03-05 06:28:52,824 [INFO]  Epoch[3] Train-deg-malig-accuracy=9.615385
+2024-03-05 06:28:52,824 [INFO]  Epoch[3] Time cost=0.009
+2024-03-05 06:28:52,826 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0003.params"
+2024-03-05 06:28:52,826 [INFO]  Epoch[3] Validation-cross-entropy=0.454522
+2024-03-05 06:28:52,826 [INFO]  Epoch[3] Validation-deg-malig-accuracy=11.000000
+2024-03-05 06:28:52,832 [INFO]  Epoch[4] Batch [0-7]	Speed: 23501.03 samples/sec	cross-entropy=0.269492	deg-malig-accuracy=9.250000
+2024-03-05 06:28:52,835 [INFO]  Epoch[4] Train-cross-entropy=0.228325
+2024-03-05 06:28:52,835 [INFO]  Epoch[4] Train-deg-malig-accuracy=9.615385
+2024-03-05 06:28:52,835 [INFO]  Epoch[4] Time cost=0.009
+2024-03-05 06:28:52,837 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0004.params"
+2024-03-05 06:28:52,838 [INFO]  Epoch[4] Validation-cross-entropy=0.466107
+2024-03-05 06:28:52,838 [INFO]  Epoch[4] Validation-deg-malig-accuracy=11.000000
+2024-03-05 06:28:52,838 [INFO]  
+========== done (0.07436633110046387 s) fit model
+2024-03-05 06:28:58,295 [INFO]  
+========== start: fit model
+2024-03-05 06:28:58,295 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:28:58,311 [INFO]  Epoch[0] Batch [0-7]	Speed: 9715.46 samples/sec	cross-entropy=22.276359	deg-malig-accuracy=3.625000
+2024-03-05 06:28:58,318 [INFO]  Epoch[0] Train-cross-entropy=17.232555
+2024-03-05 06:28:58,318 [INFO]  Epoch[0] Train-deg-malig-accuracy=3.692308
+2024-03-05 06:28:58,318 [INFO]  Epoch[0] Time cost=0.021
+2024-03-05 06:28:58,320 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0000.params"
+2024-03-05 06:28:58,321 [INFO]  Epoch[0] Validation-cross-entropy=5.126100
+2024-03-05 06:28:58,321 [INFO]  Epoch[0] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:28:58,328 [INFO]  Epoch[1] Batch [0-7]	Speed: 18373.76 samples/sec	cross-entropy=5.123662	deg-malig-accuracy=3.625000
+2024-03-05 06:28:58,332 [INFO]  Epoch[1] Train-cross-entropy=4.048508
+2024-03-05 06:28:58,332 [INFO]  Epoch[1] Train-deg-malig-accuracy=3.692308
+2024-03-05 06:28:58,332 [INFO]  Epoch[1] Time cost=0.011
+2024-03-05 06:28:58,333 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0001.params"
+2024-03-05 06:28:58,338 [INFO]  Epoch[1] Validation-cross-entropy=1.903606
+2024-03-05 06:28:58,338 [INFO]  Epoch[1] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:28:58,343 [INFO]  Epoch[2] Batch [0-7]	Speed: 24915.78 samples/sec	cross-entropy=1.343637	deg-malig-accuracy=3.625000
+2024-03-05 06:28:58,347 [INFO]  Epoch[2] Train-cross-entropy=1.200009
+2024-03-05 06:28:58,347 [INFO]  Epoch[2] Train-deg-malig-accuracy=3.692308
+2024-03-05 06:28:58,347 [INFO]  Epoch[2] Time cost=0.009
+2024-03-05 06:28:58,348 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0002.params"
+2024-03-05 06:28:58,349 [INFO]  Epoch[2] Validation-cross-entropy=0.685763
+2024-03-05 06:28:58,349 [INFO]  Epoch[2] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:28:58,354 [INFO]  Epoch[3] Batch [0-7]	Speed: 24971.40 samples/sec	cross-entropy=0.737297	deg-malig-accuracy=3.625000
+2024-03-05 06:28:58,357 [INFO]  Epoch[3] Train-cross-entropy=0.701179
+2024-03-05 06:28:58,358 [INFO]  Epoch[3] Train-deg-malig-accuracy=3.692308
+2024-03-05 06:28:58,358 [INFO]  Epoch[3] Time cost=0.009
+2024-03-05 06:28:58,359 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0003.params"
+2024-03-05 06:28:58,360 [INFO]  Epoch[3] Validation-cross-entropy=0.563120
+2024-03-05 06:28:58,360 [INFO]  Epoch[3] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:28:58,365 [INFO]  Epoch[4] Batch [0-7]	Speed: 23897.95 samples/sec	cross-entropy=0.416013	deg-malig-accuracy=3.625000
+2024-03-05 06:28:58,369 [INFO]  Epoch[4] Train-cross-entropy=0.396056
+2024-03-05 06:28:58,369 [INFO]  Epoch[4] Train-deg-malig-accuracy=3.692308
+2024-03-05 06:28:58,369 [INFO]  Epoch[4] Time cost=0.009
+2024-03-05 06:28:58,370 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0004.params"
+2024-03-05 06:28:58,371 [INFO]  Epoch[4] Validation-cross-entropy=0.485123
+2024-03-05 06:28:58,371 [INFO]  Epoch[4] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:28:58,371 [INFO]  
+========== done (0.07629156112670898 s) fit model
+2024-03-05 06:29:04,390 [INFO]  
+========== start: fit model
+2024-03-05 06:29:04,390 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:29:04,399 [INFO]  Epoch[0] Batch [0-7]	Speed: 21494.49 samples/sec	cross-entropy=11.178641	deg-malig-accuracy=3.750000
+2024-03-05 06:29:04,402 [INFO]  Epoch[0] Train-cross-entropy=8.542307
+2024-03-05 06:29:04,402 [INFO]  Epoch[0] Train-deg-malig-accuracy=3.307692
+2024-03-05 06:29:04,402 [INFO]  Epoch[0] Time cost=0.011
+2024-03-05 06:29:04,403 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0000.params"
+2024-03-05 06:29:04,404 [INFO]  Epoch[0] Validation-cross-entropy=1.822245
+2024-03-05 06:29:04,404 [INFO]  Epoch[0] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:04,409 [INFO]  Epoch[1] Batch [0-7]	Speed: 27197.90 samples/sec	cross-entropy=1.411623	deg-malig-accuracy=3.750000
+2024-03-05 06:29:04,412 [INFO]  Epoch[1] Train-cross-entropy=1.221429
+2024-03-05 06:29:04,412 [INFO]  Epoch[1] Train-deg-malig-accuracy=3.307692
+2024-03-05 06:29:04,412 [INFO]  Epoch[1] Time cost=0.008
+2024-03-05 06:29:04,413 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0001.params"
+2024-03-05 06:29:04,413 [INFO]  Epoch[1] Validation-cross-entropy=0.968488
+2024-03-05 06:29:04,413 [INFO]  Epoch[1] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:04,420 [INFO]  Epoch[2] Batch [0-7]	Speed: 20149.35 samples/sec	cross-entropy=0.668148	deg-malig-accuracy=3.750000
+2024-03-05 06:29:04,423 [INFO]  Epoch[2] Train-cross-entropy=0.579634
+2024-03-05 06:29:04,423 [INFO]  Epoch[2] Train-deg-malig-accuracy=3.307692
+2024-03-05 06:29:04,423 [INFO]  Epoch[2] Time cost=0.010
+2024-03-05 06:29:04,425 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0002.params"
+2024-03-05 06:29:04,425 [INFO]  Epoch[2] Validation-cross-entropy=0.471226
+2024-03-05 06:29:04,425 [INFO]  Epoch[2] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:04,430 [INFO]  Epoch[3] Batch [0-7]	Speed: 25287.29 samples/sec	cross-entropy=0.392488	deg-malig-accuracy=3.750000
+2024-03-05 06:29:04,434 [INFO]  Epoch[3] Train-cross-entropy=0.335774
+2024-03-05 06:29:04,434 [INFO]  Epoch[3] Train-deg-malig-accuracy=3.307692
+2024-03-05 06:29:04,434 [INFO]  Epoch[3] Time cost=0.009
+2024-03-05 06:29:04,435 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0003.params"
+2024-03-05 06:29:04,435 [INFO]  Epoch[3] Validation-cross-entropy=0.331069
+2024-03-05 06:29:04,435 [INFO]  Epoch[3] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:04,441 [INFO]  Epoch[4] Batch [0-7]	Speed: 24039.82 samples/sec	cross-entropy=0.173102	deg-malig-accuracy=3.750000
+2024-03-05 06:29:04,444 [INFO]  Epoch[4] Train-cross-entropy=0.167518
+2024-03-05 06:29:04,444 [INFO]  Epoch[4] Train-deg-malig-accuracy=3.307692
+2024-03-05 06:29:04,444 [INFO]  Epoch[4] Time cost=0.009
+2024-03-05 06:29:04,446 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0004.params"
+2024-03-05 06:29:04,446 [INFO]  Epoch[4] Validation-cross-entropy=0.374324
+2024-03-05 06:29:04,446 [INFO]  Epoch[4] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:04,446 [INFO]  
+========== done (0.05627155303955078 s) fit model
+2024-03-05 06:29:10,382 [INFO]  
+========== start: fit model
+2024-03-05 06:29:10,382 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:29:10,398 [INFO]  Epoch[0] Batch [0-7]	Speed: 9917.08 samples/sec	cross-entropy=9.411707	deg-malig-accuracy=4.125000
+2024-03-05 06:29:10,404 [INFO]  Epoch[0] Train-cross-entropy=7.001112
+2024-03-05 06:29:10,404 [INFO]  Epoch[0] Train-deg-malig-accuracy=3.538462
+2024-03-05 06:29:10,404 [INFO]  Epoch[0] Time cost=0.021
+2024-03-05 06:29:10,406 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0000.params"
+2024-03-05 06:29:10,407 [INFO]  Epoch[0] Validation-cross-entropy=4.936610
+2024-03-05 06:29:10,407 [INFO]  Epoch[0] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:10,414 [INFO]  Epoch[1] Batch [0-7]	Speed: 18022.02 samples/sec	cross-entropy=1.514921	deg-malig-accuracy=4.125000
+2024-03-05 06:29:10,419 [INFO]  Epoch[1] Train-cross-entropy=1.268098
+2024-03-05 06:29:10,419 [INFO]  Epoch[1] Train-deg-malig-accuracy=3.538462
+2024-03-05 06:29:10,419 [INFO]  Epoch[1] Time cost=0.012
+2024-03-05 06:29:10,420 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0001.params"
+2024-03-05 06:29:10,421 [INFO]  Epoch[1] Validation-cross-entropy=2.855643
+2024-03-05 06:29:10,421 [INFO]  Epoch[1] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:10,426 [INFO]  Epoch[2] Batch [0-7]	Speed: 28394.71 samples/sec	cross-entropy=0.661637	deg-malig-accuracy=4.125000
+2024-03-05 06:29:10,428 [INFO]  Epoch[2] Train-cross-entropy=0.626205
+2024-03-05 06:29:10,429 [INFO]  Epoch[2] Train-deg-malig-accuracy=3.538462
+2024-03-05 06:29:10,429 [INFO]  Epoch[2] Time cost=0.008
+2024-03-05 06:29:10,430 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0002.params"
+2024-03-05 06:29:10,430 [INFO]  Epoch[2] Validation-cross-entropy=1.833548
+2024-03-05 06:29:10,431 [INFO]  Epoch[2] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:10,438 [INFO]  Epoch[3] Batch [0-7]	Speed: 17903.88 samples/sec	cross-entropy=0.294555	deg-malig-accuracy=4.125000
+2024-03-05 06:29:10,442 [INFO]  Epoch[3] Train-cross-entropy=0.264865
+2024-03-05 06:29:10,443 [INFO]  Epoch[3] Train-deg-malig-accuracy=3.538462
+2024-03-05 06:29:10,443 [INFO]  Epoch[3] Time cost=0.012
+2024-03-05 06:29:10,444 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0003.params"
+2024-03-05 06:29:10,445 [INFO]  Epoch[3] Validation-cross-entropy=0.636983
+2024-03-05 06:29:10,445 [INFO]  Epoch[3] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:10,450 [INFO]  Epoch[4] Batch [0-7]	Speed: 26741.17 samples/sec	cross-entropy=0.202786	deg-malig-accuracy=4.125000
+2024-03-05 06:29:10,453 [INFO]  Epoch[4] Train-cross-entropy=0.183647
+2024-03-05 06:29:10,453 [INFO]  Epoch[4] Train-deg-malig-accuracy=3.538462
+2024-03-05 06:29:10,453 [INFO]  Epoch[4] Time cost=0.008
+2024-03-05 06:29:10,462 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0004.params"
+2024-03-05 06:29:10,463 [INFO]  Epoch[4] Validation-cross-entropy=0.843758
+2024-03-05 06:29:10,463 [INFO]  Epoch[4] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:10,463 [INFO]  
+========== done (0.08122944831848145 s) fit model
+2024-03-05 06:29:16,946 [INFO]  
+========== start: fit model
+2024-03-05 06:29:16,946 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:29:16,960 [INFO]  Epoch[0] Batch [0-7]	Speed: 11307.03 samples/sec	cross-entropy=9.918476	deg-malig-accuracy=0.000000
+2024-03-05 06:29:16,968 [INFO]  Epoch[0] Train-cross-entropy=8.330469
+2024-03-05 06:29:16,968 [INFO]  Epoch[0] Train-deg-malig-accuracy=0.000000
+2024-03-05 06:29:16,968 [INFO]  Epoch[0] Time cost=0.021
+2024-03-05 06:29:16,971 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0000.params"
+2024-03-05 06:29:16,971 [INFO]  Epoch[0] Validation-cross-entropy=6.425617
+2024-03-05 06:29:16,971 [INFO]  Epoch[0] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:16,980 [INFO]  Epoch[1] Batch [0-7]	Speed: 16481.72 samples/sec	cross-entropy=1.517531	deg-malig-accuracy=0.000000
+2024-03-05 06:29:16,983 [INFO]  Epoch[1] Train-cross-entropy=1.416980
+2024-03-05 06:29:16,983 [INFO]  Epoch[1] Train-deg-malig-accuracy=0.000000
+2024-03-05 06:29:16,983 [INFO]  Epoch[1] Time cost=0.012
+2024-03-05 06:29:16,985 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0001.params"
+2024-03-05 06:29:16,985 [INFO]  Epoch[1] Validation-cross-entropy=1.206052
+2024-03-05 06:29:16,985 [INFO]  Epoch[1] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:16,992 [INFO]  Epoch[2] Batch [0-7]	Speed: 19966.09 samples/sec	cross-entropy=0.528917	deg-malig-accuracy=0.000000
+2024-03-05 06:29:16,996 [INFO]  Epoch[2] Train-cross-entropy=0.510083
+2024-03-05 06:29:16,996 [INFO]  Epoch[2] Train-deg-malig-accuracy=0.000000
+2024-03-05 06:29:16,996 [INFO]  Epoch[2] Time cost=0.011
+2024-03-05 06:29:16,998 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0002.params"
+2024-03-05 06:29:16,998 [INFO]  Epoch[2] Validation-cross-entropy=0.638290
+2024-03-05 06:29:16,998 [INFO]  Epoch[2] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:17,003 [INFO]  Epoch[3] Batch [0-7]	Speed: 27300.64 samples/sec	cross-entropy=0.382420	deg-malig-accuracy=0.000000
+2024-03-05 06:29:17,006 [INFO]  Epoch[3] Train-cross-entropy=0.324518
+2024-03-05 06:29:17,006 [INFO]  Epoch[3] Train-deg-malig-accuracy=0.000000
+2024-03-05 06:29:17,007 [INFO]  Epoch[3] Time cost=0.008
+2024-03-05 06:29:17,008 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0003.params"
+2024-03-05 06:29:17,008 [INFO]  Epoch[3] Validation-cross-entropy=0.536599
+2024-03-05 06:29:17,008 [INFO]  Epoch[3] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:17,013 [INFO]  Epoch[4] Batch [0-7]	Speed: 26803.72 samples/sec	cross-entropy=0.190735	deg-malig-accuracy=0.000000
+2024-03-05 06:29:17,018 [INFO]  Epoch[4] Train-cross-entropy=0.189952
+2024-03-05 06:29:17,018 [INFO]  Epoch[4] Train-deg-malig-accuracy=0.000000
+2024-03-05 06:29:17,019 [INFO]  Epoch[4] Time cost=0.010
+2024-03-05 06:29:17,021 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0004.params"
+2024-03-05 06:29:17,022 [INFO]  Epoch[4] Validation-cross-entropy=0.852975
+2024-03-05 06:29:17,022 [INFO]  Epoch[4] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:17,022 [INFO]  
+========== done (0.07583498954772949 s) fit model
+2024-03-05 06:29:23,806 [INFO]  
+========== start: fit model
+2024-03-05 06:29:23,806 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:29:23,815 [INFO]  Epoch[0] Batch [0-7]	Speed: 18784.47 samples/sec	cross-entropy=14.489187	deg-malig-accuracy=3.625000
+2024-03-05 06:29:23,818 [INFO]  Epoch[0] Train-cross-entropy=11.431440
+2024-03-05 06:29:23,818 [INFO]  Epoch[0] Train-deg-malig-accuracy=3.461538
+2024-03-05 06:29:23,818 [INFO]  Epoch[0] Time cost=0.011
+2024-03-05 06:29:23,820 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0000.params"
+2024-03-05 06:29:23,820 [INFO]  Epoch[0] Validation-cross-entropy=6.257609
+2024-03-05 06:29:23,820 [INFO]  Epoch[0] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:23,826 [INFO]  Epoch[1] Batch [0-7]	Speed: 23987.03 samples/sec	cross-entropy=2.631738	deg-malig-accuracy=3.625000
+2024-03-05 06:29:23,829 [INFO]  Epoch[1] Train-cross-entropy=2.190941
+2024-03-05 06:29:23,829 [INFO]  Epoch[1] Train-deg-malig-accuracy=3.461538
+2024-03-05 06:29:23,829 [INFO]  Epoch[1] Time cost=0.009
+2024-03-05 06:29:23,830 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0001.params"
+2024-03-05 06:29:23,831 [INFO]  Epoch[1] Validation-cross-entropy=2.653963
+2024-03-05 06:29:23,831 [INFO]  Epoch[1] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:23,836 [INFO]  Epoch[2] Batch [0-7]	Speed: 25852.29 samples/sec	cross-entropy=0.949945	deg-malig-accuracy=3.625000
+2024-03-05 06:29:23,839 [INFO]  Epoch[2] Train-cross-entropy=0.999156
+2024-03-05 06:29:23,840 [INFO]  Epoch[2] Train-deg-malig-accuracy=3.461538
+2024-03-05 06:29:23,840 [INFO]  Epoch[2] Time cost=0.008
+2024-03-05 06:29:23,856 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0002.params"
+2024-03-05 06:29:23,857 [INFO]  Epoch[2] Validation-cross-entropy=2.025666
+2024-03-05 06:29:23,857 [INFO]  Epoch[2] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:23,864 [INFO]  Epoch[3] Batch [0-7]	Speed: 20426.21 samples/sec	cross-entropy=0.680055	deg-malig-accuracy=3.625000
+2024-03-05 06:29:23,869 [INFO]  Epoch[3] Train-cross-entropy=0.600497
+2024-03-05 06:29:23,869 [INFO]  Epoch[3] Train-deg-malig-accuracy=3.461538
+2024-03-05 06:29:23,869 [INFO]  Epoch[3] Time cost=0.011
+2024-03-05 06:29:23,891 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0003.params"
+2024-03-05 06:29:23,892 [INFO]  Epoch[3] Validation-cross-entropy=1.485966
+2024-03-05 06:29:23,892 [INFO]  Epoch[3] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:23,899 [INFO]  Epoch[4] Batch [0-7]	Speed: 21020.32 samples/sec	cross-entropy=0.413841	deg-malig-accuracy=3.625000
+2024-03-05 06:29:23,903 [INFO]  Epoch[4] Train-cross-entropy=0.370161
+2024-03-05 06:29:23,903 [INFO]  Epoch[4] Train-deg-malig-accuracy=3.461538
+2024-03-05 06:29:23,903 [INFO]  Epoch[4] Time cost=0.011
+2024-03-05 06:29:23,905 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0004.params"
+2024-03-05 06:29:23,905 [INFO]  Epoch[4] Validation-cross-entropy=1.496735
+2024-03-05 06:29:23,905 [INFO]  Epoch[4] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:23,905 [INFO]  
+========== done (0.09907031059265137 s) fit model
+2024-03-05 06:29:31,042 [INFO]  
+========== start: fit model
+2024-03-05 06:29:31,042 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:29:31,051 [INFO]  Epoch[0] Batch [0-7]	Speed: 23172.95 samples/sec	cross-entropy=10.913791	deg-malig-accuracy=3.375000
+2024-03-05 06:29:31,054 [INFO]  Epoch[0] Train-cross-entropy=8.532260
+2024-03-05 06:29:31,054 [INFO]  Epoch[0] Train-deg-malig-accuracy=4.076923
+2024-03-05 06:29:31,054 [INFO]  Epoch[0] Time cost=0.012
+2024-03-05 06:29:31,056 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0000.params"
+2024-03-05 06:29:31,056 [INFO]  Epoch[0] Validation-cross-entropy=2.177077
+2024-03-05 06:29:31,056 [INFO]  Epoch[0] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:31,062 [INFO]  Epoch[1] Batch [0-7]	Speed: 26022.71 samples/sec	cross-entropy=2.032277	deg-malig-accuracy=3.375000
+2024-03-05 06:29:31,065 [INFO]  Epoch[1] Train-cross-entropy=1.520150
+2024-03-05 06:29:31,065 [INFO]  Epoch[1] Train-deg-malig-accuracy=4.076923
+2024-03-05 06:29:31,065 [INFO]  Epoch[1] Time cost=0.008
+2024-03-05 06:29:31,066 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0001.params"
+2024-03-05 06:29:31,067 [INFO]  Epoch[1] Validation-cross-entropy=0.311226
+2024-03-05 06:29:31,067 [INFO]  Epoch[1] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:31,073 [INFO]  Epoch[2] Batch [0-7]	Speed: 24039.82 samples/sec	cross-entropy=0.704184	deg-malig-accuracy=3.375000
+2024-03-05 06:29:31,076 [INFO]  Epoch[2] Train-cross-entropy=0.577701
+2024-03-05 06:29:31,076 [INFO]  Epoch[2] Train-deg-malig-accuracy=4.076923
+2024-03-05 06:29:31,076 [INFO]  Epoch[2] Time cost=0.009
+2024-03-05 06:29:31,077 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0002.params"
+2024-03-05 06:29:31,078 [INFO]  Epoch[2] Validation-cross-entropy=0.368431
+2024-03-05 06:29:31,078 [INFO]  Epoch[2] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:31,082 [INFO]  Epoch[3] Batch [0-7]	Speed: 28473.88 samples/sec	cross-entropy=0.337676	deg-malig-accuracy=3.375000
+2024-03-05 06:29:31,086 [INFO]  Epoch[3] Train-cross-entropy=0.275958
+2024-03-05 06:29:31,086 [INFO]  Epoch[3] Train-deg-malig-accuracy=4.076923
+2024-03-05 06:29:31,086 [INFO]  Epoch[3] Time cost=0.008
+2024-03-05 06:29:31,087 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0003.params"
+2024-03-05 06:29:31,088 [INFO]  Epoch[3] Validation-cross-entropy=0.309363
+2024-03-05 06:29:31,088 [INFO]  Epoch[3] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:31,093 [INFO]  Epoch[4] Batch [0-7]	Speed: 24535.78 samples/sec	cross-entropy=0.195174	deg-malig-accuracy=3.375000
+2024-03-05 06:29:31,097 [INFO]  Epoch[4] Train-cross-entropy=0.169632
+2024-03-05 06:29:31,097 [INFO]  Epoch[4] Train-deg-malig-accuracy=4.076923
+2024-03-05 06:29:31,097 [INFO]  Epoch[4] Time cost=0.009
+2024-03-05 06:29:31,098 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0004.params"
+2024-03-05 06:29:31,099 [INFO]  Epoch[4] Validation-cross-entropy=0.207101
+2024-03-05 06:29:31,099 [INFO]  Epoch[4] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:31,099 [INFO]  
+========== done (0.05679154396057129 s) fit model
+2024-03-05 06:29:38,608 [INFO]  
+========== start: fit model
+2024-03-05 06:29:38,608 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:29:38,615 [INFO]  Epoch[0] Batch [0-7]	Speed: 24283.38 samples/sec	cross-entropy=11.027848	deg-malig-accuracy=0.000000
+2024-03-05 06:29:38,619 [INFO]  Epoch[0] Train-cross-entropy=7.988938
+2024-03-05 06:29:38,619 [INFO]  Epoch[0] Train-deg-malig-accuracy=0.000000
+2024-03-05 06:29:38,619 [INFO]  Epoch[0] Time cost=0.010
+2024-03-05 06:29:38,620 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0000.params"
+2024-03-05 06:29:38,621 [INFO]  Epoch[0] Validation-cross-entropy=2.161554
+2024-03-05 06:29:38,621 [INFO]  Epoch[0] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:38,627 [INFO]  Epoch[1] Batch [0-7]	Speed: 23206.15 samples/sec	cross-entropy=1.408975	deg-malig-accuracy=0.000000
+2024-03-05 06:29:38,630 [INFO]  Epoch[1] Train-cross-entropy=1.197730
+2024-03-05 06:29:38,630 [INFO]  Epoch[1] Train-deg-malig-accuracy=0.000000
+2024-03-05 06:29:38,630 [INFO]  Epoch[1] Time cost=0.009
+2024-03-05 06:29:38,631 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0001.params"
+2024-03-05 06:29:38,632 [INFO]  Epoch[1] Validation-cross-entropy=1.438074
+2024-03-05 06:29:38,632 [INFO]  Epoch[1] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:38,638 [INFO]  Epoch[2] Batch [0-7]	Speed: 23991.93 samples/sec	cross-entropy=0.630119	deg-malig-accuracy=0.000000
+2024-03-05 06:29:38,645 [INFO]  Epoch[2] Train-cross-entropy=0.572734
+2024-03-05 06:29:38,645 [INFO]  Epoch[2] Train-deg-malig-accuracy=0.000000
+2024-03-05 06:29:38,646 [INFO]  Epoch[2] Time cost=0.013
+2024-03-05 06:29:38,647 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0002.params"
+2024-03-05 06:29:38,650 [INFO]  Epoch[2] Validation-cross-entropy=1.297249
+2024-03-05 06:29:38,650 [INFO]  Epoch[2] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:38,655 [INFO]  Epoch[3] Batch [0-7]	Speed: 28331.35 samples/sec	cross-entropy=0.275095	deg-malig-accuracy=0.000000
+2024-03-05 06:29:38,658 [INFO]  Epoch[3] Train-cross-entropy=0.253106
+2024-03-05 06:29:38,658 [INFO]  Epoch[3] Train-deg-malig-accuracy=0.000000
+2024-03-05 06:29:38,658 [INFO]  Epoch[3] Time cost=0.008
+2024-03-05 06:29:38,659 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0003.params"
+2024-03-05 06:29:38,660 [INFO]  Epoch[3] Validation-cross-entropy=1.163807
+2024-03-05 06:29:38,660 [INFO]  Epoch[3] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:38,665 [INFO]  Epoch[4] Batch [0-7]	Speed: 25425.53 samples/sec	cross-entropy=0.207381	deg-malig-accuracy=0.000000
+2024-03-05 06:29:38,668 [INFO]  Epoch[4] Train-cross-entropy=0.173517
+2024-03-05 06:29:38,668 [INFO]  Epoch[4] Train-deg-malig-accuracy=0.000000
+2024-03-05 06:29:38,668 [INFO]  Epoch[4] Time cost=0.008
+2024-03-05 06:29:38,670 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0004.params"
+2024-03-05 06:29:38,670 [INFO]  Epoch[4] Validation-cross-entropy=1.523985
+2024-03-05 06:29:38,670 [INFO]  Epoch[4] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:38,670 [INFO]  
+========== done (0.062323808670043945 s) fit model
+2024-03-05 06:29:46,574 [INFO]  
+========== start: fit model
+2024-03-05 06:29:46,574 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:29:46,583 [INFO]  Epoch[0] Batch [0-7]	Speed: 19226.54 samples/sec	cross-entropy=13.682429	deg-malig-accuracy=3.750000
+2024-03-05 06:29:46,587 [INFO]  Epoch[0] Train-cross-entropy=10.847017
+2024-03-05 06:29:46,587 [INFO]  Epoch[0] Train-deg-malig-accuracy=3.384615
+2024-03-05 06:29:46,587 [INFO]  Epoch[0] Time cost=0.012
+2024-03-05 06:29:46,589 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0000.params"
+2024-03-05 06:29:46,589 [INFO]  Epoch[0] Validation-cross-entropy=3.956576
+2024-03-05 06:29:46,589 [INFO]  Epoch[0] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:46,594 [INFO]  Epoch[1] Batch [0-7]	Speed: 28269.97 samples/sec	cross-entropy=2.337963	deg-malig-accuracy=3.750000
+2024-03-05 06:29:46,597 [INFO]  Epoch[1] Train-cross-entropy=1.738308
+2024-03-05 06:29:46,597 [INFO]  Epoch[1] Train-deg-malig-accuracy=3.384615
+2024-03-05 06:29:46,597 [INFO]  Epoch[1] Time cost=0.008
+2024-03-05 06:29:46,599 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0001.params"
+2024-03-05 06:29:46,599 [INFO]  Epoch[1] Validation-cross-entropy=1.358515
+2024-03-05 06:29:46,599 [INFO]  Epoch[1] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:46,604 [INFO]  Epoch[2] Batch [0-7]	Speed: 26697.09 samples/sec	cross-entropy=1.010202	deg-malig-accuracy=3.750000
+2024-03-05 06:29:46,607 [INFO]  Epoch[2] Train-cross-entropy=0.893078
+2024-03-05 06:29:46,607 [INFO]  Epoch[2] Train-deg-malig-accuracy=3.384615
+2024-03-05 06:29:46,608 [INFO]  Epoch[2] Time cost=0.008
+2024-03-05 06:29:46,609 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0002.params"
+2024-03-05 06:29:46,610 [INFO]  Epoch[2] Validation-cross-entropy=1.033513
+2024-03-05 06:29:46,610 [INFO]  Epoch[2] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:46,614 [INFO]  Epoch[3] Batch [0-7]	Speed: 28202.08 samples/sec	cross-entropy=0.532809	deg-malig-accuracy=3.750000
+2024-03-05 06:29:46,617 [INFO]  Epoch[3] Train-cross-entropy=0.423493
+2024-03-05 06:29:46,618 [INFO]  Epoch[3] Train-deg-malig-accuracy=3.384615
+2024-03-05 06:29:46,618 [INFO]  Epoch[3] Time cost=0.008
+2024-03-05 06:29:46,619 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0003.params"
+2024-03-05 06:29:46,620 [INFO]  Epoch[3] Validation-cross-entropy=0.609393
+2024-03-05 06:29:46,620 [INFO]  Epoch[3] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:46,625 [INFO]  Epoch[4] Batch [0-7]	Speed: 25433.79 samples/sec	cross-entropy=0.280964	deg-malig-accuracy=3.750000
+2024-03-05 06:29:46,628 [INFO]  Epoch[4] Train-cross-entropy=0.235205
+2024-03-05 06:29:46,628 [INFO]  Epoch[4] Train-deg-malig-accuracy=3.384615
+2024-03-05 06:29:46,628 [INFO]  Epoch[4] Time cost=0.008
+2024-03-05 06:29:46,629 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0004.params"
+2024-03-05 06:29:46,631 [INFO]  Epoch[4] Validation-cross-entropy=0.270186
+2024-03-05 06:29:46,631 [INFO]  Epoch[4] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:46,631 [INFO]  
+========== done (0.056919097900390625 s) fit model
+2024-03-05 06:29:54,914 [INFO]  
+========== start: fit model
+2024-03-05 06:29:54,914 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:29:54,923 [INFO]  Epoch[0] Batch [0-7]	Speed: 17992.34 samples/sec	cross-entropy=11.915325	deg-malig-accuracy=0.000000
+2024-03-05 06:29:54,927 [INFO]  Epoch[0] Train-cross-entropy=10.100305
+2024-03-05 06:29:54,927 [INFO]  Epoch[0] Train-deg-malig-accuracy=0.000000
+2024-03-05 06:29:54,927 [INFO]  Epoch[0] Time cost=0.012
+2024-03-05 06:29:54,929 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0000.params"
+2024-03-05 06:29:54,929 [INFO]  Epoch[0] Validation-cross-entropy=5.719315
+2024-03-05 06:29:54,929 [INFO]  Epoch[0] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:54,936 [INFO]  Epoch[1] Batch [0-7]	Speed: 20006.90 samples/sec	cross-entropy=2.530995	deg-malig-accuracy=0.000000
+2024-03-05 06:29:54,940 [INFO]  Epoch[1] Train-cross-entropy=2.175373
+2024-03-05 06:29:54,940 [INFO]  Epoch[1] Train-deg-malig-accuracy=0.000000
+2024-03-05 06:29:54,940 [INFO]  Epoch[1] Time cost=0.010
+2024-03-05 06:29:54,941 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0001.params"
+2024-03-05 06:29:54,941 [INFO]  Epoch[1] Validation-cross-entropy=0.807666
+2024-03-05 06:29:54,941 [INFO]  Epoch[1] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:54,947 [INFO]  Epoch[2] Batch [0-7]	Speed: 21544.76 samples/sec	cross-entropy=0.786421	deg-malig-accuracy=0.000000
+2024-03-05 06:29:54,951 [INFO]  Epoch[2] Train-cross-entropy=0.638908
+2024-03-05 06:29:54,951 [INFO]  Epoch[2] Train-deg-malig-accuracy=0.000000
+2024-03-05 06:29:54,951 [INFO]  Epoch[2] Time cost=0.009
+2024-03-05 06:29:54,952 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0002.params"
+2024-03-05 06:29:54,953 [INFO]  Epoch[2] Validation-cross-entropy=0.314689
+2024-03-05 06:29:54,953 [INFO]  Epoch[2] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:54,957 [INFO]  Epoch[3] Batch [0-7]	Speed: 28496.33 samples/sec	cross-entropy=0.426718	deg-malig-accuracy=0.000000
+2024-03-05 06:29:54,960 [INFO]  Epoch[3] Train-cross-entropy=0.354275
+2024-03-05 06:29:54,960 [INFO]  Epoch[3] Train-deg-malig-accuracy=0.000000
+2024-03-05 06:29:54,960 [INFO]  Epoch[3] Time cost=0.008
+2024-03-05 06:29:54,961 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0003.params"
+2024-03-05 06:29:54,962 [INFO]  Epoch[3] Validation-cross-entropy=0.618578
+2024-03-05 06:29:54,962 [INFO]  Epoch[3] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:54,967 [INFO]  Epoch[4] Batch [0-7]	Speed: 28456.63 samples/sec	cross-entropy=0.248731	deg-malig-accuracy=0.000000
+2024-03-05 06:29:54,970 [INFO]  Epoch[4] Train-cross-entropy=0.227568
+2024-03-05 06:29:54,970 [INFO]  Epoch[4] Train-deg-malig-accuracy=0.000000
+2024-03-05 06:29:54,970 [INFO]  Epoch[4] Time cost=0.008
+2024-03-05 06:29:54,972 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0004.params"
+2024-03-05 06:29:54,972 [INFO]  Epoch[4] Validation-cross-entropy=0.411223
+2024-03-05 06:29:54,972 [INFO]  Epoch[4] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:29:54,972 [INFO]  
+========== done (0.05868339538574219 s) fit model
+2024-03-05 06:30:03,707 [INFO]  
+========== start: fit model
+2024-03-05 06:30:03,707 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:30:03,714 [INFO]  Epoch[0] Batch [0-7]	Speed: 25575.02 samples/sec	cross-entropy=14.335153	deg-malig-accuracy=3.125000
+2024-03-05 06:30:03,717 [INFO]  Epoch[0] Train-cross-entropy=10.918842
+2024-03-05 06:30:03,717 [INFO]  Epoch[0] Train-deg-malig-accuracy=3.076923
+2024-03-05 06:30:03,717 [INFO]  Epoch[0] Time cost=0.009
+2024-03-05 06:30:03,718 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0000.params"
+2024-03-05 06:30:03,719 [INFO]  Epoch[0] Validation-cross-entropy=9.535047
+2024-03-05 06:30:03,719 [INFO]  Epoch[0] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:30:03,723 [INFO]  Epoch[1] Batch [0-7]	Speed: 28239.38 samples/sec	cross-entropy=1.979611	deg-malig-accuracy=3.125000
+2024-03-05 06:30:03,726 [INFO]  Epoch[1] Train-cross-entropy=1.525743
+2024-03-05 06:30:03,726 [INFO]  Epoch[1] Train-deg-malig-accuracy=3.076923
+2024-03-05 06:30:03,726 [INFO]  Epoch[1] Time cost=0.008
+2024-03-05 06:30:03,727 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0001.params"
+2024-03-05 06:30:03,728 [INFO]  Epoch[1] Validation-cross-entropy=1.290597
+2024-03-05 06:30:03,728 [INFO]  Epoch[1] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:30:03,733 [INFO]  Epoch[2] Batch [0-7]	Speed: 26443.12 samples/sec	cross-entropy=0.471705	deg-malig-accuracy=3.125000
+2024-03-05 06:30:03,736 [INFO]  Epoch[2] Train-cross-entropy=0.527768
+2024-03-05 06:30:03,736 [INFO]  Epoch[2] Train-deg-malig-accuracy=3.076923
+2024-03-05 06:30:03,736 [INFO]  Epoch[2] Time cost=0.008
+2024-03-05 06:30:03,737 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0002.params"
+2024-03-05 06:30:03,738 [INFO]  Epoch[2] Validation-cross-entropy=1.200948
+2024-03-05 06:30:03,738 [INFO]  Epoch[2] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:30:03,744 [INFO]  Epoch[3] Batch [0-7]	Speed: 22799.56 samples/sec	cross-entropy=0.386491	deg-malig-accuracy=3.125000
+2024-03-05 06:30:03,747 [INFO]  Epoch[3] Train-cross-entropy=0.341295
+2024-03-05 06:30:03,747 [INFO]  Epoch[3] Train-deg-malig-accuracy=3.076923
+2024-03-05 06:30:03,747 [INFO]  Epoch[3] Time cost=0.009
+2024-03-05 06:30:03,748 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0003.params"
+2024-03-05 06:30:03,749 [INFO]  Epoch[3] Validation-cross-entropy=1.887408
+2024-03-05 06:30:03,749 [INFO]  Epoch[3] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:30:03,755 [INFO]  Epoch[4] Batch [0-7]	Speed: 22344.09 samples/sec	cross-entropy=0.168472	deg-malig-accuracy=3.125000
+2024-03-05 06:30:03,758 [INFO]  Epoch[4] Train-cross-entropy=0.168707
+2024-03-05 06:30:03,758 [INFO]  Epoch[4] Train-deg-malig-accuracy=3.076923
+2024-03-05 06:30:03,758 [INFO]  Epoch[4] Time cost=0.009
+2024-03-05 06:30:03,760 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0004.params"
+2024-03-05 06:30:03,760 [INFO]  Epoch[4] Validation-cross-entropy=1.747812
+2024-03-05 06:30:03,761 [INFO]  Epoch[4] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:30:03,761 [INFO]  
+========== done (0.05337381362915039 s) fit model
+2024-03-05 06:30:13,052 [INFO]  
+========== start: fit model
+2024-03-05 06:30:13,052 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:30:13,058 [INFO]  Epoch[0] Batch [0-7]	Speed: 23972.34 samples/sec	cross-entropy=11.319738	deg-malig-accuracy=3.375000
+2024-03-05 06:30:13,062 [INFO]  Epoch[0] Train-cross-entropy=9.731926
+2024-03-05 06:30:13,062 [INFO]  Epoch[0] Train-deg-malig-accuracy=3.461538
+2024-03-05 06:30:13,062 [INFO]  Epoch[0] Time cost=0.010
+2024-03-05 06:30:13,064 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0000.params"
+2024-03-05 06:30:13,064 [INFO]  Epoch[0] Validation-cross-entropy=8.474014
+2024-03-05 06:30:13,065 [INFO]  Epoch[0] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:30:13,069 [INFO]  Epoch[1] Batch [0-7]	Speed: 27373.82 samples/sec	cross-entropy=3.163842	deg-malig-accuracy=3.375000
+2024-03-05 06:30:13,072 [INFO]  Epoch[1] Train-cross-entropy=2.640092
+2024-03-05 06:30:13,073 [INFO]  Epoch[1] Train-deg-malig-accuracy=3.461538
+2024-03-05 06:30:13,073 [INFO]  Epoch[1] Time cost=0.008
+2024-03-05 06:30:13,074 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0001.params"
+2024-03-05 06:30:13,074 [INFO]  Epoch[1] Validation-cross-entropy=0.812806
+2024-03-05 06:30:13,074 [INFO]  Epoch[1] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:30:13,079 [INFO]  Epoch[2] Batch [0-7]	Speed: 26871.18 samples/sec	cross-entropy=0.973359	deg-malig-accuracy=3.375000
+2024-03-05 06:30:13,082 [INFO]  Epoch[2] Train-cross-entropy=0.846790
+2024-03-05 06:30:13,082 [INFO]  Epoch[2] Train-deg-malig-accuracy=3.461538
+2024-03-05 06:30:13,082 [INFO]  Epoch[2] Time cost=0.008
+2024-03-05 06:30:13,084 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0002.params"
+2024-03-05 06:30:13,084 [INFO]  Epoch[2] Validation-cross-entropy=0.572354
+2024-03-05 06:30:13,084 [INFO]  Epoch[2] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:30:13,090 [INFO]  Epoch[3] Batch [0-7]	Speed: 24396.89 samples/sec	cross-entropy=0.686272	deg-malig-accuracy=3.375000
+2024-03-05 06:30:13,093 [INFO]  Epoch[3] Train-cross-entropy=0.570458
+2024-03-05 06:30:13,093 [INFO]  Epoch[3] Train-deg-malig-accuracy=3.461538
+2024-03-05 06:30:13,093 [INFO]  Epoch[3] Time cost=0.009
+2024-03-05 06:30:13,094 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0003.params"
+2024-03-05 06:30:13,095 [INFO]  Epoch[3] Validation-cross-entropy=0.613659
+2024-03-05 06:30:13,095 [INFO]  Epoch[3] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:30:13,100 [INFO]  Epoch[4] Batch [0-7]	Speed: 23273.98 samples/sec	cross-entropy=0.413804	deg-malig-accuracy=3.375000
+2024-03-05 06:30:13,105 [INFO]  Epoch[4] Train-cross-entropy=0.340689
+2024-03-05 06:30:13,105 [INFO]  Epoch[4] Train-deg-malig-accuracy=3.461538
+2024-03-05 06:30:13,105 [INFO]  Epoch[4] Time cost=0.010
+2024-03-05 06:30:13,107 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0004.params"
+2024-03-05 06:30:13,107 [INFO]  Epoch[4] Validation-cross-entropy=0.236404
+2024-03-05 06:30:13,107 [INFO]  Epoch[4] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:30:13,107 [INFO]  
+========== done (0.05593681335449219 s) fit model
+2024-03-05 06:30:24,045 [INFO]  
+========== start: fit model
+2024-03-05 06:30:24,046 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:30:24,054 [INFO]  Epoch[0] Batch [0-7]	Speed: 19948.28 samples/sec	cross-entropy=12.964868	deg-malig-accuracy=0.000000
+2024-03-05 06:30:24,058 [INFO]  Epoch[0] Train-cross-entropy=9.534410
+2024-03-05 06:30:24,059 [INFO]  Epoch[0] Train-deg-malig-accuracy=0.000000
+2024-03-05 06:30:24,059 [INFO]  Epoch[0] Time cost=0.012
+2024-03-05 06:30:24,060 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0000.params"
+2024-03-05 06:30:24,061 [INFO]  Epoch[0] Validation-cross-entropy=3.523143
+2024-03-05 06:30:24,062 [INFO]  Epoch[0] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:30:24,071 [INFO]  Epoch[1] Batch [0-7]	Speed: 12555.11 samples/sec	cross-entropy=2.022338	deg-malig-accuracy=0.000000
+2024-03-05 06:30:24,076 [INFO]  Epoch[1] Train-cross-entropy=1.728412
+2024-03-05 06:30:24,076 [INFO]  Epoch[1] Train-deg-malig-accuracy=0.000000
+2024-03-05 06:30:24,077 [INFO]  Epoch[1] Time cost=0.015
+2024-03-05 06:30:24,078 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0001.params"
+2024-03-05 06:30:24,079 [INFO]  Epoch[1] Validation-cross-entropy=2.433023
+2024-03-05 06:30:24,079 [INFO]  Epoch[1] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:30:24,086 [INFO]  Epoch[2] Batch [0-7]	Speed: 19589.74 samples/sec	cross-entropy=1.004685	deg-malig-accuracy=0.000000
+2024-03-05 06:30:24,091 [INFO]  Epoch[2] Train-cross-entropy=0.958619
+2024-03-05 06:30:24,091 [INFO]  Epoch[2] Train-deg-malig-accuracy=0.000000
+2024-03-05 06:30:24,091 [INFO]  Epoch[2] Time cost=0.012
+2024-03-05 06:30:24,093 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0002.params"
+2024-03-05 06:30:24,094 [INFO]  Epoch[2] Validation-cross-entropy=1.655900
+2024-03-05 06:30:24,094 [INFO]  Epoch[2] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:30:24,100 [INFO]  Epoch[3] Batch [0-7]	Speed: 20618.07 samples/sec	cross-entropy=0.536594	deg-malig-accuracy=0.000000
+2024-03-05 06:30:24,105 [INFO]  Epoch[3] Train-cross-entropy=0.509213
+2024-03-05 06:30:24,105 [INFO]  Epoch[3] Train-deg-malig-accuracy=0.000000
+2024-03-05 06:30:24,105 [INFO]  Epoch[3] Time cost=0.011
+2024-03-05 06:30:24,107 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0003.params"
+2024-03-05 06:30:24,108 [INFO]  Epoch[3] Validation-cross-entropy=1.641777
+2024-03-05 06:30:24,108 [INFO]  Epoch[3] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:30:24,118 [INFO]  Epoch[4] Batch [0-7]	Speed: 12251.25 samples/sec	cross-entropy=0.297876	deg-malig-accuracy=0.000000
+2024-03-05 06:30:24,126 [INFO]  Epoch[4] Train-cross-entropy=0.287160
+2024-03-05 06:30:24,127 [INFO]  Epoch[4] Train-deg-malig-accuracy=0.000000
+2024-03-05 06:30:24,127 [INFO]  Epoch[4] Time cost=0.019
+2024-03-05 06:30:24,128 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0004.params"
+2024-03-05 06:30:24,129 [INFO]  Epoch[4] Validation-cross-entropy=1.281338
+2024-03-05 06:30:24,129 [INFO]  Epoch[4] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:30:24,129 [INFO]  
+========== done (0.0838472843170166 s) fit model
+2024-03-05 06:30:35,635 [INFO]  
+========== start: fit model
+2024-03-05 06:30:35,635 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:30:35,643 [INFO]  Epoch[0] Batch [0-7]	Speed: 21451.30 samples/sec	cross-entropy=12.138206	deg-malig-accuracy=3.625000
+2024-03-05 06:30:35,646 [INFO]  Epoch[0] Train-cross-entropy=9.504627
+2024-03-05 06:30:35,647 [INFO]  Epoch[0] Train-deg-malig-accuracy=3.461538
+2024-03-05 06:30:35,647 [INFO]  Epoch[0] Time cost=0.011
+2024-03-05 06:30:35,648 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0000.params"
+2024-03-05 06:30:35,649 [INFO]  Epoch[0] Validation-cross-entropy=3.618235
+2024-03-05 06:30:35,649 [INFO]  Epoch[0] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:30:35,657 [INFO]  Epoch[1] Batch [0-7]	Speed: 17245.30 samples/sec	cross-entropy=1.683521	deg-malig-accuracy=3.625000
+2024-03-05 06:30:35,660 [INFO]  Epoch[1] Train-cross-entropy=1.463331
+2024-03-05 06:30:35,661 [INFO]  Epoch[1] Train-deg-malig-accuracy=3.461538
+2024-03-05 06:30:35,661 [INFO]  Epoch[1] Time cost=0.011
+2024-03-05 06:30:35,662 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0001.params"
+2024-03-05 06:30:35,663 [INFO]  Epoch[1] Validation-cross-entropy=0.450550
+2024-03-05 06:30:35,663 [INFO]  Epoch[1] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:30:35,668 [INFO]  Epoch[2] Batch [0-7]	Speed: 25504.21 samples/sec	cross-entropy=0.485141	deg-malig-accuracy=3.625000
+2024-03-05 06:30:35,672 [INFO]  Epoch[2] Train-cross-entropy=0.545348
+2024-03-05 06:30:35,672 [INFO]  Epoch[2] Train-deg-malig-accuracy=3.461538
+2024-03-05 06:30:35,673 [INFO]  Epoch[2] Time cost=0.010
+2024-03-05 06:30:35,674 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0002.params"
+2024-03-05 06:30:35,674 [INFO]  Epoch[2] Validation-cross-entropy=0.839256
+2024-03-05 06:30:35,674 [INFO]  Epoch[2] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:30:35,679 [INFO]  Epoch[3] Batch [0-7]	Speed: 27860.87 samples/sec	cross-entropy=0.286332	deg-malig-accuracy=3.625000
+2024-03-05 06:30:35,682 [INFO]  Epoch[3] Train-cross-entropy=0.286748
+2024-03-05 06:30:35,682 [INFO]  Epoch[3] Train-deg-malig-accuracy=3.461538
+2024-03-05 06:30:35,682 [INFO]  Epoch[3] Time cost=0.008
+2024-03-05 06:30:35,684 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0003.params"
+2024-03-05 06:30:35,684 [INFO]  Epoch[3] Validation-cross-entropy=0.233220
+2024-03-05 06:30:35,684 [INFO]  Epoch[3] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:30:35,689 [INFO]  Epoch[4] Batch [0-7]	Speed: 27893.95 samples/sec	cross-entropy=0.147801	deg-malig-accuracy=3.625000
+2024-03-05 06:30:35,693 [INFO]  Epoch[4] Train-cross-entropy=0.154285
+2024-03-05 06:30:35,693 [INFO]  Epoch[4] Train-deg-malig-accuracy=3.461538
+2024-03-05 06:30:35,693 [INFO]  Epoch[4] Time cost=0.009
+2024-03-05 06:30:35,696 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0004.params"
+2024-03-05 06:30:35,697 [INFO]  Epoch[4] Validation-cross-entropy=0.155829
+2024-03-05 06:30:35,698 [INFO]  Epoch[4] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:30:35,698 [INFO]  
+========== done (0.06266164779663086 s) fit model
+2024-03-05 06:30:46,244 [INFO]  
+========== start: fit model
+2024-03-05 06:30:46,245 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:30:46,252 [INFO]  Epoch[0] Batch [0-7]	Speed: 20142.44 samples/sec	cross-entropy=8.441766	deg-malig-accuracy=4.125000
+2024-03-05 06:30:46,256 [INFO]  Epoch[0] Train-cross-entropy=6.804536
+2024-03-05 06:30:46,256 [INFO]  Epoch[0] Train-deg-malig-accuracy=3.615385
+2024-03-05 06:30:46,256 [INFO]  Epoch[0] Time cost=0.011
+2024-03-05 06:30:46,258 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0000.params"
+2024-03-05 06:30:46,261 [INFO]  Epoch[0] Validation-cross-entropy=1.956848
+2024-03-05 06:30:46,261 [INFO]  Epoch[0] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:30:46,267 [INFO]  Epoch[1] Batch [0-7]	Speed: 19203.75 samples/sec	cross-entropy=1.934720	deg-malig-accuracy=4.125000
+2024-03-05 06:30:46,271 [INFO]  Epoch[1] Train-cross-entropy=1.460953
+2024-03-05 06:30:46,271 [INFO]  Epoch[1] Train-deg-malig-accuracy=3.615385
+2024-03-05 06:30:46,271 [INFO]  Epoch[1] Time cost=0.011
+2024-03-05 06:30:46,273 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0001.params"
+2024-03-05 06:30:46,273 [INFO]  Epoch[1] Validation-cross-entropy=2.327762
+2024-03-05 06:30:46,274 [INFO]  Epoch[1] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:30:46,278 [INFO]  Epoch[2] Batch [0-7]	Speed: 26588.30 samples/sec	cross-entropy=0.889853	deg-malig-accuracy=4.125000
+2024-03-05 06:30:46,282 [INFO]  Epoch[2] Train-cross-entropy=0.772089
+2024-03-05 06:30:46,282 [INFO]  Epoch[2] Train-deg-malig-accuracy=3.615385
+2024-03-05 06:30:46,282 [INFO]  Epoch[2] Time cost=0.008
+2024-03-05 06:30:46,283 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0002.params"
+2024-03-05 06:30:46,284 [INFO]  Epoch[2] Validation-cross-entropy=0.365134
+2024-03-05 06:30:46,284 [INFO]  Epoch[2] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:30:46,289 [INFO]  Epoch[3] Batch [0-7]	Speed: 24253.29 samples/sec	cross-entropy=0.441986	deg-malig-accuracy=4.125000
+2024-03-05 06:30:46,292 [INFO]  Epoch[3] Train-cross-entropy=0.410257
+2024-03-05 06:30:46,292 [INFO]  Epoch[3] Train-deg-malig-accuracy=3.615385
+2024-03-05 06:30:46,292 [INFO]  Epoch[3] Time cost=0.009
+2024-03-05 06:30:46,293 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0003.params"
+2024-03-05 06:30:46,294 [INFO]  Epoch[3] Validation-cross-entropy=0.435539
+2024-03-05 06:30:46,294 [INFO]  Epoch[3] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:30:46,300 [INFO]  Epoch[4] Batch [0-7]	Speed: 23405.01 samples/sec	cross-entropy=0.275166	deg-malig-accuracy=4.125000
+2024-03-05 06:30:46,307 [INFO]  Epoch[4] Train-cross-entropy=0.248900
+2024-03-05 06:30:46,307 [INFO]  Epoch[4] Train-deg-malig-accuracy=3.615385
+2024-03-05 06:30:46,307 [INFO]  Epoch[4] Time cost=0.013
+2024-03-05 06:30:46,308 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0004.params"
+2024-03-05 06:30:46,309 [INFO]  Epoch[4] Validation-cross-entropy=0.292463
+2024-03-05 06:30:46,309 [INFO]  Epoch[4] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:30:46,309 [INFO]  
+========== done (0.06429505348205566 s) fit model
+2024-03-05 06:30:57,135 [INFO]  
+========== start: fit model
+2024-03-05 06:30:57,136 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:30:57,143 [INFO]  Epoch[0] Batch [0-7]	Speed: 22274.16 samples/sec	cross-entropy=12.047605	deg-malig-accuracy=3.500000
+2024-03-05 06:30:57,147 [INFO]  Epoch[0] Train-cross-entropy=9.214353
+2024-03-05 06:30:57,147 [INFO]  Epoch[0] Train-deg-malig-accuracy=3.153846
+2024-03-05 06:30:57,147 [INFO]  Epoch[0] Time cost=0.011
+2024-03-05 06:30:57,148 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0000.params"
+2024-03-05 06:30:57,150 [INFO]  Epoch[0] Validation-cross-entropy=1.658348
+2024-03-05 06:30:57,150 [INFO]  Epoch[0] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:30:57,155 [INFO]  Epoch[1] Batch [0-7]	Speed: 25176.16 samples/sec	cross-entropy=1.825055	deg-malig-accuracy=3.500000
+2024-03-05 06:30:57,158 [INFO]  Epoch[1] Train-cross-entropy=1.388584
+2024-03-05 06:30:57,158 [INFO]  Epoch[1] Train-deg-malig-accuracy=3.153846
+2024-03-05 06:30:57,159 [INFO]  Epoch[1] Time cost=0.009
+2024-03-05 06:30:57,160 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0001.params"
+2024-03-05 06:30:57,160 [INFO]  Epoch[1] Validation-cross-entropy=0.264051
+2024-03-05 06:30:57,160 [INFO]  Epoch[1] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:30:57,165 [INFO]  Epoch[2] Batch [0-7]	Speed: 26357.07 samples/sec	cross-entropy=0.642188	deg-malig-accuracy=3.500000
+2024-03-05 06:30:57,169 [INFO]  Epoch[2] Train-cross-entropy=0.620660
+2024-03-05 06:30:57,169 [INFO]  Epoch[2] Train-deg-malig-accuracy=3.153846
+2024-03-05 06:30:57,169 [INFO]  Epoch[2] Time cost=0.008
+2024-03-05 06:30:57,170 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0002.params"
+2024-03-05 06:30:57,170 [INFO]  Epoch[2] Validation-cross-entropy=0.147796
+2024-03-05 06:30:57,170 [INFO]  Epoch[2] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:30:57,176 [INFO]  Epoch[3] Batch [0-7]	Speed: 24549.88 samples/sec	cross-entropy=0.373635	deg-malig-accuracy=3.500000
+2024-03-05 06:30:57,179 [INFO]  Epoch[3] Train-cross-entropy=0.330433
+2024-03-05 06:30:57,179 [INFO]  Epoch[3] Train-deg-malig-accuracy=3.153846
+2024-03-05 06:30:57,179 [INFO]  Epoch[3] Time cost=0.009
+2024-03-05 06:30:57,181 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0003.params"
+2024-03-05 06:30:57,181 [INFO]  Epoch[3] Validation-cross-entropy=0.124703
+2024-03-05 06:30:57,181 [INFO]  Epoch[3] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:30:57,187 [INFO]  Epoch[4] Batch [0-7]	Speed: 24531.94 samples/sec	cross-entropy=0.184470	deg-malig-accuracy=3.500000
+2024-03-05 06:30:57,190 [INFO]  Epoch[4] Train-cross-entropy=0.184965
+2024-03-05 06:30:57,191 [INFO]  Epoch[4] Train-deg-malig-accuracy=3.153846
+2024-03-05 06:30:57,191 [INFO]  Epoch[4] Time cost=0.009
+2024-03-05 06:30:57,192 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0004.params"
+2024-03-05 06:30:57,192 [INFO]  Epoch[4] Validation-cross-entropy=0.139755
+2024-03-05 06:30:57,193 [INFO]  Epoch[4] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:30:57,193 [INFO]  
+========== done (0.05728030204772949 s) fit model
+2024-03-05 06:31:08,942 [INFO]  
+========== start: fit model
+2024-03-05 06:31:08,942 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:31:08,949 [INFO]  Epoch[0] Batch [0-7]	Speed: 24070.61 samples/sec	cross-entropy=10.852293	deg-malig-accuracy=3.750000
+2024-03-05 06:31:08,952 [INFO]  Epoch[0] Train-cross-entropy=8.017217
+2024-03-05 06:31:08,952 [INFO]  Epoch[0] Train-deg-malig-accuracy=3.538462
+2024-03-05 06:31:08,952 [INFO]  Epoch[0] Time cost=0.009
+2024-03-05 06:31:08,953 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0000.params"
+2024-03-05 06:31:08,954 [INFO]  Epoch[0] Validation-cross-entropy=3.567129
+2024-03-05 06:31:08,954 [INFO]  Epoch[0] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:31:08,959 [INFO]  Epoch[1] Batch [0-7]	Speed: 25391.17 samples/sec	cross-entropy=1.341643	deg-malig-accuracy=3.750000
+2024-03-05 06:31:08,962 [INFO]  Epoch[1] Train-cross-entropy=1.218301
+2024-03-05 06:31:08,962 [INFO]  Epoch[1] Train-deg-malig-accuracy=3.538462
+2024-03-05 06:31:08,962 [INFO]  Epoch[1] Time cost=0.008
+2024-03-05 06:31:08,964 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0001.params"
+2024-03-05 06:31:08,964 [INFO]  Epoch[1] Validation-cross-entropy=0.810710
+2024-03-05 06:31:08,964 [INFO]  Epoch[1] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:31:08,969 [INFO]  Epoch[2] Batch [0-7]	Speed: 25396.66 samples/sec	cross-entropy=0.736637	deg-malig-accuracy=3.750000
+2024-03-05 06:31:08,973 [INFO]  Epoch[2] Train-cross-entropy=0.641076
+2024-03-05 06:31:08,973 [INFO]  Epoch[2] Train-deg-malig-accuracy=3.538462
+2024-03-05 06:31:08,973 [INFO]  Epoch[2] Time cost=0.009
+2024-03-05 06:31:08,974 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0002.params"
+2024-03-05 06:31:08,974 [INFO]  Epoch[2] Validation-cross-entropy=0.692983
+2024-03-05 06:31:08,974 [INFO]  Epoch[2] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:31:08,980 [INFO]  Epoch[3] Batch [0-7]	Speed: 21972.03 samples/sec	cross-entropy=0.265239	deg-malig-accuracy=3.750000
+2024-03-05 06:31:08,985 [INFO]  Epoch[3] Train-cross-entropy=0.262508
+2024-03-05 06:31:08,985 [INFO]  Epoch[3] Train-deg-malig-accuracy=3.538462
+2024-03-05 06:31:08,985 [INFO]  Epoch[3] Time cost=0.010
+2024-03-05 06:31:08,986 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0003.params"
+2024-03-05 06:31:08,987 [INFO]  Epoch[3] Validation-cross-entropy=0.641449
+2024-03-05 06:31:08,987 [INFO]  Epoch[3] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:31:08,992 [INFO]  Epoch[4] Batch [0-7]	Speed: 26392.61 samples/sec	cross-entropy=0.191810	deg-malig-accuracy=3.750000
+2024-03-05 06:31:08,995 [INFO]  Epoch[4] Train-cross-entropy=0.174484
+2024-03-05 06:31:08,995 [INFO]  Epoch[4] Train-deg-malig-accuracy=3.538462
+2024-03-05 06:31:08,995 [INFO]  Epoch[4] Time cost=0.008
+2024-03-05 06:31:08,996 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0004.params"
+2024-03-05 06:31:08,997 [INFO]  Epoch[4] Validation-cross-entropy=0.403613
+2024-03-05 06:31:08,997 [INFO]  Epoch[4] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:31:08,997 [INFO]  
+========== done (0.054669857025146484 s) fit model
+2024-03-05 06:31:21,383 [INFO]  
+========== start: fit model
+2024-03-05 06:31:21,383 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:31:21,390 [INFO]  Epoch[0] Batch [0-7]	Speed: 25295.46 samples/sec	cross-entropy=15.827959	deg-malig-accuracy=4.000000
+2024-03-05 06:31:21,394 [INFO]  Epoch[0] Train-cross-entropy=13.139907
+2024-03-05 06:31:21,394 [INFO]  Epoch[0] Train-deg-malig-accuracy=3.538462
+2024-03-05 06:31:21,394 [INFO]  Epoch[0] Time cost=0.010
+2024-03-05 06:31:21,395 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0000.params"
+2024-03-05 06:31:21,396 [INFO]  Epoch[0] Validation-cross-entropy=5.949437
+2024-03-05 06:31:21,396 [INFO]  Epoch[0] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:31:21,402 [INFO]  Epoch[1] Batch [0-7]	Speed: 23009.50 samples/sec	cross-entropy=3.092218	deg-malig-accuracy=4.000000
+2024-03-05 06:31:21,405 [INFO]  Epoch[1] Train-cross-entropy=2.468802
+2024-03-05 06:31:21,405 [INFO]  Epoch[1] Train-deg-malig-accuracy=3.538462
+2024-03-05 06:31:21,405 [INFO]  Epoch[1] Time cost=0.009
+2024-03-05 06:31:21,407 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0001.params"
+2024-03-05 06:31:21,407 [INFO]  Epoch[1] Validation-cross-entropy=1.061848
+2024-03-05 06:31:21,407 [INFO]  Epoch[1] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:31:21,412 [INFO]  Epoch[2] Batch [0-7]	Speed: 25910.76 samples/sec	cross-entropy=0.827993	deg-malig-accuracy=4.000000
+2024-03-05 06:31:21,416 [INFO]  Epoch[2] Train-cross-entropy=0.734463
+2024-03-05 06:31:21,416 [INFO]  Epoch[2] Train-deg-malig-accuracy=3.538462
+2024-03-05 06:31:21,416 [INFO]  Epoch[2] Time cost=0.009
+2024-03-05 06:31:21,418 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0002.params"
+2024-03-05 06:31:21,418 [INFO]  Epoch[2] Validation-cross-entropy=0.722564
+2024-03-05 06:31:21,418 [INFO]  Epoch[2] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:31:21,424 [INFO]  Epoch[3] Batch [0-7]	Speed: 22701.50 samples/sec	cross-entropy=0.638229	deg-malig-accuracy=4.000000
+2024-03-05 06:31:21,428 [INFO]  Epoch[3] Train-cross-entropy=0.544804
+2024-03-05 06:31:21,428 [INFO]  Epoch[3] Train-deg-malig-accuracy=3.538462
+2024-03-05 06:31:21,428 [INFO]  Epoch[3] Time cost=0.010
+2024-03-05 06:31:21,429 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0003.params"
+2024-03-05 06:31:21,430 [INFO]  Epoch[3] Validation-cross-entropy=0.465981
+2024-03-05 06:31:21,430 [INFO]  Epoch[3] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:31:21,435 [INFO]  Epoch[4] Batch [0-7]	Speed: 25403.53 samples/sec	cross-entropy=0.318469	deg-malig-accuracy=4.000000
+2024-03-05 06:31:21,438 [INFO]  Epoch[4] Train-cross-entropy=0.294635
+2024-03-05 06:31:21,439 [INFO]  Epoch[4] Train-deg-malig-accuracy=3.538462
+2024-03-05 06:31:21,439 [INFO]  Epoch[4] Time cost=0.009
+2024-03-05 06:31:21,440 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0004.params"
+2024-03-05 06:31:21,440 [INFO]  Epoch[4] Validation-cross-entropy=0.363267
+2024-03-05 06:31:21,440 [INFO]  Epoch[4] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:31:21,440 [INFO]  
+========== done (0.05756783485412598 s) fit model
+2024-03-05 06:31:33,881 [INFO]  
+========== start: fit model
+2024-03-05 06:31:33,881 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:31:33,888 [INFO]  Epoch[0] Batch [0-7]	Speed: 21517.13 samples/sec	cross-entropy=13.580242	deg-malig-accuracy=3.375000
+2024-03-05 06:31:33,894 [INFO]  Epoch[0] Train-cross-entropy=11.174996
+2024-03-05 06:31:33,894 [INFO]  Epoch[0] Train-deg-malig-accuracy=3.230769
+2024-03-05 06:31:33,894 [INFO]  Epoch[0] Time cost=0.013
+2024-03-05 06:31:33,896 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0000.params"
+2024-03-05 06:31:33,897 [INFO]  Epoch[0] Validation-cross-entropy=6.900300
+2024-03-05 06:31:33,897 [INFO]  Epoch[0] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:31:33,902 [INFO]  Epoch[1] Batch [0-7]	Speed: 24592.30 samples/sec	cross-entropy=2.042267	deg-malig-accuracy=3.375000
+2024-03-05 06:31:33,906 [INFO]  Epoch[1] Train-cross-entropy=1.526318
+2024-03-05 06:31:33,906 [INFO]  Epoch[1] Train-deg-malig-accuracy=3.230769
+2024-03-05 06:31:33,906 [INFO]  Epoch[1] Time cost=0.010
+2024-03-05 06:31:33,908 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0001.params"
+2024-03-05 06:31:33,908 [INFO]  Epoch[1] Validation-cross-entropy=0.538629
+2024-03-05 06:31:33,908 [INFO]  Epoch[1] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:31:33,914 [INFO]  Epoch[2] Batch [0-7]	Speed: 23944.24 samples/sec	cross-entropy=0.755123	deg-malig-accuracy=3.375000
+2024-03-05 06:31:33,917 [INFO]  Epoch[2] Train-cross-entropy=0.765604
+2024-03-05 06:31:33,917 [INFO]  Epoch[2] Train-deg-malig-accuracy=3.230769
+2024-03-05 06:31:33,917 [INFO]  Epoch[2] Time cost=0.009
+2024-03-05 06:31:33,918 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0002.params"
+2024-03-05 06:31:33,919 [INFO]  Epoch[2] Validation-cross-entropy=0.896501
+2024-03-05 06:31:33,919 [INFO]  Epoch[2] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:31:33,929 [INFO]  Epoch[3] Batch [0-7]	Speed: 12894.57 samples/sec	cross-entropy=0.477427	deg-malig-accuracy=3.375000
+2024-03-05 06:31:33,932 [INFO]  Epoch[3] Train-cross-entropy=0.380918
+2024-03-05 06:31:33,932 [INFO]  Epoch[3] Train-deg-malig-accuracy=3.230769
+2024-03-05 06:31:33,932 [INFO]  Epoch[3] Time cost=0.013
+2024-03-05 06:31:33,933 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0003.params"
+2024-03-05 06:31:33,934 [INFO]  Epoch[3] Validation-cross-entropy=0.236536
+2024-03-05 06:31:33,934 [INFO]  Epoch[3] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:31:33,939 [INFO]  Epoch[4] Batch [0-7]	Speed: 25224.83 samples/sec	cross-entropy=0.288457	deg-malig-accuracy=3.375000
+2024-03-05 06:31:33,943 [INFO]  Epoch[4] Train-cross-entropy=0.247417
+2024-03-05 06:31:33,943 [INFO]  Epoch[4] Train-deg-malig-accuracy=3.230769
+2024-03-05 06:31:33,943 [INFO]  Epoch[4] Time cost=0.009
+2024-03-05 06:31:33,945 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0004.params"
+2024-03-05 06:31:33,945 [INFO]  Epoch[4] Validation-cross-entropy=0.242710
+2024-03-05 06:31:33,945 [INFO]  Epoch[4] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:31:33,945 [INFO]  
+========== done (0.0647881031036377 s) fit model
+2024-03-05 06:31:47,213 [INFO]  
+========== start: fit model
+2024-03-05 06:31:47,213 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:31:47,228 [INFO]  Epoch[0] Batch [0-7]	Speed: 8977.95 samples/sec	cross-entropy=12.277964	deg-malig-accuracy=4.000000
+2024-03-05 06:31:47,234 [INFO]  Epoch[0] Train-cross-entropy=9.303510
+2024-03-05 06:31:47,234 [INFO]  Epoch[0] Train-deg-malig-accuracy=3.461538
+2024-03-05 06:31:47,234 [INFO]  Epoch[0] Time cost=0.020
+2024-03-05 06:31:47,237 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0000.params"
+2024-03-05 06:31:47,238 [INFO]  Epoch[0] Validation-cross-entropy=1.650816
+2024-03-05 06:31:47,238 [INFO]  Epoch[0] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:31:47,244 [INFO]  Epoch[1] Batch [0-7]	Speed: 21267.75 samples/sec	cross-entropy=1.471942	deg-malig-accuracy=4.000000
+2024-03-05 06:31:47,248 [INFO]  Epoch[1] Train-cross-entropy=1.255439
+2024-03-05 06:31:47,248 [INFO]  Epoch[1] Train-deg-malig-accuracy=3.461538
+2024-03-05 06:31:47,248 [INFO]  Epoch[1] Time cost=0.010
+2024-03-05 06:31:47,249 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0001.params"
+2024-03-05 06:31:47,250 [INFO]  Epoch[1] Validation-cross-entropy=3.305590
+2024-03-05 06:31:47,250 [INFO]  Epoch[1] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:31:47,255 [INFO]  Epoch[2] Batch [0-7]	Speed: 25172.12 samples/sec	cross-entropy=0.658346	deg-malig-accuracy=4.000000
+2024-03-05 06:31:47,258 [INFO]  Epoch[2] Train-cross-entropy=0.610720
+2024-03-05 06:31:47,258 [INFO]  Epoch[2] Train-deg-malig-accuracy=3.461538
+2024-03-05 06:31:47,258 [INFO]  Epoch[2] Time cost=0.008
+2024-03-05 06:31:47,259 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0002.params"
+2024-03-05 06:31:47,260 [INFO]  Epoch[2] Validation-cross-entropy=1.422835
+2024-03-05 06:31:47,260 [INFO]  Epoch[2] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:31:47,265 [INFO]  Epoch[3] Batch [0-7]	Speed: 28427.36 samples/sec	cross-entropy=0.293104	deg-malig-accuracy=4.000000
+2024-03-05 06:31:47,268 [INFO]  Epoch[3] Train-cross-entropy=0.258395
+2024-03-05 06:31:47,268 [INFO]  Epoch[3] Train-deg-malig-accuracy=3.461538
+2024-03-05 06:31:47,268 [INFO]  Epoch[3] Time cost=0.008
+2024-03-05 06:31:47,269 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0003.params"
+2024-03-05 06:31:47,271 [INFO]  Epoch[3] Validation-cross-entropy=0.312003
+2024-03-05 06:31:47,271 [INFO]  Epoch[3] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:31:47,276 [INFO]  Epoch[4] Batch [0-7]	Speed: 27276.86 samples/sec	cross-entropy=0.168637	deg-malig-accuracy=4.000000
+2024-03-05 06:31:47,280 [INFO]  Epoch[4] Train-cross-entropy=0.162454
+2024-03-05 06:31:47,280 [INFO]  Epoch[4] Train-deg-malig-accuracy=3.461538
+2024-03-05 06:31:47,280 [INFO]  Epoch[4] Time cost=0.009
+2024-03-05 06:31:47,281 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0004.params"
+2024-03-05 06:31:47,282 [INFO]  Epoch[4] Validation-cross-entropy=0.317073
+2024-03-05 06:31:47,282 [INFO]  Epoch[4] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:31:47,282 [INFO]  
+========== done (0.06861639022827148 s) fit model
+2024-03-05 06:32:00,826 [INFO]  
+========== start: fit model
+2024-03-05 06:32:00,826 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:32:00,832 [INFO]  Epoch[0] Batch [0-7]	Speed: 23700.22 samples/sec	cross-entropy=14.979399	deg-malig-accuracy=3.250000
+2024-03-05 06:32:00,836 [INFO]  Epoch[0] Train-cross-entropy=12.193888
+2024-03-05 06:32:00,836 [INFO]  Epoch[0] Train-deg-malig-accuracy=3.230769
+2024-03-05 06:32:00,836 [INFO]  Epoch[0] Time cost=0.010
+2024-03-05 06:32:00,837 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0000.params"
+2024-03-05 06:32:00,838 [INFO]  Epoch[0] Validation-cross-entropy=2.764093
+2024-03-05 06:32:00,838 [INFO]  Epoch[0] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:32:00,843 [INFO]  Epoch[1] Batch [0-7]	Speed: 24389.29 samples/sec	cross-entropy=2.340595	deg-malig-accuracy=3.250000
+2024-03-05 06:32:00,847 [INFO]  Epoch[1] Train-cross-entropy=1.781473
+2024-03-05 06:32:00,847 [INFO]  Epoch[1] Train-deg-malig-accuracy=3.230769
+2024-03-05 06:32:00,847 [INFO]  Epoch[1] Time cost=0.009
+2024-03-05 06:32:00,848 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0001.params"
+2024-03-05 06:32:00,849 [INFO]  Epoch[1] Validation-cross-entropy=0.768725
+2024-03-05 06:32:00,849 [INFO]  Epoch[1] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:32:00,854 [INFO]  Epoch[2] Batch [0-7]	Speed: 25458.60 samples/sec	cross-entropy=1.024827	deg-malig-accuracy=3.250000
+2024-03-05 06:32:00,858 [INFO]  Epoch[2] Train-cross-entropy=0.885633
+2024-03-05 06:32:00,858 [INFO]  Epoch[2] Train-deg-malig-accuracy=3.230769
+2024-03-05 06:32:00,858 [INFO]  Epoch[2] Time cost=0.009
+2024-03-05 06:32:00,859 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0002.params"
+2024-03-05 06:32:00,860 [INFO]  Epoch[2] Validation-cross-entropy=0.861795
+2024-03-05 06:32:00,860 [INFO]  Epoch[2] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:32:00,866 [INFO]  Epoch[3] Batch [0-7]	Speed: 22431.58 samples/sec	cross-entropy=0.606207	deg-malig-accuracy=3.250000
+2024-03-05 06:32:00,869 [INFO]  Epoch[3] Train-cross-entropy=0.531606
+2024-03-05 06:32:00,869 [INFO]  Epoch[3] Train-deg-malig-accuracy=3.230769
+2024-03-05 06:32:00,869 [INFO]  Epoch[3] Time cost=0.009
+2024-03-05 06:32:00,870 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0003.params"
+2024-03-05 06:32:00,871 [INFO]  Epoch[3] Validation-cross-entropy=0.673188
+2024-03-05 06:32:00,871 [INFO]  Epoch[3] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:32:00,877 [INFO]  Epoch[4] Batch [0-7]	Speed: 23207.29 samples/sec	cross-entropy=0.346289	deg-malig-accuracy=3.250000
+2024-03-05 06:32:00,880 [INFO]  Epoch[4] Train-cross-entropy=0.317500
+2024-03-05 06:32:00,880 [INFO]  Epoch[4] Train-deg-malig-accuracy=3.230769
+2024-03-05 06:32:00,880 [INFO]  Epoch[4] Time cost=0.009
+2024-03-05 06:32:00,882 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0004.params"
+2024-03-05 06:32:00,882 [INFO]  Epoch[4] Validation-cross-entropy=0.460202
+2024-03-05 06:32:00,882 [INFO]  Epoch[4] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:32:00,882 [INFO]  
+========== done (0.05689382553100586 s) fit model
+2024-03-05 06:32:14,958 [INFO]  
+========== start: fit model
+2024-03-05 06:32:14,958 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:32:14,967 [INFO]  Epoch[0] Batch [0-7]	Speed: 19482.50 samples/sec	cross-entropy=16.984679	deg-malig-accuracy=3.250000
+2024-03-05 06:32:14,972 [INFO]  Epoch[0] Train-cross-entropy=12.208900
+2024-03-05 06:32:14,972 [INFO]  Epoch[0] Train-deg-malig-accuracy=3.538462
+2024-03-05 06:32:14,972 [INFO]  Epoch[0] Time cost=0.012
+2024-03-05 06:32:14,973 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0000.params"
+2024-03-05 06:32:14,974 [INFO]  Epoch[0] Validation-cross-entropy=7.377104
+2024-03-05 06:32:14,975 [INFO]  Epoch[0] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:32:14,984 [INFO]  Epoch[1] Batch [0-7]	Speed: 14722.39 samples/sec	cross-entropy=3.303019	deg-malig-accuracy=3.250000
+2024-03-05 06:32:14,987 [INFO]  Epoch[1] Train-cross-entropy=2.485327
+2024-03-05 06:32:14,988 [INFO]  Epoch[1] Train-deg-malig-accuracy=3.538462
+2024-03-05 06:32:14,988 [INFO]  Epoch[1] Time cost=0.013
+2024-03-05 06:32:14,989 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0001.params"
+2024-03-05 06:32:14,990 [INFO]  Epoch[1] Validation-cross-entropy=1.325450
+2024-03-05 06:32:14,990 [INFO]  Epoch[1] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:32:14,996 [INFO]  Epoch[2] Batch [0-7]	Speed: 23126.18 samples/sec	cross-entropy=1.077475	deg-malig-accuracy=3.250000
+2024-03-05 06:32:14,999 [INFO]  Epoch[2] Train-cross-entropy=0.934108
+2024-03-05 06:32:14,999 [INFO]  Epoch[2] Train-deg-malig-accuracy=3.538462
+2024-03-05 06:32:15,000 [INFO]  Epoch[2] Time cost=0.009
+2024-03-05 06:32:15,001 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0002.params"
+2024-03-05 06:32:15,002 [INFO]  Epoch[2] Validation-cross-entropy=0.709449
+2024-03-05 06:32:15,002 [INFO]  Epoch[2] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:32:15,007 [INFO]  Epoch[3] Batch [0-7]	Speed: 24417.18 samples/sec	cross-entropy=0.582856	deg-malig-accuracy=3.250000
+2024-03-05 06:32:15,010 [INFO]  Epoch[3] Train-cross-entropy=0.489352
+2024-03-05 06:32:15,011 [INFO]  Epoch[3] Train-deg-malig-accuracy=3.538462
+2024-03-05 06:32:15,011 [INFO]  Epoch[3] Time cost=0.009
+2024-03-05 06:32:15,012 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0003.params"
+2024-03-05 06:32:15,012 [INFO]  Epoch[3] Validation-cross-entropy=0.438118
+2024-03-05 06:32:15,013 [INFO]  Epoch[3] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:32:15,018 [INFO]  Epoch[4] Batch [0-7]	Speed: 24343.79 samples/sec	cross-entropy=0.335431	deg-malig-accuracy=3.250000
+2024-03-05 06:32:15,022 [INFO]  Epoch[4] Train-cross-entropy=0.280598
+2024-03-05 06:32:15,022 [INFO]  Epoch[4] Train-deg-malig-accuracy=3.538462
+2024-03-05 06:32:15,022 [INFO]  Epoch[4] Time cost=0.009
+2024-03-05 06:32:15,023 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0004.params"
+2024-03-05 06:32:15,024 [INFO]  Epoch[4] Validation-cross-entropy=0.350714
+2024-03-05 06:32:15,024 [INFO]  Epoch[4] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:32:15,024 [INFO]  
+========== done (0.06566882133483887 s) fit model
+2024-03-05 06:32:30,270 [INFO]  
+========== start: fit model
+2024-03-05 06:32:30,270 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:32:30,276 [INFO]  Epoch[0] Batch [0-7]	Speed: 24066.91 samples/sec	cross-entropy=10.340452	deg-malig-accuracy=3.875000
+2024-03-05 06:32:30,280 [INFO]  Epoch[0] Train-cross-entropy=8.001515
+2024-03-05 06:32:30,280 [INFO]  Epoch[0] Train-deg-malig-accuracy=3.538462
+2024-03-05 06:32:30,280 [INFO]  Epoch[0] Time cost=0.009
+2024-03-05 06:32:30,281 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0000.params"
+2024-03-05 06:32:30,281 [INFO]  Epoch[0] Validation-cross-entropy=2.536152
+2024-03-05 06:32:30,281 [INFO]  Epoch[0] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:32:30,287 [INFO]  Epoch[1] Batch [0-7]	Speed: 25885.06 samples/sec	cross-entropy=1.910518	deg-malig-accuracy=3.875000
+2024-03-05 06:32:30,290 [INFO]  Epoch[1] Train-cross-entropy=1.594706
+2024-03-05 06:32:30,290 [INFO]  Epoch[1] Train-deg-malig-accuracy=3.538462
+2024-03-05 06:32:30,290 [INFO]  Epoch[1] Time cost=0.008
+2024-03-05 06:32:30,291 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0001.params"
+2024-03-05 06:32:30,291 [INFO]  Epoch[1] Validation-cross-entropy=0.830614
+2024-03-05 06:32:30,291 [INFO]  Epoch[1] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:32:30,297 [INFO]  Epoch[2] Batch [0-7]	Speed: 21952.52 samples/sec	cross-entropy=0.785070	deg-malig-accuracy=3.875000
+2024-03-05 06:32:30,300 [INFO]  Epoch[2] Train-cross-entropy=0.714930
+2024-03-05 06:32:30,300 [INFO]  Epoch[2] Train-deg-malig-accuracy=3.538462
+2024-03-05 06:32:30,301 [INFO]  Epoch[2] Time cost=0.009
+2024-03-05 06:32:30,302 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0002.params"
+2024-03-05 06:32:30,302 [INFO]  Epoch[2] Validation-cross-entropy=0.508732
+2024-03-05 06:32:30,302 [INFO]  Epoch[2] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:32:30,307 [INFO]  Epoch[3] Batch [0-7]	Speed: 26606.37 samples/sec	cross-entropy=0.517663	deg-malig-accuracy=3.875000
+2024-03-05 06:32:30,311 [INFO]  Epoch[3] Train-cross-entropy=0.435342
+2024-03-05 06:32:30,311 [INFO]  Epoch[3] Train-deg-malig-accuracy=3.538462
+2024-03-05 06:32:30,311 [INFO]  Epoch[3] Time cost=0.008
+2024-03-05 06:32:30,312 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0003.params"
+2024-03-05 06:32:30,312 [INFO]  Epoch[3] Validation-cross-entropy=0.337857
+2024-03-05 06:32:30,312 [INFO]  Epoch[3] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:32:30,318 [INFO]  Epoch[4] Batch [0-7]	Speed: 21903.39 samples/sec	cross-entropy=0.295779	deg-malig-accuracy=3.875000
+2024-03-05 06:32:30,321 [INFO]  Epoch[4] Train-cross-entropy=0.268703
+2024-03-05 06:32:30,321 [INFO]  Epoch[4] Train-deg-malig-accuracy=3.538462
+2024-03-05 06:32:30,321 [INFO]  Epoch[4] Time cost=0.009
+2024-03-05 06:32:30,323 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0004.params"
+2024-03-05 06:32:30,323 [INFO]  Epoch[4] Validation-cross-entropy=0.236534
+2024-03-05 06:32:30,323 [INFO]  Epoch[4] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:32:30,323 [INFO]  
+========== done (0.05382490158081055 s) fit model
+2024-03-05 06:32:48,596 [INFO]  
+========== start: fit model
+2024-03-05 06:32:48,596 [WARNING]  Already bound, ignoring bind()
+2024-03-05 06:32:48,603 [INFO]  Epoch[0] Batch [0-7]	Speed: 22648.96 samples/sec	cross-entropy=13.153057	deg-malig-accuracy=2.875000
+2024-03-05 06:32:48,608 [INFO]  Epoch[0] Train-cross-entropy=9.953028
+2024-03-05 06:32:48,608 [INFO]  Epoch[0] Train-deg-malig-accuracy=3.461538
+2024-03-05 06:32:48,608 [INFO]  Epoch[0] Time cost=0.011
+2024-03-05 06:32:48,609 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0000.params"
+2024-03-05 06:32:48,610 [INFO]  Epoch[0] Validation-cross-entropy=3.759673
+2024-03-05 06:32:48,610 [INFO]  Epoch[0] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:32:48,619 [INFO]  Epoch[1] Batch [0-7]	Speed: 13995.18 samples/sec	cross-entropy=1.923866	deg-malig-accuracy=2.875000
+2024-03-05 06:32:48,624 [INFO]  Epoch[1] Train-cross-entropy=1.561121
+2024-03-05 06:32:48,624 [INFO]  Epoch[1] Train-deg-malig-accuracy=3.461538
+2024-03-05 06:32:48,624 [INFO]  Epoch[1] Time cost=0.014
+2024-03-05 06:32:48,626 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0001.params"
+2024-03-05 06:32:48,627 [INFO]  Epoch[1] Validation-cross-entropy=0.944484
+2024-03-05 06:32:48,627 [INFO]  Epoch[1] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:32:48,633 [INFO]  Epoch[2] Batch [0-7]	Speed: 20846.81 samples/sec	cross-entropy=0.860596	deg-malig-accuracy=2.875000
+2024-03-05 06:32:48,637 [INFO]  Epoch[2] Train-cross-entropy=0.789343
+2024-03-05 06:32:48,637 [INFO]  Epoch[2] Train-deg-malig-accuracy=3.461538
+2024-03-05 06:32:48,637 [INFO]  Epoch[2] Time cost=0.011
+2024-03-05 06:32:48,639 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0002.params"
+2024-03-05 06:32:48,640 [INFO]  Epoch[2] Validation-cross-entropy=0.460037
+2024-03-05 06:32:48,640 [INFO]  Epoch[2] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:32:48,646 [INFO]  Epoch[3] Batch [0-7]	Speed: 22862.80 samples/sec	cross-entropy=0.565888	deg-malig-accuracy=2.875000
+2024-03-05 06:32:48,650 [INFO]  Epoch[3] Train-cross-entropy=0.486624
+2024-03-05 06:32:48,650 [INFO]  Epoch[3] Train-deg-malig-accuracy=3.461538
+2024-03-05 06:32:48,650 [INFO]  Epoch[3] Time cost=0.010
+2024-03-05 06:32:48,652 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0003.params"
+2024-03-05 06:32:48,652 [INFO]  Epoch[3] Validation-cross-entropy=0.400290
+2024-03-05 06:32:48,652 [INFO]  Epoch[3] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:32:48,658 [INFO]  Epoch[4] Batch [0-7]	Speed: 22836.13 samples/sec	cross-entropy=0.300089	deg-malig-accuracy=2.875000
+2024-03-05 06:32:48,662 [INFO]  Epoch[4] Train-cross-entropy=0.275096
+2024-03-05 06:32:48,662 [INFO]  Epoch[4] Train-deg-malig-accuracy=3.461538
+2024-03-05 06:32:48,662 [INFO]  Epoch[4] Time cost=0.010
+2024-03-05 06:32:48,664 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0004.params"
+2024-03-05 06:32:48,664 [INFO]  Epoch[4] Validation-cross-entropy=0.389739
+2024-03-05 06:32:48,664 [INFO]  Epoch[4] Validation-deg-malig-accuracy=0.000000
+2024-03-05 06:32:48,664 [INFO]  
+========== done (0.0681154727935791 s) fit model
+2024-03-09 14:12:22,025 [INFO]  
+========== start: fit model
+2024-03-09 14:12:22,026 [WARNING]  Already bound, ignoring bind()
+2024-03-09 14:12:22,034 [INFO]  Epoch[0] Batch [0-8]	Speed: 22904.05 samples/sec	cross-entropy=11.247974	deg-malig-accuracy=0.000000
+2024-03-09 14:12:22,038 [INFO]  Epoch[0] Train-cross-entropy=7.870691
+2024-03-09 14:12:22,038 [INFO]  Epoch[0] Train-deg-malig-accuracy=0.000000
+2024-03-09 14:12:22,038 [INFO]  Epoch[0] Time cost=0.012
+2024-03-09 14:12:22,040 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0000.params"
+2024-03-09 14:12:22,041 [INFO]  Epoch[0] Validation-cross-entropy=3.421178
+2024-03-09 14:12:22,041 [INFO]  Epoch[0] Validation-deg-malig-accuracy=0.000000
+2024-03-09 14:12:22,047 [INFO]  Epoch[1] Batch [0-8]	Speed: 24528.09 samples/sec	cross-entropy=1.442145	deg-malig-accuracy=0.000000
+2024-03-09 14:12:22,052 [INFO]  Epoch[1] Train-cross-entropy=1.133865
+2024-03-09 14:12:22,052 [INFO]  Epoch[1] Train-deg-malig-accuracy=0.000000
+2024-03-09 14:12:22,052 [INFO]  Epoch[1] Time cost=0.011
+2024-03-09 14:12:22,053 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0001.params"
+2024-03-09 14:12:22,054 [INFO]  Epoch[1] Validation-cross-entropy=0.915458
+2024-03-09 14:12:22,054 [INFO]  Epoch[1] Validation-deg-malig-accuracy=0.000000
+2024-03-09 14:12:22,060 [INFO]  Epoch[2] Batch [0-8]	Speed: 25136.76 samples/sec	cross-entropy=0.476444	deg-malig-accuracy=0.000000
+2024-03-09 14:12:22,064 [INFO]  Epoch[2] Train-cross-entropy=0.416372
+2024-03-09 14:12:22,064 [INFO]  Epoch[2] Train-deg-malig-accuracy=0.000000
+2024-03-09 14:12:22,064 [INFO]  Epoch[2] Time cost=0.011
+2024-03-09 14:12:22,066 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0002.params"
+2024-03-09 14:12:22,067 [INFO]  Epoch[2] Validation-cross-entropy=0.353331
+2024-03-09 14:12:22,067 [INFO]  Epoch[2] Validation-deg-malig-accuracy=0.000000
+2024-03-09 14:12:22,073 [INFO]  Epoch[3] Batch [0-8]	Speed: 24092.21 samples/sec	cross-entropy=0.248636	deg-malig-accuracy=0.000000
+2024-03-09 14:12:22,077 [INFO]  Epoch[3] Train-cross-entropy=0.223513
+2024-03-09 14:12:22,077 [INFO]  Epoch[3] Train-deg-malig-accuracy=0.000000
+2024-03-09 14:12:22,077 [INFO]  Epoch[3] Time cost=0.011
+2024-03-09 14:12:22,079 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0003.params"
+2024-03-09 14:12:22,080 [INFO]  Epoch[3] Validation-cross-entropy=0.216218
+2024-03-09 14:12:22,080 [INFO]  Epoch[3] Validation-deg-malig-accuracy=0.000000
+2024-03-09 14:12:22,086 [INFO]  Epoch[4] Batch [0-8]	Speed: 24537.06 samples/sec	cross-entropy=0.176074	deg-malig-accuracy=0.000000
+2024-03-09 14:12:22,090 [INFO]  Epoch[4] Train-cross-entropy=0.146186
+2024-03-09 14:12:22,090 [INFO]  Epoch[4] Train-deg-malig-accuracy=0.000000
+2024-03-09 14:12:22,091 [INFO]  Epoch[4] Time cost=0.011
+2024-03-09 14:12:22,092 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0004.params"
+2024-03-09 14:12:22,093 [INFO]  Epoch[4] Validation-cross-entropy=0.133270
+2024-03-09 14:12:22,093 [INFO]  Epoch[4] Validation-deg-malig-accuracy=0.000000
+2024-03-09 14:12:22,093 [INFO]  
+========== done (0.06718564033508301 s) fit model
+2024-03-09 14:15:46,511 [INFO]  
+========== start: fit model
+2024-03-09 14:15:46,511 [WARNING]  Already bound, ignoring bind()
+2024-03-09 14:15:46,518 [INFO]  Epoch[0] Batch [0-7]	Speed: 24363.99 samples/sec	cross-entropy=12.502903	deg-malig-accuracy=0.000000
+2024-03-09 14:15:46,521 [INFO]  Epoch[0] Train-cross-entropy=10.171767
+2024-03-09 14:15:46,521 [INFO]  Epoch[0] Train-deg-malig-accuracy=0.000000
+2024-03-09 14:15:46,521 [INFO]  Epoch[0] Time cost=0.010
+2024-03-09 14:15:46,523 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0000.params"
+2024-03-09 14:15:46,523 [INFO]  Epoch[0] Validation-cross-entropy=9.468449
+2024-03-09 14:15:46,523 [INFO]  Epoch[0] Validation-deg-malig-accuracy=0.000000
+2024-03-09 14:15:46,529 [INFO]  Epoch[1] Batch [0-7]	Speed: 22910.75 samples/sec	cross-entropy=2.208604	deg-malig-accuracy=0.000000
+2024-03-09 14:15:46,532 [INFO]  Epoch[1] Train-cross-entropy=1.863471
+2024-03-09 14:15:46,532 [INFO]  Epoch[1] Train-deg-malig-accuracy=0.000000
+2024-03-09 14:15:46,532 [INFO]  Epoch[1] Time cost=0.009
+2024-03-09 14:15:46,534 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0001.params"
+2024-03-09 14:15:46,534 [INFO]  Epoch[1] Validation-cross-entropy=1.124152
+2024-03-09 14:15:46,534 [INFO]  Epoch[1] Validation-deg-malig-accuracy=0.000000
+2024-03-09 14:15:46,540 [INFO]  Epoch[2] Batch [0-7]	Speed: 24712.61 samples/sec	cross-entropy=0.629538	deg-malig-accuracy=0.000000
+2024-03-09 14:15:46,543 [INFO]  Epoch[2] Train-cross-entropy=0.606281
+2024-03-09 14:15:46,543 [INFO]  Epoch[2] Train-deg-malig-accuracy=0.000000
+2024-03-09 14:15:46,543 [INFO]  Epoch[2] Time cost=0.009
+2024-03-09 14:15:46,544 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0002.params"
+2024-03-09 14:15:46,545 [INFO]  Epoch[2] Validation-cross-entropy=0.603197
+2024-03-09 14:15:46,545 [INFO]  Epoch[2] Validation-deg-malig-accuracy=0.000000
+2024-03-09 14:15:46,550 [INFO]  Epoch[3] Batch [0-7]	Speed: 28139.57 samples/sec	cross-entropy=0.463653	deg-malig-accuracy=0.000000
+2024-03-09 14:15:46,553 [INFO]  Epoch[3] Train-cross-entropy=0.397166
+2024-03-09 14:15:46,553 [INFO]  Epoch[3] Train-deg-malig-accuracy=0.000000
+2024-03-09 14:15:46,553 [INFO]  Epoch[3] Time cost=0.008
+2024-03-09 14:15:46,554 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0003.params"
+2024-03-09 14:15:46,554 [INFO]  Epoch[3] Validation-cross-entropy=0.361835
+2024-03-09 14:15:46,554 [INFO]  Epoch[3] Validation-deg-malig-accuracy=0.000000
+2024-03-09 14:15:46,561 [INFO]  Epoch[4] Batch [0-7]	Speed: 28441.12 samples/sec	cross-entropy=0.251816	deg-malig-accuracy=0.000000
+2024-03-09 14:15:46,565 [INFO]  Epoch[4] Train-cross-entropy=0.242817
+2024-03-09 14:15:46,565 [INFO]  Epoch[4] Train-deg-malig-accuracy=0.000000
+2024-03-09 14:15:46,565 [INFO]  Epoch[4] Time cost=0.010
+2024-03-09 14:15:46,566 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0004.params"
+2024-03-09 14:15:46,566 [INFO]  Epoch[4] Validation-cross-entropy=0.289129
+2024-03-09 14:15:46,566 [INFO]  Epoch[4] Validation-deg-malig-accuracy=0.000000
+2024-03-09 14:15:46,566 [INFO]  
+========== done (0.05553793907165527 s) fit model
+2024-03-09 14:29:00,516 [INFO]  
+========== start: fit model
+2024-03-09 14:29:00,517 [WARNING]  Already bound, ignoring bind()
+2024-03-09 14:29:00,527 [INFO]  Epoch[0] Batch [0-7]	Speed: 13637.24 samples/sec	cross-entropy=12.502903	deg-malig-accuracy=0.000000
+2024-03-09 14:29:00,530 [INFO]  Epoch[0] Train-cross-entropy=10.171767
+2024-03-09 14:29:00,530 [INFO]  Epoch[0] Train-deg-malig-accuracy=0.000000
+2024-03-09 14:29:00,530 [INFO]  Epoch[0] Time cost=0.013
+2024-03-09 14:29:00,531 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0000.params"
+2024-03-09 14:29:00,531 [INFO]  Epoch[0] Validation-cross-entropy=9.468449
+2024-03-09 14:29:00,531 [INFO]  Epoch[0] Validation-deg-malig-accuracy=0.000000
+2024-03-09 14:29:00,536 [INFO]  Epoch[1] Batch [0-7]	Speed: 27030.44 samples/sec	cross-entropy=2.208604	deg-malig-accuracy=0.000000
+2024-03-09 14:29:00,539 [INFO]  Epoch[1] Train-cross-entropy=1.863471
+2024-03-09 14:29:00,539 [INFO]  Epoch[1] Train-deg-malig-accuracy=0.000000
+2024-03-09 14:29:00,539 [INFO]  Epoch[1] Time cost=0.008
+2024-03-09 14:29:00,541 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0001.params"
+2024-03-09 14:29:00,541 [INFO]  Epoch[1] Validation-cross-entropy=1.124152
+2024-03-09 14:29:00,541 [INFO]  Epoch[1] Validation-deg-malig-accuracy=0.000000
+2024-03-09 14:29:00,546 [INFO]  Epoch[2] Batch [0-7]	Speed: 28102.54 samples/sec	cross-entropy=0.629538	deg-malig-accuracy=0.000000
+2024-03-09 14:29:00,549 [INFO]  Epoch[2] Train-cross-entropy=0.606281
+2024-03-09 14:29:00,549 [INFO]  Epoch[2] Train-deg-malig-accuracy=0.000000
+2024-03-09 14:29:00,549 [INFO]  Epoch[2] Time cost=0.008
+2024-03-09 14:29:00,550 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0002.params"
+2024-03-09 14:29:00,550 [INFO]  Epoch[2] Validation-cross-entropy=0.603197
+2024-03-09 14:29:00,550 [INFO]  Epoch[2] Validation-deg-malig-accuracy=0.000000
+2024-03-09 14:29:00,555 [INFO]  Epoch[3] Batch [0-7]	Speed: 26507.28 samples/sec	cross-entropy=0.463653	deg-malig-accuracy=0.000000
+2024-03-09 14:29:00,558 [INFO]  Epoch[3] Train-cross-entropy=0.397166
+2024-03-09 14:29:00,558 [INFO]  Epoch[3] Train-deg-malig-accuracy=0.000000
+2024-03-09 14:29:00,558 [INFO]  Epoch[3] Time cost=0.008
+2024-03-09 14:29:00,560 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0003.params"
+2024-03-09 14:29:00,560 [INFO]  Epoch[3] Validation-cross-entropy=0.361835
+2024-03-09 14:29:00,560 [INFO]  Epoch[3] Validation-deg-malig-accuracy=0.000000
+2024-03-09 14:29:00,565 [INFO]  Epoch[4] Batch [0-7]	Speed: 28119.36 samples/sec	cross-entropy=0.251816	deg-malig-accuracy=0.000000
+2024-03-09 14:29:00,568 [INFO]  Epoch[4] Train-cross-entropy=0.242817
+2024-03-09 14:29:00,568 [INFO]  Epoch[4] Train-deg-malig-accuracy=0.000000
+2024-03-09 14:29:00,568 [INFO]  Epoch[4] Time cost=0.008
+2024-03-09 14:29:00,569 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0004.params"
+2024-03-09 14:29:00,570 [INFO]  Epoch[4] Validation-cross-entropy=0.289129
+2024-03-09 14:29:00,570 [INFO]  Epoch[4] Validation-deg-malig-accuracy=0.000000
+2024-03-09 14:29:00,570 [INFO]  
+========== done (0.053330421447753906 s) fit model
+2024-03-09 14:30:32,826 [INFO]  
+========== start: fit model
+2024-03-09 14:30:32,826 [WARNING]  Already bound, ignoring bind()
+2024-03-09 14:30:32,833 [INFO]  Epoch[0] Batch [0-7]	Speed: 23601.39 samples/sec	cross-entropy=12.502903	deg-malig-accuracy=0.000000
+2024-03-09 14:30:32,836 [INFO]  Epoch[0] Train-cross-entropy=10.171767
+2024-03-09 14:30:32,836 [INFO]  Epoch[0] Train-deg-malig-accuracy=0.000000
+2024-03-09 14:30:32,836 [INFO]  Epoch[0] Time cost=0.009
+2024-03-09 14:30:32,837 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0000.params"
+2024-03-09 14:30:32,838 [INFO]  Epoch[0] Validation-cross-entropy=9.468449
+2024-03-09 14:30:32,838 [INFO]  Epoch[0] Validation-deg-malig-accuracy=0.000000
+2024-03-09 14:30:32,843 [INFO]  Epoch[1] Batch [0-7]	Speed: 26843.55 samples/sec	cross-entropy=2.208604	deg-malig-accuracy=0.000000
+2024-03-09 14:30:32,846 [INFO]  Epoch[1] Train-cross-entropy=1.863471
+2024-03-09 14:30:32,846 [INFO]  Epoch[1] Train-deg-malig-accuracy=0.000000
+2024-03-09 14:30:32,846 [INFO]  Epoch[1] Time cost=0.008
+2024-03-09 14:30:32,847 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0001.params"
+2024-03-09 14:30:32,847 [INFO]  Epoch[1] Validation-cross-entropy=1.124152
+2024-03-09 14:30:32,847 [INFO]  Epoch[1] Validation-deg-malig-accuracy=0.000000
+2024-03-09 14:30:32,852 [INFO]  Epoch[2] Batch [0-7]	Speed: 28166.57 samples/sec	cross-entropy=0.629538	deg-malig-accuracy=0.000000
+2024-03-09 14:30:32,855 [INFO]  Epoch[2] Train-cross-entropy=0.606281
+2024-03-09 14:30:32,855 [INFO]  Epoch[2] Train-deg-malig-accuracy=0.000000
+2024-03-09 14:30:32,855 [INFO]  Epoch[2] Time cost=0.008
+2024-03-09 14:30:32,856 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0002.params"
+2024-03-09 14:30:32,857 [INFO]  Epoch[2] Validation-cross-entropy=0.603197
+2024-03-09 14:30:32,857 [INFO]  Epoch[2] Validation-deg-malig-accuracy=0.000000
+2024-03-09 14:30:32,862 [INFO]  Epoch[3] Batch [0-7]	Speed: 28314.27 samples/sec	cross-entropy=0.463653	deg-malig-accuracy=0.000000
+2024-03-09 14:30:32,864 [INFO]  Epoch[3] Train-cross-entropy=0.397166
+2024-03-09 14:30:32,865 [INFO]  Epoch[3] Train-deg-malig-accuracy=0.000000
+2024-03-09 14:30:32,865 [INFO]  Epoch[3] Time cost=0.008
+2024-03-09 14:30:32,866 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0003.params"
+2024-03-09 14:30:32,869 [INFO]  Epoch[3] Validation-cross-entropy=0.361835
+2024-03-09 14:30:32,869 [INFO]  Epoch[3] Validation-deg-malig-accuracy=0.000000
+2024-03-09 14:30:32,874 [INFO]  Epoch[4] Batch [0-7]	Speed: 28119.36 samples/sec	cross-entropy=0.251816	deg-malig-accuracy=0.000000
+2024-03-09 14:30:32,877 [INFO]  Epoch[4] Train-cross-entropy=0.242817
+2024-03-09 14:30:32,877 [INFO]  Epoch[4] Train-deg-malig-accuracy=0.000000
+2024-03-09 14:30:32,877 [INFO]  Epoch[4] Time cost=0.008
+2024-03-09 14:30:32,878 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0004.params"
+2024-03-09 14:30:32,879 [INFO]  Epoch[4] Validation-cross-entropy=0.289129
+2024-03-09 14:30:32,879 [INFO]  Epoch[4] Validation-deg-malig-accuracy=0.000000
+2024-03-09 14:30:32,879 [INFO]  
+========== done (0.05294442176818848 s) fit model
+2024-03-09 14:32:40,392 [INFO]  
+========== start: fit model
+2024-03-09 14:32:40,392 [WARNING]  Already bound, ignoring bind()
+2024-03-09 14:32:40,399 [INFO]  Epoch[0] Batch [0-7]	Speed: 23136.43 samples/sec	cross-entropy=12.502903	deg-malig-accuracy=0.000000
+2024-03-09 14:32:40,402 [INFO]  Epoch[0] Train-cross-entropy=10.171767
+2024-03-09 14:32:40,403 [INFO]  Epoch[0] Train-deg-malig-accuracy=0.000000
+2024-03-09 14:32:40,403 [INFO]  Epoch[0] Time cost=0.010
+2024-03-09 14:32:40,404 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0000.params"
+2024-03-09 14:32:40,404 [INFO]  Epoch[0] Validation-cross-entropy=9.468449
+2024-03-09 14:32:40,404 [INFO]  Epoch[0] Validation-deg-malig-accuracy=0.000000
+2024-03-09 14:32:40,410 [INFO]  Epoch[1] Batch [0-7]	Speed: 24122.52 samples/sec	cross-entropy=2.208604	deg-malig-accuracy=0.000000
+2024-03-09 14:32:40,413 [INFO]  Epoch[1] Train-cross-entropy=1.863471
+2024-03-09 14:32:40,413 [INFO]  Epoch[1] Train-deg-malig-accuracy=0.000000
+2024-03-09 14:32:40,413 [INFO]  Epoch[1] Time cost=0.009
+2024-03-09 14:32:40,415 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0001.params"
+2024-03-09 14:32:40,415 [INFO]  Epoch[1] Validation-cross-entropy=1.124152
+2024-03-09 14:32:40,415 [INFO]  Epoch[1] Validation-deg-malig-accuracy=0.000000
+2024-03-09 14:32:40,420 [INFO]  Epoch[2] Batch [0-7]	Speed: 25422.78 samples/sec	cross-entropy=0.629538	deg-malig-accuracy=0.000000
+2024-03-09 14:32:40,424 [INFO]  Epoch[2] Train-cross-entropy=0.606281
+2024-03-09 14:32:40,424 [INFO]  Epoch[2] Train-deg-malig-accuracy=0.000000
+2024-03-09 14:32:40,424 [INFO]  Epoch[2] Time cost=0.008
+2024-03-09 14:32:40,425 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0002.params"
+2024-03-09 14:32:40,426 [INFO]  Epoch[2] Validation-cross-entropy=0.603197
+2024-03-09 14:32:40,426 [INFO]  Epoch[2] Validation-deg-malig-accuracy=0.000000
+2024-03-09 14:32:40,431 [INFO]  Epoch[3] Batch [0-7]	Speed: 25777.11 samples/sec	cross-entropy=0.463653	deg-malig-accuracy=0.000000
+2024-03-09 14:32:40,434 [INFO]  Epoch[3] Train-cross-entropy=0.397166
+2024-03-09 14:32:40,434 [INFO]  Epoch[3] Train-deg-malig-accuracy=0.000000
+2024-03-09 14:32:40,434 [INFO]  Epoch[3] Time cost=0.008
+2024-03-09 14:32:40,435 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0003.params"
+2024-03-09 14:32:40,436 [INFO]  Epoch[3] Validation-cross-entropy=0.361835
+2024-03-09 14:32:40,436 [INFO]  Epoch[3] Validation-deg-malig-accuracy=0.000000
+2024-03-09 14:32:40,441 [INFO]  Epoch[4] Batch [0-7]	Speed: 25751.67 samples/sec	cross-entropy=0.251816	deg-malig-accuracy=0.000000
+2024-03-09 14:32:40,444 [INFO]  Epoch[4] Train-cross-entropy=0.242817
+2024-03-09 14:32:40,444 [INFO]  Epoch[4] Train-deg-malig-accuracy=0.000000
+2024-03-09 14:32:40,445 [INFO]  Epoch[4] Time cost=0.009
+2024-03-09 14:32:40,446 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0004.params"
+2024-03-09 14:32:40,446 [INFO]  Epoch[4] Validation-cross-entropy=0.289129
+2024-03-09 14:32:40,446 [INFO]  Epoch[4] Validation-deg-malig-accuracy=0.000000
+2024-03-09 14:32:40,446 [INFO]  
+========== done (0.05452847480773926 s) fit model
+2024-03-09 15:34:06,972 [INFO]  
+========== start: fit model
+2024-03-09 15:34:06,972 [WARNING]  Already bound, ignoring bind()
+2024-03-09 15:34:06,978 [INFO]  Epoch[0] Batch [0-7]	Speed: 27361.06 samples/sec	cross-entropy=12.502903	deg-malig-accuracy=0.000000
+2024-03-09 15:34:06,981 [INFO]  Epoch[0] Train-cross-entropy=10.171767
+2024-03-09 15:34:06,981 [INFO]  Epoch[0] Train-deg-malig-accuracy=0.000000
+2024-03-09 15:34:06,981 [INFO]  Epoch[0] Time cost=0.008
+2024-03-09 15:34:06,982 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0000.params"
+2024-03-09 15:34:06,983 [INFO]  Epoch[0] Validation-cross-entropy=9.468449
+2024-03-09 15:34:06,983 [INFO]  Epoch[0] Validation-deg-malig-accuracy=0.000000
+2024-03-09 15:34:06,988 [INFO]  Epoch[1] Batch [0-7]	Speed: 26704.68 samples/sec	cross-entropy=2.208604	deg-malig-accuracy=0.000000
+2024-03-09 15:34:06,991 [INFO]  Epoch[1] Train-cross-entropy=1.863471
+2024-03-09 15:34:06,991 [INFO]  Epoch[1] Train-deg-malig-accuracy=0.000000
+2024-03-09 15:34:06,991 [INFO]  Epoch[1] Time cost=0.008
+2024-03-09 15:34:06,992 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0001.params"
+2024-03-09 15:34:06,992 [INFO]  Epoch[1] Validation-cross-entropy=1.124152
+2024-03-09 15:34:06,993 [INFO]  Epoch[1] Validation-deg-malig-accuracy=0.000000
+2024-03-09 15:34:06,998 [INFO]  Epoch[2] Batch [0-7]	Speed: 24376.63 samples/sec	cross-entropy=0.629538	deg-malig-accuracy=0.000000
+2024-03-09 15:34:07,001 [INFO]  Epoch[2] Train-cross-entropy=0.606281
+2024-03-09 15:34:07,001 [INFO]  Epoch[2] Train-deg-malig-accuracy=0.000000
+2024-03-09 15:34:07,001 [INFO]  Epoch[2] Time cost=0.008
+2024-03-09 15:34:07,002 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0002.params"
+2024-03-09 15:34:07,003 [INFO]  Epoch[2] Validation-cross-entropy=0.603197
+2024-03-09 15:34:07,003 [INFO]  Epoch[2] Validation-deg-malig-accuracy=0.000000
+2024-03-09 15:34:07,007 [INFO]  Epoch[3] Batch [0-7]	Speed: 28735.14 samples/sec	cross-entropy=0.463653	deg-malig-accuracy=0.000000
+2024-03-09 15:34:07,010 [INFO]  Epoch[3] Train-cross-entropy=0.397166
+2024-03-09 15:34:07,010 [INFO]  Epoch[3] Train-deg-malig-accuracy=0.000000
+2024-03-09 15:34:07,010 [INFO]  Epoch[3] Time cost=0.008
+2024-03-09 15:34:07,012 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0003.params"
+2024-03-09 15:34:07,012 [INFO]  Epoch[3] Validation-cross-entropy=0.361835
+2024-03-09 15:34:07,012 [INFO]  Epoch[3] Validation-deg-malig-accuracy=0.000000
+2024-03-09 15:34:07,017 [INFO]  Epoch[4] Batch [0-7]	Speed: 24662.01 samples/sec	cross-entropy=0.251816	deg-malig-accuracy=0.000000
+2024-03-09 15:34:07,023 [INFO]  Epoch[4] Train-cross-entropy=0.242817
+2024-03-09 15:34:07,023 [INFO]  Epoch[4] Train-deg-malig-accuracy=0.000000
+2024-03-09 15:34:07,023 [INFO]  Epoch[4] Time cost=0.011
+2024-03-09 15:34:07,025 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_deg-malig/model-0004.params"
+2024-03-09 15:34:07,025 [INFO]  Epoch[4] Validation-cross-entropy=0.289129
+2024-03-09 15:34:07,025 [INFO]  Epoch[4] Validation-deg-malig-accuracy=0.000000
+2024-03-09 15:34:07,025 [INFO]  
+========== done (0.05353426933288574 s) fit model

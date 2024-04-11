@@ -1,0 +1,1240 @@
+2024-03-06 12:32:22,206 [INFO]  
+========== start: fit model
+2024-03-06 12:32:22,207 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:33:47,682 [INFO]  Epoch[0] Batch [0-52]	Speed: 9.94 samples/sec	cross-entropy=4.016516	DIQ010-accuracy=3.000000
+2024-03-06 12:35:00,320 [INFO]  Epoch[0] Train-cross-entropy=2.271254
+2024-03-06 12:35:00,320 [INFO]  Epoch[0] Train-DIQ010-accuracy=2.980583
+2024-03-06 12:35:00,321 [INFO]  Epoch[0] Time cost=158.108
+2024-03-06 12:35:00,324 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0000.params"
+2024-03-06 12:35:04,408 [INFO]  Epoch[0] Validation-cross-entropy=0.248209
+2024-03-06 12:35:04,408 [INFO]  Epoch[0] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:36:29,908 [INFO]  Epoch[1] Batch [0-52]	Speed: 9.94 samples/sec	cross-entropy=0.201640	DIQ010-accuracy=3.000000
+2024-03-06 12:37:43,745 [INFO]  Epoch[1] Train-cross-entropy=0.189765
+2024-03-06 12:37:43,745 [INFO]  Epoch[1] Train-DIQ010-accuracy=2.980583
+2024-03-06 12:37:43,745 [INFO]  Epoch[1] Time cost=159.337
+2024-03-06 12:37:43,748 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0001.params"
+2024-03-06 12:37:47,203 [INFO]  Epoch[1] Validation-cross-entropy=0.145795
+2024-03-06 12:37:47,203 [INFO]  Epoch[1] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:39:12,669 [INFO]  Epoch[2] Batch [0-52]	Speed: 9.96 samples/sec	cross-entropy=0.172980	DIQ010-accuracy=3.000000
+2024-03-06 12:40:24,310 [INFO]  Epoch[2] Train-cross-entropy=0.212419
+2024-03-06 12:40:24,310 [INFO]  Epoch[2] Train-DIQ010-accuracy=2.980583
+2024-03-06 12:40:24,310 [INFO]  Epoch[2] Time cost=157.107
+2024-03-06 12:40:24,312 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0002.params"
+2024-03-06 12:40:28,192 [INFO]  Epoch[2] Validation-cross-entropy=0.167766
+2024-03-06 12:40:28,192 [INFO]  Epoch[2] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:41:49,790 [INFO]  Epoch[3] Batch [0-52]	Speed: 10.41 samples/sec	cross-entropy=0.213926	DIQ010-accuracy=3.000000
+2024-03-06 12:41:53,889 [INFO]  Epoch[3] Train-cross-entropy=0.375886
+2024-03-06 12:41:53,890 [INFO]  Epoch[3] Train-DIQ010-accuracy=2.980583
+2024-03-06 12:41:53,890 [INFO]  Epoch[3] Time cost=85.698
+2024-03-06 12:41:53,892 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0003.params"
+2024-03-06 12:41:53,983 [INFO]  Epoch[3] Validation-cross-entropy=0.242576
+2024-03-06 12:41:53,983 [INFO]  Epoch[3] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:41:58,146 [INFO]  Epoch[4] Batch [0-52]	Speed: 203.19 samples/sec	cross-entropy=0.271037	DIQ010-accuracy=3.000000
+2024-03-06 12:42:01,614 [INFO]  Epoch[4] Train-cross-entropy=0.753139
+2024-03-06 12:42:01,615 [INFO]  Epoch[4] Train-DIQ010-accuracy=2.980583
+2024-03-06 12:42:01,615 [INFO]  Epoch[4] Time cost=7.632
+2024-03-06 12:42:01,617 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0004.params"
+2024-03-06 12:42:01,620 [INFO]  Epoch[4] Validation-cross-entropy=0.409161
+2024-03-06 12:42:01,620 [INFO]  Epoch[4] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:42:01,620 [INFO]  
+========== done (579.4139604568481 s) fit model
+2024-03-06 12:42:31,669 [INFO]  
+========== start: fit model
+2024-03-06 12:42:31,669 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:42:31,865 [INFO]  Epoch[0] Batch [0-52]	Speed: 4284.82 samples/sec	cross-entropy=4.763007	DIQ010-accuracy=0.000000
+2024-03-06 12:42:32,066 [INFO]  Epoch[0] Train-cross-entropy=2.588670
+2024-03-06 12:42:32,066 [INFO]  Epoch[0] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:42:32,066 [INFO]  Epoch[0] Time cost=0.396
+2024-03-06 12:42:32,067 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0000.params"
+2024-03-06 12:42:32,070 [INFO]  Epoch[0] Validation-cross-entropy=0.182850
+2024-03-06 12:42:32,070 [INFO]  Epoch[0] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:42:32,612 [INFO]  Epoch[1] Batch [0-52]	Speed: 1538.69 samples/sec	cross-entropy=0.169996	DIQ010-accuracy=0.000000
+2024-03-06 12:42:33,543 [INFO]  Epoch[1] Train-cross-entropy=0.163250
+2024-03-06 12:42:33,544 [INFO]  Epoch[1] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:42:33,544 [INFO]  Epoch[1] Time cost=1.474
+2024-03-06 12:42:33,546 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0001.params"
+2024-03-06 12:42:33,653 [INFO]  Epoch[1] Validation-cross-entropy=0.085738
+2024-03-06 12:42:33,653 [INFO]  Epoch[1] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:42:34,109 [INFO]  Epoch[2] Batch [0-52]	Speed: 1831.58 samples/sec	cross-entropy=0.132117	DIQ010-accuracy=0.000000
+2024-03-06 12:42:34,593 [INFO]  Epoch[2] Train-cross-entropy=0.111812
+2024-03-06 12:42:34,594 [INFO]  Epoch[2] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:42:34,594 [INFO]  Epoch[2] Time cost=0.940
+2024-03-06 12:42:34,596 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0002.params"
+2024-03-06 12:42:34,667 [INFO]  Epoch[2] Validation-cross-entropy=0.108992
+2024-03-06 12:42:34,667 [INFO]  Epoch[2] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:42:35,661 [INFO]  Epoch[3] Batch [0-52]	Speed: 838.35 samples/sec	cross-entropy=0.108463	DIQ010-accuracy=0.000000
+2024-03-06 12:42:36,115 [INFO]  Epoch[3] Train-cross-entropy=0.113233
+2024-03-06 12:42:36,116 [INFO]  Epoch[3] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:42:36,116 [INFO]  Epoch[3] Time cost=1.448
+2024-03-06 12:42:36,120 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0003.params"
+2024-03-06 12:42:36,179 [INFO]  Epoch[3] Validation-cross-entropy=0.060781
+2024-03-06 12:42:36,179 [INFO]  Epoch[3] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:42:36,561 [INFO]  Epoch[4] Batch [0-52]	Speed: 2181.44 samples/sec	cross-entropy=0.100617	DIQ010-accuracy=0.000000
+2024-03-06 12:42:36,974 [INFO]  Epoch[4] Train-cross-entropy=0.124332
+2024-03-06 12:42:36,974 [INFO]  Epoch[4] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:42:36,974 [INFO]  Epoch[4] Time cost=0.796
+2024-03-06 12:42:36,976 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0004.params"
+2024-03-06 12:42:36,978 [INFO]  Epoch[4] Validation-cross-entropy=0.122024
+2024-03-06 12:42:36,978 [INFO]  Epoch[4] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:42:36,978 [INFO]  
+========== done (5.308888912200928 s) fit model
+2024-03-06 12:43:40,094 [INFO]  
+========== start: fit model
+2024-03-06 12:43:40,095 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:43:40,422 [INFO]  Epoch[0] Batch [0-52]	Speed: 2943.94 samples/sec	cross-entropy=9.694430	DIQ010-accuracy=3.150943
+2024-03-06 12:43:40,453 [INFO]  Epoch[0] Train-cross-entropy=5.319166
+2024-03-06 12:43:40,453 [INFO]  Epoch[0] Train-DIQ010-accuracy=3.000000
+2024-03-06 12:43:40,454 [INFO]  Epoch[0] Time cost=0.358
+2024-03-06 12:43:40,455 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0000.params"
+2024-03-06 12:43:40,457 [INFO]  Epoch[0] Validation-cross-entropy=0.239720
+2024-03-06 12:43:40,457 [INFO]  Epoch[0] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:43:40,643 [INFO]  Epoch[1] Batch [0-52]	Speed: 4512.28 samples/sec	cross-entropy=0.153325	DIQ010-accuracy=3.150943
+2024-03-06 12:43:40,949 [INFO]  Epoch[1] Train-cross-entropy=0.147312
+2024-03-06 12:43:40,950 [INFO]  Epoch[1] Train-DIQ010-accuracy=3.000000
+2024-03-06 12:43:40,950 [INFO]  Epoch[1] Time cost=0.492
+2024-03-06 12:43:40,951 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0001.params"
+2024-03-06 12:43:41,197 [INFO]  Epoch[1] Validation-cross-entropy=0.099405
+2024-03-06 12:43:41,198 [INFO]  Epoch[1] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:43:42,113 [INFO]  Epoch[2] Batch [0-52]	Speed: 910.54 samples/sec	cross-entropy=0.074463	DIQ010-accuracy=3.150943
+2024-03-06 12:43:42,347 [INFO]  Epoch[2] Train-cross-entropy=0.092289
+2024-03-06 12:43:42,347 [INFO]  Epoch[2] Train-DIQ010-accuracy=3.000000
+2024-03-06 12:43:42,347 [INFO]  Epoch[2] Time cost=1.150
+2024-03-06 12:43:42,350 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0002.params"
+2024-03-06 12:43:42,353 [INFO]  Epoch[2] Validation-cross-entropy=0.067154
+2024-03-06 12:43:42,353 [INFO]  Epoch[2] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:43:43,906 [INFO]  Epoch[3] Batch [0-52]	Speed: 536.34 samples/sec	cross-entropy=0.049579	DIQ010-accuracy=3.150943
+2024-03-06 12:43:44,210 [INFO]  Epoch[3] Train-cross-entropy=0.080425
+2024-03-06 12:43:44,211 [INFO]  Epoch[3] Train-DIQ010-accuracy=3.000000
+2024-03-06 12:43:44,211 [INFO]  Epoch[3] Time cost=1.858
+2024-03-06 12:43:44,214 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0003.params"
+2024-03-06 12:43:44,260 [INFO]  Epoch[3] Validation-cross-entropy=0.075502
+2024-03-06 12:43:44,261 [INFO]  Epoch[3] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:43:44,559 [INFO]  Epoch[4] Batch [0-52]	Speed: 2800.38 samples/sec	cross-entropy=0.051122	DIQ010-accuracy=3.150943
+2024-03-06 12:43:45,151 [INFO]  Epoch[4] Train-cross-entropy=0.077154
+2024-03-06 12:43:45,151 [INFO]  Epoch[4] Train-DIQ010-accuracy=3.000000
+2024-03-06 12:43:45,151 [INFO]  Epoch[4] Time cost=0.891
+2024-03-06 12:43:45,153 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0004.params"
+2024-03-06 12:43:45,156 [INFO]  Epoch[4] Validation-cross-entropy=0.078133
+2024-03-06 12:43:45,156 [INFO]  Epoch[4] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:43:45,156 [INFO]  
+========== done (5.062001943588257 s) fit model
+2024-03-06 12:44:39,508 [INFO]  
+========== start: fit model
+2024-03-06 12:44:39,508 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:44:39,554 [INFO]  Epoch[0] Batch [0-52]	Speed: 19373.01 samples/sec	cross-entropy=4.308588	DIQ010-accuracy=3.000000
+2024-03-06 12:44:39,581 [INFO]  Epoch[0] Train-cross-entropy=2.332138
+2024-03-06 12:44:39,581 [INFO]  Epoch[0] Train-DIQ010-accuracy=3.145631
+2024-03-06 12:44:39,581 [INFO]  Epoch[0] Time cost=0.072
+2024-03-06 12:44:39,583 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0000.params"
+2024-03-06 12:44:39,585 [INFO]  Epoch[0] Validation-cross-entropy=0.153006
+2024-03-06 12:44:39,585 [INFO]  Epoch[0] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:44:39,614 [INFO]  Epoch[1] Batch [0-52]	Speed: 29115.45 samples/sec	cross-entropy=0.148854	DIQ010-accuracy=3.000000
+2024-03-06 12:44:39,642 [INFO]  Epoch[1] Train-cross-entropy=0.116874
+2024-03-06 12:44:39,642 [INFO]  Epoch[1] Train-DIQ010-accuracy=3.145631
+2024-03-06 12:44:39,642 [INFO]  Epoch[1] Time cost=0.057
+2024-03-06 12:44:39,643 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0001.params"
+2024-03-06 12:44:39,645 [INFO]  Epoch[1] Validation-cross-entropy=0.100046
+2024-03-06 12:44:39,645 [INFO]  Epoch[1] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:44:39,675 [INFO]  Epoch[2] Batch [0-52]	Speed: 29076.87 samples/sec	cross-entropy=0.083922	DIQ010-accuracy=3.000000
+2024-03-06 12:44:39,705 [INFO]  Epoch[2] Train-cross-entropy=0.070877
+2024-03-06 12:44:39,706 [INFO]  Epoch[2] Train-DIQ010-accuracy=3.145631
+2024-03-06 12:44:39,706 [INFO]  Epoch[2] Time cost=0.060
+2024-03-06 12:44:39,707 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0002.params"
+2024-03-06 12:44:39,710 [INFO]  Epoch[2] Validation-cross-entropy=0.066621
+2024-03-06 12:44:39,710 [INFO]  Epoch[2] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:44:39,751 [INFO]  Epoch[3] Batch [0-52]	Speed: 20592.47 samples/sec	cross-entropy=0.053950	DIQ010-accuracy=3.000000
+2024-03-06 12:44:39,791 [INFO]  Epoch[3] Train-cross-entropy=0.048589
+2024-03-06 12:44:39,792 [INFO]  Epoch[3] Train-DIQ010-accuracy=3.145631
+2024-03-06 12:44:39,792 [INFO]  Epoch[3] Time cost=0.082
+2024-03-06 12:44:39,793 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0003.params"
+2024-03-06 12:44:39,796 [INFO]  Epoch[3] Validation-cross-entropy=0.047699
+2024-03-06 12:44:39,796 [INFO]  Epoch[3] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:44:39,839 [INFO]  Epoch[4] Batch [0-52]	Speed: 20079.06 samples/sec	cross-entropy=0.039383	DIQ010-accuracy=3.000000
+2024-03-06 12:44:39,879 [INFO]  Epoch[4] Train-cross-entropy=0.037764
+2024-03-06 12:44:39,879 [INFO]  Epoch[4] Train-DIQ010-accuracy=3.145631
+2024-03-06 12:44:39,879 [INFO]  Epoch[4] Time cost=0.083
+2024-03-06 12:44:39,881 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0004.params"
+2024-03-06 12:44:39,884 [INFO]  Epoch[4] Validation-cross-entropy=0.032581
+2024-03-06 12:44:39,884 [INFO]  Epoch[4] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:44:39,884 [INFO]  
+========== done (0.37563204765319824 s) fit model
+2024-03-06 12:44:59,535 [INFO]  
+========== start: fit model
+2024-03-06 12:44:59,535 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:44:59,569 [INFO]  Epoch[0] Batch [0-52]	Speed: 26427.62 samples/sec	cross-entropy=9.229658	DIQ010-accuracy=2.849057
+2024-03-06 12:44:59,597 [INFO]  Epoch[0] Train-cross-entropy=5.007364
+2024-03-06 12:44:59,597 [INFO]  Epoch[0] Train-DIQ010-accuracy=2.912621
+2024-03-06 12:44:59,597 [INFO]  Epoch[0] Time cost=0.061
+2024-03-06 12:44:59,599 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0000.params"
+2024-03-06 12:44:59,601 [INFO]  Epoch[0] Validation-cross-entropy=0.182720
+2024-03-06 12:44:59,601 [INFO]  Epoch[0] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:44:59,631 [INFO]  Epoch[1] Batch [0-52]	Speed: 28695.51 samples/sec	cross-entropy=0.236406	DIQ010-accuracy=2.849057
+2024-03-06 12:44:59,659 [INFO]  Epoch[1] Train-cross-entropy=0.174303
+2024-03-06 12:44:59,659 [INFO]  Epoch[1] Train-DIQ010-accuracy=2.912621
+2024-03-06 12:44:59,659 [INFO]  Epoch[1] Time cost=0.058
+2024-03-06 12:44:59,660 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0001.params"
+2024-03-06 12:44:59,662 [INFO]  Epoch[1] Validation-cross-entropy=0.076213
+2024-03-06 12:44:59,663 [INFO]  Epoch[1] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:44:59,693 [INFO]  Epoch[2] Batch [0-52]	Speed: 27816.04 samples/sec	cross-entropy=0.086001	DIQ010-accuracy=2.849057
+2024-03-06 12:44:59,722 [INFO]  Epoch[2] Train-cross-entropy=0.085835
+2024-03-06 12:44:59,722 [INFO]  Epoch[2] Train-DIQ010-accuracy=2.912621
+2024-03-06 12:44:59,722 [INFO]  Epoch[2] Time cost=0.059
+2024-03-06 12:44:59,723 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0002.params"
+2024-03-06 12:44:59,725 [INFO]  Epoch[2] Validation-cross-entropy=0.075483
+2024-03-06 12:44:59,725 [INFO]  Epoch[2] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:44:59,755 [INFO]  Epoch[3] Batch [0-52]	Speed: 28643.46 samples/sec	cross-entropy=0.068134	DIQ010-accuracy=2.849057
+2024-03-06 12:44:59,783 [INFO]  Epoch[3] Train-cross-entropy=0.060630
+2024-03-06 12:44:59,783 [INFO]  Epoch[3] Train-DIQ010-accuracy=2.912621
+2024-03-06 12:44:59,784 [INFO]  Epoch[3] Time cost=0.058
+2024-03-06 12:44:59,785 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0003.params"
+2024-03-06 12:44:59,787 [INFO]  Epoch[3] Validation-cross-entropy=0.051490
+2024-03-06 12:44:59,787 [INFO]  Epoch[3] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:44:59,817 [INFO]  Epoch[4] Batch [0-52]	Speed: 28536.88 samples/sec	cross-entropy=0.041111	DIQ010-accuracy=2.849057
+2024-03-06 12:44:59,845 [INFO]  Epoch[4] Train-cross-entropy=0.047838
+2024-03-06 12:44:59,845 [INFO]  Epoch[4] Train-DIQ010-accuracy=2.912621
+2024-03-06 12:44:59,845 [INFO]  Epoch[4] Time cost=0.058
+2024-03-06 12:44:59,847 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0004.params"
+2024-03-06 12:44:59,849 [INFO]  Epoch[4] Validation-cross-entropy=0.052872
+2024-03-06 12:44:59,849 [INFO]  Epoch[4] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:44:59,849 [INFO]  
+========== done (0.31383442878723145 s) fit model
+2024-03-06 12:45:17,557 [INFO]  
+========== start: fit model
+2024-03-06 12:45:17,557 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:45:17,595 [INFO]  Epoch[0] Batch [0-52]	Speed: 24926.15 samples/sec	cross-entropy=6.993334	DIQ010-accuracy=0.000000
+2024-03-06 12:45:17,625 [INFO]  Epoch[0] Train-cross-entropy=3.855373
+2024-03-06 12:45:17,626 [INFO]  Epoch[0] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:45:17,626 [INFO]  Epoch[0] Time cost=0.068
+2024-03-06 12:45:17,627 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0000.params"
+2024-03-06 12:45:17,629 [INFO]  Epoch[0] Validation-cross-entropy=0.483210
+2024-03-06 12:45:17,629 [INFO]  Epoch[0] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:45:17,662 [INFO]  Epoch[1] Batch [0-52]	Speed: 26373.09 samples/sec	cross-entropy=0.203051	DIQ010-accuracy=0.000000
+2024-03-06 12:45:17,692 [INFO]  Epoch[1] Train-cross-entropy=0.167029
+2024-03-06 12:45:17,692 [INFO]  Epoch[1] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:45:17,692 [INFO]  Epoch[1] Time cost=0.063
+2024-03-06 12:45:17,694 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0001.params"
+2024-03-06 12:45:17,696 [INFO]  Epoch[1] Validation-cross-entropy=0.173401
+2024-03-06 12:45:17,696 [INFO]  Epoch[1] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:45:17,727 [INFO]  Epoch[2] Batch [0-52]	Speed: 28166.50 samples/sec	cross-entropy=0.089748	DIQ010-accuracy=0.000000
+2024-03-06 12:45:17,754 [INFO]  Epoch[2] Train-cross-entropy=0.076345
+2024-03-06 12:45:17,754 [INFO]  Epoch[2] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:45:17,754 [INFO]  Epoch[2] Time cost=0.058
+2024-03-06 12:45:17,755 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0002.params"
+2024-03-06 12:45:17,758 [INFO]  Epoch[2] Validation-cross-entropy=0.104008
+2024-03-06 12:45:17,758 [INFO]  Epoch[2] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:45:17,787 [INFO]  Epoch[3] Batch [0-52]	Speed: 28971.62 samples/sec	cross-entropy=0.071259	DIQ010-accuracy=0.000000
+2024-03-06 12:45:17,815 [INFO]  Epoch[3] Train-cross-entropy=0.056855
+2024-03-06 12:45:17,815 [INFO]  Epoch[3] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:45:17,815 [INFO]  Epoch[3] Time cost=0.057
+2024-03-06 12:45:17,816 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0003.params"
+2024-03-06 12:45:17,818 [INFO]  Epoch[3] Validation-cross-entropy=0.046709
+2024-03-06 12:45:17,818 [INFO]  Epoch[3] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:45:17,848 [INFO]  Epoch[4] Batch [0-52]	Speed: 28529.88 samples/sec	cross-entropy=0.066706	DIQ010-accuracy=0.000000
+2024-03-06 12:45:17,879 [INFO]  Epoch[4] Train-cross-entropy=0.053232
+2024-03-06 12:45:17,879 [INFO]  Epoch[4] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:45:17,879 [INFO]  Epoch[4] Time cost=0.060
+2024-03-06 12:45:17,880 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0004.params"
+2024-03-06 12:45:17,882 [INFO]  Epoch[4] Validation-cross-entropy=0.035853
+2024-03-06 12:45:17,882 [INFO]  Epoch[4] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:45:17,882 [INFO]  
+========== done (0.3252134323120117 s) fit model
+2024-03-06 12:45:38,840 [INFO]  
+========== start: fit model
+2024-03-06 12:45:38,840 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:45:38,891 [INFO]  Epoch[0] Batch [0-52]	Speed: 18496.40 samples/sec	cross-entropy=6.575550	DIQ010-accuracy=3.264151
+2024-03-06 12:45:38,930 [INFO]  Epoch[0] Train-cross-entropy=3.701521
+2024-03-06 12:45:38,930 [INFO]  Epoch[0] Train-DIQ010-accuracy=3.126214
+2024-03-06 12:45:38,930 [INFO]  Epoch[0] Time cost=0.089
+2024-03-06 12:45:38,931 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0000.params"
+2024-03-06 12:45:38,935 [INFO]  Epoch[0] Validation-cross-entropy=0.265231
+2024-03-06 12:45:38,935 [INFO]  Epoch[0] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:45:38,971 [INFO]  Epoch[1] Batch [0-52]	Speed: 24104.70 samples/sec	cross-entropy=0.174361	DIQ010-accuracy=3.264151
+2024-03-06 12:45:39,055 [INFO]  Epoch[1] Train-cross-entropy=0.161215
+2024-03-06 12:45:39,055 [INFO]  Epoch[1] Train-DIQ010-accuracy=3.126214
+2024-03-06 12:45:39,055 [INFO]  Epoch[1] Time cost=0.120
+2024-03-06 12:45:39,057 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0001.params"
+2024-03-06 12:45:39,060 [INFO]  Epoch[1] Validation-cross-entropy=0.101268
+2024-03-06 12:45:39,060 [INFO]  Epoch[1] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:45:39,110 [INFO]  Epoch[2] Batch [0-52]	Speed: 17285.05 samples/sec	cross-entropy=0.117286	DIQ010-accuracy=3.264151
+2024-03-06 12:45:39,144 [INFO]  Epoch[2] Train-cross-entropy=0.167844
+2024-03-06 12:45:39,144 [INFO]  Epoch[2] Train-DIQ010-accuracy=3.126214
+2024-03-06 12:45:39,144 [INFO]  Epoch[2] Time cost=0.084
+2024-03-06 12:45:39,146 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0002.params"
+2024-03-06 12:45:39,149 [INFO]  Epoch[2] Validation-cross-entropy=0.093517
+2024-03-06 12:45:39,149 [INFO]  Epoch[2] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:45:39,187 [INFO]  Epoch[3] Batch [0-52]	Speed: 22236.49 samples/sec	cross-entropy=0.143271	DIQ010-accuracy=3.264151
+2024-03-06 12:45:39,232 [INFO]  Epoch[3] Train-cross-entropy=0.133730
+2024-03-06 12:45:39,232 [INFO]  Epoch[3] Train-DIQ010-accuracy=3.126214
+2024-03-06 12:45:39,232 [INFO]  Epoch[3] Time cost=0.083
+2024-03-06 12:45:39,233 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0003.params"
+2024-03-06 12:45:39,237 [INFO]  Epoch[3] Validation-cross-entropy=0.050216
+2024-03-06 12:45:39,237 [INFO]  Epoch[3] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:45:39,286 [INFO]  Epoch[4] Batch [0-52]	Speed: 17458.61 samples/sec	cross-entropy=0.326055	DIQ010-accuracy=3.264151
+2024-03-06 12:45:39,334 [INFO]  Epoch[4] Train-cross-entropy=0.462911
+2024-03-06 12:45:39,334 [INFO]  Epoch[4] Train-DIQ010-accuracy=3.126214
+2024-03-06 12:45:39,334 [INFO]  Epoch[4] Time cost=0.097
+2024-03-06 12:45:39,336 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0004.params"
+2024-03-06 12:45:39,340 [INFO]  Epoch[4] Validation-cross-entropy=0.142243
+2024-03-06 12:45:39,340 [INFO]  Epoch[4] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:45:39,341 [INFO]  
+========== done (0.5004150867462158 s) fit model
+2024-03-06 12:45:59,584 [INFO]  
+========== start: fit model
+2024-03-06 12:45:59,584 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:45:59,624 [INFO]  Epoch[0] Batch [0-52]	Speed: 21801.66 samples/sec	cross-entropy=11.501603	DIQ010-accuracy=3.320755
+2024-03-06 12:45:59,658 [INFO]  Epoch[0] Train-cross-entropy=6.375848
+2024-03-06 12:45:59,658 [INFO]  Epoch[0] Train-DIQ010-accuracy=3.135922
+2024-03-06 12:45:59,658 [INFO]  Epoch[0] Time cost=0.073
+2024-03-06 12:45:59,659 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0000.params"
+2024-03-06 12:45:59,662 [INFO]  Epoch[0] Validation-cross-entropy=1.137452
+2024-03-06 12:45:59,662 [INFO]  Epoch[0] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:45:59,698 [INFO]  Epoch[1] Batch [0-52]	Speed: 23777.85 samples/sec	cross-entropy=0.373183	DIQ010-accuracy=3.320755
+2024-03-06 12:45:59,726 [INFO]  Epoch[1] Train-cross-entropy=0.310543
+2024-03-06 12:45:59,726 [INFO]  Epoch[1] Train-DIQ010-accuracy=3.135922
+2024-03-06 12:45:59,726 [INFO]  Epoch[1] Time cost=0.064
+2024-03-06 12:45:59,728 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0001.params"
+2024-03-06 12:45:59,730 [INFO]  Epoch[1] Validation-cross-entropy=0.567491
+2024-03-06 12:45:59,730 [INFO]  Epoch[1] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:45:59,760 [INFO]  Epoch[2] Batch [0-52]	Speed: 28482.61 samples/sec	cross-entropy=0.142988	DIQ010-accuracy=3.320755
+2024-03-06 12:45:59,788 [INFO]  Epoch[2] Train-cross-entropy=0.137490
+2024-03-06 12:45:59,788 [INFO]  Epoch[2] Train-DIQ010-accuracy=3.135922
+2024-03-06 12:45:59,788 [INFO]  Epoch[2] Time cost=0.058
+2024-03-06 12:45:59,790 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0002.params"
+2024-03-06 12:45:59,792 [INFO]  Epoch[2] Validation-cross-entropy=0.365911
+2024-03-06 12:45:59,792 [INFO]  Epoch[2] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:45:59,829 [INFO]  Epoch[3] Batch [0-52]	Speed: 22914.58 samples/sec	cross-entropy=0.085732	DIQ010-accuracy=3.320755
+2024-03-06 12:45:59,869 [INFO]  Epoch[3] Train-cross-entropy=0.092046
+2024-03-06 12:45:59,869 [INFO]  Epoch[3] Train-DIQ010-accuracy=3.135922
+2024-03-06 12:45:59,869 [INFO]  Epoch[3] Time cost=0.077
+2024-03-06 12:45:59,871 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0003.params"
+2024-03-06 12:45:59,873 [INFO]  Epoch[3] Validation-cross-entropy=0.224474
+2024-03-06 12:45:59,874 [INFO]  Epoch[3] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:45:59,912 [INFO]  Epoch[4] Batch [0-52]	Speed: 22067.47 samples/sec	cross-entropy=0.064913	DIQ010-accuracy=3.320755
+2024-03-06 12:45:59,940 [INFO]  Epoch[4] Train-cross-entropy=0.084451
+2024-03-06 12:45:59,940 [INFO]  Epoch[4] Train-DIQ010-accuracy=3.135922
+2024-03-06 12:45:59,940 [INFO]  Epoch[4] Time cost=0.066
+2024-03-06 12:45:59,941 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0004.params"
+2024-03-06 12:45:59,944 [INFO]  Epoch[4] Validation-cross-entropy=0.201623
+2024-03-06 12:45:59,944 [INFO]  Epoch[4] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:45:59,944 [INFO]  
+========== done (0.3599879741668701 s) fit model
+2024-03-06 12:46:23,069 [INFO]  
+========== start: fit model
+2024-03-06 12:46:23,070 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:46:23,164 [INFO]  Epoch[0] Batch [0-52]	Speed: 11242.97 samples/sec	cross-entropy=7.225022	DIQ010-accuracy=0.000000
+2024-03-06 12:46:24,154 [INFO]  Epoch[0] Train-cross-entropy=3.904737
+2024-03-06 12:46:24,154 [INFO]  Epoch[0] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:46:24,154 [INFO]  Epoch[0] Time cost=1.083
+2024-03-06 12:46:24,155 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0000.params"
+2024-03-06 12:46:24,158 [INFO]  Epoch[0] Validation-cross-entropy=0.727550
+2024-03-06 12:46:24,158 [INFO]  Epoch[0] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:46:24,193 [INFO]  Epoch[1] Batch [0-52]	Speed: 24673.77 samples/sec	cross-entropy=0.472451	DIQ010-accuracy=0.000000
+2024-03-06 12:46:24,311 [INFO]  Epoch[1] Train-cross-entropy=0.316225
+2024-03-06 12:46:24,311 [INFO]  Epoch[1] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:46:24,311 [INFO]  Epoch[1] Time cost=0.153
+2024-03-06 12:46:24,313 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0001.params"
+2024-03-06 12:46:24,316 [INFO]  Epoch[1] Validation-cross-entropy=0.816356
+2024-03-06 12:46:24,316 [INFO]  Epoch[1] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:46:24,369 [INFO]  Epoch[2] Batch [0-52]	Speed: 16118.68 samples/sec	cross-entropy=0.242633	DIQ010-accuracy=0.000000
+2024-03-06 12:46:24,414 [INFO]  Epoch[2] Train-cross-entropy=0.158170
+2024-03-06 12:46:24,415 [INFO]  Epoch[2] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:46:24,415 [INFO]  Epoch[2] Time cost=0.099
+2024-03-06 12:46:24,417 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0002.params"
+2024-03-06 12:46:24,421 [INFO]  Epoch[2] Validation-cross-entropy=0.151015
+2024-03-06 12:46:24,421 [INFO]  Epoch[2] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:46:24,470 [INFO]  Epoch[3] Batch [0-52]	Speed: 17423.13 samples/sec	cross-entropy=0.118496	DIQ010-accuracy=0.000000
+2024-03-06 12:46:24,516 [INFO]  Epoch[3] Train-cross-entropy=0.099613
+2024-03-06 12:46:24,516 [INFO]  Epoch[3] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:46:24,516 [INFO]  Epoch[3] Time cost=0.095
+2024-03-06 12:46:24,518 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0003.params"
+2024-03-06 12:46:24,522 [INFO]  Epoch[3] Validation-cross-entropy=0.427279
+2024-03-06 12:46:24,522 [INFO]  Epoch[3] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:46:24,571 [INFO]  Epoch[4] Batch [0-52]	Speed: 17615.92 samples/sec	cross-entropy=0.155583	DIQ010-accuracy=0.000000
+2024-03-06 12:46:24,619 [INFO]  Epoch[4] Train-cross-entropy=0.099255
+2024-03-06 12:46:24,619 [INFO]  Epoch[4] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:46:24,619 [INFO]  Epoch[4] Time cost=0.097
+2024-03-06 12:46:24,621 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0004.params"
+2024-03-06 12:46:24,624 [INFO]  Epoch[4] Validation-cross-entropy=0.077276
+2024-03-06 12:46:24,624 [INFO]  Epoch[4] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:46:24,624 [INFO]  
+========== done (1.5550477504730225 s) fit model
+2024-03-06 12:46:48,931 [INFO]  
+========== start: fit model
+2024-03-06 12:46:48,931 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:46:48,962 [INFO]  Epoch[0] Batch [0-52]	Speed: 28585.74 samples/sec	cross-entropy=6.193369	DIQ010-accuracy=3.056604
+2024-03-06 12:46:48,989 [INFO]  Epoch[0] Train-cross-entropy=3.356428
+2024-03-06 12:46:48,990 [INFO]  Epoch[0] Train-DIQ010-accuracy=3.077670
+2024-03-06 12:46:48,990 [INFO]  Epoch[0] Time cost=0.058
+2024-03-06 12:46:48,991 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0000.params"
+2024-03-06 12:46:48,993 [INFO]  Epoch[0] Validation-cross-entropy=0.236604
+2024-03-06 12:46:48,993 [INFO]  Epoch[0] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:46:49,023 [INFO]  Epoch[1] Batch [0-52]	Speed: 28935.11 samples/sec	cross-entropy=0.183118	DIQ010-accuracy=3.056604
+2024-03-06 12:46:49,051 [INFO]  Epoch[1] Train-cross-entropy=0.166955
+2024-03-06 12:46:49,051 [INFO]  Epoch[1] Train-DIQ010-accuracy=3.077670
+2024-03-06 12:46:49,051 [INFO]  Epoch[1] Time cost=0.057
+2024-03-06 12:46:49,052 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0001.params"
+2024-03-06 12:46:49,054 [INFO]  Epoch[1] Validation-cross-entropy=0.100704
+2024-03-06 12:46:49,054 [INFO]  Epoch[1] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:46:49,084 [INFO]  Epoch[2] Batch [0-52]	Speed: 28653.80 samples/sec	cross-entropy=0.123883	DIQ010-accuracy=3.056604
+2024-03-06 12:46:49,112 [INFO]  Epoch[2] Train-cross-entropy=0.101763
+2024-03-06 12:46:49,112 [INFO]  Epoch[2] Train-DIQ010-accuracy=3.077670
+2024-03-06 12:46:49,112 [INFO]  Epoch[2] Time cost=0.058
+2024-03-06 12:46:49,113 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0002.params"
+2024-03-06 12:46:49,116 [INFO]  Epoch[2] Validation-cross-entropy=0.074900
+2024-03-06 12:46:49,116 [INFO]  Epoch[2] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:46:49,145 [INFO]  Epoch[3] Batch [0-52]	Speed: 29113.26 samples/sec	cross-entropy=0.118863	DIQ010-accuracy=3.056604
+2024-03-06 12:46:49,173 [INFO]  Epoch[3] Train-cross-entropy=0.114378
+2024-03-06 12:46:49,173 [INFO]  Epoch[3] Train-DIQ010-accuracy=3.077670
+2024-03-06 12:46:49,173 [INFO]  Epoch[3] Time cost=0.057
+2024-03-06 12:46:49,175 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0003.params"
+2024-03-06 12:46:49,177 [INFO]  Epoch[3] Validation-cross-entropy=0.133231
+2024-03-06 12:46:49,177 [INFO]  Epoch[3] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:46:49,207 [INFO]  Epoch[4] Batch [0-52]	Speed: 28736.15 samples/sec	cross-entropy=0.218499	DIQ010-accuracy=3.056604
+2024-03-06 12:46:49,235 [INFO]  Epoch[4] Train-cross-entropy=0.167230
+2024-03-06 12:46:49,235 [INFO]  Epoch[4] Train-DIQ010-accuracy=3.077670
+2024-03-06 12:46:49,235 [INFO]  Epoch[4] Time cost=0.058
+2024-03-06 12:46:49,236 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0004.params"
+2024-03-06 12:46:49,239 [INFO]  Epoch[4] Validation-cross-entropy=0.106034
+2024-03-06 12:46:49,239 [INFO]  Epoch[4] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:46:49,239 [INFO]  
+========== done (0.30806422233581543 s) fit model
+2024-03-06 12:47:15,073 [INFO]  
+========== start: fit model
+2024-03-06 12:47:15,074 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:47:15,112 [INFO]  Epoch[0] Batch [0-52]	Speed: 22846.02 samples/sec	cross-entropy=8.643743	DIQ010-accuracy=3.094340
+2024-03-06 12:47:15,157 [INFO]  Epoch[0] Train-cross-entropy=4.624853
+2024-03-06 12:47:15,158 [INFO]  Epoch[0] Train-DIQ010-accuracy=3.174757
+2024-03-06 12:47:15,158 [INFO]  Epoch[0] Time cost=0.083
+2024-03-06 12:47:15,159 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0000.params"
+2024-03-06 12:47:15,162 [INFO]  Epoch[0] Validation-cross-entropy=0.191991
+2024-03-06 12:47:15,162 [INFO]  Epoch[0] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:47:15,205 [INFO]  Epoch[1] Batch [0-52]	Speed: 20070.98 samples/sec	cross-entropy=0.169032	DIQ010-accuracy=3.094340
+2024-03-06 12:47:15,249 [INFO]  Epoch[1] Train-cross-entropy=0.126598
+2024-03-06 12:47:15,250 [INFO]  Epoch[1] Train-DIQ010-accuracy=3.174757
+2024-03-06 12:47:15,250 [INFO]  Epoch[1] Time cost=0.088
+2024-03-06 12:47:15,252 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0001.params"
+2024-03-06 12:47:15,256 [INFO]  Epoch[1] Validation-cross-entropy=0.092866
+2024-03-06 12:47:15,256 [INFO]  Epoch[1] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:47:15,337 [INFO]  Epoch[2] Batch [0-52]	Speed: 10425.30 samples/sec	cross-entropy=0.065455	DIQ010-accuracy=3.094340
+2024-03-06 12:47:15,433 [INFO]  Epoch[2] Train-cross-entropy=0.056027
+2024-03-06 12:47:15,433 [INFO]  Epoch[2] Train-DIQ010-accuracy=3.174757
+2024-03-06 12:47:15,433 [INFO]  Epoch[2] Time cost=0.177
+2024-03-06 12:47:15,435 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0002.params"
+2024-03-06 12:47:15,438 [INFO]  Epoch[2] Validation-cross-entropy=0.083158
+2024-03-06 12:47:15,438 [INFO]  Epoch[2] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:47:15,486 [INFO]  Epoch[3] Batch [0-52]	Speed: 17936.63 samples/sec	cross-entropy=0.056602	DIQ010-accuracy=3.094340
+2024-03-06 12:47:15,532 [INFO]  Epoch[3] Train-cross-entropy=0.057581
+2024-03-06 12:47:15,532 [INFO]  Epoch[3] Train-DIQ010-accuracy=3.174757
+2024-03-06 12:47:15,532 [INFO]  Epoch[3] Time cost=0.094
+2024-03-06 12:47:15,534 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0003.params"
+2024-03-06 12:47:15,537 [INFO]  Epoch[3] Validation-cross-entropy=0.075634
+2024-03-06 12:47:15,537 [INFO]  Epoch[3] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:47:15,590 [INFO]  Epoch[4] Batch [0-52]	Speed: 15978.67 samples/sec	cross-entropy=0.076198	DIQ010-accuracy=3.094340
+2024-03-06 12:47:15,630 [INFO]  Epoch[4] Train-cross-entropy=0.074428
+2024-03-06 12:47:15,630 [INFO]  Epoch[4] Train-DIQ010-accuracy=3.174757
+2024-03-06 12:47:15,630 [INFO]  Epoch[4] Time cost=0.093
+2024-03-06 12:47:15,632 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0004.params"
+2024-03-06 12:47:15,635 [INFO]  Epoch[4] Validation-cross-entropy=0.099715
+2024-03-06 12:47:15,635 [INFO]  Epoch[4] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:47:15,635 [INFO]  
+========== done (0.5619721412658691 s) fit model
+2024-03-06 12:47:39,776 [INFO]  
+========== start: fit model
+2024-03-06 12:47:39,776 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:47:39,816 [INFO]  Epoch[0] Batch [0-52]	Speed: 21800.43 samples/sec	cross-entropy=3.313577	DIQ010-accuracy=3.037736
+2024-03-06 12:47:39,844 [INFO]  Epoch[0] Train-cross-entropy=1.955146
+2024-03-06 12:47:39,844 [INFO]  Epoch[0] Train-DIQ010-accuracy=3.126214
+2024-03-06 12:47:39,844 [INFO]  Epoch[0] Time cost=0.067
+2024-03-06 12:47:39,845 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0000.params"
+2024-03-06 12:47:39,848 [INFO]  Epoch[0] Validation-cross-entropy=1.399939
+2024-03-06 12:47:39,848 [INFO]  Epoch[0] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:47:39,877 [INFO]  Epoch[1] Batch [0-52]	Speed: 28962.97 samples/sec	cross-entropy=0.219122	DIQ010-accuracy=3.037736
+2024-03-06 12:47:39,905 [INFO]  Epoch[1] Train-cross-entropy=0.175088
+2024-03-06 12:47:39,905 [INFO]  Epoch[1] Train-DIQ010-accuracy=3.126214
+2024-03-06 12:47:39,905 [INFO]  Epoch[1] Time cost=0.057
+2024-03-06 12:47:39,907 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0001.params"
+2024-03-06 12:47:39,909 [INFO]  Epoch[1] Validation-cross-entropy=0.465402
+2024-03-06 12:47:39,909 [INFO]  Epoch[1] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:47:39,939 [INFO]  Epoch[2] Batch [0-52]	Speed: 28129.04 samples/sec	cross-entropy=0.082322	DIQ010-accuracy=3.037736
+2024-03-06 12:47:39,967 [INFO]  Epoch[2] Train-cross-entropy=0.066796
+2024-03-06 12:47:39,967 [INFO]  Epoch[2] Train-DIQ010-accuracy=3.126214
+2024-03-06 12:47:39,967 [INFO]  Epoch[2] Time cost=0.058
+2024-03-06 12:47:39,969 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0002.params"
+2024-03-06 12:47:39,971 [INFO]  Epoch[2] Validation-cross-entropy=0.163178
+2024-03-06 12:47:39,971 [INFO]  Epoch[2] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:47:40,000 [INFO]  Epoch[3] Batch [0-52]	Speed: 29269.05 samples/sec	cross-entropy=0.048984	DIQ010-accuracy=3.037736
+2024-03-06 12:47:40,028 [INFO]  Epoch[3] Train-cross-entropy=0.041093
+2024-03-06 12:47:40,028 [INFO]  Epoch[3] Train-DIQ010-accuracy=3.126214
+2024-03-06 12:47:40,028 [INFO]  Epoch[3] Time cost=0.057
+2024-03-06 12:47:40,029 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0003.params"
+2024-03-06 12:47:40,032 [INFO]  Epoch[3] Validation-cross-entropy=0.114278
+2024-03-06 12:47:40,032 [INFO]  Epoch[3] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:47:40,061 [INFO]  Epoch[4] Batch [0-52]	Speed: 28960.08 samples/sec	cross-entropy=0.038871	DIQ010-accuracy=3.037736
+2024-03-06 12:47:40,089 [INFO]  Epoch[4] Train-cross-entropy=0.033147
+2024-03-06 12:47:40,089 [INFO]  Epoch[4] Train-DIQ010-accuracy=3.126214
+2024-03-06 12:47:40,089 [INFO]  Epoch[4] Time cost=0.057
+2024-03-06 12:47:40,090 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0004.params"
+2024-03-06 12:47:40,092 [INFO]  Epoch[4] Validation-cross-entropy=0.096557
+2024-03-06 12:47:40,092 [INFO]  Epoch[4] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:47:40,093 [INFO]  
+========== done (0.3164541721343994 s) fit model
+2024-03-06 12:48:04,491 [INFO]  
+========== start: fit model
+2024-03-06 12:48:04,491 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:48:04,684 [INFO]  Epoch[0] Batch [0-52]	Speed: 15927.11 samples/sec	cross-entropy=4.044761	DIQ010-accuracy=3.415094
+2024-03-06 12:48:04,732 [INFO]  Epoch[0] Train-cross-entropy=2.371550
+2024-03-06 12:48:04,733 [INFO]  Epoch[0] Train-DIQ010-accuracy=3.106796
+2024-03-06 12:48:04,733 [INFO]  Epoch[0] Time cost=0.241
+2024-03-06 12:48:04,735 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0000.params"
+2024-03-06 12:48:04,739 [INFO]  Epoch[0] Validation-cross-entropy=0.264804
+2024-03-06 12:48:04,739 [INFO]  Epoch[0] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:48:04,788 [INFO]  Epoch[1] Batch [0-52]	Speed: 18088.83 samples/sec	cross-entropy=0.137936	DIQ010-accuracy=3.415094
+2024-03-06 12:48:04,822 [INFO]  Epoch[1] Train-cross-entropy=0.158252
+2024-03-06 12:48:04,822 [INFO]  Epoch[1] Train-DIQ010-accuracy=3.106796
+2024-03-06 12:48:04,822 [INFO]  Epoch[1] Time cost=0.083
+2024-03-06 12:48:04,824 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0001.params"
+2024-03-06 12:48:04,828 [INFO]  Epoch[1] Validation-cross-entropy=0.453571
+2024-03-06 12:48:04,828 [INFO]  Epoch[1] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:48:04,881 [INFO]  Epoch[2] Batch [0-52]	Speed: 16146.87 samples/sec	cross-entropy=0.094087	DIQ010-accuracy=3.415094
+2024-03-06 12:48:04,925 [INFO]  Epoch[2] Train-cross-entropy=0.110025
+2024-03-06 12:48:04,925 [INFO]  Epoch[2] Train-DIQ010-accuracy=3.106796
+2024-03-06 12:48:04,925 [INFO]  Epoch[2] Time cost=0.097
+2024-03-06 12:48:04,927 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0002.params"
+2024-03-06 12:48:04,930 [INFO]  Epoch[2] Validation-cross-entropy=0.126303
+2024-03-06 12:48:04,930 [INFO]  Epoch[2] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:48:04,985 [INFO]  Epoch[3] Batch [0-52]	Speed: 15500.65 samples/sec	cross-entropy=0.049859	DIQ010-accuracy=3.415094
+2024-03-06 12:48:05,031 [INFO]  Epoch[3] Train-cross-entropy=0.088999
+2024-03-06 12:48:05,032 [INFO]  Epoch[3] Train-DIQ010-accuracy=3.106796
+2024-03-06 12:48:05,032 [INFO]  Epoch[3] Time cost=0.101
+2024-03-06 12:48:05,034 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0003.params"
+2024-03-06 12:48:05,038 [INFO]  Epoch[3] Validation-cross-entropy=0.162914
+2024-03-06 12:48:05,038 [INFO]  Epoch[3] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:48:05,088 [INFO]  Epoch[4] Batch [0-52]	Speed: 17115.41 samples/sec	cross-entropy=0.052851	DIQ010-accuracy=3.415094
+2024-03-06 12:48:05,133 [INFO]  Epoch[4] Train-cross-entropy=0.113180
+2024-03-06 12:48:05,134 [INFO]  Epoch[4] Train-DIQ010-accuracy=3.106796
+2024-03-06 12:48:05,134 [INFO]  Epoch[4] Time cost=0.096
+2024-03-06 12:48:05,136 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0004.params"
+2024-03-06 12:48:05,140 [INFO]  Epoch[4] Validation-cross-entropy=0.112163
+2024-03-06 12:48:05,140 [INFO]  Epoch[4] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:48:05,140 [INFO]  
+========== done (0.6492877006530762 s) fit model
+2024-03-06 12:48:28,312 [INFO]  
+========== start: fit model
+2024-03-06 12:48:28,312 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:48:28,347 [INFO]  Epoch[0] Batch [0-52]	Speed: 25343.96 samples/sec	cross-entropy=5.600815	DIQ010-accuracy=3.113208
+2024-03-06 12:48:28,379 [INFO]  Epoch[0] Train-cross-entropy=3.085675
+2024-03-06 12:48:28,379 [INFO]  Epoch[0] Train-DIQ010-accuracy=3.058252
+2024-03-06 12:48:28,379 [INFO]  Epoch[0] Time cost=0.066
+2024-03-06 12:48:28,380 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0000.params"
+2024-03-06 12:48:28,383 [INFO]  Epoch[0] Validation-cross-entropy=0.276492
+2024-03-06 12:48:28,383 [INFO]  Epoch[0] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:48:28,416 [INFO]  Epoch[1] Batch [0-52]	Speed: 25662.48 samples/sec	cross-entropy=0.172240	DIQ010-accuracy=3.113208
+2024-03-06 12:48:28,447 [INFO]  Epoch[1] Train-cross-entropy=0.128216
+2024-03-06 12:48:28,448 [INFO]  Epoch[1] Train-DIQ010-accuracy=3.058252
+2024-03-06 12:48:28,448 [INFO]  Epoch[1] Time cost=0.065
+2024-03-06 12:48:28,449 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0001.params"
+2024-03-06 12:48:28,451 [INFO]  Epoch[1] Validation-cross-entropy=0.068581
+2024-03-06 12:48:28,451 [INFO]  Epoch[1] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:48:28,486 [INFO]  Epoch[2] Batch [0-52]	Speed: 24759.03 samples/sec	cross-entropy=0.068716	DIQ010-accuracy=3.113208
+2024-03-06 12:48:28,518 [INFO]  Epoch[2] Train-cross-entropy=0.059135
+2024-03-06 12:48:28,518 [INFO]  Epoch[2] Train-DIQ010-accuracy=3.058252
+2024-03-06 12:48:28,518 [INFO]  Epoch[2] Time cost=0.066
+2024-03-06 12:48:28,519 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0002.params"
+2024-03-06 12:48:28,522 [INFO]  Epoch[2] Validation-cross-entropy=0.043582
+2024-03-06 12:48:28,522 [INFO]  Epoch[2] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:48:28,555 [INFO]  Epoch[3] Batch [0-52]	Speed: 25388.77 samples/sec	cross-entropy=0.045254	DIQ010-accuracy=3.113208
+2024-03-06 12:48:28,583 [INFO]  Epoch[3] Train-cross-entropy=0.042449
+2024-03-06 12:48:28,583 [INFO]  Epoch[3] Train-DIQ010-accuracy=3.058252
+2024-03-06 12:48:28,583 [INFO]  Epoch[3] Time cost=0.062
+2024-03-06 12:48:28,585 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0003.params"
+2024-03-06 12:48:28,587 [INFO]  Epoch[3] Validation-cross-entropy=0.032949
+2024-03-06 12:48:28,587 [INFO]  Epoch[3] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:48:28,616 [INFO]  Epoch[4] Batch [0-52]	Speed: 28976.19 samples/sec	cross-entropy=0.035947	DIQ010-accuracy=3.113208
+2024-03-06 12:48:28,644 [INFO]  Epoch[4] Train-cross-entropy=0.034769
+2024-03-06 12:48:28,644 [INFO]  Epoch[4] Train-DIQ010-accuracy=3.058252
+2024-03-06 12:48:28,644 [INFO]  Epoch[4] Time cost=0.057
+2024-03-06 12:48:28,645 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0004.params"
+2024-03-06 12:48:28,647 [INFO]  Epoch[4] Validation-cross-entropy=0.027021
+2024-03-06 12:48:28,648 [INFO]  Epoch[4] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:48:28,648 [INFO]  
+========== done (0.33559679985046387 s) fit model
+2024-03-06 12:48:52,089 [INFO]  
+========== start: fit model
+2024-03-06 12:48:52,090 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:48:52,142 [INFO]  Epoch[0] Batch [0-52]	Speed: 17123.64 samples/sec	cross-entropy=6.483807	DIQ010-accuracy=0.000000
+2024-03-06 12:48:52,510 [INFO]  Epoch[0] Train-cross-entropy=3.614863
+2024-03-06 12:48:52,511 [INFO]  Epoch[0] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:48:52,511 [INFO]  Epoch[0] Time cost=0.421
+2024-03-06 12:48:52,513 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0000.params"
+2024-03-06 12:48:52,516 [INFO]  Epoch[0] Validation-cross-entropy=0.320619
+2024-03-06 12:48:52,517 [INFO]  Epoch[0] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:48:52,646 [INFO]  Epoch[1] Batch [0-52]	Speed: 6491.16 samples/sec	cross-entropy=0.264116	DIQ010-accuracy=0.000000
+2024-03-06 12:48:52,691 [INFO]  Epoch[1] Train-cross-entropy=0.184031
+2024-03-06 12:48:52,691 [INFO]  Epoch[1] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:48:52,691 [INFO]  Epoch[1] Time cost=0.174
+2024-03-06 12:48:52,692 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0001.params"
+2024-03-06 12:48:52,696 [INFO]  Epoch[1] Validation-cross-entropy=0.079195
+2024-03-06 12:48:52,696 [INFO]  Epoch[1] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:48:52,767 [INFO]  Epoch[2] Batch [0-52]	Speed: 12030.04 samples/sec	cross-entropy=0.080406	DIQ010-accuracy=0.000000
+2024-03-06 12:48:52,815 [INFO]  Epoch[2] Train-cross-entropy=0.078109
+2024-03-06 12:48:52,816 [INFO]  Epoch[2] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:48:52,816 [INFO]  Epoch[2] Time cost=0.120
+2024-03-06 12:48:52,818 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0002.params"
+2024-03-06 12:48:52,822 [INFO]  Epoch[2] Validation-cross-entropy=0.083335
+2024-03-06 12:48:52,822 [INFO]  Epoch[2] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:48:52,871 [INFO]  Epoch[3] Batch [0-52]	Speed: 17550.54 samples/sec	cross-entropy=0.098122	DIQ010-accuracy=0.000000
+2024-03-06 12:48:52,917 [INFO]  Epoch[3] Train-cross-entropy=0.078815
+2024-03-06 12:48:52,917 [INFO]  Epoch[3] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:48:52,917 [INFO]  Epoch[3] Time cost=0.095
+2024-03-06 12:48:52,919 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0003.params"
+2024-03-06 12:48:52,923 [INFO]  Epoch[3] Validation-cross-entropy=0.033184
+2024-03-06 12:48:52,923 [INFO]  Epoch[3] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:48:52,971 [INFO]  Epoch[4] Batch [0-52]	Speed: 17755.29 samples/sec	cross-entropy=0.098741	DIQ010-accuracy=0.000000
+2024-03-06 12:48:53,016 [INFO]  Epoch[4] Train-cross-entropy=0.083018
+2024-03-06 12:48:53,017 [INFO]  Epoch[4] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:48:53,017 [INFO]  Epoch[4] Time cost=0.094
+2024-03-06 12:48:53,019 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0004.params"
+2024-03-06 12:48:53,023 [INFO]  Epoch[4] Validation-cross-entropy=0.110628
+2024-03-06 12:48:53,023 [INFO]  Epoch[4] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:48:53,023 [INFO]  
+========== done (0.9337043762207031 s) fit model
+2024-03-06 12:49:17,237 [INFO]  
+========== start: fit model
+2024-03-06 12:49:17,237 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:49:17,274 [INFO]  Epoch[0] Batch [0-52]	Speed: 23812.57 samples/sec	cross-entropy=6.308229	DIQ010-accuracy=3.075472
+2024-03-06 12:49:17,306 [INFO]  Epoch[0] Train-cross-entropy=3.417325
+2024-03-06 12:49:17,306 [INFO]  Epoch[0] Train-DIQ010-accuracy=3.106796
+2024-03-06 12:49:17,306 [INFO]  Epoch[0] Time cost=0.068
+2024-03-06 12:49:17,307 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0000.params"
+2024-03-06 12:49:17,310 [INFO]  Epoch[0] Validation-cross-entropy=0.138751
+2024-03-06 12:49:17,310 [INFO]  Epoch[0] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:49:17,344 [INFO]  Epoch[1] Batch [0-52]	Speed: 25284.28 samples/sec	cross-entropy=0.202912	DIQ010-accuracy=3.075472
+2024-03-06 12:49:17,376 [INFO]  Epoch[1] Train-cross-entropy=0.184009
+2024-03-06 12:49:17,376 [INFO]  Epoch[1] Train-DIQ010-accuracy=3.106796
+2024-03-06 12:49:17,376 [INFO]  Epoch[1] Time cost=0.066
+2024-03-06 12:49:17,377 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0001.params"
+2024-03-06 12:49:17,380 [INFO]  Epoch[1] Validation-cross-entropy=0.076865
+2024-03-06 12:49:17,380 [INFO]  Epoch[1] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:49:17,577 [INFO]  Epoch[2] Batch [0-52]	Speed: 4226.66 samples/sec	cross-entropy=0.108856	DIQ010-accuracy=3.075472
+2024-03-06 12:49:17,619 [INFO]  Epoch[2] Train-cross-entropy=0.097952
+2024-03-06 12:49:17,620 [INFO]  Epoch[2] Train-DIQ010-accuracy=3.106796
+2024-03-06 12:49:17,620 [INFO]  Epoch[2] Time cost=0.240
+2024-03-06 12:49:17,621 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0002.params"
+2024-03-06 12:49:17,623 [INFO]  Epoch[2] Validation-cross-entropy=0.073130
+2024-03-06 12:49:17,624 [INFO]  Epoch[2] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:49:17,657 [INFO]  Epoch[3] Batch [0-52]	Speed: 25187.38 samples/sec	cross-entropy=0.067168	DIQ010-accuracy=3.075472
+2024-03-06 12:49:17,689 [INFO]  Epoch[3] Train-cross-entropy=0.061894
+2024-03-06 12:49:17,690 [INFO]  Epoch[3] Train-DIQ010-accuracy=3.106796
+2024-03-06 12:49:17,690 [INFO]  Epoch[3] Time cost=0.066
+2024-03-06 12:49:17,691 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0003.params"
+2024-03-06 12:49:17,694 [INFO]  Epoch[3] Validation-cross-entropy=0.083207
+2024-03-06 12:49:17,694 [INFO]  Epoch[3] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:49:17,727 [INFO]  Epoch[4] Batch [0-52]	Speed: 25258.84 samples/sec	cross-entropy=0.043578	DIQ010-accuracy=3.075472
+2024-03-06 12:49:17,759 [INFO]  Epoch[4] Train-cross-entropy=0.041478
+2024-03-06 12:49:17,760 [INFO]  Epoch[4] Train-DIQ010-accuracy=3.106796
+2024-03-06 12:49:17,760 [INFO]  Epoch[4] Time cost=0.066
+2024-03-06 12:49:17,761 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0004.params"
+2024-03-06 12:49:17,764 [INFO]  Epoch[4] Validation-cross-entropy=0.080813
+2024-03-06 12:49:17,764 [INFO]  Epoch[4] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:49:17,764 [INFO]  
+========== done (0.5271821022033691 s) fit model
+2024-03-06 12:49:38,742 [INFO]  
+========== start: fit model
+2024-03-06 12:49:38,742 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:49:38,779 [INFO]  Epoch[0] Batch [0-52]	Speed: 23823.30 samples/sec	cross-entropy=4.816319	DIQ010-accuracy=3.264151
+2024-03-06 12:49:38,811 [INFO]  Epoch[0] Train-cross-entropy=2.682748
+2024-03-06 12:49:38,811 [INFO]  Epoch[0] Train-DIQ010-accuracy=3.077670
+2024-03-06 12:49:38,812 [INFO]  Epoch[0] Time cost=0.069
+2024-03-06 12:49:38,813 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0000.params"
+2024-03-06 12:49:38,816 [INFO]  Epoch[0] Validation-cross-entropy=0.153349
+2024-03-06 12:49:38,816 [INFO]  Epoch[0] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:49:38,850 [INFO]  Epoch[1] Batch [0-52]	Speed: 24964.84 samples/sec	cross-entropy=0.138899	DIQ010-accuracy=3.264151
+2024-03-06 12:49:38,882 [INFO]  Epoch[1] Train-cross-entropy=0.109582
+2024-03-06 12:49:38,883 [INFO]  Epoch[1] Train-DIQ010-accuracy=3.077670
+2024-03-06 12:49:38,883 [INFO]  Epoch[1] Time cost=0.067
+2024-03-06 12:49:38,884 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0001.params"
+2024-03-06 12:49:38,886 [INFO]  Epoch[1] Validation-cross-entropy=0.065638
+2024-03-06 12:49:38,886 [INFO]  Epoch[1] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:49:38,921 [INFO]  Epoch[2] Batch [0-52]	Speed: 24709.94 samples/sec	cross-entropy=0.087628	DIQ010-accuracy=3.264151
+2024-03-06 12:49:38,953 [INFO]  Epoch[2] Train-cross-entropy=0.085273
+2024-03-06 12:49:38,954 [INFO]  Epoch[2] Train-DIQ010-accuracy=3.077670
+2024-03-06 12:49:38,954 [INFO]  Epoch[2] Time cost=0.067
+2024-03-06 12:49:38,955 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0002.params"
+2024-03-06 12:49:38,957 [INFO]  Epoch[2] Validation-cross-entropy=0.050035
+2024-03-06 12:49:38,957 [INFO]  Epoch[2] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:49:38,992 [INFO]  Epoch[3] Batch [0-52]	Speed: 24986.83 samples/sec	cross-entropy=0.082960	DIQ010-accuracy=3.264151
+2024-03-06 12:49:39,024 [INFO]  Epoch[3] Train-cross-entropy=0.074993
+2024-03-06 12:49:39,024 [INFO]  Epoch[3] Train-DIQ010-accuracy=3.077670
+2024-03-06 12:49:39,024 [INFO]  Epoch[3] Time cost=0.067
+2024-03-06 12:49:39,026 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0003.params"
+2024-03-06 12:49:39,028 [INFO]  Epoch[3] Validation-cross-entropy=0.044177
+2024-03-06 12:49:39,028 [INFO]  Epoch[3] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:49:39,063 [INFO]  Epoch[4] Batch [0-52]	Speed: 24738.14 samples/sec	cross-entropy=0.059729	DIQ010-accuracy=3.264151
+2024-03-06 12:49:39,095 [INFO]  Epoch[4] Train-cross-entropy=0.051846
+2024-03-06 12:49:39,095 [INFO]  Epoch[4] Train-DIQ010-accuracy=3.077670
+2024-03-06 12:49:39,095 [INFO]  Epoch[4] Time cost=0.067
+2024-03-06 12:49:39,097 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0004.params"
+2024-03-06 12:49:39,099 [INFO]  Epoch[4] Validation-cross-entropy=0.041129
+2024-03-06 12:49:39,099 [INFO]  Epoch[4] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:49:39,099 [INFO]  
+========== done (0.35750532150268555 s) fit model
+2024-03-06 12:50:02,639 [INFO]  
+========== start: fit model
+2024-03-06 12:50:02,639 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:50:02,670 [INFO]  Epoch[0] Batch [0-52]	Speed: 28513.33 samples/sec	cross-entropy=5.510873	DIQ010-accuracy=2.962264
+2024-03-06 12:50:02,697 [INFO]  Epoch[0] Train-cross-entropy=3.100022
+2024-03-06 12:50:02,698 [INFO]  Epoch[0] Train-DIQ010-accuracy=2.990291
+2024-03-06 12:50:02,698 [INFO]  Epoch[0] Time cost=0.058
+2024-03-06 12:50:02,699 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0000.params"
+2024-03-06 12:50:02,701 [INFO]  Epoch[0] Validation-cross-entropy=0.376653
+2024-03-06 12:50:02,701 [INFO]  Epoch[0] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:50:02,734 [INFO]  Epoch[1] Batch [0-52]	Speed: 26223.66 samples/sec	cross-entropy=0.523192	DIQ010-accuracy=2.962264
+2024-03-06 12:50:02,766 [INFO]  Epoch[1] Train-cross-entropy=0.380165
+2024-03-06 12:50:02,766 [INFO]  Epoch[1] Train-DIQ010-accuracy=2.990291
+2024-03-06 12:50:02,766 [INFO]  Epoch[1] Time cost=0.065
+2024-03-06 12:50:02,768 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0001.params"
+2024-03-06 12:50:02,770 [INFO]  Epoch[1] Validation-cross-entropy=0.115972
+2024-03-06 12:50:02,770 [INFO]  Epoch[1] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:50:02,805 [INFO]  Epoch[2] Batch [0-52]	Speed: 24602.62 samples/sec	cross-entropy=0.144774	DIQ010-accuracy=2.962264
+2024-03-06 12:50:02,837 [INFO]  Epoch[2] Train-cross-entropy=0.118495
+2024-03-06 12:50:02,837 [INFO]  Epoch[2] Train-DIQ010-accuracy=2.990291
+2024-03-06 12:50:02,837 [INFO]  Epoch[2] Time cost=0.067
+2024-03-06 12:50:02,839 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0002.params"
+2024-03-06 12:50:02,841 [INFO]  Epoch[2] Validation-cross-entropy=0.105573
+2024-03-06 12:50:02,841 [INFO]  Epoch[2] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:50:02,871 [INFO]  Epoch[3] Batch [0-52]	Speed: 28529.88 samples/sec	cross-entropy=0.074047	DIQ010-accuracy=2.962264
+2024-03-06 12:50:02,899 [INFO]  Epoch[3] Train-cross-entropy=0.067053
+2024-03-06 12:50:02,899 [INFO]  Epoch[3] Train-DIQ010-accuracy=2.990291
+2024-03-06 12:50:02,899 [INFO]  Epoch[3] Time cost=0.058
+2024-03-06 12:50:02,900 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0003.params"
+2024-03-06 12:50:02,903 [INFO]  Epoch[3] Validation-cross-entropy=0.073456
+2024-03-06 12:50:02,903 [INFO]  Epoch[3] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:50:02,937 [INFO]  Epoch[4] Batch [0-52]	Speed: 24884.91 samples/sec	cross-entropy=0.050167	DIQ010-accuracy=2.962264
+2024-03-06 12:50:02,969 [INFO]  Epoch[4] Train-cross-entropy=0.045104
+2024-03-06 12:50:02,969 [INFO]  Epoch[4] Train-DIQ010-accuracy=2.990291
+2024-03-06 12:50:02,969 [INFO]  Epoch[4] Time cost=0.067
+2024-03-06 12:50:02,971 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0004.params"
+2024-03-06 12:50:02,973 [INFO]  Epoch[4] Validation-cross-entropy=0.076552
+2024-03-06 12:50:02,973 [INFO]  Epoch[4] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:50:02,973 [INFO]  
+========== done (0.33460569381713867 s) fit model
+2024-03-06 12:50:23,519 [INFO]  
+========== start: fit model
+2024-03-06 12:50:23,519 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:50:23,560 [INFO]  Epoch[0] Batch [0-52]	Speed: 21869.57 samples/sec	cross-entropy=6.269633	DIQ010-accuracy=3.283019
+2024-03-06 12:50:23,591 [INFO]  Epoch[0] Train-cross-entropy=3.394715
+2024-03-06 12:50:23,591 [INFO]  Epoch[0] Train-DIQ010-accuracy=3.135922
+2024-03-06 12:50:23,591 [INFO]  Epoch[0] Time cost=0.071
+2024-03-06 12:50:23,593 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0000.params"
+2024-03-06 12:50:23,595 [INFO]  Epoch[0] Validation-cross-entropy=0.526984
+2024-03-06 12:50:23,595 [INFO]  Epoch[0] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:50:23,628 [INFO]  Epoch[1] Batch [0-52]	Speed: 26331.70 samples/sec	cross-entropy=0.176141	DIQ010-accuracy=3.283019
+2024-03-06 12:50:23,657 [INFO]  Epoch[1] Train-cross-entropy=0.177170
+2024-03-06 12:50:23,657 [INFO]  Epoch[1] Train-DIQ010-accuracy=3.135922
+2024-03-06 12:50:23,657 [INFO]  Epoch[1] Time cost=0.062
+2024-03-06 12:50:23,659 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0001.params"
+2024-03-06 12:50:23,661 [INFO]  Epoch[1] Validation-cross-entropy=0.267117
+2024-03-06 12:50:23,661 [INFO]  Epoch[1] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:50:23,692 [INFO]  Epoch[2] Batch [0-52]	Speed: 27144.01 samples/sec	cross-entropy=0.078749	DIQ010-accuracy=3.283019
+2024-03-06 12:50:23,725 [INFO]  Epoch[2] Train-cross-entropy=0.075958
+2024-03-06 12:50:23,725 [INFO]  Epoch[2] Train-DIQ010-accuracy=3.135922
+2024-03-06 12:50:23,725 [INFO]  Epoch[2] Time cost=0.064
+2024-03-06 12:50:23,726 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0002.params"
+2024-03-06 12:50:23,729 [INFO]  Epoch[2] Validation-cross-entropy=0.142905
+2024-03-06 12:50:23,729 [INFO]  Epoch[2] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:50:23,763 [INFO]  Epoch[3] Batch [0-52]	Speed: 24794.39 samples/sec	cross-entropy=0.051546	DIQ010-accuracy=3.283019
+2024-03-06 12:50:23,796 [INFO]  Epoch[3] Train-cross-entropy=0.066315
+2024-03-06 12:50:23,796 [INFO]  Epoch[3] Train-DIQ010-accuracy=3.135922
+2024-03-06 12:50:23,796 [INFO]  Epoch[3] Time cost=0.067
+2024-03-06 12:50:23,797 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0003.params"
+2024-03-06 12:50:23,800 [INFO]  Epoch[3] Validation-cross-entropy=0.107962
+2024-03-06 12:50:23,800 [INFO]  Epoch[3] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:50:23,834 [INFO]  Epoch[4] Batch [0-52]	Speed: 24657.91 samples/sec	cross-entropy=0.036180	DIQ010-accuracy=3.283019
+2024-03-06 12:50:23,867 [INFO]  Epoch[4] Train-cross-entropy=0.041588
+2024-03-06 12:50:23,867 [INFO]  Epoch[4] Train-DIQ010-accuracy=3.135922
+2024-03-06 12:50:23,867 [INFO]  Epoch[4] Time cost=0.067
+2024-03-06 12:50:23,868 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0004.params"
+2024-03-06 12:50:23,871 [INFO]  Epoch[4] Validation-cross-entropy=0.084860
+2024-03-06 12:50:23,871 [INFO]  Epoch[4] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:50:23,871 [INFO]  
+========== done (0.35178303718566895 s) fit model
+2024-03-06 12:50:48,336 [INFO]  
+========== start: fit model
+2024-03-06 12:50:48,336 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:50:48,373 [INFO]  Epoch[0] Batch [0-52]	Speed: 23981.78 samples/sec	cross-entropy=9.061766	DIQ010-accuracy=3.150943
+2024-03-06 12:50:48,404 [INFO]  Epoch[0] Train-cross-entropy=4.965580
+2024-03-06 12:50:48,404 [INFO]  Epoch[0] Train-DIQ010-accuracy=3.019417
+2024-03-06 12:50:48,404 [INFO]  Epoch[0] Time cost=0.068
+2024-03-06 12:50:48,406 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0000.params"
+2024-03-06 12:50:48,408 [INFO]  Epoch[0] Validation-cross-entropy=0.424780
+2024-03-06 12:50:48,408 [INFO]  Epoch[0] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:50:48,442 [INFO]  Epoch[1] Batch [0-52]	Speed: 25480.16 samples/sec	cross-entropy=0.385785	DIQ010-accuracy=3.150943
+2024-03-06 12:50:48,474 [INFO]  Epoch[1] Train-cross-entropy=0.291686
+2024-03-06 12:50:48,474 [INFO]  Epoch[1] Train-DIQ010-accuracy=3.019417
+2024-03-06 12:50:48,474 [INFO]  Epoch[1] Time cost=0.065
+2024-03-06 12:50:48,475 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0001.params"
+2024-03-06 12:50:48,478 [INFO]  Epoch[1] Validation-cross-entropy=0.204537
+2024-03-06 12:50:48,478 [INFO]  Epoch[1] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:50:48,512 [INFO]  Epoch[2] Batch [0-52]	Speed: 25121.20 samples/sec	cross-entropy=0.136446	DIQ010-accuracy=3.150943
+2024-03-06 12:50:48,543 [INFO]  Epoch[2] Train-cross-entropy=0.115552
+2024-03-06 12:50:48,544 [INFO]  Epoch[2] Train-DIQ010-accuracy=3.019417
+2024-03-06 12:50:48,544 [INFO]  Epoch[2] Time cost=0.066
+2024-03-06 12:50:48,545 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0002.params"
+2024-03-06 12:50:48,548 [INFO]  Epoch[2] Validation-cross-entropy=0.159819
+2024-03-06 12:50:48,548 [INFO]  Epoch[2] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:50:48,581 [INFO]  Epoch[3] Batch [0-52]	Speed: 25589.65 samples/sec	cross-entropy=0.064171	DIQ010-accuracy=3.150943
+2024-03-06 12:50:48,613 [INFO]  Epoch[3] Train-cross-entropy=0.065312
+2024-03-06 12:50:48,613 [INFO]  Epoch[3] Train-DIQ010-accuracy=3.019417
+2024-03-06 12:50:48,613 [INFO]  Epoch[3] Time cost=0.065
+2024-03-06 12:50:48,615 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0003.params"
+2024-03-06 12:50:48,617 [INFO]  Epoch[3] Validation-cross-entropy=0.164291
+2024-03-06 12:50:48,617 [INFO]  Epoch[3] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:50:48,651 [INFO]  Epoch[4] Batch [0-52]	Speed: 25424.10 samples/sec	cross-entropy=0.047165	DIQ010-accuracy=3.150943
+2024-03-06 12:50:48,683 [INFO]  Epoch[4] Train-cross-entropy=0.048448
+2024-03-06 12:50:48,683 [INFO]  Epoch[4] Train-DIQ010-accuracy=3.019417
+2024-03-06 12:50:48,683 [INFO]  Epoch[4] Time cost=0.065
+2024-03-06 12:50:48,684 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0004.params"
+2024-03-06 12:50:48,687 [INFO]  Epoch[4] Validation-cross-entropy=0.133076
+2024-03-06 12:50:48,687 [INFO]  Epoch[4] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:50:48,687 [INFO]  
+========== done (0.3514988422393799 s) fit model
+2024-03-06 12:51:11,404 [INFO]  
+========== start: fit model
+2024-03-06 12:51:11,404 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:51:11,446 [INFO]  Epoch[0] Batch [0-52]	Speed: 20957.67 samples/sec	cross-entropy=5.260851	DIQ010-accuracy=2.735849
+2024-03-06 12:51:11,478 [INFO]  Epoch[0] Train-cross-entropy=2.918518
+2024-03-06 12:51:11,478 [INFO]  Epoch[0] Train-DIQ010-accuracy=3.077670
+2024-03-06 12:51:11,478 [INFO]  Epoch[0] Time cost=0.073
+2024-03-06 12:51:11,479 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0000.params"
+2024-03-06 12:51:11,482 [INFO]  Epoch[0] Validation-cross-entropy=0.219005
+2024-03-06 12:51:11,482 [INFO]  Epoch[0] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:51:11,516 [INFO]  Epoch[1] Batch [0-52]	Speed: 25099.52 samples/sec	cross-entropy=0.120124	DIQ010-accuracy=2.735849
+2024-03-06 12:51:11,547 [INFO]  Epoch[1] Train-cross-entropy=0.121135
+2024-03-06 12:51:11,547 [INFO]  Epoch[1] Train-DIQ010-accuracy=3.077670
+2024-03-06 12:51:11,547 [INFO]  Epoch[1] Time cost=0.065
+2024-03-06 12:51:11,548 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0001.params"
+2024-03-06 12:51:11,551 [INFO]  Epoch[1] Validation-cross-entropy=0.133689
+2024-03-06 12:51:11,551 [INFO]  Epoch[1] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:51:11,583 [INFO]  Epoch[2] Batch [0-52]	Speed: 26442.03 samples/sec	cross-entropy=0.196894	DIQ010-accuracy=2.735849
+2024-03-06 12:51:11,614 [INFO]  Epoch[2] Train-cross-entropy=0.158407
+2024-03-06 12:51:11,614 [INFO]  Epoch[2] Train-DIQ010-accuracy=3.077670
+2024-03-06 12:51:11,614 [INFO]  Epoch[2] Time cost=0.063
+2024-03-06 12:51:11,615 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0002.params"
+2024-03-06 12:51:11,618 [INFO]  Epoch[2] Validation-cross-entropy=0.102176
+2024-03-06 12:51:11,618 [INFO]  Epoch[2] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:51:11,650 [INFO]  Epoch[3] Batch [0-52]	Speed: 26973.22 samples/sec	cross-entropy=0.068496	DIQ010-accuracy=2.735849
+2024-03-06 12:51:11,681 [INFO]  Epoch[3] Train-cross-entropy=0.088336
+2024-03-06 12:51:11,682 [INFO]  Epoch[3] Train-DIQ010-accuracy=3.077670
+2024-03-06 12:51:11,682 [INFO]  Epoch[3] Time cost=0.063
+2024-03-06 12:51:11,683 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0003.params"
+2024-03-06 12:51:11,686 [INFO]  Epoch[3] Validation-cross-entropy=0.163667
+2024-03-06 12:51:11,686 [INFO]  Epoch[3] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:51:11,720 [INFO]  Epoch[4] Batch [0-52]	Speed: 25150.89 samples/sec	cross-entropy=0.230420	DIQ010-accuracy=2.735849
+2024-03-06 12:51:11,754 [INFO]  Epoch[4] Train-cross-entropy=0.205094
+2024-03-06 12:51:11,754 [INFO]  Epoch[4] Train-DIQ010-accuracy=3.077670
+2024-03-06 12:51:11,754 [INFO]  Epoch[4] Time cost=0.068
+2024-03-06 12:51:11,757 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0004.params"
+2024-03-06 12:51:11,760 [INFO]  Epoch[4] Validation-cross-entropy=0.217093
+2024-03-06 12:51:11,760 [INFO]  Epoch[4] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:51:11,760 [INFO]  
+========== done (0.3559856414794922 s) fit model
+2024-03-06 12:51:43,132 [INFO]  
+========== start: fit model
+2024-03-06 12:51:43,132 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:51:43,753 [INFO]  Epoch[0] Batch [0-52]	Speed: 1414.64 samples/sec	cross-entropy=6.111980	DIQ010-accuracy=0.000000
+2024-03-06 12:51:43,786 [INFO]  Epoch[0] Train-cross-entropy=3.539855
+2024-03-06 12:51:43,786 [INFO]  Epoch[0] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:51:43,786 [INFO]  Epoch[0] Time cost=0.653
+2024-03-06 12:51:43,788 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0000.params"
+2024-03-06 12:51:43,790 [INFO]  Epoch[0] Validation-cross-entropy=0.943176
+2024-03-06 12:51:43,790 [INFO]  Epoch[0] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:51:43,859 [INFO]  Epoch[1] Batch [0-52]	Speed: 12161.94 samples/sec	cross-entropy=0.283220	DIQ010-accuracy=0.000000
+2024-03-06 12:51:43,938 [INFO]  Epoch[1] Train-cross-entropy=0.243992
+2024-03-06 12:51:43,939 [INFO]  Epoch[1] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:51:43,939 [INFO]  Epoch[1] Time cost=0.148
+2024-03-06 12:51:43,952 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0001.params"
+2024-03-06 12:51:43,966 [INFO]  Epoch[1] Validation-cross-entropy=0.355835
+2024-03-06 12:51:43,967 [INFO]  Epoch[1] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:51:44,206 [INFO]  Epoch[2] Batch [0-52]	Speed: 3487.40 samples/sec	cross-entropy=0.127230	DIQ010-accuracy=0.000000
+2024-03-06 12:51:44,263 [INFO]  Epoch[2] Train-cross-entropy=0.118471
+2024-03-06 12:51:44,263 [INFO]  Epoch[2] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:51:44,263 [INFO]  Epoch[2] Time cost=0.296
+2024-03-06 12:51:44,364 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0002.params"
+2024-03-06 12:51:44,373 [INFO]  Epoch[2] Validation-cross-entropy=0.253785
+2024-03-06 12:51:44,373 [INFO]  Epoch[2] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:51:44,423 [INFO]  Epoch[3] Batch [0-52]	Speed: 17197.56 samples/sec	cross-entropy=0.089292	DIQ010-accuracy=0.000000
+2024-03-06 12:51:44,470 [INFO]  Epoch[3] Train-cross-entropy=0.092956
+2024-03-06 12:51:44,470 [INFO]  Epoch[3] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:51:44,470 [INFO]  Epoch[3] Time cost=0.096
+2024-03-06 12:51:44,472 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0003.params"
+2024-03-06 12:51:44,476 [INFO]  Epoch[3] Validation-cross-entropy=0.227346
+2024-03-06 12:51:44,476 [INFO]  Epoch[3] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:51:44,527 [INFO]  Epoch[4] Batch [0-52]	Speed: 16711.81 samples/sec	cross-entropy=0.075749	DIQ010-accuracy=0.000000
+2024-03-06 12:51:44,578 [INFO]  Epoch[4] Train-cross-entropy=0.073323
+2024-03-06 12:51:44,579 [INFO]  Epoch[4] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:51:44,579 [INFO]  Epoch[4] Time cost=0.103
+2024-03-06 12:51:44,581 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0004.params"
+2024-03-06 12:51:44,585 [INFO]  Epoch[4] Validation-cross-entropy=0.186714
+2024-03-06 12:51:44,586 [INFO]  Epoch[4] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:51:44,586 [INFO]  
+========== done (1.4539103507995605 s) fit model
+2024-03-06 12:52:15,928 [INFO]  
+========== start: fit model
+2024-03-06 12:52:15,928 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:52:15,963 [INFO]  Epoch[0] Batch [0-52]	Speed: 24892.37 samples/sec	cross-entropy=4.746637	DIQ010-accuracy=3.320755
+2024-03-06 12:52:15,995 [INFO]  Epoch[0] Train-cross-entropy=2.618269
+2024-03-06 12:52:16,086 [INFO]  Epoch[0] Train-DIQ010-accuracy=3.271845
+2024-03-06 12:52:16,086 [INFO]  Epoch[0] Time cost=0.158
+2024-03-06 12:52:16,091 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0000.params"
+2024-03-06 12:52:16,099 [INFO]  Epoch[0] Validation-cross-entropy=0.141641
+2024-03-06 12:52:16,099 [INFO]  Epoch[0] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:52:16,151 [INFO]  Epoch[1] Batch [0-52]	Speed: 17009.13 samples/sec	cross-entropy=0.240505	DIQ010-accuracy=3.320755
+2024-03-06 12:52:16,185 [INFO]  Epoch[1] Train-cross-entropy=0.179401
+2024-03-06 12:52:16,185 [INFO]  Epoch[1] Train-DIQ010-accuracy=3.271845
+2024-03-06 12:52:16,185 [INFO]  Epoch[1] Time cost=0.086
+2024-03-06 12:52:16,259 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0001.params"
+2024-03-06 12:52:16,280 [INFO]  Epoch[1] Validation-cross-entropy=0.073540
+2024-03-06 12:52:16,280 [INFO]  Epoch[1] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:52:16,324 [INFO]  Epoch[2] Batch [0-52]	Speed: 19295.35 samples/sec	cross-entropy=0.097853	DIQ010-accuracy=3.320755
+2024-03-06 12:52:16,355 [INFO]  Epoch[2] Train-cross-entropy=0.082891
+2024-03-06 12:52:16,355 [INFO]  Epoch[2] Train-DIQ010-accuracy=3.271845
+2024-03-06 12:52:16,356 [INFO]  Epoch[2] Time cost=0.076
+2024-03-06 12:52:16,386 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0002.params"
+2024-03-06 12:52:16,391 [INFO]  Epoch[2] Validation-cross-entropy=0.043875
+2024-03-06 12:52:16,391 [INFO]  Epoch[2] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:52:16,436 [INFO]  Epoch[3] Batch [0-52]	Speed: 18753.05 samples/sec	cross-entropy=0.065677	DIQ010-accuracy=3.320755
+2024-03-06 12:52:16,471 [INFO]  Epoch[3] Train-cross-entropy=0.058001
+2024-03-06 12:52:16,471 [INFO]  Epoch[3] Train-DIQ010-accuracy=3.271845
+2024-03-06 12:52:16,472 [INFO]  Epoch[3] Time cost=0.081
+2024-03-06 12:52:16,473 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0003.params"
+2024-03-06 12:52:16,476 [INFO]  Epoch[3] Validation-cross-entropy=0.033769
+2024-03-06 12:52:16,476 [INFO]  Epoch[3] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:52:16,516 [INFO]  Epoch[4] Batch [0-52]	Speed: 21023.95 samples/sec	cross-entropy=0.044059	DIQ010-accuracy=3.320755
+2024-03-06 12:52:16,551 [INFO]  Epoch[4] Train-cross-entropy=0.040972
+2024-03-06 12:52:16,551 [INFO]  Epoch[4] Train-DIQ010-accuracy=3.271845
+2024-03-06 12:52:16,552 [INFO]  Epoch[4] Time cost=0.076
+2024-03-06 12:52:16,553 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0004.params"
+2024-03-06 12:52:16,556 [INFO]  Epoch[4] Validation-cross-entropy=0.028027
+2024-03-06 12:52:16,556 [INFO]  Epoch[4] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:52:16,556 [INFO]  
+========== done (0.628324031829834 s) fit model
+2024-03-06 12:53:33,148 [INFO]  
+========== start: fit model
+2024-03-06 12:53:33,148 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:53:33,185 [INFO]  Epoch[0] Batch [0-52]	Speed: 24582.52 samples/sec	cross-entropy=8.613677	DIQ010-accuracy=0.000000
+2024-03-06 12:53:34,178 [INFO]  Epoch[0] Train-cross-entropy=4.587687
+2024-03-06 12:53:34,178 [INFO]  Epoch[0] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:53:34,178 [INFO]  Epoch[0] Time cost=1.029
+2024-03-06 12:53:34,180 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0000.params"
+2024-03-06 12:53:34,182 [INFO]  Epoch[0] Validation-cross-entropy=0.264682
+2024-03-06 12:53:34,182 [INFO]  Epoch[0] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:53:34,234 [INFO]  Epoch[1] Batch [0-52]	Speed: 16511.13 samples/sec	cross-entropy=0.189578	DIQ010-accuracy=0.000000
+2024-03-06 12:53:34,265 [INFO]  Epoch[1] Train-cross-entropy=0.162242
+2024-03-06 12:53:34,266 [INFO]  Epoch[1] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:53:34,266 [INFO]  Epoch[1] Time cost=0.083
+2024-03-06 12:53:34,267 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0001.params"
+2024-03-06 12:53:34,269 [INFO]  Epoch[1] Validation-cross-entropy=0.105251
+2024-03-06 12:53:34,269 [INFO]  Epoch[1] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:53:34,302 [INFO]  Epoch[2] Batch [0-52]	Speed: 26392.44 samples/sec	cross-entropy=0.087176	DIQ010-accuracy=0.000000
+2024-03-06 12:53:34,332 [INFO]  Epoch[2] Train-cross-entropy=0.075549
+2024-03-06 12:53:34,332 [INFO]  Epoch[2] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:53:34,332 [INFO]  Epoch[2] Time cost=0.063
+2024-03-06 12:53:34,333 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0002.params"
+2024-03-06 12:53:34,336 [INFO]  Epoch[2] Validation-cross-entropy=0.057037
+2024-03-06 12:53:34,336 [INFO]  Epoch[2] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:53:34,375 [INFO]  Epoch[3] Batch [0-52]	Speed: 21842.33 samples/sec	cross-entropy=0.051634	DIQ010-accuracy=0.000000
+2024-03-06 12:53:35,577 [INFO]  Epoch[3] Train-cross-entropy=0.045256
+2024-03-06 12:53:35,577 [INFO]  Epoch[3] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:53:35,577 [INFO]  Epoch[3] Time cost=1.241
+2024-03-06 12:53:35,579 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0003.params"
+2024-03-06 12:53:35,581 [INFO]  Epoch[3] Validation-cross-entropy=0.040212
+2024-03-06 12:53:35,581 [INFO]  Epoch[3] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:53:35,620 [INFO]  Epoch[4] Batch [0-52]	Speed: 21852.45 samples/sec	cross-entropy=0.043103	DIQ010-accuracy=0.000000
+2024-03-06 12:53:35,654 [INFO]  Epoch[4] Train-cross-entropy=0.037764
+2024-03-06 12:53:35,654 [INFO]  Epoch[4] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:53:35,654 [INFO]  Epoch[4] Time cost=0.072
+2024-03-06 12:53:35,656 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0004.params"
+2024-03-06 12:53:35,659 [INFO]  Epoch[4] Validation-cross-entropy=0.036740
+2024-03-06 12:53:35,659 [INFO]  Epoch[4] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:53:35,659 [INFO]  
+========== done (2.5105135440826416 s) fit model
+2024-03-06 12:54:11,308 [INFO]  
+========== start: fit model
+2024-03-06 12:54:11,309 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:54:11,346 [INFO]  Epoch[0] Batch [0-52]	Speed: 23617.89 samples/sec	cross-entropy=3.840501	DIQ010-accuracy=0.000000
+2024-03-06 12:54:11,379 [INFO]  Epoch[0] Train-cross-entropy=2.233397
+2024-03-06 12:54:11,380 [INFO]  Epoch[0] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:54:11,380 [INFO]  Epoch[0] Time cost=0.070
+2024-03-06 12:54:11,381 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0000.params"
+2024-03-06 12:54:11,384 [INFO]  Epoch[0] Validation-cross-entropy=0.171235
+2024-03-06 12:54:11,384 [INFO]  Epoch[0] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:54:11,419 [INFO]  Epoch[1] Batch [0-52]	Speed: 24372.20 samples/sec	cross-entropy=0.184251	DIQ010-accuracy=0.000000
+2024-03-06 12:54:11,454 [INFO]  Epoch[1] Train-cross-entropy=0.345130
+2024-03-06 12:54:11,454 [INFO]  Epoch[1] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:54:11,454 [INFO]  Epoch[1] Time cost=0.071
+2024-03-06 12:54:11,456 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0001.params"
+2024-03-06 12:54:11,459 [INFO]  Epoch[1] Validation-cross-entropy=0.234168
+2024-03-06 12:54:11,459 [INFO]  Epoch[1] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:54:11,496 [INFO]  Epoch[2] Batch [0-52]	Speed: 23271.23 samples/sec	cross-entropy=0.245936	DIQ010-accuracy=0.000000
+2024-03-06 12:54:11,529 [INFO]  Epoch[2] Train-cross-entropy=0.157414
+2024-03-06 12:54:11,529 [INFO]  Epoch[2] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:54:11,529 [INFO]  Epoch[2] Time cost=0.070
+2024-03-06 12:54:11,530 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0002.params"
+2024-03-06 12:54:11,533 [INFO]  Epoch[2] Validation-cross-entropy=0.050345
+2024-03-06 12:54:11,533 [INFO]  Epoch[2] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:54:11,564 [INFO]  Epoch[3] Batch [0-52]	Speed: 27103.53 samples/sec	cross-entropy=0.083100	DIQ010-accuracy=0.000000
+2024-03-06 12:54:11,607 [INFO]  Epoch[3] Train-cross-entropy=0.114662
+2024-03-06 12:54:11,607 [INFO]  Epoch[3] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:54:11,607 [INFO]  Epoch[3] Time cost=0.074
+2024-03-06 12:54:11,609 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0003.params"
+2024-03-06 12:54:11,612 [INFO]  Epoch[3] Validation-cross-entropy=0.093315
+2024-03-06 12:54:11,612 [INFO]  Epoch[3] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:54:11,659 [INFO]  Epoch[4] Batch [0-52]	Speed: 18202.05 samples/sec	cross-entropy=0.080939	DIQ010-accuracy=0.000000
+2024-03-06 12:54:11,702 [INFO]  Epoch[4] Train-cross-entropy=0.108006
+2024-03-06 12:54:11,702 [INFO]  Epoch[4] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:54:11,702 [INFO]  Epoch[4] Time cost=0.090
+2024-03-06 12:54:11,704 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0004.params"
+2024-03-06 12:54:11,708 [INFO]  Epoch[4] Validation-cross-entropy=0.131776
+2024-03-06 12:54:11,708 [INFO]  Epoch[4] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:54:11,708 [INFO]  
+========== done (0.39945125579833984 s) fit model
+2024-03-06 12:54:41,187 [INFO]  
+========== start: fit model
+2024-03-06 12:54:41,187 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:54:41,227 [INFO]  Epoch[0] Batch [0-52]	Speed: 21815.29 samples/sec	cross-entropy=7.375758	DIQ010-accuracy=3.245283
+2024-03-06 12:54:41,256 [INFO]  Epoch[0] Train-cross-entropy=3.966773
+2024-03-06 12:54:41,256 [INFO]  Epoch[0] Train-DIQ010-accuracy=3.116505
+2024-03-06 12:54:41,256 [INFO]  Epoch[0] Time cost=0.068
+2024-03-06 12:54:41,257 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0000.params"
+2024-03-06 12:54:41,259 [INFO]  Epoch[0] Validation-cross-entropy=0.179176
+2024-03-06 12:54:41,260 [INFO]  Epoch[0] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:54:41,291 [INFO]  Epoch[1] Batch [0-52]	Speed: 27375.90 samples/sec	cross-entropy=0.185402	DIQ010-accuracy=3.245283
+2024-03-06 12:54:41,321 [INFO]  Epoch[1] Train-cross-entropy=0.184273
+2024-03-06 12:54:41,321 [INFO]  Epoch[1] Train-DIQ010-accuracy=3.116505
+2024-03-06 12:54:41,321 [INFO]  Epoch[1] Time cost=0.061
+2024-03-06 12:54:41,322 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0001.params"
+2024-03-06 12:54:41,326 [INFO]  Epoch[1] Validation-cross-entropy=0.121989
+2024-03-06 12:54:41,326 [INFO]  Epoch[1] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:54:41,367 [INFO]  Epoch[2] Batch [0-52]	Speed: 20730.58 samples/sec	cross-entropy=0.259969	DIQ010-accuracy=3.245283
+2024-03-06 12:54:41,401 [INFO]  Epoch[2] Train-cross-entropy=0.297840
+2024-03-06 12:54:41,401 [INFO]  Epoch[2] Train-DIQ010-accuracy=3.116505
+2024-03-06 12:54:41,401 [INFO]  Epoch[2] Time cost=0.076
+2024-03-06 12:54:41,403 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0002.params"
+2024-03-06 12:54:41,406 [INFO]  Epoch[2] Validation-cross-entropy=0.268407
+2024-03-06 12:54:41,406 [INFO]  Epoch[2] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:54:41,439 [INFO]  Epoch[3] Batch [0-52]	Speed: 25610.50 samples/sec	cross-entropy=0.401916	DIQ010-accuracy=3.245283
+2024-03-06 12:54:41,471 [INFO]  Epoch[3] Train-cross-entropy=0.362016
+2024-03-06 12:54:41,471 [INFO]  Epoch[3] Train-DIQ010-accuracy=3.116505
+2024-03-06 12:54:41,471 [INFO]  Epoch[3] Time cost=0.065
+2024-03-06 12:54:41,472 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0003.params"
+2024-03-06 12:54:41,475 [INFO]  Epoch[3] Validation-cross-entropy=0.289151
+2024-03-06 12:54:41,475 [INFO]  Epoch[3] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:54:41,525 [INFO]  Epoch[4] Batch [0-52]	Speed: 16957.80 samples/sec	cross-entropy=0.639422	DIQ010-accuracy=3.245283
+2024-03-06 12:54:41,557 [INFO]  Epoch[4] Train-cross-entropy=0.515124
+2024-03-06 12:54:41,557 [INFO]  Epoch[4] Train-DIQ010-accuracy=3.116505
+2024-03-06 12:54:41,557 [INFO]  Epoch[4] Time cost=0.082
+2024-03-06 12:54:41,558 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0004.params"
+2024-03-06 12:54:41,561 [INFO]  Epoch[4] Validation-cross-entropy=0.216855
+2024-03-06 12:54:41,561 [INFO]  Epoch[4] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:54:41,561 [INFO]  
+========== done (0.37395238876342773 s) fit model
+2024-03-06 12:55:23,269 [INFO]  
+========== start: fit model
+2024-03-06 12:55:23,269 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:55:23,305 [INFO]  Epoch[0] Batch [0-52]	Speed: 24760.78 samples/sec	cross-entropy=11.120443	DIQ010-accuracy=0.000000
+2024-03-06 12:55:24,205 [INFO]  Epoch[0] Train-cross-entropy=5.968947
+2024-03-06 12:55:24,205 [INFO]  Epoch[0] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:55:24,205 [INFO]  Epoch[0] Time cost=0.935
+2024-03-06 12:55:24,208 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0000.params"
+2024-03-06 12:55:24,210 [INFO]  Epoch[0] Validation-cross-entropy=0.282041
+2024-03-06 12:55:24,211 [INFO]  Epoch[0] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:55:24,256 [INFO]  Epoch[1] Batch [0-52]	Speed: 18631.40 samples/sec	cross-entropy=0.243846	DIQ010-accuracy=0.000000
+2024-03-06 12:55:24,288 [INFO]  Epoch[1] Train-cross-entropy=0.186536
+2024-03-06 12:55:24,289 [INFO]  Epoch[1] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:55:24,289 [INFO]  Epoch[1] Time cost=0.078
+2024-03-06 12:55:24,290 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0001.params"
+2024-03-06 12:55:24,293 [INFO]  Epoch[1] Validation-cross-entropy=0.096749
+2024-03-06 12:55:24,293 [INFO]  Epoch[1] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:55:24,328 [INFO]  Epoch[2] Batch [0-52]	Speed: 24476.14 samples/sec	cross-entropy=0.097194	DIQ010-accuracy=0.000000
+2024-03-06 12:55:24,360 [INFO]  Epoch[2] Train-cross-entropy=0.091888
+2024-03-06 12:55:24,360 [INFO]  Epoch[2] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:55:24,360 [INFO]  Epoch[2] Time cost=0.068
+2024-03-06 12:55:24,362 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0002.params"
+2024-03-06 12:55:24,365 [INFO]  Epoch[2] Validation-cross-entropy=0.067529
+2024-03-06 12:55:24,365 [INFO]  Epoch[2] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:55:24,399 [INFO]  Epoch[3] Batch [0-52]	Speed: 25201.02 samples/sec	cross-entropy=0.063950	DIQ010-accuracy=0.000000
+2024-03-06 12:55:25,693 [INFO]  Epoch[3] Train-cross-entropy=0.071890
+2024-03-06 12:55:25,693 [INFO]  Epoch[3] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:55:25,693 [INFO]  Epoch[3] Time cost=1.328
+2024-03-06 12:55:25,695 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0003.params"
+2024-03-06 12:55:25,698 [INFO]  Epoch[3] Validation-cross-entropy=0.042193
+2024-03-06 12:55:25,698 [INFO]  Epoch[3] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:55:25,742 [INFO]  Epoch[4] Batch [0-52]	Speed: 19720.28 samples/sec	cross-entropy=0.049072	DIQ010-accuracy=0.000000
+2024-03-06 12:55:25,787 [INFO]  Epoch[4] Train-cross-entropy=0.078310
+2024-03-06 12:55:25,787 [INFO]  Epoch[4] Train-DIQ010-accuracy=0.000000
+2024-03-06 12:55:25,787 [INFO]  Epoch[4] Time cost=0.089
+2024-03-06 12:55:25,790 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0004.params"
+2024-03-06 12:55:25,793 [INFO]  Epoch[4] Validation-cross-entropy=0.051883
+2024-03-06 12:55:25,794 [INFO]  Epoch[4] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:55:25,794 [INFO]  
+========== done (2.5251197814941406 s) fit model
+2024-03-06 12:56:13,619 [INFO]  
+========== start: fit model
+2024-03-06 12:56:13,620 [WARNING]  Already bound, ignoring bind()
+2024-03-06 12:56:13,666 [INFO]  Epoch[0] Batch [0-52]	Speed: 18995.49 samples/sec	cross-entropy=3.376286	DIQ010-accuracy=2.886792
+2024-03-06 12:56:13,706 [INFO]  Epoch[0] Train-cross-entropy=1.985910
+2024-03-06 12:56:13,706 [INFO]  Epoch[0] Train-DIQ010-accuracy=3.058252
+2024-03-06 12:56:13,706 [INFO]  Epoch[0] Time cost=0.085
+2024-03-06 12:56:13,708 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0000.params"
+2024-03-06 12:56:13,711 [INFO]  Epoch[0] Validation-cross-entropy=0.151930
+2024-03-06 12:56:13,711 [INFO]  Epoch[0] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:57:03,107 [INFO]  Epoch[1] Batch [0-52]	Speed: 16.84 samples/sec	cross-entropy=0.136876	DIQ010-accuracy=2.886792
+2024-03-06 12:58:07,482 [INFO]  Epoch[1] Train-cross-entropy=0.114914
+2024-03-06 12:58:07,482 [INFO]  Epoch[1] Train-DIQ010-accuracy=3.058252
+2024-03-06 12:58:07,482 [INFO]  Epoch[1] Time cost=113.772
+2024-03-06 12:58:07,485 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0001.params"
+2024-03-06 12:58:13,336 [INFO]  Epoch[1] Validation-cross-entropy=0.077003
+2024-03-06 12:58:13,337 [INFO]  Epoch[1] Validation-DIQ010-accuracy=0.000000
+2024-03-06 12:59:56,910 [INFO]  Epoch[2] Batch [0-52]	Speed: 8.22 samples/sec	cross-entropy=0.080730	DIQ010-accuracy=2.886792
+2024-03-06 13:01:04,220 [INFO]  Epoch[2] Train-cross-entropy=0.078564
+2024-03-06 13:01:04,221 [INFO]  Epoch[2] Train-DIQ010-accuracy=3.058252
+2024-03-06 13:01:04,221 [INFO]  Epoch[2] Time cost=170.884
+2024-03-06 13:01:04,223 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0002.params"
+2024-03-06 13:01:08,338 [INFO]  Epoch[2] Validation-cross-entropy=0.111697
+2024-03-06 13:01:08,339 [INFO]  Epoch[2] Validation-DIQ010-accuracy=0.000000
+2024-03-06 13:02:25,779 [INFO]  Epoch[3] Batch [0-52]	Speed: 10.96 samples/sec	cross-entropy=0.078098	DIQ010-accuracy=2.886792
+2024-03-06 13:03:41,570 [INFO]  Epoch[3] Train-cross-entropy=0.068041
+2024-03-06 13:03:41,571 [INFO]  Epoch[3] Train-DIQ010-accuracy=3.058252
+2024-03-06 13:03:41,571 [INFO]  Epoch[3] Time cost=153.232
+2024-03-06 13:03:41,573 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0003.params"
+2024-03-06 13:03:44,261 [INFO]  Epoch[3] Validation-cross-entropy=0.073301
+2024-03-06 13:03:44,261 [INFO]  Epoch[3] Validation-DIQ010-accuracy=0.000000
+2024-03-06 13:04:42,063 [INFO]  Epoch[4] Batch [0-52]	Speed: 14.60 samples/sec	cross-entropy=0.042689	DIQ010-accuracy=2.886792
+2024-03-06 13:06:02,674 [INFO]  Epoch[4] Train-cross-entropy=0.143391
+2024-03-06 13:06:02,675 [INFO]  Epoch[4] Train-DIQ010-accuracy=3.058252
+2024-03-06 13:06:02,675 [INFO]  Epoch[4] Time cost=138.414
+2024-03-06 13:06:02,678 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0004.params"
+2024-03-06 13:06:06,807 [INFO]  Epoch[4] Validation-cross-entropy=0.696520
+2024-03-06 13:06:06,807 [INFO]  Epoch[4] Validation-DIQ010-accuracy=0.000000
+2024-03-06 13:06:06,807 [INFO]  
+========== done (593.1874692440033 s) fit model
+2024-03-06 13:55:02,853 [INFO]  
+========== start: fit model
+2024-03-06 13:55:02,853 [WARNING]  Already bound, ignoring bind()
+2024-03-06 13:55:02,891 [INFO]  Epoch[0] Batch [0-52]	Speed: 22995.97 samples/sec	cross-entropy=6.720487	DIQ010-accuracy=0.000000
+2024-03-06 13:55:02,925 [INFO]  Epoch[0] Train-cross-entropy=3.620858
+2024-03-06 13:55:02,925 [INFO]  Epoch[0] Train-DIQ010-accuracy=0.000000
+2024-03-06 13:55:02,925 [INFO]  Epoch[0] Time cost=0.071
+2024-03-06 13:55:02,926 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0000.params"
+2024-03-06 13:55:02,929 [INFO]  Epoch[0] Validation-cross-entropy=0.172461
+2024-03-06 13:55:02,929 [INFO]  Epoch[0] Validation-DIQ010-accuracy=0.000000
+2024-03-06 13:55:02,966 [INFO]  Epoch[1] Batch [0-52]	Speed: 22888.73 samples/sec	cross-entropy=0.130188	DIQ010-accuracy=0.000000
+2024-03-06 13:55:03,001 [INFO]  Epoch[1] Train-cross-entropy=0.101884
+2024-03-06 13:55:03,001 [INFO]  Epoch[1] Train-DIQ010-accuracy=0.000000
+2024-03-06 13:55:03,001 [INFO]  Epoch[1] Time cost=0.072
+2024-03-06 13:55:03,003 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0001.params"
+2024-03-06 13:55:03,006 [INFO]  Epoch[1] Validation-cross-entropy=0.076776
+2024-03-06 13:55:03,006 [INFO]  Epoch[1] Validation-DIQ010-accuracy=0.000000
+2024-03-06 13:55:03,043 [INFO]  Epoch[2] Batch [0-52]	Speed: 23407.82 samples/sec	cross-entropy=0.065856	DIQ010-accuracy=0.000000
+2024-03-06 13:55:03,251 [INFO]  Epoch[2] Train-cross-entropy=0.065254
+2024-03-06 13:55:03,251 [INFO]  Epoch[2] Train-DIQ010-accuracy=0.000000
+2024-03-06 13:55:03,251 [INFO]  Epoch[2] Time cost=0.245
+2024-03-06 13:55:03,252 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0002.params"
+2024-03-06 13:55:03,255 [INFO]  Epoch[2] Validation-cross-entropy=0.066664
+2024-03-06 13:55:03,255 [INFO]  Epoch[2] Validation-DIQ010-accuracy=0.000000
+2024-03-06 13:55:03,290 [INFO]  Epoch[3] Batch [0-52]	Speed: 24806.37 samples/sec	cross-entropy=0.064896	DIQ010-accuracy=0.000000
+2024-03-06 13:55:03,322 [INFO]  Epoch[3] Train-cross-entropy=0.059947
+2024-03-06 13:55:03,323 [INFO]  Epoch[3] Train-DIQ010-accuracy=0.000000
+2024-03-06 13:55:03,323 [INFO]  Epoch[3] Time cost=0.067
+2024-03-06 13:55:03,324 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0003.params"
+2024-03-06 13:55:03,327 [INFO]  Epoch[3] Validation-cross-entropy=0.052625
+2024-03-06 13:55:03,327 [INFO]  Epoch[3] Validation-DIQ010-accuracy=0.000000
+2024-03-06 13:55:03,361 [INFO]  Epoch[4] Batch [0-52]	Speed: 24921.34 samples/sec	cross-entropy=0.043958	DIQ010-accuracy=0.000000
+2024-03-06 13:55:03,394 [INFO]  Epoch[4] Train-cross-entropy=0.058450
+2024-03-06 13:55:03,394 [INFO]  Epoch[4] Train-DIQ010-accuracy=0.000000
+2024-03-06 13:55:03,394 [INFO]  Epoch[4] Time cost=0.068
+2024-03-06 13:55:03,396 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0004.params"
+2024-03-06 13:55:03,399 [INFO]  Epoch[4] Validation-cross-entropy=0.057715
+2024-03-06 13:55:03,399 [INFO]  Epoch[4] Validation-DIQ010-accuracy=0.000000
+2024-03-06 13:55:03,399 [INFO]  
+========== done (0.5460705757141113 s) fit model
+2024-03-06 13:55:34,610 [INFO]  
+========== start: fit model
+2024-03-06 13:55:34,610 [WARNING]  Already bound, ignoring bind()
+2024-03-06 13:55:34,641 [INFO]  Epoch[0] Batch [0-52]	Speed: 28273.08 samples/sec	cross-entropy=4.884808	DIQ010-accuracy=0.000000
+2024-03-06 13:55:34,669 [INFO]  Epoch[0] Train-cross-entropy=2.717548
+2024-03-06 13:55:34,669 [INFO]  Epoch[0] Train-DIQ010-accuracy=0.000000
+2024-03-06 13:55:34,669 [INFO]  Epoch[0] Time cost=0.058
+2024-03-06 13:55:34,671 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0000.params"
+2024-03-06 13:55:34,673 [INFO]  Epoch[0] Validation-cross-entropy=0.167067
+2024-03-06 13:55:34,673 [INFO]  Epoch[0] Validation-DIQ010-accuracy=0.000000
+2024-03-06 13:55:34,702 [INFO]  Epoch[1] Batch [0-52]	Speed: 29267.33 samples/sec	cross-entropy=0.246041	DIQ010-accuracy=0.000000
+2024-03-06 13:55:34,730 [INFO]  Epoch[1] Train-cross-entropy=0.181987
+2024-03-06 13:55:34,730 [INFO]  Epoch[1] Train-DIQ010-accuracy=0.000000
+2024-03-06 13:55:34,730 [INFO]  Epoch[1] Time cost=0.057
+2024-03-06 13:55:34,731 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0001.params"
+2024-03-06 13:55:34,733 [INFO]  Epoch[1] Validation-cross-entropy=0.094939
+2024-03-06 13:55:34,733 [INFO]  Epoch[1] Validation-DIQ010-accuracy=0.000000
+2024-03-06 13:55:34,763 [INFO]  Epoch[2] Batch [0-52]	Speed: 29131.73 samples/sec	cross-entropy=0.107250	DIQ010-accuracy=0.000000
+2024-03-06 13:55:34,790 [INFO]  Epoch[2] Train-cross-entropy=0.085299
+2024-03-06 13:55:34,790 [INFO]  Epoch[2] Train-DIQ010-accuracy=0.000000
+2024-03-06 13:55:34,790 [INFO]  Epoch[2] Time cost=0.057
+2024-03-06 13:55:34,792 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0002.params"
+2024-03-06 13:55:34,795 [INFO]  Epoch[2] Validation-cross-entropy=0.066114
+2024-03-06 13:55:34,795 [INFO]  Epoch[2] Validation-DIQ010-accuracy=0.000000
+2024-03-06 13:55:34,843 [INFO]  Epoch[3] Batch [0-52]	Speed: 17470.75 samples/sec	cross-entropy=0.068349	DIQ010-accuracy=0.000000
+2024-03-06 13:55:34,875 [INFO]  Epoch[3] Train-cross-entropy=0.057518
+2024-03-06 13:55:34,875 [INFO]  Epoch[3] Train-DIQ010-accuracy=0.000000
+2024-03-06 13:55:34,875 [INFO]  Epoch[3] Time cost=0.080
+2024-03-06 13:55:34,877 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0003.params"
+2024-03-06 13:55:34,879 [INFO]  Epoch[3] Validation-cross-entropy=0.048855
+2024-03-06 13:55:34,879 [INFO]  Epoch[3] Validation-DIQ010-accuracy=0.000000
+2024-03-06 13:55:34,924 [INFO]  Epoch[4] Batch [0-52]	Speed: 18921.74 samples/sec	cross-entropy=0.050948	DIQ010-accuracy=0.000000
+2024-03-06 13:55:34,952 [INFO]  Epoch[4] Train-cross-entropy=0.045199
+2024-03-06 13:55:34,953 [INFO]  Epoch[4] Train-DIQ010-accuracy=0.000000
+2024-03-06 13:55:34,953 [INFO]  Epoch[4] Time cost=0.073
+2024-03-06 13:55:34,954 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0004.params"
+2024-03-06 13:55:34,956 [INFO]  Epoch[4] Validation-cross-entropy=0.040475
+2024-03-06 13:55:34,956 [INFO]  Epoch[4] Validation-DIQ010-accuracy=0.000000
+2024-03-06 13:55:34,956 [INFO]  
+========== done (0.346301794052124 s) fit model
+2024-03-10 09:25:06,804 [INFO]  
+========== start: fit model
+2024-03-10 09:25:06,809 [WARNING]  Already bound, ignoring bind()
+2024-03-10 09:25:13,876 [INFO]  Epoch[0] Batch [0-52]	Speed: 126.94 samples/sec	cross-entropy=4.154160	DIQ010-accuracy=0.000000
+2024-03-10 09:25:17,282 [INFO]  Epoch[0] Train-cross-entropy=2.410088
+2024-03-10 09:25:17,283 [INFO]  Epoch[0] Train-DIQ010-accuracy=0.000000
+2024-03-10 09:25:17,283 [INFO]  Epoch[0] Time cost=10.473
+2024-03-10 09:25:17,284 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0000.params"
+2024-03-10 09:25:17,644 [INFO]  Epoch[0] Validation-cross-entropy=0.311636
+2024-03-10 09:25:17,644 [INFO]  Epoch[0] Validation-DIQ010-accuracy=0.000000
+2024-03-10 09:25:22,065 [INFO]  Epoch[1] Batch [0-52]	Speed: 188.21 samples/sec	cross-entropy=0.280463	DIQ010-accuracy=0.000000
+2024-03-10 09:25:23,694 [INFO]  Epoch[1] Train-cross-entropy=0.238663
+2024-03-10 09:25:23,694 [INFO]  Epoch[1] Train-DIQ010-accuracy=0.000000
+2024-03-10 09:25:23,694 [INFO]  Epoch[1] Time cost=6.051
+2024-03-10 09:25:23,696 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0001.params"
+2024-03-10 09:25:23,767 [INFO]  Epoch[1] Validation-cross-entropy=0.092407
+2024-03-10 09:25:23,767 [INFO]  Epoch[1] Validation-DIQ010-accuracy=0.000000
+2024-03-10 09:25:26,123 [INFO]  Epoch[2] Batch [0-52]	Speed: 374.30 samples/sec	cross-entropy=0.221100	DIQ010-accuracy=0.000000
+2024-03-10 09:25:28,570 [INFO]  Epoch[2] Train-cross-entropy=0.279615
+2024-03-10 09:25:28,570 [INFO]  Epoch[2] Train-DIQ010-accuracy=0.000000
+2024-03-10 09:25:28,570 [INFO]  Epoch[2] Time cost=4.803
+2024-03-10 09:25:28,572 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0002.params"
+2024-03-10 09:25:28,584 [INFO]  Epoch[2] Validation-cross-entropy=0.245847
+2024-03-10 09:25:28,584 [INFO]  Epoch[2] Validation-DIQ010-accuracy=0.000000
+2024-03-10 09:25:32,419 [INFO]  Epoch[3] Batch [0-52]	Speed: 222.13 samples/sec	cross-entropy=0.247381	DIQ010-accuracy=0.000000
+2024-03-10 09:25:37,569 [INFO]  Epoch[3] Train-cross-entropy=0.311068
+2024-03-10 09:25:37,569 [INFO]  Epoch[3] Train-DIQ010-accuracy=0.000000
+2024-03-10 09:25:37,570 [INFO]  Epoch[3] Time cost=8.985
+2024-03-10 09:25:37,571 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0003.params"
+2024-03-10 09:25:37,612 [INFO]  Epoch[3] Validation-cross-entropy=0.220518
+2024-03-10 09:25:37,612 [INFO]  Epoch[3] Validation-DIQ010-accuracy=0.000000
+2024-03-10 09:25:42,606 [INFO]  Epoch[4] Batch [0-52]	Speed: 166.66 samples/sec	cross-entropy=0.305166	DIQ010-accuracy=0.000000
+2024-03-10 09:25:46,902 [INFO]  Epoch[4] Train-cross-entropy=0.554827
+2024-03-10 09:25:46,902 [INFO]  Epoch[4] Train-DIQ010-accuracy=0.000000
+2024-03-10 09:25:46,902 [INFO]  Epoch[4] Time cost=9.289
+2024-03-10 09:25:46,903 [INFO]  Saved checkpoint to "./imputer_model/imputer_model_DIQ010/model-0004.params"
+2024-03-10 09:25:46,949 [INFO]  Epoch[4] Validation-cross-entropy=0.471649
+2024-03-10 09:25:46,949 [INFO]  Epoch[4] Validation-DIQ010-accuracy=0.000000
+2024-03-10 09:25:46,950 [INFO]  
+========== done (40.14563012123108 s) fit model
